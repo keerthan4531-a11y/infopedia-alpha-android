@@ -64,15 +64,26 @@ import org.wikipedia.R
 import org.wikipedia.compose.theme.WikipediaTheme
 
 import androidx.compose.foundation.layout.WindowInsets
-import androidx.compose.foundation.layout.imePadding
-import androidx.compose.foundation.layout.navigationBarsPadding
+import androidx.compose.foundation.layout.ime
+import androidx.compose.foundation.layout.navigationBars
 import androidx.compose.foundation.layout.statusBarsPadding
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.ui.platform.LocalConfiguration
+import androidx.compose.ui.platform.LocalDensity
 
 @Composable
 fun InixaAlphaScreen(
     viewModel: InixaAlphaViewModel
 ) {
     val uiState by viewModel.uiState.collectAsState()
+    val density = LocalDensity.current
+
+    // Calculate maximum bottom inset for ZERO GAP above soft keyboard
+    val imeBottom = WindowInsets.ime.getBottom(density)
+    val navBottom = WindowInsets.navigationBars.getBottom(density)
+    val bottomInsetPx = maxOf(imeBottom, navBottom)
+    val bottomInsetDp = with(density) { bottomInsetPx.toDp() }
 
     Scaffold(
         containerColor = WikipediaTheme.colors.backgroundColor,
@@ -109,12 +120,11 @@ fun InixaAlphaScreen(
                 }
             }
 
-            // Bottom section pinned directly above soft keyboard
+            // Bottom section pinned directly above soft keyboard (zero gap)
             Column(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .imePadding()
-                    .navigationBarsPadding()
+                    .padding(bottom = bottomInsetDp)
             ) {
                 // Wikipedia context banner / research progress card
                 AnimatedVisibility(
@@ -245,7 +255,8 @@ private fun WelcomeScreen(onSuggestionClick: (String) -> Unit) {
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(24.dp)
+            .verticalScroll(rememberScrollState())
+            .padding(horizontal = 20.dp, vertical = 16.dp)
             .alpha(alpha),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center

@@ -64,7 +64,6 @@ import org.wikipedia.R
 import org.wikipedia.compose.theme.WikipediaTheme
 
 import androidx.compose.foundation.layout.WindowInsets
-import androidx.compose.foundation.layout.ime
 import androidx.compose.foundation.layout.imePadding
 import androidx.compose.foundation.layout.navigationBarsPadding
 
@@ -76,14 +75,12 @@ fun InixaAlphaScreen(
 
     Scaffold(
         containerColor = WikipediaTheme.colors.backgroundColor,
-        contentWindowInsets = WindowInsets.ime
+        contentWindowInsets = WindowInsets(0, 0, 0, 0)
     ) { paddingValues ->
         Column(
             modifier = Modifier
                 .fillMaxSize()
                 .padding(paddingValues)
-                .imePadding()
-                .navigationBarsPadding()
         ) {
             // Header with AI title and model picker trigger button
             TopHeaderBar(
@@ -111,26 +108,34 @@ fun InixaAlphaScreen(
                 }
             }
 
-            // Wikipedia context banner / research progress card
-            AnimatedVisibility(
-                visible = uiState.wikipediaStatus != null,
-                enter = slideInVertically(initialOffsetY = { it }) + fadeIn()
+            // Bottom section pinned directly above soft keyboard
+            Column(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .imePadding()
+                    .navigationBarsPadding()
             ) {
-                uiState.wikipediaStatus?.let { status ->
-                    WikipediaContextBanner(status = status)
+                // Wikipedia context banner / research progress card
+                AnimatedVisibility(
+                    visible = uiState.wikipediaStatus != null,
+                    enter = slideInVertically(initialOffsetY = { it }) + fadeIn()
+                ) {
+                    uiState.wikipediaStatus?.let { status ->
+                        WikipediaContextBanner(status = status)
+                    }
                 }
-            }
 
-            // Bottom input area
-            ChatInputBar(
-                selectedModel = uiState.selectedModel,
-                isWikipediaConnected = uiState.isWikipediaConnected,
-                isStreaming = uiState.isStreaming,
-                onSendMessage = { viewModel.sendMessage(it) },
-                onToggleWikipedia = { viewModel.toggleWikipedia() },
-                onModelClick = { viewModel.toggleModelSelector() },
-                onStopStreaming = { viewModel.stopStreaming() }
-            )
+                // Bottom input area
+                ChatInputBar(
+                    selectedModel = uiState.selectedModel,
+                    isWikipediaConnected = uiState.isWikipediaConnected,
+                    isStreaming = uiState.isStreaming,
+                    onSendMessage = { viewModel.sendMessage(it) },
+                    onToggleWikipedia = { viewModel.toggleWikipedia() },
+                    onModelClick = { viewModel.toggleModelSelector() },
+                    onStopStreaming = { viewModel.stopStreaming() }
+                )
+            }
         }
 
         // Model selector overlay

@@ -340,14 +340,33 @@ private fun ArticleSourceCard(
                 Spacer(modifier = Modifier.height(8.dp))
             }
 
-            Text(
-                text = article.displayTitle,
-                fontSize = 13.sp,
-                fontWeight = FontWeight.Bold,
-                color = WikipediaTheme.colors.primaryColor,
-                maxLines = 1,
-                overflow = TextOverflow.Ellipsis
-            )
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                modifier = Modifier.fillMaxWidth()
+            ) {
+                Text(
+                    text = article.displayTitle,
+                    fontSize = 13.sp,
+                    fontWeight = FontWeight.Bold,
+                    color = WikipediaTheme.colors.primaryColor,
+                    maxLines = 1,
+                    overflow = TextOverflow.Ellipsis,
+                    modifier = Modifier.weight(1f)
+                )
+                Spacer(modifier = Modifier.width(4.dp))
+                Surface(
+                    color = WikipediaTheme.colors.progressiveColor.copy(alpha = 0.15f),
+                    shape = RoundedCornerShape(4.dp)
+                ) {
+                    Text(
+                        text = article.langCode.uppercase(),
+                        fontSize = 9.sp,
+                        fontWeight = FontWeight.Bold,
+                        color = WikipediaTheme.colors.progressiveColor,
+                        modifier = Modifier.padding(horizontal = 4.dp, vertical = 2.dp)
+                    )
+                }
+            }
 
             if (!article.description.isNullOrEmpty()) {
                 Spacer(modifier = Modifier.height(2.dp))

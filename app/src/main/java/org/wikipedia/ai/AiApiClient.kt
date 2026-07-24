@@ -35,37 +35,39 @@ object AiApiClient {
     ): Flow<StreamEvent> = callbackFlow {
         val messagesArray = JSONArray()
 
-        // If Wikipedia context is available, add it as a full-power RAG system message
-        if (wikipediaContext != null && (wikipediaContext.articles.isNotEmpty() || wikipediaContext.rankedChunks.isNotEmpty())) {
+        // If Wikipedia context is available, add it as a token-optimized RAG system message
+        if (wikipediaContext != null && (wikipediaContext.articles.isNotEmpty() || wikipediaContext.rankedChunks.isNotEmpty() || wikipediaContext.wikidataFacts.isNotEmpty())) {
             val contextText = buildString {
-                append("You are Infopedia Alpha's advanced RAG research AI with real-time multi-language Wikipedia integration.\n\n")
+                append("You are Infopedia Alpha's token-optimized RAG AI. Ground your answers strictly in the verified sources below.\n\n")
 
+                // PRIORITY 1: Wikidata Structured Facts (Compact & High Accuracy)
                 if (wikipediaContext.wikidataFacts.isNotEmpty()) {
-                    append("=== STRUCTURED WIKIDATA FACTS ===\n")
+                    append("=== WIKIDATA STRUCTURED FACTS (HIGH PRIORITY) ===\n")
                     wikipediaContext.wikidataFacts.forEach { fact ->
                         append("• ${fact.propertyName}: ${fact.value}\n")
                     }
                     append("\n")
                 }
 
+                // PRIORITY 2: Compressed Section Context
                 if (wikipediaContext.rankedChunks.isNotEmpty()) {
-                    append("=== RANKED DEEP SECTION CHUNKS ===\n")
+                    append("=== COMPRESSED SECTION FACTS ===\n")
                     wikipediaContext.rankedChunks.forEachIndexed { index, chunk ->
-                        append("Source [${index + 1}]: ${chunk.articleTitle} (${chunk.langCode.uppercase()}) -> ${chunk.sectionTitle}\n")
-                        append("${chunk.content}\n\n")
+                        val compressed = RagChunkSynthesizer.compressChunk(chunk)
+                        append("Source [${index + 1}]: $compressed\n\n")
                     }
                 } else {
-                    append("=== VERIFIED WIKIPEDIA SOURCES ===\n")
+                    append("=== VERIFIED ARTICLE SUMMARIES ===\n")
                     wikipediaContext.articles.forEachIndexed { index, article ->
-                        append("Source [${index + 1}]: ${article.displayTitle} (${article.langCode.uppercase()})\n${article.extract}\n\n")
+                        append("Source [${index + 1}]: ${article.displayTitle} (${article.langCode.uppercase()}) > ${article.extract}\n\n")
                     }
                 }
 
                 append("CRITICAL RAG RESPONSE RULES:\n")
-                append("1. Answer thoroughly, accurately, and fluently based on the provided sources above.\n")
-                append("2. Include inline citation tags [1], [2], [3] immediately following claims derived from those sources.\n")
-                append("3. If query language is Tamil or Malayalam, respond fluently in that language using cross-language context.\n")
-                append("4. Conclude your response with a '### Related Questions' section listing 3 short follow-up questions formatted as bullet points (- ...).\n")
+                append("1. Answer concisely, accurately, and directly based on the sources above.\n")
+                append("2. Insert inline citation tags [1], [2], [3] immediately after referencing facts.\n")
+                append("3. If query language is Tamil, respond in clear Tamil using the provided cross-language context.\n")
+                append("4. Conclude with '### Related Questions' listing 3 short follow-up bullet points (- ...).\n")
             }
             messagesArray.put(JSONObject().apply {
                 put("role", "system")

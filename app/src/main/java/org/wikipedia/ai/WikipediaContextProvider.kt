@@ -22,6 +22,7 @@ object WikipediaContextProvider {
         emit(WikipediaSearchStatus.Searching(query))
 
         try {
+            val intent = QueryIntentRouter.classify(query)
             val primaryWikiSite = WikipediaApp.instance.wikiSite
             val secondaryLang = if (primaryWikiSite.languageCode == "ta") "en" else "ta"
             val secondaryWikiSite = WikiSite.forLanguageCode(secondaryLang)
@@ -29,10 +30,12 @@ object WikipediaContextProvider {
             val articles = mutableListOf<WikipediaArticleItem>()
             val rawChunks = mutableListOf<RagChunk>()
 
-            // Step 1: Multi-language parallel search
+            val searchLimit = if (intent == QueryIntent.SIMPLE_FACT) 2 else maxPages
+
+            // Two-Stage Retrieval Stage 1: Multi-language search
             val (primaryTitles, secondaryTitles) = coroutineScope {
-                val primaryDeferred = async { searchTitles(primaryWikiSite, query, maxPages) }
-                val secondaryDeferred = async { searchTitles(secondaryWikiSite, query, 2) }
+                val primaryDeferred = async { searchTitles(primaryWikiSite, query, searchLimit) }
+                val secondaryDeferred = async { searchTitles(secondaryWikiSite, query, 1) }
                 Pair(primaryDeferred.await(), secondaryDeferred.await())
             }
 
@@ -85,14 +88,16 @@ object WikipediaContextProvider {
                     )
                     articles.add(articleItem)
 
-                    // Chunk article content into sections for deep semantic RAG
-                    val chunks = RagChunkSynthesizer.chunkSection(
-                        articleTitle = summary.displayTitle,
-                        sectionTitle = summary.description ?: "Overview",
-                        fullText = cleanExtract,
-                        langCode = site.languageCode
-                    )
-                    rawChunks.addAll(chunks)
+                    // Two-Stage Retrieval Stage 2: Deep Section Chunking ONLY if Query Intent is DEEP_EXPLANATORY
+                    if (intent == QueryIntent.DEEP_EXPLANATORY) {
+                        val chunks = RagChunkSynthesizer.chunkSection(
+                            articleTitle = summary.displayTitle,
+                            sectionTitle = summary.description ?: "Overview",
+                            fullText = cleanExtract,
+                            langCode = site.languageCode
+                        )
+                        rawChunks.addAll(chunks)
+                    }
                 } catch (_: Exception) {
                     // Skip single page fetch failure
                 }
@@ -102,10 +107,12 @@ object WikipediaContextProvider {
                 emit(WikipediaSearchStatus.Synthesizing(count = articles.size))
             }
 
-            // Step 2: Rank chunks with keyword relevance scoring algorithm
-            val rankedChunks = RagChunkSynthesizer.rankChunks(query = query, chunks = rawChunks, topK = 6)
+            // Rank chunks if available (for DEEP_EXPLANATORY)
+            val rankedChunks = if (intent == QueryIntent.DEEP_EXPLANATORY) {
+                RagChunkSynthesizer.rankChunks(query = query, chunks = rawChunks, topK = 3)
+            } else emptyList()
 
-            // Step 3: Fetch structured Wikidata facts for primary topic
+            // Fetch structured Wikidata facts (highest priority for all queries)
             val primaryTitle = articles.firstOrNull()?.title.orEmpty()
             val wikidataFacts = if (primaryTitle.isNotBlank()) {
                 WikidataFactProvider.fetchFacts(primaryTitle, primaryWikiSite.languageCode)

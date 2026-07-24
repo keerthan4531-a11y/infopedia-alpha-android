@@ -24,13 +24,17 @@ data class WikipediaArticleItem(
     val description: String? = null,
     val thumbnailUrl: String? = null,
     val originalImageUrl: String? = null,
-    val extract: String? = null
+    val extract: String? = null,
+    val langCode: String = "en",
+    val sectionName: String? = null
 )
 
 data class WikipediaContext(
-    val articles: List<WikipediaArticleItem> = emptyList()
+    val articles: List<WikipediaArticleItem> = emptyList(),
+    val rankedChunks: List<RagChunk> = emptyList(),
+    val wikidataFacts: List<WikidataFact> = emptyList()
 ) {
     val primaryArticle: WikipediaArticleItem? get() = articles.firstOrNull { !it.originalImageUrl.isNullOrEmpty() || !it.thumbnailUrl.isNullOrEmpty() } ?: articles.firstOrNull()
-    val pagesRead: List<String> get() = articles.map { it.displayTitle }
+    val pagesRead: List<String> get() = articles.map { it.displayTitle }.distinct()
     val summaries: List<String> get() = articles.map { it.extract.orEmpty() }
 }

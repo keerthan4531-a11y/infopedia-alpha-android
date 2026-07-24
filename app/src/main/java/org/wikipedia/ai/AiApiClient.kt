@@ -35,17 +35,37 @@ object AiApiClient {
     ): Flow<StreamEvent> = callbackFlow {
         val messagesArray = JSONArray()
 
-        // If Wikipedia context is available, add it as a system message
-        if (wikipediaContext != null && wikipediaContext.summaries.isNotEmpty()) {
+        // If Wikipedia context is available, add it as a full-power RAG system message
+        if (wikipediaContext != null && (wikipediaContext.articles.isNotEmpty() || wikipediaContext.rankedChunks.isNotEmpty())) {
             val contextText = buildString {
-                append("You are an AI research assistant with live Wikipedia integration. Below is verified Wikipedia context:\n\n")
-                wikipediaContext.articles.forEachIndexed { index, article ->
-                    append("Source [${index + 1}]: ${article.displayTitle}\n$article.extract\n\n")
+                append("You are Infopedia Alpha's advanced RAG research AI with real-time multi-language Wikipedia integration.\n\n")
+
+                if (wikipediaContext.wikidataFacts.isNotEmpty()) {
+                    append("=== STRUCTURED WIKIDATA FACTS ===\n")
+                    wikipediaContext.wikidataFacts.forEach { fact ->
+                        append("• ${fact.propertyName}: ${fact.value}\n")
+                    }
+                    append("\n")
                 }
-                append("CRITICAL CITATION RULES:\n")
-                append("1. Provide a comprehensive, clear response based on the above sources.\n")
-                append("2. Use inline citations [1], [2], [3] directly at the end of statements referencing those specific sources.\n")
-                append("3. Conclude your response with a '### Related Questions' section listing 3 short follow-up questions formatted as bullet points (- ...).\n")
+
+                if (wikipediaContext.rankedChunks.isNotEmpty()) {
+                    append("=== RANKED DEEP SECTION CHUNKS ===\n")
+                    wikipediaContext.rankedChunks.forEachIndexed { index, chunk ->
+                        append("Source [${index + 1}]: ${chunk.articleTitle} (${chunk.langCode.uppercase()}) -> ${chunk.sectionTitle}\n")
+                        append("${chunk.content}\n\n")
+                    }
+                } else {
+                    append("=== VERIFIED WIKIPEDIA SOURCES ===\n")
+                    wikipediaContext.articles.forEachIndexed { index, article ->
+                        append("Source [${index + 1}]: ${article.displayTitle} (${article.langCode.uppercase()})\n${article.extract}\n\n")
+                    }
+                }
+
+                append("CRITICAL RAG RESPONSE RULES:\n")
+                append("1. Answer thoroughly, accurately, and fluently based on the provided sources above.\n")
+                append("2. Include inline citation tags [1], [2], [3] immediately following claims derived from those sources.\n")
+                append("3. If query language is Tamil or Malayalam, respond fluently in that language using cross-language context.\n")
+                append("4. Conclude your response with a '### Related Questions' section listing 3 short follow-up questions formatted as bullet points (- ...).\n")
             }
             messagesArray.put(JSONObject().apply {
                 put("role", "system")

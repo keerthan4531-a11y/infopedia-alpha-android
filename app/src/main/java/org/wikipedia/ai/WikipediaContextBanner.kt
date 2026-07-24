@@ -65,14 +65,17 @@ fun WikipediaContextBanner(status: WikipediaSearchStatus) {
 
             when (status) {
                 is WikipediaSearchStatus.Searching -> {
-                    Text(
-                        text = "🔍 Perplexity Search: Querying Wikipedia for \"${status.query}\"…",
+                    RotatingText(
+                        texts = listOf(
+                            "🌐 Multi-Lang Cross-RAG: Querying Wikipedia for \"${status.query}\"…",
+                            "🔍 Deep Sections: Extracting article chunks & indexes…",
+                            "🏛️ Wikidata Facts: Pulling structured infobox entity facts…"
+                        ),
+                        color = WikipediaTheme.colors.progressiveColor,
                         fontSize = 13.sp,
                         fontWeight = FontWeight.Medium,
-                        color = WikipediaTheme.colors.progressiveColor,
-                        maxLines = 1,
-                        overflow = TextOverflow.Ellipsis,
-                        modifier = Modifier.alpha(pulseAlpha)
+                        rotationInterval = 2000L,
+                        staggerDuration = 18L
                     )
                 }
                 is WikipediaSearchStatus.ReadingPage -> {
@@ -87,23 +90,30 @@ fun WikipediaContextBanner(status: WikipediaSearchStatus) {
                     )
                 }
                 is WikipediaSearchStatus.Synthesizing -> {
-                    Text(
-                        text = "💡 Synthesizing ${status.count} verified articles & citations…",
+                    RotatingText(
+                        texts = listOf(
+                            "💡 Synthesizing ${status.count} articles & section chunks…",
+                            "⚡ Keyword Relevance Scoring: Ranking top section context…",
+                            "🎯 Linking verified inline citations [1], [2], [3]…"
+                        ),
+                        color = WikipediaTheme.colors.progressiveColor,
                         fontSize = 13.sp,
                         fontWeight = FontWeight.Medium,
-                        color = WikipediaTheme.colors.progressiveColor,
-                        maxLines = 1,
-                        overflow = TextOverflow.Ellipsis,
-                        modifier = Modifier.alpha(pulseAlpha)
+                        rotationInterval = 2000L,
+                        staggerDuration = 18L
                     )
                 }
                 is WikipediaSearchStatus.Done -> {
                     val count = status.context.pagesRead.size
+                    val chunkCount = status.context.rankedChunks.size
+                    val factCount = status.context.wikidataFacts.size
                     Text(
-                        text = "✅ Read $count Wikipedia article${if (count != 1) "s" else ""}",
-                        fontSize = 13.sp,
+                        text = "⚡ Full-Power RAG Active: $count source${if (count != 1) "s" else ""} • $chunkCount section chunks${if (factCount > 0) " • $factCount Wikidata facts" else ""}",
+                        fontSize = 12.sp,
                         fontWeight = FontWeight.Medium,
-                        color = WikipediaTheme.colors.successColor
+                        color = WikipediaTheme.colors.successColor,
+                        maxLines = 1,
+                        overflow = TextOverflow.Ellipsis
                     )
                 }
                 is WikipediaSearchStatus.Error -> {

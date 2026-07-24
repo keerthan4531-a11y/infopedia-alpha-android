@@ -63,6 +63,11 @@ import androidx.compose.ui.unit.sp
 import org.wikipedia.R
 import org.wikipedia.compose.theme.WikipediaTheme
 
+import androidx.compose.foundation.layout.WindowInsets
+import androidx.compose.foundation.layout.ime
+import androidx.compose.foundation.layout.imePadding
+import androidx.compose.foundation.layout.navigationBarsPadding
+
 @Composable
 fun InixaAlphaScreen(
     viewModel: InixaAlphaViewModel
@@ -70,12 +75,15 @@ fun InixaAlphaScreen(
     val uiState by viewModel.uiState.collectAsState()
 
     Scaffold(
-        containerColor = WikipediaTheme.colors.backgroundColor
+        containerColor = WikipediaTheme.colors.backgroundColor,
+        contentWindowInsets = WindowInsets.ime
     ) { paddingValues ->
         Column(
             modifier = Modifier
                 .fillMaxSize()
                 .padding(paddingValues)
+                .imePadding()
+                .navigationBarsPadding()
         ) {
             // Header with AI title and model picker trigger button
             TopHeaderBar(

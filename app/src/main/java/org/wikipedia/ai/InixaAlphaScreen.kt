@@ -66,6 +66,7 @@ import org.wikipedia.compose.theme.WikipediaTheme
 import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.imePadding
 import androidx.compose.foundation.layout.navigationBarsPadding
+import androidx.compose.foundation.layout.statusBarsPadding
 
 @Composable
 fun InixaAlphaScreen(
@@ -158,7 +159,9 @@ private fun TopHeaderBar(
     Surface(
         color = WikipediaTheme.colors.paperColor,
         shadowElevation = 2.dp,
-        modifier = Modifier.fillMaxWidth()
+        modifier = Modifier
+            .fillMaxWidth()
+            .statusBarsPadding()
     ) {
         Column {
             Row(

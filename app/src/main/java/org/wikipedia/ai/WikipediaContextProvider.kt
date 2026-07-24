@@ -77,9 +77,17 @@ object WikipediaContextProvider {
                         }
                     }
 
+                    val cleanDisplayTitle = (summary.displayTitle.ifEmpty { summary.apiTitle })
+                        .replace(Regex("<[^>]*>"), "")
+                        .replace("&amp;", "&")
+                        .replace("&lt;", "<")
+                        .replace("&gt;", ">")
+                        .replace("&quot;", "\"")
+                        .trim()
+
                     val articleItem = WikipediaArticleItem(
                         title = summary.apiTitle,
-                        displayTitle = summary.displayTitle,
+                        displayTitle = cleanDisplayTitle,
                         description = summary.description,
                         thumbnailUrl = summary.thumbnailUrl,
                         originalImageUrl = summary.originalImageUrl,

@@ -66,7 +66,7 @@ data class AiModel(
             AiModel(
                 id = "qw-qwen3.7-max",
                 label = "Qwen 3.7 Max (Worker)",
-                modelStr = "qwen_worker/qwen3.7-max",
+                modelStr = "qwen3.7-max",
                 badge = "MAX",
                 badgeColor = "violet",
                 description = "Alibaba Qwen 3.7 Max — dedicated worker",
@@ -76,7 +76,7 @@ data class AiModel(
             AiModel(
                 id = "qw-qwen3.7-plus",
                 label = "Qwen 3.7 Plus (Worker)",
-                modelStr = "qwen_worker/qwen3.7-plus",
+                modelStr = "qwen3.7-plus",
                 badge = "PLUS",
                 badgeColor = "violet",
                 description = "Alibaba Qwen 3.7 Plus — dedicated worker",

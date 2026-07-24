@@ -79,10 +79,10 @@ fun InixaAlphaScreen(
     val uiState by viewModel.uiState.collectAsState()
     val density = LocalDensity.current
 
-    // Calculate maximum bottom inset for ZERO GAP above soft keyboard
+    // Calculate exact bottom inset to eliminate gap above soft keyboard
     val imeBottom = WindowInsets.ime.getBottom(density)
     val navBottom = WindowInsets.navigationBars.getBottom(density)
-    val bottomInsetPx = maxOf(imeBottom, navBottom)
+    val bottomInsetPx = if (imeBottom > 0) maxOf(0, imeBottom - navBottom) else 0
     val bottomInsetDp = with(density) { bottomInsetPx.toDp() }
 
     Scaffold(
@@ -350,8 +350,8 @@ private fun ChatMessagesList(
         items(messages, key = { it.id }) { message ->
             ChatBubble(
                 message = message,
-                thinkingContent = if (message == messages.lastOrNull() && message.role == AiChatMessage.ROLE_ASSISTANT)
-                    thinkingContent else null,
+                thinkingContent = message.thinkingContent ?: if (message == messages.lastOrNull() && message.role == AiChatMessage.ROLE_ASSISTANT)
+                    thinkingContent.ifEmpty { null } else null,
                 onFollowUpClick = onFollowUpClick
             )
         }

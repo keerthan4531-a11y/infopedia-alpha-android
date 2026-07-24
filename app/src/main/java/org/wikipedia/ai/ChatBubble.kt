@@ -160,35 +160,69 @@ fun ChatBubble(
                         Spacer(modifier = Modifier.height(12.dp))
                     }
 
-                    // DeepThink Reasoning Block
+                    // DeepThink / Qwen Thinking Process Block (Collapsible)
                     if (!thinkingContent.isNullOrEmpty()) {
+                        var isExpanded by remember { mutableStateOf(message.isStreaming) }
+
                         Surface(
                             color = WikipediaTheme.colors.paperColor,
                             shape = RoundedCornerShape(10.dp),
-                            border = BorderStroke(1.dp, Color(0xFF8B5CF6).copy(alpha = 0.3f)),
+                            border = BorderStroke(1.dp, Color(0xFF8B5CF6).copy(alpha = 0.35f)),
                             modifier = Modifier
                                 .fillMaxWidth()
                                 .padding(bottom = 10.dp)
                                 .animateContentSize()
                         ) {
                             Column(modifier = Modifier.padding(10.dp)) {
-                                Row(verticalAlignment = Alignment.CenterVertically) {
-                                    Text(text = "🧠", fontSize = 12.sp)
-                                    Spacer(modifier = Modifier.width(4.dp))
+                                Row(
+                                    verticalAlignment = Alignment.CenterVertically,
+                                    horizontalArrangement = Arrangement.SpaceBetween,
+                                    modifier = Modifier
+                                        .fillMaxWidth()
+                                        .clickable { isExpanded = !isExpanded }
+                                ) {
+                                    Row(verticalAlignment = Alignment.CenterVertically) {
+                                        Text(text = "🧠", fontSize = 13.sp)
+                                        Spacer(modifier = Modifier.width(6.dp))
+                                        Text(
+                                            text = if (message.isStreaming) "Qwen Thinking..." else "Qwen Thought Process",
+                                            fontSize = 12.sp,
+                                            fontWeight = FontWeight.Bold,
+                                            color = Color(0xFF8B5CF6)
+                                        )
+                                    }
+                                    Row(verticalAlignment = Alignment.CenterVertically) {
+                                        Text(
+                                            text = if (isExpanded) "Hide" else "Show reasoning",
+                                            fontSize = 11.sp,
+                                            color = Color(0xFF8B5CF6).copy(alpha = 0.8f)
+                                        )
+                                        Spacer(modifier = Modifier.width(4.dp))
+                                        Icon(
+                                            painter = painterResource(
+                                                id = if (isExpanded) R.drawable.ic_arrow_up_24 else R.drawable.ic_arrow_down_24
+                                            ),
+                                            contentDescription = null,
+                                            modifier = Modifier.size(14.dp),
+                                            tint = Color(0xFF8B5CF6)
+                                        )
+                                    }
+                                }
+
+                                if (isExpanded) {
+                                    Spacer(modifier = Modifier.height(8.dp))
+                                    HorizontalDivider(
+                                        color = Color(0xFF8B5CF6).copy(alpha = 0.15f),
+                                        thickness = 0.5.dp
+                                    )
+                                    Spacer(modifier = Modifier.height(8.dp))
                                     Text(
-                                        text = "DeepThink Reasoning",
-                                        fontSize = 11.sp,
-                                        fontWeight = FontWeight.Bold,
-                                        color = Color(0xFF8B5CF6)
+                                        text = thinkingContent,
+                                        fontSize = 12.sp,
+                                        color = WikipediaTheme.colors.secondaryColor,
+                                        lineHeight = 16.sp
                                     )
                                 }
-                                Spacer(modifier = Modifier.height(4.dp))
-                                Text(
-                                    text = thinkingContent,
-                                    fontSize = 12.sp,
-                                    color = WikipediaTheme.colors.secondaryColor,
-                                    lineHeight = 16.sp
-                                )
                             }
                         }
                     }

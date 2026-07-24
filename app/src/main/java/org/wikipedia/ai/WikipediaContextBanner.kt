@@ -107,13 +107,13 @@ fun WikipediaContextBanner(status: WikipediaSearchStatus) {
                     val count = status.context.pagesRead.size
                     val chunkCount = status.context.rankedChunks.size
                     val factCount = status.context.wikidataFacts.size
-                    Text(
+                    ShinyText(
                         text = "⚡ Full-Power RAG Active: $count source${if (count != 1) "s" else ""} • $chunkCount section chunks${if (factCount > 0) " • $factCount Wikidata facts" else ""}",
-                        fontSize = 12.sp,
-                        fontWeight = FontWeight.Medium,
                         color = WikipediaTheme.colors.successColor,
-                        maxLines = 1,
-                        overflow = TextOverflow.Ellipsis
+                        shineColor = androidx.compose.ui.graphics.Color(0xFF86EFAC),
+                        fontSize = 12.sp,
+                        fontWeight = FontWeight.Bold,
+                        maxLines = 1
                     )
                 }
                 is WikipediaSearchStatus.Error -> {

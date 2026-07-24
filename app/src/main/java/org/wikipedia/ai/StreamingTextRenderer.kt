@@ -76,7 +76,24 @@ fun StreamingTextRenderer(
     )
 
     if (text.isEmpty() && isStreaming) {
-        Row(verticalAlignment = Alignment.CenterVertically) {
+        Row(
+            verticalAlignment = Alignment.CenterVertically,
+            modifier = Modifier.padding(vertical = 4.dp)
+        ) {
+            RotatingText(
+                texts = listOf(
+                    "✨ Thinking…",
+                    "🌐 Connecting to Wikipedia…",
+                    "🧬 Collecting Context Data…",
+                    "⚡ Synthesizing Response…"
+                ),
+                color = WikipediaTheme.colors.progressiveColor,
+                fontSize = 14.sp,
+                fontWeight = FontWeight.Medium,
+                rotationInterval = 1800L,
+                staggerDuration = 18L
+            )
+            Spacer(modifier = Modifier.width(6.dp))
             Text(
                 text = "▍",
                 fontSize = 15.sp,

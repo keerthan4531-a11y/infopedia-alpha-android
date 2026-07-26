@@ -58,14 +58,11 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import org.wikipedia.R
 import org.wikipedia.compose.theme.WikipediaTheme
-
 import androidx.compose.foundation.layout.WindowInsets
-import androidx.compose.foundation.layout.ime
-import androidx.compose.foundation.layout.navigationBars
+import androidx.compose.foundation.layout.imePadding
+import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.statusBarsPadding
-import androidx.compose.foundation.layout.union
 import androidx.compose.foundation.layout.widthIn
-import androidx.compose.foundation.layout.windowInsetsPadding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 
@@ -77,8 +74,48 @@ fun InixaAlphaScreen(
     val neu = neuColors()
 
     Scaffold(
+        modifier = Modifier
+            .fillMaxSize()
+            .imePadding(),
         containerColor = WikipediaTheme.colors.neuBackground,
-        contentWindowInsets = WindowInsets(0, 0, 0, 0)
+        contentWindowInsets = WindowInsets(0, 0, 0, 0),
+        bottomBar = {
+            Box(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .background(WikipediaTheme.colors.neuBackground)
+                    .navigationBarsPadding(),
+                contentAlignment = Alignment.TopCenter
+            ) {
+                Column(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .widthIn(max = 840.dp)
+                ) {
+                    // Wikipedia context banner / research progress card
+                    AnimatedVisibility(
+                        visible = uiState.wikipediaStatus != null,
+                        enter = slideInVertically(initialOffsetY = { it }) + fadeIn()
+                    ) {
+                        uiState.wikipediaStatus?.let { status ->
+                            WikipediaContextBanner(status = status)
+                        }
+                    }
+
+                    // Bottom input area
+                    NeuChatInputBar(
+                        selectedModel = uiState.selectedModel,
+                        isWikipediaConnected = uiState.isWikipediaConnected,
+                        isStreaming = uiState.isStreaming,
+                        onSendMessage = { viewModel.sendMessage(it) },
+                        onToggleWikipedia = { viewModel.toggleWikipedia() },
+                        onModelClick = { viewModel.toggleModelSelector() },
+                        onStopStreaming = { viewModel.stopStreaming() },
+                        neu = neu
+                    )
+                }
+            }
+        }
     ) { paddingValues ->
         Box(
             modifier = Modifier
@@ -92,74 +129,45 @@ fun InixaAlphaScreen(
                     .fillMaxSize()
                     .widthIn(max = 840.dp)
             ) {
-            // Header with AI title and model picker trigger button
-            NeuTopHeaderBar(
-                selectedModel = uiState.selectedModel,
-                onModelClick = { viewModel.toggleModelSelector() },
-                neu = neu
-            )
-
-            // Main chat content area or Welcome screen
-            Box(
-                modifier = Modifier
-                    .weight(1f)
-                    .fillMaxWidth()
-            ) {
-                if (uiState.messages.isEmpty()) {
-                    NeuWelcomeScreen(
-                        onSuggestionClick = { viewModel.sendMessage(it) },
-                        neu = neu
-                    )
-                } else {
-                    ChatMessagesList(
-                        messages = uiState.messages,
-                        isStreaming = uiState.isStreaming,
-                        thinkingContent = uiState.currentThinkingContent,
-                        onFollowUpClick = { viewModel.sendMessage(it) }
-                    )
-                }
-            }
-
-            // Bottom section pinned directly above soft keyboard (zero gap)
-            Column(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .windowInsetsPadding(WindowInsets.ime.union(WindowInsets.navigationBars))
-            ) {
-                // Wikipedia context banner / research progress card
-                AnimatedVisibility(
-                    visible = uiState.wikipediaStatus != null,
-                    enter = slideInVertically(initialOffsetY = { it }) + fadeIn()
-                ) {
-                    uiState.wikipediaStatus?.let { status ->
-                        WikipediaContextBanner(status = status)
-                    }
-                }
-
-                // Bottom input area
-                NeuChatInputBar(
+                // Header with AI title and model picker trigger button
+                NeuTopHeaderBar(
                     selectedModel = uiState.selectedModel,
-                    isWikipediaConnected = uiState.isWikipediaConnected,
-                    isStreaming = uiState.isStreaming,
-                    onSendMessage = { viewModel.sendMessage(it) },
-                    onToggleWikipedia = { viewModel.toggleWikipedia() },
                     onModelClick = { viewModel.toggleModelSelector() },
-                    onStopStreaming = { viewModel.stopStreaming() },
                     neu = neu
                 )
+
+                // Main chat content area or Welcome screen
+                Box(
+                    modifier = Modifier
+                        .weight(1f)
+                        .fillMaxWidth()
+                ) {
+                    if (uiState.messages.isEmpty()) {
+                        NeuWelcomeScreen(
+                            onSuggestionClick = { viewModel.sendMessage(it) },
+                            neu = neu
+                        )
+                    } else {
+                        ChatMessagesList(
+                            messages = uiState.messages,
+                            isStreaming = uiState.isStreaming,
+                            thinkingContent = uiState.currentThinkingContent,
+                            onFollowUpClick = { viewModel.sendMessage(it) }
+                        )
+                    }
+                }
             }
         }
-    }
 
-    // Model selector overlay
-    if (uiState.showModelSelector) {
-        ModelSelectorSheet(
-            models = AiModel.ALL_MODELS,
-            selectedModel = uiState.selectedModel,
-            onModelSelected = { viewModel.selectModel(it) },
-            onDismiss = { viewModel.dismissModelSelector() }
-        )
-    }
+        // Model selector overlay
+        if (uiState.showModelSelector) {
+            ModelSelectorSheet(
+                models = AiModel.ALL_MODELS,
+                selectedModel = uiState.selectedModel,
+                onModelSelected = { viewModel.selectModel(it) },
+                onDismiss = { viewModel.dismissModelSelector() }
+            )
+        }
     }
 }
 

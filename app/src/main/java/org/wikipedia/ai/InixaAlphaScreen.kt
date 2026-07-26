@@ -60,14 +60,14 @@ import org.wikipedia.R
 import org.wikipedia.compose.theme.WikipediaTheme
 
 import androidx.compose.foundation.layout.WindowInsets
-import androidx.compose.foundation.layout.asPaddingValues
 import androidx.compose.foundation.layout.ime
 import androidx.compose.foundation.layout.navigationBars
 import androidx.compose.foundation.layout.statusBarsPadding
+import androidx.compose.foundation.layout.union
 import androidx.compose.foundation.layout.widthIn
+import androidx.compose.foundation.layout.windowInsetsPadding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.ui.platform.LocalDensity
 
 @Composable
 fun InixaAlphaScreen(
@@ -75,13 +75,6 @@ fun InixaAlphaScreen(
 ) {
     val uiState by viewModel.uiState.collectAsState()
     val neu = neuColors()
-    val density = LocalDensity.current
-
-    // adjustResize in AndroidManifest.xml resizes the window container when keyboard opens.
-    // Avoid double padding from imePadding() by setting bottom padding to 0.dp when keyboard is open.
-    val isImeVisible = WindowInsets.ime.getBottom(density) > 0
-    val navPadding = WindowInsets.navigationBars.asPaddingValues().calculateBottomPadding()
-    val bottomPadding = if (isImeVisible) 0.dp else navPadding
 
     Scaffold(
         containerColor = WikipediaTheme.colors.neuBackground,
@@ -131,7 +124,7 @@ fun InixaAlphaScreen(
             Column(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(bottom = bottomPadding)
+                    .windowInsetsPadding(WindowInsets.ime.union(WindowInsets.navigationBars))
             ) {
                 // Wikipedia context banner / research progress card
                 AnimatedVisibility(

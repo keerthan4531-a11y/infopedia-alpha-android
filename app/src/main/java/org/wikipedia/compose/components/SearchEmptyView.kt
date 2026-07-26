@@ -19,6 +19,8 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import org.wikipedia.R
+import org.wikipedia.ai.neuColors
+import org.wikipedia.ai.neuFlat
 import org.wikipedia.compose.theme.BaseTheme
 import org.wikipedia.compose.theme.WikipediaTheme
 import org.wikipedia.theme.Theme
@@ -28,6 +30,8 @@ fun SearchEmptyView(
     modifier: Modifier = Modifier,
     emptyTexTitle: String
 ) {
+    val neu = neuColors()
+
     Column(
         modifier = modifier,
         verticalArrangement = Arrangement.Center,
@@ -36,16 +40,21 @@ fun SearchEmptyView(
         Icon(
             modifier = Modifier
                 .requiredSize(96.dp)
+                .neuFlat(
+                    lightShadow = neu.lightShadow,
+                    darkShadow = neu.darkShadow,
+                    cornerRadius = 48.dp,
+                    intensity = 0.5f
+                )
                 .clip(CircleShape)
-                .background(WikipediaTheme.colors.backgroundColor)
+                .background(neu.surface)
                 .padding(20.dp),
             painter = painterResource(R.drawable.outline_search_24),
-            tint = WikipediaTheme.colors.placeholderColor,
+            tint = WikipediaTheme.colors.progressiveColor,
             contentDescription = null
         )
         Text(
-            modifier = Modifier
-                .padding(top = 4.dp),
+            modifier = Modifier.padding(top = 12.dp),
             text = emptyTexTitle,
             style = MaterialTheme.typography.bodyLarge,
             color = WikipediaTheme.colors.placeholderColor
@@ -60,8 +69,7 @@ private fun SearchEmptyViewPreview() {
         currentTheme = Theme.LIGHT
     ) {
         Box(
-            modifier = Modifier
-                .fillMaxSize(),
+            modifier = Modifier.fillMaxSize(),
             contentAlignment = Alignment.Center
         ) {
             SearchEmptyView(

@@ -50,6 +50,7 @@ import coil3.compose.AsyncImage
 import org.wikipedia.R
 import org.wikipedia.ai.neuColors
 import org.wikipedia.ai.neuElevated
+import org.wikipedia.compose.components.NeuCard
 import org.wikipedia.compose.components.error.WikiErrorClickEvents
 import org.wikipedia.compose.components.error.WikiErrorView
 import org.wikipedia.compose.extensions.toAnnotatedStringWithBoldQuery
@@ -228,35 +229,16 @@ fun SearchResultPageItem(
         pageTitle.displayText.toAnnotatedStringWithBoldQuery(searchTerm)
     }
 
-    Box(
-        modifier = modifier
-            .fillMaxWidth()
-            .neuElevated(
-                lightShadow = neu.lightShadow,
-                darkShadow = neu.darkShadow,
-                shadowRadius = 5.dp,
-                cornerRadius = 16.dp,
-                lightOffset = (-2).dp,
-                darkOffset = 3.dp,
-                intensity = 0.5f
-            )
-            .background(WikipediaTheme.colors.neuBackground, RoundedCornerShape(16.dp))
-            .clip(RoundedCornerShape(16.dp))
+    NeuCard(
+        modifier = modifier.fillMaxWidth(),
+        cornerRadius = 16.dp,
+        shadowRadius = 4.dp,
+        intensity = 0.45f,
+        onClick = onItemClick
     ) {
         Row(
             modifier = Modifier
                 .fillMaxWidth()
-                .combinedClickable(
-                    onLongClick = {
-                        anchorView?.let {
-                            DeviceUtil.hideSoftKeyboard(it)
-                            onItemLongClick(it)
-                        }
-                    },
-                    onClick = {
-                        onItemClick()
-                    }
-                )
                 .padding(14.dp),
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(16.dp)

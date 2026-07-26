@@ -26,6 +26,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.paging.compose.LazyPagingItems
 import org.wikipedia.R
+import org.wikipedia.ai.neuColors
+import org.wikipedia.compose.components.NeuCard
 import org.wikipedia.compose.extensions.toAnnotatedStringWithBoldQuery
 import org.wikipedia.compose.theme.WikipediaTheme
 
@@ -37,6 +39,7 @@ fun HybridSearchSuggestionListView(
     onTitleClick: (SearchResult) -> Unit,
     onSuggestionTitleClick: (String?) -> Unit,
 ) {
+    val neu = neuColors()
 
     val hasAnyMatch by remember {
         derivedStateOf {
@@ -56,19 +59,17 @@ fun HybridSearchSuggestionListView(
     ) {
         LazyColumn(
             modifier = Modifier,
-            contentPadding = PaddingValues(top = 16.dp, bottom = 64.dp)
+            contentPadding = PaddingValues(horizontal = 12.dp, vertical = 12.dp)
         ) {
             items(searchResultsPage.itemCount) { index ->
                 searchResultsPage[index]?.let {
                     SearchResultTitleOnly(
                         modifier = Modifier
                             .fillMaxWidth()
-                            .clickable(onClick = {
-                                onTitleClick(it)
-                            })
-                            .padding(horizontal = 16.dp, vertical = 8.dp),
+                            .padding(vertical = 4.dp),
                         searchResultPage = it,
-                        searchTerm = searchTerm
+                        searchTerm = searchTerm,
+                        onClick = { onTitleClick(it) }
                     )
                 }
             }
@@ -79,7 +80,6 @@ fun HybridSearchSuggestionListView(
                 modifier = Modifier
                     .fillMaxWidth()
                     .align(Alignment.BottomStart)
-                    .background(WikipediaTheme.colors.paperColor)
                     .clickable(
                         onClick = { onSuggestionTitleClick(searchTerm) }
                     ),
@@ -93,20 +93,32 @@ fun HybridSearchSuggestionListView(
 fun SearchResultTitleOnly(
     searchResultPage: SearchResult,
     searchTerm: String?,
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
+    onClick: (() -> Unit)? = null
 ) {
     val pageTitle = searchResultPage.pageTitle
     val boldenTitle = remember(pageTitle.displayText, searchTerm) {
         pageTitle.displayText.toAnnotatedStringWithBoldQuery(searchTerm)
     }
-    Box(
-        modifier = modifier
+
+    NeuCard(
+        modifier = modifier,
+        cornerRadius = 12.dp,
+        shadowRadius = 4.dp,
+        intensity = 0.4f,
+        onClick = onClick
     ) {
-        Text(
-            text = boldenTitle,
-            color = WikipediaTheme.colors.primaryColor,
-            style = MaterialTheme.typography.bodyLarge
-        )
+        Box(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(horizontal = 16.dp, vertical = 12.dp)
+        ) {
+            Text(
+                text = boldenTitle,
+                color = WikipediaTheme.colors.primaryColor,
+                style = MaterialTheme.typography.bodyLarge
+            )
+        }
     }
 }
 
@@ -115,35 +127,43 @@ fun SearchResultTitleOnlyBottomContent(
     modifier: Modifier = Modifier,
     searchTerm: String?
 ) {
+    val neu = neuColors()
     val suggestionTitle = stringResource(R.string.hybrid_search_suggestion_title)
-    Column(
-        modifier = modifier
+
+    NeuCard(
+        modifier = modifier.padding(12.dp),
+        cornerRadius = 16.dp,
+        shadowRadius = 6.dp,
+        intensity = 0.5f
     ) {
-        HorizontalDivider(
-            modifier = Modifier
-                .fillMaxWidth(),
-            color = WikipediaTheme.colors.borderColor,
-        )
-        Text(
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(16.dp),
-            text = buildAnnotatedString {
-                append(suggestionTitle)
-                withStyle(
-                    style = SpanStyle(
-                        color = WikipediaTheme.colors.progressiveColor
-                    )
-                ) {
-                    append(" ")
-                    append(searchTerm)
-                }
-            },
-            style = MaterialTheme.typography.bodySmall.copy(
-                fontWeight = FontWeight.Medium,
-                lineHeight = 18.sp
-            ),
-            color = WikipediaTheme.colors.primaryColor
-        )
+        Column(
+            modifier = Modifier.fillMaxWidth()
+        ) {
+            HorizontalDivider(
+                modifier = Modifier.fillMaxWidth(),
+                color = WikipediaTheme.colors.borderColor.copy(alpha = 0.4f),
+            )
+            Text(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(16.dp),
+                text = buildAnnotatedString {
+                    append(suggestionTitle)
+                    withStyle(
+                        style = SpanStyle(
+                            color = WikipediaTheme.colors.progressiveColor
+                        )
+                    ) {
+                        append(" ")
+                        append(searchTerm)
+                    }
+                },
+                style = MaterialTheme.typography.bodySmall.copy(
+                    fontWeight = FontWeight.Medium,
+                    lineHeight = 18.sp
+                ),
+                color = WikipediaTheme.colors.primaryColor
+            )
+        }
     }
 }

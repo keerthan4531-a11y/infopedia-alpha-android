@@ -1,9 +1,8 @@
 package org.wikipedia.compose.components
 
-import androidx.compose.foundation.background
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
@@ -16,7 +15,6 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
@@ -29,30 +27,33 @@ fun SearchBarCard(
     text: String,
     onSearchClick: () -> Unit
 ) {
-    Row(
+    NeuCard(
         modifier = modifier
             .fillMaxWidth()
-            .height(56.dp)
-            .clip(RoundedCornerShape(28.dp))
-            .background(
-                color = WikipediaTheme.colors.backgroundColor,
-                shape = RoundedCornerShape(24.dp)
-            )
-            .clickable(onClick = onSearchClick),
-        verticalAlignment = Alignment.CenterVertically
+            .height(56.dp),
+        cornerRadius = 28.dp,
+        shadowRadius = 6.dp,
+        onClick = onSearchClick
     ) {
-        Spacer(modifier = Modifier.width(16.dp))
-        Icon(
-            painter = painterResource(R.drawable.outline_search_24),
-            contentDescription = stringResource(R.string.search_hint),
-            tint = WikipediaTheme.colors.secondaryColor,
-            modifier = Modifier.size(24.dp)
-        )
-        Text(
-            modifier = Modifier.padding(start = 16.dp, end = 16.dp),
-            text = text,
-            style = MaterialTheme.typography.bodyLarge,
-            color = WikipediaTheme.colors.primaryColor
-        )
+        Row(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(horizontal = 16.dp),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            Icon(
+                painter = painterResource(R.drawable.outline_search_24),
+                contentDescription = stringResource(R.string.search_hint),
+                tint = WikipediaTheme.colors.progressiveColor,
+                modifier = Modifier.size(24.dp)
+            )
+            Spacer(modifier = Modifier.width(12.dp))
+            Text(
+                modifier = Modifier.padding(end = 16.dp),
+                text = text,
+                style = MaterialTheme.typography.bodyLarge,
+                color = WikipediaTheme.colors.primaryColor
+            )
+        }
     }
 }

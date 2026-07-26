@@ -60,26 +60,18 @@ import org.wikipedia.R
 import org.wikipedia.compose.theme.WikipediaTheme
 
 import androidx.compose.foundation.layout.WindowInsets
-import androidx.compose.foundation.layout.ime
-import androidx.compose.foundation.layout.navigationBars
+import androidx.compose.foundation.layout.imePadding
+import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.ui.platform.LocalDensity
 
 @Composable
 fun InixaAlphaScreen(
     viewModel: InixaAlphaViewModel
 ) {
     val uiState by viewModel.uiState.collectAsState()
-    val density = LocalDensity.current
     val neu = neuColors()
-
-    // Calculate exact bottom inset to eliminate gap above soft keyboard
-    val imeBottom = WindowInsets.ime.getBottom(density)
-    val navBottom = WindowInsets.navigationBars.getBottom(density)
-    val bottomInsetPx = if (imeBottom > 0) maxOf(0, imeBottom - navBottom) else 0
-    val bottomInsetDp = with(density) { bottomInsetPx.toDp() }
 
     Scaffold(
         containerColor = WikipediaTheme.colors.neuBackground,
@@ -123,7 +115,7 @@ fun InixaAlphaScreen(
             Column(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(bottom = bottomInsetDp)
+                    .imePadding()
             ) {
                 // Wikipedia context banner / research progress card
                 AnimatedVisibility(

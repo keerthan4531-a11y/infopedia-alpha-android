@@ -59,14 +59,14 @@ import androidx.compose.ui.unit.sp
 import org.wikipedia.R
 import org.wikipedia.compose.theme.WikipediaTheme
 import androidx.compose.foundation.layout.WindowInsets
+import androidx.compose.foundation.layout.asPaddingValues
 import androidx.compose.foundation.layout.ime
 import androidx.compose.foundation.layout.navigationBars
 import androidx.compose.foundation.layout.statusBarsPadding
-import androidx.compose.foundation.layout.union
 import androidx.compose.foundation.layout.widthIn
-import androidx.compose.foundation.layout.windowInsetsPadding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
+import androidx.compose.ui.platform.LocalDensity
 
 @Composable
 fun InixaAlphaScreen(
@@ -74,6 +74,13 @@ fun InixaAlphaScreen(
 ) {
     val uiState by viewModel.uiState.collectAsState()
     val neu = neuColors()
+    val density = LocalDensity.current
+
+    // In adjustResize mode, Android OS View resizes the window container when keyboard opens.
+    // When keyboard is visible, set bottom padding to 0.dp so the input bar sits flush directly on top of the keyboard with 0 gap.
+    val isImeVisible = WindowInsets.ime.getBottom(density) > 0
+    val navBarPadding = WindowInsets.navigationBars.asPaddingValues().calculateBottomPadding()
+    val bottomPadding = if (isImeVisible) 0.dp else navBarPadding
 
     Scaffold(
         modifier = Modifier.fillMaxSize(),
@@ -84,7 +91,7 @@ fun InixaAlphaScreen(
                 modifier = Modifier
                     .fillMaxWidth()
                     .background(WikipediaTheme.colors.neuBackground)
-                    .windowInsetsPadding(WindowInsets.navigationBars.union(WindowInsets.ime)),
+                    .padding(bottom = bottomPadding),
                 contentAlignment = Alignment.TopCenter
             ) {
                 Column(

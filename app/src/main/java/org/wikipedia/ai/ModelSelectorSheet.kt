@@ -31,6 +31,9 @@ import androidx.compose.ui.unit.sp
 import org.wikipedia.R
 import org.wikipedia.compose.theme.WikipediaTheme
 
+import androidx.compose.foundation.layout.fillMaxHeight
+import androidx.compose.foundation.layout.navigationBarsPadding
+
 @Composable
 fun ModelSelectorSheet(
     models: List<AiModel>,
@@ -51,6 +54,7 @@ fun ModelSelectorSheet(
         Box(
             modifier = Modifier
                 .fillMaxWidth()
+                .fillMaxHeight(0.65f)
                 .align(Alignment.BottomCenter)
                 .clickable(enabled = false) { /* consume click */ }
                 .neuElevated(
@@ -67,9 +71,12 @@ fun ModelSelectorSheet(
                     RoundedCornerShape(topStart = 20.dp, topEnd = 20.dp)
                 )
                 .clip(RoundedCornerShape(topStart = 20.dp, topEnd = 20.dp))
+                .navigationBarsPadding()
         ) {
             Column(
-                modifier = Modifier.padding(top = 16.dp, bottom = 24.dp)
+                modifier = Modifier
+                    .fillMaxSize()
+                    .padding(top = 16.dp, bottom = 12.dp)
             ) {
                 // Handle bar — neumorphic pressed pill
                 Box(
@@ -102,7 +109,11 @@ fun ModelSelectorSheet(
 
                 Spacer(modifier = Modifier.height(14.dp))
 
-                LazyColumn {
+                LazyColumn(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .weight(1f)
+                ) {
                     items(models) { model ->
                         NeuModelItem(
                             model = model,

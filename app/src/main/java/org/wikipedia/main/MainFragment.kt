@@ -31,6 +31,11 @@ import androidx.viewpager2.widget.ViewPager2.OnPageChangeCallback
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.setValue
+import org.wikipedia.compose.components.NeuBottomNav
+import org.wikipedia.compose.theme.BaseTheme
 import org.wikipedia.BackPressedHandler
 import org.wikipedia.Constants
 import org.wikipedia.Constants.InvokeSource
@@ -157,7 +162,7 @@ class MainFragment : Fragment(), BackPressedHandler, MenuProvider, HistoryFragme
                             maybeShowImportReadingListsNewInstallDialog()
                         }
                         is NewRecommendedReadingListEvent -> {
-                            binding.mainNavTabLayout.setOverlayDot(NavTab.READING_LISTS, Prefs.isRecommendedReadingListEnabled && Prefs.isNewRecommendedReadingListGenerated)
+                            // Event handled
                         }
                     }
                 }
@@ -167,43 +172,18 @@ class MainFragment : Fragment(), BackPressedHandler, MenuProvider, HistoryFragme
         binding.mainViewPager.isUserInputEnabled = false
         binding.mainViewPager.adapter = NavTabFragmentPagerAdapter(this)
         binding.mainViewPager.registerOnPageChangeCallback(pageChangeCallback)
-        binding.mainNavTabLayout.descendants.filterIsInstance<TextView>().forEach {
-            it.maxLines = 2
-        }
-        val shouldShowRedDotForRecommendedReadingList = (!Prefs.isRecommendedReadingListOnboardingShown) || (Prefs.isRecommendedReadingListEnabled && Prefs.isNewRecommendedReadingListGenerated)
-        binding.mainNavTabLayout.setOverlayDot(NavTab.READING_LISTS, shouldShowRedDotForRecommendedReadingList)
-        binding.mainNavTabLayout.setOnItemSelectedListener { item ->
-            navTabBackStack.clear()
-            if (item.order == NavTab.EDITS.code()) {
-                if (!Prefs.isActivityTabOnboardingShown) {
-                    activityTabOnboardingLauncher.launch(ActivityTabOnboardingActivity.newIntent(requireContext()))
-                    binding.mainNavTabLayout.setOverlayDot(NavTab.EDITS, false)
-                    return@setOnItemSelectedListener false
-                }
-            }
-            if (item.order == NavTab.MORE.code()) {
-                ExclusiveBottomSheetPresenter.show(childFragmentManager, MenuNavTabDialog.newInstance())
-                return@setOnItemSelectedListener false
-            }
-            if (item.order == NavTab.AI.code()) {
-                binding.mainViewPager.setCurrentItem(item.order, false)
-                requireActivity().invalidateOptionsMenu()
-                return@setOnItemSelectedListener true
-            }
-            val fragment = currentFragment
-            if (fragment is HistoryFragment && item.order == NavTab.SEARCH.code()) {
-                openSearchActivity(InvokeSource.NAV_MENU, null, null)
-                return@setOnItemSelectedListener true
-            }
-            binding.mainViewPager.setCurrentItem(item.order, false)
-            requireActivity().invalidateOptionsMenu()
-            if (item.order == NavTab.SEARCH.code()) {
-                maybeShowSearchWidgetInstallPrompt()
-            }
-            true
-        }
 
-        binding.mainNavTabLayout.setOverlayDot(NavTab.EDITS, !Prefs.isActivityTabOnboardingShown)
+        binding.mainNavComposeView.setContent {
+            val currentTab by currentNavTabState
+            BaseTheme(currentTheme = WikipediaApp.instance.currentTheme) {
+                NeuBottomNav(
+                    selectedTab = currentTab,
+                    onTabSelected = { tab ->
+                        handleNavTabSelected(tab)
+                    }
+                )
+            }
+        }
 
         maybeShowFeedNewModulesTooltip()
         Prefs.incrementExploreFeedVisitCount()
@@ -214,6 +194,40 @@ class MainFragment : Fragment(), BackPressedHandler, MenuProvider, HistoryFragme
             handleIntent(requireActivity().intent)
         }
         return binding.root
+    }
+
+    private val currentNavTabState = mutableStateOf(NavTab.HOME)
+
+    private fun handleNavTabSelected(tab: NavTab) {
+        navTabBackStack.clear()
+        if (tab == NavTab.EDITS) {
+            if (!Prefs.isActivityTabOnboardingShown) {
+                activityTabOnboardingLauncher.launch(ActivityTabOnboardingActivity.newIntent(requireContext()))
+                return
+            }
+        }
+        if (tab == NavTab.MORE) {
+            ExclusiveBottomSheetPresenter.show(childFragmentManager, MenuNavTabDialog.newInstance())
+            return
+        }
+        if (tab == NavTab.AI) {
+            binding.mainViewPager.setCurrentItem(tab.code(), false)
+            requireActivity().invalidateOptionsMenu()
+            currentNavTabState.value = tab
+            return
+        }
+        val fragment = currentFragment
+        if (fragment is HistoryFragment && tab == NavTab.SEARCH) {
+            openSearchActivity(InvokeSource.NAV_MENU, null, null)
+            currentNavTabState.value = tab
+            return
+        }
+        binding.mainViewPager.setCurrentItem(tab.code(), false)
+        requireActivity().invalidateOptionsMenu()
+        if (tab == NavTab.SEARCH) {
+            maybeShowSearchWidgetInstallPrompt()
+        }
+        currentNavTabState.value = tab
     }
 
     override fun onPause() {
@@ -358,7 +372,7 @@ class MainFragment : Fragment(), BackPressedHandler, MenuProvider, HistoryFragme
         } else if (intent.hasExtra(Constants.INTENT_EXTRA_DELETE_READING_LIST)) {
             onNavigateTo(NavTab.READING_LISTS)
         } else if (intent.hasExtra(Constants.INTENT_EXTRA_GO_TO_MAIN_TAB) &&
-                !(binding.mainNavTabLayout.selectedItemId == NavTab.HOME.code() &&
+                !(currentNavTabState.value == NavTab.HOME &&
                         intent.getIntExtra(Constants.INTENT_EXTRA_GO_TO_MAIN_TAB, NavTab.HOME.code()) == NavTab.HOME.code())) {
             onNavigateTo(NavTab.of(intent.getIntExtra(Constants.INTENT_EXTRA_GO_TO_MAIN_TAB, NavTab.HOME.code())))
         } else if (intent.hasExtra(Constants.INTENT_EXTRA_GO_TO_SE_TAB)) {
@@ -515,7 +529,7 @@ class MainFragment : Fragment(), BackPressedHandler, MenuProvider, HistoryFragme
 
     fun setBottomNavVisible(visible: Boolean) {
         binding.mainNavTabBorder.isVisible = visible
-        binding.mainNavTabLayout.isVisible = visible
+        binding.mainNavComposeView.isVisible = visible
     }
 
     fun onGoOffline() {
@@ -593,7 +607,7 @@ class MainFragment : Fragment(), BackPressedHandler, MenuProvider, HistoryFragme
             Prefs.isHomeFeedUpdateTooltipShown = true
             binding.root.post {
                 if (isAdded) {
-                    FeedbackUtil.showTooltip(requireActivity(), binding.mainNavTabLayout.findViewById(NavTab.HOME.id), getString(R.string.home_feed_update_tooltip1), aboveOrBelow = true, autoDismiss = false, showDismissButton = true)
+                    FeedbackUtil.showTooltip(requireActivity(), binding.mainNavComposeView, getString(R.string.home_feed_update_tooltip1), aboveOrBelow = true, autoDismiss = false, showDismissButton = true)
                 }
             }
         }
@@ -607,7 +621,9 @@ class MainFragment : Fragment(), BackPressedHandler, MenuProvider, HistoryFragme
 
     private inner class PageChangeCallback : OnPageChangeCallback() {
         override fun onPageSelected(position: Int) {
-            callback()?.onTabChanged(NavTab.of(position))
+            val tab = NavTab.of(position)
+            currentNavTabState.value = tab
+            callback()?.onTabChanged(tab)
         }
     }
 
@@ -622,8 +638,9 @@ class MainFragment : Fragment(), BackPressedHandler, MenuProvider, HistoryFragme
     }
 
     override fun onNavigateTo(navTab: NavTab) {
-        val lastNavTab = NavTab.entries.find { binding.mainNavTabLayout.selectedItemId == binding.mainNavTabLayout.menu[it.code()].itemId }
-        binding.mainNavTabLayout.selectedItemId = binding.mainNavTabLayout.menu[navTab.code()].itemId
+        val lastNavTab = currentNavTabState.value
+        currentNavTabState.value = navTab
+        binding.mainViewPager.setCurrentItem(navTab.code(), false)
         if (lastNavTab == NavTab.EDITS && navTab != NavTab.EDITS) {
             navTabBackStack.add(NavTab.EDITS)
         }

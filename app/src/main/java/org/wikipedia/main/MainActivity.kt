@@ -131,7 +131,7 @@ class MainActivity : SingleFragmentActivity<MainFragment>(), MainFragment.Callba
             applyNavBarTheme(WikipediaApp.instance.currentTheme)
         } else {
             if (tab == NavTab.SEARCH && Prefs.showSearchTabTooltip) {
-                FeedbackUtil.showTooltip(this, fragment.binding.mainNavTabLayout.findViewById(NavTab.SEARCH.id), getString(R.string.search_tab_tooltip), aboveOrBelow = true, autoDismiss = false)
+                FeedbackUtil.showTooltip(this, fragment.binding.mainNavComposeView, getString(R.string.search_tab_tooltip), aboveOrBelow = true, autoDismiss = false)
                 Prefs.showSearchTabTooltip = false
             }
             if (tab == NavTab.EDITS) {
@@ -169,8 +169,6 @@ class MainActivity : SingleFragmentActivity<MainFragment>(), MainFragment.Callba
         val wrapper = ContextThemeWrapper(this, theme.resourceId)
         val paperColor = ResourceUtil.getThemedColor(wrapper, R.attr.paper_color)
         val borderColor = ResourceUtil.getThemedColor(wrapper, R.attr.border_color)
-        val colorStateList = AppCompatResources.getColorStateList(wrapper, R.color.color_state_nav_tab)
-        fragment.binding.mainNavTabLayout.applyColors(paperColor, colorStateList)
         fragment.binding.mainNavTabBorder.setBackgroundColor(borderColor)
         fragment.binding.mainNavTabContainer.setBackgroundColor(paperColor)
         setNavigationBarColor(paperColor)

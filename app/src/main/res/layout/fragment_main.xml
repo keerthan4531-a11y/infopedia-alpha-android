@@ -38,19 +38,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent">
 
-        <org.wikipedia.navtab.NavTabLayout
-            android:id="@+id/main_nav_tab_layout"
-            android:background="?attr/paper_color"
+        <androidx.compose.ui.platform.ComposeView
+            android:id="@+id/main_nav_compose_view"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:itemIconTint="@color/color_state_nav_tab"
-            app:itemTextAppearanceActive="@style/BottomNavigationTextAppearance.Active"
-            app:itemTextAppearanceInactive="@style/BottomNavigationTextAppearance"
-            app:itemTextColor="@color/color_state_nav_tab"
-            app:labelVisibilityMode="labeled"
-            app:tabGravity="fill"
-            app:itemPaddingTop="8dp"
-            app:elevation="0dp"/>
+            android:layout_height="wrap_content" />
 
     </FrameLayout>
 

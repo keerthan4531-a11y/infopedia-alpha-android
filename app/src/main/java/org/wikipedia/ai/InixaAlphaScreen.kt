@@ -59,10 +59,12 @@ import androidx.compose.ui.unit.sp
 import org.wikipedia.R
 import org.wikipedia.compose.theme.WikipediaTheme
 import androidx.compose.foundation.layout.WindowInsets
-import androidx.compose.foundation.layout.imePadding
-import androidx.compose.foundation.layout.navigationBarsPadding
+import androidx.compose.foundation.layout.ime
+import androidx.compose.foundation.layout.navigationBars
 import androidx.compose.foundation.layout.statusBarsPadding
+import androidx.compose.foundation.layout.union
 import androidx.compose.foundation.layout.widthIn
+import androidx.compose.foundation.layout.windowInsetsPadding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 
@@ -74,9 +76,7 @@ fun InixaAlphaScreen(
     val neu = neuColors()
 
     Scaffold(
-        modifier = Modifier
-            .fillMaxSize()
-            .imePadding(),
+        modifier = Modifier.fillMaxSize(),
         containerColor = WikipediaTheme.colors.neuBackground,
         contentWindowInsets = WindowInsets(0, 0, 0, 0),
         bottomBar = {
@@ -84,7 +84,7 @@ fun InixaAlphaScreen(
                 modifier = Modifier
                     .fillMaxWidth()
                     .background(WikipediaTheme.colors.neuBackground)
-                    .navigationBarsPadding(),
+                    .windowInsetsPadding(WindowInsets.navigationBars.union(WindowInsets.ime)),
                 contentAlignment = Alignment.TopCenter
             ) {
                 Column(

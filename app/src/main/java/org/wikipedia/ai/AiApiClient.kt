@@ -35,9 +35,11 @@ object AiApiClient {
     ): Flow<StreamEvent> = callbackFlow {
         val messagesArray = JSONArray()
 
-        // If Wikipedia context is available, add it as a token-optimized RAG system message
+        var contextText: String? = null
+
+        // If Wikipedia context is available, build token-optimized RAG context
         if (wikipediaContext != null && (wikipediaContext.articles.isNotEmpty() || wikipediaContext.rankedChunks.isNotEmpty() || wikipediaContext.wikidataFacts.isNotEmpty())) {
-            val contextText = buildString {
+            contextText = buildString {
                 append("You are Infopedia Alpha's token-optimized RAG AI. Ground your answers strictly in the verified sources below.\n\n")
 
                 // PRIORITY 1: Wikidata Structured Facts (Compact & High Accuracy)
@@ -69,18 +71,31 @@ object AiApiClient {
                 append("3. If query language is Tamil, respond in clear Tamil using the provided cross-language context.\n")
                 append("4. Conclude with '### Related Questions' listing 3 short follow-up bullet points (- ...).\n")
             }
+
+            // Standard system role message for models that support it
             messagesArray.put(JSONObject().apply {
                 put("role", "system")
                 put("content", contextText)
             })
         }
 
-        // Add chat messages with full multi-turn conversation context (ChatGPT style)
+        // Add chat messages with full multi-turn conversation context
         val validMessages = messages.filter { it.content.isNotBlank() }.takeLast(20)
-        for (msg in validMessages) {
+        for (i in validMessages.indices) {
+            val msg = validMessages[i]
+            val isLastUserMsg = (i == validMessages.lastIndex && msg.role == AiChatMessage.ROLE_USER)
+            
+            // For workers/proxies (Qwen, Baidu, Grok, etc.) that strip 'system' roles,
+            // inject RAG context into the final user prompt to guarantee 100% citation & follow-up enforcement
+            val finalContent = if (isLastUserMsg && contextText != null) {
+                "[WIKIDATA & WIKIPEDIA CONTEXT INJECTED]\n$contextText\n\n[USER QUESTION]\n${msg.content}"
+            } else {
+                msg.content
+            }
+
             messagesArray.put(JSONObject().apply {
                 put("role", msg.role)
-                put("content", msg.content)
+                put("content", finalContent)
             })
         }
 

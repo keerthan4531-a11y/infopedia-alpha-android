@@ -10,7 +10,6 @@ import androidx.compose.animation.core.animateFloat
 import androidx.compose.animation.core.infiniteRepeatable
 import androidx.compose.animation.core.rememberInfiniteTransition
 import androidx.compose.animation.core.tween
-import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
@@ -28,7 +27,6 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
-import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -36,6 +34,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
@@ -75,31 +74,47 @@ fun StreamingTextRenderer(
         label = "cursor"
     )
 
+    val neu = neuColors()
+
     if (text.isEmpty() && isStreaming) {
-        Row(
-            verticalAlignment = Alignment.CenterVertically,
-            modifier = Modifier.padding(vertical = 4.dp)
+        // Neumorphic pressed pill for "Thinking..." indicator
+        Box(
+            modifier = Modifier
+                .neuPressed(
+                    lightShadow = neu.lightShadow,
+                    darkShadow = neu.darkShadow,
+                    shadowRadius = 4.dp,
+                    cornerRadius = 16.dp,
+                    intensity = 0.35f
+                )
+                .background(WikipediaTheme.colors.neuBackground, RoundedCornerShape(16.dp))
+                .clip(RoundedCornerShape(16.dp))
+                .padding(horizontal = 12.dp, vertical = 8.dp)
         ) {
-            RotatingText(
-                texts = listOf(
-                    "✨ Thinking…",
-                    "🌐 Connecting to Wikipedia…",
-                    "🧬 Collecting Context Data…",
-                    "⚡ Synthesizing Response…"
-                ),
-                color = WikipediaTheme.colors.progressiveColor,
-                fontSize = 14.sp,
-                fontWeight = FontWeight.Medium,
-                rotationInterval = 1800L,
-                staggerDuration = 18L
-            )
-            Spacer(modifier = Modifier.width(6.dp))
-            Text(
-                text = "▍",
-                fontSize = 15.sp,
-                color = WikipediaTheme.colors.progressiveColor,
-                modifier = Modifier.alpha(cursorAlpha)
-            )
+            Row(
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                RotatingText(
+                    texts = listOf(
+                        "✨ Thinking…",
+                        "🌐 Connecting to Wikipedia…",
+                        "🧬 Collecting Context Data…",
+                        "⚡ Synthesizing Response…"
+                    ),
+                    color = WikipediaTheme.colors.neuAccent,
+                    fontSize = 14.sp,
+                    fontWeight = FontWeight.Medium,
+                    rotationInterval = 1800L,
+                    staggerDuration = 18L
+                )
+                Spacer(modifier = Modifier.width(6.dp))
+                Text(
+                    text = "▍",
+                    fontSize = 15.sp,
+                    color = WikipediaTheme.colors.neuAccent,
+                    modifier = Modifier.alpha(cursorAlpha)
+                )
+            }
         }
     } else {
         val blocks = remember(text) { parseMarkdownBlocks(text) }
@@ -126,10 +141,10 @@ fun StreamingTextRenderer(
                         )
                     }
                     is MarkdownBlock.CodeBlock -> {
-                        RenderCodeBlock(codeBlock = block)
+                        NeuRenderCodeBlock(codeBlock = block, neu = neu)
                     }
                     is MarkdownBlock.Table -> {
-                        RenderTable(table = block)
+                        NeuRenderTable(table = block, neu = neu)
                     }
                     is MarkdownBlock.BulletList -> {
                         RenderBulletList(
@@ -155,7 +170,7 @@ private fun RenderParagraph(
         text = if (showCursor) {
             buildAnnotatedString {
                 append(annotatedString)
-                withStyle(SpanStyle(color = WikipediaTheme.colors.progressiveColor)) {
+                withStyle(SpanStyle(color = WikipediaTheme.colors.neuAccent)) {
                     append("▍")
                 }
             }
@@ -185,7 +200,7 @@ private fun RenderHeading(
         text = if (showCursor) {
             buildAnnotatedString {
                 append(annotatedString)
-                withStyle(SpanStyle(color = WikipediaTheme.colors.progressiveColor)) {
+                withStyle(SpanStyle(color = WikipediaTheme.colors.neuAccent)) {
                     append("▍")
                 }
             }
@@ -200,17 +215,30 @@ private fun RenderHeading(
     )
 }
 
+// ============================================================================
+// NEOMORPHIC CODE BLOCK — Pressed/inset container
+// ============================================================================
+
 @Composable
-private fun RenderCodeBlock(codeBlock: MarkdownBlock.CodeBlock) {
+private fun NeuRenderCodeBlock(
+    codeBlock: MarkdownBlock.CodeBlock,
+    neu: NeuColors
+) {
     val context = LocalContext.current
 
-    Surface(
-        color = Color(0xFF1E1E2E), // Sleek dark code theme
-        shape = RoundedCornerShape(10.dp),
-        border = BorderStroke(1.dp, Color(0xFF313244)),
+    Box(
         modifier = Modifier
             .fillMaxWidth()
             .padding(vertical = 4.dp)
+            .neuPressed(
+                lightShadow = neu.lightShadow,
+                darkShadow = neu.darkShadow,
+                shadowRadius = 6.dp,
+                cornerRadius = 10.dp,
+                intensity = 0.5f
+            )
+            .background(Color(0xFF1E1E2E), RoundedCornerShape(10.dp))
+            .clip(RoundedCornerShape(10.dp))
     ) {
         Column {
             // Header bar with language label and copy button
@@ -267,42 +295,67 @@ private fun RenderCodeBlock(codeBlock: MarkdownBlock.CodeBlock) {
     }
 }
 
+// ============================================================================
+// NEOMORPHIC TABLE — Elevated container with pressed header
+// ============================================================================
+
 @Composable
-private fun RenderTable(table: MarkdownBlock.Table) {
-    Surface(
-        color = WikipediaTheme.colors.paperColor,
-        shape = RoundedCornerShape(10.dp),
-        border = BorderStroke(1.dp, WikipediaTheme.colors.borderColor),
+private fun NeuRenderTable(
+    table: MarkdownBlock.Table,
+    neu: NeuColors
+) {
+    Box(
         modifier = Modifier
             .fillMaxWidth()
             .padding(vertical = 4.dp)
+            .neuElevated(
+                lightShadow = neu.lightShadow,
+                darkShadow = neu.darkShadow,
+                shadowRadius = 6.dp,
+                cornerRadius = 10.dp,
+                lightOffset = (-2).dp,
+                darkOffset = 3.dp,
+                intensity = 0.45f
+            )
+            .background(WikipediaTheme.colors.neuSurfaceCard, RoundedCornerShape(10.dp))
+            .clip(RoundedCornerShape(10.dp))
     ) {
         Column(
             modifier = Modifier
                 .horizontalScroll(rememberScrollState())
                 .padding(1.dp)
         ) {
-            // Header Row
-            Row(
+            // Header Row — pressed inset effect
+            Box(
                 modifier = Modifier
-                    .background(WikipediaTheme.colors.progressiveColor.copy(alpha = 0.12f))
-                    .padding(vertical = 8.dp, horizontal = 4.dp),
-                verticalAlignment = Alignment.CenterVertically
+                    .neuPressed(
+                        lightShadow = neu.lightShadow,
+                        darkShadow = neu.darkShadow,
+                        shadowRadius = 3.dp,
+                        cornerRadius = 0.dp,
+                        intensity = 0.25f
+                    )
+                    .background(WikipediaTheme.colors.neuAccent.copy(alpha = 0.08f))
             ) {
-                table.headers.forEach { header ->
-                    Box(
-                        modifier = Modifier
-                            .width(140.dp)
-                            .padding(horizontal = 8.dp)
-                    ) {
-                        Text(
-                            text = header,
-                            fontSize = 13.sp,
-                            fontWeight = FontWeight.Bold,
-                            color = WikipediaTheme.colors.primaryColor,
-                            maxLines = 2,
-                            overflow = TextOverflow.Ellipsis
-                        )
+                Row(
+                    modifier = Modifier.padding(vertical = 8.dp, horizontal = 4.dp),
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    table.headers.forEach { header ->
+                        Box(
+                            modifier = Modifier
+                                .width(140.dp)
+                                .padding(horizontal = 8.dp)
+                        ) {
+                            Text(
+                                text = header,
+                                fontSize = 13.sp,
+                                fontWeight = FontWeight.Bold,
+                                color = WikipediaTheme.colors.primaryColor,
+                                maxLines = 2,
+                                overflow = TextOverflow.Ellipsis
+                            )
+                        }
                     }
                 }
             }
@@ -312,9 +365,9 @@ private fun RenderTable(table: MarkdownBlock.Table) {
             // Data Rows
             table.rows.forEachIndexed { rowIndex, row ->
                 val rowBg = if (rowIndex % 2 == 0)
-                    WikipediaTheme.colors.paperColor
+                    WikipediaTheme.colors.neuSurfaceCard
                 else
-                    WikipediaTheme.colors.backgroundColor.copy(alpha = 0.5f)
+                    WikipediaTheme.colors.neuBackground.copy(alpha = 0.5f)
 
                 Row(
                     modifier = Modifier
@@ -322,7 +375,7 @@ private fun RenderTable(table: MarkdownBlock.Table) {
                         .padding(vertical = 8.dp, horizontal = 4.dp),
                     verticalAlignment = Alignment.CenterVertically
                 ) {
-                    row.forEachIndexed { colIndex, cell ->
+                    row.forEach { cell ->
                         Box(
                             modifier = Modifier
                                 .width(140.dp)
@@ -339,7 +392,7 @@ private fun RenderTable(table: MarkdownBlock.Table) {
                 }
                 if (rowIndex < table.rows.lastIndex) {
                     HorizontalDivider(
-                        color = WikipediaTheme.colors.borderColor.copy(alpha = 0.4f),
+                        color = WikipediaTheme.colors.borderColor.copy(alpha = 0.3f),
                         thickness = 0.5.dp
                     )
                 }
@@ -365,7 +418,7 @@ private fun RenderBulletList(
                     text = "• ",
                     fontSize = 15.sp,
                     fontWeight = FontWeight.Bold,
-                    color = WikipediaTheme.colors.progressiveColor,
+                    color = WikipediaTheme.colors.neuAccent,
                     modifier = Modifier.padding(end = 4.dp)
                 )
                 val annotatedString = parseInlineMarkdown(item)
@@ -373,7 +426,7 @@ private fun RenderBulletList(
                     text = if (showCursor && isLastItem) {
                         buildAnnotatedString {
                             append(annotatedString)
-                            withStyle(SpanStyle(color = WikipediaTheme.colors.progressiveColor)) {
+                            withStyle(SpanStyle(color = WikipediaTheme.colors.neuAccent)) {
                                 append("▍")
                             }
                         }

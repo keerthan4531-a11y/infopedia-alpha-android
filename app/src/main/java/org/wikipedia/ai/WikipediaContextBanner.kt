@@ -6,21 +6,24 @@ import androidx.compose.animation.core.animateFloat
 import androidx.compose.animation.core.infiniteRepeatable
 import androidx.compose.animation.core.rememberInfiniteTransition
 import androidx.compose.animation.core.tween
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Icon
-import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
@@ -42,25 +45,57 @@ fun WikipediaContextBanner(status: WikipediaSearchStatus) {
         label = "pulse_alpha"
     )
 
-    Surface(
-        color = WikipediaTheme.colors.progressiveColor.copy(alpha = 0.1f),
-        shape = RoundedCornerShape(0.dp),
-        modifier = Modifier.fillMaxWidth()
+    val neu = neuColors()
+
+    // Neumorphic elevated slim banner
+    Box(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(horizontal = 12.dp, vertical = 4.dp)
+            .neuElevated(
+                lightShadow = neu.lightShadow,
+                darkShadow = neu.darkShadow,
+                shadowRadius = 6.dp,
+                cornerRadius = 12.dp,
+                lightOffset = (-2).dp,
+                darkOffset = 3.dp,
+                intensity = 0.45f
+            )
+            .background(WikipediaTheme.colors.neuBackground, RoundedCornerShape(12.dp))
+            .clip(RoundedCornerShape(12.dp))
     ) {
         Row(
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(horizontal = 16.dp, vertical = 10.dp),
+                .padding(horizontal = 14.dp, vertical = 10.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
-            Icon(
-                painter = painterResource(id = R.drawable.ic_w_transparent),
-                contentDescription = null,
+            // Wikipedia icon in a small neumorphic circle
+            Box(
                 modifier = Modifier
-                    .size(18.dp)
-                    .alpha(pulseAlpha),
-                tint = WikipediaTheme.colors.progressiveColor
-            )
+                    .size(28.dp)
+                    .neuElevated(
+                        lightShadow = neu.lightShadow,
+                        darkShadow = neu.darkShadow,
+                        shadowRadius = 3.dp,
+                        cornerRadius = 14.dp,
+                        lightOffset = (-1).dp,
+                        darkOffset = 2.dp,
+                        intensity = 0.4f
+                    )
+                    .background(WikipediaTheme.colors.neuBackground, CircleShape),
+                contentAlignment = Alignment.Center
+            ) {
+                Icon(
+                    painter = painterResource(id = R.drawable.ic_w_transparent),
+                    contentDescription = null,
+                    modifier = Modifier
+                        .size(16.dp)
+                        .alpha(pulseAlpha),
+                    tint = WikipediaTheme.colors.progressiveColor
+                )
+            }
+
             Spacer(modifier = Modifier.width(10.dp))
 
             when (status) {

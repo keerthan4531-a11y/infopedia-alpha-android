@@ -5,7 +5,6 @@ import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.slideInVertically
-import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -29,10 +28,6 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
-import androidx.compose.material3.AssistChip
-import androidx.compose.material3.AssistChipDefaults
-import androidx.compose.material3.CircularProgressIndicator
-import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.Scaffold
@@ -51,6 +46,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
@@ -69,7 +65,6 @@ import androidx.compose.foundation.layout.navigationBars
 import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.platform.LocalDensity
 
 @Composable
@@ -78,6 +73,7 @@ fun InixaAlphaScreen(
 ) {
     val uiState by viewModel.uiState.collectAsState()
     val density = LocalDensity.current
+    val neu = neuColors()
 
     // Calculate exact bottom inset to eliminate gap above soft keyboard
     val imeBottom = WindowInsets.ime.getBottom(density)
@@ -86,18 +82,20 @@ fun InixaAlphaScreen(
     val bottomInsetDp = with(density) { bottomInsetPx.toDp() }
 
     Scaffold(
-        containerColor = WikipediaTheme.colors.backgroundColor,
+        containerColor = WikipediaTheme.colors.neuBackground,
         contentWindowInsets = WindowInsets(0, 0, 0, 0)
     ) { paddingValues ->
         Column(
             modifier = Modifier
                 .fillMaxSize()
+                .background(WikipediaTheme.colors.neuBackground)
                 .padding(paddingValues)
         ) {
             // Header with AI title and model picker trigger button
-            TopHeaderBar(
+            NeuTopHeaderBar(
                 selectedModel = uiState.selectedModel,
-                onModelClick = { viewModel.toggleModelSelector() }
+                onModelClick = { viewModel.toggleModelSelector() },
+                neu = neu
             )
 
             // Main chat content area or Welcome screen
@@ -107,8 +105,9 @@ fun InixaAlphaScreen(
                     .fillMaxWidth()
             ) {
                 if (uiState.messages.isEmpty()) {
-                    WelcomeScreen(
-                        onSuggestionClick = { viewModel.sendMessage(it) }
+                    NeuWelcomeScreen(
+                        onSuggestionClick = { viewModel.sendMessage(it) },
+                        neu = neu
                     )
                 } else {
                     ChatMessagesList(
@@ -137,14 +136,15 @@ fun InixaAlphaScreen(
                 }
 
                 // Bottom input area
-                ChatInputBar(
+                NeuChatInputBar(
                     selectedModel = uiState.selectedModel,
                     isWikipediaConnected = uiState.isWikipediaConnected,
                     isStreaming = uiState.isStreaming,
                     onSendMessage = { viewModel.sendMessage(it) },
                     onToggleWikipedia = { viewModel.toggleWikipedia() },
                     onModelClick = { viewModel.toggleModelSelector() },
-                    onStopStreaming = { viewModel.stopStreaming() }
+                    onStopStreaming = { viewModel.stopStreaming() },
+                    neu = neu
                 )
             }
         }
@@ -161,68 +161,113 @@ fun InixaAlphaScreen(
     }
 }
 
+// ============================================================================
+// NEOMORPHIC TOP HEADER BAR
+// ============================================================================
+
 @Composable
-private fun TopHeaderBar(
+private fun NeuTopHeaderBar(
     selectedModel: AiModel,
-    onModelClick: () -> Unit
+    onModelClick: () -> Unit,
+    neu: NeuColors
 ) {
-    Surface(
-        color = WikipediaTheme.colors.paperColor,
-        shadowElevation = 2.dp,
+    Box(
         modifier = Modifier
             .fillMaxWidth()
             .statusBarsPadding()
+            .neuElevated(
+                lightShadow = neu.lightShadow,
+                darkShadow = neu.darkShadow,
+                shadowRadius = 8.dp,
+                cornerRadius = 0.dp,
+                lightOffset = (-3).dp,
+                darkOffset = 4.dp,
+                intensity = 0.5f
+            )
+            .background(WikipediaTheme.colors.neuBackground)
     ) {
         Column {
             Row(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(horizontal = 16.dp, vertical = 12.dp),
+                    .padding(horizontal = 16.dp, vertical = 14.dp),
                 verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.SpaceBetween
             ) {
                 Row(verticalAlignment = Alignment.CenterVertically) {
-                    Icon(
-                        painter = painterResource(id = R.drawable.ic_ai_sparkles_24dp),
-                        contentDescription = null,
-                        modifier = Modifier.size(24.dp),
-                        tint = WikipediaTheme.colors.progressiveColor
-                    )
-                    Spacer(modifier = Modifier.width(8.dp))
+                    // Sparkle icon in a neumorphic circle
+                    Box(
+                        modifier = Modifier
+                            .size(36.dp)
+                            .neuElevated(
+                                lightShadow = neu.lightShadow,
+                                darkShadow = neu.darkShadow,
+                                shadowRadius = 6.dp,
+                                cornerRadius = 18.dp,
+                                lightOffset = (-2).dp,
+                                darkOffset = 2.dp,
+                                intensity = 0.5f
+                            )
+                            .background(WikipediaTheme.colors.neuBackground, CircleShape),
+                        contentAlignment = Alignment.Center
+                    ) {
+                        Icon(
+                            painter = painterResource(id = R.drawable.ic_ai_sparkles_24dp),
+                            contentDescription = null,
+                            modifier = Modifier.size(20.dp),
+                            tint = WikipediaTheme.colors.neuAccent
+                        )
+                    }
+                    Spacer(modifier = Modifier.width(10.dp))
                     Text(
                         text = "INIXA-ALPHA",
                         fontSize = 18.sp,
                         fontWeight = FontWeight.Bold,
                         color = WikipediaTheme.colors.primaryColor,
-                        letterSpacing = 0.5.sp
+                        letterSpacing = 1.sp
                     )
                     Spacer(modifier = Modifier.width(8.dp))
-                    Surface(
-                        color = WikipediaTheme.colors.progressiveColor.copy(alpha = 0.15f),
-                        shape = RoundedCornerShape(6.dp)
+                    // "AI ASSISTANT" badge — neumorphic pressed pill
+                    Box(
+                        modifier = Modifier
+                            .neuPressed(
+                                lightShadow = neu.lightShadow,
+                                darkShadow = neu.darkShadow,
+                                shadowRadius = 3.dp,
+                                cornerRadius = 6.dp,
+                                intensity = 0.3f
+                            )
+                            .background(WikipediaTheme.colors.neuBackground, RoundedCornerShape(6.dp))
+                            .padding(horizontal = 7.dp, vertical = 3.dp)
                     ) {
                         Text(
                             text = "AI ASSISTANT",
                             fontSize = 9.sp,
                             fontWeight = FontWeight.Bold,
-                            color = WikipediaTheme.colors.progressiveColor,
-                            modifier = Modifier.padding(horizontal = 6.dp, vertical = 2.dp)
+                            color = WikipediaTheme.colors.neuAccent,
+                            letterSpacing = 0.5.sp
                         )
                     }
                 }
 
-                // Header model selector button
-                Surface(
+                // Header model selector button — neumorphic elevated pill
+                Box(
                     modifier = Modifier
                         .clip(RoundedCornerShape(16.dp))
-                        .clickable { onModelClick() },
-                    color = WikipediaTheme.colors.backgroundColor,
-                    shape = RoundedCornerShape(16.dp)
+                        .clickable { onModelClick() }
+                        .neuElevated(
+                            lightShadow = neu.lightShadow,
+                            darkShadow = neu.darkShadow,
+                            shadowRadius = 5.dp,
+                            cornerRadius = 16.dp,
+                            lightOffset = (-2).dp,
+                            darkOffset = 2.dp,
+                            intensity = 0.45f
+                        )
+                        .background(WikipediaTheme.colors.neuBackground, RoundedCornerShape(16.dp))
+                        .padding(horizontal = 10.dp, vertical = 6.dp)
                 ) {
-                    Row(
-                        modifier = Modifier.padding(horizontal = 10.dp, vertical = 5.dp),
-                        verticalAlignment = Alignment.CenterVertically
-                    ) {
+                    Row(verticalAlignment = Alignment.CenterVertically) {
                         Text(
                             text = selectedModel.badge,
                             fontSize = 11.sp,
@@ -239,13 +284,37 @@ private fun TopHeaderBar(
                     }
                 }
             }
-            HorizontalDivider(color = WikipediaTheme.colors.borderColor, thickness = 0.5.dp)
+
+            // Subtle accent gradient line at the bottom of the header
+            Box(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .height(1.5.dp)
+                    .background(
+                        Brush.horizontalGradient(
+                            colors = listOf(
+                                WikipediaTheme.colors.neuAccent.copy(alpha = 0.0f),
+                                WikipediaTheme.colors.neuAccent.copy(alpha = 0.3f),
+                                WikipediaTheme.colors.neuAccent.copy(alpha = 0.5f),
+                                WikipediaTheme.colors.neuAccent.copy(alpha = 0.3f),
+                                WikipediaTheme.colors.neuAccent.copy(alpha = 0.0f)
+                            )
+                        )
+                    )
+            )
         }
     }
 }
 
+// ============================================================================
+// NEOMORPHIC WELCOME SCREEN
+// ============================================================================
+
 @Composable
-private fun WelcomeScreen(onSuggestionClick: (String) -> Unit) {
+private fun NeuWelcomeScreen(
+    onSuggestionClick: (String) -> Unit,
+    neu: NeuColors
+) {
     val alpha by animateFloatAsState(
         targetValue = 1f,
         animationSpec = tween(800),
@@ -261,14 +330,31 @@ private fun WelcomeScreen(onSuggestionClick: (String) -> Unit) {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        Icon(
-            painter = painterResource(id = R.drawable.ic_ai_sparkles_24dp),
-            contentDescription = null,
-            modifier = Modifier.size(56.dp),
-            tint = WikipediaTheme.colors.progressiveColor
-        )
+        // Large sparkle icon in a neumorphic raised orb
+        Box(
+            modifier = Modifier
+                .size(80.dp)
+                .neuElevated(
+                    lightShadow = neu.lightShadow,
+                    darkShadow = neu.darkShadow,
+                    shadowRadius = 14.dp,
+                    cornerRadius = 40.dp,
+                    lightOffset = (-6).dp,
+                    darkOffset = 6.dp,
+                    intensity = 0.6f
+                )
+                .background(WikipediaTheme.colors.neuBackground, CircleShape),
+            contentAlignment = Alignment.Center
+        ) {
+            Icon(
+                painter = painterResource(id = R.drawable.ic_ai_sparkles_24dp),
+                contentDescription = null,
+                modifier = Modifier.size(40.dp),
+                tint = WikipediaTheme.colors.neuAccent
+            )
+        }
 
-        Spacer(modifier = Modifier.height(16.dp))
+        Spacer(modifier = Modifier.height(20.dp))
 
         Text(
             text = stringResource(R.string.inixa_alpha_tagline),
@@ -280,13 +366,20 @@ private fun WelcomeScreen(onSuggestionClick: (String) -> Unit) {
 
         Spacer(modifier = Modifier.height(36.dp))
 
-        SuggestionChips(onSuggestionClick = onSuggestionClick)
+        NeuSuggestionChips(onSuggestionClick = onSuggestionClick, neu = neu)
     }
 }
 
+// ============================================================================
+// NEOMORPHIC SUGGESTION CHIPS
+// ============================================================================
+
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-private fun SuggestionChips(onSuggestionClick: (String) -> Unit) {
+private fun NeuSuggestionChips(
+    onSuggestionClick: (String) -> Unit,
+    neu: NeuColors
+) {
     val suggestions = listOf(
         "🌍" to "How was the UN formed?",
         "🖼️" to "Impressionism and expressionism",
@@ -297,34 +390,42 @@ private fun SuggestionChips(onSuggestionClick: (String) -> Unit) {
     )
 
     FlowRow(
-        horizontalArrangement = Arrangement.spacedBy(8.dp),
-        verticalArrangement = Arrangement.spacedBy(8.dp),
+        horizontalArrangement = Arrangement.spacedBy(10.dp),
+        verticalArrangement = Arrangement.spacedBy(10.dp),
         modifier = Modifier.fillMaxWidth()
     ) {
         suggestions.forEach { (emoji, text) ->
-            AssistChip(
-                onClick = { onSuggestionClick(text) },
-                label = {
-                    Text(
-                        text = "$emoji $text",
-                        fontSize = 13.sp,
-                        maxLines = 1,
-                        overflow = TextOverflow.Ellipsis,
-                        color = WikipediaTheme.colors.primaryColor
+            Box(
+                modifier = Modifier
+                    .clip(RoundedCornerShape(20.dp))
+                    .clickable { onSuggestionClick(text) }
+                    .neuElevated(
+                        lightShadow = neu.lightShadow,
+                        darkShadow = neu.darkShadow,
+                        shadowRadius = 5.dp,
+                        cornerRadius = 20.dp,
+                        lightOffset = (-2).dp,
+                        darkOffset = 3.dp,
+                        intensity = 0.5f
                     )
-                },
-                shape = RoundedCornerShape(20.dp),
-                colors = AssistChipDefaults.assistChipColors(
-                    containerColor = WikipediaTheme.colors.backgroundColor
-                ),
-                border = AssistChipDefaults.assistChipBorder(
-                    enabled = true,
-                    borderColor = WikipediaTheme.colors.borderColor
+                    .background(WikipediaTheme.colors.neuBackground, RoundedCornerShape(20.dp))
+                    .padding(horizontal = 14.dp, vertical = 9.dp)
+            ) {
+                Text(
+                    text = "$emoji $text",
+                    fontSize = 13.sp,
+                    maxLines = 1,
+                    overflow = TextOverflow.Ellipsis,
+                    color = WikipediaTheme.colors.primaryColor
                 )
-            )
+            }
         }
     }
 }
+
+// ============================================================================
+// CHAT MESSAGES LIST (delegates to ChatBubble for rendering)
+// ============================================================================
 
 @Composable
 private fun ChatMessagesList(
@@ -358,48 +459,68 @@ private fun ChatMessagesList(
     }
 }
 
-
+// ============================================================================
+// NEOMORPHIC CHAT INPUT BAR
+// ============================================================================
 
 @Composable
-private fun ChatInputBar(
+private fun NeuChatInputBar(
     selectedModel: AiModel,
     isWikipediaConnected: Boolean,
     isStreaming: Boolean,
     onSendMessage: (String) -> Unit,
     onToggleWikipedia: () -> Unit,
     onModelClick: () -> Unit,
-    onStopStreaming: () -> Unit
+    onStopStreaming: () -> Unit,
+    neu: NeuColors
 ) {
     var inputText by remember { mutableStateOf("") }
 
-    Surface(
-        color = WikipediaTheme.colors.paperColor,
-        shadowElevation = 8.dp
+    // Elevated neumorphic bottom bar
+    Box(
+        modifier = Modifier
+            .fillMaxWidth()
+            .neuElevated(
+                lightShadow = neu.lightShadow,
+                darkShadow = neu.darkShadow,
+                shadowRadius = 10.dp,
+                cornerRadius = 0.dp,
+                lightOffset = (-4).dp,
+                darkOffset = 0.dp,
+                intensity = 0.5f
+            )
+            .background(WikipediaTheme.colors.neuBackground)
     ) {
         Column(
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(horizontal = 12.dp, vertical = 8.dp)
+                .padding(horizontal = 12.dp, vertical = 10.dp)
         ) {
             // Model selector + Wikipedia toggle row
             Row(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(bottom = 6.dp),
+                    .padding(bottom = 8.dp),
                 verticalAlignment = Alignment.CenterVertically
             ) {
-                // Model badge pill
-                Surface(
+                // Model badge pill — neumorphic elevated
+                Box(
                     modifier = Modifier
                         .clip(RoundedCornerShape(16.dp))
-                        .clickable { onModelClick() },
-                    color = getBadgeColor(selectedModel.badgeColor).copy(alpha = 0.15f),
-                    shape = RoundedCornerShape(16.dp)
+                        .clickable { onModelClick() }
+                        .neuElevated(
+                            lightShadow = neu.lightShadow,
+                            darkShadow = neu.darkShadow,
+                            shadowRadius = 4.dp,
+                            cornerRadius = 16.dp,
+                            lightOffset = (-2).dp,
+                            darkOffset = 2.dp,
+                            intensity = 0.45f
+                        )
+                        .background(WikipediaTheme.colors.neuBackground, RoundedCornerShape(16.dp))
+                        .padding(horizontal = 10.dp, vertical = 6.dp)
                 ) {
-                    Row(
-                        modifier = Modifier.padding(horizontal = 10.dp, vertical = 5.dp),
-                        verticalAlignment = Alignment.CenterVertically
-                    ) {
+                    Row(verticalAlignment = Alignment.CenterVertically) {
                         Icon(
                             painter = painterResource(id = R.drawable.ic_ai_sparkles_24dp),
                             contentDescription = null,
@@ -426,40 +547,73 @@ private fun ChatInputBar(
 
                 Spacer(modifier = Modifier.weight(1f))
 
-                // Wikipedia toggle pill
-                Surface(
-                    modifier = Modifier
-                        .clip(RoundedCornerShape(16.dp))
-                        .clickable { onToggleWikipedia() },
-                    color = if (isWikipediaConnected)
-                        WikipediaTheme.colors.progressiveColor.copy(alpha = 0.15f)
-                    else
-                        WikipediaTheme.colors.backgroundColor,
-                    shape = RoundedCornerShape(16.dp)
-                ) {
-                    Row(
-                        modifier = Modifier.padding(horizontal = 10.dp, vertical = 5.dp),
-                        verticalAlignment = Alignment.CenterVertically
+                // Wikipedia toggle pill — neumorphic pressed when active, elevated when inactive
+                if (isWikipediaConnected) {
+                    Box(
+                        modifier = Modifier
+                            .clip(RoundedCornerShape(16.dp))
+                            .clickable { onToggleWikipedia() }
+                            .neuPressed(
+                                lightShadow = neu.lightShadow,
+                                darkShadow = neu.darkShadow,
+                                shadowRadius = 4.dp,
+                                cornerRadius = 16.dp,
+                                intensity = 0.5f
+                            )
+                            .background(
+                                WikipediaTheme.colors.progressiveColor.copy(alpha = 0.12f),
+                                RoundedCornerShape(16.dp)
+                            )
+                            .padding(horizontal = 10.dp, vertical = 6.dp)
                     ) {
-                        Icon(
-                            painter = painterResource(id = R.drawable.ic_w_transparent),
-                            contentDescription = null,
-                            modifier = Modifier.size(16.dp),
-                            tint = if (isWikipediaConnected)
-                                WikipediaTheme.colors.progressiveColor
-                            else
-                                WikipediaTheme.colors.secondaryColor
-                        )
-                        Spacer(modifier = Modifier.width(4.dp))
-                        Text(
-                            text = "Wikipedia",
-                            fontSize = 12.sp,
-                            fontWeight = FontWeight.Bold,
-                            color = if (isWikipediaConnected)
-                                WikipediaTheme.colors.progressiveColor
-                            else
-                                WikipediaTheme.colors.secondaryColor
-                        )
+                        Row(verticalAlignment = Alignment.CenterVertically) {
+                            Icon(
+                                painter = painterResource(id = R.drawable.ic_w_transparent),
+                                contentDescription = null,
+                                modifier = Modifier.size(16.dp),
+                                tint = WikipediaTheme.colors.progressiveColor
+                            )
+                            Spacer(modifier = Modifier.width(4.dp))
+                            Text(
+                                text = "Wikipedia",
+                                fontSize = 12.sp,
+                                fontWeight = FontWeight.Bold,
+                                color = WikipediaTheme.colors.progressiveColor
+                            )
+                        }
+                    }
+                } else {
+                    Box(
+                        modifier = Modifier
+                            .clip(RoundedCornerShape(16.dp))
+                            .clickable { onToggleWikipedia() }
+                            .neuElevated(
+                                lightShadow = neu.lightShadow,
+                                darkShadow = neu.darkShadow,
+                                shadowRadius = 4.dp,
+                                cornerRadius = 16.dp,
+                                lightOffset = (-2).dp,
+                                darkOffset = 2.dp,
+                                intensity = 0.4f
+                            )
+                            .background(WikipediaTheme.colors.neuBackground, RoundedCornerShape(16.dp))
+                            .padding(horizontal = 10.dp, vertical = 6.dp)
+                    ) {
+                        Row(verticalAlignment = Alignment.CenterVertically) {
+                            Icon(
+                                painter = painterResource(id = R.drawable.ic_w_transparent),
+                                contentDescription = null,
+                                modifier = Modifier.size(16.dp),
+                                tint = WikipediaTheme.colors.secondaryColor
+                            )
+                            Spacer(modifier = Modifier.width(4.dp))
+                            Text(
+                                text = "Wikipedia",
+                                fontSize = 12.sp,
+                                fontWeight = FontWeight.Bold,
+                                color = WikipediaTheme.colors.secondaryColor
+                            )
+                        }
                     }
                 }
             }
@@ -469,57 +623,106 @@ private fun ChatInputBar(
                 modifier = Modifier.fillMaxWidth(),
                 verticalAlignment = Alignment.CenterVertically
             ) {
-                TextField(
-                    value = inputText,
-                    onValueChange = { inputText = it },
-                    modifier = Modifier.weight(1f),
-                    placeholder = {
-                        Text(
-                            text = stringResource(R.string.inixa_alpha_ask_anything),
-                            color = WikipediaTheme.colors.placeholderColor
+                // Neumorphic pressed/inset text field — "scooped" into the surface
+                Box(
+                    modifier = Modifier
+                        .weight(1f)
+                        .neuPressed(
+                            lightShadow = neu.lightShadow,
+                            darkShadow = neu.darkShadow,
+                            shadowRadius = 5.dp,
+                            cornerRadius = 24.dp,
+                            intensity = 0.45f
                         )
-                    },
-                    colors = TextFieldDefaults.colors(
-                        focusedContainerColor = WikipediaTheme.colors.backgroundColor,
-                        unfocusedContainerColor = WikipediaTheme.colors.backgroundColor,
-                        focusedIndicatorColor = Color.Transparent,
-                        unfocusedIndicatorColor = Color.Transparent,
-                        cursorColor = WikipediaTheme.colors.progressiveColor,
-                        focusedTextColor = WikipediaTheme.colors.primaryColor,
-                        unfocusedTextColor = WikipediaTheme.colors.primaryColor
-                    ),
-                    shape = RoundedCornerShape(24.dp),
-                    keyboardOptions = KeyboardOptions(imeAction = ImeAction.Send),
-                    keyboardActions = KeyboardActions(
-                        onSend = {
-                            if (inputText.isNotBlank() && !isStreaming) {
+                ) {
+                    TextField(
+                        value = inputText,
+                        onValueChange = { inputText = it },
+                        modifier = Modifier.fillMaxWidth(),
+                        placeholder = {
+                            Text(
+                                text = stringResource(R.string.inixa_alpha_ask_anything),
+                                color = WikipediaTheme.colors.placeholderColor
+                            )
+                        },
+                        colors = TextFieldDefaults.colors(
+                            focusedContainerColor = WikipediaTheme.colors.neuBackground,
+                            unfocusedContainerColor = WikipediaTheme.colors.neuBackground,
+                            focusedIndicatorColor = Color.Transparent,
+                            unfocusedIndicatorColor = Color.Transparent,
+                            cursorColor = WikipediaTheme.colors.neuAccent,
+                            focusedTextColor = WikipediaTheme.colors.primaryColor,
+                            unfocusedTextColor = WikipediaTheme.colors.primaryColor
+                        ),
+                        shape = RoundedCornerShape(24.dp),
+                        keyboardOptions = KeyboardOptions(imeAction = ImeAction.Send),
+                        keyboardActions = KeyboardActions(
+                            onSend = {
+                                if (inputText.isNotBlank() && !isStreaming) {
+                                    onSendMessage(inputText)
+                                    inputText = ""
+                                }
+                            }
+                        ),
+                        singleLine = false,
+                        maxLines = 4
+                    )
+                }
+
+                Spacer(modifier = Modifier.width(10.dp))
+
+                // Send / Stop button — neumorphic elevated circle with gradient
+                Box(
+                    modifier = Modifier
+                        .size(46.dp)
+                        .then(
+                            if (isStreaming) {
+                                Modifier.neuGlow(
+                                    glowColor = WikipediaTheme.colors.destructiveColor,
+                                    cornerRadius = 23.dp,
+                                    glowRadius = 10.dp,
+                                    intensity = 0.35f
+                                )
+                            } else {
+                                Modifier.neuElevated(
+                                    lightShadow = neu.lightShadow,
+                                    darkShadow = neu.darkShadow,
+                                    shadowRadius = 6.dp,
+                                    cornerRadius = 23.dp,
+                                    lightOffset = (-3).dp,
+                                    darkOffset = 3.dp,
+                                    intensity = 0.6f
+                                )
+                            }
+                        )
+                        .background(
+                            brush = if (isStreaming) {
+                                Brush.linearGradient(
+                                    colors = listOf(
+                                        WikipediaTheme.colors.destructiveColor,
+                                        WikipediaTheme.colors.destructiveColor.copy(alpha = 0.8f)
+                                    )
+                                )
+                            } else {
+                                Brush.linearGradient(
+                                    colors = listOf(
+                                        WikipediaTheme.colors.neuAccent,
+                                        WikipediaTheme.colors.neuAccent.copy(alpha = 0.8f)
+                                    )
+                                )
+                            },
+                            shape = CircleShape
+                        )
+                        .clip(CircleShape)
+                        .clickable {
+                            if (isStreaming) {
+                                onStopStreaming()
+                            } else if (inputText.isNotBlank()) {
                                 onSendMessage(inputText)
                                 inputText = ""
                             }
-                        }
-                    ),
-                    singleLine = false,
-                    maxLines = 4
-                )
-
-                Spacer(modifier = Modifier.width(8.dp))
-
-                IconButton(
-                    onClick = {
-                        if (isStreaming) {
-                            onStopStreaming()
-                        } else if (inputText.isNotBlank()) {
-                            onSendMessage(inputText)
-                            inputText = ""
-                        }
-                    },
-                    modifier = Modifier
-                        .size(44.dp)
-                        .background(
-                            color = if (isStreaming) WikipediaTheme.colors.destructiveColor
-                            else WikipediaTheme.colors.progressiveColor,
-                            shape = CircleShape
-                        )
+                        },
+                    contentAlignment = Alignment.Center
                 ) {
                     Icon(
                         painter = painterResource(

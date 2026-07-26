@@ -43,9 +43,14 @@ import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import org.wikipedia.R
+import org.wikipedia.ai.neuColors
+import org.wikipedia.ai.neuElevated
+import org.wikipedia.ai.neuFlat
+import org.wikipedia.ai.neuPressed
 import org.wikipedia.compose.components.NotificationBell
 import org.wikipedia.compose.components.NotificationBellState
 import org.wikipedia.compose.components.TabsBox
@@ -279,50 +284,74 @@ fun HomeTabBar(
     onLanguageSelected: (String) -> Unit,
     onManageLanguagesClick: () -> Unit
 ) {
+    val neu = neuColors()
+
     Row(
         modifier = modifier
             .fillMaxWidth()
-            .padding(horizontal = 8.dp, vertical = 8.dp),
+            .padding(horizontal = 12.dp, vertical = 8.dp),
         horizontalArrangement = Arrangement.Start,
         verticalAlignment = Alignment.CenterVertically
     ) {
-        Row(
-            modifier = Modifier.weight(1f)
+        // Neumorphic 2.0 Tab Capsule Inset Track
+        Box(
+            modifier = Modifier
+                .weight(1f)
+                .neuPressed(
+                    lightShadow = neu.lightShadow,
+                    darkShadow = neu.darkShadow,
+                    shadowRadius = 6.dp,
+                    cornerRadius = 24.dp,
+                    intensity = 0.6f
+                )
+                .background(neu.surface, RoundedCornerShape(24.dp))
+                .padding(4.dp)
         ) {
-            HomeTab.entries.forEach { tab ->
-                val isSelected = tab == selectedTab
-                val label = when (tab) {
-                    HomeTab.COMMUNITY -> LocalContext.current.getString(wikiSite.languageCode, R.string.explore_feed_community_tab_label)
-                    HomeTab.FOR_YOU -> LocalContext.current.getString(wikiSite.languageCode, R.string.explore_feed_for_you_tab_label)
-                }
-                Column(
-                    horizontalAlignment = Alignment.CenterHorizontally,
-                    modifier = Modifier
-                        .width(IntrinsicSize.Max)
-                        .clickable { onSelectTab(tab, null) }
-                        .padding(horizontal = 12.dp, vertical = 8.dp)
-                ) {
-                    Text(
-                        text = label,
-                        color = if (selectedTab == HomeTab.FOR_YOU) WikipediaTheme.colors.primaryColor else if (isSelected) WikipediaTheme.colors.progressiveColor else WikipediaTheme.colors.primaryColor,
-                        style = MaterialTheme.typography.titleSmall
-                    )
-                    Spacer(modifier = Modifier.height(4.dp))
+            Row(modifier = Modifier.fillMaxWidth()) {
+                HomeTab.entries.forEach { tab ->
+                    val isSelected = tab == selectedTab
+                    val label = when (tab) {
+                        HomeTab.COMMUNITY -> LocalContext.current.getString(wikiSite.languageCode, R.string.explore_feed_community_tab_label)
+                        HomeTab.FOR_YOU -> LocalContext.current.getString(wikiSite.languageCode, R.string.explore_feed_for_you_tab_label)
+                    }
                     Box(
+                        contentAlignment = Alignment.Center,
                         modifier = Modifier
-                            .fillMaxWidth()
-                            .height(3.dp)
-                            .clip(RoundedCornerShape(1.5.dp))
-                            .background(
+                            .weight(1f)
+                            .clip(RoundedCornerShape(20.dp))
+                            .clickable { onSelectTab(tab, null) }
+                            .then(
                                 if (isSelected) {
-                                    if (selectedTab == HomeTab.FOR_YOU) WikipediaTheme.colors.primaryColor
-                                    else WikipediaTheme.colors.progressiveColor
-                                } else Color.Transparent
+                                    Modifier
+                                        .neuElevated(
+                                            lightShadow = neu.lightShadow,
+                                            darkShadow = neu.darkShadow,
+                                            shadowRadius = 6.dp,
+                                            cornerRadius = 20.dp,
+                                            lightOffset = (-2).dp,
+                                            darkOffset = 2.dp,
+                                            intensity = 0.7f
+                                        )
+                                        .background(WikipediaTheme.colors.progressiveColor, RoundedCornerShape(20.dp))
+                                } else {
+                                    Modifier.background(Color.Transparent, RoundedCornerShape(20.dp))
+                                }
                             )
-                    )
+                            .padding(vertical = 10.dp)
+                    ) {
+                        Text(
+                            text = label,
+                            color = if (isSelected) WikipediaTheme.colors.paperColor else WikipediaTheme.colors.secondaryColor,
+                            style = MaterialTheme.typography.titleSmall,
+                            fontWeight = if (isSelected) FontWeight.Bold else FontWeight.Medium
+                        )
+                    }
                 }
             }
         }
+
+        Spacer(modifier = Modifier.width(10.dp))
+
         LanguageDropDownMenu(
             selectedLanguageCode = wikiSite.languageCode,
             onLanguageSelected = { onLanguageSelected(it) },
@@ -340,23 +369,26 @@ fun LanguageDropDownMenu(
     languageState: AppLanguageState? = null
 ) {
     var expanded by remember { mutableStateOf(false) }
+    val neu = neuColors()
+
     Box(
         modifier = Modifier
-            .padding(horizontal = 8.dp)
-            .clip(RoundedCornerShape(8.dp))
-            .clickable {
-                expanded = true
-            },
+            .neuElevated(
+                lightShadow = neu.lightShadow,
+                darkShadow = neu.darkShadow,
+                shadowRadius = 5.dp,
+                cornerRadius = 14.dp,
+                lightOffset = (-2).dp,
+                darkOffset = 2.dp,
+                intensity = 0.6f
+            )
+            .background(neu.surface, RoundedCornerShape(14.dp))
+            .clip(RoundedCornerShape(14.dp))
+            .clickable { expanded = true },
         contentAlignment = Alignment.Center
     ) {
         Row(
-            modifier = Modifier
-                .border(
-                    width = 1.dp,
-                    color = WikipediaTheme.colors.primaryColor.copy(alpha = 0.8f),
-                    shape = RoundedCornerShape(8.dp)
-                )
-                .padding(4.dp),
+            modifier = Modifier.padding(horizontal = 12.dp, vertical = 8.dp),
             horizontalArrangement = Arrangement.Center,
             verticalAlignment = Alignment.CenterVertically
         ) {
@@ -365,10 +397,11 @@ fun LanguageDropDownMenu(
                     .height(20.dp)
                     .widthIn(min = 20.dp),
                 languageCode = selectedLanguageCode,
-                backgroundColor = WikipediaTheme.colors.primaryColor.copy(alpha = 0.8f),
+                backgroundColor = WikipediaTheme.colors.progressiveColor,
                 borderColor = Color.Transparent,
-                textColor = WikipediaTheme.colors.paperColor,
+                textColor = Color.White,
             )
+            Spacer(modifier = Modifier.width(6.dp))
             Icon(
                 modifier = Modifier.size(16.dp),
                 painter = painterResource(R.drawable.ic_arrow_down_24),

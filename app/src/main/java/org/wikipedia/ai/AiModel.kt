@@ -19,21 +19,21 @@ data class AiModel(
 
         val ALL_MODELS = listOf(
             AiModel(
-                id = "updf-gpt-5-6",
-                label = "GPT-5.6 (UPDF Flagship)",
-                modelStr = "updf/gpt-5.6",
-                badge = "NEW",
-                badgeColor = "purple",
-                description = "UPDF AI Knowledge Talk Stream API",
-                baseUrl = ULTIMATE_WORKER_URL
-            ),
-            AiModel(
                 id = "surfsense-gpt5.4-mini",
                 label = "GPT-5.4 Mini",
                 modelStr = "surfsense/gpt-5.4-mini-no-login",
                 badge = "MINI",
                 badgeColor = "teal",
                 description = "Surfsense Anonymous Chat API",
+                baseUrl = ULTIMATE_WORKER_URL
+            ),
+            AiModel(
+                id = "updf-gpt-5-6",
+                label = "GPT-5.6 (UPDF Flagship)",
+                modelStr = "updf/gpt-5.6",
+                badge = "NEW",
+                badgeColor = "purple",
+                description = "UPDF AI Knowledge Talk Stream API",
                 baseUrl = ULTIMATE_WORKER_URL
             ),
             AiModel(
@@ -85,7 +85,7 @@ data class AiModel(
             )
         )
 
-        val DEFAULT_MODEL = ALL_MODELS[0]
+        val DEFAULT_MODEL = ALL_MODELS.first { it.id == "surfsense-gpt5.4-mini" }
     }
 }
 

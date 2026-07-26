@@ -48,6 +48,8 @@ import androidx.paging.compose.LazyPagingItems
 import androidx.paging.compose.collectAsLazyPagingItems
 import coil3.compose.AsyncImage
 import org.wikipedia.R
+import org.wikipedia.ai.neuColors
+import org.wikipedia.ai.neuElevated
 import org.wikipedia.compose.components.error.WikiErrorClickEvents
 import org.wikipedia.compose.components.error.WikiErrorView
 import org.wikipedia.compose.extensions.toAnnotatedStringWithBoldQuery
@@ -175,6 +177,8 @@ fun SearchResultsList(
     LazyColumn(
         modifier = modifier
             .testTag(SEARCH_LIST_TAG)
+            .padding(horizontal = 12.dp, vertical = 6.dp),
+        verticalArrangement = Arrangement.spacedBy(10.dp)
     ) {
         items(
             count = searchResultsPage.itemCount
@@ -207,6 +211,7 @@ fun SearchResultPageItem(
 ) {
     val (pageTitle, redirectFrom, type) = searchResultPage
     var anchorView by remember { mutableStateOf<View?>(null) }
+    val neu = neuColors()
 
     val isRedirect = !redirectFrom.isNullOrEmpty()
 
@@ -223,9 +228,23 @@ fun SearchResultPageItem(
         pageTitle.displayText.toAnnotatedStringWithBoldQuery(searchTerm)
     }
 
-    Box {
+    Box(
+        modifier = modifier
+            .fillMaxWidth()
+            .neuElevated(
+                lightShadow = neu.lightShadow,
+                darkShadow = neu.darkShadow,
+                shadowRadius = 5.dp,
+                cornerRadius = 16.dp,
+                lightOffset = (-2).dp,
+                darkOffset = 3.dp,
+                intensity = 0.5f
+            )
+            .background(WikipediaTheme.colors.neuBackground, RoundedCornerShape(16.dp))
+            .clip(RoundedCornerShape(16.dp))
+    ) {
         Row(
-            modifier = modifier
+            modifier = Modifier
                 .fillMaxWidth()
                 .combinedClickable(
                     onLongClick = {
@@ -238,7 +257,7 @@ fun SearchResultPageItem(
                         onItemClick()
                     }
                 )
-                .padding(16.dp),
+                .padding(14.dp),
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(16.dp)
         ) {

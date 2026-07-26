@@ -47,6 +47,10 @@ import org.wikipedia.theme.Theme
 import org.wikipedia.views.imageservice.ImageService
 import kotlin.random.Random
 
+import org.wikipedia.ai.neuColors
+import org.wikipedia.compose.components.NeuButton
+import org.wikipedia.compose.components.NeuCard
+
 @Composable
 fun FeaturedArticleModule(
     wikiSite: WikiSite,
@@ -60,6 +64,7 @@ fun FeaturedArticleModule(
     onCardImpression: () -> Unit = {}
 ) {
     val context = LocalContext.current
+    val neu = neuColors()
 
     CommunityModuleContainer(
         wikiSite = wikiSite,
@@ -69,83 +74,70 @@ fun FeaturedArticleModule(
         onHideModuleClick = onHideModuleClick,
         onCardInView = onCardImpression
     ) {
-        Box(
+        NeuCard(
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(start = 16.dp, end = 16.dp, bottom = 24.dp)
-                .clip(RoundedCornerShape(16.dp))
-                .clickable { onPageClick(article) }
+                .padding(start = 16.dp, end = 16.dp, bottom = 24.dp),
+            cornerRadius = 18.dp,
+            onClick = { onPageClick(article) }
         ) {
-            if (article.thumbnailUrl.isNullOrEmpty()) {
-                val color = colorResource(noImageCardBackgroundColors.random(Random(article.apiTitle.hashCode())))
-                Box(
-                    modifier = Modifier.fillMaxWidth().height(415.dp).background(color)
-                )
-            } else {
-                FadeInAsyncImage(
-                    model = article.thumbnailUrl?.let { ImageService.getRequest(context, url = it) },
-                    placeholder = ColorPainter(WikipediaTheme.colors.backgroundColor),
-                    error = ColorPainter(WikipediaTheme.colors.backgroundColor),
-                    contentDescription = article.displayTitle,
-                    contentScale = ContentScale.Crop,
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .height(415.dp)
-                )
-                Box(
-                    modifier = Modifier.fillMaxWidth().height(415.dp).background(Color(0, 0, 0, 100))
-                )
-            }
-
-            Row(
-                modifier = Modifier
-                    .align(Alignment.TopEnd)
-                    .padding(12.dp),
-                horizontalArrangement = Arrangement.spacedBy(4.dp),
+            Box(
+                modifier = Modifier.fillMaxWidth()
             ) {
-                IconButton(
-                    modifier = Modifier.size(48.dp),
-                    onClick = { onBookmarkClick(article) }
-                ) {
+                if (article.thumbnailUrl.isNullOrEmpty()) {
+                    val color = colorResource(noImageCardBackgroundColors.random(Random(article.apiTitle.hashCode())))
                     Box(
+                        modifier = Modifier.fillMaxWidth().height(415.dp).background(color)
+                    )
+                } else {
+                    FadeInAsyncImage(
+                        model = article.thumbnailUrl?.let { ImageService.getRequest(context, url = it) },
+                        placeholder = ColorPainter(WikipediaTheme.colors.backgroundColor),
+                        error = ColorPainter(WikipediaTheme.colors.backgroundColor),
+                        contentDescription = article.displayTitle,
+                        contentScale = ContentScale.Crop,
                         modifier = Modifier
-                            .background(
-                                color = WikipediaTheme.colors.backgroundColor,
-                                shape = CircleShape
-                            )
-                            .size(40.dp),
-                        contentAlignment = Alignment.Center
+                            .fillMaxWidth()
+                            .height(415.dp)
+                    )
+                    Box(
+                        modifier = Modifier.fillMaxWidth().height(415.dp).background(Color(0, 0, 0, 100))
+                    )
+                }
+
+                Row(
+                    modifier = Modifier
+                        .align(Alignment.TopEnd)
+                        .padding(12.dp),
+                    horizontalArrangement = Arrangement.spacedBy(8.dp),
+                ) {
+                    NeuButton(
+                        onClick = { onBookmarkClick(article) },
+                        accentFill = false,
+                        cornerRadius = 20.dp,
+                        modifier = Modifier.size(40.dp)
                     ) {
                         Icon(
                             painter = painterResource(if (isInReadingList) R.drawable.ic_bookmark_white_24dp else R.drawable.ic_bookmark_border_white_24dp),
                             contentDescription = context.getString(wikiSite.languageCode, R.string.feed_card_add_to_default_list),
                             tint = WikipediaTheme.colors.primaryColor,
-                            modifier = Modifier.size(24.dp)
+                            modifier = Modifier.size(20.dp)
                         )
                     }
-                }
-                IconButton(
-                    modifier = Modifier.size(48.dp),
-                    onClick = { onShareClick(article) }
-                ) {
-                    Box(
-                        modifier = Modifier
-                            .background(
-                                color = WikipediaTheme.colors.backgroundColor,
-                                shape = CircleShape
-                            )
-                            .size(40.dp),
-                        contentAlignment = Alignment.Center
+                    NeuButton(
+                        onClick = { onShareClick(article) },
+                        accentFill = false,
+                        cornerRadius = 20.dp,
+                        modifier = Modifier.size(40.dp)
                     ) {
                         Icon(
                             painter = painterResource(R.drawable.ic_share),
                             contentDescription = context.getString(wikiSite.languageCode, R.string.view_featured_image_card_share),
                             tint = WikipediaTheme.colors.primaryColor,
-                            modifier = Modifier.size(24.dp)
+                            modifier = Modifier.size(20.dp)
                         )
                     }
                 }
-            }
 
             Column(
                 modifier = Modifier
@@ -191,6 +183,7 @@ fun FeaturedArticleModule(
             }
         }
     }
+}
 }
 
 @Preview(showBackground = true)

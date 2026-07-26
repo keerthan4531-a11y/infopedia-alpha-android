@@ -33,6 +33,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import org.wikipedia.R
+import org.wikipedia.ai.neuColors
+import org.wikipedia.ai.neuSkeletonPulse
 import org.wikipedia.compose.components.AppButton
 import org.wikipedia.compose.components.HtmlText
 import org.wikipedia.compose.components.error.WikiErrorClickEvents
@@ -141,15 +143,22 @@ fun LoadMoreButton(
         }
     }
 }
-
 @Composable
 fun LoadingIndicator(
     modifier: Modifier = Modifier
 ) {
+    val neu = neuColors()
     Box(
         modifier = modifier
             .fillMaxWidth()
-            .padding(32.dp),
+            .padding(24.dp)
+            .height(140.dp)
+            .neuSkeletonPulse(
+                lightShadow = neu.lightShadow,
+                darkShadow = neu.darkShadow,
+                cornerRadius = 18.dp
+            )
+            .background(neu.surface, RoundedCornerShape(18.dp)),
         contentAlignment = Alignment.Center
     ) {
         CircularProgressIndicator(

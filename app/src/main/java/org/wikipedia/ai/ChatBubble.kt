@@ -1,7 +1,6 @@
 package org.wikipedia.ai
 
 import androidx.compose.animation.animateContentSize
-import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -19,8 +18,8 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Surface
@@ -58,23 +57,56 @@ fun ChatBubble(
 ) {
     val isUser = message.role == AiChatMessage.ROLE_USER
     val context = LocalContext.current
+    val neu = neuColors()
 
     Column(
         modifier = Modifier.fillMaxWidth(),
         horizontalAlignment = if (isUser) Alignment.End else Alignment.Start
     ) {
         if (isUser) {
-            // User message bubble (Clean right-aligned blue/progressive bubble)
-            Surface(
-                color = WikipediaTheme.colors.progressiveColor,
-                shape = RoundedCornerShape(
-                    topStart = 18.dp,
-                    topEnd = 18.dp,
-                    bottomStart = 18.dp,
-                    bottomEnd = 4.dp
-                ),
+            // ============================================================
+            // USER MESSAGE — Neumorphic elevated bubble with gradient
+            // ============================================================
+            Box(
                 modifier = Modifier
                     .widthIn(max = 310.dp)
+                    .neuElevated(
+                        lightShadow = neu.lightShadow,
+                        darkShadow = neu.darkShadow,
+                        shadowRadius = 8.dp,
+                        cornerRadius = 18.dp,
+                        lightOffset = (-3).dp,
+                        darkOffset = 4.dp,
+                        intensity = 0.5f
+                    )
+                    .neuGlow(
+                        glowColor = WikipediaTheme.colors.neuAccent,
+                        cornerRadius = 18.dp,
+                        glowRadius = 10.dp,
+                        intensity = 0.15f
+                    )
+                    .background(
+                        brush = Brush.linearGradient(
+                            colors = listOf(
+                                WikipediaTheme.colors.neuAccent,
+                                WikipediaTheme.colors.neuAccent.copy(alpha = 0.85f)
+                            )
+                        ),
+                        shape = RoundedCornerShape(
+                            topStart = 18.dp,
+                            topEnd = 18.dp,
+                            bottomStart = 18.dp,
+                            bottomEnd = 4.dp
+                        )
+                    )
+                    .clip(
+                        RoundedCornerShape(
+                            topStart = 18.dp,
+                            topEnd = 18.dp,
+                            bottomStart = 18.dp,
+                            bottomEnd = 4.dp
+                        )
+                    )
                     .animateContentSize()
             ) {
                 Text(
@@ -86,33 +118,50 @@ fun ChatBubble(
                 )
             }
         } else {
-            // AI message Card container (Matching Wikipedia's base card aesthetic)
-            Surface(
-                color = WikipediaTheme.colors.backgroundColor,
-                shape = RoundedCornerShape(16.dp),
-                border = BorderStroke(1.dp, WikipediaTheme.colors.borderColor),
-                shadowElevation = 2.dp,
+            // ============================================================
+            // AI RESPONSE — Neumorphic elevated card (no border, same-color)
+            // ============================================================
+            Box(
                 modifier = Modifier
                     .fillMaxWidth()
+                    .neuElevated(
+                        lightShadow = neu.lightShadow,
+                        darkShadow = neu.darkShadow,
+                        shadowRadius = 10.dp,
+                        cornerRadius = 16.dp,
+                        lightOffset = (-4).dp,
+                        darkOffset = 5.dp,
+                        intensity = 0.55f
+                    )
+                    .background(
+                        WikipediaTheme.colors.neuBackground,
+                        RoundedCornerShape(16.dp)
+                    )
+                    .clip(RoundedCornerShape(16.dp))
                     .animateContentSize()
             ) {
                 Column(
                     modifier = Modifier.padding(14.dp)
                 ) {
-                    // AI Model Header Pill
+                    // AI Model Header Pill — neumorphic pressed
                     if (message.model != null) {
                         Row(
                             verticalAlignment = Alignment.CenterVertically,
                             modifier = Modifier.padding(bottom = 10.dp)
                         ) {
-                            Surface(
-                                color = getBadgeColor(message.model.badgeColor).copy(alpha = 0.12f),
-                                shape = RoundedCornerShape(12.dp)
+                            Box(
+                                modifier = Modifier
+                                    .neuPressed(
+                                        lightShadow = neu.lightShadow,
+                                        darkShadow = neu.darkShadow,
+                                        shadowRadius = 3.dp,
+                                        cornerRadius = 12.dp,
+                                        intensity = 0.35f
+                                    )
+                                    .background(WikipediaTheme.colors.neuBackground, RoundedCornerShape(12.dp))
+                                    .padding(horizontal = 8.dp, vertical = 4.dp)
                             ) {
-                                Row(
-                                    modifier = Modifier.padding(horizontal = 8.dp, vertical = 4.dp),
-                                    verticalAlignment = Alignment.CenterVertically
-                                ) {
+                                Row(verticalAlignment = Alignment.CenterVertically) {
                                     Icon(
                                         painter = painterResource(id = R.drawable.ic_ai_sparkles_24dp),
                                         contentDescription = null,
@@ -131,29 +180,33 @@ fun ChatBubble(
 
                             if (message.model.badge.isNotEmpty()) {
                                 Spacer(modifier = Modifier.width(6.dp))
-                                Surface(
-                                    color = getBadgeColor(message.model.badgeColor).copy(alpha = 0.15f),
-                                    shape = RoundedCornerShape(4.dp)
+                                Box(
+                                    modifier = Modifier
+                                        .background(
+                                            getBadgeColor(message.model.badgeColor).copy(alpha = 0.12f),
+                                            RoundedCornerShape(4.dp)
+                                        )
+                                        .padding(horizontal = 5.dp, vertical = 2.dp)
                                 ) {
                                     Text(
                                         text = message.model.badge,
                                         fontSize = 9.sp,
                                         fontWeight = FontWeight.Bold,
-                                        color = getBadgeColor(message.model.badgeColor),
-                                        modifier = Modifier.padding(horizontal = 5.dp, vertical = 2.dp)
+                                        color = getBadgeColor(message.model.badgeColor)
                                     )
                                 }
                             }
                         }
                     }
 
-                    // 1. TOP: Wikipedia Featured Hero Media Showcase Card (FIRST BEFORE RESPONSE)
+                    // 1. TOP: Wikipedia Featured Hero Media Showcase Card
                     val primaryArticle = message.wikipediaContext?.primaryArticle
                     val heroImageUrl = primaryArticle?.originalImageUrl ?: primaryArticle?.thumbnailUrl
                     if (!heroImageUrl.isNullOrEmpty()) {
-                        HeroMediaCard(
+                        NeuHeroMediaCard(
                             article = primaryArticle!!,
                             imageUrl = heroImageUrl,
+                            neu = neu,
                             onClick = {
                                 val pageTitle = PageTitle(primaryArticle.title, WikipediaApp.instance.wikiSite)
                                 val historyEntry = HistoryEntry(pageTitle, HistoryEntry.SOURCE_INTERNAL_LINK)
@@ -164,17 +217,23 @@ fun ChatBubble(
                         Spacer(modifier = Modifier.height(12.dp))
                     }
 
-                    // DeepThink / Qwen Thinking Process Block (Collapsible)
+                    // DeepThink / Qwen Thinking Process Block — Neumorphic pressed container
                     if (!thinkingContent.isNullOrEmpty()) {
                         var isExpanded by remember { mutableStateOf(message.isStreaming) }
 
-                        Surface(
-                            color = WikipediaTheme.colors.paperColor,
-                            shape = RoundedCornerShape(10.dp),
-                            border = BorderStroke(1.dp, Color(0xFF8B5CF6).copy(alpha = 0.35f)),
+                        Box(
                             modifier = Modifier
                                 .fillMaxWidth()
                                 .padding(bottom = 10.dp)
+                                .neuPressed(
+                                    lightShadow = neu.lightShadow,
+                                    darkShadow = neu.darkShadow,
+                                    shadowRadius = 5.dp,
+                                    cornerRadius = 10.dp,
+                                    intensity = 0.4f
+                                )
+                                .background(WikipediaTheme.colors.neuBackground, RoundedCornerShape(10.dp))
+                                .clip(RoundedCornerShape(10.dp))
                                 .animateContentSize()
                         ) {
                             Column(modifier = Modifier.padding(10.dp)) {
@@ -231,7 +290,7 @@ fun ChatBubble(
                         }
                     }
 
-                    // 2. MIDDLE: Wikipedia Powered AI Response Content
+                    // 2. MIDDLE: AI Response Content
                     Box(modifier = Modifier.fillMaxWidth()) {
                         StreamingTextRenderer(
                             text = message.content,
@@ -239,7 +298,7 @@ fun ChatBubble(
                         )
                     }
 
-                    // 3. BOTTOM: Interactive Wikipedia Article Cards (Source Cards with Image & Action Button)
+                    // 3. BOTTOM: Interactive Wikipedia Article Cards
                     val articles = message.wikipediaContext?.articles.orEmpty()
                     if (articles.isNotEmpty()) {
                         Spacer(modifier = Modifier.height(14.dp))
@@ -256,8 +315,9 @@ fun ChatBubble(
                             modifier = Modifier.fillMaxWidth()
                         ) {
                             items(articles, key = { it.title }) { article ->
-                                ArticleSourceCard(
+                                NeuArticleSourceCard(
                                     article = article,
+                                    neu = neu,
                                     onClick = {
                                         val pageTitle = PageTitle(article.title, WikipediaApp.instance.wikiSite)
                                         val historyEntry = HistoryEntry(pageTitle, HistoryEntry.SOURCE_INTERNAL_LINK)
@@ -273,9 +333,10 @@ fun ChatBubble(
                     val followUps = remember(message.content) { extractFollowUpQuestions(message.content) }
                     if (followUps.isNotEmpty() && !message.isStreaming && onFollowUpClick != null) {
                         Spacer(modifier = Modifier.height(14.dp))
-                        FollowUpQuestionsSection(
+                        NeuFollowUpQuestionsSection(
                             questions = followUps,
-                            onQuestionClick = onFollowUpClick
+                            onQuestionClick = onFollowUpClick,
+                            neu = neu
                         )
                     }
                 }
@@ -284,18 +345,29 @@ fun ChatBubble(
     }
 }
 
+// ============================================================================
+// NEOMORPHIC HERO MEDIA CARD
+// ============================================================================
+
 @Composable
-private fun HeroMediaCard(
+private fun NeuHeroMediaCard(
     article: WikipediaArticleItem,
     imageUrl: String,
+    neu: NeuColors,
     onClick: () -> Unit
 ) {
-    Surface(
-        color = WikipediaTheme.colors.paperColor,
-        shape = RoundedCornerShape(14.dp),
-        border = BorderStroke(1.dp, WikipediaTheme.colors.borderColor),
+    Box(
         modifier = Modifier
             .fillMaxWidth()
+            .neuElevated(
+                lightShadow = neu.lightShadow,
+                darkShadow = neu.darkShadow,
+                shadowRadius = 8.dp,
+                cornerRadius = 14.dp,
+                lightOffset = (-3).dp,
+                darkOffset = 4.dp,
+                intensity = 0.5f
+            )
             .clip(RoundedCornerShape(14.dp))
             .clickable { onClick() }
     ) {
@@ -347,17 +419,29 @@ private fun HeroMediaCard(
     }
 }
 
+// ============================================================================
+// NEOMORPHIC ARTICLE SOURCE CARD
+// ============================================================================
+
 @Composable
-private fun ArticleSourceCard(
+private fun NeuArticleSourceCard(
     article: WikipediaArticleItem,
+    neu: NeuColors,
     onClick: () -> Unit
 ) {
-    Surface(
-        color = WikipediaTheme.colors.paperColor,
-        shape = RoundedCornerShape(12.dp),
-        border = BorderStroke(1.dp, WikipediaTheme.colors.borderColor),
+    Box(
         modifier = Modifier
             .width(180.dp)
+            .neuElevated(
+                lightShadow = neu.lightShadow,
+                darkShadow = neu.darkShadow,
+                shadowRadius = 6.dp,
+                cornerRadius = 12.dp,
+                lightOffset = (-2).dp,
+                darkOffset = 3.dp,
+                intensity = 0.5f
+            )
+            .background(WikipediaTheme.colors.neuSurfaceCard, RoundedCornerShape(12.dp))
             .clip(RoundedCornerShape(12.dp))
             .clickable { onClick() }
     ) {
@@ -392,16 +476,19 @@ private fun ArticleSourceCard(
                     modifier = Modifier.weight(1f)
                 )
                 Spacer(modifier = Modifier.width(4.dp))
-                Surface(
-                    color = WikipediaTheme.colors.progressiveColor.copy(alpha = 0.15f),
-                    shape = RoundedCornerShape(4.dp)
+                Box(
+                    modifier = Modifier
+                        .background(
+                            WikipediaTheme.colors.neuAccent.copy(alpha = 0.12f),
+                            RoundedCornerShape(4.dp)
+                        )
+                        .padding(horizontal = 4.dp, vertical = 2.dp)
                 ) {
                     Text(
                         text = article.langCode.uppercase(),
                         fontSize = 9.sp,
                         fontWeight = FontWeight.Bold,
-                        color = WikipediaTheme.colors.progressiveColor,
-                        modifier = Modifier.padding(horizontal = 4.dp, vertical = 2.dp)
+                        color = WikipediaTheme.colors.neuAccent
                     )
                 }
             }
@@ -420,28 +507,39 @@ private fun ArticleSourceCard(
 
             Spacer(modifier = Modifier.height(8.dp))
 
-            Surface(
-                color = WikipediaTheme.colors.progressiveColor.copy(alpha = 0.12f),
-                shape = RoundedCornerShape(8.dp),
-                modifier = Modifier.fillMaxWidth()
+            // "Read Article" button — neumorphic elevated mini button
+            Box(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .neuElevated(
+                        lightShadow = neu.lightShadow,
+                        darkShadow = neu.darkShadow,
+                        shadowRadius = 3.dp,
+                        cornerRadius = 8.dp,
+                        lightOffset = (-1).dp,
+                        darkOffset = 2.dp,
+                        intensity = 0.4f
+                    )
+                    .background(WikipediaTheme.colors.neuBackground, RoundedCornerShape(8.dp))
+                    .padding(vertical = 6.dp),
+                contentAlignment = Alignment.Center
             ) {
                 Row(
                     horizontalArrangement = Arrangement.Center,
-                    verticalAlignment = Alignment.CenterVertically,
-                    modifier = Modifier.padding(vertical = 5.dp)
+                    verticalAlignment = Alignment.CenterVertically
                 ) {
                     Text(
                         text = "Read Article",
                         fontSize = 11.sp,
                         fontWeight = FontWeight.Bold,
-                        color = WikipediaTheme.colors.progressiveColor
+                        color = WikipediaTheme.colors.neuAccent
                     )
                     Spacer(modifier = Modifier.width(4.dp))
                     Icon(
                         painter = painterResource(id = R.drawable.ic_arrow_forward_24),
                         contentDescription = null,
                         modifier = Modifier.size(12.dp),
-                        tint = WikipediaTheme.colors.progressiveColor
+                        tint = WikipediaTheme.colors.neuAccent
                     )
                 }
             }
@@ -449,10 +547,15 @@ private fun ArticleSourceCard(
     }
 }
 
+// ============================================================================
+// NEOMORPHIC FOLLOW-UP QUESTIONS SECTION
+// ============================================================================
+
 @Composable
-private fun FollowUpQuestionsSection(
+private fun NeuFollowUpQuestionsSection(
     questions: List<String>,
-    onQuestionClick: (String) -> Unit
+    onQuestionClick: (String) -> Unit,
+    neu: NeuColors
 ) {
     Column(modifier = Modifier.fillMaxWidth()) {
         Row(verticalAlignment = Alignment.CenterVertically) {
@@ -465,27 +568,31 @@ private fun FollowUpQuestionsSection(
                 color = WikipediaTheme.colors.secondaryColor
             )
         }
-        Spacer(modifier = Modifier.height(6.dp))
+        Spacer(modifier = Modifier.height(8.dp))
         questions.forEach { question ->
-            Surface(
-                color = WikipediaTheme.colors.paperColor,
-                shape = RoundedCornerShape(16.dp),
-                border = BorderStroke(1.dp, WikipediaTheme.colors.borderColor),
+            Box(
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(vertical = 3.dp)
+                    .neuFlat(
+                        lightShadow = neu.lightShadow,
+                        darkShadow = neu.darkShadow,
+                        cornerRadius = 16.dp,
+                        intensity = 0.4f
+                    )
+                    .background(WikipediaTheme.colors.neuBackground, RoundedCornerShape(16.dp))
                     .clip(RoundedCornerShape(16.dp))
                     .clickable { onQuestionClick(question) }
             ) {
                 Row(
-                    modifier = Modifier.padding(horizontal = 12.dp, vertical = 8.dp),
+                    modifier = Modifier.padding(horizontal = 12.dp, vertical = 9.dp),
                     verticalAlignment = Alignment.CenterVertically
                 ) {
                     Text(
                         text = question,
                         fontSize = 12.sp,
                         fontWeight = FontWeight.Medium,
-                        color = WikipediaTheme.colors.progressiveColor,
+                        color = WikipediaTheme.colors.neuAccent,
                         modifier = Modifier.weight(1f)
                     )
                     Spacer(modifier = Modifier.width(6.dp))
@@ -493,13 +600,17 @@ private fun FollowUpQuestionsSection(
                         painter = painterResource(id = R.drawable.ic_arrow_forward_24),
                         contentDescription = null,
                         modifier = Modifier.size(14.dp),
-                        tint = WikipediaTheme.colors.progressiveColor
+                        tint = WikipediaTheme.colors.neuAccent
                     )
                 }
             }
         }
     }
 }
+
+// ============================================================================
+// UTILITY
+// ============================================================================
 
 private fun extractFollowUpQuestions(text: String): List<String> {
     if (!text.contains("Related Questions", ignoreCase = true)) return emptyList()

@@ -36,6 +36,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import org.wikipedia.R
 import org.wikipedia.ai.neuColors
 import org.wikipedia.ai.neuElevated
 import org.wikipedia.ai.neuPressed
@@ -118,7 +119,15 @@ fun NeuBottomNav(
                     )
                     .padding(vertical = 4.dp)
             ) {
-                // Active indicator capsule/circle
+                val iconRes = when (tab) {
+                    NavTab.AI -> R.drawable.ic_ai_sparkles_24dp
+                    NavTab.HOME -> if (isSelected) R.drawable.ic_home_filled_24dp else R.drawable.ic_home_24dp
+                    NavTab.READING_LISTS -> if (isSelected) R.drawable.ic_bookmark_white_24dp else R.drawable.ic_bookmark_border_white_24dp
+                    NavTab.SEARCH -> if (isSelected) R.drawable.search_bold else R.drawable.ic_search_white_24dp
+                    NavTab.EDITS -> R.drawable.outline_activity_24
+                    NavTab.MORE -> R.drawable.ic_menu_white_24dp
+                }
+
                 Box(
                     contentAlignment = Alignment.Center,
                     modifier = Modifier
@@ -138,7 +147,7 @@ fun NeuBottomNav(
                         .background(indicatorBg, CircleShape)
                 ) {
                     Icon(
-                        painter = painterResource(tab.icon),
+                        painter = painterResource(iconRes),
                         contentDescription = stringResource(tab.text),
                         tint = iconColor,
                         modifier = Modifier.size(22.dp)

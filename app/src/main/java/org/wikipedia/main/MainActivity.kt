@@ -90,7 +90,8 @@ class MainActivity : SingleFragmentActivity<MainFragment>(), MainFragment.Callba
         }
 
         setImageZoomHelper()
-        if (Prefs.isInitialOnboardingEnabled && savedInstanceState == null &&
+        Prefs.isInitialOnboardingEnabled = false
+        if (false && Prefs.isInitialOnboardingEnabled && savedInstanceState == null &&
             !intent.hasExtra(Constants.INTENT_EXTRA_PREVIEW_SAVED_READING_LISTS)) {
             onboardingLauncher.launch(InitialOnboardingActivity.newIntent(this))
         }

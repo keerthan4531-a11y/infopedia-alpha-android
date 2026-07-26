@@ -14,6 +14,7 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.RowScope
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.defaultMinSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.offset
@@ -111,6 +112,7 @@ fun NeuCard(
  * Neumorphic 2.0 Primary Button.
  * At rest: neuElevated(). On tap: animates to inset neuPressed() over 180ms.
  * Features a visible accent-colored fill so it is unambiguously tappable.
+ * Enforces a minimum touch target size of 48dp x 48dp for WCAG AA compliance.
  */
 @Composable
 fun NeuButton(
@@ -132,6 +134,7 @@ fun NeuButton(
     Box(
         contentAlignment = Alignment.Center,
         modifier = modifier
+            .defaultMinSize(minWidth = 48.dp, minHeight = 48.dp)
             .neuAnimatedScale(isPressed = isPressed, targetScale = 0.96f)
             .neuAnimatedPress(
                 isPressed = isPressed,

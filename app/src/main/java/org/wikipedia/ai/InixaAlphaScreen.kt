@@ -66,6 +66,8 @@ import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 
+import androidx.compose.foundation.layout.widthIn
+
 @Composable
 fun InixaAlphaScreen(
     viewModel: InixaAlphaViewModel
@@ -77,12 +79,18 @@ fun InixaAlphaScreen(
         containerColor = WikipediaTheme.colors.neuBackground,
         contentWindowInsets = WindowInsets(0, 0, 0, 0)
     ) { paddingValues ->
-        Column(
+        Box(
             modifier = Modifier
                 .fillMaxSize()
                 .background(WikipediaTheme.colors.neuBackground)
-                .padding(paddingValues)
+                .padding(paddingValues),
+            contentAlignment = Alignment.TopCenter
         ) {
+            Column(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .widthIn(max = 840.dp)
+            ) {
             // Header with AI title and model picker trigger button
             NeuTopHeaderBar(
                 selectedModel = uiState.selectedModel,
@@ -140,16 +148,17 @@ fun InixaAlphaScreen(
                 )
             }
         }
+    }
 
-        // Model selector overlay
-        if (uiState.showModelSelector) {
-            ModelSelectorSheet(
-                models = AiModel.ALL_MODELS,
-                selectedModel = uiState.selectedModel,
-                onModelSelected = { viewModel.selectModel(it) },
-                onDismiss = { viewModel.dismissModelSelector() }
-            )
-        }
+    // Model selector overlay
+    if (uiState.showModelSelector) {
+        ModelSelectorSheet(
+            models = AiModel.ALL_MODELS,
+            selectedModel = uiState.selectedModel,
+            onModelSelected = { viewModel.selectModel(it) },
+            onDismiss = { viewModel.dismissModelSelector() }
+        )
+    }
     }
 }
 

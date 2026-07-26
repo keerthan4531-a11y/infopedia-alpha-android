@@ -59,6 +59,9 @@ import org.wikipedia.util.DeviceUtil
 import org.wikipedia.util.L10nUtil
 import org.wikipedia.views.imageservice.ImageService
 
+import androidx.compose.foundation.layout.widthIn
+import androidx.compose.foundation.layout.imePadding
+
 const val SEARCH_LIST_TAG = "search_list"
 
 @Composable
@@ -93,8 +96,15 @@ fun SearchResultsScreen(
 
     CompositionLocalProvider(LocalLayoutDirection provides layoutDirection) {
         Box(
-            modifier = modifier
+            modifier = modifier.fillMaxSize(),
+            contentAlignment = Alignment.TopCenter
         ) {
+            Box(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .widthIn(max = 800.dp)
+                    .imePadding()
+            ) {
             when {
                 loadState.refresh is LoadState.Loading -> {} // when offline prevents UI from loading old list
 
@@ -165,6 +175,7 @@ fun SearchResultsScreen(
             }
         }
     }
+}
 }
 
 @Composable

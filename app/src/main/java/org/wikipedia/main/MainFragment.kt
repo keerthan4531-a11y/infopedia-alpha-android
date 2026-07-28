@@ -529,6 +529,7 @@ class MainFragment : Fragment(), BackPressedHandler, MenuProvider, HistoryFragme
 
     fun setBottomNavVisible(visible: Boolean) {
         binding.mainNavTabBorder.isVisible = visible
+        binding.mainNavTabContainer.isVisible = visible
         binding.mainNavComposeView.isVisible = visible
     }
 

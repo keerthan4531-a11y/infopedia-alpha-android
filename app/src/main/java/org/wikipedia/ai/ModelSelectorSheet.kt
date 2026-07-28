@@ -31,6 +31,7 @@ import androidx.compose.ui.unit.sp
 import org.wikipedia.R
 import org.wikipedia.compose.theme.WikipediaTheme
 
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.navigationBarsPadding
 
@@ -54,7 +55,7 @@ fun ModelSelectorSheet(
         Box(
             modifier = Modifier
                 .fillMaxWidth()
-                .fillMaxHeight(0.65f)
+                .fillMaxHeight(0.78f)
                 .align(Alignment.BottomCenter)
                 .clickable(enabled = false) { /* consume click */ }
                 .neuElevated(
@@ -112,7 +113,8 @@ fun ModelSelectorSheet(
                 LazyColumn(
                     modifier = Modifier
                         .fillMaxWidth()
-                        .weight(1f)
+                        .weight(1f),
+                    contentPadding = PaddingValues(bottom = 32.dp)
                 ) {
                     items(models) { model ->
                         NeuModelItem(

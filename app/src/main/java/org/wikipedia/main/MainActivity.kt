@@ -79,7 +79,9 @@ class MainActivity : SingleFragmentActivity<MainFragment>(), MainFragment.Callba
             statusBarInsets = insetsCompat.getInsets(WindowInsetsCompat.Type.statusBars())
             navBarInsets = insetsCompat.getInsets(WindowInsetsCompat.Type.navigationBars())
             applyInsets()
-            WindowInsetsCompat.CONSUMED.toWindowInsets()!!
+            // IMPORTANT: Do NOT return CONSUMED — child views (ComposeView in InixaAlphaFragment)
+            // need to receive IME insets for imePadding() to work correctly.
+            windowInsets
         }
 
         onBackPressedDispatcher.addCallback(this) {

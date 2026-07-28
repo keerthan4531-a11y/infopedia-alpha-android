@@ -41,6 +41,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import android.widget.Toast
 import coil3.compose.AsyncImage
 import org.wikipedia.R
 import org.wikipedia.WikipediaApp
@@ -290,11 +291,25 @@ fun ChatBubble(
                         }
                     }
 
-                    // 2. MIDDLE: AI Response Content
+                    // 2. MIDDLE: AI Response Content with Clickable Inline Citations [1], [2], [3]
                     Box(modifier = Modifier.fillMaxWidth()) {
                         StreamingTextRenderer(
                             text = message.content,
-                            isStreaming = message.isStreaming
+                            isStreaming = message.isStreaming,
+                            onCitationClick = { citationIndex ->
+                                val articles = message.wikipediaContext?.articles.orEmpty()
+                                val targetArticle = articles.getOrNull(citationIndex - 1) ?: articles.firstOrNull()
+                                if (targetArticle != null) {
+                                    val pageTitle = PageTitle(
+                                        targetArticle.title,
+                                        org.wikipedia.dataclient.WikiSite.forLanguageCode(targetArticle.langCode)
+                                    )
+                                    val historyEntry = HistoryEntry(pageTitle, HistoryEntry.SOURCE_INTERNAL_LINK)
+                                    context.startActivity(PageActivity.newIntentForNewTab(context, historyEntry, pageTitle))
+                                } else {
+                                    Toast.makeText(context, "Opening Wikipedia Citation [$citationIndex]…", Toast.LENGTH_SHORT).show()
+                                }
+                            }
                         )
                     }
 

@@ -61,7 +61,8 @@ sealed class MarkdownBlock {
 @Composable
 fun StreamingTextRenderer(
     text: String,
-    isStreaming: Boolean
+    isStreaming: Boolean,
+    onCitationClick: ((Int) -> Unit)? = null
 ) {
     val infiniteTransition = rememberInfiniteTransition(label = "cursor_blink")
     val cursorAlpha by infiniteTransition.animateFloat(
@@ -130,14 +131,16 @@ fun StreamingTextRenderer(
                         RenderParagraph(
                             text = block.text,
                             showCursor = isStreaming && isLastBlock,
-                            cursorAlpha = cursorAlpha
+                            cursorAlpha = cursorAlpha,
+                            onCitationClick = onCitationClick
                         )
                     }
                     is MarkdownBlock.Heading -> {
                         RenderHeading(
                             heading = block,
                             showCursor = isStreaming && isLastBlock,
-                            cursorAlpha = cursorAlpha
+                            cursorAlpha = cursorAlpha,
+                            onCitationClick = onCitationClick
                         )
                     }
                     is MarkdownBlock.CodeBlock -> {
@@ -150,7 +153,8 @@ fun StreamingTextRenderer(
                         RenderBulletList(
                             list = block,
                             showCursor = isStreaming && isLastBlock,
-                            cursorAlpha = cursorAlpha
+                            cursorAlpha = cursorAlpha,
+                            onCitationClick = onCitationClick
                         )
                     }
                 }
@@ -163,23 +167,35 @@ fun StreamingTextRenderer(
 private fun RenderParagraph(
     text: String,
     showCursor: Boolean,
-    cursorAlpha: Float
+    cursorAlpha: Float,
+    onCitationClick: ((Int) -> Unit)?
 ) {
     val annotatedString = parseInlineMarkdown(text)
-    Text(
-        text = if (showCursor) {
-            buildAnnotatedString {
-                append(annotatedString)
-                withStyle(SpanStyle(color = WikipediaTheme.colors.neuAccent)) {
-                    append("▍")
-                }
+    val fullText = if (showCursor) {
+        buildAnnotatedString {
+            append(annotatedString)
+            withStyle(SpanStyle(color = WikipediaTheme.colors.neuAccent)) {
+                append("▍")
             }
-        } else {
-            annotatedString
+        }
+    } else {
+        annotatedString
+    }
+
+    androidx.compose.foundation.text.ClickableText(
+        text = fullText,
+        onClick = { offset ->
+            fullText.getStringAnnotations(tag = "CITATION", start = offset, end = offset)
+                .firstOrNull()?.let { annotation ->
+                    val citationIndex = annotation.item.toIntOrNull() ?: 1
+                    onCitationClick?.invoke(citationIndex)
+                }
         },
-        fontSize = 15.sp,
-        lineHeight = 22.sp,
-        color = WikipediaTheme.colors.primaryColor
+        style = androidx.compose.ui.text.TextStyle(
+            fontSize = 15.sp,
+            lineHeight = 22.sp,
+            color = WikipediaTheme.colors.primaryColor
+        )
     )
 }
 
@@ -187,7 +203,8 @@ private fun RenderParagraph(
 private fun RenderHeading(
     heading: MarkdownBlock.Heading,
     showCursor: Boolean,
-    cursorAlpha: Float
+    cursorAlpha: Float,
+    onCitationClick: ((Int) -> Unit)?
 ) {
     val fontSize = when (heading.level) {
         1 -> 20.sp
@@ -195,22 +212,32 @@ private fun RenderHeading(
         else -> 16.sp
     }
     val annotatedString = parseInlineMarkdown(heading.text)
-
-    Text(
-        text = if (showCursor) {
-            buildAnnotatedString {
-                append(annotatedString)
-                withStyle(SpanStyle(color = WikipediaTheme.colors.neuAccent)) {
-                    append("▍")
-                }
+    val fullText = if (showCursor) {
+        buildAnnotatedString {
+            append(annotatedString)
+            withStyle(SpanStyle(color = WikipediaTheme.colors.neuAccent)) {
+                append("▍")
             }
-        } else {
-            annotatedString
+        }
+    } else {
+        annotatedString
+    }
+
+    androidx.compose.foundation.text.ClickableText(
+        text = fullText,
+        onClick = { offset ->
+            fullText.getStringAnnotations(tag = "CITATION", start = offset, end = offset)
+                .firstOrNull()?.let { annotation ->
+                    val citationIndex = annotation.item.toIntOrNull() ?: 1
+                    onCitationClick?.invoke(citationIndex)
+                }
         },
-        fontSize = fontSize,
-        fontWeight = FontWeight.Bold,
-        lineHeight = (fontSize.value * 1.3).sp,
-        color = WikipediaTheme.colors.primaryColor,
+        style = androidx.compose.ui.text.TextStyle(
+            fontSize = fontSize,
+            fontWeight = FontWeight.Bold,
+            lineHeight = (fontSize.value * 1.3).sp,
+            color = WikipediaTheme.colors.primaryColor
+        ),
         modifier = Modifier.padding(top = 6.dp, bottom = 2.dp)
     )
 }
@@ -405,7 +432,8 @@ private fun NeuRenderTable(
 private fun RenderBulletList(
     list: MarkdownBlock.BulletList,
     showCursor: Boolean,
-    cursorAlpha: Float
+    cursorAlpha: Float,
+    onCitationClick: ((Int) -> Unit)?
 ) {
     Column(
         verticalArrangement = Arrangement.spacedBy(4.dp),
@@ -422,20 +450,31 @@ private fun RenderBulletList(
                     modifier = Modifier.padding(end = 4.dp)
                 )
                 val annotatedString = parseInlineMarkdown(item)
-                Text(
-                    text = if (showCursor && isLastItem) {
-                        buildAnnotatedString {
-                            append(annotatedString)
-                            withStyle(SpanStyle(color = WikipediaTheme.colors.neuAccent)) {
-                                append("▍")
-                            }
+                val fullText = if (showCursor && isLastItem) {
+                    buildAnnotatedString {
+                        append(annotatedString)
+                        withStyle(SpanStyle(color = WikipediaTheme.colors.neuAccent)) {
+                            append("▍")
                         }
-                    } else {
-                        annotatedString
+                    }
+                } else {
+                    annotatedString
+                }
+
+                androidx.compose.foundation.text.ClickableText(
+                    text = fullText,
+                    onClick = { offset ->
+                        fullText.getStringAnnotations(tag = "CITATION", start = offset, end = offset)
+                            .firstOrNull()?.let { annotation ->
+                                val citationIndex = annotation.item.toIntOrNull() ?: 1
+                                onCitationClick?.invoke(citationIndex)
+                            }
                     },
-                    fontSize = 14.sp,
-                    lineHeight = 20.sp,
-                    color = WikipediaTheme.colors.primaryColor
+                    style = androidx.compose.ui.text.TextStyle(
+                        fontSize = 14.sp,
+                        lineHeight = 20.sp,
+                        color = WikipediaTheme.colors.primaryColor
+                    )
                 )
             }
         }
@@ -483,16 +522,18 @@ private fun parseInlineMarkdown(text: String): AnnotatedString {
                 // Inline Citations [1], [2], [3], [4]
                 text[i] == '[' && i + 2 < text.length && text[i + 2] == ']' && text[i + 1].isDigit() -> {
                     val num = text[i + 1]
+                    pushStringAnnotation(tag = "CITATION", annotation = num.toString())
                     withStyle(
                         SpanStyle(
                             fontWeight = FontWeight.Bold,
-                            fontSize = 11.sp,
-                            color = Color(0xFF3B82F6),
-                            background = Color(0xFF3B82F6).copy(alpha = 0.15f)
+                            fontSize = 12.sp,
+                            color = Color(0xFF2563EB),
+                            background = Color(0xFF2563EB).copy(alpha = 0.15f)
                         )
                     ) {
                         append(" [$num] ")
                     }
+                    pop()
                     i += 3
                 }
                 else -> {

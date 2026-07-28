@@ -73,10 +73,16 @@ class InixaAlphaViewModel : ViewModel() {
         streamingJob = viewModelScope.launch(Dispatchers.IO) {
             var wikipediaContext: WikipediaContext? = null
 
-            // Step 1: Fetch Wikipedia context if toggle is ON
+            // Step 1: Fetch Wikipedia context with QueryDecomposer planning if toggle is ON
             if (_uiState.value.isWikipediaConnected) {
                 try {
-                    WikipediaContextProvider.fetchContext(text).collect { status ->
+                    val plan = QueryDecomposer.plan(text)
+                    val targetQuery = when (plan) {
+                        is QueryPlan.SingleQuery -> plan.query
+                        is QueryPlan.MultiHopQuery -> plan.originalQuery
+                    }
+
+                    WikipediaContextProvider.fetchContext(targetQuery).collect { status ->
                         _uiState.update { it.copy(wikipediaStatus = status) }
                         if (status is WikipediaSearchStatus.Done) {
                             wikipediaContext = status.context

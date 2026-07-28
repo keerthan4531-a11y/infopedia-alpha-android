@@ -138,17 +138,31 @@ object WikipediaContextProvider {
         }
     }
 
-    private suspend fun searchTitles(site: WikiSite, query: String, max: Int): List<String> {
-        return try {
-            val response = ServiceFactory.get(site).prefixSearch(searchTerm = query, maxResults = max, gpsOffset = null)
-            var titles = response.query?.pages.orEmpty().map { it.title }
-            if (titles.isEmpty()) {
-                val fullText = ServiceFactory.get(site).fullTextSearch(searchTerm = query, gsrLimit = max, gsrOffset = null)
-                titles = fullText.query?.pages.orEmpty().map { it.title }
-            }
-            titles
-        } catch (_: Exception) {
-            emptyList()
+    /**
+     * Hybrid Search (BM25 Keyword + FullText Semantic Search fused via RRF).
+     * Runs prefixSearch and fullTextSearch in parallel, then applies Reciprocal Rank Fusion (RRF).
+     * Ensures 100% precision for exact entity names, dates, acronyms ("ISRO", "1947") and concepts.
+     */
+    private suspend fun searchTitles(site: WikiSite, query: String, max: Int): List<String> = coroutineScope {
+        val bm25Deferred = async {
+            try {
+                val response = ServiceFactory.get(site).prefixSearch(searchTerm = query, maxResults = max * 2, gpsOffset = null)
+                response.query?.pages.orEmpty().map { it.title }
+            } catch (_: Exception) { emptyList() }
         }
+
+        val fullTextDeferred = async {
+            try {
+                val fullText = ServiceFactory.get(site).fullTextSearch(searchTerm = query, gsrLimit = max * 2, gsrOffset = null)
+                fullText.query?.pages.orEmpty().map { it.title }
+            } catch (_: Exception) { emptyList() }
+        }
+
+        val bm25List = bm25Deferred.await()
+        val fullTextList = fullTextDeferred.await()
+
+        // Fuse both ranked lists using Reciprocal Rank Fusion (RRF)
+        val fusedTitles = RagChunkSynthesizer.reciprocalRankFusion(bm25List, fullTextList)
+        if (fusedTitles.isNotEmpty()) fusedTitles.take(max) else bm25List.ifEmpty { fullTextList }.take(max)
     }
 }

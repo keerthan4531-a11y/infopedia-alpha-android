@@ -69,14 +69,15 @@ object AiApiClient {
                 }
 
                 append("CRITICAL RAG RESPONSE RULES FOR HIGH-QUALITY DETAILED OUTPUT:\n")
-                append("1. COMPREHENSIVE HIGH-DETAIL RESPONSE: Provide an expanded, rich, and deeply informative response synthesizing all facts from the verified sources above. Never output a brief 1-2 sentence response.\n")
-                append("2. STRUCTURED FORMATTING (Skeleton-of-Thought): Organize your answer into clear Markdown sections:\n")
-                append("   - Use bold headers (###) for distinct subtopics or historical/scientific periods.\n")
+                append("1. AGENTIC MULTI-HOP SYNTHESIS: If the context contains multiple entities/subjects (e.g. Abdul Kalam & CV Raman), analyze each entity thoroughly, then synthesize their connections, commonalities, differences, and historical/scientific relationship.\n")
+                append("2. COMPREHENSIVE HIGH-DETAIL RESPONSE: Provide an expanded, rich, and deeply informative response synthesizing all facts from the verified sources above. Never output a brief 1-2 sentence response.\n")
+                append("3. STRUCTURED FORMATTING (Skeleton-of-Thought): Organize your answer into clear Markdown sections:\n")
+                append("   - Use bold headers (###) for distinct entities, subtopics, or comparative analysis.\n")
                 append("   - Use bullet points (•) for key events, dates, milestones, and facts.\n")
                 append("   - Bold key terms, names, dates, and concepts for readability.\n")
-                append("3. INLINE CITATIONS: Insert citation tags [1], [2], [3] immediately after stating specific facts.\n")
-                append("4. TAMIL LANGUAGE SUPPORT: If the user query is in Tamil or Tamil script, provide the entire explanation in fluent, eloquent Tamil.\n")
-                append("5. FOLLOW-UP QUESTIONS: End your response with '### Related Questions' listing 3 engaging follow-up bullet points (- ...).\n")
+                append("4. INLINE CITATIONS: Insert citation tags [1], [2], [3] immediately after stating specific facts.\n")
+                append("5. TAMIL LANGUAGE SUPPORT: If the user query is in Tamil or Tamil script, provide the entire explanation in fluent, eloquent Tamil.\n")
+                append("6. FOLLOW-UP QUESTIONS: End your response with '### Related Questions' listing 3 engaging follow-up bullet points (- ...).\n")
             }
 
             // Standard system role message for models that support it

@@ -19,8 +19,6 @@ sealed class WikipediaSearchStatus {
 object WikipediaContextProvider {
 
     fun fetchContext(query: String, maxPages: Int = 4): Flow<WikipediaSearchStatus> = flow {
-        emit(WikipediaSearchStatus.Searching(query))
-
         try {
             val intent = QueryIntentRouter.classify(query)
             val primaryWikiSite = WikipediaApp.instance.wikiSite
@@ -30,18 +28,33 @@ object WikipediaContextProvider {
             val articles = mutableListOf<WikipediaArticleItem>()
             val rawChunks = mutableListOf<RagChunk>()
 
-            val searchLimit = if (intent == QueryIntent.SIMPLE_FACT) 2 else maxPages
-
-            // Two-Stage Retrieval Stage 1: Multi-language search
-            val (primaryTitles, secondaryTitles) = coroutineScope {
-                val primaryDeferred = async { searchTitles(primaryWikiSite, query, searchLimit) }
-                val secondaryDeferred = async { searchTitles(secondaryWikiSite, query, 1) }
-                Pair(primaryDeferred.await(), secondaryDeferred.await())
-            }
-
             val searchTargets = mutableListOf<Pair<WikiSite, String>>()
-            primaryTitles.forEach { searchTargets.add(Pair(primaryWikiSite, it)) }
-            secondaryTitles.forEach { searchTargets.add(Pair(secondaryWikiSite, it)) }
+
+            if (intent == QueryIntent.MULTI_HOP) {
+                val subQueries = QueryIntentRouter.decompose(query)
+                emit(WikipediaSearchStatus.Searching("🤖 Agentic Multi-Hop: Decomposing into [${subQueries.joinToString(" + ")}]…"))
+
+                val multiHopTitles = coroutineScope {
+                    subQueries.map { subQ ->
+                        async { searchTitles(primaryWikiSite, subQ, 2) }
+                    }.flatMap { it.await() }.distinct()
+                }
+
+                multiHopTitles.forEach { searchTargets.add(Pair(primaryWikiSite, it)) }
+            } else {
+                emit(WikipediaSearchStatus.Searching(query))
+                val searchLimit = if (intent == QueryIntent.SIMPLE_FACT) 2 else maxPages
+
+                // Stage 1: Multi-language search
+                val (primaryTitles, secondaryTitles) = coroutineScope {
+                    val primaryDeferred = async { searchTitles(primaryWikiSite, query, searchLimit) }
+                    val secondaryDeferred = async { searchTitles(secondaryWikiSite, query, 1) }
+                    Pair(primaryDeferred.await(), secondaryDeferred.await())
+                }
+
+                primaryTitles.forEach { searchTargets.add(Pair(primaryWikiSite, it)) }
+                secondaryTitles.forEach { searchTargets.add(Pair(secondaryWikiSite, it)) }
+            }
 
             if (searchTargets.isEmpty()) {
                 emit(WikipediaSearchStatus.Done(WikipediaContext()))

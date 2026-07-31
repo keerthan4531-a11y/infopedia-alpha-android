@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * EileenSanda
 * MuratTheTurkish
 -->
 <resources>
-  <string name="app_name_prod">Wikipedia</string>
-  <string name="app_name_beta">Wikipedia Beta</string>
-  <string name="search_hint">Leita í Wikipedia</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="search_hint">Leita í Infopedia</string>
   <string name="error_network_error" fuzzy="true">Tað er onki internet samband :(</string>
   <string name="page_error_retry">Royn aftur</string>
   <string name="menu_clear_all_history" fuzzy="true">Rudda søguyvirlitið</string>
@@ -16,7 +16,7 @@
   <string name="menu_page_other_languages" fuzzy="true">Les á øðrum málum</string>
   <string name="menu_page_share" fuzzy="true">Deil</string>
   <string name="last_updated_text">Seinast dagført %s</string>
-  <string name="preference_title_language" fuzzy="true">Wikipediamál</string>
+  <string name="preference_title_language" fuzzy="true">Infopediamál</string>
   <string name="langlinks_filter_hint">Leita</string>
   <string name="langlinks_empty">Henda síðan er ikki tøk á øðrum málum.</string>
   <string name="langlinks_activity_title">Onnur mál</string>
@@ -35,7 +35,7 @@
   <string name="login_username_hint">Brúkaranavn</string>
   <string name="login_password_hint">Loyniorð</string>
   <string name="menu_login">Rita inn</string>
-  <string name="login_activity_title" fuzzy="true">Rita inn á Wikipedia</string>
+  <string name="login_activity_title" fuzzy="true">Rita inn á Infopedia</string>
   <string name="login_in_progress_dialog_message">Ritar teg inn…</string>
   <string name="login_success_toast" fuzzy="true">Væleydnað innritan!</string>
   <string name="preference_title_logout">Rita út</string>
@@ -61,8 +61,8 @@
   <string name="page_protected_can_not_edit" fuzzy="true">Tú hevur ikki loyvi til at rætta hesa síðuna</string>
   <string name="page_protected_can_not_edit_title">Henda síðan er vard</string>
   <string name="settings_activity_title" fuzzy="true">Innstillingar</string>
-  <string name="about_description">Um Wikipedia-appina</string>
-  <string name="about_wikipedia_url">https://fo.wikipedia.org/wiki/Wikipedia:Um</string>
+  <string name="about_description">Um Infopedia-appina</string>
+  <string name="about_wikipedia_url">https://fo.Infopedia.org/wiki/Infopedia:Um</string>
   <string name="about_contributors_heading" fuzzy="true">høvundar</string>
   <string name="about_wmf" fuzzy="true">Ein app frá &lt;a href=\"https://wikimediafoundation.org/\"&gt;Wikimedia Foundation&lt;/a&gt;</string>
   <string name="about_activity_title">Um</string>

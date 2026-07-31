@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Ahrada2016
 * Bsitzmann
@@ -8,9 +8,9 @@
 * Tumsaa
 -->
 <resources>
-  <string name="app_name_prod">Wikipiidiyaa</string>
-  <string name="app_name_beta">Beta Wikipiidiyaa</string>
-  <string name="app_name_alpha">Wikipiidiyaa Aalfaa</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="search_hint">Wikipiidiyaa barbaadi</string>
   <string name="search_hint_voice_search">Sagalee galchuun barbaadi</string>
   <string name="search_hint_search_languages">Qooda barbaadi</string>

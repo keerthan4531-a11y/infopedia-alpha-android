@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Dbrant
 * Maxí
@@ -8,14 +8,14 @@
 * Vignir
 -->
 <resources>
-  <string name="app_name_prod">Wikipedia</string>
-  <string name="app_name_beta">Wikipedia Beta</string>
-  <string name="app_name_alpha">Wikipedia Alfa</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Wikimedia</string>
   <string name="nav_item_back">Til baka</string>
   <string name="page_tabs_back">Til baka</string>
   <string name="nav_item_forward">Áfram</string>
-  <string name="search_hint">Leita á Wikipedia</string>
+  <string name="search_hint">Leita á Infopedia</string>
   <string name="search_hint_voice_search">Leit með raddskipunum</string>
   <string name="search_hint_search_languages">Leita eftir tungumáli</string>
   <string name="filter_hint_filter_my_lists_and_articles">Sía listana mína</string>
@@ -117,7 +117,7 @@
   <string name="langlinks_empty">Þessi síða er ekki tiltæk á öðrum tungumálum.</string>
   <string name="langlinks_no_match">Engin tungumál fundust</string>
   <string name="langlinks_activity_title">Önnur tungumál</string>
-  <string name="langlinks_your_wikipedia_languages">Þín Wikipedia-tungumál</string>
+  <string name="langlinks_your_wikipedia_languages">Þín Infopedia-tungumál</string>
   <string name="menu_save_changes">Gefa út breytingar</string>
   <string name="edit_saved_successfully">Breytingin var gefin út!</string>
   <string name="dialog_message_edit_failed">Breytingin mistókst!</string>
@@ -132,11 +132,11 @@
   <string name="search_reading_lists_no_results">Engar niðurstöður fundust í leslistum</string>
   <string name="search_history_no_results">Engar niðurstöður fundust í ferilskrá</string>
   <string name="edit_section_captcha_message">Sem hjálp við að berjast á móti sjálfvirkum ruslpóstsendingum, skaltu setja inn orðin sem birtast hér fyrir neðan</string>
-  <string name="edit_section_captcha_request_an_account_message">Getur þú ekki séð myndina? &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;Óska eftir aðgangi&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">Getur þú ekki séð myndina? &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;Óska eftir aðgangi&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">Endurtaktu orðin að ofan</string>
   <string name="title_captcha">Settu inn CAPTCHA</string>
   <string name="edit_section_captcha_reload">Banka á CAPTCHA til að endurhlaða</string>
-  <string name="nav_item_login">Skrá inn á Wikipedia</string>
+  <string name="nav_item_login">Skrá inn á Infopedia</string>
   <string name="login_username_hint">Notandanafn</string>
   <string name="login_password_hint">Lykilorð</string>
   <string name="account_creation_password_hint">Lykilorð</string>
@@ -159,19 +159,19 @@
   <string name="logout_prompt">Þetta mun skrá þig út af öllum þeim tækjum þar sem þú ert núna skráð/ur inn. Ertu viss að þú viljir skrá þig út?</string>
   <string name="logout_dialog_cancel_button_text">Hætta við</string>
   <string name="logged_out_in_background_title">Skráður út</string>
-  <string name="logged_out_in_background_dialog">Þú hefur verið skráð/ur út af Wikipedia. Myndirðu vilja skrá þig aftur inn?</string>
+  <string name="logged_out_in_background_dialog">Þú hefur verið skráð/ur út af Infopedia. Myndirðu vilja skrá þig aftur inn?</string>
   <string name="logged_out_in_background_login">Skrá inn</string>
   <string name="logged_out_in_background_cancel">Hætta við</string>
   <string name="history_empty_title">Engar nýlega lesnar greinar</string>
   <string name="history_empty_message">Haltu utan um það sem þú hefur verið að lesa hérna.</string>
   <string name="history_offline_articles_toast">Sumar greinar í lesferlinum gætu verið óaðgengilegar án nettengingar.</string>
   <string name="search_empty_message">Leitaðu og lestu í frjálsa alfræðiorðasafninu á móðurmálinu þínu</string>
-  <string name="search_empty_message_multilingual_upgrade">Leita í Wikipedia á fleiri tungumálum</string>
+  <string name="search_empty_message_multilingual_upgrade">Leita í Infopedia á fleiri tungumálum</string>
   <string name="delete_selected_items">Eyða völdum atriðum</string>
   <string name="wp_stylized">&lt;big&gt;W&lt;/big&gt;IKIPEDI&lt;big&gt;A&lt;/big&gt;</string>
   <string name="create_account_username_hint">Notandanafn</string>
   <string name="login_dont_have_account">Ekki með aðgang?</string>
-  <string name="login_join_wikipedia">Skráðu þig hjá Wikipedia</string>
+  <string name="login_join_wikipedia">Skráðu þig hjá Infopedia</string>
   <string name="login_forgot_password">Gleymt lykilorð?</string>
   <string name="create_account_already_have">Ertu með aðgang?</string>
   <string name="create_account_activity_title">Stofnaðu aðgang</string>
@@ -193,11 +193,11 @@
   <string name="create_account_button">Stofna aðgang</string>
   <string name="create_account_name_unavailable">Notandanafnið \"%s\" er ekki tiltækt. Veldu eitthvað annað nafn.</string>
   <string name="create_account_ip_block_message">Því miður, þetta IP-vistfang er útilokað frá því á búa til notendaaðganga.</string>
-  <string name="create_account_ip_block_help_url">https://en.wikipedia.org/wiki/Help:I_have_been_blocked</string>
+  <string name="create_account_ip_block_help_url">https://en.Infopedia.org/wiki/Help:I_have_been_blocked</string>
   <string name="create_account_ip_block_details">Nánar</string>
   <string name="preferences_general_heading">Almennt</string>
   <string name="preferences_account_heading">Notandaaðgangur</string>
-  <string name="wikipedia_app_faq">Algengar spurningar um Wikipedia Zero</string>
+  <string name="wikipedia_app_faq">Algengar spurningar um Infopedia Zero</string>
   <string name="send_feedback">Senda ábendingar um appið</string>
   <string name="create_account_account_created_toast">Aðgangur búinn til!</string>
   <string name="preferences_heading_syncing">Samstilling</string>
@@ -205,8 +205,8 @@
   <string name="preferences_heading_experimental">Á tilraunastigi</string>
   <string name="preference_title_sync_reading_lists_from_account">Samstilling leslista</string>
   <string name="preference_title_download_reading_list_articles">Sækja greinar á leslista</string>
-  <string name="preference_summary_sync_reading_lists">Samstilla leslista á milli mismunandi tækja með því að vista þá á Wikipedia-notandaaðganginn þinn</string>
-  <string name="preference_summary_sync_reading_lists_from_account">Samstilla leslista á milli mismunandi tækja með því að vista þá á Wikipedia-notandaaðganginn \"%s\"</string>
+  <string name="preference_summary_sync_reading_lists">Samstilla leslista á milli mismunandi tækja með því að vista þá á Infopedia-notandaaðganginn þinn</string>
+  <string name="preference_summary_sync_reading_lists_from_account">Samstilla leslista á milli mismunandi tækja með því að vista þá á Infopedia-notandaaðganginn \"%s\"</string>
   <string name="preference_dialog_of_turning_off_reading_list_sync_title">Fjarlægja samstillta leslista af %s?</string>
   <string name="preference_dialog_of_turning_off_reading_list_sync_text">Þetta mun eyða öllum áður samstilltum leslistum af fjartengdu gagnageymslunni. Fjarlægja alla samstillta leslista af \"%s notandaaðganginum þínum?</string>
   <string name="preference_title_auto_upload_crash_reports">Senda hrunskýrslur</string>
@@ -224,21 +224,21 @@
   <string name="page_watchlist_overflow_menu_onboarding_tooltip_text">Haltu utan um það sem gerist varðandi greinar sem þú hefur áhuga á. Ýttu á yfirflæðisvalmyndina og veldu &lt;b&gt;Bæta á vaktlista&lt;/b&gt; til að sjá allar breytingar á grein.</string>
   <string name="settings_item_preferences">Stillingar</string>
   <string name="settings_activity_title">Stillingar</string>
-  <string name="about_description">Um Wikipedia-appið</string>
+  <string name="about_description">Um Infopedia-appið</string>
   <string name="privacy_policy_description">Meðferð persónuupplýsinga</string>
   <string name="terms_of_use_description">Notkunarskilmálar</string>
-  <string name="about_wikipedia_url">https://is.wikipedia.org/wiki/Wikipedia:Um_verkefnið</string>
-  <string name="privacy_policy_url" fuzzy="true">https://foundation.wikimedia.org/wiki/Privacy_policy</string>
-  <string name="terms_of_use_url" fuzzy="true">https://foundation.wikimedia.org/wiki/Terms_of_Use</string>
+  <string name="about_wikipedia_url">https://is.Infopedia.org/wiki/Infopedia:Um_verkefnið</string>
+  <string name="privacy_policy_url" fuzzy="true">https://foundation.infopedia.org/wiki/Privacy_policy</string>
+  <string name="terms_of_use_url" fuzzy="true">https://foundation.infopedia.org/wiki/Terms_of_Use</string>
   <string name="cc_by_sa_4_url">https://creativecommons.org/licenses/by-sa/4.0/deed.is</string>
   <string name="cc_0_url">https://creativecommons.org/publicdomain/zero/1.0/deed.is</string>
   <string name="about_libraries_heading">notuð aðgerðasöfn</string>
   <string name="about_contributors_heading">framlög frá</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Síða teymisins&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Síða teymisins&lt;/a&gt;</string>
   <string name="about_translators_heading">þýðendur</string>
   <string name="about_translators_translatewiki">Þetta forrit/app var þýtt af sjálfboðaliðum á &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt;.</string>
   <string name="about_app_license_heading">Notkunarleyfi</string>
-  <string name="about_app_license" fuzzy="true">Grunnkóðinn er tiltækur á &lt;a href=\"https://gerrit.wikimedia.org/r/#/admin/projects/apps/android/wikipedia\"&gt;Gerrit&lt;/a&gt; og &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;GitHub&lt;/a&gt; með &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt; Apache 2.0 notkunarleyfinu&lt;/a&gt;. Ef ekkert annað er tekið fram, er allt efnið tiltækt með &lt;a href=\"https://creativecommons\n.org/licenses/by-sa/4.0\"&gt;Creative Commons Attribution-ShareAlike notkunarleyfi&lt;/a&gt;.</string>
+  <string name="about_app_license" fuzzy="true">Grunnkóðinn er tiltækur á &lt;a href=\"https://gerrit.infopedia.org/r/#/admin/projects/apps/android/Infopedia\"&gt;Gerrit&lt;/a&gt; og &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;GitHub&lt;/a&gt; með &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt; Apache 2.0 notkunarleyfinu&lt;/a&gt;. Ef ekkert annað er tekið fram, er allt efnið tiltækt með &lt;a href=\"https://creativecommons\n.org/licenses/by-sa/4.0\"&gt;Creative Commons Attribution-ShareAlike notkunarleyfi&lt;/a&gt;.</string>
   <string name="about_wmf">Í boði &lt;a href=\"https://wikimediafoundation.org/\"&gt;Wikimedia Foundation&lt;/a&gt;</string>
   <string name="about_activity_title">Um hugbúnaðinn</string>
   <string name="edit_abandon_confirm">Síðunni hefur verið breytt. Ertu viss um að þú viljir hætta án þess að vista breytingarnar þínar ?</string>
@@ -279,7 +279,7 @@
   <string name="abusefilter_title_warn">Þetta lítur ekki út fyrir að vera uppbyggileg breyting, ert þú viss um að þú viljir birta hana?</string>
   <string name="abusefilter_title_disallow">Þú getur ekki gefið út þessa breytingu. Farðu til baka og breyttu henni.</string>
   <string name="abusefilter_text_warn">Sjálfvirk sía hefur greint þessa breytingu sem mögulega eyðileggjandi. Hún gæti innihaldið eitt af eftirtöldu:&lt;br /&gt;&lt;br /&gt;· Eintómir hástafir&lt;br /&gt;· Tæming greina eða þvaður&lt;br /&gt;· Óviðeigandi ytri tenglar eða myndir&lt;br /&gt;· Endurteknir stafir</string>
-  <string name="abusefilter_text_disallow">Sjálfvirk sía hefur greint þessa breytingu sem eyðileggjandi eða sem tilraun til skemmdarverks. &lt;br /&gt;&lt;br /&gt;Wikipedia er alfræðirit og því tilheyrir aðeins hlutlaust og markvert efni.</string>
+  <string name="abusefilter_text_disallow">Sjálfvirk sía hefur greint þessa breytingu sem eyðileggjandi eða sem tilraun til skemmdarverks. &lt;br /&gt;&lt;br /&gt;Infopedia er alfræðirit og því tilheyrir aðeins hlutlaust og markvert efni.</string>
   <string name="page_similar_titles">Áþekkar síður</string>
   <string name="search_did_you_mean">Áttir þú við \"%s\"?</string>
   <string name="search_recent_header">Nýlegar leitir:</string>
@@ -296,9 +296,9 @@
   <string name="table_infobox">Staðreyndir strax</string>
   <string name="table_other">Nánari upplýsingar</string>
   <string name="table_close">Loka</string>
-  <string name="widget_name_featured_page">Forsíða Wikipedia</string>
-  <string name="widget_title_featured_page">Forsíða Wikipedia í dag:</string>
-  <string name="widget_name_search">Wikipedia-leit</string>
+  <string name="widget_name_featured_page">Forsíða Infopedia</string>
+  <string name="widget_title_featured_page">Forsíða Infopedia í dag:</string>
+  <string name="widget_name_search">Infopedia-leit</string>
   <string name="wiktionary_no_definitions_found">Engar skilgreiningar fundust.</string>
   <string name="alpha_update_notification_title">Ný alfa-uppfærsla tiltæk</string>
   <string name="alpha_update_notification_text">Banka til að sækja</string>
@@ -382,9 +382,9 @@
   <string name="error_message_generic">Villa kom upp</string>
   <string name="view_link_preview_error_button_dismiss">Vísa frá</string>
   <string name="error_page_does_not_exist">Þessi síða er ekki til</string>
-  <string name="error_user_page_does_not_exist">Wikipedia er ekki með &lt;a href=\"%1$s\"&gt;notandasíðu&lt;/a&gt; með nákvæmlega þessu heiti. Venjulega ætti &lt;b&gt;%2$s&lt;/b&gt; að hafa útbúið og breytt þessari síðu. Ef þú ert ekki viss, skaltu ganga úr skugga um að \"%3$s\" sé til.</string>
+  <string name="error_user_page_does_not_exist">Infopedia er ekki með &lt;a href=\"%1$s\"&gt;notandasíðu&lt;/a&gt; með nákvæmlega þessu heiti. Venjulega ætti &lt;b&gt;%2$s&lt;/b&gt; að hafa útbúið og breytt þessari síðu. Ef þú ert ekki viss, skaltu ganga úr skugga um að \"%3$s\" sé til.</string>
   <string name="view_wiki_error_message_offline">Næ ekki að tengjast netinu</string>
-  <string name="view_wiki_error_message_timeout">Náði ekki að tengjast Wikipedia. Athugaðu internettenginguna eða reyndu aftur síðar</string>
+  <string name="view_wiki_error_message_timeout">Náði ekki að tengjast Infopedia. Athugaðu internettenginguna eða reyndu aftur síðar</string>
   <string name="reference_title">Heimild %s</string>
   <string name="reference_list_title">Tilvísanir</string>
   <string name="theme_chooser_dialog_image_dimming_switch_label">Dekking mynda (í dökku þema)</string>
@@ -400,11 +400,11 @@
   <string name="error_blocked_start">Upphaf banns: %s</string>
   <string name="error_blocked_expiry">Bann rennur út: %s</string>
   <string name="error_blocked_id">Auðkenni banns: %s</string>
-  <string name="error_blocked_footer">Þú getur haft samband við &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; eða annan &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Administrators\"&gt;stjórnanda&lt;/a&gt; til að ræða bannið.</string>
+  <string name="error_blocked_footer">Þú getur haft samband við &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; eða annan &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Administrators\"&gt;stjórnanda&lt;/a&gt; til að ræða bannið.</string>
   <string name="theme_chooser_menu_item_short_tooltip">Sérsníddu verkfærastikuna þína</string>
-  <string name="error_blocked_footer_no_blocker">Þú getur haft samband við &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Administrators\"&gt;stjórnanda&lt;/a&gt; til að ræða bannið.</string>
+  <string name="error_blocked_footer_no_blocker">Þú getur haft samband við &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Administrators\"&gt;stjórnanda&lt;/a&gt; til að ræða bannið.</string>
   <string name="crash_report_activity_title">Villa í forriti</string>
-  <string name="crash_report_relaunch_or_quit">Því miður, Wikipedia-appið varð fyrir villu og vað þessvegna lokað.\n\nViltu byrja aftur eða hætta alveg?</string>
+  <string name="crash_report_relaunch_or_quit">Því miður, Infopedia-appið varð fyrir villu og vað þessvegna lokað.\n\nViltu byrja aftur eða hætta alveg?</string>
   <string name="crash_report_relaunch">Byrja aftur</string>
   <string name="crash_report_quit">Hætta</string>
   <string name="article_menu_bar_save_button">Vista</string>
@@ -504,8 +504,8 @@
   <string name="reading_lists_default_list_delete_message">Ekki er hægt að eyða sjálfgefna listanum ( %s ).</string>
   <string name="reading_lists_default_plus_one_list_delete_message">%1$s eytt. Ekki er hægt að eyða sjálfgefna listanum ( %2$s ).</string>
   <string name="reading_lists_default_plus_many_lists_delete_message">Listum eytt. Ekki er hægt að eyða sjálfgefna listanum ( %s ).</string>
-  <string name="single_list_json_file_name">%s (Wikipedia leslisti).json</string>
-  <string name="multiple_lists_json_file_name">Wikipedia leslistar ( %s og fleira).json</string>
+  <string name="single_list_json_file_name">%s (Infopedia leslisti).json</string>
+  <string name="multiple_lists_json_file_name">Infopedia leslistar ( %s og fleira).json</string>
   <string name="reading_list_items_deleted">%d greinar fjarlægðar af lista</string>
   <string name="reading_lists_item_deleted">%s fjarlægt af listum</string>
   <string name="reading_list_item_delete_undo">Afturkalla</string>
@@ -525,12 +525,12 @@
   <string name="reading_list_confirm_remove_article_from_offline_title">Greinin er á mörgum listum</string>
   <string name="reading_list_confirm_remove_article_from_offline_message">%s verður ekki lengur tiltækt án nettengingar úr öllum leslistum:</string>
   <string name="reading_lists_sync_reminder_title">Kveikja á samstillingu leslista?</string>
-  <string name="reading_lists_sync_reminder_text" fuzzy="true">Nú er hægt að samstilla greinar sem vistaðar hafa verið í leslista við Wikipedia-aðganginn þinn. &lt;a href=\"https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Læra meira&lt;/a&gt;</string>
-  <string name="reading_lists_login_reminder_text_with_link" fuzzy="true">Nú er hægt að samstilla leslista á milli tækja. Skráðu þig inn á Wikipedia-aðganginn þinn og leyfðu vistun á leslistunum þínum. &lt;a href=\"https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Vita meira&lt;/a&gt;</string>
+  <string name="reading_lists_sync_reminder_text" fuzzy="true">Nú er hægt að samstilla greinar sem vistaðar hafa verið í leslista við Infopedia-aðganginn þinn. &lt;a href=\"https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Læra meira&lt;/a&gt;</string>
+  <string name="reading_lists_login_reminder_text_with_link" fuzzy="true">Nú er hægt að samstilla leslista á milli tækja. Skráðu þig inn á Infopedia-aðganginn þinn og leyfðu vistun á leslistunum þínum. &lt;a href=\"https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Vita meira&lt;/a&gt;</string>
   <string name="reading_lists_sync_reminder_action">Virkja samstillingu</string>
   <string name="reading_list_login_reminder_title">Samstilla leslista</string>
-  <string name="reading_lists_login_reminder_text">Nú er hægt að samstilla leslista á milli tækja. Skráðu þig inn á Wikipedia-aðganginn þinn og leyfðu vistun á leslistunum þínum.</string>
-  <string name="reading_lists_login_button">Skrá inn / nýskrá á Wikipedia</string>
+  <string name="reading_lists_login_reminder_text">Nú er hægt að samstilla leslista á milli tækja. Skráðu þig inn á Infopedia-aðganginn þinn og leyfðu vistun á leslistunum þínum.</string>
+  <string name="reading_lists_login_button">Skrá inn / nýskrá á Infopedia</string>
   <string name="reading_lists_ignore_button">Ekki núna</string>
   <string name="reading_lists_confirm_remote_delete_yes">Já</string>
   <string name="reading_lists_confirm_remote_delete_no">Nei</string>
@@ -552,7 +552,7 @@
   <string name="reading_list_turned_sync_off_dialog_ok">Í lagi</string>
   <string name="reading_list_turned_sync_off_dialog_settings">Stillingar</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_title">Kveikja á samstillingu leslista?</string>
-  <string name="reading_list_prompt_turned_sync_on_dialog_text">Nú er hægt að samstilla greinar sem vistaðar hafa verið í leslista við Wikipedia-aðganginn þinn. &lt;a href=\"#faq\"&gt;Læra meira&lt;/a&gt;</string>
+  <string name="reading_list_prompt_turned_sync_on_dialog_text">Nú er hægt að samstilla greinar sem vistaðar hafa verið í leslista við Infopedia-aðganginn þinn. &lt;a href=\"#faq\"&gt;Læra meira&lt;/a&gt;</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_do_not_show">Ekki sýna þessi skilaboð aftur</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_enable_syncing">Virkja samstillingu</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_no_thanks">Nei, takk</string>
@@ -648,7 +648,7 @@
     <item quantity="one">%1$d listi eftir</item>
     <item quantity="other">%1$d listar eftir</item>
   </plurals>
-  <string name="notification_echo_channel_description">Wikipedia-tilkynningar</string>
+  <string name="notification_echo_channel_description">Infopedia-tilkynningar</string>
   <string name="notifications_activity_title">Tilkynningar</string>
   <string name="notifications_activity_title_archived">Tilkynningar (í geymslu)</string>
   <string name="notifications_search">Leita í tilkynningum</string>
@@ -710,8 +710,8 @@
   <string name="preference_title_customize_push_notifications">Sérsníða ýti-tilkynningar</string>
   <string name="preference_category_display_settings">Birtingarstillingar</string>
   <string name="preference_title_hide_read_notifications">Fela lestilkynningar</string>
-  <string name="notifications_channel_group_wikipedia_notifications_title">Wikipedia</string>
-  <string name="notifications_channel_group_wikipedia_notifications_description">Tilkynningar frá Wikipedia</string>
+  <string name="notifications_channel_group_wikipedia_notifications_title">Infopedia</string>
+  <string name="notifications_channel_group_wikipedia_notifications_description">Tilkynningar frá Infopedia</string>
   <string name="notifications_channel_group_other_title">Annað</string>
   <string name="notifications_channel_group_other_description">Aðrar tilkynningar frá forritinu</string>
   <string name="notifications_filter_label">Sía tilkynningar</string>
@@ -749,7 +749,7 @@
   <string name="view_top_read_card_pageviews_k_suffix">%d k</string>
   <string name="view_top_read_card_pageviews_m_suffix">%d M</string>
   <string name="view_next_random_article">Hlaða inn annari handahófsvalinni grein</string>
-  <string name="view_main_page_card_title">Í dag á Wikipedia</string>
+  <string name="view_main_page_card_title">Í dag á Infopedia</string>
   <string name="view_main_page_card_action">Skoða forsíðu</string>
   <string name="view_featured_image_card_title">Mynd dagsins</string>
   <string name="view_featured_image_card_download">Sækja</string>
@@ -777,16 +777,16 @@
   <string name="feed_configure_menu_reset">Endurheimta sjálfgefna sýn</string>
   <string name="feed_configure_menu_select_all">Birta allt</string>
   <string name="feed_configure_menu_deselect_all">Fela allt</string>
-  <string name="feed_configure_language_warning">Athugaðu að ekki eru allar gerðir korta tiltækar á öllum Wikipedia-tungumálum. Breyttu völdum tungumálum í stillingunum.</string>
+  <string name="feed_configure_language_warning">Athugaðu að ekki eru allar gerðir korta tiltækar á öllum Infopedia-tungumálum. Breyttu völdum tungumálum í stillingunum.</string>
   <string name="feed_item_type_news">Greinar um mál í gangi</string>
   <string name="feed_item_type_on_this_day">Sögulegir atburðir á þessum degi</string>
   <string name="feed_item_type_because_you_read">Uppástungur byggðar á nýlesnum greinum í ferilskránni þinni</string>
-  <string name="feed_item_type_featured_article">Forsíðugrein dagsins á Wikipedia</string>
+  <string name="feed_item_type_featured_article">Forsíðugrein dagsins á Infopedia</string>
   <string name="feed_item_type_trending">Mest lesnu greinar dagsins</string>
   <string name="feed_item_type_featured_image">Forsíðumynd dagsins frá Wikimedia Commons</string>
-  <string name="feed_item_type_main_page">Aðalsíða Wikipedia með úrvalsefni dagsins</string>
+  <string name="feed_item_type_main_page">Aðalsíða Infopedia með úrvalsefni dagsins</string>
   <string name="feed_item_type_randomizer">Útbúðu handahófsvaldar greinar til að lesa</string>
-  <string name="feed_item_type_suggested_edits">Tillögur að efni til að bæta við Wikipedia</string>
+  <string name="feed_item_type_suggested_edits">Tillögur að efni til að bæta við Infopedia</string>
   <string name="feed_empty_message" fuzzy="true">Það er ekkert á \'Uppgötva\'-streyminu þínu</string>
   <string name="feed_configure_onboarding_action">Sérsníða</string>
   <string name="customize_lang_selection_dialog_ok_button_text">Í lagi</string>
@@ -819,7 +819,7 @@
   <string name="description_edit_help_about_wikidata">Um Wikidata</string>
   <string name="description_edit_help_wikidata_guide">Leiðarvísir Wikidata fyrir hvernig eigi að skrifa lýsingar</string>
   <string name="wikidata_description_guide_url" fuzzy="true">https://www.wikidata.org/wiki/Help:Description#Guidelines_for_descriptions_in_English</string>
-  <string name="description_edit_anon_limit">Takk fyrir viðvarandi áhuga þinn á að vinna með lýsingar greina. Til að gera fleiri breytingar, ættirðu að skrá þig inn á Wikipedia notandaaðganginn þinn.</string>
+  <string name="description_edit_anon_limit">Takk fyrir viðvarandi áhuga þinn á að vinna með lýsingar greina. Til að gera fleiri breytingar, ættirðu að skrá þig inn á Infopedia notandaaðganginn þinn.</string>
   <string name="description_edit_license_notice">Með því að breyta lýsingu á þessari grein, samþykkir þú &lt;a href=\"%1$s\"&gt;notkunarskilmálana&lt;/a&gt; og að þú gefir óafturkræft út framlög þín með &lt;a href=\"%2$s\"&gt;Creative Commons CC0&lt;/a&gt; notkunarleyfi.</string>
   <string name="description_edit_helper_text_lowercase_warning">byrjar yfirleitt með litlum bókstaf</string>
   <string name="description_edit_voice_input_description">Raddskipun</string>
@@ -841,7 +841,7 @@
   <string name="description_edit_success_saved_image_caption_in_lang_snackbar">Myndatexti birtur! (%s)</string>
   <string name="description_edit_success_saved_image_tags_snackbar">Myndamerki birt!</string>
   <string name="description_edit_success_se_general_feed_link_snackbar">Var þetta ekki bara gaman? Hjálpaðu okkur við að bæta við meiru.</string>
-  <string name="description_edit_success_encouragement">Þú varst að gera Wikipedia betri fyrir alla</string>
+  <string name="description_edit_success_encouragement">Þú varst að gera Infopedia betri fyrir alla</string>
   <string name="description_edit_success_done">Lokið</string>
   <string name="description_edit_success_did_you_know">Vissir þú það?</string>
   <string name="description_edit_success_article_edit_hint">Þú getur líka breytt greinum innan þessa forrits. Prófaðu að laga stafsetningu og styttri setningar með því að smella á ^1 táknmyndina</string>
@@ -884,7 +884,7 @@
   <string name="suggested_edits_task_translate_caption_title">Þýða myndatexta</string>
   <string name="suggested_edits_task_translate_caption_description">Þýða myndatexta yfir á önnur tungumál</string>
   <string name="suggested_edits_task_multilingual_title">Fleiri verkefni fyrir margtyngda ritara</string>
-  <string name="suggested_edits_task_multilingual_description">Þýðingaverkefni eru tiltæk ef þú lest og skrifar á fleiri en einu Wikipedia-tungumáli.</string>
+  <string name="suggested_edits_task_multilingual_description">Þýðingaverkefni eru tiltæk ef þú lest og skrifar á fleiri en einu Infopedia-tungumáli.</string>
   <string name="suggested_edits_task_image_caption_edit_disable_text">Læst þangað til þú hefur gert %d myndatexta</string>
   <string name="suggested_edits_task_translate_description_edit_disable_text">Læst þangað til þú hefur gert %d breytingar á lýsingum greina (yfirfarnar)</string>
   <string name="suggested_edits_task_multilingual_negative">Ekkert fyrir mig</string>
@@ -913,7 +913,7 @@
   <string name="suggested_edits_image_preview_dialog_licensing">Notkunarleyfi</string>
   <string name="suggested_edits_image_preview_dialog_more_info">Frekari upplýsingar</string>
   <string name="suggested_edits_image_preview_dialog_file_page_link_text">Síða skrárinnar á Wikimedia Commons</string>
-  <string name="suggested_edits_image_preview_dialog_file_page_wikipedia_link_text">Síða skráarinnar á Wikipedia</string>
+  <string name="suggested_edits_image_preview_dialog_file_page_wikipedia_link_text">Síða skráarinnar á Infopedia</string>
   <string name="suggested_edits_article_cta_image_tags">Bæta við merkjum á myndir</string>
   <string name="suggested_edits_article_cta_image_caption">Bæta við myndatexta</string>
   <string name="suggested_edits_article_cta_image_caption_in_language">Bæta við myndatexta (%s)</string>
@@ -928,7 +928,7 @@
   <string name="suggested_edits_image_tags_publishing">Birting</string>
   <string name="suggested_edits_image_tags_published">Birt</string>
   <string name="suggested_edits_image_tags_onboarding_title">Að merkja myndir gerir mun auðveldara að finna þær.</string>
-  <string name="suggested_edits_image_tags_onboarding_text">Með því að bæta við merkjum á myndir gerir mun auðveldara að finna þær á Commons, myndasafninu með frjálsum notkunarleyfum sem Wikipedia notar fyrir myndir í greinum sínum.</string>
+  <string name="suggested_edits_image_tags_onboarding_text">Með því að bæta við merkjum á myndir gerir mun auðveldara að finna þær á Commons, myndasafninu með frjálsum notkunarleyfum sem Infopedia notar fyrir myndir í greinum sínum.</string>
   <string name="suggested_edits_image_tags_onboarding_note">Einungis merki sem þú velur verður bætt á myndir.</string>
   <string name="suggested_edits_image_tags_task_detail">Bættu sérsniðnum merkjum á myndir til að gera auðveldara að finna þær.</string>
   <string name="suggested_edits_image_tags_choose">Bættu við eða veldu samsvarandi merki</string>
@@ -939,8 +939,8 @@
   <string name="suggested_edits_image_tags_add_tag">Bæta við merki</string>
   <string name="suggested_edits_image_tags_exit_dialog_message">Óbirtu merkin verða ekki vistuð</string>
   <string name="suggested_edits_image_zoom_tooltip">Klíptu til að renna að þessari mynd.</string>
-  <string name="suggested_edits_encouragement_message">%s, takk fyrir breytingarnar þínar. Hér fyrir neðan geturðu séð fleiri leiðir til að leggja þitt af mörkum til Wikipedia.</string>
-  <string name="suggested_edits_onboarding_message">&lt;b&gt;Hæ %s&lt;/b&gt;, hér fyrir neðan geturðu séð ýmsar skemmtilegar leiðir til að bæta Wikipedia. Þú sérð árangur um leið og þú byrjar. Skemmtu þér vel!</string>
+  <string name="suggested_edits_encouragement_message">%s, takk fyrir breytingarnar þínar. Hér fyrir neðan geturðu séð fleiri leiðir til að leggja þitt af mörkum til Infopedia.</string>
+  <string name="suggested_edits_onboarding_message">&lt;b&gt;Hæ %s&lt;/b&gt;, hér fyrir neðan geturðu séð ýmsar skemmtilegar leiðir til að bæta Infopedia. Þú sérð árangur um leið og þú byrjar. Skemmtu þér vel!</string>
   <string name="suggested_edits_image_captions_task_detail">Myndatextar lýsa myndum til að hjálpa notendum að skilja meiningu og samhengi myndanna.</string>
   <string name="suggested_edits_add_descriptions_task_detail">Lýstu efni greinar í örfáum orðum til að hjálpa lesendum að skilja umfjöllunarefnið í fljótu bragði.</string>
   <string name="suggested_edits_contributions_stat_tooltip">Heildarfjöldi breytinga sem þú hefur gert hingað til.</string>
@@ -949,7 +949,7 @@
   <string name="suggested_edits_edit_quality_stat_tooltip">Byggt á því hversu oft eitthvað atriði frá þér hefur verið afturkallað (tekið til baka af öðrum þáttakanda). Afturkallaðar breytingar: %d.</string>
   <string name="suggested_edits_paused_message">Tillögur að breytingum eru í dvala til %1$s. Því miður %2$s, sumt af því sem þú hefur unnið við hefur verið afturkallað.</string>
   <string name="suggested_edits_disabled_message">Tillögur að breytingum eru ekki virkar. Því miður %s, of margt af því sem þú hefur unnið við hefur verið afturkallað.</string>
-  <string name="suggested_edits_ip_blocked_message">Það lítur út fyrir að IP-vistfangið þitt (eða svið af IP-vistföngum) sé í augnablikinu útilokað frá því að gera breytingar á Wikipedia.</string>
+  <string name="suggested_edits_ip_blocked_message">Það lítur út fyrir að IP-vistfangið þitt (eða svið af IP-vistföngum) sé í augnablikinu útilokað frá því að gera breytingar á Infopedia.</string>
   <string name="suggested_edits_gate_message">Því miður, %s, þú verður að hafa gert að minnsta kosti þrjár beinar breytingar í grein til að nota þennan eiginleika.</string>
   <string name="suggested_edits_editing_tips_link_text">Ábendingar og góð ráð við breytingar</string>
   <string name="suggested_edits_help_page_link_text">Hjálparsíða fyrir tillögur að breytingum</string>
@@ -974,7 +974,7 @@
     <item quantity="other">%d dagar</item>
   </plurals>
   <string name="suggested_edits_what_is_title">Hvað eru þessar tillögur að breytingum?</string>
-  <string name="suggested_edits_what_is_text">Tillögur að breytingum eru möguleg smá en alveg nauðsynleg framlög til Wikipedia.</string>
+  <string name="suggested_edits_what_is_text">Tillögur að breytingum eru möguleg smá en alveg nauðsynleg framlög til Infopedia.</string>
   <string name="suggested_edits_learn_more">Kanna nánar</string>
   <string name="suggested_edits_paused_title">Í bið</string>
   <string name="suggested_edits_disabled_title">Óvirkt</string>
@@ -984,7 +984,7 @@
   <string name="suggested_edits_task_new" fuzzy="true">nýtt</string>
   <string name="suggested_edits_cc0_notice">Með því að vista samþykkir þú &lt;a href=\"%1$s\"&gt;notkunarskilmálana&lt;/a&gt; og að þú gefir framlag þitt ævinlega út með &lt;a href=\"%2$s\"&gt;CC0 notkunarleyfinu&lt;/a&gt;.</string>
   <string name="suggested_edits_reactivation_notification_title">Tillögur að breytingum</string>
-  <string name="suggested_edits_reactivation_notification_stage_one">Takk fyrir framlag þitt til Wikipedia! Því ekki að halda áfram þar sem þú skildir við síðast?</string>
+  <string name="suggested_edits_reactivation_notification_stage_one">Takk fyrir framlag þitt til Infopedia! Því ekki að halda áfram þar sem þú skildir við síðast?</string>
   <string name="suggested_edits_reactivation_notification_stage_two">Hefurðu tíma til að halda áfram að gera Wikipedíu betri? Skoðaðu þessar tillögur að breytingum.</string>
   <string name="suggested_edits_contributions_screen_title">Framlög frá %s</string>
   <string name="suggested_edits_contribution_language_label">Tungumál</string>
@@ -1003,11 +1003,11 @@
     <item quantity="other">Þú bættir við %d merkjum</item>
   </plurals>
   <string name="suggested_edits_contribution_date_yesterday_text">Í gær</string>
-  <string name="suggested_edits_encourage_account_creation_title">Vissir þú að allir geta breytt efni á Wikipedia?</string>
-  <string name="suggested_edits_encourage_account_creation_message">Tillögur að breytingum er ný leið til að vinna við Wikipedia á Android. Þær hjálpa til við að gera smáar en mikilvægar breytingar á Wikipedia.\nMarkmið okkar er að einfalda vinnuna og gera hana aðgengilegri fyrir alla. Skráðu þig inn eða gakktu til liðs við Wikipedia til að komast í gang.</string>
-  <string name="suggested_edits_encourage_account_creation_login_button">Skrá inn / nýskrá á Wikipedia</string>
+  <string name="suggested_edits_encourage_account_creation_title">Vissir þú að allir geta breytt efni á Infopedia?</string>
+  <string name="suggested_edits_encourage_account_creation_message">Tillögur að breytingum er ný leið til að vinna við Infopedia á Android. Þær hjálpa til við að gera smáar en mikilvægar breytingar á Infopedia.\nMarkmið okkar er að einfalda vinnuna og gera hana aðgengilegri fyrir alla. Skráðu þig inn eða gakktu til liðs við Infopedia til að komast í gang.</string>
+  <string name="suggested_edits_encourage_account_creation_login_button">Skrá inn / nýskrá á Infopedia</string>
   <string name="suggested_edits_contribution_type_image_tag">Myndamerki</string>
-  <string name="suggested_edits_contribution_current_revision_text">Breytingin þín er núna sjáanleg á Wikipedia</string>
+  <string name="suggested_edits_contribution_current_revision_text">Breytingin þín er núna sjáanleg á Infopedia</string>
   <string name="suggested_card_more_edits">Fleiri tillögur að breytingum</string>
   <string name="suggested_edits_article_descriptions_dialog_title">Lýsingar sem stungið er upp á</string>
   <string name="suggested_edits_descriptions_report_dialog_title">Hvað myndir þú vilja kæra?</string>
@@ -1034,7 +1034,7 @@
     <item quantity="other">Þú bættir við %d stöfum</item>
   </plurals>
   <string name="suggested_edits_image_recommendations_task_title">Myndir í grein</string>
-  <string name="suggested_edits_image_recommendations_task_detail">Bættu við myndum í Wikipedia-greinar til að bæta skilning.</string>
+  <string name="suggested_edits_image_recommendations_task_detail">Bættu við myndum í Infopedia-greinar til að bæta skilning.</string>
   <string name="image_recommendation_task_instruction">Vilt þú bæta þessari mynd við greinina?</string>
   <string name="image_recommendation_tutorial">Kennsla</string>
   <string name="image_recommendation_accept">Já</string>
@@ -1052,7 +1052,7 @@
   <string name="image_recommendation_onboarding_1">Myndir geta hjálpað fólki að skilja betur viðfangsefnin, en margar greinar eru ekki með myndir.</string>
   <string name="image_recommendation_onboarding_2">Þú munt ákveða hvort mynd sem stungið er upp á eigi að setja í Wikipediugrein.</string>
   <string name="image_recommendation_onboarding_3">Tillögur eru vélgerðar og þú þarft að nota dómgreind þína til að ákveða hvort þú samþykkir þær eða hafnar þeim.</string>
-  <string name="image_recommendation_onboarding_4">Myndirnar eru frá Wikimedia Commons, safni mynda með frjálsum notkunarleyfum sem Wikipedia notar.</string>
+  <string name="image_recommendation_onboarding_4">Myndirnar eru frá Wikimedia Commons, safni mynda með frjálsum notkunarleyfum sem Infopedia notar.</string>
   <string name="image_recommendation_tooltip_1">Yfirfarðu þessa grein til að skilja efni hennar</string>
   <string name="image_recommendation_tooltip_2">Skoðaðu myndina og upplýsingar tengdar henni</string>
   <string name="image_recommendation_tooltip_3">Ákveddu hvort myndin hjálpi lesendum að skilja þetta efni betur</string>
@@ -1068,7 +1068,7 @@
   <string name="file_page_add_image_caption_button">Bæta við myndatexta</string>
   <string name="file_page_add_image_tags_button">Bæta við merkjum á myndir</string>
   <string name="file_page_edit_button_content_description">Breyta %s</string>
-  <string name="description_edit_revert_subtitle">Takk fyrir framlag þitt til Wikipedia!</string>
+  <string name="description_edit_revert_subtitle">Takk fyrir framlag þitt til Infopedia!</string>
   <string name="description_edit_revert_intro">Við vitum að þú reyndir þitt besta, en einn í yfirlestrarhópnum var í vafa. Hugsanlegar ástæður fyrir því að breytingunni þinni var hafnað, gætu meðal annars verið:</string>
   <string name="description_edit_revert_reason1">framlagið þitt fylgdi ekki einhverju atriðanna í &lt;a href=\"%1$s\"&gt;leiðbeiningunum&lt;/a&gt;.</string>
   <string name="description_edit_revert_reason2">framlagið þitt lítur út eins og tilraunastarfsemi eða jafnvel skemmdarverk.</string>
@@ -1083,9 +1083,9 @@
   <string name="onboarding_get_started">Komast í gang</string>
   <string name="onboarding_maybe_later">Kannski síðar</string>
   <string name="onboarding_explore_title">Nýjar leiðir til að kanna heiminn</string>
-  <string name="onboarding_explore_text" fuzzy="true">Hentu þér út í djúpu Wikipedia-laugina með \'Uppgötva\'-streymi sem er uppfært í sífellu. &lt;br/&gt;Þú getur &lt;b&gt;sérsniðið&lt;/b&gt; streymið eftir áhugamálum þínum – hvort sem það er til að læra um sögulega atburði í &lt;b&gt;Á þessum degi&lt;/b&gt;, eða með því að taka áhættuna í &lt;b&gt;Slembið&lt;/b&gt;.</string>
+  <string name="onboarding_explore_text" fuzzy="true">Hentu þér út í djúpu Infopedia-laugina með \'Uppgötva\'-streymi sem er uppfært í sífellu. &lt;br/&gt;Þú getur &lt;b&gt;sérsniðið&lt;/b&gt; streymið eftir áhugamálum þínum – hvort sem það er til að læra um sögulega atburði í &lt;b&gt;Á þessum degi&lt;/b&gt;, eða með því að taka áhættuna í &lt;b&gt;Slembið&lt;/b&gt;.</string>
   <string name="onboarding_reading_list_sync_title">Leslistar með samstillingu</string>
-  <string name="onboarding_reading_list_sync_text_v2">Þú getur búið til leslista úr greinum til að lesa þær síðar, jafnvel án nettengingar. &lt;br/&gt;Skráðu þig inn á Wikipedia-notandaaðganginn þinn til að samstilla leslistana þína. &lt;a href=\"#login\"&gt;Skráðu þig á Wikipedia&lt;/a&gt; \\</string>
+  <string name="onboarding_reading_list_sync_text_v2">Þú getur búið til leslista úr greinum til að lesa þær síðar, jafnvel án nettengingar. &lt;br/&gt;Skráðu þig inn á Infopedia-notandaaðganginn þinn til að samstilla leslistana þína. &lt;a href=\"#login\"&gt;Skráðu þig á Infopedia&lt;/a&gt; \\</string>
   <string name="onboarding_analytics_switch_title">Senda upplýsingar um notkun</string>
   <string name="onboarding_got_it">Náði því</string>
   <string name="onboarding_multilingual_secondary_text">Við fundum eftirtalin tungumál á tækinu þínu:</string>
@@ -1119,11 +1119,11 @@
     <item quantity="one">Fjarlægja valið tungumál?</item>
     <item quantity="other">Fjarlægja valin tungumál?</item>
   </plurals>
-  <string name="wikipedia_languages_remove_dialog_content" fuzzy="true">Þú munt aðeins sjá efni í Uppgötva-streyminu og skyndileitarsíum fyrir önnur Wikipedia-tungumál.</string>
+  <string name="wikipedia_languages_remove_dialog_content" fuzzy="true">Þú munt aðeins sjá efni í Uppgötva-streyminu og skyndileitarsíum fyrir önnur Infopedia-tungumál.</string>
   <string name="wikipedia_languages_remove_warning_dialog_title">Get ekki fjarlægt öll tungumál</string>
-  <string name="wikipedia_languages_remove_warning_dialog_content">Haltu að minnsta kosti einu Wikipedia-tungumáli til að leita að og lesa efni.</string>
+  <string name="wikipedia_languages_remove_warning_dialog_content">Haltu að minnsta kosti einu Infopedia-tungumáli til að leita að og lesa efni.</string>
   <string name="more_language_options">meira</string>
-  <string name="add_wikipedia_languages_text">Bæta við Wikipedia-tungumálum</string>
+  <string name="add_wikipedia_languages_text">Bæta við Infopedia-tungumálum</string>
   <string name="remove_language_dialog_cancel_button_text">Hætta við</string>
   <string name="remove_language_dialog_ok_button_text">Í lagi</string>
   <string name="remove_all_language_warning_dialog_ok_button_text">Í lagi</string>
@@ -1183,7 +1183,7 @@
   <string name="insert_media_advanced_settings_image_size_custom_px">px</string>
   <string name="insert_media_insert_button">Setja inn</string>
   <string name="main_drawer_help">Hjálp</string>
-  <string name="main_drawer_login">Skrá inn / nýskrá á Wikipedia</string>
+  <string name="main_drawer_login">Skrá inn / nýskrá á Infopedia</string>
   <string name="main_tooltip_action_button">Komast í gang</string>
   <string name="main_tooltip_watchlist_title">Vaktlisti</string>
   <string name="main_tooltip_watchlist_text">Finndu greinar og síður sem þú hefur áður bætt við vaktlistann þinn í valmyndinni \"Meira\" undir &lt;b&gt;Vaktlisti&lt;/b&gt;.</string>
@@ -1197,7 +1197,7 @@
   <string name="talk_new_topic_submitted">Umræðuefni birt.</string>
   <string name="talk_page_empty">Þessi spjallsíða er tóm.</string>
   <string name="talk_page_empty_title">Umræðan hefst hér</string>
-  <string name="talk_page_empty_content">Spjallsíður eru þar sem fólk ræðir hvernig hægt sé að gera Wikipedia-efni eins og best verður á kosið. Byrjaðu á því að bæta við nýju umræðuefni til að tengjast og vinna með samfélagi Wikipedia-fólks.</string>
+  <string name="talk_page_empty_content">Spjallsíður eru þar sem fólk ræðir hvernig hægt sé að gera Infopedia-efni eins og best verður á kosið. Byrjaðu á því að bæta við nýju umræðuefni til að tengjast og vinna með samfélagi Infopedia-fólks.</string>
   <string name="talk_add_reply">Svara</string>
   <string name="talk_no_subject">(ekkert viðfangsefni)</string>
   <string name="talk_reply_subject">Viðfangsefni</string>
@@ -1210,9 +1210,9 @@
   <string name="talk_last_modified">&lt;b&gt;Síðast breytt %1$s&lt;/b&gt; af %2$s</string>
   <string name="talk_snackbar_survey_text">Takk fyrir að nota spjallsíðurnar. Getur þú hjálpað okkur við að bæta forritið með því að taka þátt í könnun?</string>
   <string name="talk_snackbar_survey_action_text">Komast í gang</string>
-  <string name="talk_share_discussion_subject">Wikipedia - umræður á spjallsíðu efnisins \"%s\"</string>
-  <string name="talk_share_talk_page">Wikipedia - umræður á spjallsíðu</string>
-  <string name="talk_edit_disclaimer">Þetta er spjallsíða. Vinsamlegast virtu leiðbeiningarnar fyrir spjallsíðuna og mundu að undirrita færslurnar þínar með því að skrifa fjórar tildur: ~~~~ á eftir færslum með wikitexta.&lt;br&gt;&lt;br&gt;&lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Talk_page_guidelines\"&gt;Wikipedia:Leiðbeiningar fyrir spjallsíður&lt;/a&gt;</string>
+  <string name="talk_share_discussion_subject">Infopedia - umræður á spjallsíðu efnisins \"%s\"</string>
+  <string name="talk_share_talk_page">Infopedia - umræður á spjallsíðu</string>
+  <string name="talk_edit_disclaimer">Þetta er spjallsíða. Vinsamlegast virtu leiðbeiningarnar fyrir spjallsíðuna og mundu að undirrita færslurnar þínar með því að skrifa fjórar tildur: ~~~~ á eftir færslum með wikitexta.&lt;br&gt;&lt;br&gt;&lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Talk_page_guidelines\"&gt;Infopedia:Leiðbeiningar fyrir spjallsíður&lt;/a&gt;</string>
   <string name="talk_search_hint">Leita í skilaboðum</string>
   <string name="talk_search_topics_hint">Leitarefni</string>
   <string name="talk_search_find_in_talk_topics_hint">Finna í efni á spjallsíðu</string>
@@ -1243,7 +1243,7 @@
   <string name="talk_list_item_swipe_mark_as_read">Lesið</string>
   <string name="talk_list_item_swipe_mark_as_unread">Ólesið</string>
   <string name="talk_login_to_subscribe_dialog_title">Skráðu þig inn til að gerast áskrifandi að efni</string>
-  <string name="talk_login_to_subscribe_dialog_content">Efnisáskrift gerir þér kleift að fá tilkynningar um nýjar athugasemdir í þessu efni. Búðu til reikning eða skráðu þig inn á Wikipedia-aðganginn þinn til að gerast áskrifandi að efni.</string>
+  <string name="talk_login_to_subscribe_dialog_content">Efnisáskrift gerir þér kleift að fá tilkynningar um nýjar athugasemdir í þessu efni. Búðu til reikning eða skráðu þig inn á Infopedia-aðganginn þinn til að gerast áskrifandi að efni.</string>
   <string name="talk_archived_title">Safn spjallsíðna: %s</string>
   <string name="menu_option_share_talk_discussion">Deila umræðu</string>
   <string name="menu_option_share_talk_page">Deila spjallsíðu</string>
@@ -1263,7 +1263,7 @@
   <string name="thank_label">Þakka</string>
   <string name="view_user_page">Skoða notandasíðu</string>
   <string name="thank_dialog_title_text">Senda opinberar \'Þakkir\'</string>
-  <string name="thank_dialog_text">\'Þakkir\' eru einföld leið til að sýna að vinna tiltekins notanda við Wikipedia er vel metin. \'Þakkir\' er ekki hægt að afturkalla og þær eru opinberar</string>
+  <string name="thank_dialog_text">\'Þakkir\' eru einföld leið til að sýna að vinna tiltekins notanda við Infopedia er vel metin. \'Þakkir\' er ekki hægt að afturkalla og þær eru opinberar</string>
   <string name="thank_dialog_positive_button_text">Senda þakkir</string>
   <string name="thank_dialog_negative_button_text">Hætta við</string>
   <string name="thank_success_message">Þakkarskilaboðin þín voru send til %s 👍</string>
@@ -1392,7 +1392,7 @@
   <string name="shareable_reading_lists_new_imported_snackbar">Leslisti fluttur inn</string>
   <string name="reading_list_share_menu_label">Deila…</string>
   <string name="reading_list_share_menu_tooltip">Deildu þessum leslista með öðrum</string>
-  <string name="reading_list_share_message_v2">Hæ! Mig langar að deila Wikipedia-leslistanum mínum með þér:</string>
+  <string name="reading_list_share_message_v2">Hæ! Mig langar að deila Infopedia-leslistanum mínum með þér:</string>
   <string name="data_opt_in_accept">Samþykkja</string>
   <string name="data_opt_in_reject">Hafna</string>
   <string name="page_issues_title">Vandamál varðandi síðu</string>

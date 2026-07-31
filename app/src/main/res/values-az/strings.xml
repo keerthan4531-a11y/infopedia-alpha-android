@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * AZISS
 * Masalli qasimli
@@ -15,9 +15,9 @@
 * Əkrəm Cəfər
 -->
 <resources>
-  <string name="app_name_prod">Vikipediya</string>
-  <string name="app_name_beta">Vikipediya Beta</string>
-  <string name="app_name_alpha">Vikipediya Alfa</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Vikimedia</string>
   <string name="nav_item_back">Geriyə</string>
   <string name="page_tabs_back">Geriyə</string>
@@ -150,7 +150,7 @@
   <string name="search_reading_lists_no_results">Oxuma siyahısında heç bir nəticə tapılmadı</string>
   <string name="search_history_no_results">Tarixçədə heç bir nəticə tapılmadı</string>
   <string name="edit_section_captcha_message">Avtomatik spamdan qorumağa kömək etmək üçün, aşağıda göstərilən sözləri daxil edin</string>
-  <string name="edit_section_captcha_request_an_account_message">Şəkili görə bilmirsiniz? &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;Hesab üçün müraciət edin&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">Şəkili görə bilmirsiniz? &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;Hesab üçün müraciət edin&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">Yuxarıdakı sözləri təkrarlayın</string>
   <string name="title_captcha">CAPTCHA daxil edin</string>
   <string name="edit_section_captcha_reload">Yenidən yükləmək üçün CAPTCHA-ya dokunun</string>
@@ -217,7 +217,7 @@
   <string name="create_account_button">Hesab yarat</string>
   <string name="create_account_name_unavailable">\"%s\" istifadəçi adı mövcud deyil. Müxtəlif bir ad seçin.</string>
   <string name="create_account_ip_block_message">Üzr istəyirik, hazırda IP ünvanınız yeni hesab yaratmaqdan bloklanıb.</string>
-  <string name="create_account_ip_block_help_url">https://en.wikipedia.org/wiki/Help:I_have_been_blocked</string>
+  <string name="create_account_ip_block_help_url">https://en.Infopedia.org/wiki/Help:I_have_been_blocked</string>
   <string name="create_account_ip_block_details">Detallar</string>
   <string name="preferences_general_heading">Ümumi</string>
   <string name="preferences_account_heading">Hesab</string>
@@ -252,14 +252,14 @@
   <string name="privacy_policy_description">Məxfilik siyasəti</string>
   <string name="terms_of_use_description">İstifadə şərtləri</string>
   <string name="legal_safety_contacts_description">Hüquqi və təhlükəsizlik əlaqə üsulları</string>
-  <string name="about_wikipedia_url">https://az.m.wikipedia.org/wiki/Vikipediya:Haqqında</string>
+  <string name="about_wikipedia_url">https://az.m.Infopedia.org/wiki/Vikipediya:Haqqında</string>
   <string name="about_libraries_heading">Kitabxanalar istifadə edildi</string>
   <string name="about_contributors_heading">Tərtibatçılar</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Komanda&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Komanda&lt;/a&gt;</string>
   <string name="about_translators_heading">Tərcüməçilər</string>
   <string name="about_translators_translatewiki">Bu proqramlar, könüllü tərcüməçilər tərəfindən &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net saytında&lt;/a&gt; tərcümə edildi</string>
   <string name="about_app_license_heading">Lisenziya</string>
-  <string name="about_app_license">Mənbə kodu &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;GitHub&lt;/a&gt;-da &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0 Lisenziyası&lt;/a&gt; altında mövcuddur. Başqa cür göstərilmədiyi halda, məzmun &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Creative Commons Attribution-ShareAlike Lisenziyası&lt;/a&gt; altında yayımlanır.</string>
+  <string name="about_app_license">Mənbə kodu &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;GitHub&lt;/a&gt;-da &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0 Lisenziyası&lt;/a&gt; altında mövcuddur. Başqa cür göstərilmədiyi halda, məzmun &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Creative Commons Attribution-ShareAlike Lisenziyası&lt;/a&gt; altında yayımlanır.</string>
   <string name="about_wmf">&lt;a href=\"https://wikimediafoundation.org/\"&gt;Vikimedia fondunun&lt;/a&gt; məhsulu</string>
   <string name="about_activity_title">Haqqında</string>
   <string name="about_logo_content_description">Vikipediya tapmacası qlobus loqosu</string>
@@ -438,9 +438,9 @@
   <string name="error_blocked_start">Blokun başlaması: %s</string>
   <string name="error_blocked_expiry">Blokun bitməsi: %s</string>
   <string name="error_blocked_id">Blok nömrəsi: %s</string>
-  <string name="error_blocked_footer">&lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; ilə əlaqə saxlaya bilə və digər &lt;a href=\"https://az.wikipedia.org/wiki/Vikipediya:İdarəçilər\"&gt;idarəçilərlə&lt;/a&gt; bloku müzakirə edə bilərsiniz.</string>
+  <string name="error_blocked_footer">&lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; ilə əlaqə saxlaya bilə və digər &lt;a href=\"https://az.Infopedia.org/wiki/Vikipediya:İdarəçilər\"&gt;idarəçilərlə&lt;/a&gt; bloku müzakirə edə bilərsiniz.</string>
   <string name="theme_chooser_menu_item_short_tooltip">Alətlər panelinizi fərdiləşdirin</string>
-  <string name="error_blocked_footer_no_blocker">Digər &lt;a href=\"https://az.wikipedia.org/wiki/Vikipediya:İdarəçilər\"&gt;idarəçilərlə&lt;/a&gt; bloku müzakirə edə bilərsiniz.</string>
+  <string name="error_blocked_footer_no_blocker">Digər &lt;a href=\"https://az.Infopedia.org/wiki/Vikipediya:İdarəçilər\"&gt;idarəçilərlə&lt;/a&gt; bloku müzakirə edə bilərsiniz.</string>
   <string name="temp_account_not_logged_in">Siz daxil olmamısınız</string>
   <string name="temp_account_anon_ip_dialog_body">Redaktə etdikdən sonra IP ünvanınız redaktələrinizlə əlaqələndiriləcək.&lt;br /&gt;&lt;br /&gt; Gələcək redaktələrinizdə istinad edilmək və digər funksiyaları istifadə edə bilmək üçün &lt;a href=\"https://#login\"&gt;daxil olun&lt;/a&gt; və ya &lt;a href=\"https://#createaccount\"&gt;hesab yaradın&lt;/a&gt;.</string>
   <string name="temp_account_anon_dialog_body">Redaktə etdikdən sonra məxfiliyinizi qorumaq üçün sizin üçün &lt;b&gt;müvəqqəti hesab&lt;/b&gt; yaradılacaq. &lt;a href=\"%1$s\"&gt;Ətraflı öyrənin&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;Gələcəkdə adınıza istinad verilməsi üçün və digər funksiyaları istifadə edə bilmək üçün &lt;a href=\"https://#login\"&gt;daxil olun&lt;/a&gt; və ya &lt;a href=\"https://#createaccount\"&gt;hesab yaradın.&lt;/a&gt;</string>
@@ -584,8 +584,8 @@
   <string name="reading_list_confirm_remove_article_from_offline_title">Məqalə bir neçə siyahıda görünür</string>
   <string name="reading_list_confirm_remove_article_from_offline_message">%s artıq bütün oxuma siyahıları üçün oflayn olaraq əlçatan olmayacaq:</string>
   <string name="reading_lists_sync_reminder_title">Oxuma siyahısı sinxronizasiyası aktiv edilsin?</string>
-  <string name="reading_lists_sync_reminder_text">Oxuma siyahılarında saxlanılan məqalələr indi Vikipediya hesabınızla sinxronlaşdırıla bilər. &lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Ətraflı məlumat əldə edin&lt;/a&gt;</string>
-  <string name="reading_lists_login_reminder_text_with_link">Oxuma siyahıları indi cihazlar arasında sinxronlaşdırıla bilər. Vikipediya hesabınıza daxil olun və siyahılarınızın saxlanmasına icazə verin. &lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Ətraflı öyrən&lt;/a&gt;</string>
+  <string name="reading_lists_sync_reminder_text">Oxuma siyahılarında saxlanılan məqalələr indi Vikipediya hesabınızla sinxronlaşdırıla bilər. &lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Ətraflı məlumat əldə edin&lt;/a&gt;</string>
+  <string name="reading_lists_login_reminder_text_with_link">Oxuma siyahıları indi cihazlar arasında sinxronlaşdırıla bilər. Vikipediya hesabınıza daxil olun və siyahılarınızın saxlanmasına icazə verin. &lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Ətraflı öyrən&lt;/a&gt;</string>
   <string name="reading_lists_sync_reminder_action">Sinxronizasiyanı aktivləşdir</string>
   <string name="reading_list_login_reminder_title">Oxuma siyahılarını sinxronlaşdır</string>
   <string name="reading_lists_login_reminder_text">Oxuma siyahıları indi cihazlar arasında sinxronlaşdırıla bilər. Vikipediya hesabınıza daxil olun və siyahılarınızın saxlanmasına icazə verin.</string>
@@ -1140,9 +1140,9 @@
   <string name="edit_summary_added_caption">Başlıq əlavə edildi</string>
   <string name="edit_summary_added_image_and_caption">Şəkil və başlıq əlavə edildi</string>
   <string name="edit_published_view">Bax</string>
-  <string name="activity_tab_logged_out_title">Wikipedia tətbiqində fəaliyyətinizə baxmaq üçün daxil olun və ya hesab yaradın</string>
+  <string name="activity_tab_logged_out_title">Infopedia tətbiqində fəaliyyətinizə baxmaq üçün daxil olun və ya hesab yaradın</string>
   <string name="activity_tab_user_reading">%s istifadəçisinin oxuduqları</string>
-  <string name="activity_tab_on_wikipedia_android">Wikipedia Android-də</string>
+  <string name="activity_tab_on_wikipedia_android">Infopedia Android-də</string>
   <string name="activity_tab_weekly_time_spent_hm">%1$ds %2$dd</string>
   <string name="activity_tab_weekly_time_spent">Bu həftə oxumağa sərf olunan vaxt</string>
   <string name="activity_tab_monthly_articles_read">Bu ay oxunan məqalələr</string>
@@ -1744,7 +1744,7 @@
   <string name="donate_gpay_check_recurring">Bunu aylıq təkrarlanan ianə edin.</string>
   <string name="donate_gpay_check_send_email">Bəli, Vikimedia Fondu mənə vaxtaşırı e-poçt göndərə bilər.</string>
   <string name="donate_gpay_minimum_amount">Zəhmət olmasa bir məbləğ seçin (minimum %s)</string>
-  <string name="donate_gpay_maximum_amount">Biz tətbiqimiz vasitəsilə %s-dən çox ianə qəbul edə bilmərik. Zəhmət olmasa, benefactors@wikimedia.org ünvanında böyük ianələr üzrə işçilərimizlə əlaqə saxlayın.</string>
+  <string name="donate_gpay_maximum_amount">Biz tətbiqimiz vasitəsilə %s-dən çox ianə qəbul edə bilmərik. Zəhmət olmasa, benefactors@infopedia.org ünvanında böyük ianələr üzrə işçilərimizlə əlaqə saxlayın.</string>
   <string name="donate_gpay_success_message">&lt;b&gt;Təşəkkürlər!&lt;/b&gt; Vikipediyaya olan səxavətiniz bizim üçün çox şey deməkdir.</string>
   <string name="donate_gpay_help_problems">İanə zamanı problem yaranır?</string>
   <string name="donate_gpay_help_other_ways">İanə etməyin digər yolları</string>
@@ -2331,7 +2331,7 @@
   <string name="reading_challenge_widget_concluded_incomplete">Yarış başa çatdı</string>
   <string name="reading_challenge_widget_concluded_complete">Sən bunu bacardın!</string>
   <string name="reading_challenge_widget_reward_title">Maraqlanmaq sənə yaraşır! 🛍️</string>
-  <string name="reading_challenge_widget_reward_body">Wikipedia Mağazasında 15%% endirimlə yarışmanı tamamladığınızı qeyd edin.</string>
+  <string name="reading_challenge_widget_reward_body">Infopedia Mağazasında 15%% endirimlə yarışmanı tamamladığınızı qeyd edin.</string>
   <string name="reading_challenge_widget_reward_button_label">Mağazada 15%% endirim əldə edin</string>
   <string name="explore_feed_new_update_prompt_title">\"Kəşf et\" artıq yeni görünüşdə \"Ana səhifə\"dir</string>
   <string name="explore_feed_new_update_prompt_new_name_title">Yeni bir ad</string>

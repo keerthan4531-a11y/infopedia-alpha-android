@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Ieneach fan 'e Esk
 * MuratTheTurkish
@@ -7,9 +7,9 @@
 * Wutsje
 -->
 <resources>
-  <string name="app_name_prod">Wikipedy</string>
-  <string name="app_name_beta">Wikipedy Bêta</string>
-  <string name="app_name_alpha">Wikipedy Alfa</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Wikimedia</string>
   <string name="nav_item_back">Werom</string>
   <string name="page_tabs_back">Werom</string>
@@ -95,7 +95,7 @@
   <string name="search_reading_lists_no_results">Gjin treffers fûn yn \'e lêslisten</string>
   <string name="search_history_no_results">Gjin treffers fûn yn \'e skiednis</string>
   <string name="edit_section_captcha_message">Typ de wurden dy\'t hjirûnder ferskine, as befeiliging tsjin automatisearre spam</string>
-  <string name="edit_section_captcha_request_an_account_message">Plaatsje net te sjen? &lt;a href=\"https://fy.wikipedia.org/wiki/Wikipedy:Gasteboek\"&gt;Freegje in akkount&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">Plaatsje net te sjen? &lt;a href=\"https://fy.Infopedia.org/wiki/Wikipedy:Gasteboek\"&gt;Freegje in akkount&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">Nim boppesteande wurden oer</string>
   <string name="title_captcha">CAPTCHA yntype</string>
   <string name="edit_section_captcha_reload">CAPTCHA oantikje foar werladen</string>
@@ -155,7 +155,7 @@
   <string name="create_account_button">Akkount oanmeitsje</string>
   <string name="create_account_name_unavailable">De meidochnamme \"%s\" is net beskikber. Graach in oare namme kieze.</string>
   <string name="create_account_ip_block_message">Spitich, jo YP-adres is op it stuit útsletten nije akkounts oan te meitsjen.</string>
-  <string name="create_account_ip_block_help_url">https://en.wikipedia.org/wiki/Help:I_have_been_blocked</string>
+  <string name="create_account_ip_block_help_url">https://en.Infopedia.org/wiki/Help:I_have_been_blocked</string>
   <string name="create_account_ip_block_details">Bysûnderheden</string>
   <string name="preferences_general_heading">Algemien</string>
   <string name="wikipedia_app_faq">Faak stelde fragen Wikipedy-app</string>
@@ -188,17 +188,17 @@
   <string name="about_description">Oer de Wikipedy-app</string>
   <string name="privacy_policy_description">Privacybelied</string>
   <string name="terms_of_use_description">Gebrûksbetingsten</string>
-  <string name="about_wikipedia_url">https://fy.wikipedia.org/wiki/Wikipedy:Wat_is_Wikipedia</string>
-  <string name="android_app_request_an_account_url">https://fy.wikipedia.org/wiki/Wikipedy:Gasteboek</string>
+  <string name="about_wikipedia_url">https://fy.Infopedia.org/wiki/Wikipedy:Wat_is_Infopedia</string>
+  <string name="android_app_request_an_account_url">https://fy.Infopedia.org/wiki/Wikipedy:Gasteboek</string>
   <string name="cc_by_sa_4_url">https://creativecommons.org/licenses/by-sa/4.0/deed.fy</string>
   <string name="cc_0_url">https://creativecommons.org/publicdomain/zero/1.0/deed.fy</string>
   <string name="about_libraries_heading">Brûkte subprogrammatuer</string>
   <string name="about_contributors_heading">Bydragers</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Tiimside&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Tiimside&lt;/a&gt;</string>
   <string name="about_translators_heading">Oersetters</string>
   <string name="about_translators_translatewiki">Dizze app is ferfryske troch de frijwillige oersetters fan &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt;.</string>
   <string name="about_app_license_heading">Lisinsje</string>
-  <string name="about_app_license" fuzzy="true">Boarnekoade beskikber op &lt;a href=\"https://gerrit.wikimedia.org/r/#/admin/projects/apps/android/wikipedia\"&gt;Gerrit&lt;/a&gt; en &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;GitHub&lt;/a&gt; ûnder de &lt;a href=\"https://phabricator.wikimedia.org/diffusion/APAW/browse/master/COPYING?view=raw\"&gt;Apache 2.0-Lisinsje&lt;/a&gt;. At net oars oanjûn wurdt, is de ynhâld beskikber ûnder de lisinsje &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License\"&gt;Creative Commons Nammefermelding-Lyk diele&lt;/a&gt;.</string>
+  <string name="about_app_license" fuzzy="true">Boarnekoade beskikber op &lt;a href=\"https://gerrit.infopedia.org/r/#/admin/projects/apps/android/Infopedia\"&gt;Gerrit&lt;/a&gt; en &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;GitHub&lt;/a&gt; ûnder de &lt;a href=\"https://phabricator.infopedia.org/diffusion/APAW/browse/master/COPYING?view=raw\"&gt;Apache 2.0-Lisinsje&lt;/a&gt;. At net oars oanjûn wurdt, is de ynhâld beskikber ûnder de lisinsje &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License\"&gt;Creative Commons Nammefermelding-Lyk diele&lt;/a&gt;.</string>
   <string name="about_wmf">In produkt fan \'e &lt;a href=\"https://wikimediafoundation.org/\"&gt;Wikimedia Foundation&lt;/a&gt;</string>
   <string name="about_activity_title">Oer</string>
   <string name="edit_abandon_confirm">De side is wizige. Wolle jo wier ôfslute sûnder jo feroarings te bewarjen?</string>
@@ -429,8 +429,8 @@
   <string name="reading_list_confirm_remove_article_from_offline_title">Artikel stiet yn ferskate listen</string>
   <string name="reading_list_confirm_remove_article_from_offline_message">%s sil sûnder netwurk foar gjinien lêslist mear beskikber wêze:</string>
   <string name="reading_lists_sync_reminder_title">Lêslist-syngronisaasje oansette?</string>
-  <string name="reading_lists_sync_reminder_text" fuzzy="true">De lêslisten mei bewarre artikels kinne no mei jo Wikipedy-akkount syngronisearre wurde. &lt;a href=\"https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Mear witte&lt;/a&gt;</string>
-  <string name="reading_lists_login_reminder_text_with_link" fuzzy="true">De lêslisten kinne no mei oare apparaten syngronisearre wurde. Meld jo oan op jo Wikipedy-akkount, en lit jo listen bewarje. &lt;a href=\"https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Mear witte&lt;/a&gt;</string>
+  <string name="reading_lists_sync_reminder_text" fuzzy="true">De lêslisten mei bewarre artikels kinne no mei jo Wikipedy-akkount syngronisearre wurde. &lt;a href=\"https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Mear witte&lt;/a&gt;</string>
+  <string name="reading_lists_login_reminder_text_with_link" fuzzy="true">De lêslisten kinne no mei oare apparaten syngronisearre wurde. Meld jo oan op jo Wikipedy-akkount, en lit jo listen bewarje. &lt;a href=\"https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Mear witte&lt;/a&gt;</string>
   <string name="reading_lists_sync_reminder_action">Syngronisaasje oansette</string>
   <string name="reading_list_login_reminder_title">Lêslisten syngronisearje</string>
   <string name="reading_lists_login_reminder_text">Lêslisten kinne no mei oare apparaten syngronisearre wurde. Meld jo oan op jo Wikipedy-akkount, en lit jo listen bewarje.</string>

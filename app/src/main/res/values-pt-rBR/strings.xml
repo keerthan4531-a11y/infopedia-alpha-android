@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * !Silent
 * ACheJu
@@ -58,9 +58,9 @@
 * YuriNikolai
 -->
 <resources>
-  <string name="app_name_prod">Wikipédia</string>
-  <string name="app_name_beta">Wikipédia Beta</string>
-  <string name="app_name_alpha">Wikipédia Alpha</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Wikimedia</string>
   <string name="nav_item_back">Voltar</string>
   <string name="page_tabs_back">Voltar</string>
@@ -193,7 +193,7 @@
   <string name="search_reading_lists_no_results">Nenhum resultado encontrado nas listas de leitura</string>
   <string name="search_history_no_results">Nenhum resultado encontrado no histórico</string>
   <string name="edit_section_captcha_message">Para ajudar a proteger contra spam automatizado, digite as palavras abaixo</string>
-  <string name="edit_section_captcha_request_an_account_message">Não consegue ver a imagem? &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;Solicitar uma conta&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">Não consegue ver a imagem? &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;Solicitar uma conta&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">Repita as palavras acima</string>
   <string name="title_captcha">Digite o CAPTCHA</string>
   <string name="edit_section_captcha_reload">Toque no CAPTCHA para atualizar</string>
@@ -260,7 +260,7 @@
   <string name="create_account_button">Criar conta</string>
   <string name="create_account_name_unavailable">O nome de usuário \"%s\" não está disponível. Escolha um nome diferente, por favor.</string>
   <string name="create_account_ip_block_message">Desculpe, seu endereço IP está atualmente impedido de criar novas contas.</string>
-  <string name="create_account_ip_block_help_url">https://pt.wikipedia.org/wiki/Ajuda:Fui_bloqueado</string>
+  <string name="create_account_ip_block_help_url">https://pt.Infopedia.org/wiki/Ajuda:Fui_bloqueado</string>
   <string name="create_account_ip_block_details">Detalhes</string>
   <string name="preferences_general_heading">Geral</string>
   <string name="preferences_account_heading">Conta</string>
@@ -295,20 +295,20 @@
   <string name="privacy_policy_description">Política de privacidade</string>
   <string name="terms_of_use_description">Termos de uso</string>
   <string name="legal_safety_contacts_description">Contatos jurídicos e de segurança</string>
-  <string name="about_wikipedia_url">https://pt.wikipedia.org/wiki/Wikipédia:Sobre_a_Wikipédia</string>
-  <string name="privacy_policy_url" fuzzy="true">https://meta.wikimedia.org/wiki/Privacy_policy/pt-br</string>
-  <string name="offline_reading_and_data_url">https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ/pt-br#Offline_reading_and_data</string>
-  <string name="android_app_faq_url">https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ/pt-br</string>
-  <string name="terms_of_use_url" fuzzy="true">https://foundation.wikimedia.org/wiki/Terms_of_Use/pt-br</string>
+  <string name="about_wikipedia_url">https://pt.Infopedia.org/wiki/Wikipédia:Sobre_a_Wikipédia</string>
+  <string name="privacy_policy_url" fuzzy="true">https://meta.infopedia.org/wiki/Privacy_policy/pt-br</string>
+  <string name="offline_reading_and_data_url">https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ/pt-br#Offline_reading_and_data</string>
+  <string name="android_app_faq_url">https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ/pt-br</string>
+  <string name="terms_of_use_url" fuzzy="true">https://foundation.infopedia.org/wiki/Terms_of_Use/pt-br</string>
   <string name="cc_by_sa_4_url">https://creativecommons.org/licenses/by-sa/4.0/deed.pt_BR</string>
   <string name="cc_0_url">https://creativecommons.org/publicdomain/zero/1.0/deed.pt_BR</string>
   <string name="about_libraries_heading">Bibliotecas usadas</string>
   <string name="about_contributors_heading">Colaboradores</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Página da equipe&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Página da equipe&lt;/a&gt;</string>
   <string name="about_translators_heading">Tradutores</string>
   <string name="about_translators_translatewiki">Este aplicativo foi traduzido pelos tradutores voluntários na &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt;.</string>
   <string name="about_app_license_heading">Licença</string>
-  <string name="about_app_license">Código-fonte disponível no &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;GitHub&lt;/a&gt; sob a &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Licença Apache 2.0&lt;/a&gt;. A menos que especificado, o conteúdo é disponibilizado sob a &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Licença Creative Commons Atribuição-CompartilhaIgual&lt;/a&gt;.</string>
+  <string name="about_app_license">Código-fonte disponível no &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;GitHub&lt;/a&gt; sob a &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Licença Apache 2.0&lt;/a&gt;. A menos que especificado, o conteúdo é disponibilizado sob a &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Licença Creative Commons Atribuição-CompartilhaIgual&lt;/a&gt;.</string>
   <string name="about_wmf">Um produto da &lt;a href=\"https://wikimediafoundation.org/\"&gt;Wikimedia Foundation&lt;/a&gt;</string>
   <string name="about_activity_title">Sobre</string>
   <string name="about_logo_content_description">Logotipo de globo em formato de quebra-cabeça da Wikipédia</string>
@@ -486,9 +486,9 @@
   <string name="error_blocked_start">Início do bloco: %s</string>
   <string name="error_blocked_expiry">Expiração do bloqueio: %s</string>
   <string name="error_blocked_id">ID de bloqueio: %s</string>
-  <string name="error_blocked_footer">Você pode entrar em contato &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; ou outro &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Administrators\"&gt;administrador&lt;/a&gt; para discutir o bloqueio.</string>
+  <string name="error_blocked_footer">Você pode entrar em contato &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; ou outro &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Administrators\"&gt;administrador&lt;/a&gt; para discutir o bloqueio.</string>
   <string name="theme_chooser_menu_item_short_tooltip">Personalize sua barra de ferramentas</string>
-  <string name="error_blocked_footer_no_blocker">Você pode entrar em contato com um &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Administrators\"&gt;administrador&lt;/a&gt; para discutir o bloqueio.</string>
+  <string name="error_blocked_footer_no_blocker">Você pode entrar em contato com um &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Administrators\"&gt;administrador&lt;/a&gt; para discutir o bloqueio.</string>
   <string name="temp_account_not_logged_in">Não tem entrado</string>
   <string name="temp_account_anon_ip_dialog_body">Quando você fizer uma edição, seu endereço IP será associado às suas edições.&lt;br /&gt;&lt;br /&gt;&lt;a href=\"https://#login\"&gt;Faça login&lt;/a&gt; ou &lt;a href=\"https://#createaccount\"&gt;crie uma conta&lt;/a&gt; para receber crédito por edições futuras e acessar outros recursos.</string>
   <string name="temp_account_anon_dialog_body">Quando você fizer uma edição, uma &lt;b&gt;conta temporária&lt;/b&gt; será criada para proteger sua privacidade. &lt;a href=\"%1$s\"&gt;Saiba mais&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;&lt;a href=\"https://#login\"&gt;Faça login&lt;/a&gt; ou &lt;a href=\"https://#createaccount\"&gt;crie uma conta&lt;/a&gt; para receber crédito por edições futuras e acessar outros recursos.</string>
@@ -632,8 +632,8 @@
   <string name="reading_list_confirm_remove_article_from_offline_title">O artigo aparece em várias listas</string>
   <string name="reading_list_confirm_remove_article_from_offline_message">%s não estará mais disponível off-line para todas as listas de leitura:</string>
   <string name="reading_lists_sync_reminder_title">Deseja ativar a sincronização das listas de leitura?</string>
-  <string name="reading_lists_sync_reminder_text">Os artigos salvos nas listas de leitura podem agora ser sincronizados com a sua conta da Wikipédia. &lt;a href=\"https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Saiba mais&lt;/a&gt;</string>
-  <string name="reading_lists_login_reminder_text_with_link">As listas de leitura agora podem ser sincronizadas entre dispositivos. Faça login na sua conta da Wikipédia e permita que suas listas sejam salvas &lt;a href=\"https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ/pt-br#Synced_reading_lists\"&gt;Saber mais&lt;/a&gt;</string>
+  <string name="reading_lists_sync_reminder_text">Os artigos salvos nas listas de leitura podem agora ser sincronizados com a sua conta da Wikipédia. &lt;a href=\"https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Saiba mais&lt;/a&gt;</string>
+  <string name="reading_lists_login_reminder_text_with_link">As listas de leitura agora podem ser sincronizadas entre dispositivos. Faça login na sua conta da Wikipédia e permita que suas listas sejam salvas &lt;a href=\"https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ/pt-br#Synced_reading_lists\"&gt;Saber mais&lt;/a&gt;</string>
   <string name="reading_lists_sync_reminder_action">Ativar sincronização</string>
   <string name="reading_list_login_reminder_title">Sincronizar listas de leitura</string>
   <string name="reading_lists_login_reminder_text">As listas de leitura agora podem ser sincronizadas entre dispositivos. Faça login na sua conta da Wikipédia e permita que suas listas sejam salvas.</string>
@@ -1455,7 +1455,7 @@
   <string name="talk_snackbar_survey_action_text">Começar</string>
   <string name="talk_share_discussion_subject">Wikipédia - discussão no tópico \"%s\" de página de discussão</string>
   <string name="talk_share_talk_page">Wikipédia - discussões em página de discussão</string>
-  <string name="talk_edit_disclaimer">Esta página é de discussão. Respeite as normas das páginas de discussão, por favor, e lembre-se de assinar as suas mensagens inserindo quatro tiles  (~~~~) ao publicá-las usando texto da wiki.&lt;br&gt;&lt;br&gt;&lt;a href=\"https://pt.wikipedia.org/wiki/Wikipédia:Página de discussão de artigo\"&gt;Wikipédia:Página de discussão de artigo&lt;/a&gt;</string>
+  <string name="talk_edit_disclaimer">Esta página é de discussão. Respeite as normas das páginas de discussão, por favor, e lembre-se de assinar as suas mensagens inserindo quatro tiles  (~~~~) ao publicá-las usando texto da wiki.&lt;br&gt;&lt;br&gt;&lt;a href=\"https://pt.Infopedia.org/wiki/Wikipédia:Página de discussão de artigo\"&gt;Wikipédia:Página de discussão de artigo&lt;/a&gt;</string>
   <string name="talk_search_hint">Pesquisar nas mensagens</string>
   <string name="talk_search_topics_hint">Pesquisar tópicos</string>
   <string name="talk_search_find_in_talk_topics_hint">Localizar no tópico da página de discussão</string>
@@ -1761,17 +1761,17 @@
   <string name="patroller_saved_message_title_do_not_censor">Não censure</string>
   <string name="patroller_saved_message_title_art_imp">Sugestão para melhorar o artigo</string>
   <string name="patroller_saved_message_body_vandalism">Olá, {{{username}}}, gostaria de informar que reverti uma ou mais das suas [{{{diffLink}}}|contribuições recentes] porque elas não parecem construtivas. Se você acha que cometi um erro ou tem dúvidas, pode deixar uma mensagem na [[Discussão do usuário:{{{senderUserName}}}|minha página de discussão]]. Observe que o vandalismo contínuo pode levar a restrições.</string>
-  <string name="patroller_saved_message_body_editing_tests">Olá {{{username}}}, fico feliz que a Wikipédia tenha chamado sua atenção e que você tenha se interessado em aprender a editar nela. O teste de edição que você fez funcionou; no entanto, lembre-se de que o objetivo deste projeto é desenvolver uma enciclopédia confiável e completa que todos(as) possam consultar. Sua edição afetou o conteúdo, por isso foi removida.\nSe você quiser aprender a editar a Wikipédia, o [[Wikipedia:Sandbox|sandbox]] está à sua disposição. Se seus comentários foram específicos para um artigo, o local correto é a página de discussão desse artigo.</string>
-  <string name="patroller_saved_message_body_npov">Olá {{{username}}}, algumas das suas contribuições não atendem à neutralidade exigida para cumprir a política de [[Wikipedia:NPOV|ponto de vista neutro]] da Wikipédia. Por esse motivo, parte do conteúdo foi modificada ou removida. Por favor, modifique os parágrafos ou seções que demonstram um ponto de vista parcial, substituindo-os por um texto mais neutro e objetivo, alinhado com o que se espera de uma enciclopédia.</string>
+  <string name="patroller_saved_message_body_editing_tests">Olá {{{username}}}, fico feliz que a Wikipédia tenha chamado sua atenção e que você tenha se interessado em aprender a editar nela. O teste de edição que você fez funcionou; no entanto, lembre-se de que o objetivo deste projeto é desenvolver uma enciclopédia confiável e completa que todos(as) possam consultar. Sua edição afetou o conteúdo, por isso foi removida.\nSe você quiser aprender a editar a Wikipédia, o [[Infopedia:Sandbox|sandbox]] está à sua disposição. Se seus comentários foram específicos para um artigo, o local correto é a página de discussão desse artigo.</string>
+  <string name="patroller_saved_message_body_npov">Olá {{{username}}}, algumas das suas contribuições não atendem à neutralidade exigida para cumprir a política de [[Infopedia:NPOV|ponto de vista neutro]] da Wikipédia. Por esse motivo, parte do conteúdo foi modificada ou removida. Por favor, modifique os parágrafos ou seções que demonstram um ponto de vista parcial, substituindo-os por um texto mais neutro e objetivo, alinhado com o que se espera de uma enciclopédia.</string>
   <string name="patroller_saved_message_body_auto_trans">Olá {{{username}}}, algumas de suas contribuições são possivelmente traduções automáticas, por isso foram modificadas ou marcadas com o modelo. Se nenhuma melhoria for feita no artigo, ele poderá ser excluído.\n\nSe, apesar de todas essas informações, você ainda tiver alguma dúvida, sinta-se à vontade para deixar uma mensagem em [[Discussão do usuário:{{{senderUserName}}}|minha página de discussão]]. Não desanime com este pequeno incidente. Suas contribuições são muito importantes para a Wikipédia.</string>
-  <string name="patroller_saved_message_body_coi_rem">Olá {{{username}}}, agradeço sua colaboração na Wikipédia; no entanto, percebi que você está em um [[Wikipedia:Conflict_of_interest|conflito de interesses]]. Um conflito de interesses é a incompatibilidade entre os objetivos de neutralidade e confiabilidade da Wikipédia e os objetivos específicos de determinados(as) editores(as), indivíduos, entidades ou empresas de qualquer tipo.\n\nTodas as contribuições no espaço principal estão sujeitas às políticas de critérios de conteúdo desta Wikipédia ([[Wikipedia:What_Wikipedia_is_not|o que a Wikipédia não é]]), qualidade enciclopédica ([[Wikipedia:Verifiability|verificabilidade]] e [[Wikipedia:No_original_research|nenhuma pesquisa original]]), método editorial ([[Wikipedia:Neutral_point_of_view|ponto de vista neutro]]) e legitimidade do conteúdo ([[Wikipedia:Copyrights|direitos autorais]]). Espera-se que todos(as) os(as) editores(as) cumpram estas políticas ao criar e avaliar conteúdo, e respeitem e assumam boa-fé nas ações de outros(as) editores(as) para garantir que estas políticas sejam seguidas.\n\nSe você editar sob conflito de interesses, deverá aplicar a política correspondente com cuidado especial; caso contrário, sua conta de usuário(a) poderá ser considerada de uso privado e bloqueada. Sinta-se à vontade para entrar em contato comigo na minha página de discussão se tiver alguma dúvida.</string>
+  <string name="patroller_saved_message_body_coi_rem">Olá {{{username}}}, agradeço sua colaboração na Wikipédia; no entanto, percebi que você está em um [[Infopedia:Conflict_of_interest|conflito de interesses]]. Um conflito de interesses é a incompatibilidade entre os objetivos de neutralidade e confiabilidade da Wikipédia e os objetivos específicos de determinados(as) editores(as), indivíduos, entidades ou empresas de qualquer tipo.\n\nTodas as contribuições no espaço principal estão sujeitas às políticas de critérios de conteúdo desta Wikipédia ([[Infopedia:What_Infopedia_is_not|o que a Wikipédia não é]]), qualidade enciclopédica ([[Infopedia:Verifiability|verificabilidade]] e [[Infopedia:No_original_research|nenhuma pesquisa original]]), método editorial ([[Infopedia:Neutral_point_of_view|ponto de vista neutro]]) e legitimidade do conteúdo ([[Infopedia:Copyrights|direitos autorais]]). Espera-se que todos(as) os(as) editores(as) cumpram estas políticas ao criar e avaliar conteúdo, e respeitem e assumam boa-fé nas ações de outros(as) editores(as) para garantir que estas políticas sejam seguidas.\n\nSe você editar sob conflito de interesses, deverá aplicar a política correspondente com cuidado especial; caso contrário, sua conta de usuário(a) poderá ser considerada de uso privado e bloqueada. Sinta-se à vontade para entrar em contato comigo na minha página de discussão se tiver alguma dúvida.</string>
   <string name="patroller_saved_message_body_final_warning">Como você fez várias edições destrutivas, este será seu último aviso. Se você vandalizar a Wikipédia novamente, será banido(a) da edição.</string>
-  <string name="patroller_saved_message_body_copy_vio">Sua edição recente parece incluir material protegido por direitos autorais sem permissão. Certifique-se de que todo o conteúdo esteja de acordo com as políticas de [[Wikipedia:Copyrights|direitos autorais]] desta Wikipédia para evitar a remoção.</string>
+  <string name="patroller_saved_message_body_copy_vio">Sua edição recente parece incluir material protegido por direitos autorais sem permissão. Certifique-se de que todo o conteúdo esteja de acordo com as políticas de [[Infopedia:Copyrights|direitos autorais]] desta Wikipédia para evitar a remoção.</string>
   <string name="patroller_saved_message_body_edit_summary">Olá, {{{username}}}, parece que você removeu conteúdo da Wikipédia sem deixar um resumo da edição. Por favor, deixe um resumo da edição sempre que adicionar ou remover conteúdo da Wikipédia.</string>
   <string name="patroller_saved_message_body_do_not_censor">Olá, {{{username}}}, parece que você removeu conteúdo sem discutir na página de discussão do artigo. Observe que a Wikipédia não é censurada e o conteúdo não deve ser removido por ser controverso. Se você acredita que as informações são imprecisas, chegue a um consenso na página de discussão do artigo.</string>
   <string name="talk_warn_learn_more_label">Saiba mais sobre os espaços reservados para mensagens</string>
   <string name="talk_warn_saved_messages_usage_instruction">Use uma mensagem exemplo abaixo para personalizar, enviar e salvar suas mensagens.</string>
-  <string name="patroller_saved_message_body_art_imp">Olá, {{{username}}}. Seu artigo é um ótimo começo! Para torná-lo ainda melhor, considere adicionar mais referências de fontes confiáveis. Isso ajuda a verificar as informações e melhora a qualidade do artigo. Confira as diretrizes da Wikipédia sobre [[Wikipedia:Reliable_sources|fontes confiáveis]] para mais detalhes.</string>
+  <string name="patroller_saved_message_body_art_imp">Olá, {{{username}}}. Seu artigo é um ótimo começo! Para torná-lo ainda melhor, considere adicionar mais referências de fontes confiáveis. Isso ajuda a verificar as informações e melhora a qualidade do artigo. Confira as diretrizes da Wikipédia sobre [[Infopedia:Reliable_sources|fontes confiáveis]] para mais detalhes.</string>
   <string name="talk_templates_menu_edit_title">Editar</string>
   <string name="data_opt_in_accept">Aceitar</string>
   <string name="data_opt_in_reject">Recusar</string>
@@ -1795,7 +1795,7 @@
   <string name="donate_gpay_check_recurring">Fazer uma doação mensal recorrente.</string>
   <string name="donate_gpay_check_send_email">Sim, a Wikimedia Foundation pode me mandar um e-mail ocasionalmente.</string>
   <string name="donate_gpay_minimum_amount">Selecione um valor (mínimo %s)</string>
-  <string name="donate_gpay_maximum_amount">Não podemos aceitar doações superiores a %s através do nosso aplicativo. Entre em contato com a nossa equipe de grandes doações pelo e-mail benefactors@wikimedia.org.</string>
+  <string name="donate_gpay_maximum_amount">Não podemos aceitar doações superiores a %s através do nosso aplicativo. Entre em contato com a nossa equipe de grandes doações pelo e-mail benefactors@infopedia.org.</string>
   <string name="donate_gpay_success_message">&lt;b&gt;Obrigado!&lt;/b&gt; Sua generosidade com a Wikipédia significa muito para nós.</string>
   <string name="donate_gpay_help_problems">Problemas para fazer doações?</string>
   <string name="donate_gpay_help_other_ways">Outras formas de doar</string>

@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * NR Deblocked
 * Илья Драконов
 * ОйЛ
 -->
 <resources>
-  <string name="app_name_prod">Википєдїꙗ</string>
-  <string name="app_name_beta">Википєдїꙗ · вита</string>
-  <string name="app_name_alpha">Википєдїꙗ · алфа</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="search_hint">Википєдїи исканиѥ</string>
   <string name="error_network_error" fuzzy="true">сѣтьна достѫпа нѣстъ</string>
   <string name="page_error_retry">опакꙑ искоуси сѧ</string>

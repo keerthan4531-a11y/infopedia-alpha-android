@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Dbrant
 * Ernác
 * Къарачайлы
 -->
 <resources>
-  <string name="app_name_prod">Википедия</string>
-  <string name="app_name_beta">Википедия бета</string>
-  <string name="app_name_alpha">Википедия альфа</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Викимедиа</string>
   <string name="nav_item_back">Кери</string>
   <string name="page_tabs_back">Кери</string>
@@ -132,7 +132,7 @@
   <string name="search_reading_lists_no_results">Окъуу тизмегизде эсебле табылмадыла</string>
   <string name="search_history_no_results">Тарихде эсебле табылмадыла</string>
   <string name="edit_section_captcha_message">Автоат халда спамлагъа къаршчы къоруунланыргъа болушлукъ берир ючюн, энишгеде кёрюннген сёзлени джазыгъыз.</string>
-  <string name="edit_section_captcha_request_an_account_message">Суратны кёралмаймысыз? &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;Хыйсаб излем этигиз&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">Суратны кёралмаймысыз? &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;Хыйсаб излем этигиз&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">Ёргедеги сёзлени къайтарыгъыз</string>
   <string name="title_captcha">CAPTCHA киргизтигиз</string>
   <string name="edit_section_captcha_reload">Джангыдан джюклер ючюн CAPTCHA басыгъыз</string>
@@ -196,11 +196,11 @@
   <string name="create_account_button">Хыйсаб къура</string>
   <string name="create_account_name_unavailable">\"%s\" хайырланыучу ат джокъду. Тилейбиз, башха хайырланыучу ат сайлагъыз.</string>
   <string name="create_account_ip_block_message">Кечериксиз, IP-адресигиз джангы хыйсабла къурамазча блокдады.</string>
-  <string name="create_account_ip_block_help_url">https://en.wikipedia.org/wiki/Help:I_have_been_blocked</string>
+  <string name="create_account_ip_block_help_url">https://en.Infopedia.org/wiki/Help:I_have_been_blocked</string>
   <string name="create_account_ip_block_details">Толу ачыкълаула</string>
   <string name="preferences_general_heading">Баш</string>
   <string name="preferences_account_heading">Хыйсаб</string>
-  <string name="wikipedia_app_faq">Wikipedia App FAQ</string>
+  <string name="wikipedia_app_faq">Infopedia App FAQ</string>
   <string name="send_feedback">Къошакъ ючюн кери билдириу джибер</string>
   <string name="create_account_account_created_toast">Хыйсаб къуралды!</string>
   <string name="preferences_heading_syncing">Синхронизация</string>
@@ -230,19 +230,19 @@
   <string name="about_description">Википедия программаны юсюнден</string>
   <string name="privacy_policy_description">Ташалыкъ политика</string>
   <string name="terms_of_use_description">Хайырланыу шартла</string>
-  <string name="about_wikipedia_url">https://en.wikipedia.org/wiki/Wikipedia:Юсюнден</string>
-  <string name="privacy_policy_url" fuzzy="true">https://meta.wikimedia.org/wiki/Privacy_policy/krc</string>
-  <string name="offline_reading_and_data_url" fuzzy="true">https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ/tr#Offline_reading_and_data</string>
-  <string name="terms_of_use_url" fuzzy="true">https://meta.m.wikimedia.org/wiki/Terms_of_Use/krc</string>
+  <string name="about_wikipedia_url">https://en.Infopedia.org/wiki/Infopedia:Юсюнден</string>
+  <string name="privacy_policy_url" fuzzy="true">https://meta.infopedia.org/wiki/Privacy_policy/krc</string>
+  <string name="offline_reading_and_data_url" fuzzy="true">https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ/tr#Offline_reading_and_data</string>
+  <string name="terms_of_use_url" fuzzy="true">https://meta.m.infopedia.org/wiki/Terms_of_Use/krc</string>
   <string name="cc_by_sa_4_url">https://creativecommons.org/licenses/by-sa/4.0/deed.krc</string>
   <string name="cc_0_url">https://creativecommons.org/publicdomain/zero/1.0/deed.krc</string>
   <string name="about_libraries_heading">Хайырланнган китабханала</string>
   <string name="about_contributors_heading">Авторла</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Команда бет&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Команда бет&lt;/a&gt;</string>
   <string name="about_translators_heading">Кёчюрюучюле</string>
   <string name="about_translators_translatewiki">Бу программаны &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt;-деги волонтёрла кёчюргендиле.</string>
   <string name="about_app_license_heading">Лицензия</string>
-  <string name="about_app_license">Къайнакъ код, былайдан &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;Github&lt;/a&gt; лицензияны тамалында &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0&lt;/a&gt; барды. Башхасы белгиленмеген эсе, ичиндегиси &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.ru\"&gt;Creative Commons Attribution-ShareAlike&lt;/a&gt; лицензияны тамалындады.</string>
+  <string name="about_app_license">Къайнакъ код, былайдан &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;Github&lt;/a&gt; лицензияны тамалында &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0&lt;/a&gt; барды. Башхасы белгиленмеген эсе, ичиндегиси &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.ru\"&gt;Creative Commons Attribution-ShareAlike&lt;/a&gt; лицензияны тамалындады.</string>
   <string name="about_wmf">&lt;a href=\"https://wikimediafoundation.org/\"&gt;Викимедия Фондну&lt;/a&gt; чыгъармасыды</string>
   <string name="about_activity_title">Юсюнден</string>
   <string name="edit_abandon_confirm">Бет тюрлендирилди. Тюрлениулени сакъландырмагъанлай чыгъаргъа излегенигизге ишексизмисиз?</string>
@@ -414,9 +414,9 @@
   <string name="error_blocked_start">Блокну башланыуу: %s</string>
   <string name="error_blocked_expiry">Блокну бошалыуу: %s</string>
   <string name="error_blocked_id">Блокну идентификатор: %s</string>
-  <string name="error_blocked_footer">Блкну сюзерючюн &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; неда башха &lt;a href=\"https://krc.wikipedia.org/wiki/Википедия:Администраторла\"&gt;администратор\n&lt;/a&gt; бла байлам къурургъа боллукъсуз.</string>
+  <string name="error_blocked_footer">Блкну сюзерючюн &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; неда башха &lt;a href=\"https://krc.Infopedia.org/wiki/Википедия:Администраторла\"&gt;администратор\n&lt;/a&gt; бла байлам къурургъа боллукъсуз.</string>
   <string name="theme_chooser_menu_item_short_tooltip">Адыр панелигизни джарашдырыгъыз</string>
-  <string name="error_blocked_footer_no_blocker">Блокну сюзер ючюн &lt;a href=\"https://krc.wikipedia.org/wiki/Википедия:Администраторла\"&gt;администратор&lt;/a&gt; бла байлам къурургъа боллукъсуз.</string>
+  <string name="error_blocked_footer_no_blocker">Блокну сюзер ючюн &lt;a href=\"https://krc.Infopedia.org/wiki/Википедия:Администраторла\"&gt;администратор&lt;/a&gt; бла байлам къурургъа боллукъсуз.</string>
   <string name="temp_account_not_logged_in">Системагъа кирмегенсиз</string>
   <string name="temp_account_anon_dialog_body" fuzzy="true">Ташалыгъызны къоруулар ючюн, тюзетиу этгенлей &lt;b&gt;болджаллы хыйсаб&lt;/b&gt; къураллыкъды. &lt;a href=\"%1$s\"&gt;Аслам бил&lt;/a&gt;.Келликде тюзетиуде эмда башха онгчулукъла бла хайырланырча &lt;br /&gt;&lt;br /&gt;&lt;a href=\"https://#login\"&gt;Кир&lt;/a&gt; неда &lt;a href=\"https://#login\"&gt;Хыйсаб къура&lt;/a&gt;.</string>
   <string name="temp_account_temp_dialog_body" fuzzy="true">Тюзетиуюгюз %1$s джаздырыллыкъды. IP-адресигиз администраторлагъа кёрюнюрча боллукъду.&lt;br /&gt;&lt;br /&gt;Сиз &lt;a href=\"https://#login\"&gt;кирсегиз&lt;/a&gt; неда &lt;a href=\"https://#login \"&gt;хыйысаб къурасагъыз&lt;/a&gt;, башха онгчулукъла бла бирге, тюзетиулеригиз, сайлагъан атыгъызгъа джаздырыллыкъды.</string>
@@ -558,8 +558,8 @@
   <string name="reading_list_confirm_remove_article_from_offline_title">Статья кёб тизмеде орун алады</string>
   <string name="reading_list_confirm_remove_article_from_offline_message">%s мындан ары бу тизмеледе оффлайн джетиширча боллукъ тюлдю:</string>
   <string name="reading_lists_sync_reminder_title">Окъуу тизмени синхронизациясы джандырылсынмы?</string>
-  <string name="reading_lists_sync_reminder_text" fuzzy="true">Окъуу тизмелеригизге сакъланнган статьяланы, мындан ары Википедия хыйсабыгъыз бла синхронизация этерчады. &lt;a href=\"https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ/tr#Synced_reading_lists\"&gt;Аслам бил&lt;/a&gt;</string>
-  <string name="reading_lists_login_reminder_text_with_link" fuzzy="true">Окъуу тизмеле энди девайсла арасында синхронизация этилирчады. Википедия хыйсабыгъызда сессия ачыгъыз эмда тизмелеригизни сакъландырыууна эркинлик беригиз. &lt;a href=\"https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Аслам бил&lt;/a&gt;</string>
+  <string name="reading_lists_sync_reminder_text" fuzzy="true">Окъуу тизмелеригизге сакъланнган статьяланы, мындан ары Википедия хыйсабыгъыз бла синхронизация этерчады. &lt;a href=\"https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ/tr#Synced_reading_lists\"&gt;Аслам бил&lt;/a&gt;</string>
+  <string name="reading_lists_login_reminder_text_with_link" fuzzy="true">Окъуу тизмеле энди девайсла арасында синхронизация этилирчады. Википедия хыйсабыгъызда сессия ачыгъыз эмда тизмелеригизни сакъландырыууна эркинлик беригиз. &lt;a href=\"https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Аслам бил&lt;/a&gt;</string>
   <string name="reading_lists_sync_reminder_action">Синхрозинацияны джандыр</string>
   <string name="reading_list_login_reminder_title">Окъуу тимзелени синхронизация эт</string>
   <string name="reading_lists_login_reminder_text">Окъуу тизмеле энди девайсла арасында синхронизация этилирчады. Википедия хыйсабыгъызда сессия ачыгъыз эмда тизмелеригизни сакъландырыууна эркинлик беригиз.</string>
@@ -1272,7 +1272,7 @@
   <string name="talk_snackbar_survey_action_text">Башла</string>
   <string name="talk_share_discussion_subject">Википедия - сюзюу бетдеги \"%s\" темада сюзюу</string>
   <string name="talk_share_talk_page">Википедия - сюзюу бетдеги сюзюуле</string>
-  <string name="talk_edit_disclaimer">Бу сюзюу бетди. Тилейбиз, сюзюу бетни джорукъларына сыйыныгъыз эмда джибергенлеригизни тёрт тильда джазыб, къол салыргъа унутмагъыз: викитекстни хайырланыб, джибергенигигзни ахырына ~~~~ къошугъуз.&lt;br&gt;&lt;br&gt;&lt;a href=\"https://krc.wikipedia.org/wiki/Vikipedi:Сюзюу бет\"&gt;Википедия: Сюзюу бет&lt;/a&gt;</string>
+  <string name="talk_edit_disclaimer">Бу сюзюу бетди. Тилейбиз, сюзюу бетни джорукъларына сыйыныгъыз эмда джибергенлеригизни тёрт тильда джазыб, къол салыргъа унутмагъыз: викитекстни хайырланыб, джибергенигигзни ахырына ~~~~ къошугъуз.&lt;br&gt;&lt;br&gt;&lt;a href=\"https://krc.Infopedia.org/wiki/Vikipedi:Сюзюу бет\"&gt;Википедия: Сюзюу бет&lt;/a&gt;</string>
   <string name="talk_search_hint">Бирлдириулени изле</string>
   <string name="talk_search_topics_hint">Темаланы изле</string>
   <string name="talk_search_find_in_talk_topics_hint">Сюзюу бетде теманы таб</string>
@@ -1578,17 +1578,17 @@
   <string name="patroller_saved_message_title_do_not_censor">Цензура этмегиз</string>
   <string name="patroller_saved_message_title_art_imp">Статья маджаллашдырыу теджеу</string>
   <string name="patroller_saved_message_body_vandalism">Салам {{{username}}}, бир неда аслам [{{{diffLink}}}|кёб болмай этилген къошумугъузну] кери алгъанымы билдирирге излейме, ала меннге конструктив кёрюнмейдиле. Мен халат этгеннге санай эсегиз неда сорууугъуз бар эсе,  [[User talk:{{{senderUserName}}}|сюзюу бетимде]] билдириу къояргъа боллукъсуз. Вандализм мындан ары бардырылса чеклендириуле келирге боллугъун унутмагъыз.</string>
-  <string name="patroller_saved_message_body_editing_tests">Салам, {{{username}}}! Википедия эмда анда тюзетиу этиу сизни эсигизни бёлгенине къууанама. Сиз этген тюзетиу тест ишледи; Алай а, бу проектни нюзюрю хар ким да танышырча ышангылы эмда толу энциклопедия болгъанын эсде тутаргъа кереди. Тюзетиуюгюз контентге тийгени себебли, кетерирлгенди.\nВикипедияны тюзетирге юрениригиз келе эсе, сизге [[Wikipedia:Sandbox|къум къалаучукъ]] барды. Комментарийлеригиз белгили статья бла байламлы эсе, ала ючюн бу статьяны сюзюу бети эм тыйыншлы джерди.</string>
-  <string name="patroller_saved_message_body_npov">Салам, {{{username}}}, бир къауум къошумугъуз бу Википедиядагъы [[Wikipedia:NPOV|нейтрал оюм]] политикасыны тамалына келишмейди. Ол себебден бир къауум контент тюзетилгенди неда къоратылгъанды. Тилейбиз, энчи оюмну белгилеген параграфланы неда бёлюмлени, аслам нейтрал эмда объектив текст бла, энциклопедияда сакъланнган келишгенча тюрлендиригиз.</string>
+  <string name="patroller_saved_message_body_editing_tests">Салам, {{{username}}}! Википедия эмда анда тюзетиу этиу сизни эсигизни бёлгенине къууанама. Сиз этген тюзетиу тест ишледи; Алай а, бу проектни нюзюрю хар ким да танышырча ышангылы эмда толу энциклопедия болгъанын эсде тутаргъа кереди. Тюзетиуюгюз контентге тийгени себебли, кетерирлгенди.\nВикипедияны тюзетирге юрениригиз келе эсе, сизге [[Infopedia:Sandbox|къум къалаучукъ]] барды. Комментарийлеригиз белгили статья бла байламлы эсе, ала ючюн бу статьяны сюзюу бети эм тыйыншлы джерди.</string>
+  <string name="patroller_saved_message_body_npov">Салам, {{{username}}}, бир къауум къошумугъуз бу Википедиядагъы [[Infopedia:NPOV|нейтрал оюм]] политикасыны тамалына келишмейди. Ол себебден бир къауум контент тюзетилгенди неда къоратылгъанды. Тилейбиз, энчи оюмну белгилеген параграфланы неда бёлюмлени, аслам нейтрал эмда объектив текст бла, энциклопедияда сакъланнган келишгенча тюрлендиригиз.</string>
   <string name="patroller_saved_message_body_auto_trans">Салам {{{username}}}, бир къауум кёчюрюуюгюз автомат халда этилгеннге ушайды, аны ючюн ала тюзетилгендиле неда шаблон бла белгиленнгендиле. Статьягъа джукъ тюзетиу этилмесе, кетерилирге боллукъду.\n\nБютеу информация бла къалмай, энтда сорууларыгъыз бар эсе, [[Хайырланыучуну сюзюу:{{{senderUserName}}}|сюзюу бетимде]] билдириу къоюгъуз. Бу гитче джангылышчыкъ ючюн къайналмагъыз. Къошумугъуз Википедия ючюн бек магъаналыды.</string>
-  <string name="patroller_saved_message_body_coi_rem">Салам, {{{username}}}, Википедияда иш бирлигигиз ючюн бюсюреу этеме; Алай а [[Википедия:Интереслени дауу|интереслени дауунда]] болгъаныгъызны эслегенме. Интереслени дауу - бир джанындан Википедияны нейтраллыкъ эмда ышангылыкъ нюзюрлери бла, башха джанындан да айры редакторланы,айры инсанланы, къуралышланы эмда компанияланы энчи нюзюрлерини бир-бирлерине келишмегенликди.\n\nОртакъ аламдагъы бютеу къошумла бу Википедиядагъы ёлчелени политикасына ([[Wikipedia:What_Wikipedia_is_not|Википедия не тюлдю]]), энциклопедиялыкъ агъачына ([[Wikipedia:Verifiability|тинтирча болгъанына]] эмда [[[Wikipedia:No_original_research|энчи тинтиулери болмагъанына]]), редакциялыкъ мадаргъа([[Wikipedia:Neutral_point_of_view|нейтрал оюмгъа]]) эмда контненти легитимлилигине ([[Wikipedia:Copyrights|авторлукъ хакъла]]) бойсунады. Контентни болдургъан эмда багъа бичген заманда боютеу авторладан бу политикагъа келишириклери сакъланады, аны бла бирге башха авторланы ишлерини, бу политикагъа келишиу гарантия болур ючюн, сыйын кёрюллюгю да керекди.\n\nИнтереслени дауу болгъан шартлада тюзетиу эте эсегиз, бу политиканы эсгериб хайырланыргъа керексиз; Алай болмаса, сизни хыйсабыгъыз энчиге саналыб блокга салыныргъа боллукъду. Сорууларыгъыз бар эсе, сюзюу бетимде джазаргъа уялмагъыз.</string>
+  <string name="patroller_saved_message_body_coi_rem">Салам, {{{username}}}, Википедияда иш бирлигигиз ючюн бюсюреу этеме; Алай а [[Википедия:Интереслени дауу|интереслени дауунда]] болгъаныгъызны эслегенме. Интереслени дауу - бир джанындан Википедияны нейтраллыкъ эмда ышангылыкъ нюзюрлери бла, башха джанындан да айры редакторланы,айры инсанланы, къуралышланы эмда компанияланы энчи нюзюрлерини бир-бирлерине келишмегенликди.\n\nОртакъ аламдагъы бютеу къошумла бу Википедиядагъы ёлчелени политикасына ([[Infopedia:What_Infopedia_is_not|Википедия не тюлдю]]), энциклопедиялыкъ агъачына ([[Infopedia:Verifiability|тинтирча болгъанына]] эмда [[[Infopedia:No_original_research|энчи тинтиулери болмагъанына]]), редакциялыкъ мадаргъа([[Infopedia:Neutral_point_of_view|нейтрал оюмгъа]]) эмда контненти легитимлилигине ([[Infopedia:Copyrights|авторлукъ хакъла]]) бойсунады. Контентни болдургъан эмда багъа бичген заманда боютеу авторладан бу политикагъа келишириклери сакъланады, аны бла бирге башха авторланы ишлерини, бу политикагъа келишиу гарантия болур ючюн, сыйын кёрюллюгю да керекди.\n\nИнтереслени дауу болгъан шартлада тюзетиу эте эсегиз, бу политиканы эсгериб хайырланыргъа керексиз; Алай болмаса, сизни хыйсабыгъыз энчиге саналыб блокга салыныргъа боллукъду. Сорууларыгъыз бар эсе, сюзюу бетимде джазаргъа уялмагъыз.</string>
   <string name="patroller_saved_message_body_final_warning">Талай деструктив тюзетиу этгегиз себебли, бу ахыр эсгертиуюгюздю. Энтда бир кере Википедиягъа заран этсегиз, тюзетиу эркинлигигиз сыйырыллыкъды.</string>
-  <string name="patroller_saved_message_body_copy_vio">Тюзетиулеригизде авторлукъ хакъла бла къорууланнган материалланы эркинликсиз хайырланнганы эсленнгеннге ушайды. Тилейбиз, къоратыуну джанлар ючюн, бютеу контентни бу Википедияны [[Wikipedia:Copyrights|авторлукъ хакъларына]] келишгенин тинтигиз.</string>
+  <string name="patroller_saved_message_body_copy_vio">Тюзетиулеригизде авторлукъ хакъла бла къорууланнган материалланы эркинликсиз хайырланнганы эсленнгеннге ушайды. Тилейбиз, къоратыуну джанлар ючюн, бютеу контентни бу Википедияны [[Infopedia:Copyrights|авторлукъ хакъларына]] келишгенин тинтигиз.</string>
   <string name="patroller_saved_message_body_edit_summary">Салам, {{{username}}}! Википедиядан контентни, тюзетиу хапарлауну къоймай кетергеннге ушайсыз. Википедиядан контентни къошсагъыз неда къоратсагъыз тюзетиу хапарлауну къоя туругъуз деб тилейбиз.</string>
   <string name="patroller_saved_message_body_do_not_censor">Салам, {{{username}}}! Статьяны сюзюу бетинде сюзмей, контентни къоратханнга ушайсыз. Эс бёлюгюз, Википедияда цензура джокъду, ол себебден контент бир-бирин тутмайды деб кетерирге болмайды. Информация кескин, тюз тюлдю деб сагъыш эте эсегиз, статьяны сюзюу бетинде консенсусха келиригизни тилейбиз.</string>
   <string name="talk_warn_learn_more_label">Билдириу толтуруучуланы юсюнден юрен</string>
   <string name="talk_warn_saved_messages_usage_instruction">Билдириулеригизни джарашдырыуда, джибериуде эмда сакъландырыуда тюбюрекдеги билдириу юлгюлени хайырланыгъыз.</string>
-  <string name="patroller_saved_message_body_art_imp">Салам {{{username}}}. Статьягъы аламат башлангычды! Аны андан да маджал этер ючюн, ышангылы къайнакълагъа къошакъ джибериулени къошууну юсюнден сагъыш этигиз. Бу информацияны тинтерге эмда статьяны агъачын маджал этерге болушады. Аслам информация алыр ючюн, бу Википедияны [[Wikipedia:Reliable_sources|ышангылы къайнакълары]] бла байламлы теджеулери бла танышыгъыз.</string>
+  <string name="patroller_saved_message_body_art_imp">Салам {{{username}}}. Статьягъы аламат башлангычды! Аны андан да маджал этер ючюн, ышангылы къайнакълагъа къошакъ джибериулени къошууну юсюнден сагъыш этигиз. Бу информацияны тинтерге эмда статьяны агъачын маджал этерге болушады. Аслам информация алыр ючюн, бу Википедияны [[Infopedia:Reliable_sources|ышангылы къайнакълары]] бла байламлы теджеулери бла танышыгъыз.</string>
   <string name="talk_templates_menu_edit_title">Тюзет</string>
   <string name="data_opt_in_accept">Къабыл эт</string>
   <string name="data_opt_in_reject">Унама</string>

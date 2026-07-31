@@ -50,7 +50,7 @@ object TestKitchenAdapter : ClientDataCallback, EventSender {
             WikipediaApp.instance.appInstallID,
             WikipediaApp.instance.currentTheme.toString(),
             WikipediaApp.instance.versionCode,
-            "WikipediaApp/" + BuildConfig.VERSION_NAME,
+            "InfopediaApp/" + BuildConfig.VERSION_NAME,
             "android",
             "app",
             Build.BRAND + " " + Build.MODEL,

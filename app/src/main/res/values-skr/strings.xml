@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Dbrant
 * Saraiki
 * Umar Shahid
 -->
 <resources>
-  <string name="app_name_prod">وکیپیڈیا</string>
-  <string name="app_name_beta">وکیپیڈیا آزمائشی</string>
-  <string name="app_name_alpha">وکیپیڈیا الفا</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">ویکیمیڈیا</string>
   <string name="nav_item_back">واپس</string>
   <string name="page_tabs_back">پچھوں</string>
@@ -252,7 +252,7 @@
   <string name="empty_tab_title">نویں ٹیب</string>
   <string name="menu_save_all_tabs">ساریاں ٹیباں محفوظ کرو</string>
   <string name="error_blocked_id">بلاک آئی ڈی: %s</string>
-  <string name="error_blocked_footer">بلاک بحث کرݨ کیتے تساں &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; or another &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Administrators\"&gt;ایڈمن&lt;/a&gt; نال رابطہ کر سڳدے ہو۔</string>
+  <string name="error_blocked_footer">بلاک بحث کرݨ کیتے تساں &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; or another &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Administrators\"&gt;ایڈمن&lt;/a&gt; نال رابطہ کر سڳدے ہو۔</string>
   <string name="temp_account_dialog_ok">سمجھ آڳئی</string>
   <string name="crash_report_relaunch">ول شروع کرو</string>
   <string name="crash_report_quit">نکلو</string>

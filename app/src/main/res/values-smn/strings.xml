@@ -1,18 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Muotâ
 * Seipinne
 * Yupik
 -->
 <resources>
-  <string name="app_name_prod">Wikipedia</string>
-  <string name="app_name_beta">Wikipedia Beeta</string>
-  <string name="app_name_alpha">Wikipedia Alfa</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Wikimedia</string>
   <string name="nav_item_back">Maassâd</string>
   <string name="page_tabs_back">Maassâd</string>
   <string name="nav_item_forward">Ovdâskulij</string>
-  <string name="search_hint">Uusâ Wikipediast</string>
+  <string name="search_hint">Uusâ Infopediast</string>
   <string name="search_hint_voice_search">Jienâuuccâm</string>
   <string name="search_hint_search_languages">Uusâ kielâ</string>
   <string name="search_back_button_content_description">Maacâ</string>
@@ -103,11 +103,11 @@
   <string name="map_view_link_text">Čääiti káártást</string>
   <string name="other_languages_indication_text">Luuvâ eres kielân</string>
   <string name="language_count_link_text">Kavnâmist %d eres kielân</string>
-  <string name="preference_title_language">Wikipedia kielah</string>
+  <string name="preference_title_language">Infopedia kielah</string>
   <string name="langlinks_filter_hint">Uuccâm</string>
   <string name="langlinks_no_match">Kielah iä kavnum</string>
   <string name="langlinks_activity_title">Eres kielah</string>
-  <string name="langlinks_your_wikipedia_languages">Tuu Wikipedia kielah</string>
+  <string name="langlinks_your_wikipedia_languages">Tuu Infopedia kielah</string>
   <string name="menu_save_changes">Almostit nubástusâid</string>
   <string name="edit_saved_successfully">Nubástus almostittum!</string>
   <string name="stub_article_edit_saved_successfully">Nubástus almostittum! Sáttá pišteđ mottoom ääigi ovdilgo nubástus itá uáinusân.</string>
@@ -126,8 +126,8 @@
   <string name="search_reading_list_no_results">Iä kavnum puátuseh ucâmân \"%s\"</string>
   <string name="search_reading_lists_no_results">Luuhâmlistoost iä kavnum puátuseh taan ucâmân</string>
   <string name="search_history_no_results">Uuccâmhistorjást ij kavnum mihheen</string>
-  <string name="edit_section_captcha_request_an_account_message">Jieh-uv uáini kove? &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;Táátu tubdâlduv&lt;/a&gt;</string>
-  <string name="nav_item_login">Čáládât siisâ Wikipedian</string>
+  <string name="edit_section_captcha_request_an_account_message">Jieh-uv uáini kove? &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;Táátu tubdâlduv&lt;/a&gt;</string>
+  <string name="nav_item_login">Čáládât siisâ Infopedian</string>
   <string name="login_username_hint">Kevtteenommâ</string>
   <string name="login_password_hint">Syelisääni</string>
   <string name="account_creation_password_hint">Syelisääni</string>
@@ -148,9 +148,9 @@
   <string name="logged_out_in_background_title">Čáládâttâm olgos</string>
   <string name="logged_out_in_background_login">Čáládât siisâ</string>
   <string name="logged_out_in_background_cancel">Jooskâ</string>
-  <string name="search_empty_message_multilingual_upgrade">Uusâ Wikipediast eenâb kieláid.</string>
+  <string name="search_empty_message_multilingual_upgrade">Uusâ Infopediast eenâb kieláid.</string>
   <string name="create_account_username_hint">Kevtteenommâ</string>
-  <string name="login_join_wikipedia">Seervâ Wikipedian</string>
+  <string name="login_join_wikipedia">Seervâ Infopedian</string>
   <string name="login_forgot_password">Vájáldittih-uv jieijâd syelisääni?</string>
   <string name="create_account_already_have">Lii-uv tust jo kevtteetubdâldâh?</string>
   <string name="create_account_activity_title">Räähti tubdâlduv</string>
@@ -163,7 +163,7 @@
   <string name="create_account_ip_block_details">Tiäđuh</string>
   <string name="preferences_general_heading">Almolâš</string>
   <string name="preferences_account_heading">Kevtteetubdâldâh</string>
-  <string name="wikipedia_app_faq">Wikipedia-heiviittâs TKK</string>
+  <string name="wikipedia_app_faq">Infopedia-heiviittâs TKK</string>
   <string name="send_feedback">Vuolgât macâttâs heiviittâsâst</string>
   <string name="create_account_account_created_toast">Kevtteetubdâldâh rahtum!</string>
   <string name="preferences_heading_syncing">Synkronisistem</string>
@@ -218,9 +218,9 @@
   <string name="table_infobox">Jotelis faktah</string>
   <string name="table_other">Lasetiäđuh</string>
   <string name="table_close">Toopâ</string>
-  <string name="widget_name_search">Wikipedia-uuccâm</string>
-  <string name="widget_description_search">Jotelumos vyehi uuccâđ Wikipediast</string>
-  <string name="widget_description_featured_page">Wikipedia pyeremuuh artikkâleh</string>
+  <string name="widget_name_search">Infopedia-uuccâm</string>
+  <string name="widget_description_search">Jotelumos vyehi uuccâđ Infopediast</string>
+  <string name="widget_description_featured_page">Infopedia pyeremuuh artikkâleh</string>
   <string name="alpha_update_notification_text">Spokkâl luođim tet</string>
   <string name="dialog_close_description">Toopâ</string>
   <string name="preference_title_show_images">Čääiti kuuvijd</string>
@@ -315,7 +315,7 @@
   <string name="notification_syncing_pause_button">Puddâ</string>
   <string name="notification_syncing_resume_button">Juáđhi</string>
   <string name="notification_syncing_cancel_button">Jooskâ</string>
-  <string name="notification_echo_channel_description">Wikipedia almottâsah</string>
+  <string name="notification_echo_channel_description">Infopedia almottâsah</string>
   <string name="notifications_activity_title">Almottâsah</string>
   <string name="notifications_search">Uusâ almottâsâin</string>
   <string name="notifications_direct_reply_action">Västid</string>
@@ -330,7 +330,7 @@
   <string name="preference_summary_notification_email_user">Kiinii vuolgâttij tunjin šleđgâpoostâ wiki peht</string>
   <string name="preference_title_notification_user_rights">Kevtteevuoigâdvuođâi nubástusah</string>
   <string name="preference_title_notification_article_linked">Liiŋkah artikkâlijd maid tun lah ráhtám</string>
-  <string name="notifications_channel_group_wikipedia_notifications_title">Wikipedia</string>
+  <string name="notifications_channel_group_wikipedia_notifications_title">Infopedia</string>
   <string name="notifications_tab_filter_all">Puoh</string>
   <string name="notifications_search_bar_hint">Uusâ tâi sillii almottâsâid</string>
   <string name="notifications_search_bar_filter_hint">Almottâssillee</string>
@@ -345,7 +345,7 @@
   <string name="view_top_read_card_title">Enâmustáá luhhum</string>
   <string name="view_top_read_card_action">Lase enâmustáá luhhum</string>
   <string name="view_next_random_article">Luođii nube sätiartikkâl</string>
-  <string name="view_main_page_card_title">Onne Wikipediast</string>
+  <string name="view_main_page_card_title">Onne Infopediast</string>
   <string name="view_main_page_card_action">Čääiti ovdâsiijđo</string>
   <string name="view_featured_image_card_title">Peeivi kove</string>
   <string name="view_featured_image_card_download">Luođii</string>
@@ -389,7 +389,7 @@
   <string name="description_edit_success_saved_in_lang_snackbar">Artikkâl valdâlem almostittum! (%s)</string>
   <string name="description_edit_success_saved_image_caption_snackbar">Kovetekstâ almostittum!</string>
   <string name="description_edit_success_saved_image_caption_in_lang_snackbar">Kovetekstâ almostittum! (%s)</string>
-  <string name="description_edit_success_encouragement">Tun rahtih eidu Wikipediast pyereeb puohháid</string>
+  <string name="description_edit_success_encouragement">Tun rahtih eidu Infopediast pyereeb puohháid</string>
   <string name="description_edit_success_done">Vaalmâš</string>
   <string name="description_edit_success_did_you_know">Tiettih-uv?</string>
   <string name="description_edit_success_article_edit_hint">Puávtáh mutteđ artikkâlijd tain heiviittâssáin. Keččâl puáttee tove tivvoođ čäällimfeeilâid tâi uánihis celkkuid teddilmáin ^1-kovos.</string>
@@ -434,8 +434,8 @@
   <string name="suggested_edits_contribution_language_label">Kielâ</string>
   <string name="suggested_edits_contribution_date_time_label">Peivimeeri / Äigi</string>
   <string name="suggested_edits_contribution_image_label">Kove</string>
-  <string name="suggested_edits_encourage_account_creation_title">Tiettih-uv tun, ete kii peri puáhtá mutteđ Wikipedia?</string>
-  <string name="suggested_edits_encourage_account_creation_login_button">Čáládât siisâ / seervâ Wikipedian</string>
+  <string name="suggested_edits_encourage_account_creation_title">Tiettih-uv tun, ete kii peri puáhtá mutteđ Infopedia?</string>
+  <string name="suggested_edits_encourage_account_creation_login_button">Čáládât siisâ / seervâ Infopedian</string>
   <string name="image_recommendation_reject_submit">Vuolgât</string>
   <string name="activity_tab_menu_info">Lasetiäđuh</string>
   <string name="activity_tab_customize_screen_reading_history_switch_title">Luuhâmhistorjá</string>
@@ -463,13 +463,13 @@
   <string name="languages_list_activity_title">Lasseet kielâ</string>
   <string name="languages_list_suggested_text">Iävtuttum</string>
   <string name="languages_list_all_text">Puoh kielah</string>
-  <string name="wikipedia_languages_title">Wikipedia kielah</string>
+  <string name="wikipedia_languages_title">Infopedia kielah</string>
   <string name="wikipedia_languages_your_languages_text">Tuu kielah</string>
   <string name="wikipedia_languages_add_language_text">Lasseet kielâ</string>
   <string name="wikipedia_languages_remove_text">Meddâlist kielâ</string>
   <string name="wikipedia_languages_remove_action_mode_title">Meddâlist kielâ</string>
   <string name="more_language_options">lase</string>
-  <string name="add_wikipedia_languages_text">Lasseet Wikipedia-kielâid</string>
+  <string name="add_wikipedia_languages_text">Lasseet Infopedia-kielâid</string>
   <string name="remove_language_dialog_cancel_button_text">Jooskâ</string>
   <string name="remove_language_dialog_ok_button_text">OK</string>
   <string name="remove_all_language_warning_dialog_ok_button_text">OK</string>
@@ -517,7 +517,7 @@
   <string name="templates_param_suggested_hint">%s (iävtuttum)</string>
   <string name="templates_learn_more_link">Lasetiäđuh</string>
   <string name="main_drawer_help">Iše</string>
-  <string name="main_drawer_login">Čáládât siisâ / seervâ Wikipedian</string>
+  <string name="main_drawer_login">Čáládât siisâ / seervâ Infopedian</string>
   <string name="main_tooltip_watchlist_title">Čuávvumlisto</string>
   <string name="custom_date_picker_dialog_ok_button_text">OK</string>
   <string name="text_input_dialog_ok_button_text">OK</string>
@@ -634,7 +634,7 @@
   <string name="places_toggle_buttons_list">Listo</string>
   <string name="places_card_title">Sajeh aldasijn</string>
   <string name="places_card_action">Lase soojijd aldasijn</string>
-  <string name="places_card_enable_location_card_message">Sajeh lii kárttávuáđusâš vyehi uápásmuđ Wikipedian</string>
+  <string name="places_card_enable_location_card_message">Sajeh lii kárttávuáđusâš vyehi uápásmuđ Infopedian</string>
   <string name="survey_dialog_cancel">Koskâldit</string>
   <string name="survey_dialog_submit">Vuolgât</string>
   <string name="survey_dialog_next">Čuávuvâš</string>
@@ -644,11 +644,11 @@
   <string name="games_hub_activity_title">Speelah</string>
   <string name="games_hub_activity_games_unavailable_message_learn_more_action">Lasetiäđuh</string>
   <string name="games_hub_activity_overflow_learn_more">Lasetiäđuh</string>
-  <string name="on_this_day_game_entry_dialog_subtitle">Wikipedia-speelah</string>
+  <string name="on_this_day_game_entry_dialog_subtitle">Infopedia-speelah</string>
   <string name="on_this_day_game_entry_dialog_button">Speelâ</string>
   <string name="on_this_day_game_dialog_button">Speelâ</string>
   <string name="on_this_day_game_share_button">Jyevi puáttus</string>
-  <string name="on_this_day_game_feed_entry_card_heading">Wikipedia-speelah</string>
+  <string name="on_this_day_game_feed_entry_card_heading">Infopedia-speelah</string>
   <string name="on_this_day_game_feed_entry_card_title">Kuábáš lâi vistig?</string>
   <string name="on_this_day_game_result">Ožžuh %1$d / %2$d čyegisid.</string>
   <string name="on_this_day_game_menu_info">Lasetiäđuh</string>
@@ -685,10 +685,10 @@
   <string name="hybrid_search_suggestion_title">Uusâ:</string>
   <string name="hybrid_search_onboarding_learn_more">Lasetiäđuh</string>
   <string name="hybrid_search_onboarding_screen_title">Uđđâ vyehi uuccâđ</string>
-  <string name="reading_challenge_onboarding_prompt_login">Čáládât siisâ / seervâ Wikipedian</string>
+  <string name="reading_challenge_onboarding_prompt_login">Čáládât siisâ / seervâ Infopedian</string>
   <string name="reading_challenge_install_prompt_add">Lasseet</string>
   <string name="reading_challenge_widget_explore_button">Tuuđhâ</string>
-  <string name="reading_challenge_widget_explore_wikipedia_button">Tuuđhâ Wikipedia</string>
+  <string name="reading_challenge_widget_explore_wikipedia_button">Tuuđhâ Infopedia</string>
   <string name="reading_challenge_widget_join_challenge_button">Uásálist hástusân</string>
   <string name="reading_challenge_widget_join_the_challenge_button">Uásálist hástusân</string>
   <string name="reading_challenge_widget_search_button">Uusâ</string>

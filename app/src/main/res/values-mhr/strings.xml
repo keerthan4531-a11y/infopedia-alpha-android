@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Lifeway
 * Mxalexandrov86
 -->
 <resources>
-  <string name="app_name_prod">Википедий</string>
-  <string name="app_name_beta">Википедий (бета)</string>
-  <string name="app_name_alpha">Википедий (альфа)</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Викимедий</string>
   <string name="nav_item_back">Шеҥгек</string>
   <string name="page_tabs_back">Шеҥгек</string>
@@ -129,7 +129,7 @@
   <string name="search_reading_lists_no_results">Лудашлан спискылаште лектышым мумо огыл</string>
   <string name="search_history_no_results">Историйыште лектышым мумо огыл</string>
   <string name="edit_section_captcha_message">Автоматизированный спам деч аралалташлан, поро лийза, ӱлнӧ ончыктымо мут-влакым пуртыза</string>
-  <string name="edit_section_captcha_request_an_account_message">Капчан сӱретшым  ода уж? &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;Аккаунтым йодса&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">Капчан сӱретшым  ода уж? &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;Аккаунтым йодса&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">Кӱшнӧ ончыктымо мут-влакым уэштаре</string>
   <string name="title_captcha">CAPTCHA-м пурто</string>
   <string name="edit_section_captcha_reload">CAPTCHA-м уэмдаш манын, тудым логал</string>
@@ -193,11 +193,11 @@
   <string name="create_account_button">Аккаунтым ышташ</string>
   <string name="create_account_name_unavailable">«%s» ушнышо лӱм лийын кертдыме. Порылий, вес лӱмым ончыкто.</string>
   <string name="create_account_ip_block_message">Вуеш ит нал, у ушнышо лӱмым ышташлан тыйын IP-адресетым петырыме.</string>
-  <string name="create_account_ip_block_help_url">https://ru.wikipedia.org/wiki/Полыш: Мый_чарыме_лийынам</string>
+  <string name="create_account_ip_block_help_url">https://ru.Infopedia.org/wiki/Полыш: Мый_чарыме_лийынам</string>
   <string name="create_account_ip_block_details">Кумданрак</string>
   <string name="preferences_general_heading">Чумыр</string>
   <string name="preferences_account_heading">Аккаунт</string>
-  <string name="wikipedia_app_faq">Wikipedia App ЧПЙ</string>
+  <string name="wikipedia_app_faq">Infopedia App ЧПЙ</string>
   <string name="send_feedback">Приложений нерген шоныммутым колташ</string>
   <string name="create_account_account_created_toast">Аккаунт ышталтын!</string>
   <string name="preferences_heading_syncing">Синхронизаций</string>
@@ -226,11 +226,11 @@
   <string name="about_description">«Википедий» приложений нерген</string>
   <string name="privacy_policy_description">Шолыплык политике</string>
   <string name="terms_of_use_description">Кучылтмо келшык</string>
-  <string name="about_wikipedia_url">https://mhr.wikipedia.org/wiki/Википедий:Палемдымаш</string>
+  <string name="about_wikipedia_url">https://mhr.Infopedia.org/wiki/Википедий:Палемдымаш</string>
   <string name="cc_by_sa_4_url">https://creativecommons.org/licenses/by-sa/4.0/deed.mhr</string>
   <string name="about_libraries_heading">Кучылтмо библиотеке-влак</string>
   <string name="about_contributors_heading">Автор-влак</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Командын велыжше&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Командын велыжше&lt;/a&gt;</string>
   <string name="about_translators_heading">Кусарыше-влак</string>
   <string name="about_translators_translatewiki">Тиде приложенийым &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt; платформышто вӱмазе-влак кусареныт.</string>
   <string name="about_app_license_heading">Лицензий</string>

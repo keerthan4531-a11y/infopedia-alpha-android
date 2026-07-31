@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Archana
 * BPositive
@@ -12,9 +12,9 @@
 * संतोष दहिवळ
 -->
 <resources>
-  <string name="app_name_prod">विकिपीडिया</string>
-  <string name="app_name_beta">विकिपीडिया बीटा</string>
-  <string name="app_name_alpha">विकिपीडिया अल्फा</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">विकिमिडिया</string>
   <string name="search_hint">विकिपीडिया मध्ये शोधा</string>
   <string name="error_network_error">आंतरजालाशी जुळू शकत नाही.</string>
@@ -129,14 +129,14 @@
   <string name="about_description">विकिपीडिया अॅपविषयी</string>
   <string name="privacy_policy_description">गुप्तता नीती</string>
   <string name="terms_of_use_description">वापराच्या अटी</string>
-  <string name="about_wikipedia_url" fuzzy="true">https://en.m.wikipedia.org/wiki/Wikipedia:About</string>
-  <string name="offline_reading_and_data_url" fuzzy="true">https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ#Offline_reading_and_data</string>
+  <string name="about_wikipedia_url" fuzzy="true">https://en.m.Infopedia.org/wiki/Infopedia:About</string>
+  <string name="offline_reading_and_data_url" fuzzy="true">https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ#Offline_reading_and_data</string>
   <string name="about_libraries_heading">वापरलेले ग्रंथभंडार</string>
   <string name="about_contributors_heading">योगदानकर्ते</string>
   <string name="about_translators_heading">भाषांतरकार</string>
   <string name="about_translators_translatewiki">हे  अॅप स्वयंसेवक भाषांतरकारांनी  &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt; येथे भाषांतरीत केले आहे.</string>
   <string name="about_app_license_heading">परवाना</string>
-  <string name="about_app_license" fuzzy="true">&lt;a href=\"https://gerrit.wikimedia.org/r/#/admin/projects/apps/android/wikipedia\"&gt;Gerrit&lt;/a&gt; वर स्रोत संकेत उपलब्ध आहे व &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;GitHub&lt;/a&gt; खालील परवान्यांतर्गत &lt;a href=\"https://phabricator.wikimedia.org/diffusion/APAW/browse/master/COPYING?view=raw\"&gt;Apache 2.0 License&lt;/a&gt;. जोपर्यंत नमूद केले नसेल तोपर्यंत, आशय हा &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License\" &gt;या परवान्यांतर्गत उपलब्ध आहे</string>
+  <string name="about_app_license" fuzzy="true">&lt;a href=\"https://gerrit.infopedia.org/r/#/admin/projects/apps/android/Infopedia\"&gt;Gerrit&lt;/a&gt; वर स्रोत संकेत उपलब्ध आहे व &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;GitHub&lt;/a&gt; खालील परवान्यांतर्गत &lt;a href=\"https://phabricator.infopedia.org/diffusion/APAW/browse/master/COPYING?view=raw\"&gt;Apache 2.0 License&lt;/a&gt;. जोपर्यंत नमूद केले नसेल तोपर्यंत, आशय हा &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License\" &gt;या परवान्यांतर्गत उपलब्ध आहे</string>
   <string name="about_wmf" fuzzy="true">हे &lt;a href=\"https://wikimediafoundation.org/\"&gt;विकिमिडिया फाउंडेशनचे&lt;/a&gt; उत्पादन आहे.</string>
   <string name="about_activity_title">आमच्याबद्दल</string>
   <string name="edit_abandon_confirm">हे पान बदलण्यात आले आहे. आपणास आपले बदल जतन न करताच बाहेर व्हायचे आहे काय?</string>

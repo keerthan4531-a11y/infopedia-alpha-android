@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Khun Kt
 * Ninjastrikers
@@ -9,9 +9,9 @@
 * 우습게
 -->
 <resources>
-  <string name="app_name_prod">ဝီခီပီးဒီးယား</string>
-  <string name="app_name_beta">ဝီခီပီးဒီးယား ဗီတာ</string>
-  <string name="app_name_alpha">ဝီခီပီးဒီးယား အယ်ဖာ</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">ဝီခီမီဒီယာ</string>
   <string name="nav_item_back">သဲင်ꩻချာ</string>
   <string name="page_tabs_back">သဲင်ꩻချာ</string>
@@ -119,7 +119,7 @@
   <string name="search_reading_lists_no_results">ဟော်ꩻလိတ်စာႏရင်ꩻကို လꩻလဒ်ဖိုင်ႏ အဝ်ႏတဝ်း</string>
   <string name="search_history_no_results">ရာႏဇာႏဝင်ႏကိုနဝ်ꩻ မော့ꩻတဝ်း လꩻလဒ်</string>
   <string name="edit_section_captcha_message">ရဲးကမ်းအီ အဝ်ႏလွိုႏကာႏကာႏ ကပသာဒါႏ မေးဖိုင်ႏတာႏ နျꩻလွောန်ꩻစံꩻသွော့ လိတ်ဖြုံႏလ့နဝ်ꩻဖိုင်ႏဩ။</string>
-  <string name="edit_section_captcha_request_an_account_message">မော့ꩻတဝ်း ရုက်ပုင်ႏနဲ့ဟောင်း? &lt;a href=\"https://blk.wikipedia.org/wiki/Wikipedia:ကွီ_အကောက်တဗာႏ\"&gt;ကွီအကောက်တဗာႏ&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">မော့ꩻတဝ်း ရုက်ပုင်ႏနဲ့ဟောင်း? &lt;a href=\"https://blk.Infopedia.org/wiki/Infopedia:ကွီ_အကောက်တဗာႏ\"&gt;ကွီအကောက်တဗာႏ&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">နျꩻသမ်းထဲင်းသွော့ လိတ်ဖြုံႏကီနဝ်ꩻဩ</string>
   <string name="title_captcha">ထဲမ်သော့ꩻ CAPTCHA</string>
   <string name="edit_section_captcha_reload">ခွိုန်းသွူ CAPTCHA တဲင် ထူႏထဲင်းသွော့အတသာတဗာႏဩ</string>
@@ -180,7 +180,7 @@
   <string name="create_account_button">ဖန်ဆင်ꩻအကောက်</string>
   <string name="create_account_name_unavailable">ကေားသုင်ꩻသားမိဉ်ꩻ \"%s\" နဝ်ꩻ လꩻနွောင်ꩻတဝ်းသွူ။ လွိုက်ထဲင်းသွော့ မိဉ်ꩻအလင်တဗာႏလုဲင်းဩ။</string>
   <string name="create_account_ip_block_message">ယိုခါ ဖန်ဆင်ꩻအကောက်ကို ပေ့ꩻရဲးခါꩻဒျာႏ နာꩻအုဲင်ပီလိပ်စာသွူ။</string>
-  <string name="create_account_ip_block_help_url">https://blk.wikipedia.org/wiki/Help:ပေ့ꩻခါꩻလဲဉ်း_ခွေသွဉ်းသြ</string>
+  <string name="create_account_ip_block_help_url">https://blk.Infopedia.org/wiki/Help:ပေ့ꩻခါꩻလဲဉ်း_ခွေသွဉ်းသြ</string>
   <string name="create_account_ip_block_details">စဲင်းစဲ့</string>
   <string name="preferences_general_heading">အစွိုးစွိုးအဒဝ်ႏဒဝ်ႏ</string>
   <string name="preferences_account_heading">အကောက်</string>
@@ -214,15 +214,15 @@
   <string name="about_description">ဝီခီပီးဒီးယား အဲပ် ခရာႏ</string>
   <string name="privacy_policy_description">နမ်းပဲင်ႏမူဝါဒ</string>
   <string name="terms_of_use_description">သုင်ꩻအီခရာႏ အွောန်ႏထွော့ချက်ဖုံႏ</string>
-  <string name="about_wikipedia_url">https://blk.wikipedia.org/wiki/ဝီခီပီးဒီးယား:ခရာႏ</string>
-  <string name="android_app_request_an_account_url">https://blk.wikipedia.org/wiki/ဝီခီပီးဒီးယား:ကွီ_အကောက်_တဗာႏ</string>
+  <string name="about_wikipedia_url">https://blk.Infopedia.org/wiki/ဝီခီပီးဒီးယား:ခရာႏ</string>
+  <string name="android_app_request_an_account_url">https://blk.Infopedia.org/wiki/ဝီခီပီးဒီးယား:ကွီ_အကောက်_တဗာႏ</string>
   <string name="about_libraries_heading">ကထွားခါꩻဖို လိတ်ထွားခင်ႏလမ်းဖုံႏ</string>
   <string name="about_contributors_heading">ခွုမ်မာꩻသားဖုံႏ</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;ပါငီꩻသားလိတ်မဲ့ငါ&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;ပါငီꩻသားလိတ်မဲ့ငါ&lt;/a&gt;</string>
   <string name="about_translators_heading">ကေားပြန်ႏဘာႏသာႏသားဖိုင်ႏ</string>
   <string name="about_translators_translatewiki">အဲပ်ယိုနဝ်ꩻ လိုꩻကေားစွဲးကမ်းဖေႏခြေင်သား ချာႏပြန်ႏခါꩻဖေႏဒျာႏ &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt; ကိုဩ။</string>
   <string name="about_app_license_heading">လုဲင်သိဉ်</string>
-  <string name="about_app_license" fuzzy="true">ကိုဒ်ခြွီရွီးခိုႏနဝ်ꩻ လꩻနွောင်ꩻဒျာႏ &lt;a href=\"https://gerrit.wikimedia.org/r/#/admin/projects/apps/android/wikipedia\"&gt;Gerrit&lt;/a&gt; တောမ်ႏ &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;GitHub&lt;/a&gt;ကို တောမ်ႏလုဲင်သိဉ် &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0 License&lt;/a&gt; ဆꩻလ့သွူ။ စဲင်းစဲ့တဗာႏ မိဉ်ႏမွေးတဝ်းတဲ့ ကတဲမ်းခါꩻထာꩻနဝ်ꩻ လꩻဒါႏ &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Creative Commons Attribution-ShareAlike License&lt;/a&gt; ထျꩻကိုဩ။</string>
+  <string name="about_app_license" fuzzy="true">ကိုဒ်ခြွီရွီးခိုႏနဝ်ꩻ လꩻနွောင်ꩻဒျာႏ &lt;a href=\"https://gerrit.infopedia.org/r/#/admin/projects/apps/android/Infopedia\"&gt;Gerrit&lt;/a&gt; တောမ်ႏ &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;GitHub&lt;/a&gt;ကို တောမ်ႏလုဲင်သိဉ် &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0 License&lt;/a&gt; ဆꩻလ့သွူ။ စဲင်းစဲ့တဗာႏ မိဉ်ႏမွေးတဝ်းတဲ့ ကတဲမ်းခါꩻထာꩻနဝ်ꩻ လꩻဒါႏ &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Creative Commons Attribution-ShareAlike License&lt;/a&gt; ထျꩻကိုဩ။</string>
   <string name="about_wmf">&lt;a href=\"https://wikimediafoundation.org/\"&gt;ဝီခီမီဒီယာဖောင်ဒေးသိဉ်း&lt;/a&gt; တခြိုꩻတဗာႏဒျာႏသွူ</string>
   <string name="about_activity_title">အကျောင်ꩻခရာႏ</string>
   <string name="edit_abandon_confirm">လိတ်မဲ့ငါနဝ်ꩻ ဖျင်တဲပ်ခါꩻထွူလဲန်းသွူ။ သဲမ်ဟဝ်တဝ်းဒွုမ် နာꩻထာꩻကြုဲင်းလုဲင်ႏဖိုင်ႏနဝ်ꩻ မွေးဒျာႏနဲ့ဟောင်း?</string>
@@ -367,8 +367,8 @@
   <string name="error_blocked_start">ပေ့ꩻဗိဉ်ႏစခိန်ႏ- %s</string>
   <string name="error_blocked_expiry">ပေ့ꩻဗိဉ်ႏထွူခိန်ႏ- %s</string>
   <string name="error_blocked_id">ပေ့ꩻဗိဉ်ႏမုꩻအုဲင်ဒီ- %s</string>
-  <string name="error_blocked_footer">အီႏအိုင်ကိုမ် ပွိုးတောမ်ႏပေ့ꩻဗိဉ်ႏထိုꩻမုꩻတာႏ နာꩻသွုပ်နွောင်ꩻဒျာႏ &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; မွေးတဝ်းလဲ့ သွုပ်နွောင်ꩻဒျာႏ &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Administrators\"&gt;စီႏမံႏဖန်းဖြယ်သား&lt;/a&gt; သွူ။</string>
-  <string name="error_blocked_footer_no_blocker">အီႏအိုင်ကိုမ် ပွိုးတောမ်ႏပေ့ꩻဗိဉ်ႏထိုꩻမုꩻတာႏ နာꩻသွုပ်နွောင်ꩻဒျာႏ &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Administrators\"&gt;စီႏမံႏဖန်းဖြယ်သား&lt;/a&gt; သွူ။</string>
+  <string name="error_blocked_footer">အီႏအိုင်ကိုမ် ပွိုးတောမ်ႏပေ့ꩻဗိဉ်ႏထိုꩻမုꩻတာႏ နာꩻသွုပ်နွောင်ꩻဒျာႏ &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; မွေးတဝ်းလဲ့ သွုပ်နွောင်ꩻဒျာႏ &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Administrators\"&gt;စီႏမံႏဖန်းဖြယ်သား&lt;/a&gt; သွူ။</string>
+  <string name="error_blocked_footer_no_blocker">အီႏအိုင်ကိုမ် ပွိုးတောမ်ႏပေ့ꩻဗိဉ်ႏထိုꩻမုꩻတာႏ နာꩻသွုပ်နွောင်ꩻဒျာႏ &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Administrators\"&gt;စီႏမံႏဖန်းဖြယ်သား&lt;/a&gt; သွူ။</string>
   <string name="crash_report_activity_title">အပလီကေးသိဉ်း အမာႏ</string>
   <string name="crash_report_relaunch_or_quit">နီသွဥ်းသီး သꩻဟဝ်တဝ်းသွူ၊ ဝီခီပီးဒီးယားကို မော့ꩻထိုꩻအမာႏတဲင် ပေ့ꩻထိုꩻဒျာႏသွူ။ \n\nစချာယင်းနဲ့ ထန်ႏထိုꩻနဲ့?</string>
   <string name="crash_report_relaunch">မာꩻစချာယင်း</string>

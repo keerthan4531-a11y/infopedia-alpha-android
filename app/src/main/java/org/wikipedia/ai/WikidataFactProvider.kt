@@ -32,7 +32,7 @@ object WikidataFactProvider {
 
             val request = Request.Builder()
                 .url(url)
-                .addHeader("User-Agent", "InfopediaAlpha/1.0 (Android; Wikipedia AI RAG Engine)")
+                .addHeader("User-Agent", "InfopediaAlpha/1.0 (Android; Infopedia AI RAG Engine)")
                 .build()
 
             val response = client.newCall(request).execute()

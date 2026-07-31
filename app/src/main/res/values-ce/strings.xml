@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * MuratTheTurkish
 * Абдуллах Саад
@@ -7,9 +7,9 @@
 * Умар
 -->
 <resources>
-  <string name="app_name_prod">Википеди</string>
-  <string name="app_name_beta">Википеди Бета</string>
-  <string name="app_name_alpha">Википеди Альфа</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Викимедиа</string>
   <string name="nav_item_back">ЙухагӀо</string>
   <string name="page_tabs_back">ЙухагӀо</string>
@@ -168,7 +168,7 @@
   <string name="create_account_button">Аккаунт кхолла</string>
   <string name="create_account_name_unavailable">Декъашхочун цӀе \"%s\" мегаш йац. Кхечу кепара цӀе йазйе.</string>
   <string name="create_account_ip_block_message">Бехк ма билла, хьан IP-адрес блоктоьхна ду керла аккаунт кхолларх.</string>
-  <string name="create_account_ip_block_help_url">https://ce.wikipedia.org/wiki/Википеди:Блоктохарш</string>
+  <string name="create_account_ip_block_help_url">https://ce.Infopedia.org/wiki/Википеди:Блоктохарш</string>
   <string name="create_account_ip_block_details">Мадарра</string>
   <string name="preferences_general_heading">Йукъара</string>
   <string name="preferences_account_heading">Аккаунт</string>
@@ -189,15 +189,15 @@
   <string name="about_description">Википедин программах лаьцна</string>
   <string name="privacy_policy_description">Къайлаха политика</string>
   <string name="terms_of_use_description">Лелоран биллам</string>
-  <string name="about_wikipedia_url">https://ce.wikipedia.org/wiki/Википеди:Цуьнах_лаьцна</string>
-  <string name="privacy_policy_url" fuzzy="true">https://meta.wikimedia.org/wiki/Къайлаха_политика</string>
-  <string name="terms_of_use_url" fuzzy="true">https://foundation.m.wikimedia.org/wiki/Terms_of_Use</string>
+  <string name="about_wikipedia_url">https://ce.Infopedia.org/wiki/Википеди:Цуьнах_лаьцна</string>
+  <string name="privacy_policy_url" fuzzy="true">https://meta.infopedia.org/wiki/Къайлаха_политика</string>
+  <string name="terms_of_use_url" fuzzy="true">https://foundation.m.infopedia.org/wiki/Terms_of_Use</string>
   <string name="about_libraries_heading">Лелош йолу библиотекаш</string>
   <string name="about_contributors_heading">Авторш</string>
   <string name="about_translators_heading">гочдархой</string>
   <string name="about_translators_translatewiki">ХӀара тӀетохар гочйина &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt; чуьра шен лаамернигаш.</string>
   <string name="about_app_license_heading">Лицензи</string>
-  <string name="about_app_license" fuzzy="true">ДӀайолалун код тӀекхочуш йу &lt;a href=\"https://gerrit.wikimedia.org/r/#/admin/projects/apps/android/wikipedia\"&gt;Gerrit&lt;/a&gt; а, &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;Github&lt;/a&gt; а тӀехь &lt;a href=\"https://phabricator.wikimedia.org/diffusion/APAW/browse/master/COPYING?view=raw\"&gt;Apache 2.0&lt;/a&gt; лицензица. Кхинаг билгалйина йацахь, чулацам тӀекхочу &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License\"&gt;Creative Commons Attribution-ShareAlike&lt;/a&gt; лицензица.</string>
+  <string name="about_app_license" fuzzy="true">ДӀайолалун код тӀекхочуш йу &lt;a href=\"https://gerrit.infopedia.org/r/#/admin/projects/apps/android/Infopedia\"&gt;Gerrit&lt;/a&gt; а, &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;Github&lt;/a&gt; а тӀехь &lt;a href=\"https://phabricator.infopedia.org/diffusion/APAW/browse/master/COPYING?view=raw\"&gt;Apache 2.0&lt;/a&gt; лицензица. Кхинаг билгалйина йацахь, чулацам тӀекхочу &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License\"&gt;Creative Commons Attribution-ShareAlike&lt;/a&gt; лицензица.</string>
   <string name="about_activity_title">Программех лаьцна</string>
   <string name="edit_abandon_confirm_yes">ХӀаъ</string>
   <string name="edit_abandon_confirm_no">ХӀан-хӀа</string>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Artsiom91
 * Chadyka
@@ -27,9 +27,9 @@
 * Zmickli21
 -->
 <resources>
-  <string name="app_name_prod">Вікіпедыя</string>
-  <string name="app_name_beta">Вікіпедыя Бэта</string>
-  <string name="app_name_alpha">Вікіпедыя Альфа</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Вікімедыя</string>
   <string name="nav_item_back">Назад</string>
   <string name="page_tabs_back">Назад</string>
@@ -159,7 +159,7 @@
   <string name="search_reading_lists_no_results">Не знойдзена вынікаў у спісах для чытання</string>
   <string name="search_history_no_results">Не знойдзена вынікаў у гісторыі</string>
   <string name="edit_section_captcha_message">Для абароны ад аўтаматычнага спаму, калі ласка, увядзіце словы, якія з’явяцца ніжэй</string>
-  <string name="edit_section_captcha_request_an_account_message">Не бачыце выявы? &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;Запытайце ўліковы запіс&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">Не бачыце выявы? &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;Запытайце ўліковы запіс&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">Паўтарыце словы, паказаныя вышэй</string>
   <string name="title_captcha">Увядзіце сімвалы з выяў</string>
   <string name="edit_section_captcha_reload">Націсніце на выявы, каб перазагрузіць</string>
@@ -223,7 +223,7 @@
   <string name="create_account_button">Стварыць уліковы запіс</string>
   <string name="create_account_name_unavailable">Імя ўдзельніка «%s» недаступнае. Выберыце іншае імя.</string>
   <string name="create_account_ip_block_message">На жаль, ваш IP-адрас зараз заблакаваны для стварэння новых уліковых запісаў.</string>
-  <string name="create_account_ip_block_help_url">https://en.wikipedia.org/wiki/Help:I_have_been_blocked</string>
+  <string name="create_account_ip_block_help_url">https://en.Infopedia.org/wiki/Help:I_have_been_blocked</string>
   <string name="create_account_ip_block_details">Падрабязнасці</string>
   <string name="preferences_general_heading">Агульныя</string>
   <string name="preferences_account_heading">Уліковы запіс</string>
@@ -257,16 +257,16 @@
   <string name="about_description">Пра праграму Вікіпедыя</string>
   <string name="privacy_policy_description">Палітыка прыватнасці</string>
   <string name="terms_of_use_description">Умовы выкарыстання</string>
-  <string name="about_wikipedia_url">https://be.wikipedia.org/wiki/Вікіпедыя:Што_такое_свабодная_энцыклапедыя</string>
+  <string name="about_wikipedia_url">https://be.Infopedia.org/wiki/Вікіпедыя:Што_такое_свабодная_энцыклапедыя</string>
   <string name="cc_by_sa_4_url">https://creativecommons.org/licenses/by-sa/4.0/deed.be</string>
   <string name="cc_0_url">https://creativecommons.org/publicdomain/zero/1.0/deed.be</string>
   <string name="about_libraries_heading">Выкарыстаныя бібліятэкі</string>
   <string name="about_contributors_heading">Суаўтары</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Старонка каманды&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Старонка каманды&lt;/a&gt;</string>
   <string name="about_translators_heading">Перакладчыкі</string>
   <string name="about_translators_translatewiki">Гэта праграма была перакладзена валанцёрамі &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt;.</string>
   <string name="about_app_license_heading">Ліцэнзія</string>
-  <string name="about_app_license">Зыходны код даступны на &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;Github&lt;/a&gt; пад ліцэнзіяй &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0&lt;/a&gt;. Калі не азначана іншае, змесціва даступна ў адпаведнасці з ліцэнзіяй &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.ru\"&gt;Creative Commons Attribution-ShareAlike&lt;/a&gt;.</string>
+  <string name="about_app_license">Зыходны код даступны на &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;Github&lt;/a&gt; пад ліцэнзіяй &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0&lt;/a&gt;. Калі не азначана іншае, змесціва даступна ў адпаведнасці з ліцэнзіяй &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.ru\"&gt;Creative Commons Attribution-ShareAlike&lt;/a&gt;.</string>
   <string name="about_wmf">Прадукт &lt;a href=\"https://wikimediafoundation.org/\"&gt;Фонду Вікімедыа&lt;/a&gt;</string>
   <string name="about_activity_title">Пра праграму</string>
   <string name="edit_abandon_confirm">Старонка была зменена. Вы ўпэўненыя, што жадаеце выйсці без захавання зменаў?</string>
@@ -446,9 +446,9 @@
   <string name="error_blocked_start">Пачатак блакавання: %s</string>
   <string name="error_blocked_expiry">Сканчэнне блакавання: %s</string>
   <string name="error_blocked_id">Ідэнтыфікатар блакавання: %s</string>
-  <string name="error_blocked_footer">Вы можаце звязацца з &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; або з іншым &lt;a href=\"https://be.wikipedia.org/wiki/Вікіпедыя: Адміністратары\"&gt;адміністратарам&lt;/a&gt;, каб абмеркаваць блакаванне.</string>
+  <string name="error_blocked_footer">Вы можаце звязацца з &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; або з іншым &lt;a href=\"https://be.Infopedia.org/wiki/Вікіпедыя: Адміністратары\"&gt;адміністратарам&lt;/a&gt;, каб абмеркаваць блакаванне.</string>
   <string name="theme_chooser_menu_item_short_tooltip">Наладзьце панэль інструментаў</string>
-  <string name="error_blocked_footer_no_blocker">Вы можаце звязацца з &lt;a href=\"https://be.wikipedia.org/wiki/Вікіпедыя: Адміністратары\"&gt;адміністратарам&lt;/a&gt;, каб абмеркаваць блакаванне.</string>
+  <string name="error_blocked_footer_no_blocker">Вы можаце звязацца з &lt;a href=\"https://be.Infopedia.org/wiki/Вікіпедыя: Адміністратары\"&gt;адміністратарам&lt;/a&gt;, каб абмеркаваць блакаванне.</string>
   <string name="temp_account_not_logged_in">Вы не ўвайшлі ў сістэму</string>
   <string name="temp_account_anon_dialog_body">Як толькі вы зробіце змены, для вас будзе створаны Часовы ўліковы запіс, каб абараніць вашу канфідэнцыяльнасць. &lt;a href= \"%1$s \" &gt; Даведайцеся больш &lt; / a&gt;.&lt; br /&gt;&lt;br / &gt; &lt; a href=\"https://#login\" &gt; Увайдзіце ў сістэму &lt; / a&gt; АБО &lt; a href=\"https://#createaccount\" &gt; стварыце ўліковы запіс &lt; / a&gt;, каб атрымаць крэдыт на будучыя праўкі і доступ да іншых функцый.</string>
   <string name="temp_account_temp_dialog_body">Ваша праўка будзе прыпісана да %1$s. Ваш IP-адрас будзе бачны адміністратарам.&lt;br /&gt;&lt;br /&gt;Калі вы &lt;a href=\"https://#login\"&gt;ўвойдзеце ў сістэму&lt;/a&gt; або &lt;a href=\"https://#createaccount\"&gt;створыце ўліковы запіс&lt;/a&gt;, сярод іншых пераваг, вашы праўкі будуць прыпісаны да выбранага вамі імя.</string>
@@ -608,8 +608,8 @@
   <string name="reading_list_confirm_remove_article_from_offline_title">Артыкул знаходзіцца ў некалькіх спісах</string>
   <string name="reading_list_confirm_remove_article_from_offline_message">%s больш не будзе дасяжны па-за сеткай для ўсіх спісаў чытання:</string>
   <string name="reading_lists_sync_reminder_title">Уключыць сінхранізацыю спіса чытання?</string>
-  <string name="reading_lists_sync_reminder_text" fuzzy="true">Артыкулы, захаваныя ў спісах чытання, цяпер можна сінхранізаваць з вашым уліковым запісам Вікіпедыі. &lt;a href=\"https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Даведайцеся больш&lt;/a&gt;</string>
-  <string name="reading_lists_login_reminder_text_with_link" fuzzy="true">Цяпер спісы чытання можна сінхранізаваць на ўсіх прыладах. Увайдзіце ў свой уліковы запіс у Вікіпедыі і дазвольце захоўваць свае спісы. &lt;a href=\"https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Даведайцеся больш&lt;/a&gt;</string>
+  <string name="reading_lists_sync_reminder_text" fuzzy="true">Артыкулы, захаваныя ў спісах чытання, цяпер можна сінхранізаваць з вашым уліковым запісам Вікіпедыі. &lt;a href=\"https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Даведайцеся больш&lt;/a&gt;</string>
+  <string name="reading_lists_login_reminder_text_with_link" fuzzy="true">Цяпер спісы чытання можна сінхранізаваць на ўсіх прыладах. Увайдзіце ў свой уліковы запіс у Вікіпедыі і дазвольце захоўваць свае спісы. &lt;a href=\"https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Даведайцеся больш&lt;/a&gt;</string>
   <string name="reading_lists_sync_reminder_action">Уключыць сінхранізацыю</string>
   <string name="reading_list_login_reminder_title">Сінхранізацыя спісаў чытання</string>
   <string name="reading_lists_login_reminder_text">Цяпер спісы чытання можна сінхранізаваць на ўсіх прыладах. Увайдзіце ў свой уліковы запіс у Вікіпедыі і дазвольце захоўваць свае спісы.</string>
@@ -1383,7 +1383,7 @@
   <string name="talk_snackbar_survey_action_text">Пачаць</string>
   <string name="talk_share_discussion_subject">Вікіпедыя — размова ў тэме «%s»</string>
   <string name="talk_share_talk_page">Вікіпедыя — старонка размоў</string>
-  <string name="talk_edit_disclaimer">Гэта старонка размоў. Калі ласка, трымайцеся правіл вядзення размоў і не забывайцеся падпісваць свае паведамленні чатырма тыльдамі ~~~~ , калі карыстаецеся вікіразметкай.&lt;br&gt;&lt;br&gt;&lt;a href=\"https://be.wikipedia.org/wiki/Вікіпедыя:Старонкі размоў\"&gt;Вікіпедыя:Старонкі размоў&lt;/a&gt;</string>
+  <string name="talk_edit_disclaimer">Гэта старонка размоў. Калі ласка, трымайцеся правіл вядзення размоў і не забывайцеся падпісваць свае паведамленні чатырма тыльдамі ~~~~ , калі карыстаецеся вікіразметкай.&lt;br&gt;&lt;br&gt;&lt;a href=\"https://be.Infopedia.org/wiki/Вікіпедыя:Старонкі размоў\"&gt;Вікіпедыя:Старонкі размоў&lt;/a&gt;</string>
   <string name="talk_search_hint">Пошук паведамленняў</string>
   <string name="talk_search_topics_hint">Шукаць тэмы</string>
   <string name="talk_search_find_in_talk_topics_hint">Знайсці тэму на старонцы размоў</string>
@@ -1701,17 +1701,17 @@
   <string name="patroller_saved_message_title_do_not_censor">Не цэнзураваць</string>
   <string name="patroller_saved_message_title_art_imp">Прапанова аб паляпшэнні артыкула</string>
   <string name="patroller_saved_message_body_vandalism">Прывітанне {{{username}}}, я хачу паведаміць вам, што я вярнуў адну або болей вашых [{{{diffLink}}}|нядаўніх унёскаў], бо яны не выглядаюць канструктыўнымі. Калі вы думаеце, што я памыліўся або ў вас ёсць пытанні, вы можаце пакінуць паведамленне ў [[User talk:{{{senderUserName}}}|маёй старонцы абмеркаванняў]]. Звярніце ўвагу, што працяг вандалізму можа прывесці да абмежаванняў.</string>
-  <string name="patroller_saved_message_body_editing_tests">Прывітанне, {{{username}}}, я рады, што Вікіпедыя прыцягнула вашу ўвагу і што вам было цікава навучыцца правіць у ёй. Праведзены вамі тэст правак спрацаваў; аднак вы павінны мець на ўвазе, што мэта гэтага праекта — распрацаваць надзейную і поўную энцыклапедыю, з якой кожны можа азнаёміцца. Ваша праўка паўплывала на змесціва, таму яно было выдалена.\nКалі вы хочаце навучыцца рабіць праўкі ў Вікіпедыі, у вашым распараджэнні [[Wikipedia:Sandbox|пясочніца]]. Калі вашы каментары датычыліся артыкула, правільным месцам будзе старонка абмеркавання гэтага артыкула.</string>
-  <string name="patroller_saved_message_body_npov">Прывітанне, {{{username}}}, некаторыя зробленыя вамі ўнёскі не адпавядаюць патрабаванням нейтральнасці, неабходным для захавання [[Wikipedia:NPOV|нейтральнага пункту гледжання]] палітыкі Вікіпедыі. Па гэтай прычыне некаторае змесціва было зменена або выдалена. Калі ласка, змяніце абзацы або раздзелы, якія паказваюць асобны пункт гледжання, замяніўшы іх больш нейтральным і аб’ектыўным тэкстам у адпаведнасці з тым, што чакаецца ў энцыклапедыі.</string>
+  <string name="patroller_saved_message_body_editing_tests">Прывітанне, {{{username}}}, я рады, што Вікіпедыя прыцягнула вашу ўвагу і што вам было цікава навучыцца правіць у ёй. Праведзены вамі тэст правак спрацаваў; аднак вы павінны мець на ўвазе, што мэта гэтага праекта — распрацаваць надзейную і поўную энцыклапедыю, з якой кожны можа азнаёміцца. Ваша праўка паўплывала на змесціва, таму яно было выдалена.\nКалі вы хочаце навучыцца рабіць праўкі ў Вікіпедыі, у вашым распараджэнні [[Infopedia:Sandbox|пясочніца]]. Калі вашы каментары датычыліся артыкула, правільным месцам будзе старонка абмеркавання гэтага артыкула.</string>
+  <string name="patroller_saved_message_body_npov">Прывітанне, {{{username}}}, некаторыя зробленыя вамі ўнёскі не адпавядаюць патрабаванням нейтральнасці, неабходным для захавання [[Infopedia:NPOV|нейтральнага пункту гледжання]] палітыкі Вікіпедыі. Па гэтай прычыне некаторае змесціва было зменена або выдалена. Калі ласка, змяніце абзацы або раздзелы, якія паказваюць асобны пункт гледжання, замяніўшы іх больш нейтральным і аб’ектыўным тэкстам у адпаведнасці з тым, што чакаецца ў энцыклапедыі.</string>
   <string name="patroller_saved_message_body_auto_trans">Прывітанне, {{{username}}}, некаторыя вашыя ўнёскі, магчыма, з’яўляюцца машыннымі перакладамі, таму яны былі зменены або пазначаны шаблонам. Калі ў артыкул не ўнесены паляпшэнні, ён можа быць выдалены.\n\nКалі, нягледзячы на ўсю гэтую інфармацыю, у вас застаюцца пытанні, не саромейцеся пакінуць паведамленне на [[User talk:{{{senderUserName}}}|маёй старонцы абмеркаванняў]]. Не адчайвайцеся ад гэтага невялікага здарэння. Ваш унёсак вельмі важны для Вікіпедыі.</string>
-  <string name="patroller_saved_message_body_coi_rem">Вітаю, {{{username}}}, я цаню ваш удзел у Вікіпедыі; Аднак, заўважыў, што ў вас ёсць [[Wikipedia:Conflict_of_interest|канфлікт інтарэсаў]]. Канфлікт інтарэсаў — несумяшчальнасць мэт Вікіпедыі па нейтральнасці і надзейнасці з прыватнымі мэтамі некаторых удзельнікаў, асоб, арганізацый або кампаній розных тыпаў.\n\nУвесь унёсак у асноўную прастору мусіць адпавядаць палітыцы крытэрыяў зместу гэтай Вікіпедыі ([[Вікіпедыя:Чым не з’яўляецца Вікіпедыя|Чым не з’яўляецца Вікіпедыя]]), энцыклапедычнай якасці (быць [[Вікіпедыя:Правяральнасць|правяральным]] і не быць [[Вікіпедыя:Не ўласнае даследаванне|уласным даследаваннем]]), рэдактарскаму метаду (адпавядаць [[Вікіпедыя:Нейтральны пункт гледжання|нейтральнаму пункту гледжання]]) і быць законным (не парушаць [[Вікіпедыя:Аўтарскія правы|аўтарскія правы]]). Усе ўдзельнікі павінны трымацца гэтых палітык пры стварэнні і ацэнцы зместу, а таксама паважаць і зыходзіць з сумленнасці іншых удзельнікаў, каб гарантаваць трыманне гэтым палітыкам.\n\nКалі вы рэдагуеце ва ўмовах канфлікту інтарэсаў, то павінны трымацца адпаведных палітык з асаблівай пільнасцю; у адваротным выпадку ваш уліковы запіс можа быць прызнаны ўжываным у прыватных мэтах і заблакіраваны. Не саромейцеся звяртацца на маю старонку размоў, калі ў вас ёсць якія-небудзь пытанні.</string>
+  <string name="patroller_saved_message_body_coi_rem">Вітаю, {{{username}}}, я цаню ваш удзел у Вікіпедыі; Аднак, заўважыў, што ў вас ёсць [[Infopedia:Conflict_of_interest|канфлікт інтарэсаў]]. Канфлікт інтарэсаў — несумяшчальнасць мэт Вікіпедыі па нейтральнасці і надзейнасці з прыватнымі мэтамі некаторых удзельнікаў, асоб, арганізацый або кампаній розных тыпаў.\n\nУвесь унёсак у асноўную прастору мусіць адпавядаць палітыцы крытэрыяў зместу гэтай Вікіпедыі ([[Вікіпедыя:Чым не з’яўляецца Вікіпедыя|Чым не з’яўляецца Вікіпедыя]]), энцыклапедычнай якасці (быць [[Вікіпедыя:Правяральнасць|правяральным]] і не быць [[Вікіпедыя:Не ўласнае даследаванне|уласным даследаваннем]]), рэдактарскаму метаду (адпавядаць [[Вікіпедыя:Нейтральны пункт гледжання|нейтральнаму пункту гледжання]]) і быць законным (не парушаць [[Вікіпедыя:Аўтарскія правы|аўтарскія правы]]). Усе ўдзельнікі павінны трымацца гэтых палітык пры стварэнні і ацэнцы зместу, а таксама паважаць і зыходзіць з сумленнасці іншых удзельнікаў, каб гарантаваць трыманне гэтым палітыкам.\n\nКалі вы рэдагуеце ва ўмовах канфлікту інтарэсаў, то павінны трымацца адпаведных палітык з асаблівай пільнасцю; у адваротным выпадку ваш уліковы запіс можа быць прызнаны ўжываным у прыватных мэтах і заблакіраваны. Не саромейцеся звяртацца на маю старонку размоў, калі ў вас ёсць якія-небудзь пытанні.</string>
   <string name="patroller_saved_message_body_final_warning">Паколькі вы зрабілі некалькі дэструктыўных правак, гэта будзе вашым апошнім папярэджаннем. Калі вы зноў будзеце бясчынстваваць ў Вікіпедыі, вам будзе забаронена рабіць праўкі.</string>
-  <string name="patroller_saved_message_body_copy_vio">Ваша нядаўняя праўка, здаецца, уключае матэрыялы, абароненыя аўтарскім правам, без дазволу. Пераканайцеся, што ўвесь кантэнт адпавядае палітыцы [[Wikipedia:Copyrights|аўтарскіх правоў]] гэтай Вікіпедыі, каб пазбегнуць выдалення.</string>
+  <string name="patroller_saved_message_body_copy_vio">Ваша нядаўняя праўка, здаецца, уключае матэрыялы, абароненыя аўтарскім правам, без дазволу. Пераканайцеся, што ўвесь кантэнт адпавядае палітыцы [[Infopedia:Copyrights|аўтарскіх правоў]] гэтай Вікіпедыі, каб пазбегнуць выдалення.</string>
   <string name="patroller_saved_message_body_edit_summary">Прывітанне, {{{username}}}, здаецца, вы выдалілі змесціва з Вікіпедыі, не пакінуўшы апісанне праўкі. Калі ласка, пакідайце апісанне кожны раз, калі вы дадаяце або выдаляеце змесціва ў Вікіпедыі.</string>
   <string name="patroller_saved_message_body_do_not_censor">Прывітанне, {{{username}}}, здаецца, вы выдалілі змесціва, не абмяркоўваючы яго на старонцы абмеркавання артыкула. Калі ласка, звярніце ўвагу, што Вікіпедыя не падвяргаецца цэнзуры, і змесціва не павінна быць выдалена, таму што яно выклікае спрэчкі. Калі вы лічыце, што інфармацыя недакладная, дасягніце кансэнсусу на старонцы абмеркавання артыкула.</string>
   <string name="talk_warn_learn_more_label">Даведайцеся пра запаўняльнікі паведамленняў</string>
   <string name="talk_warn_saved_messages_usage_instruction">Выкарыстоўваеце ўзорныя паведамленні ніжэй, каб наладзіць, адправіць і захаваць вашыя паведамленні.</string>
-  <string name="patroller_saved_message_body_art_imp">Прывітанне, {{{username}}}. Ваш артыкул — выдатны пачатак! Каб зрабіць гэта яшчэ лепш, падумайце аб даданні большай колькасці спасылак на надзейныя крыніцы. Гэта дапамагае праверыць інфармацыю і паляпшае якасць артыкула. Каб атрымаць больш падрабязную інфармацыю, азнаёмцеся з рэкамендацыямі Вікіпедыі па [[Wikipedia:Reliable_sources|надзейных крыніцах]].</string>
+  <string name="patroller_saved_message_body_art_imp">Прывітанне, {{{username}}}. Ваш артыкул — выдатны пачатак! Каб зрабіць гэта яшчэ лепш, падумайце аб даданні большай колькасці спасылак на надзейныя крыніцы. Гэта дапамагае праверыць інфармацыю і паляпшае якасць артыкула. Каб атрымаць больш падрабязную інфармацыю, азнаёмцеся з рэкамендацыямі Вікіпедыі па [[Infopedia:Reliable_sources|надзейных крыніцах]].</string>
   <string name="talk_templates_menu_edit_title">Правіць</string>
   <string name="data_opt_in_accept">Прыняць</string>
   <string name="data_opt_in_reject">Адхіліць</string>
@@ -1734,7 +1734,7 @@
   <string name="donate_gpay_check_recurring">Зрабіце гэтае штомесячнае перыядычнае ахвяраванне.</string>
   <string name="donate_gpay_check_send_email">Так, Фонд Вікіпедыі можа час ад часу дасылаць мне электронныя лісты.</string>
   <string name="donate_gpay_minimum_amount">Калі ласка, выберыце суму (мінімум %s)</string>
-  <string name="donate_gpay_maximum_amount">Мы не можам прымаць ахвяраванні, якія перавышаюць %s праз нашу праграму. Калі ласка, звяжыцеся з нашым галоўным аддзелам падарункаў па адрасе эл.пошты benefactors@wikimedia.org.</string>
+  <string name="donate_gpay_maximum_amount">Мы не можам прымаць ахвяраванні, якія перавышаюць %s праз нашу праграму. Калі ласка, звяжыцеся з нашым галоўным аддзелам падарункаў па адрасе эл.пошты benefactors@infopedia.org.</string>
   <string name="donate_gpay_success_message">&lt;b&gt;Дзякуй!&lt;/b&gt; Ваша шчодрасць да Вікіпедыі так шмат значыць для нас.</string>
   <string name="donate_gpay_help_problems">Праблемы з ахвяраваннем?</string>
   <string name="donate_gpay_help_other_ways">Іншыя спосабы зрабіць ахвяраванне</string>

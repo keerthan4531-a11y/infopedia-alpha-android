@@ -102,7 +102,7 @@ fun WikipediaContextBanner(status: WikipediaSearchStatus) {
                 is WikipediaSearchStatus.Searching -> {
                     RotatingText(
                         texts = listOf(
-                            "🌐 Multi-Lang Cross-RAG: Querying Wikipedia for \"${status.query}\"…",
+                            "🌐 Multi-Lang Cross-RAG: Querying Infopedia for \"${status.query}\"…",
                             "🔍 Deep Sections: Extracting article chunks & indexes…",
                             "🏛️ Wikidata Facts: Pulling structured infobox entity facts…"
                         ),

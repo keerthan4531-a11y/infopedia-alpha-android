@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Carlosedepaula
 * Dbrant
@@ -8,14 +8,14 @@
 * McDutchie
 -->
 <resources>
-  <string name="app_name_prod">Wikipedia</string>
-  <string name="app_name_beta">Wikipedia Beta</string>
-  <string name="app_name_alpha">Wikipedia Alpha</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Wikimedia</string>
   <string name="nav_item_back">Retro</string>
   <string name="page_tabs_back">Retornar</string>
   <string name="nav_item_forward">Avante</string>
-  <string name="search_hint">Cercar in Wikipedia</string>
+  <string name="search_hint">Cercar in Infopedia</string>
   <string name="search_hint_voice_search">Recerca per entrata vocal</string>
   <string name="search_hint_search_languages">Cercar un lingua</string>
   <string name="search_back_button_content_description">Retornar</string>
@@ -118,12 +118,12 @@
   <string name="edit_save_action_license_logged_in">Si tu publica, tu accepta le &lt;a href=\"%1$s\"&gt;conditiones de uso&lt;/a&gt; e le liberation irrevocabile de tu contributiones sub le licentia &lt;a href=\"%2$s\"&gt;CC BY-SA 4.0&lt;/a&gt;.</string>
   <string name="edit_save_action_license_anon">Si tu publica, tu accepta le &lt;a href=\"%1$s\"&gt;conditiones de uso&lt;/a&gt; e le liberation irrevocabile de tu contributiones sub le licentia &lt;a href=\"%2$s\"&gt;CC BY-SA 4.0&lt;/a&gt;. Le modificationes essera attribuite al adresse IP de tu apparato. Si tu &lt;a href=\"https://#login\"&gt;aperi session&lt;/a&gt;, tu habera plus confidentialitate.</string>
   <string name="edit_anon_warning">Le modificationes essera attribuite al adresse IP de tu apparato. Si tu &lt;a href=\"https://#login\"&gt;aperi session&lt;/a&gt;, tu habera plus de confidentialitate.</string>
-  <string name="preference_title_language">Linguas de Wikipedia</string>
+  <string name="preference_title_language">Linguas de Infopedia</string>
   <string name="langlinks_filter_hint">Cercar</string>
   <string name="langlinks_empty">Iste pagina non es disponibile in altere linguas</string>
   <string name="langlinks_no_match">Nulle lingua trovate</string>
   <string name="langlinks_activity_title">Altere linguas</string>
-  <string name="langlinks_your_wikipedia_languages">Tu linguas de Wikipedia</string>
+  <string name="langlinks_your_wikipedia_languages">Tu linguas de Infopedia</string>
   <string name="menu_save_changes">Publicar cambiamentos</string>
   <string name="edit_saved_successfully">Modification publicate!</string>
   <string name="stub_article_edit_saved_successfully">Modification publicate! Le cambiamentos pote prender un tempore pro apparer.</string>
@@ -143,11 +143,11 @@
   <string name="search_reading_lists_no_results">Necun resultato trovate in le listas de lectura</string>
   <string name="search_history_no_results">Necun resultato trovate in le historia</string>
   <string name="edit_section_captcha_message">Pro adjutar a proteger contra le spam automatisate, per favor insere le parolas que appare infra</string>
-  <string name="edit_section_captcha_request_an_account_message">Non pote vider le imagine? &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;Requestar un conto&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">Non pote vider le imagine? &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;Requestar un conto&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">Repete le parolas de supra</string>
   <string name="title_captcha">Scribe le CAPTCHA</string>
   <string name="edit_section_captcha_reload">Tocca CAPTCHA pro recargar</string>
-  <string name="nav_item_login">Aperir session in Wikipedia</string>
+  <string name="nav_item_login">Aperir session in Infopedia</string>
   <string name="login_username_hint">Nomine de usator</string>
   <string name="login_password_hint">Contrasigno</string>
   <string name="account_creation_password_hint">Contrasigno</string>
@@ -173,22 +173,22 @@
   <string name="logout_prompt">Isto claudera tu session sur tote le apparatos ubi tu es actualmente authenticate. Vole tu continuar?</string>
   <string name="logout_dialog_cancel_button_text">Cancellar</string>
   <string name="logged_out_in_background_title">Session claudite</string>
-  <string name="logged_out_in_background_dialog">Tu session de Wikipedia ha essite claudite. Vole tu reaperir session?</string>
+  <string name="logged_out_in_background_dialog">Tu session de Infopedia ha essite claudite. Vole tu reaperir session?</string>
   <string name="logged_out_in_background_login">Aperir session</string>
   <string name="logged_out_in_background_cancel">Cancellar</string>
   <string name="account_vanish_request_title">Facer disparer le conto</string>
   <string name="account_vanish_request_confirm_title">Advertimento concernente le disparition del conto</string>
-  <string name="account_vanish_request_confirm">Le disparition es un &lt;b&gt;ultime recurso&lt;/b&gt; e debe &lt;b&gt;solmente esser usate quando tu vole cessar de modificar pro sempre&lt;/b&gt; e celar le maximo possibile de tu associationes anterior.&lt;br/&gt;&lt;br/&gt;Le deletion del conto sur Wikipedia se effectua cambiante tu nomine de conto de maniera que alteres non pote recognoscer tu contributiones. Iste processo se appella le disparition del conto. &lt;b&gt;Le disparition non garanti le anonymitate complete ni remove contributiones al projectos.&lt;/b&gt;</string>
+  <string name="account_vanish_request_confirm">Le disparition es un &lt;b&gt;ultime recurso&lt;/b&gt; e debe &lt;b&gt;solmente esser usate quando tu vole cessar de modificar pro sempre&lt;/b&gt; e celar le maximo possibile de tu associationes anterior.&lt;br/&gt;&lt;br/&gt;Le deletion del conto sur Infopedia se effectua cambiante tu nomine de conto de maniera que alteres non pote recognoscer tu contributiones. Iste processo se appella le disparition del conto. &lt;b&gt;Le disparition non garanti le anonymitate complete ni remove contributiones al projectos.&lt;/b&gt;</string>
   <string name="history_empty_title">Il non ha paginas recentemente visitate</string>
   <string name="history_empty_message">Tracia hic le paginas que tu ha legite.</string>
   <string name="history_offline_articles_toast">Alcun articulos in le historia pote non esser accessibile sin connexion.</string>
   <string name="search_empty_message">Cercar in e leger le encyclopedia libere in tu lingua</string>
-  <string name="search_empty_message_multilingual_upgrade">Cercar in Wikipedia in plus linguas</string>
+  <string name="search_empty_message_multilingual_upgrade">Cercar in Infopedia in plus linguas</string>
   <string name="delete_selected_items">Deler elementos seligite</string>
   <string name="wp_stylized">&lt;big&gt;W&lt;/big&gt;IKIPEDI&lt;big&gt;A&lt;/big&gt;</string>
   <string name="create_account_username_hint">Nomine de usator</string>
   <string name="login_dont_have_account">Non ha un conto?</string>
-  <string name="login_join_wikipedia">Unir te a Wikipedia</string>
+  <string name="login_join_wikipedia">Unir te a Infopedia</string>
   <string name="login_forgot_password">Contrasigno oblidate?</string>
   <string name="create_account_already_have">Ha tu ja un conto?</string>
   <string name="create_account_activity_title">Crear un conto</string>
@@ -210,11 +210,11 @@
   <string name="create_account_button">Crear conto</string>
   <string name="create_account_name_unavailable">Le nomine de usator \"%s\" non es disponibile. Per favor elige un altere nomine.</string>
   <string name="create_account_ip_block_message">Guai, tu adresse IP es actualmente blocate de crear nove contos.</string>
-  <string name="create_account_ip_block_help_url">https://en.wikipedia.org/wiki/Help:I_have_been_blocked</string>
+  <string name="create_account_ip_block_help_url">https://en.Infopedia.org/wiki/Help:I_have_been_blocked</string>
   <string name="create_account_ip_block_details">Detalios</string>
   <string name="preferences_general_heading">General</string>
   <string name="preferences_account_heading">Conto</string>
-  <string name="wikipedia_app_faq">FAQ re app Wikipedia</string>
+  <string name="wikipedia_app_faq">FAQ re app Infopedia</string>
   <string name="send_feedback">Inviar commentario re le application</string>
   <string name="create_account_account_created_toast">Conto create!</string>
   <string name="preferences_heading_syncing">Synchronisation</string>
@@ -222,8 +222,8 @@
   <string name="preferences_heading_experimental">Experimental</string>
   <string name="preference_title_sync_reading_lists_from_account">Synchronisation de listas de lectura</string>
   <string name="preference_title_download_reading_list_articles">Discargar articulos del lista de lectura</string>
-  <string name="preference_summary_sync_reading_lists">Synchronisar listas de lectura inter differente apparatos salveguardante los sur tu conto Wikipedia</string>
-  <string name="preference_summary_sync_reading_lists_from_account">Synchronisar listas de lectura inter differente apparatos salveguardante los sur tu conto Wikipedia \"%s\"</string>
+  <string name="preference_summary_sync_reading_lists">Synchronisar listas de lectura inter differente apparatos salveguardante los sur tu conto Infopedia</string>
+  <string name="preference_summary_sync_reading_lists_from_account">Synchronisar listas de lectura inter differente apparatos salveguardante los sur tu conto Infopedia \"%s\"</string>
   <string name="preference_dialog_of_turning_off_reading_list_sync_title">Remover listas de lectura synchronisate de \"%s\"?</string>
   <string name="preference_dialog_of_turning_off_reading_list_sync_text">Isto delera completemente tote le listas de lectura anteriormente synchronisate del immagazinage distante. Remover tote le listas synchronisate de tu conto \"%s\"?</string>
   <string name="preference_title_auto_upload_crash_reports">Inviar reportos de collapso</string>
@@ -241,23 +241,23 @@
   <string name="page_watchlist_overflow_menu_onboarding_tooltip_text">Tene te al currente del articulos de tu interesse. Tocca le menu de disbordamento e selige &lt;b&gt;Adder al observatorio&lt;/b&gt; pro vider le modificationes de un articulo.</string>
   <string name="settings_item_preferences">Parametros</string>
   <string name="settings_activity_title">Parametros</string>
-  <string name="about_description">A proposito del app Wikipedia</string>
+  <string name="about_description">A proposito del app Infopedia</string>
   <string name="privacy_policy_description">Politica de confidentialitate</string>
   <string name="terms_of_use_description">Conditiones de uso</string>
   <string name="legal_safety_contacts_description">Contactos juridic e de securitate</string>
-  <string name="about_wikipedia_url">https://ia.wikipedia.org/wiki/Wikipedia:A_proposito</string>
+  <string name="about_wikipedia_url">https://ia.Infopedia.org/wiki/Infopedia:A_proposito</string>
   <string name="cc_by_sa_4_url">https://creativecommons.org/licenses/by-sa/4.0/</string>
   <string name="cc_0_url">https://creativecommons.org/publicdomain/zero/1.0/</string>
   <string name="about_libraries_heading">Bibliothecas usate</string>
   <string name="about_contributors_heading">Contributores</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;&lt;/a&gt;</string>
   <string name="about_translators_heading">Traductores</string>
   <string name="about_translators_translatewiki">Iste app ha essite traducite per le traductores voluntari de &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt;.</string>
   <string name="about_app_license_heading">Licentia</string>
-  <string name="about_app_license">Le codice fonte es disponibile sur &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;GitHub&lt;/a&gt; sub le &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;licentia Apache 2.0&lt;/a&gt;. Salvo indication contrari, le contento es disponibile sub un &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0/\"&gt;licentia Creative Commons Attribution-CompartiSimile&lt;/a&gt;.</string>
+  <string name="about_app_license">Le codice fonte es disponibile sur &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;GitHub&lt;/a&gt; sub le &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;licentia Apache 2.0&lt;/a&gt;. Salvo indication contrari, le contento es disponibile sub un &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0/\"&gt;licentia Creative Commons Attribution-CompartiSimile&lt;/a&gt;.</string>
   <string name="about_wmf">Un producto del &lt;a href=\"https://wikimediafoundation.org/\"&gt;Fundation Wikimedia&lt;/a&gt;</string>
   <string name="about_activity_title">A proposito</string>
-  <string name="about_logo_content_description">Logo del globo puzzle de Wikipedia</string>
+  <string name="about_logo_content_description">Logo del globo puzzle de Infopedia</string>
   <string name="edit_abandon_confirm">Le pagina ha essite modificate. Es tu secur de voler exir sin salveguardar tu cambiamentos?</string>
   <string name="edit_abandon_confirm_yes">Si</string>
   <string name="edit_abandon_confirm_no">No</string>
@@ -301,7 +301,7 @@
   <string name="abusefilter_title_warn">Iste pote esser un modification non constructive. Es tu secur de voler publicar lo?</string>
   <string name="abusefilter_title_disallow">Tu non pote publicar iste modification. Per favor retorna e cambia lo.</string>
   <string name="abusefilter_text_warn">Un filtro automatic ha identificate iste modification como potentialmente non constructive. Pote continer un o plus del sequentes:&lt;br /&gt;&lt;br /&gt;· Texto toto in majusculas&lt;br /&gt;· Vacuar articulos o spam&lt;br /&gt;· Ligamines externe o imagines irrelevante&lt;br /&gt;· Characteres repetite</string>
-  <string name="abusefilter_text_disallow">Un filtro automatic ha identificate iste modification como potentialmente non constructive o como possibile vandalismo.&lt;br /&gt;&lt;br /&gt;Wikipedia es un encyclopedia e solmente contento neutral e notabile pertine hic.</string>
+  <string name="abusefilter_text_disallow">Un filtro automatic ha identificate iste modification como potentialmente non constructive o como possibile vandalismo.&lt;br /&gt;&lt;br /&gt;Infopedia es un encyclopedia e solmente contento neutral e notabile pertine hic.</string>
   <string name="page_similar_titles">Paginas similar</string>
   <string name="search_did_you_mean">Vole tu dicer \"%s\"?</string>
   <string name="search_recent_header">Recercas recente:</string>
@@ -318,11 +318,11 @@
   <string name="table_infobox">Factos in breve</string>
   <string name="table_other">Plus information</string>
   <string name="table_close">Clauder</string>
-  <string name="widget_name_featured_page">Pagina de Wikipedia in prime plano</string>
+  <string name="widget_name_featured_page">Pagina de Infopedia in prime plano</string>
   <string name="widget_title_featured_page">Pagina in prime plano de hodie:</string>
-  <string name="widget_name_search">Recerca sur Wikipedia</string>
-  <string name="widget_description_search">Le maniera le plus rapide de cercar in Wikipedia</string>
-  <string name="widget_description_featured_page">Le melior articulos que Wikipedia pote offerer</string>
+  <string name="widget_name_search">Recerca sur Infopedia</string>
+  <string name="widget_description_search">Le maniera le plus rapide de cercar in Infopedia</string>
+  <string name="widget_description_featured_page">Le melior articulos que Infopedia pote offerer</string>
   <string name="wiktionary_no_definitions_found">Necun definition trovate.</string>
   <string name="alpha_update_notification_title">Nove actualisation alpha disponibile</string>
   <string name="alpha_update_notification_text">Tocca pro discargar</string>
@@ -414,9 +414,9 @@
   <string name="link_preview_dialog_share_button">Condivider</string>
   <string name="link_preview_stub_placeholder_text">Iste articulo es un pecietta, lo que vole dicer que il non ha sufficiente contento in le articulo pro generar un previsualisation. Ma tu pote cambiar isto!</string>
   <string name="error_page_does_not_exist">Iste pagina non existe</string>
-  <string name="error_user_page_does_not_exist">Wikipedia non ha un &lt;a href=\"%1$s\"&gt;pagina de usator&lt;/a&gt; con iste nomine exacte. In general, iste pagina debe esser create e modificate per &lt;b&gt;%2$s&lt;/b&gt;. In caso de dubita, per favor verifica que \"%3$s\" existe.</string>
+  <string name="error_user_page_does_not_exist">Infopedia non ha un &lt;a href=\"%1$s\"&gt;pagina de usator&lt;/a&gt; con iste nomine exacte. In general, iste pagina debe esser create e modificate per &lt;b&gt;%2$s&lt;/b&gt;. In caso de dubita, per favor verifica que \"%3$s\" existe.</string>
   <string name="view_wiki_error_message_offline">Non pote connecter a Internet</string>
-  <string name="view_wiki_error_message_timeout">Non pote connecter a Wikipedia. Verifica tu connexion al rete o tenta lo de novo plus tarde</string>
+  <string name="view_wiki_error_message_timeout">Non pote connecter a Infopedia. Verifica tu connexion al rete o tenta lo de novo plus tarde</string>
   <string name="reference_title">Referentia %s</string>
   <string name="reference_list_title">Referentias</string>
   <string name="theme_chooser_dialog_image_dimming_switch_label">Attenuation de imagines (in thema Obscur)</string>
@@ -433,9 +433,9 @@
   <string name="error_blocked_start">Initio del blocada: %s</string>
   <string name="error_blocked_expiry">Expiration del blocada: %s</string>
   <string name="error_blocked_id">ID del blocada: %s</string>
-  <string name="error_blocked_footer">Tu pote contactar &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; o un altere &lt;a href=\"https://ia.wikipedia.org/wiki/Wikipedia:Administratores\"&gt;administrator&lt;/a&gt; pro discuter le blocada.</string>
+  <string name="error_blocked_footer">Tu pote contactar &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; o un altere &lt;a href=\"https://ia.Infopedia.org/wiki/Infopedia:Administratores\"&gt;administrator&lt;/a&gt; pro discuter le blocada.</string>
   <string name="theme_chooser_menu_item_short_tooltip">Personalisar tu barra de utensiles</string>
-  <string name="error_blocked_footer_no_blocker">Tu pote contactar un &lt;a href=\"https://ia.wikipedia.org/wiki/Wikipedia:Administratores\"&gt;administrator&lt;/a&gt; pro discuter le blocada.</string>
+  <string name="error_blocked_footer_no_blocker">Tu pote contactar un &lt;a href=\"https://ia.Infopedia.org/wiki/Infopedia:Administratores\"&gt;administrator&lt;/a&gt; pro discuter le blocada.</string>
   <string name="temp_account_not_logged_in">Tu non ha aperite session</string>
   <string name="temp_account_anon_ip_dialog_body">Quando tu face un modification, tu adresse IP essera associate a tu modificationes.&lt;br /&gt;&lt;br /&gt;&lt;a href=\"https://#login\"&gt;Aperi session&lt;/a&gt; o &lt;a href=\"https://#createaccount\"&gt;crea un conto&lt;/a&gt; pro reciper attribution pro futur modificationes e pro acceder a altere functionalitate.</string>
   <string name="temp_account_anon_dialog_body">Quando tu face un modification, un &lt;b&gt;conto temporari&lt;/b&gt; te essera create pro proteger tu vita private. &lt;a href=\"%1$s\"&gt;Lege plus&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;&lt;a href=\"https://#login\"&gt;Aperi session&lt;/a&gt; o &lt;a href=\"https://#createaccount\"&gt;crea un conto&lt;/a&gt; pro reciper credito pro futur modificationes e acceder a altere functiones.</string>
@@ -458,7 +458,7 @@
   <string name="temp_account_end_session">Clauder session</string>
   <string name="temp_account_end_session_confirm">Isto te disconnectera de tu conto temporari. Vole tu continuar?</string>
   <string name="crash_report_activity_title">Error del application</string>
-  <string name="crash_report_relaunch_or_quit">Regrettabilemente, le application Wikipedia ha incontrate un error e se ha terminate.\n\nVole tu reinitiar o quitar?</string>
+  <string name="crash_report_relaunch_or_quit">Regrettabilemente, le application Infopedia ha incontrate un error e se ha terminate.\n\nVole tu reinitiar o quitar?</string>
   <string name="crash_report_relaunch">Reinitiar</string>
   <string name="crash_report_quit">Quitar</string>
   <string name="article_menu_bar_save_button">Salveguardar</string>
@@ -558,8 +558,8 @@
   <string name="reading_lists_default_list_delete_message">Le lista predefinite (%s) non pote esser delite.</string>
   <string name="reading_lists_default_plus_one_list_delete_message">%1$s delite. Le lista predefinite (%2$s) non pote esser delite.</string>
   <string name="reading_lists_default_plus_many_lists_delete_message">Listas delite. Le lista predefinite (%s) non pote esser delite.</string>
-  <string name="single_list_json_file_name">%s (lista de lectura de Wikipedia).json</string>
-  <string name="multiple_lists_json_file_name">Listas de lectura de Wikipedia (%s e plus).json</string>
+  <string name="single_list_json_file_name">%s (lista de lectura de Infopedia).json</string>
+  <string name="multiple_lists_json_file_name">Listas de lectura de Infopedia (%s e plus).json</string>
   <string name="reading_list_items_deleted">%d articulos removite del lista</string>
   <string name="reading_lists_item_deleted">%s removite del listas</string>
   <string name="reading_list_item_delete_undo">Disfacer</string>
@@ -579,12 +579,12 @@
   <string name="reading_list_confirm_remove_article_from_offline_title">Articulo appare in plure listas</string>
   <string name="reading_list_confirm_remove_article_from_offline_message">%s non essera plus disponibile foras de linea pro tote le listas de lectura:</string>
   <string name="reading_lists_sync_reminder_title">Activar le synchronisation de listas de lectura?</string>
-  <string name="reading_lists_sync_reminder_text">Articulos salveguardate in listas de lectura pote ora esser synchronisate a tu conto de Wikipedia. &lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Leger plus&lt;/a&gt;</string>
-  <string name="reading_lists_login_reminder_text_with_link">Listas de lectura pote ora esser synchronisate inter apparatos. Aperi session in tu conto Wikipedia e permitte que tu listas es salveguardate. &lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Leger plus&lt;/a&gt;</string>
+  <string name="reading_lists_sync_reminder_text">Articulos salveguardate in listas de lectura pote ora esser synchronisate a tu conto de Infopedia. &lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Leger plus&lt;/a&gt;</string>
+  <string name="reading_lists_login_reminder_text_with_link">Listas de lectura pote ora esser synchronisate inter apparatos. Aperi session in tu conto Infopedia e permitte que tu listas es salveguardate. &lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Leger plus&lt;/a&gt;</string>
   <string name="reading_lists_sync_reminder_action">Activar synchronisation</string>
   <string name="reading_list_login_reminder_title">Synchronisar listas de lectura</string>
-  <string name="reading_lists_login_reminder_text">Listas de lectura pote ora esser synchronisate inter apparatos. Aperi session in tu conto Wikipedia e permitte que tu listas es salveguardate.</string>
-  <string name="reading_lists_login_button">Aperir session / crear conto sur Wikipedia</string>
+  <string name="reading_lists_login_reminder_text">Listas de lectura pote ora esser synchronisate inter apparatos. Aperi session in tu conto Infopedia e permitte que tu listas es salveguardate.</string>
+  <string name="reading_lists_login_button">Aperir session / crear conto sur Infopedia</string>
   <string name="reading_lists_ignore_button">Non ora</string>
   <string name="reading_lists_confirm_remote_delete_yes">Si</string>
   <string name="reading_lists_confirm_remote_delete_no">No</string>
@@ -606,7 +606,7 @@
   <string name="reading_list_turned_sync_off_dialog_ok">OK</string>
   <string name="reading_list_turned_sync_off_dialog_settings">Parametros</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_title">Activar le synchronisation de listas de lectura?</string>
-  <string name="reading_list_prompt_turned_sync_on_dialog_text">Le articulos salveguardate in listas de lectura pote ora esser synchronisate con tu conto Wikipedia. &lt;a href=\"#faq\"&gt;Leger plus&lt;/a&gt;</string>
+  <string name="reading_list_prompt_turned_sync_on_dialog_text">Le articulos salveguardate in listas de lectura pote ora esser synchronisate con tu conto Infopedia. &lt;a href=\"#faq\"&gt;Leger plus&lt;/a&gt;</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_do_not_show">Non monstrar me isto de novo</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_enable_syncing">Activar synchronisation</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_no_thanks">No, gratias</string>
@@ -702,7 +702,7 @@
     <item quantity="one">%1$d lista restante</item>
     <item quantity="other">%1$d listas restante</item>
   </plurals>
-  <string name="notification_echo_channel_description">Notificationes de Wikipedia</string>
+  <string name="notification_echo_channel_description">Notificationes de Infopedia</string>
   <string name="notifications_activity_title">Notificationes</string>
   <string name="notifications_activity_title_archived">Notificationes (archivate)</string>
   <string name="notifications_search">Cercar in notificationes</string>
@@ -764,8 +764,8 @@
   <string name="preference_title_customize_push_notifications">Personalisar notificationes push</string>
   <string name="preference_category_display_settings">Parametros de visualisation</string>
   <string name="preference_title_hide_read_notifications">Celar notificationes ja legite</string>
-  <string name="notifications_channel_group_wikipedia_notifications_title">Wikipedia</string>
-  <string name="notifications_channel_group_wikipedia_notifications_description">Notificationes de Wikipedia</string>
+  <string name="notifications_channel_group_wikipedia_notifications_title">Infopedia</string>
+  <string name="notifications_channel_group_wikipedia_notifications_description">Notificationes de Infopedia</string>
   <string name="notifications_channel_group_other_title">Altere</string>
   <string name="notifications_channel_group_other_description">Altere notificationes del application</string>
   <string name="notifications_filter_label">Filtrar notificationes</string>
@@ -798,13 +798,13 @@
   <string name="view_random_article_card_title">Articulo aleatori</string>
   <string name="view_random_article_card_action">Plus articulos aleatori</string>
   <string name="view_top_read_card_title">Le plus legite</string>
-  <string name="view_top_read_card_description">Que es popular hodie sur Wikipedia</string>
+  <string name="view_top_read_card_description">Que es popular hodie sur Infopedia</string>
   <string name="view_top_read_card_action">Plus del plus legite</string>
   <string name="view_top_read_card_pageviews_k_suffix">%d k</string>
   <string name="view_top_read_card_pageviews_m_suffix">%d M</string>
   <string name="view_top_read_card_pageviews_views_suffix">visitas</string>
   <string name="view_next_random_article">Cargar un altere articulo aleatori</string>
-  <string name="view_main_page_card_title">Hodie sur Wikipedia</string>
+  <string name="view_main_page_card_title">Hodie sur Infopedia</string>
   <string name="view_main_page_card_action">Vider pagina principal</string>
   <string name="view_featured_image_card_title">Imagine del die</string>
   <string name="view_featured_image_card_download">Discargar</string>
@@ -832,16 +832,16 @@
   <string name="feed_configure_menu_reset">Restaurar vista predefinite</string>
   <string name="feed_configure_menu_select_all">Monstrar toto</string>
   <string name="feed_configure_menu_deselect_all">Celar toto</string>
-  <string name="feed_configure_language_warning">Nota ben que non tote le typos de carta es disponibile in tote le linguas de Wikipedia. Modifica tu linguas seligite in Parametros.</string>
+  <string name="feed_configure_language_warning">Nota ben que non tote le typos de carta es disponibile in tote le linguas de Infopedia. Modifica tu linguas seligite in Parametros.</string>
   <string name="feed_item_type_news">Articulos sur actualitates</string>
   <string name="feed_item_type_on_this_day">Eventos in le historia in iste die</string>
   <string name="feed_item_type_because_you_read">Suggestiones basate sur un articulo recentemente legite de tu historia</string>
-  <string name="feed_item_type_featured_article">Articulo eminente del die sur Wikipedia</string>
+  <string name="feed_item_type_featured_article">Articulo eminente del die sur Infopedia</string>
   <string name="feed_item_type_trending">Articulos le plus visitate del die</string>
   <string name="feed_item_type_featured_image">Imagine eminente del die de Wikimedia Commons</string>
-  <string name="feed_item_type_main_page">Pagina principal de Wikipedia con le contento selecte del die</string>
+  <string name="feed_item_type_main_page">Pagina principal de Infopedia con le contento selecte del die</string>
   <string name="feed_item_type_randomizer">Generar articulos aleatori a leger</string>
-  <string name="feed_item_type_suggested_edits">Suggestiones pro adder contento a Wikipedia</string>
+  <string name="feed_item_type_suggested_edits">Suggestiones pro adder contento a Infopedia</string>
   <string name="feed_item_type_places">Articulos a proximitate a base del localisation actual</string>
   <string name="feed_empty_message">Il ha nihil sur tu canal Initio</string>
   <string name="feed_configure_onboarding_action">Personalisar</string>
@@ -853,7 +853,7 @@
   <string name="feed_accessibility_card_text">Tu ha attingite le fin del canal.</string>
   <string name="feed_accessibility_card_load_more_button">Cargar plus</string>
   <string name="feed_language_variants_removal_dialog_title">Selige un variante linguistic regional pro un experientia de lectura melior</string>
-  <string name="feed_language_variants_removal_dialog_message">Tu usa al momento un variante generic del lingua chinese non supportate como lingua principal de Wikipedia</string>
+  <string name="feed_language_variants_removal_dialog_message">Tu usa al momento un variante generic del lingua chinese non supportate como lingua principal de Infopedia</string>
   <string name="feed_language_variants_removal_dialog_save">Salveguardar</string>
   <string name="feed_language_variants_removal_secondary_dialog_title">Per favor actualisa tu linguas secundari</string>
   <string name="feed_language_variants_removal_secondary_dialog_message">Tu usa al momento un variante generic del lingua chinese non supportate como lingua secundari. Per favor visita tu parametros pro seliger un nove lingua secundari o pro confirmar tu lista de linguas.</string>
@@ -880,7 +880,7 @@
   <string name="description_edit_help_title">Info: Descriptiones de articulos</string>
   <string name="description_edit_help_about_wikidata">A proposito de Wikidata</string>
   <string name="description_edit_help_wikidata_guide">Guida de Wikidata pro scriber descriptiones</string>
-  <string name="description_edit_anon_limit">Gratias pro tu interesse continue in modificar descriptiones de articulos! Pro facer plus modificationes, per favor aperi session in tu conto de Wikipedia.</string>
+  <string name="description_edit_anon_limit">Gratias pro tu interesse continue in modificar descriptiones de articulos! Pro facer plus modificationes, per favor aperi session in tu conto de Infopedia.</string>
   <string name="description_edit_license_notice">Modificante le description del articulo, io accepta le &lt;a href=\"%1$s\"&gt;conditiones de uso&lt;/a&gt; e libera irrevocabilemente mi contributiones sub le licentia &lt;a href=\"%2$s\"&gt;Creative Commons CC0&lt;/a&gt;.</string>
   <string name="description_edit_helper_text_lowercase_warning">generalmente comencia per un littera minuscule</string>
   <string name="description_edit_voice_input_description">Entrata vocal</string>
@@ -902,7 +902,7 @@
   <string name="description_edit_success_saved_image_caption_in_lang_snackbar">Legenda de imagine publicate! (%s)</string>
   <string name="description_edit_success_saved_image_tags_snackbar">Etiquetta(s) de imagine publicate!</string>
   <string name="description_edit_success_se_general_feed_link_snackbar">Te ha placite? Adjuta nos a adder plus.</string>
-  <string name="description_edit_success_encouragement">Tu ha justo ora rendite Wikipedia melior pro omnes</string>
+  <string name="description_edit_success_encouragement">Tu ha justo ora rendite Infopedia melior pro omnes</string>
   <string name="description_edit_success_done">Facite</string>
   <string name="description_edit_success_did_you_know">Sapeva tu?</string>
   <string name="description_edit_success_article_edit_hint">Tu pote etiam modificar articulos in iste application. Essaya corriger errores de orthographia e curte phrases cliccante sur le icone ^1 le proxime vice.</string>
@@ -949,7 +949,7 @@
   <string name="suggested_edits_task_translate_caption_title">Traducer legendas de imagines</string>
   <string name="suggested_edits_task_translate_caption_description">Traducer legendas in altere linguas</string>
   <string name="suggested_edits_task_multilingual_title">Plus cargas pro redactores multilingue</string>
-  <string name="suggested_edits_task_multilingual_description">Cargas de traduction es disponibile si tu lege e scribe in plus de un lingua de Wikipedia.</string>
+  <string name="suggested_edits_task_multilingual_description">Cargas de traduction es disponibile si tu lege e scribe in plus de un lingua de Infopedia.</string>
   <string name="suggested_edits_task_image_caption_edit_disable_text">Serrate usque tu ha modificate %d legendas de imagine</string>
   <string name="suggested_edits_task_translate_description_edit_disable_text">Serrate usque tu ha modificate %d suggestiones de articulo (verificate)</string>
   <string name="suggested_edits_task_multilingual_negative">Non pro me</string>
@@ -978,7 +978,7 @@
   <string name="suggested_edits_image_preview_dialog_licensing">Licentia</string>
   <string name="suggested_edits_image_preview_dialog_more_info">Plus info</string>
   <string name="suggested_edits_image_preview_dialog_file_page_link_text">Pagina del file sur Wikimedia Commons</string>
-  <string name="suggested_edits_image_preview_dialog_file_page_wikipedia_link_text">Pagina del file sur Wikipedia</string>
+  <string name="suggested_edits_image_preview_dialog_file_page_wikipedia_link_text">Pagina del file sur Infopedia</string>
   <string name="suggested_edits_article_cta_image_tags">Adder etiquettas de imagine</string>
   <string name="suggested_edits_article_cta_image_caption">Adder legenda al imagine</string>
   <string name="suggested_edits_article_cta_image_caption_in_language">Adder legenda al imagine (%s)</string>
@@ -993,7 +993,7 @@
   <string name="suggested_edits_image_tags_publishing">Publication</string>
   <string name="suggested_edits_image_tags_published">Publicate</string>
   <string name="suggested_edits_image_tags_onboarding_title">Etiquettar imagines los rende plus facile a trovar.</string>
-  <string name="suggested_edits_image_tags_onboarding_text">Addente etiquettas a imagines, tu adjutara a render imagines plus facile a cercar sur Commons, le repositorio de imagines a licentia libere que Wikipedia usa pro le imagines in su articulos.</string>
+  <string name="suggested_edits_image_tags_onboarding_text">Addente etiquettas a imagines, tu adjutara a render imagines plus facile a cercar sur Commons, le repositorio de imagines a licentia libere que Infopedia usa pro le imagines in su articulos.</string>
   <string name="suggested_edits_image_tags_onboarding_note">Solmente le etiquettas que tu elige essera addite al imagines.</string>
   <string name="suggested_edits_image_tags_task_detail">Adde etiquettas personalisate a un imagine pro render lo plus facile a trovar.</string>
   <string name="suggested_edits_image_tags_choose">Adder o eliger etiquettas correspondente</string>
@@ -1004,8 +1004,8 @@
   <string name="suggested_edits_image_tags_add_tag">Adder etiquetta</string>
   <string name="suggested_edits_image_tags_exit_dialog_message">Le etiquettas non publicate non essera salveguardate</string>
   <string name="suggested_edits_image_zoom_tooltip">Pincia pro aggrandir iste imagine.</string>
-  <string name="suggested_edits_encouragement_message">%s, gratias pro tu modificationes. Ecce plus manieras de contribuer a Wikipedia.</string>
-  <string name="suggested_edits_onboarding_message">&lt;b&gt;Salute %s&lt;/b&gt;, a basso se trova manieras rapide e facile pro adjutar a meliorar Wikipedia. Tu videra le differentia que tu face si tosto que tu comencia. Felice modification!</string>
+  <string name="suggested_edits_encouragement_message">%s, gratias pro tu modificationes. Ecce plus manieras de contribuer a Infopedia.</string>
+  <string name="suggested_edits_onboarding_message">&lt;b&gt;Salute %s&lt;/b&gt;, a basso se trova manieras rapide e facile pro adjutar a meliorar Infopedia. Tu videra le differentia que tu face si tosto que tu comencia. Felice modification!</string>
   <string name="suggested_edits_image_captions_task_detail">Describe un imagine pro adjutar le lectores a comprender su significato e contexto.</string>
   <string name="suggested_edits_add_descriptions_task_detail">Summarisa un articulo pro adjutar le lectores a comprender rapidemente le subjecto.</string>
   <string name="suggested_edits_contributions_stat_tooltip">Le numero total de tu contributiones usque al presente.</string>
@@ -1014,7 +1014,7 @@
   <string name="suggested_edits_edit_quality_stat_tooltip">Basate sur le numero de vices que un de tu contributiones ha essite revertite (i.e. disfacite per un altere editor). Modificationes revertite: %d.</string>
   <string name="suggested_edits_paused_message">Le modificationes suggerite es pausate usque al %1$s. Perdono, %2$s, ma alcunes de tu contributiones recente ha essite revertite.</string>
   <string name="suggested_edits_disabled_message">Le modificationes suggerite ha essite disactivate. Perdono, %s, ma troppo de tu contributiones recente ha essite revertite.</string>
-  <string name="suggested_edits_ip_blocked_message">Le adresse IP (o intervallo de adresses IP) que tu usa pare esser actualmente blocate pro le modification de Wikipedia.</string>
+  <string name="suggested_edits_ip_blocked_message">Le adresse IP (o intervallo de adresses IP) que tu usa pare esser actualmente blocate pro le modification de Infopedia.</string>
   <string name="suggested_edits_gate_message">Infelicemente, %s, tu debe facer al minus tres modificationes directemente in un articulo pro usar iste function.</string>
   <string name="suggested_edits_editing_tips_link_text">Avisos e trucos de modification</string>
   <string name="suggested_edits_help_page_link_text">Pagina de adjuta pro modificationes suggerite</string>
@@ -1043,7 +1043,7 @@
     <item quantity="other">%d dies</item>
   </plurals>
   <string name="suggested_edits_what_is_title">Que es Modificationes suggerite?</string>
-  <string name="suggested_edits_what_is_text">Modificationes suggerite presenta opportunitates pro contributiones micre ma vital pro Wikipedia.</string>
+  <string name="suggested_edits_what_is_text">Modificationes suggerite presenta opportunitates pro contributiones micre ma vital pro Infopedia.</string>
   <string name="suggested_edits_learn_more">Leger plus</string>
   <string name="suggested_edits_paused_title">Pausate</string>
   <string name="suggested_edits_disabled_title">Disactivate</string>
@@ -1053,8 +1053,8 @@
   <string name="suggested_edits_task_new">Nove</string>
   <string name="suggested_edits_cc0_notice">Publicante, tu accepta le &lt;a href=\"%1$s\"&gt;conditiones de uso&lt;/a&gt; e tu libera irrevocabilemente tu contributiones sub le licentia &lt;a href=\"%2$s\"&gt;CC0&lt;/a&gt;.</string>
   <string name="suggested_edits_reactivation_notification_title">Modificationes suggerite</string>
-  <string name="suggested_edits_reactivation_notification_stage_one">Gratias pro modificar Wikipedia! Proque non continuar ubi tu lassava?</string>
-  <string name="suggested_edits_reactivation_notification_stage_two">Ha tu un minuta pro continuar a meliorar Wikipedia? Examina iste suggestiones de modification.</string>
+  <string name="suggested_edits_reactivation_notification_stage_one">Gratias pro modificar Infopedia! Proque non continuar ubi tu lassava?</string>
+  <string name="suggested_edits_reactivation_notification_stage_two">Ha tu un minuta pro continuar a meliorar Infopedia? Examina iste suggestiones de modification.</string>
   <string name="suggested_edits_contributions_screen_title">Contributiones de %s</string>
   <string name="suggested_edits_contribution_language_label">Lingua</string>
   <string name="suggested_edits_contribution_date_time_label">Data / Hora</string>
@@ -1072,11 +1072,11 @@
     <item quantity="other">Tu ha addite %d etiquettas</item>
   </plurals>
   <string name="suggested_edits_contribution_date_yesterday_text">Heri</string>
-  <string name="suggested_edits_encourage_account_creation_title">Sapeva tu que omnes pote modificar Wikipedia?</string>
-  <string name="suggested_edits_encourage_account_creation_message">Modificationes suggerite es un nove maniera de modificar Wikipedia sur Android. Te adjuta a facer contributiones micre ma vital pro Wikipedia.\nNostre objectivo es render le modification plus facile e plus accessibile pro omnes! Aperi session o crea un conto sur Wikipedia pro comenciar.</string>
-  <string name="suggested_edits_encourage_account_creation_login_button">Aperir session / crear conto sur Wikipedia</string>
+  <string name="suggested_edits_encourage_account_creation_title">Sapeva tu que omnes pote modificar Infopedia?</string>
+  <string name="suggested_edits_encourage_account_creation_message">Modificationes suggerite es un nove maniera de modificar Infopedia sur Android. Te adjuta a facer contributiones micre ma vital pro Infopedia.\nNostre objectivo es render le modification plus facile e plus accessibile pro omnes! Aperi session o crea un conto sur Infopedia pro comenciar.</string>
+  <string name="suggested_edits_encourage_account_creation_login_button">Aperir session / crear conto sur Infopedia</string>
   <string name="suggested_edits_contribution_type_image_tag">Etiquetta de imagine</string>
-  <string name="suggested_edits_contribution_current_revision_text">Tu modification es ora visibile sur Wikipedia</string>
+  <string name="suggested_edits_contribution_current_revision_text">Tu modification es ora visibile sur Infopedia</string>
   <string name="suggested_card_more_edits">Plus modificationes suggerite</string>
   <string name="suggested_edits_article_descriptions_dialog_title">Descriptiones suggerite</string>
   <string name="suggested_edits_descriptions_report_dialog_title">Que vole tu reportar?</string>
@@ -1103,7 +1103,7 @@
     <item quantity="other">Tu ha addite %d characteres</item>
   </plurals>
   <string name="suggested_edits_image_recommendations_task_title">Imagines de articulos</string>
-  <string name="suggested_edits_image_recommendations_task_detail">Adder imagines suggerite a articulos de Wikipedia pro meliorar le comprension.</string>
+  <string name="suggested_edits_image_recommendations_task_detail">Adder imagines suggerite a articulos de Infopedia pro meliorar le comprension.</string>
   <string name="image_recommendation_task_instruction">Vole tu adder iste imagine al articulo?</string>
   <string name="image_recommendation_tutorial">Tutorial</string>
   <string name="image_recommendation_accept">Si</string>
@@ -1120,9 +1120,9 @@
   <string name="image_recommendation_reject_submit">Submitter</string>
   <string name="image_recommendation_tooltip_main">Adder imagines mancante a articulos in Modificationes Suggerite</string>
   <string name="image_recommendation_onboarding_1">Imagines adjuta le gente a comprender, ma multe articulos non los ha.</string>
-  <string name="image_recommendation_onboarding_2">Tu decidera si un imagine suggerite debe esser inserite in un articulo de Wikipedia.</string>
+  <string name="image_recommendation_onboarding_2">Tu decidera si un imagine suggerite debe esser inserite in un articulo de Infopedia.</string>
   <string name="image_recommendation_onboarding_3">Suggestiones es generate per machina e tu usara tu judicamento pro decider si acceptar o rejectar los.</string>
-  <string name="image_recommendation_onboarding_4">Imagines es de Wikimedia Commons, un collection de imagines sub licentia libere usate per Wikipedia.</string>
+  <string name="image_recommendation_onboarding_4">Imagines es de Wikimedia Commons, un collection de imagines sub licentia libere usate per Infopedia.</string>
   <string name="image_recommendation_tooltip_1">Revide iste articulo pro comprender su subjecto</string>
   <string name="image_recommendation_tooltip_2">Inspecta le imagine e su information associate</string>
   <string name="image_recommendation_tooltip_3">Decide si le imagine adjuta lectores a comprender melio iste subjecto</string>
@@ -1135,15 +1135,15 @@
   <string name="edit_summary_added_caption">Legenda addite</string>
   <string name="edit_summary_added_image_and_caption">Imagine e legenda addite</string>
   <string name="edit_published_view">Monstrar</string>
-  <string name="activity_tab_logged_out_title">Aperi session o crea un conto pro vider tu activitate sur le app Wikipedia</string>
+  <string name="activity_tab_logged_out_title">Aperi session o crea un conto pro vider tu activitate sur le app Infopedia</string>
   <string name="activity_tab_user_reading">Lectura de %s</string>
-  <string name="activity_tab_on_wikipedia_android">Sur Wikipedia Android</string>
+  <string name="activity_tab_on_wikipedia_android">Sur Infopedia Android</string>
   <string name="activity_tab_weekly_time_spent_hm">%1$dh %2$dm</string>
   <string name="activity_tab_weekly_time_spent">Tempore passate a leger iste septimana</string>
   <string name="activity_tab_monthly_articles_read">Articulos legite iste mense</string>
   <string name="activity_tab_monthly_articles_saved">Articulos salveguardate iste mense</string>
   <string name="activity_tab_monthly_top_categories">Categorias le plus legite iste mense</string>
-  <string name="activity_tab_explore_wikipedia">Discoperir via Wikipedia</string>
+  <string name="activity_tab_explore_wikipedia">Discoperir via Infopedia</string>
   <string name="activity_tab_discover_encourage">Cerca qualcosa de nove a leger?</string>
   <string name="activity_tab_donation_unknown">Incognite</string>
   <string name="activity_tab_donation_last_donation">&lt;b&gt;Ultime donation&lt;/b&gt; in app</string>
@@ -1216,17 +1216,17 @@
   <string name="activity_tab_onboarding_impact_title">Impacto principal</string>
   <string name="activity_tab_onboarding_impact_message">Discoperi le analyses de tu contributiones e le portata del cognoscentia que tu ha condividite.</string>
   <string name="activity_tab_onboarding_engage_title">Plus manieras de ingagiar se</string>
-  <string name="activity_tab_onboarding_engage_message">Explora statisticas de jocos, articulos salveguardate e altere activitates que approfunda tu connexion con Wikipedia.</string>
+  <string name="activity_tab_onboarding_engage_message">Explora statisticas de jocos, articulos salveguardate e altere activitates que approfunda tu connexion con Infopedia.</string>
   <string name="activity_tab_onboarding_stay_in_control_title">Mantener le controlo</string>
   <string name="activity_tab_onboarding_stay_in_control_message">Elige le modulos a monstrar. Tote le datos personal resta private sur tu apparato e le historia de navigation pote esser radite a omne momento.</string>
-  <string name="edits_screen_what_is_title">Modificar in le app de Wikipedia</string>
-  <string name="edits_screen_what_is_body">Non secur ubi comenciar a modificar? Tenta le Modificationes suggerite, un function que crea opportunitates de apportar contributiones micre ma essential a Wikipedia. Alternativemente, visita directemente un articulo de interesse e apporta un modification in wikitexto.</string>
+  <string name="edits_screen_what_is_title">Modificar in le app de Infopedia</string>
+  <string name="edits_screen_what_is_body">Non secur ubi comenciar a modificar? Tenta le Modificationes suggerite, un function que crea opportunitates de apportar contributiones micre ma essential a Infopedia. Alternativemente, visita directemente un articulo de interesse e apporta un modification in wikitexto.</string>
   <string name="activity_tab_snackbar_label">Le statisticas de jocos es monstrate pro tu lingua primari.</string>
   <string name="file_page_activity_title">Pagina de file</string>
   <string name="file_page_add_image_caption_button">Adder legenda al imagine</string>
   <string name="file_page_add_image_tags_button">Adder etiquettas al imagine</string>
   <string name="file_page_edit_button_content_description">Modificar %s</string>
-  <string name="description_edit_revert_subtitle">Gratias pro modificar Wikipedia!</string>
+  <string name="description_edit_revert_subtitle">Gratias pro modificar Infopedia!</string>
   <string name="description_edit_revert_intro">Nos sape que tu ha facite tu melior, ma un del revisores habeva un preoccupation. Le possibile rationes proque tu modification ha essite revertite include:</string>
   <string name="description_edit_revert_reason1">tu contribution non sequeva un del &lt;a href=\"%1$s\"&gt;directivas&lt;/a&gt;.</string>
   <string name="description_edit_revert_reason2">tu contribution pareva esser un experimento o vandalismo.</string>
@@ -1241,9 +1241,9 @@
   <string name="onboarding_get_started">Comenciar</string>
   <string name="onboarding_maybe_later">Forsan plus tarde</string>
   <string name="onboarding_explore_title">Nove manieras de explorar</string>
-  <string name="onboarding_explore_text">Immerge te in le mundo de Wikipedia con un canal Initio continuemente actualisate.&lt;br/&gt; &lt;b&gt;Personalisa&lt;/b&gt; le canal secundo tu interesses: apprende eventos historic con &lt;b&gt;Sur iste die&lt;/b&gt; o jecta le datos con &lt;b&gt;Aleatori&lt;/b&gt;.</string>
+  <string name="onboarding_explore_text">Immerge te in le mundo de Infopedia con un canal Initio continuemente actualisate.&lt;br/&gt; &lt;b&gt;Personalisa&lt;/b&gt; le canal secundo tu interesses: apprende eventos historic con &lt;b&gt;Sur iste die&lt;/b&gt; o jecta le datos con &lt;b&gt;Aleatori&lt;/b&gt;.</string>
   <string name="onboarding_reading_list_sync_title">Listas de lectura con synchronisation</string>
-  <string name="onboarding_reading_list_sync_text_v2">Tu pote facer listas de lectura de articulos que tu vole leger plus tarde, mesmo quando tu es disconnectite. &lt;br/&gt;Aperi session in tu conto de Wikipedia pro synchronisar tu listas de lectura. &lt;a href=\"#login\"&gt;Crear un conto sur Wikipedia&lt;/a&gt;</string>
+  <string name="onboarding_reading_list_sync_text_v2">Tu pote facer listas de lectura de articulos que tu vole leger plus tarde, mesmo quando tu es disconnectite. &lt;br/&gt;Aperi session in tu conto de Infopedia pro synchronisar tu listas de lectura. &lt;a href=\"#login\"&gt;Crear un conto sur Infopedia&lt;/a&gt;</string>
   <string name="onboarding_data_privacy_title">Datos e vita private</string>
   <string name="onboarding_data_privacy_text">Nos crede que non debe esser necessari fornir information personal pro participar in le movimento de cognoscentia libere. Le datos de uso colligite pro iste application es anonyme.&lt;br/&gt;&lt;br/&gt;Lege plus sur nostre &lt;a href=\"#privacy\"&gt;politica de confidentialitate&lt;/a&gt; e &lt;a href=\"#termsOfUse\"&gt;conditiones de uso&lt;/a&gt;.</string>
   <string name="onboarding_analytics_switch_title">Inviar datos de uso</string>
@@ -1253,8 +1253,8 @@
   <string name="onboarding_welcome_title_v2">Le encyclopedia libere\n…in plus de 300 linguas</string>
   <string name="onboarding_next">Sequente</string>
   <string name="onboarding_fresh_install_knowledge_title">Tote le cognoscentia del mundo</string>
-  <string name="onboarding_fresh_install_knowledge_text">Wikipedia es un encyclopedia in linea libere con 65 milliones de articulos scribite e mantenite collaborativemente in plus de 300 linguas per un communitate de voluntarios.</string>
-  <string name="onboarding_fresh_install_knowledge_learn_more">Leger plus sur Wikipedia</string>
+  <string name="onboarding_fresh_install_knowledge_text">Infopedia es un encyclopedia in linea libere con 65 milliones de articulos scribite e mantenite collaborativemente in plus de 300 linguas per un communitate de voluntarios.</string>
+  <string name="onboarding_fresh_install_knowledge_learn_more">Leger plus sur Infopedia</string>
   <string name="onboarding_app_languages_title">Leger in plus de 300 linguas</string>
   <string name="onboarding_app_languages_text">Nos ha trovate le sequente linguas sur tu apparato:</string>
   <string name="onboarding_app_languages_primary">Principal</string>
@@ -1279,7 +1279,7 @@
   <string name="languages_list_activity_title">Adder un lingua</string>
   <string name="languages_list_suggested_text">Suggerite</string>
   <string name="languages_list_all_text">Tote le linguas</string>
-  <string name="wikipedia_languages_title">Linguas de Wikipedia</string>
+  <string name="wikipedia_languages_title">Linguas de Infopedia</string>
   <string name="wikipedia_languages_your_languages_text">Tu linguas</string>
   <string name="wikipedia_languages_add_language_text">Adder lingua</string>
   <string name="wikipedia_languages_remove_text">Remover lingua</string>
@@ -1288,11 +1288,11 @@
     <item quantity="one">Remover le lingua seligite?</item>
     <item quantity="other">Remover le linguas seligite?</item>
   </plurals>
-  <string name="wikipedia_languages_remove_dialog_content">Tu videra solmente le contento del canal Initio e le filtros de recerca rapide pro le linguas restante de Wikipedia.</string>
+  <string name="wikipedia_languages_remove_dialog_content">Tu videra solmente le contento del canal Initio e le filtros de recerca rapide pro le linguas restante de Infopedia.</string>
   <string name="wikipedia_languages_remove_warning_dialog_title">Impossibile remover tote le linguas</string>
-  <string name="wikipedia_languages_remove_warning_dialog_content">Mantene al minus un lingua de Wikipedia in le qual cercar e leger contento.</string>
+  <string name="wikipedia_languages_remove_warning_dialog_content">Mantene al minus un lingua de Infopedia in le qual cercar e leger contento.</string>
   <string name="more_language_options">plus</string>
-  <string name="add_wikipedia_languages_text">Adder linguas de Wikipedia</string>
+  <string name="add_wikipedia_languages_text">Adder linguas de Infopedia</string>
   <string name="remove_language_dialog_cancel_button_text">Cancellar</string>
   <string name="remove_language_dialog_ok_button_text">OK</string>
   <string name="remove_all_language_warning_dialog_ok_button_text">OK</string>
@@ -1362,7 +1362,7 @@
   <string name="templates_description_empty">Le patrono “%s” non ha ancora un description.</string>
   <string name="templates_description_missing_data">Iste patrono non ha &lt;a href=\"%1$s\"&gt;TemplateData&lt;/a&gt; e su parametros ha essite &lt;a href=\"%2$s\"&gt;generate automaticamente&lt;/a&gt;. Como resultato, le patrono e su parametros non ha descriptiones.</string>
   <string name="main_drawer_help">Adjuta</string>
-  <string name="main_drawer_login">Aperir session / crear conto sur Wikipedia</string>
+  <string name="main_drawer_login">Aperir session / crear conto sur Infopedia</string>
   <string name="main_tooltip_action_button">Comenciar</string>
   <string name="main_tooltip_watchlist_title">Observatorio</string>
   <string name="main_tooltip_watchlist_text">Le articulos e paginas que tu ha ja addite a tu observatorio se trova in le menu Plus sub &lt;b&gt;Observatorio&lt;/b&gt;.</string>
@@ -1388,7 +1388,7 @@
   <string name="talk_warn_saved_messages">Messages salveguardate</string>
   <string name="talk_page_empty">Iste pagina de discussion es vacue.</string>
   <string name="talk_page_empty_title">Le conversation comencia hic</string>
-  <string name="talk_page_empty_content">Le paginas de discussion es ubi le gente discute como facer le contento de Wikipedia le melior que pote esser. Adde un nove topico de discussion pro connecter te e collaborar con un communitate de wikipedianos.</string>
+  <string name="talk_page_empty_content">Le paginas de discussion es ubi le gente discute como facer le contento de Infopedia le melior que pote esser. Adde un nove topico de discussion pro connecter te e collaborar con un communitate de Infopedianos.</string>
   <string name="talk_add_reply">Responder</string>
   <string name="talk_no_subject">(Sin subjecto)</string>
   <string name="talk_reply_subject">Subjecto</string>
@@ -1402,9 +1402,9 @@
   <string name="talk_last_modified">&lt;b&gt;Ultime modification %1$s&lt;/b&gt; per %2$s</string>
   <string name="talk_snackbar_survey_text">Gratias pro usar paginas de discussion. Poterea tu adjutar nos a meliorar le application respondente a un sondage?</string>
   <string name="talk_snackbar_survey_action_text">Comenciar</string>
-  <string name="talk_share_discussion_subject">Wikipedia - topico \"%s\" sur pagina de discussion</string>
-  <string name="talk_share_talk_page">Wikipedia - conversationes sur pagina de discussion</string>
-  <string name="talk_edit_disclaimer">Isto es un pagina de discussion. Per favor respecta le directivas del paginas de discussion, e non oblida de signar tu messages con quatro tildes: ~~~~ quando tu los compone in wikitexto.&lt;br&gt;&lt;br&gt;&lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Talk_page_guidelines\"&gt;Directivas del paginas de discussion&lt;/a&gt; (in anglese)</string>
+  <string name="talk_share_discussion_subject">Infopedia - topico \"%s\" sur pagina de discussion</string>
+  <string name="talk_share_talk_page">Infopedia - conversationes sur pagina de discussion</string>
+  <string name="talk_edit_disclaimer">Isto es un pagina de discussion. Per favor respecta le directivas del paginas de discussion, e non oblida de signar tu messages con quatro tildes: ~~~~ quando tu los compone in wikitexto.&lt;br&gt;&lt;br&gt;&lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Talk_page_guidelines\"&gt;Directivas del paginas de discussion&lt;/a&gt; (in anglese)</string>
   <string name="talk_search_hint">Cercar messages</string>
   <string name="talk_search_topics_hint">Cercar topicos</string>
   <string name="talk_search_find_in_talk_topics_hint">Cercar in topico de pagina de discussion</string>
@@ -1435,7 +1435,7 @@
   <string name="talk_list_item_swipe_mark_as_read">Leger</string>
   <string name="talk_list_item_swipe_mark_as_unread">Non legite</string>
   <string name="talk_login_to_subscribe_dialog_title">Aperi session pro abonar te a topicos</string>
-  <string name="talk_login_to_subscribe_dialog_content">Un abonamento al topico te permitte reciper notificationes sur nove commentos in iste topico. Per favor crea un conto o aperi session in tu conto de Wikipedia pro abonar te a un topico.</string>
+  <string name="talk_login_to_subscribe_dialog_content">Un abonamento al topico te permitte reciper notificationes sur nove commentos in iste topico. Per favor crea un conto o aperi session in tu conto de Infopedia pro abonar te a un topico.</string>
   <string name="talk_archived_title">Archivo de discussion: %s</string>
   <string name="menu_option_share_talk_discussion">Condivider discussion</string>
   <string name="menu_option_share_talk_page">Condivider pagina de discussion</string>
@@ -1455,7 +1455,7 @@
   <string name="thank_label">Regratiar</string>
   <string name="view_user_page">Visitar le pagina del usator</string>
   <string name="thank_dialog_title_text">Publicamente inviar gratias</string>
-  <string name="thank_dialog_text">\'Gratias\' es un maniera facile de monstrar appreciation pro le travalio de un redactor de Wikipedia. Le regratiamentos non pote esser disfacite e es publicamente visibile.</string>
+  <string name="thank_dialog_text">\'Gratias\' es un maniera facile de monstrar appreciation pro le travalio de un redactor de Infopedia. Le regratiamentos non pote esser disfacite e es publicamente visibile.</string>
   <string name="thank_dialog_positive_button_text">Inviar regratiamento</string>
   <string name="thank_dialog_negative_button_text">Cancellar</string>
   <string name="thank_success_message">Tu \'Gratias\' ha essite inviate a %s 👍</string>
@@ -1587,7 +1587,7 @@
   <string name="shareable_reading_lists_new_imported_snackbar">Lista de lectura importate</string>
   <string name="reading_list_share_menu_label">Condivider…</string>
   <string name="reading_list_share_menu_tooltip">Condivider iste lista de lectura con alteres</string>
-  <string name="reading_list_share_message_v2">Salute! Io vole condivider mi lista de lectura de Wikipedia con te:</string>
+  <string name="reading_list_share_message_v2">Salute! Io vole condivider mi lista de lectura de Infopedia con te:</string>
   <string name="talk_templates_empty_message">Crea tu proprie messages o usa le &lt;a href=\"#\"&gt;messages de exemplo&lt;/a&gt; pro comenciar.</string>
   <string name="talk_templates_new_message_title">Nove message</string>
   <string name="talk_templates_new_message_subject_hint">Subjecto</string>
@@ -1682,8 +1682,8 @@
   <string name="patroller_tasks_patrol_edit_snackbar_view">Vider</string>
   <string name="patroller_tasks_overflow_report">Problema de functionalitate</string>
   <string name="patroller_tasks_overflow_learn">Leger plus</string>
-  <string name="patroller_onboarding_one_title">Contribuer al supervision e approbation de modificationes sur Wikipedia.</string>
-  <string name="patroller_onboarding_one_content">Meliorar le qualitate del contento de Wikipedia per le revision active de un fluxo de modificationes recente e provider direction, controlo de qualitate, e incoragiamento a altere redactores.</string>
+  <string name="patroller_onboarding_one_title">Contribuer al supervision e approbation de modificationes sur Infopedia.</string>
+  <string name="patroller_onboarding_one_content">Meliorar le qualitate del contento de Infopedia per le revision active de un fluxo de modificationes recente e provider direction, controlo de qualitate, e incoragiamento a altere redactores.</string>
   <string name="patroller_onboarding_two_title">Offerer opiniones, surveliar modificationes, e prender actiones sur le schermo de differentias (diff screen).</string>
   <string name="patroller_onboarding_two_thank_title">Regratiar</string>
   <string name="patroller_onboarding_two_thank_content">Vide tu un modification productive? Regratia le autor de illo pro su contribution.</string>
@@ -1710,17 +1710,17 @@
   <string name="patroller_saved_message_title_do_not_censor">Non censurar</string>
   <string name="patroller_saved_message_title_art_imp">Suggestion de melioration de articulo</string>
   <string name="patroller_saved_message_body_vandalism">Salute {{{username}}}, isto es pro informar te que io ha revertite un o plus de tu [{{{diffLink}}}|contributiones recente] perque illos non pare constructive. Si tu pensa que io ha committite un error o si tu ha questiones, tu pote lassar me un message sur [[User talk:{{{senderUserName}}}|mi pagina de discussion]]. Per favor nota que le vandalismo continue pote resultar in restrictiones.</string>
-  <string name="patroller_saved_message_body_editing_tests">Salute {{{username}}}, me gaude que Wikipedia ha attrahite tu attention e que tu te ha interessate a apprender como modificar lo. Le test de modification que tu ha facite ha functionate; nonobstante, per favor tene in mente que le objectivo de iste projecto es disveloppar un encyclopedia complete e digne de fide que tote le mundo pote consultar. Tu modification ha affectate le contento e dunque illo ha essite removite.\nSi tu vole apprender a modificar Wikipedia, le [[Wikipedia:Sandbox|sabliera]] es a tu disposition. Si tu commentos ha essite specific a un articulo, le loco correcte es le pagina de discussion de ille articulo.</string>
-  <string name="patroller_saved_message_body_npov">Salute {{{username}}}, certe contributiones que tu ha apportate non satisface le criterios de neutralitate exigite per le politica de [[Wikipedia:NPOV|puncto de vista neutral]] de iste Wikipedia. Pro iste ration, alcun contento ha essite modificate o removite. Per favor modifica le paragraphos o sectiones que monstra un puncto de vista partial, reimplaciante los con un texto plus neutral e objective de accordo con lo que se expecta in un encyclopedia.</string>
-  <string name="patroller_saved_message_body_auto_trans">Salute {{{username}}}, certe contributiones que tu ha apportate pote esser traductiones machinal. Pro iste ration, illos ha essite modificate o marcate con un patrono. Si necun melioration se apporta al articulo, illo pote esser delite.\n\nSi, malgrado iste information, tu totevia ha questiones, senti te libere de lassar un message sur [[User talk:{{{senderUserName}}}|mi pagina de discussion]]. Non sia discoragiate per iste micre incidente. Tu contributiones es multo importante pro Wikipedia.</string>
-  <string name="patroller_saved_message_body_coi_rem">Salute {{{username}}}, io apprecia tu collaboration sur Wikipedia; nonobstante, io ha notate que tu es in un [[Wikipedia:Conflict_of_interest|conflicto de interesse]]. Un conflicto de interesse es le incompatibilitate inter le objectivos de neutralitate e confidibilitate de Wikipedia e le particular objectivos de certe redactores, individuos, entitates, o companias de qualcunque typo.\n\nTote contributiones in le spatio principal es subjecte al politicas del criterios de contento de iste Wikipedia ([[Wikipedia:What_Wikipedia_is_not|Lo que Wikipedia non es]]), de qualitate encyclopedic ([[Wikipedia:Verifiability|Verificabilitate]] e [[Wikipedia:No_original_research|Nulle recerca original]]), de methodo redactorial ([[Wikipedia:Neutral_point_of_view|Puncto de vista neutral]]), e de legitimitate del contento ([[Wikipedia:Copyrights|Derecto de autor]]). Es expectate que tote le redactores se conforma a iste politicas durante le creation e evalutation de contento e que illes respecta e presume le bon fide in le actiones de altere redactores pro assecurar que iste politicas es sequite.\n\nSi tu modifica sub un conflicto de interesse, tu debe applicar le politica correspondente con un cura special; alteremente, tu conto de usator pote esser considerate como essente a fines private e dunque blocate. Non hesita a contactar me sur mi pagina de discussion si tu ha questiones.</string>
-  <string name="patroller_saved_message_body_final_warning">Perque tu ha apportate plure modificationes destructive, isto servira como tu ultime advertimento. Si tu vandalisa Wikipedia un altere vice, tu essera bannite de modificar.</string>
-  <string name="patroller_saved_message_body_copy_vio">Tu modification recente pare includer material protegite per le derecto de autor sin permission. Per favor assecura te que omne contento se conforme con le politicas de [[Wikipedia:Copyrights|derecto de autor]] de iste Wikipedia pro evitar su remotion.</string>
-  <string name="patroller_saved_message_body_edit_summary">Salute {{{username}}}, il pare que tu ha removite contento de Wikipedia sin fornir un summario de modification. Per favor, lassa un summario de modification quando tu adde o remove contento a Wikipedia.</string>
-  <string name="patroller_saved_message_body_do_not_censor">Salute {{{username}}}, il pare que tu ha removite contento sin discuter lo sur le pagina de discussion del articulo. Per favor, nota que Wikipedia non es censurate, e contento non debe esser removite perque illo es controversial. Si tu crede que le information es inexacte, per favor, arriva a un consenso sur le pagina de discussion del articulo.</string>
+  <string name="patroller_saved_message_body_editing_tests">Salute {{{username}}}, me gaude que Infopedia ha attrahite tu attention e que tu te ha interessate a apprender como modificar lo. Le test de modification que tu ha facite ha functionate; nonobstante, per favor tene in mente que le objectivo de iste projecto es disveloppar un encyclopedia complete e digne de fide que tote le mundo pote consultar. Tu modification ha affectate le contento e dunque illo ha essite removite.\nSi tu vole apprender a modificar Infopedia, le [[Infopedia:Sandbox|sabliera]] es a tu disposition. Si tu commentos ha essite specific a un articulo, le loco correcte es le pagina de discussion de ille articulo.</string>
+  <string name="patroller_saved_message_body_npov">Salute {{{username}}}, certe contributiones que tu ha apportate non satisface le criterios de neutralitate exigite per le politica de [[Infopedia:NPOV|puncto de vista neutral]] de iste Infopedia. Pro iste ration, alcun contento ha essite modificate o removite. Per favor modifica le paragraphos o sectiones que monstra un puncto de vista partial, reimplaciante los con un texto plus neutral e objective de accordo con lo que se expecta in un encyclopedia.</string>
+  <string name="patroller_saved_message_body_auto_trans">Salute {{{username}}}, certe contributiones que tu ha apportate pote esser traductiones machinal. Pro iste ration, illos ha essite modificate o marcate con un patrono. Si necun melioration se apporta al articulo, illo pote esser delite.\n\nSi, malgrado iste information, tu totevia ha questiones, senti te libere de lassar un message sur [[User talk:{{{senderUserName}}}|mi pagina de discussion]]. Non sia discoragiate per iste micre incidente. Tu contributiones es multo importante pro Infopedia.</string>
+  <string name="patroller_saved_message_body_coi_rem">Salute {{{username}}}, io apprecia tu collaboration sur Infopedia; nonobstante, io ha notate que tu es in un [[Infopedia:Conflict_of_interest|conflicto de interesse]]. Un conflicto de interesse es le incompatibilitate inter le objectivos de neutralitate e confidibilitate de Infopedia e le particular objectivos de certe redactores, individuos, entitates, o companias de qualcunque typo.\n\nTote contributiones in le spatio principal es subjecte al politicas del criterios de contento de iste Infopedia ([[Infopedia:What_Infopedia_is_not|Lo que Infopedia non es]]), de qualitate encyclopedic ([[Infopedia:Verifiability|Verificabilitate]] e [[Infopedia:No_original_research|Nulle recerca original]]), de methodo redactorial ([[Infopedia:Neutral_point_of_view|Puncto de vista neutral]]), e de legitimitate del contento ([[Infopedia:Copyrights|Derecto de autor]]). Es expectate que tote le redactores se conforma a iste politicas durante le creation e evalutation de contento e que illes respecta e presume le bon fide in le actiones de altere redactores pro assecurar que iste politicas es sequite.\n\nSi tu modifica sub un conflicto de interesse, tu debe applicar le politica correspondente con un cura special; alteremente, tu conto de usator pote esser considerate como essente a fines private e dunque blocate. Non hesita a contactar me sur mi pagina de discussion si tu ha questiones.</string>
+  <string name="patroller_saved_message_body_final_warning">Perque tu ha apportate plure modificationes destructive, isto servira como tu ultime advertimento. Si tu vandalisa Infopedia un altere vice, tu essera bannite de modificar.</string>
+  <string name="patroller_saved_message_body_copy_vio">Tu modification recente pare includer material protegite per le derecto de autor sin permission. Per favor assecura te que omne contento se conforme con le politicas de [[Infopedia:Copyrights|derecto de autor]] de iste Infopedia pro evitar su remotion.</string>
+  <string name="patroller_saved_message_body_edit_summary">Salute {{{username}}}, il pare que tu ha removite contento de Infopedia sin fornir un summario de modification. Per favor, lassa un summario de modification quando tu adde o remove contento a Infopedia.</string>
+  <string name="patroller_saved_message_body_do_not_censor">Salute {{{username}}}, il pare que tu ha removite contento sin discuter lo sur le pagina de discussion del articulo. Per favor, nota que Infopedia non es censurate, e contento non debe esser removite perque illo es controversial. Si tu crede que le information es inexacte, per favor, arriva a un consenso sur le pagina de discussion del articulo.</string>
   <string name="talk_warn_learn_more_label">Leger plus sur le messages de substitution</string>
   <string name="talk_warn_saved_messages_usage_instruction">Usa un message de exemplo hic infra pro personalisar, inviar e salveguardar in tu messages.</string>
-  <string name="patroller_saved_message_body_art_imp">Salute {{{username}}}. Tu articulo es un bon initio! Pro facer lo ancora melior, considera adder plus referentias a fontes digne de fide. Isto adjuta a verificar le information e meliora le qualitate del articulo. Consulta le directivas de iste Wikipedia sur [[Wikipedia:Reliable_sources|fontes digne de fide]] pro plus detalios.</string>
+  <string name="patroller_saved_message_body_art_imp">Salute {{{username}}}. Tu articulo es un bon initio! Pro facer lo ancora melior, considera adder plus referentias a fontes digne de fide. Isto adjuta a verificar le information e meliora le qualitate del articulo. Consulta le directivas de iste Infopedia sur [[Infopedia:Reliable_sources|fontes digne de fide]] pro plus detalios.</string>
   <string name="talk_templates_menu_edit_title">Modificar</string>
   <string name="data_opt_in_accept">Acceptar</string>
   <string name="data_opt_in_reject">Rejectar</string>
@@ -1731,7 +1731,7 @@
   <string name="email_report_patroller_tasks_subject">Reporto de problema: function Cargas de patruliator</string>
   <string name="email_report_patroller_tasks_body">Io ha incontrate un problema con le function Cargas de patruliator:\n- [Describe le problema specific]\n\nLe comportamento que io vole vider es:\n- [Describe le solution proponite]\n\n[Capturas de schermo o ligamines]</string>
   <string name="donation_campaign_maybe_later_snackbar">Nos te lo recordara de novo deman.</string>
-  <string name="donation_campaign_donated_snackbar">Gratias, car donator! Tu generositate adjuta Wikipedia e altere projectos de cognoscentia libere a prosperar.</string>
+  <string name="donation_campaign_donated_snackbar">Gratias, car donator! Tu generositate adjuta Infopedia e altere projectos de cognoscentia libere a prosperar.</string>
   <string name="donation_campaign_go_back_button">Retornar</string>
   <string name="menu_single_webview_open_external">Aperir in le navigator del systema</string>
   <string name="donate_gpay_dialog_title">Donar con Google Pay?</string>
@@ -1744,8 +1744,8 @@
   <string name="donate_gpay_check_recurring">Facer isto un donation mensual recurrente.</string>
   <string name="donate_gpay_check_send_email">Si, le Fundation Wikimedia pote inviar me un message de e-mail occasional.</string>
   <string name="donate_gpay_minimum_amount">Per favor selige un amonta (minimo %s)</string>
-  <string name="donate_gpay_maximum_amount">Nos non pote acceptar donationes in excesso de %s per nostre application. Per favor contacta nostre personal de donos major a benefactors@wikimedia.org.</string>
-  <string name="donate_gpay_success_message">&lt;b&gt;Gratias!&lt;/b&gt; Tu generositate a Wikipedia significa tanto pro nos.</string>
+  <string name="donate_gpay_maximum_amount">Nos non pote acceptar donationes in excesso de %s per nostre application. Per favor contacta nostre personal de donos major a benefactors@infopedia.org.</string>
+  <string name="donate_gpay_success_message">&lt;b&gt;Gratias!&lt;/b&gt; Tu generositate a Infopedia significa tanto pro nos.</string>
   <string name="donate_gpay_help_problems">Problemas de donar?</string>
   <string name="donate_gpay_help_other_ways">Altere modos de donation</string>
   <string name="donate_gpay_help_faq">Folio a questiones</string>
@@ -1761,7 +1761,7 @@
   <string name="places_empty_list">Iste area es vacue. Face zoom retro sur &lt;a href=\"#\"&gt;le carta&lt;/a&gt;.</string>
   <string name="places_card_title">Locos a proximitate</string>
   <string name="places_card_action">Plus locos a proximitate</string>
-  <string name="places_card_enable_location_card_message">‘Locos’ es un maniera cartographic de explorar Wikipedia</string>
+  <string name="places_card_enable_location_card_message">‘Locos’ es un maniera cartographic de explorar Infopedia</string>
   <string name="places_card_enable_location_card_button">Activar le localisation</string>
   <string name="places_card_distance_suffix">A %s</string>
   <string name="places_card_distance_unknown">Distantia incognite</string>
@@ -1782,14 +1782,14 @@
   <string name="survey_dialog_input_hint">Commentarios additional</string>
   <string name="survey_dialog_submitted_snackbar">Commentario inviate. Gratias!</string>
   <string name="games_hub_activity_title">Jocos</string>
-  <string name="games_hub_activity_games_unavailable_message">Necun joco es disponibile in iste lingua ancora! Le jocos utilisa le contento create per redactores voluntari pro le Wikipedia in cata lingua.</string>
+  <string name="games_hub_activity_games_unavailable_message">Necun joco es disponibile in iste lingua ancora! Le jocos utilisa le contento create per redactores voluntari pro le Infopedia in cata lingua.</string>
   <string name="games_hub_activity_games_unavailable_message_learn_more_action">Leger plus</string>
   <string name="games_hub_activity_overflow_view_game_stats">Vider le statisticas de jocos</string>
   <string name="games_hub_activity_overflow_learn_more">Leger plus</string>
   <string name="on_this_day_game_entry_dialog_title">Presentation</string>
-  <string name="on_this_day_game_entry_dialog_subtitle">Jocos de Wikipedia</string>
+  <string name="on_this_day_game_entry_dialog_subtitle">Jocos de Infopedia</string>
   <string name="on_this_day_game_entry_dialog_button">Jocar</string>
-  <string name="on_this_day_game_entry_dialog_snackbar_message">Le jocos de Wikipedia es disponibile in le Centro de jocos, que se trova in le menu PLUS.</string>
+  <string name="on_this_day_game_entry_dialog_snackbar_message">Le jocos de Infopedia es disponibile in le Centro de jocos, que se trova in le menu PLUS.</string>
   <string name="on_this_day_game_title">Qual ha evenite primo?</string>
   <string name="on_this_day_game_dialog_button">Jocar</string>
   <string name="on_this_day_game_splash_message">Divina qual evento se ha producite primo sur iste die in le historia.</string>
@@ -1802,7 +1802,7 @@
   <string name="on_this_day_game_next">Proxime question</string>
   <string name="on_this_day_game_finish">Resultatos final</string>
   <string name="on_this_day_game_share_button">Condivider score</string>
-  <string name="on_this_day_game_feed_entry_card_heading">Jocos de Wikipedia</string>
+  <string name="on_this_day_game_feed_entry_card_heading">Jocos de Infopedia</string>
   <string name="on_this_day_game_feed_entry_card_title">Qual ha evenite primo?</string>
   <string name="on_this_day_game_result">Tu ha obtenite %1$d/%2$d.</string>
   <string name="on_this_day_game_next_in">Proxime partita in %s</string>
@@ -1833,10 +1833,10 @@
   <string name="on_this_day_game_notification_turned_off_snackbar_message">Notificationes de joco disactivate.</string>
   <string name="on_this_day_game_notification_turned_on_snackbar_message">Notificationes de joco activate.</string>
   <string name="on_this_day_game_notification_text">Le joco “Qual ha evenite primo?” de hodie es preste a esser jocate.</string>
-  <string name="on_this_day_game_report_email_subject">Reporto de problema – jocos de Wikipedia</string>
-  <string name="on_this_day_game_report_email_body">Io ha incontrate un problema con le function Jocos de Wikipedia:\n- [Describe le problema specific]\n\nLe comportamento que io vole vider es:\n- [Describe le solution proponite]</string>
+  <string name="on_this_day_game_report_email_subject">Reporto de problema – jocos de Infopedia</string>
+  <string name="on_this_day_game_report_email_body">Io ha incontrate un problema con le function Jocos de Infopedia:\n- [Describe le problema specific]\n\nLe comportamento que io vole vider es:\n- [Describe le solution proponite]</string>
   <string name="on_this_day_game_notification_undo">Disfacer</string>
-  <string name="on_this_day_game_share_link_message">Io joca a “Qual ha evenite primo?”, un quiz quotidian sur le app Android de Wikipedia %s</string>
+  <string name="on_this_day_game_share_link_message">Io joca a “Qual ha evenite primo?”, un quiz quotidian sur le app Android de Infopedia %s</string>
   <string name="on_this_day_game_share_screen_title">Hodie io ha obtenite un score de %1$d/%2$d sur “Qual ha evenite primo?”.</string>
   <string name="on_this_day_game_share_screen_subtitle">Topicos includite:</string>
   <string name="on_this_day_game_archive_calendar_title">Elige per data un joco a jocar.</string>
@@ -1859,11 +1859,11 @@
   <string name="on_this_day_game_stats_log_in_prompt_card_button">Aperir session</string>
   <string name="on_this_day_game_stats_log_in_prompt_card_title">Aperi session pro vider tu statisticas de jocos</string>
   <string name="on_this_day_game_stats_log_in_prompt_card_description">Vider tu series de victoria, punctos e plus</string>
-  <string name="wikipedia_games_title">Jocos de Wikipedia</string>
-  <string name="wikipedia_games_subtitle">Jocos quotidian de questiones e responsas, basate sur le contento de Wikipedia.</string>
+  <string name="wikipedia_games_title">Jocos de Infopedia</string>
+  <string name="wikipedia_games_subtitle">Jocos quotidian de questiones e responsas, basate sur le contento de Infopedia.</string>
   <string name="year_in_review_learn_more">Leger plus</string>
   <string name="year_in_review_get_started">Comenciar</string>
-  <string name="year_in_review_topbar_w_icon">Icone W de Wikipedia</string>
+  <string name="year_in_review_topbar_w_icon">Icone W de Infopedia</string>
   <string name="year_in_review_navigate_left">Navigar al sinistra</string>
   <string name="year_in_review_close">Clauder</string>
   <string name="year_in_review_share_icon">Icone pro condivider</string>
@@ -1871,8 +1871,8 @@
   <string name="year_in_review_navigate_right">Navigar al dextra</string>
   <string name="year_in_review_donate">Donar</string>
   <string name="year_in_review_information_icon">Icone de information</string>
-  <string name="year_in_review_get_started_headline">Explorar tu summario del anno de Wikipedia</string>
-  <string name="year_in_review_get_started_bodytext">Vider analyses sur le articulos que tu ha legite in le application Wikipedia e sur le modificationes que tu ha apportate.</string>
+  <string name="year_in_review_get_started_headline">Explorar tu summario del anno de Infopedia</string>
+  <string name="year_in_review_get_started_bodytext">Vider analyses sur le articulos que tu ha legite in le application Infopedia e sur le modificationes que tu ha apportate.</string>
   <string name="year_in_review_get_started_info">Tu historia de lectura se mantene protegite. Le analyses de lectura se calcula a base de datos immagazinate localmente sur tu apparato.</string>
   <string name="year_in_review_get_started_later">Tu pote acceder a tu Summario del anno plus tarde in le menu Plus.</string>
   <string name="year_in_review_survey_title">Adjuta a meliorar le Summario del anno</string>
@@ -1893,17 +1893,17 @@
   <string name="year_in_review_setting_subtitle">Disactivar le Summario del anno eliminara tote le analyses personalisate immagazinate e celara le Summario del anno.</string>
   <string name="year_in_review_screendeck_image_content_description">Ressource de imagine pro le pannello de controlo principal del Summario del anno</string>
   <string name="year_in_review_screenshot_error">Impossibile generar captura de schermo: %s</string>
-  <string name="year_in_review_share_subject">Mi Summario del anno de Wikipedia</string>
-  <string name="year_in_review_share_body">Ecce mi Summario del anno de Wikipedia. Create con le app Android de Wikipedia %1$s %2$s</string>
+  <string name="year_in_review_share_subject">Mi Summario del anno de Infopedia</string>
+  <string name="year_in_review_share_body">Ecce mi Summario del anno de Infopedia. Create con le app Android de Infopedia %1$s %2$s</string>
   <string name="year_in_review_globe_icon">Icone de globo</string>
   <string name="settings_app_icon_title">Icone del app</string>
   <string name="settings_app_icon_subtitle">Beneficio de contributor</string>
-  <string name="settings_app_icon_preference_subtitle">Tu ha accesso a un icone personalisate que celebra tu contributiones apportate a Wikipedia desde le app in %d. Illo remanera usque le proxime Summario del anno.</string>
+  <string name="settings_app_icon_preference_subtitle">Tu ha accesso a un icone personalisate que celebra tu contributiones apportate a Infopedia desde le app in %d. Illo remanera usque le proxime Summario del anno.</string>
   <string name="settings_app_icon_updated">Tu icone del app ha essite actualisate.</string>
   <string name="year_in_review_slide_app_icon_title_unlocked">Nove icone del app disvelate pro tu schermo initial</string>
   <string name="year_in_review_slide_app_icon_title_unlock">Disvela tu recompensa de contributor pro le proxime anno!</string>
-  <string name="year_in_review_slide_app_icon_body_unlocked">Activa tu nove icone del app in le Parametros sub Icone del app. Gratias pro investir in le futuro del cognoscentia libere. Tu contributiones como %1$s in %2$d adjuta a aperir le via verso un mundo de information libere. Como regratiamento, te ha essite concedite un icone personal de contributor pro Wikipedia sur tu schermo initial.</string>
-  <string name="year_in_review_slide_app_icon_body_unlock">Nos es felice que Wikipedia ha facite parte de tu anno %1$d! Disvela un recompensa special in tu Summario del anno %2$d deveniente contributor: &lt;a href=\"%3$s\"&gt;modifica Wikipedia&lt;/a&gt; o dona desde le app al &lt;a href=\"%4$s\"&gt;Fundation Wikimedia&lt;/a&gt;, le organisation sin scopo lucrative detra Wikipedia. Si Wikipedia te es utile, per favor considera donar pro adjutar a sustener su futuro e mantener lo libere, sin publicitate, digne de fide e accessibile pro omnes. Si tu ha ja donate in altere loco, tu appoio es profundemente appreciate.</string>
+  <string name="year_in_review_slide_app_icon_body_unlocked">Activa tu nove icone del app in le Parametros sub Icone del app. Gratias pro investir in le futuro del cognoscentia libere. Tu contributiones como %1$s in %2$d adjuta a aperir le via verso un mundo de information libere. Como regratiamento, te ha essite concedite un icone personal de contributor pro Infopedia sur tu schermo initial.</string>
+  <string name="year_in_review_slide_app_icon_body_unlock">Nos es felice que Infopedia ha facite parte de tu anno %1$d! Disvela un recompensa special in tu Summario del anno %2$d deveniente contributor: &lt;a href=\"%3$s\"&gt;modifica Infopedia&lt;/a&gt; o dona desde le app al &lt;a href=\"%4$s\"&gt;Fundation Wikimedia&lt;/a&gt;, le organisation sin scopo lucrative detra Infopedia. Si Infopedia te es utile, per favor considera donar pro adjutar a sustener su futuro e mantener lo libere, sin publicitate, digne de fide e accessibile pro omnes. Si tu ha ja donate in altere loco, tu appoio es profundemente appreciate.</string>
   <string name="year_in_review_slide_app_icon_donor">donator</string>
   <string name="year_in_review_slide_app_icon_editor">redactor</string>
   <string name="year_in_review_slide_app_icon_donor_and_editor">donator e redactor</string>
@@ -1911,7 +1911,7 @@
   <string name="year_in_review_slide_geo_body">Le pais le plus proxime al articulos que tu ha legite pare esser: %1$s, a base de articulos como &lt;b&gt;%2$s&lt;/b&gt; e &lt;b&gt;%3$s&lt;/b&gt;.</string>
   <string name="year_in_review_login_dialog_title">Aperir session pro personalisation?</string>
   <string name="year_in_review_login_dialog_body">Aperir session te da accesso a analyses personalisate. Tu pote totevia vider le analyses collective sin aperir session.</string>
-  <string name="year_in_review_login_dialog_positive">Aperir session / Adherer a Wikipedia</string>
+  <string name="year_in_review_login_dialog_positive">Aperir session / Adherer a Infopedia</string>
   <string name="year_in_review_login_dialog_negative">Continuar sin aperir session</string>
   <plurals name="year_in_review_slide_top_articles_headline">
     <item quantity="one">Tu articulo principal</item>
@@ -1923,22 +1923,22 @@
   </plurals>
   <string name="year_in_review_slide_top_categories_headline">Tu categorias le plus interessante</string>
   <string name="year_in_review_slide_top_categories_body">Le categorias reuni articulos sur subjectos similar. In %1$d, tu ha visitate articulos in iste categorias interessante plure vices: %2$s</string>
-  <string name="year_in_review_slide_most_read_english_articles_headline">Le articulos le plus popular de Wikipedia in anglese</string>
+  <string name="year_in_review_slide_most_read_english_articles_headline">Le articulos le plus popular de Infopedia in anglese</string>
   <plurals name="year_in_review_slide_most_read_english_articles_body">
-    <item quantity="one">Quando le gente vole apprender sur nostre mundo, illes se refere a Wikipedia. Le articulo le plus visitate in Wikipedia in anglese esseva: %2$s&lt;br /&gt;Lege plus in nostre &lt;a href=\"%3$s\"&gt;articulo de blog dedicate al thema&lt;/a&gt;.</item>
-    <item quantity="other">Quando le gente vole apprender sur nostre mundo, illes se refere a Wikipedia. Le %1$d articulos le plus visitate in Wikipedia in anglese esseva: %2$s&lt;br /&gt;Lege plus in nostre &lt;a href=\"%3$s\"&gt;articulo de blog dedicate al thema&lt;/a&gt;.</item>
+    <item quantity="one">Quando le gente vole apprender sur nostre mundo, illes se refere a Infopedia. Le articulo le plus visitate in Infopedia in anglese esseva: %2$s&lt;br /&gt;Lege plus in nostre &lt;a href=\"%3$s\"&gt;articulo de blog dedicate al thema&lt;/a&gt;.</item>
+    <item quantity="other">Quando le gente vole apprender sur nostre mundo, illes se refere a Infopedia. Le %1$d articulos le plus visitate in Infopedia in anglese esseva: %2$s&lt;br /&gt;Lege plus in nostre &lt;a href=\"%3$s\"&gt;articulo de blog dedicate al thema&lt;/a&gt;.</item>
   </plurals>
   <plurals name="year_in_review_slide_edits_viewed_times_headline">
     <item quantity="one">Tu modification ha essite vidite plus de %,d vices recentemente</item>
     <item quantity="other">Tu modificationes ha essite vidite plus de %,d vices recentemente</item>
   </plurals>
   <plurals name="year_in_review_slide_edits_viewed_times_body">
-    <item quantity="one">Lectores de tote le mundo apprecia tu contributiones. In le ultime duo menses, le articulos que tu ha modificate ha recipite un total de %,d visita. Gratias a redactores como tu, Wikipedia es un ressource de cognoscentia factual, confidibile e in constante melioration, pro tote le mundo.</item>
-    <item quantity="other">Lectores de tote le mundo apprecia tu contributiones. In le ultime duo menses, le articulos que tu ha modificate ha recipite un total de %,d visitas. Gratias a redactores como tu, Wikipedia es un ressource de cognoscentia factual, confidibile e in constante melioration, pro tote le mundo.</item>
+    <item quantity="one">Lectores de tote le mundo apprecia tu contributiones. In le ultime duo menses, le articulos que tu ha modificate ha recipite un total de %,d visita. Gratias a redactores como tu, Infopedia es un ressource de cognoscentia factual, confidibile e in constante melioration, pro tote le mundo.</item>
+    <item quantity="other">Lectores de tote le mundo apprecia tu contributiones. In le ultime duo menses, le articulos que tu ha modificate ha recipite un total de %,d visitas. Gratias a redactores como tu, Infopedia es un ressource de cognoscentia factual, confidibile e in constante melioration, pro tote le mundo.</item>
   </plurals>
   <plurals name="year_in_review_slide_edited_per_minute_headline">
-    <item quantity="one">Wikipedia ha essite modificate %,d vice per minuta</item>
-    <item quantity="other">Wikipedia ha essite modificate %,d vices per minuta</item>
+    <item quantity="one">Infopedia ha essite modificate %,d vice per minuta</item>
+    <item quantity="other">Infopedia ha essite modificate %,d vices per minuta</item>
   </plurals>
   <string name="year_in_review_slide_edited_per_minute_body">Le articulos se crea e meliora de maniera collaborative, usante fontes digne de fide. Cata uno de nos ha cognoscentias a compartir. &lt;a href=\"%s\"&gt;Apprende como participar&lt;/a&gt;!</string>
   <plurals name="year_in_review_slide_bytes_added_headline">
@@ -1946,41 +1946,41 @@
     <item quantity="other">%,d bytes addite</item>
   </plurals>
   <plurals name="year_in_review_slide_bytes_added_body">
-    <item quantity="one">In %1$d, le voluntarios ha addite %2$,d byte al Wikipedia in anglese. Le summa de tote lor travalio commun resulta in un ressource de cognoscimento in constante melioramento, basate sur factos e digne de fide, que illes mitte al disposition del mundo. Tote nos ha cognoscentias a condivider. &lt;a href=\"%3$s\"&gt;Apprende como participar&lt;/a&gt;!</item>
-    <item quantity="other">In %1$d, le voluntarios ha addite %2$,d bytes al Wikipedia in anglese. Le summa de tote lor travalio commun resulta in un ressource de cognoscimento in constante melioramento, basate sur factos e digne de fide, que illes mitte al disposition del mundo. Tote nos ha cognoscentias a condivider. &lt;a href=\"%3$s\"&gt;Apprende como participar&lt;/a&gt;!</item>
+    <item quantity="one">In %1$d, le voluntarios ha addite %2$,d byte al Infopedia in anglese. Le summa de tote lor travalio commun resulta in un ressource de cognoscimento in constante melioramento, basate sur factos e digne de fide, que illes mitte al disposition del mundo. Tote nos ha cognoscentias a condivider. &lt;a href=\"%3$s\"&gt;Apprende como participar&lt;/a&gt;!</item>
+    <item quantity="other">In %1$d, le voluntarios ha addite %2$,d bytes al Infopedia in anglese. Le summa de tote lor travalio commun resulta in un ressource de cognoscimento in constante melioramento, basate sur factos e digne de fide, que illes mitte al disposition del mundo. Tote nos ha cognoscentias a condivider. &lt;a href=\"%3$s\"&gt;Apprende como participar&lt;/a&gt;!</item>
   </plurals>
   <plurals name="year_in_review_slide_edited_times_headline">
     <item quantity="one">Tu ha modificate %s vice</item>
     <item quantity="other">Tu ha modificate %s vices</item>
   </plurals>
   <plurals name="year_in_review_slide_edited_times_body">
-    <item quantity="one">Gratias pro esser un del redactores voluntari qui face le differentia sur le projectos de Wikimedia in tote le mundo. Voluntarios como tu ha apportate %,d modification sur plus de 300 editiones de Wikipedia in linguas differente.</item>
-    <item quantity="other">Gratias pro esser un del redactores voluntari qui face le differentia sur le projectos de Wikimedia in tote le mundo. Voluntarios como tu ha apportate %,d modificationes sur plus de 300 editiones de Wikipedia in linguas differente.</item>
+    <item quantity="one">Gratias pro esser un del redactores voluntari qui face le differentia sur le projectos de Wikimedia in tote le mundo. Voluntarios como tu ha apportate %,d modification sur plus de 300 editiones de Infopedia in linguas differente.</item>
+    <item quantity="other">Gratias pro esser un del redactores voluntari qui face le differentia sur le projectos de Wikimedia in tote le mundo. Voluntarios como tu ha apportate %,d modificationes sur plus de 300 editiones de Infopedia in linguas differente.</item>
   </plurals>
   <plurals name="year_in_review_slide_app_edited_times_headline">
-    <item quantity="one">Un redactor usante un del apps official de Wikipedia ha apportate %,d modification</item>
-    <item quantity="other">Le redactores usante le apps official de Wikipedia ha apportate %,d modificationes</item>
+    <item quantity="one">Un redactor usante un del apps official de Infopedia ha apportate %,d modification</item>
+    <item quantity="other">Le redactores usante le apps official de Infopedia ha apportate %,d modificationes</item>
   </plurals>
-  <string name="year_in_review_slide_app_edited_times_body">Le corde e le anima de Wikipedia es nostre communitate global de contributores voluntari, donatores, e milliardos de lectores como tu – totes unite pro condivider le accesso illimitate a informationes digne de fide.</string>
+  <string name="year_in_review_slide_app_edited_times_body">Le corde e le anima de Infopedia es nostre communitate global de contributores voluntari, donatores, e milliardos de lectores como tu – totes unite pro condivider le accesso illimitate a informationes digne de fide.</string>
   <plurals name="year_in_review_slide_english_edited_times_headline">
     <item quantity="one">Un redactor ha apportate %,d modification iste anno</item>
     <item quantity="other">Redactores ha apportate %,d modificationes iste anno</item>
   </plurals>
   <plurals name="year_in_review_slide_english_edited_times_body_first">
-    <item quantity="one">Un voluntario ha apportate %,d modification a un del plus de 300 editiones linguistic de Wikipedia.</item>
-    <item quantity="other">Voluntarios ha apportate %,d modificationes a plus de 300 editiones linguistic de Wikipedia.</item>
+    <item quantity="one">Un voluntario ha apportate %,d modification a un del plus de 300 editiones linguistic de Infopedia.</item>
+    <item quantity="other">Voluntarios ha apportate %,d modificationes a plus de 300 editiones linguistic de Infopedia.</item>
   </plurals>
   <plurals name="year_in_review_slide_english_edited_times_body_second">
-    <item quantity="one">%,d modification ha essite apportate sur Wikipedia in anglese. Cata hora de cata die, voluntarios labora pro meliorar Wikipedia.</item>
-    <item quantity="other">%,d modificationes ha essite apportate sur Wikipedia in anglese. Cata hora de cata die, voluntarios labora pro meliorar Wikipedia.</item>
+    <item quantity="one">%,d modification ha essite apportate sur Infopedia in anglese. Cata hora de cata die, voluntarios labora pro meliorar Infopedia.</item>
+    <item quantity="other">%,d modificationes ha essite apportate sur Infopedia in anglese. Cata hora de cata die, voluntarios labora pro meliorar Infopedia.</item>
   </plurals>
   <plurals name="year_in_review_slide_saved_articles_headline">
     <item quantity="one">Tu ha salveguardate %,d articulo</item>
     <item quantity="other">Tu ha salveguardate %,d articulos</item>
   </plurals>
   <plurals name="year_in_review_slide_saved_articles_body">
-    <item quantity="one">Iste articulos ha includite &lt;b&gt;%1$s&lt;/b&gt;, &lt;b&gt;%2$s&lt;/b&gt; e &lt;b&gt;%3$s&lt;/b&gt;. Cata articulo salveguardate reflecte tu interesses e adjuta a construer un base de cognoscentia personalisate sur Wikipedia.&lt;br /&gt;&lt;br /&gt;Le usatores active del app habeva %4$,d articulo salveguardate iste anno.</item>
-    <item quantity="other">Iste articulos ha includite &lt;b&gt;%1$s&lt;/b&gt;, &lt;b&gt;%2$s&lt;/b&gt; e &lt;b&gt;%3$s&lt;/b&gt;. Cata articulo salveguardate reflecte tu interesses e adjuta a construer un base de cognoscentia personalisate sur Wikipedia.&lt;br /&gt;&lt;br /&gt;Le usatores active del app habeva %4$,d articulos salveguardate iste anno.</item>
+    <item quantity="one">Iste articulos ha includite &lt;b&gt;%1$s&lt;/b&gt;, &lt;b&gt;%2$s&lt;/b&gt; e &lt;b&gt;%3$s&lt;/b&gt;. Cata articulo salveguardate reflecte tu interesses e adjuta a construer un base de cognoscentia personalisate sur Infopedia.&lt;br /&gt;&lt;br /&gt;Le usatores active del app habeva %4$,d articulo salveguardate iste anno.</item>
+    <item quantity="other">Iste articulos ha includite &lt;b&gt;%1$s&lt;/b&gt;, &lt;b&gt;%2$s&lt;/b&gt; e &lt;b&gt;%3$s&lt;/b&gt;. Cata articulo salveguardate reflecte tu interesses e adjuta a construer un base de cognoscentia personalisate sur Infopedia.&lt;br /&gt;&lt;br /&gt;Le usatores active del app habeva %4$,d articulos salveguardate iste anno.</item>
   </plurals>
   <plurals name="year_in_review_slide_global_saved_articles_headline">
     <item quantity="one">Le usatores del app habeva %,d articulo salveguardate</item>
@@ -2006,16 +2006,16 @@
     <item quantity="other">Le gente ha passate circa %,d horas</item>
   </plurals>
   <plurals name="year_in_review_slide_english_reading_hours_body_second">
-    <item quantity="one">(circa %1$,d anno!) a leger Wikipedia in anglese in %2$d. Wikipedia es a tu disposition quando tu vole saper plus sur nostre mundo evolvente, ganiar un sponsion inter amicos, o responder al question de un infante curiose.</item>
-    <item quantity="other">(circa %1$,d annos!) a leger Wikipedia in anglese in %2$d. Wikipedia es a tu disposition quando tu vole saper plus sur nostre mundo evolvente, ganiar un sponsion inter amicos, o responder al question de un infante curiose.</item>
+    <item quantity="one">(circa %1$,d anno!) a leger Infopedia in anglese in %2$d. Infopedia es a tu disposition quando tu vole saper plus sur nostre mundo evolvente, ganiar un sponsion inter amicos, o responder al question de un infante curiose.</item>
+    <item quantity="other">(circa %1$,d annos!) a leger Infopedia in anglese in %2$d. Infopedia es a tu disposition quando tu vole saper plus sur nostre mundo evolvente, ganiar un sponsion inter amicos, o responder al question de un infante curiose.</item>
   </plurals>
   <plurals name="year_in_review_slide_available_languages_headline">
-    <item quantity="one">Wikipedia esseva disponibile in plus de %,d lingua</item>
-    <item quantity="other">Wikipedia esseva disponibile in plus de %,d linguas</item>
+    <item quantity="one">Infopedia esseva disponibile in plus de %,d lingua</item>
+    <item quantity="other">Infopedia esseva disponibile in plus de %,d linguas</item>
   </plurals>
   <plurals name="year_in_review_slide_available_languages_body_first">
-    <item quantity="one">Wikipedia habeva %,d articulo</item>
-    <item quantity="other">Wikipedia habeva %,d articulos</item>
+    <item quantity="one">Infopedia habeva %,d articulo</item>
+    <item quantity="other">Infopedia habeva %,d articulos</item>
   </plurals>
   <plurals name="year_in_review_slide_available_languages_body_second">
     <item quantity="one">in plus de %,d lingua active. Tu te jungeva a milliones pro expander le cognoscentia e explorar subjectos diverse.</item>
@@ -2030,12 +2030,12 @@
     <item quantity="other">a leger %1$,d articulos in %2$d</item>
   </plurals>
   <plurals name="year_in_review_slide_spent_minutes_reading_body_top">
-    <item quantity="one">Secundo nostre estimation, isto te pone in le prime %1$s%% del lectores de Wikipedia de tote le mundo. In media, un persona lege %2$,d articulo per anno.</item>
-    <item quantity="other">Secundo nostre estimation, isto te pone in le prime %1$s%% del lectores de Wikipedia de tote le mundo. In media, un persona lege %2$,d articulos per anno.</item>
+    <item quantity="one">Secundo nostre estimation, isto te pone in le prime %1$s%% del lectores de Infopedia de tote le mundo. In media, un persona lege %2$,d articulo per anno.</item>
+    <item quantity="other">Secundo nostre estimation, isto te pone in le prime %1$s%% del lectores de Infopedia de tote le mundo. In media, un persona lege %2$,d articulos per anno.</item>
   </plurals>
   <plurals name="year_in_review_slide_spent_minutes_reading_body_global_first">
-    <item quantity="one">Wikipedia habeva %,d articulo</item>
-    <item quantity="other">Wikipedia habeva %,d articulos</item>
+    <item quantity="one">Infopedia habeva %,d articulo</item>
+    <item quantity="other">Infopedia habeva %,d articulos</item>
   </plurals>
   <plurals name="year_in_review_slide_spent_minutes_reading_body_global_second">
     <item quantity="one">in plus de %,d lingua active. Tu te jungeva a milliones pro expander le cognoscentia e explorar subjectos diverse.</item>
@@ -2046,25 +2046,25 @@
     <item quantity="other">Le gente ha passate circa %,d horas</item>
   </plurals>
   <plurals name="year_in_review_slide_spent_minutes_reading_body_english_second">
-    <item quantity="one">(circa %1$,d anno!) a leger Wikipedia in anglese in %2$d.</item>
-    <item quantity="other">(circa %1$,d annos!) a leger Wikipedia in anglese in %2$d.</item>
+    <item quantity="one">(circa %1$,d anno!) a leger Infopedia in anglese in %2$d.</item>
+    <item quantity="other">(circa %1$,d annos!) a leger Infopedia in anglese in %2$d.</item>
   </plurals>
   <plurals name="year_in_review_slide_viewed_articles_times_headline">
-    <item quantity="one">Le usatores del app ha consultate articulos de Wikipedia %,d vice</item>
-    <item quantity="other">Le usatores del app ha consultate articulos de Wikipedia %,d vices</item>
+    <item quantity="one">Le usatores del app ha consultate articulos de Infopedia %,d vice</item>
+    <item quantity="other">Le usatores del app ha consultate articulos de Infopedia %,d vices</item>
   </plurals>
-  <string name="year_in_review_slide_viewed_articles_times_body">Pro le gente de tote le le mundo, Wikipedia es le prime station quando on vole trovar le responsa a un question, cercar information pro schola o labor, o apprender un nove facto.</string>
+  <string name="year_in_review_slide_viewed_articles_times_body">Pro le gente de tote le le mundo, Infopedia es le prime station quando on vole trovar le responsa a un question, cercar information pro schola o labor, o apprender un nove facto.</string>
   <string name="year_in_review_reading_list_dialog_title">Crear tu lista de lectura del Summario del anno %d?</string>
-  <string name="year_in_review_reading_list_dialog_message">Le Summario del anno de Wikipedia creara un lista de lectura del articulos que tu ha passate le plus tempore a leger in %1$d. &lt;a href=\"%2$s\"&gt;Plus information&lt;/a&gt;</string>
+  <string name="year_in_review_reading_list_dialog_message">Le Summario del anno de Infopedia creara un lista de lectura del articulos que tu ha passate le plus tempore a leger in %1$d. &lt;a href=\"%2$s\"&gt;Plus information&lt;/a&gt;</string>
   <string name="year_in_review_reading_list_dialog_positive_button_label">Crear</string>
   <string name="year_in_review_reading_list_dialog_negative_button_label">No, gratias</string>
   <string name="year_in_review_reading_list_title">Summario del anno %d</string>
   <string name="year_in_review_reading_list_description">Facite pro %1$s. Le articulos que tu ha passate le plus tempore a leger in %2$d.</string>
-  <string name="year_in_review_highlights_thank_you_message">Gratias pro passar tu anno con Wikipedia.</string>
+  <string name="year_in_review_highlights_thank_you_message">Gratias pro passar tu anno con Infopedia.</string>
   <string name="year_in_review_highlights_looking_forward_message">Nos attende con impatientia le proxime anno!</string>
   <plurals name="year_in_review_highlights_logged_out_en_most_read_title">
-    <item quantity="one">Le articulo le plus legite sur Wikipedia in anglese</item>
-    <item quantity="other">Le articulos le plus legite sur Wikipedia in anglese</item>
+    <item quantity="one">Le articulo le plus legite sur Infopedia in anglese</item>
+    <item quantity="other">Le articulos le plus legite sur Infopedia in anglese</item>
   </plurals>
   <plurals name="year_in_review_highlights_logged_out_en_hours_spent_title">
     <item quantity="one">Hora passate a leger</item>
@@ -2082,7 +2082,7 @@
     <item quantity="one">Modification in app</item>
     <item quantity="other">Modificationes in app</item>
   </plurals>
-  <string name="year_in_review_highlights_logged_out_non_en_wikipedia_edited_title">Frequentia de modificationes apportate a Wikipedia</string>
+  <string name="year_in_review_highlights_logged_out_non_en_wikipedia_edited_title">Frequentia de modificationes apportate a Infopedia</string>
   <plurals name="year_in_review_highlights_logged_out_non_en_wikipedia_per_minute_label">
     <item quantity="one">%d vice per minuta</item>
     <item quantity="other">%d vices per minuta</item>
@@ -2109,10 +2109,10 @@
     <item quantity="other">Articulos modificate</item>
   </plurals>
   <string name="year_in_review_highlights_share_button_title">Condivider punctos saliente</string>
-  <string name="year_in_review_highlights_logo_description">Logotypo de Wikipedia</string>
+  <string name="year_in_review_highlights_logo_description">Logotypo de Infopedia</string>
   <string name="recommended_reading_list_title">Discoperir</string>
   <string name="recommended_reading_list_onboarding_card_title">Discoperir articulos seligite specialmente pro te</string>
-  <string name="recommended_reading_list_onboarding_card_message">Tu lista de lectura septimanal de articulos de Wikipedia, curate specialmente pro te.</string>
+  <string name="recommended_reading_list_onboarding_card_message">Tu lista de lectura septimanal de articulos de Infopedia, curate specialmente pro te.</string>
   <string name="recommended_reading_list_onboarding_card_new">Nove!</string>
   <string name="recommended_reading_list_onboarding_card_positive_button">Comenciar</string>
   <string name="recommended_reading_list_onboarding_card_negative_button">No, gratias</string>
@@ -2154,9 +2154,9 @@
   <string name="recommended_reading_list_settings_section_header">Recommendationes</string>
   <string name="recommended_reading_list_settings_title">Parametros de “Discoperir“</string>
   <string name="recommended_reading_list_settings_toggle">Lista de lectura de “Discoperir”</string>
-  <string name="recommended_reading_list_settings_toggle_disable_message">“Discoperir” es disactivate. Wikipedia non te recommendara articulos a leger.</string>
+  <string name="recommended_reading_list_settings_toggle_disable_message">“Discoperir” es disactivate. Infopedia non te recommendara articulos a leger.</string>
   <string name="recommended_reading_list_settings_turn_off_dialog_title">Disactivar “Discoperir”?</string>
-  <string name="recommended_reading_list_settings_turn_off_dialog_message">Si tu disactiva “Discoperir”, tu non recipera plus le recommendationes de lectura %s de Wikipedia.</string>
+  <string name="recommended_reading_list_settings_turn_off_dialog_message">Si tu disactiva “Discoperir”, tu non recipera plus le recommendationes de lectura %s de Infopedia.</string>
   <string name="recommended_reading_list_settings_turn_off_dialog_positive_button">Disactivar</string>
   <string name="recommended_reading_list_settings_turn_off_dialog_negative_button">No, lassar activate</string>
   <string name="recommended_reading_list_settings_turn_off_snackbar">“Discoperir” ha essite disactivate. Tu pote reactivar lo a qualcunque momento in le Parametros.</string>
@@ -2182,7 +2182,7 @@
   <string name="recommended_reading_list_settings_updates_base_snackbar_action">Disfacer</string>
   <string name="recommended_reading_list_settings_interests">Interesses</string>
   <string name="recommended_reading_list_settings_notifications_title">Notificationes</string>
-  <string name="recommended_reading_list_settings_notifications_subtitle">Wikipedia non te inviara un notification quando “Discoperir” se actualisa.</string>
+  <string name="recommended_reading_list_settings_notifications_subtitle">Infopedia non te inviara un notification quando “Discoperir” se actualisa.</string>
   <string name="recommended_reading_list_settings_notifications_subtitle_disable">Le notificationes pro “Discoperir” es disactivate. Tu non recipera un notification quando “Discoperir” se actualisa.</string>
   <string name="recommended_reading_list_settings_notifications_dialog_title">Disactivar notificationes?</string>
   <string name="recommended_reading_list_settings_notifications_dialog_message">Si tu disactiva le notificationes, tu non plus recipera rememorationes quando “Discoperir” se actualisa.</string>
@@ -2190,14 +2190,14 @@
   <string name="recommended_reading_list_settings_notifications_dialog_negative_button">No, lassar los activate</string>
   <string name="recommended_reading_list_notification_title">Tu lista de lectura %s de “Discoperir” es preste.</string>
   <string name="recommended_reading_list_notification_subtitle">Tocca pro vider tu ultime recommendationes.</string>
-  <string name="recommended_reading_list_settings_notification_subtitle_enable">Quando tu “Discoperir” se actualisa, Wikipedia te inviara un notification.</string>
-  <string name="recommended_reading_list_settings_toggle_enable_message">“Discoperir” es activate. Wikipedia te recommendara articulos a leger.</string>
+  <string name="recommended_reading_list_settings_notification_subtitle_enable">Quando tu “Discoperir” se actualisa, Infopedia te inviara un notification.</string>
+  <string name="recommended_reading_list_settings_toggle_enable_message">“Discoperir” es activate. Infopedia te recommendara articulos a leger.</string>
   <string name="donation_reminders_prompt_dismiss_snackbar">Le rememorationes de donation pote esser modificate a omne momento in le Parametros.</string>
   <string name="donation_settings_section_header">Donationes</string>
   <string name="donation_reminders_settings_title">Como deberea nos rememorar te de isto?</string>
   <string name="donation_reminders_settings_option_title">Rememorationes de donation</string>
-  <string name="donation_reminders_settings_thank_you_message">Tu generositate adjuta Wikipedia a prosperar. Crea un rememoration de donation basate sur le numero de articulos que tu lege.</string>
-  <string name="donation_reminders_settings_donation_info">Le donationes se destina al Fundation Wikimedia e su affiliatos, orgoliose hospites de Wikipedia e de altere projectos de cognoscentia libere.</string>
+  <string name="donation_reminders_settings_thank_you_message">Tu generositate adjuta Infopedia a prosperar. Crea un rememoration de donation basate sur le numero de articulos que tu lege.</string>
+  <string name="donation_reminders_settings_donation_info">Le donationes se destina al Fundation Wikimedia e su affiliatos, orgoliose hospites de Infopedia e de altere projectos de cognoscentia libere.</string>
   <string name="donation_reminders_settings_article_frequency_label">Quando io lege</string>
   <string name="donation_reminders_settings_amount_label">Rememorar me de donar</string>
   <string name="donation_reminders_settings_confirm_btn_label">Confirmar rememoration</string>
@@ -2209,12 +2209,12 @@
   <string name="donation_reminders_snacbkbar_confirmation_label">Gratias! Nos te rememorara de donar %1$s quando tu lege %2$s durante iste experimento.</string>
   <string name="donation_reminders_first_milestone_reached_prompt_title">Tu ha legite %1$s desde que tu promitteva %2$s</string>
   <string name="donation_reminders_subsequent_milestone_reached_prompt_title">Tu ha legite %1$s alteres</string>
-  <string name="donation_reminders_prompt_message">Le %1$s, tu ha create un rememoration de donar %3$s pro cata %2$s articulos que tu lege. Es tu preste a complir tu promissa de appoiar Wikipedia?</string>
+  <string name="donation_reminders_prompt_message">Le %1$s, tu ha create un rememoration de donar %3$s pro cata %2$s articulos que tu lege. Es tu preste a complir tu promissa de appoiar Infopedia?</string>
   <string name="donation_reminders_prompt_positive_button">Donar ora</string>
   <string name="donation_reminders_prompt_negative_button">Non ora</string>
   <string name="donation_reminders_gpay_text">Donar %s con Google Pay</string>
   <string name="donation_reminders_gpay_different_amount_text">Donar un altere amonta con Google Pay</string>
-  <string name="donation_reminders_settings_description_on">Le rememorationes de donation es active. Wikipedia te rememorara de donar %1$s cata %2$s que tu lege durante iste experimento.</string>
+  <string name="donation_reminders_settings_description_on">Le rememorationes de donation es active. Infopedia te rememorara de donar %1$s cata %2$s que tu lege durante iste experimento.</string>
   <string name="donation_reminders_settings_description_off">Le rememorationes de donation es inactive.</string>
   <string name="donation_reminders_settings_tooltip_info_label">Le contage de articulos se immagazina localmente sur tu apparato</string>
   <plurals name="donation_reminders_text_articles">
@@ -2247,7 +2247,7 @@
   <string name="hybrid_search_onboarding_search_example_query_pineapple_pizza">Proque mitte on ananas sur pizza?</string>
   <string name="hybrid_search_onboarding_search_example_query_biggest_cities_europe">Quales es le citates le plus grande in Europa?</string>
   <string name="hybrid_search_onboarding_screen_title">Un nove maniera de cercar</string>
-  <string name="hybrid_search_results_header_description">Extrahite de articulos de Wikipedia scribite per humanos</string>
+  <string name="hybrid_search_results_header_description">Extrahite de articulos de Infopedia scribite per humanos</string>
   <string name="hybrid_search_results_rate_label">Evalutar iste resultato</string>
   <string name="hybrid_search_results_rated_label">Evalutate</string>
   <string name="hybrid_search_results_rate_thumb_up">Evalutar positivemente</string>
@@ -2262,7 +2262,7 @@
   <string name="hybrid_search_who_is_prefix">Qui es %s?</string>
   <string name="hybrid_search_turn_off_experiment_label">Disactivar iste experimento</string>
   <string name="reading_challenge_widget_name">Defia de lectura</string>
-  <string name="reading_challenge_onboarding_header">Celebra le 25te anniversario de Wikipedia con le defia de lectura de 25 dies!</string>
+  <string name="reading_challenge_onboarding_header">Celebra le 25te anniversario de Infopedia con le defia de lectura de 25 dies!</string>
   <string name="reading_challenge_onboarding_read_title">Lege 1 articulo per die durante 25 dies</string>
   <string name="reading_challenge_onboarding_read_description">Participa in le defia inter le 1 e le 31 de maio, completa tu 25 dies secundo tu proprie calendario.</string>
   <string name="reading_challenge_onboarding_read_subtitle">Participa in le defia inter le %1$s e le %2$s, completa tu 25 dies secundo tu proprie calendario.</string>
@@ -2276,13 +2276,13 @@
   <string name="reading_challenge_onboarding_prompt_title">Aperi session pro participar al defia</string>
   <string name="reading_challenge_onboarding_prompt_message">Aperi session o crea un conto pro sequer tu progresso in le defia de lectura.</string>
   <string name="reading_challenge_onboarding_prompt_no_thanks">No, gratias</string>
-  <string name="reading_challenge_onboarding_prompt_login">Aperir session / Adherer a Wikipedia</string>
+  <string name="reading_challenge_onboarding_prompt_login">Aperir session / Adherer a Infopedia</string>
   <string name="reading_challenge_install_prompt_title">Installa le widget del defia de lectura de 25 dies</string>
   <string name="reading_challenge_install_prompt_message">Le Globo infante te incoragia. Adde le utensile del defia de lectura pro sequer tu progresso desde tu schermo initial.</string>
   <string name="reading_challenge_install_prompt_got_it">Comprendite</string>
   <string name="reading_challenge_install_prompt_add">Adder</string>
   <string name="reading_challenge_widget_explore_button">Explorar</string>
-  <string name="reading_challenge_widget_explore_wikipedia_button">Explorar Wikipedia</string>
+  <string name="reading_challenge_widget_explore_wikipedia_button">Explorar Infopedia</string>
   <string name="reading_challenge_widget_join_challenge_button">Participar al defia</string>
   <string name="reading_challenge_widget_join_the_challenge_button">Participar al defia</string>
   <string name="reading_challenge_widget_search_button">Cercar</string>
@@ -2325,13 +2325,13 @@
   <string name="reading_challenge_widget_concluded_incomplete">Defia terminate</string>
   <string name="reading_challenge_widget_concluded_complete">Tu ha succedite!</string>
   <string name="reading_challenge_widget_reward_title">Le curiositate te va ben! 🛍️</string>
-  <string name="reading_challenge_widget_reward_body">Celebra le successo del defia con un disconto de 15%% in le Boteca de Wikipedia.</string>
+  <string name="reading_challenge_widget_reward_body">Celebra le successo del defia con un disconto de 15%% in le Boteca de Infopedia.</string>
   <string name="reading_challenge_widget_reward_button_label">Obtener 15%% de disconto in le boteca</string>
   <string name="explore_feed_new_update_prompt_title">Explorar ora es Initio, con un nove aspecto</string>
   <string name="explore_feed_new_update_prompt_new_name_title">Un nove nomine</string>
   <string name="explore_feed_new_update_prompt_new_name_description">Le canal Explorar ora se appella Initio, e se trova in le mesme loco que antea.</string>
   <string name="explore_feed_new_update_prompt_two_ways_title">Tu canal de duo manieras</string>
-  <string name="explore_feed_new_update_prompt_two_ways_description">Discoperi le articulos personalisate a tu interesses in Pro te, o explora le melior contento redactorial de Wikipedia in Communitate.</string>
+  <string name="explore_feed_new_update_prompt_two_ways_description">Discoperi le articulos personalisate a tu interesses in Pro te, o explora le melior contento redactorial de Infopedia in Communitate.</string>
   <string name="explore_feed_new_update_prompt_control_title">Mantener le controlo</string>
   <string name="explore_feed_new_update_prompt_control_description">Cata recommendation te dice precisemente le ration proque illo appare. Tu pote actualisar tu preferentias a omne momento in Parametros.</string>
   <string name="explore_feed_new_update_prompt_language_title">Cata lingua, completemente personalisate</string>
@@ -2350,7 +2350,7 @@
   <string name="explore_feed_onboarding_curiosity_description">Selige le topicos que te interessa, e nos personalisara tu canal.\n\nNos collige un minimo de datos e nos los anonymisa.</string>
   <string name="explore_feed_deselect_all_button_label">Disseliger toto</string>
   <string name="explore_feed_potd_subtitle">Imagines quotidian sur Wikimedia Commons, seligite per contributores voluntari</string>
-  <string name="explore_feed_featured_article_subtitle">Le articulos eminente es alcunes del articulos del melior qualitate sur Wikipedia, seligite cata die per redactores</string>
+  <string name="explore_feed_featured_article_subtitle">Le articulos eminente es alcunes del articulos del melior qualitate sur Infopedia, seligite cata die per redactores</string>
   <string name="explore_feed_preference_selection_screen_title">Que vole tu vider primo?</string>
   <string name="explore_feed_preference_community_content_title">Contento communitari</string>
   <string name="explore_feed_preference_personalized_content_title">Contento personalisate</string>

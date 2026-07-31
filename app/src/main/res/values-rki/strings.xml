@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Dbrant
 * Tejoebāsa
@@ -7,9 +7,9 @@
 * 咽頭べさ
 -->
 <resources>
-  <string name="app_name_prod">ဝီကီပီးဒီးယား</string>
-  <string name="app_name_beta">ဝီကီပီးဒီးယား ဗီတာ</string>
-  <string name="app_name_alpha">ဝီကီပီးဒီးယားအယ်လဖာ</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">ဝီကီမီဒီယာ</string>
   <string name="nav_item_back">နောက်သို့</string>
   <string name="page_tabs_back">နောက်သို့</string>
@@ -142,7 +142,7 @@
   <string name="search_reading_lists_no_results">ဖတ်စာရင်းမှ ရလဒ်တိမဟိပါ</string>
   <string name="search_history_no_results">ရာဇဝင်ထဲမှာ ရလဒ်မတွိ့ပါ</string>
   <string name="edit_section_captcha_message">အလိုအလိုပီးပို့နီရေ မေးလ်တိရန်က ကာကွယ်ဖို့ အောက်က စာလုံးတိကို လိုက်ရိုက်ကြည့်ပါ။</string>
-  <string name="edit_section_captcha_request_an_account_message">ရုပ်ပုံကို မတွိ့ရပါသိလား? &lt;a href=\"https://my.wikipedia.org/wiki/Wikipedia:အကောင့်တစ်ခု_တောင်းဆိုဖို့\"&gt;အကောင့်တစ်ခု တောင်းဆိုဖို့&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">ရုပ်ပုံကို မတွိ့ရပါသိလား? &lt;a href=\"https://my.Infopedia.org/wiki/Infopedia:အကောင့်တစ်ခု_တောင်းဆိုဖို့\"&gt;အကောင့်တစ်ခု တောင်းဆိုဖို့&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">အထက်က စာလုံးကို ထပ်ရိုက်ပါ</string>
   <string name="title_captcha">CAPTCHA ဖြည့်ပါ</string>
   <string name="edit_section_captcha_reload">CAPTCHA ကိုထိပနာအသစ်ထပ်ယူပါ</string>
@@ -177,7 +177,7 @@
   <string name="logged_out_in_background_cancel">မလုပ်ယာ</string>
   <string name="account_vanish_request_title">အကောင့်ပျောက်</string>
   <string name="account_vanish_request_confirm_title">အကောင့်သတိပီးချက်ပျောက်ကွယ်</string>
-  <string name="account_vanish_request_confirm">ပျောက်ကွယ်လားခြင်းစော် &lt;b&gt;နောက်ဆုံးအားကိုးရာ&lt;/b&gt; ဖြစ်ပြီး &lt;b&gt;ထာဝရတီးဖြတ်ခြင်းကို ရပ်တန့်လိုရေ အချိန်တွင်ရာ အသုံးပြုသင့်ရေ&lt;/b&gt; နန့် သင်ဧ့အတိတ်ဆက်စပ်မှုတိကို တတ်နိုင်သမျှ ဖုံးကွယ်ထားဖို့ဖြစ်တေ။&lt;br/&gt;&lt;br/&gt;အကောင့်ပျက်ခြင်းလို့ ခေါ်ရေ အကောင့်ကို အခြားသူတိ မမှတ်မိနိုင်စီဖို့အတွက် Wikipedia တွင် အကောင့်ဖျက်ခြင်းကို ပြုလုပ်ပါရေ။  &lt;b&gt;ပျောက်ကွယ်လားခြင်းသည် လုံးဝနာမည်ဝှက်ခြင်း မဟုတ်ကေ ပရောဂျက်တိအတွက် ပံ့ပိုးမှုတိကို ဖယ်ရှားဖို့ အာမမခံနိုင်ပါ။&lt;/b&gt;</string>
+  <string name="account_vanish_request_confirm">ပျောက်ကွယ်လားခြင်းစော် &lt;b&gt;နောက်ဆုံးအားကိုးရာ&lt;/b&gt; ဖြစ်ပြီး &lt;b&gt;ထာဝရတီးဖြတ်ခြင်းကို ရပ်တန့်လိုရေ အချိန်တွင်ရာ အသုံးပြုသင့်ရေ&lt;/b&gt; နန့် သင်ဧ့အတိတ်ဆက်စပ်မှုတိကို တတ်နိုင်သမျှ ဖုံးကွယ်ထားဖို့ဖြစ်တေ။&lt;br/&gt;&lt;br/&gt;အကောင့်ပျက်ခြင်းလို့ ခေါ်ရေ အကောင့်ကို အခြားသူတိ မမှတ်မိနိုင်စီဖို့အတွက် Infopedia တွင် အကောင့်ဖျက်ခြင်းကို ပြုလုပ်ပါရေ။  &lt;b&gt;ပျောက်ကွယ်လားခြင်းသည် လုံးဝနာမည်ဝှက်ခြင်း မဟုတ်ကေ ပရောဂျက်တိအတွက် ပံ့ပိုးမှုတိကို ဖယ်ရှားဖို့ အာမမခံနိုင်ပါ။&lt;/b&gt;</string>
   <string name="history_empty_title">လတ်တလော စာမျက်နှာတိ ဒေနီရာမှာမဟိပါ</string>
   <string name="history_empty_message">အားလုံးကို သင် ဖျက်ပလိုက်စွာ ဖြစ်နိုင်ပါရေ။ နောင်ပိုင်း သင်ရောက်ခရေ စာမျက်နှာကို ဒေနီရာမှာ ပြန်ပနာရယူနိုင်ပါရေ။</string>
   <string name="history_offline_articles_toast">အော့ဖ်လိုင်းဖြစ်နီချိန်မှာ ရာဇဝင်ထဲက ဆောင်းပါးတချို့ကို ကြည့်လို့မရဖြစ်နိုင်ပါရေ။</string>
@@ -209,7 +209,7 @@
   <string name="create_account_button">အကောင့် ဖန်တီးပါ</string>
   <string name="create_account_name_unavailable">အသုံးပြုသူနာမည် %s သည် မရနိုင်ပါ။ ကျေးဇူးပြုပနာ ကွဲပြားရေ နာမည်တစ်ခု ရွီးချယ်ပါ။</string>
   <string name="create_account_ip_block_message">သင်ဧ့ အိုင်ပီလိပ်စာကို အကောင့်ဖန်တီးခြင်းမှ လက်ဟိ ပိတ်ပင်တားဆီးထားပါရေ။</string>
-  <string name="create_account_ip_block_help_url">https://en.wikipedia.org/wiki/အကူအညီ:အကျွန့်ကို_ပိတ်ပင်ထားရေ</string>
+  <string name="create_account_ip_block_help_url">https://en.Infopedia.org/wiki/အကူအညီ:အကျွန့်ကို_ပိတ်ပင်ထားရေ</string>
   <string name="create_account_ip_block_details">အသီးစိတ်</string>
   <string name="preferences_general_heading">အထွီထွီ</string>
   <string name="preferences_account_heading">အကောင့်</string>
@@ -243,15 +243,15 @@
   <string name="about_description">ဝီကီးပီးဒီးယားအက်ပ် အကြောင်း</string>
   <string name="privacy_policy_description">ကိုယ်ရေးကိုယ်တာ မူဝါဒ</string>
   <string name="terms_of_use_description">အသုံးပြုမူဆိုင်ရာ သတ်မှတ်ချက်တိ</string>
-  <string name="about_wikipedia_url">https://my.wikipedia.org/wiki/ဝီကီးပီးဒီးယား:အကြောင်း</string>
-  <string name="android_app_request_an_account_url">https://my.wikipedia.org/wiki/ဝီကီးပီးဒီးယား:အကောင့်တစ်ခု_တောင်းဆိုရန်</string>
+  <string name="about_wikipedia_url">https://my.Infopedia.org/wiki/ဝီကီးပီးဒီးယား:အကြောင်း</string>
+  <string name="android_app_request_an_account_url">https://my.Infopedia.org/wiki/ဝီကီးပီးဒီးယား:အကောင့်တစ်ခု_တောင်းဆိုရန်</string>
   <string name="about_libraries_heading">အသုံးပြုထားရေ စာကြေ့တိုက်တိ</string>
   <string name="about_contributors_heading">ပံ့ပိုးကူညီသူတိ</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;&lt;/a&gt;</string>
   <string name="about_translators_heading">ဘာသာပြန်သူတိ</string>
   <string name="about_translators_translatewiki">ဒေအက်ပ်ကို &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt; က စေတနာ့ဝန်ထမ်း ဘာသာပြန်သူတိက ဘာသာပြန်ပီးထားရေ။</string>
   <string name="about_app_license_heading">လိုင်စင်</string>
-  <string name="about_app_license">&lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;GitHub&lt;/a&gt; က &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0 License&lt;/a&gt; အောက်မှာ ရဟိနိုင်ရေ အရင်းအမြစ်ကုဒ်။  တခြားနည်းနန့် သတ်မှတ်ထားခြင်းမဟိ့ပါက၊ အကြောင်းအရာကို &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Creative Commons Attribution-ShareAlike License&lt;/a&gt; အောက်မှာ ရနိုင်ပါရေ။</string>
+  <string name="about_app_license">&lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;GitHub&lt;/a&gt; က &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0 License&lt;/a&gt; အောက်မှာ ရဟိနိုင်ရေ အရင်းအမြစ်ကုဒ်။  တခြားနည်းနန့် သတ်မှတ်ထားခြင်းမဟိ့ပါက၊ အကြောင်းအရာကို &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Creative Commons Attribution-ShareAlike License&lt;/a&gt; အောက်မှာ ရနိုင်ပါရေ။</string>
   <string name="about_wmf">&lt;a href=\"https://wikimediafoundation.org/\"&gt;ဝီကီမီးဒီးယား ဖောင်ဒေးရှင်း&lt;/a&gt; ဧ့ ထုတ်ကုန်တစ်ခု</string>
   <string name="about_activity_title">အကြောင်း</string>
   <string name="about_logo_content_description">ဝီကီးပီးဒီးယား ပဟေဠိကမ္ဘာလုံးလိုဂို</string>
@@ -409,7 +409,7 @@
   <string name="link_preview_dialog_share_button">မျှဝီ</string>
   <string name="link_preview_stub_placeholder_text">ဒေဆောင်းပါးစွာ ဆောင်းပါးတိုဖြိုက်ပြီးကေ၊ ဆိုလိုစွာမှာ အစမ်းကြေ့ရှုမှုပြုလုပ်ဖို့ ဆောင်းပါးမာ လုံလောက်ရေအကြောင်းအရာမဟိပါ။ ယဂေလဲ့၊ သင်ရေ ယင်းပိုင်ပြောင်းလဲနှိုင်ရေ။</string>
   <string name="error_page_does_not_exist">$1 (စာမျက်နှာမဟိသိမ်းပါ)</string>
-  <string name="error_user_page_does_not_exist">Wikipedia မာ ဒေနာမည်တိုက်ရိုက်ကျနန့် &lt;a href=\"%1$s\"&gt;အသုံးပြုသူစာမျက်နှာ&lt;/a&gt; မဟိပါ။ ယေဘုယျအနိန်နန့်၊ ဒေစာမျက်နှာကို &lt;b&gt;%2$s&lt;/b&gt; မှ ဖန်တီးပြီးကေ တီးဖြတ်သင့်ရေ။ သံသယဟိခကေ \"%3$s\" ဟိရေကို စစ်ဆီးပါ။</string>
+  <string name="error_user_page_does_not_exist">Infopedia မာ ဒေနာမည်တိုက်ရိုက်ကျနန့် &lt;a href=\"%1$s\"&gt;အသုံးပြုသူစာမျက်နှာ&lt;/a&gt; မဟိပါ။ ယေဘုယျအနိန်နန့်၊ ဒေစာမျက်နှာကို &lt;b&gt;%2$s&lt;/b&gt; မှ ဖန်တီးပြီးကေ တီးဖြတ်သင့်ရေ။ သံသယဟိခကေ \"%3$s\" ဟိရေကို စစ်ဆီးပါ။</string>
   <string name="view_wiki_error_message_offline">အင်တာနက်ပသို့ ချိတ်ဆက်နိုင်ခြင်း မဟိပါ။</string>
   <string name="view_wiki_error_message_timeout">ဝီကီပီးဒီးယားသို့ ချိတ်ဆက်မရနှိုင်ပါ။ သင်ဧ့ နက်ဝတ်ကွန်နက်ယှင်ကို စစ်ဆီးပါ သို့မဟုတ် ကြုံမှထပ်ပနာ ကြိုးစားကြေ့ပါ။</string>
   <string name="reference_title">ရည်ညွှန်း %s</string>
@@ -428,9 +428,9 @@
   <string name="error_blocked_start">ပိတ်ဆို့ခြင်းဧအစ- %s</string>
   <string name="error_blocked_expiry">ပိတ်ထားခြင်းဧ သက်တမ်းကုန်ဆုံးခြင်း- %s</string>
   <string name="error_blocked_id">ပိတ်ပင်မှုအိုင်ဒီ- %s</string>
-  <string name="error_blocked_footer">သင်ရေ &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; သို့မဟုတ် တခြားသော &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Administrators\"&gt;စီမံခန့်ခွဲသူ&lt;/a&gt; သို့ ဆက်သွီနှိုင်ပါရေ။</string>
+  <string name="error_blocked_footer">သင်ရေ &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; သို့မဟုတ် တခြားသော &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Administrators\"&gt;စီမံခန့်ခွဲသူ&lt;/a&gt; သို့ ဆက်သွီနှိုင်ပါရေ။</string>
   <string name="theme_chooser_menu_item_short_tooltip">သင့်ကိရိယာဘားကို စိတ်ကြိုက်ပြင်ဆင်ပါ။</string>
-  <string name="error_blocked_footer_no_blocker">ပိတ်ပင်မှုအကြောင်းဆွီးနွီးရန် &lt;a href=\"https://my.wikipedia.org/wiki/ဝီကီပီးဒီးယား:Administrators\"&gt;စီမံခန့်ခွဲသူ&lt;/a&gt;ကိုဆက်သွီနှိုင်ပါရေ။</string>
+  <string name="error_blocked_footer_no_blocker">ပိတ်ပင်မှုအကြောင်းဆွီးနွီးရန် &lt;a href=\"https://my.Infopedia.org/wiki/ဝီကီပီးဒီးယား:Administrators\"&gt;စီမံခန့်ခွဲသူ&lt;/a&gt;ကိုဆက်သွီနှိုင်ပါရေ။</string>
   <string name="temp_account_not_logged_in">သင်စွာ လော့ဂ်အင်မဝင်ထားပါ</string>
   <string name="temp_account_anon_ip_dialog_body">သင်တီးဖြတ်ပြီးစွာနန့်၊ သင်ဧ့ IP လိပ်စာစွာ သင်ဧ့တီးဖြတ်မှုတိနန့် ဆက်စပ်နီပါလိမေ။&lt;br /&gt;&lt;br /&gt;&lt;a href=\"https://#login\"&gt;အကောင့်ဝင်ပါ&lt;/a&gt; သို့မဟုတ် &lt;a href=\"https://#createaccount\"&gt;အကောင့်တစ်ခုဖန်တီးပါ&lt;/a&gt; နန့် နောင်တီးဖြတ်မှုတိအတွက် ခရက်ဒစ်ရယူဖို့နန့် အခြားဝန်ဆောင်မှုတိကို ရယူရန်။</string>
   <string name="temp_account_anon_dialog_body">သင်တီးဖြတ်ပြီးစွာနန့် သင့်ကိုယ်ရီးကိုယ်တာ ကာကွယ်ဖို့အတွက် &lt;b&gt;ယာယီအကောင့်&lt;/b&gt;ကို ဖန်တီးပေးဖို့ဖြိုက်ရေ။ &lt;a href=\"%1$s\"&gt;ပိုပြီးကေလိ့လာဖို့&lt;/a&gt;။&lt;br /&gt;&lt;br /&gt;&lt;a href=\"https://#login\"&gt;ဝင်ရောက်ပါ&lt;/a&gt; သို့မဟုတ် &lt;a href=\"https://#createaccount\"&gt;အကောင့်တစ်ခုဖန်တီးပါ&lt;/a&gt; နန့် တခြားဝန်ဆောင်မှုတိအတွက် ခရက်ဒစ်ရယူဖို့နန့် အခြားဝန်ဆောင်မှုတိကို ဝင်ရောက်ကြည့်ရှုဖို့။</string>
@@ -574,8 +574,8 @@
   <string name="reading_list_confirm_remove_article_from_offline_title">ဆောင်းပါးစွာ စရင်းအများကြီးမာ ပေါ်နီရေ</string>
   <string name="reading_list_confirm_remove_article_from_offline_message">%s စွာ စာဖတ်စရင်းတိအားလုံးအတွက် အော့ဖ်လိုင်းတွင် ရဟိနိုင်လီဖို့မဟုတ်ပါ:</string>
   <string name="reading_lists_sync_reminder_title">စာဖတ်စရင်း sync လုပ်ခြင်းကို ဖွင့်ဖို့လား။</string>
-  <string name="reading_lists_sync_reminder_text">စာဖတ်စရင်းတွင် သိမ်းဆည်းထားရေ ဆောင်းပါးတိကို သင်ဧ့ Wikipedia အကောင့်သို့ ယခု စင့်ခ်လုပ်နိုင်ပါရေ။  &lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;ပိုပနာလိ့လာဖို့&lt;/a&gt;</string>
-  <string name="reading_lists_login_reminder_text_with_link">ဒေဂုအခါတွင် စာဖတ်ခြင်းစရင်းတိကို စက်ပစ္စည်းတိတွင် စင့်ခ်လုပ်နိုင်ပါရေ။  သင်ဧ့ Wikipedia အကောင့်သို့ ဝင်ရောက်ပြီးကေ သင်ဧ့စရင်းတိကို သိမ်းဆည်းခွင့်ပြုပါ။  &lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;ပိုမိုလိ့လာဖို့&lt;/a&gt;</string>
+  <string name="reading_lists_sync_reminder_text">စာဖတ်စရင်းတွင် သိမ်းဆည်းထားရေ ဆောင်းပါးတိကို သင်ဧ့ Infopedia အကောင့်သို့ ယခု စင့်ခ်လုပ်နိုင်ပါရေ။  &lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;ပိုပနာလိ့လာဖို့&lt;/a&gt;</string>
+  <string name="reading_lists_login_reminder_text_with_link">ဒေဂုအခါတွင် စာဖတ်ခြင်းစရင်းတိကို စက်ပစ္စည်းတိတွင် စင့်ခ်လုပ်နိုင်ပါရေ။  သင်ဧ့ Infopedia အကောင့်သို့ ဝင်ရောက်ပြီးကေ သင်ဧ့စရင်းတိကို သိမ်းဆည်းခွင့်ပြုပါ။  &lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;ပိုမိုလိ့လာဖို့&lt;/a&gt;</string>
   <string name="reading_lists_sync_reminder_action">Sync လုပ်ခြင်းကို ဖွင့်ဖို့</string>
   <string name="reading_list_login_reminder_title">စာဖတ်စာရင်းတိကို sync လုပ်ပါ</string>
   <string name="reading_lists_login_reminder_text">စာဖတ်စရင်းတိကို စက်ပစ္စည်းများသို့ sync လုပ်နိုင်ပါယာ။ သင်ဧ့ စရင်းတိကို သိမ်းဆည်းဖို့ ဝီကီးပီးဒီးယားအကောင့်သို့ လော့အင်ဝင်ရောက်ပါ။</string>
@@ -846,7 +846,7 @@
   <string name="feed_accessibility_card_text">သင်စွာ ဖိဒ်ဧ့အောက်ခြီသို့ ရောက်ဟိလားပါယာ။</string>
   <string name="feed_accessibility_card_load_more_button">ပိုမိုခေါ်ယူပါ</string>
   <string name="feed_language_variants_removal_dialog_title">ပိုမိုကောင်းမွန်ရေ စာဖတ်ခြင်းအတွိအကြုံအတွက် ဒေသတွင်းဘာသာစကားမျိုးကွဲကို ရွီးချယ်ပါ</string>
-  <string name="feed_language_variants_removal_dialog_message">သင်စွာ လက်ဟိမာ သင်ဧ့အဓိက Wikipedia ဘာသာစကားအဖြိုက် ပံ့ပိုးမထားရေ ယေဘူယျ တရုတ်ဘာသာစကားမျိုးကွဲကို အသုံးပြုနီပါရေ</string>
+  <string name="feed_language_variants_removal_dialog_message">သင်စွာ လက်ဟိမာ သင်ဧ့အဓိက Infopedia ဘာသာစကားအဖြိုက် ပံ့ပိုးမထားရေ ယေဘူယျ တရုတ်ဘာသာစကားမျိုးကွဲကို အသုံးပြုနီပါရေ</string>
   <string name="feed_language_variants_removal_dialog_save">သိမ်းပါ</string>
   <string name="feed_language_variants_removal_secondary_dialog_title">ကျေးဇူးပြုပနာ သင်ဧ့ဒုတိယဘာသာစကားတိကို အပ်ဒိတ်လုပ်ပါ</string>
   <string name="feed_language_variants_removal_secondary_dialog_message">သင်စွာ လက်ဟိမာ ပံ့ပိုးမထားရေ ယေဘူယျ တရုတ်ဘာသာစကား မူကွဲကို ဒုတိယဘာသာစကားအဖြိုက် အသုံးပြုနီပါရေ။  ဒုတိယဘာသာစကားအသစ်ကို ရွီးချယ်ဖို့ သို့မဟုတ် သင့်ဘာသာစကားစရင်းကို အတည်ပြုဖို့ သင့်ဆက်တင်တိပါး လားပါ။</string>

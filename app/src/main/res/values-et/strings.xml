@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * August MF
 * Jrttrw
@@ -14,9 +14,9 @@
 * Yupik
 -->
 <resources>
-  <string name="app_name_prod">Vikipeedia</string>
-  <string name="app_name_beta">Vikipeedia Beeta</string>
-  <string name="app_name_alpha">Vikipeedia Alfa</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Wikimedia</string>
   <string name="nav_item_back">Tagasi</string>
   <string name="page_tabs_back">Tagasi</string>
@@ -198,7 +198,7 @@
   <string name="about_translators_heading">Tõlkijad</string>
   <string name="about_translators_translatewiki">Selle rakenduse tõlkisid vabatahtlikud tõlkijad &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net-is&lt;/a&gt;.</string>
   <string name="about_app_license_heading">Litsents</string>
-  <string name="about_app_license">Lähtekood on saadaval &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;GitHubis&lt;/a&gt; &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0 litsentsi&lt;/a&gt; alusel. Kui pole teisiti öeldud, on sisu saadaval &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.et\"&gt;Creative Commonsi litsentsi \"Autorile viitamine + jagamine samadel tingimustel\"&lt;/a&gt; alusel.</string>
+  <string name="about_app_license">Lähtekood on saadaval &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;GitHubis&lt;/a&gt; &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0 litsentsi&lt;/a&gt; alusel. Kui pole teisiti öeldud, on sisu saadaval &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.et\"&gt;Creative Commonsi litsentsi \"Autorile viitamine + jagamine samadel tingimustel\"&lt;/a&gt; alusel.</string>
   <string name="about_wmf">&lt;a href=\"https://wikimediafoundation.org/\"&gt;Wikimedia Foundationi&lt;/a&gt; toode</string>
   <string name="about_activity_title">Teave</string>
   <string name="edit_abandon_confirm">Lehekülg on muudetud. Kas oled kindel, et soovid väljuda muudatusi salvestamata?</string>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Alex00728
 * Apzp79
@@ -41,9 +41,9 @@
 * 아라
 -->
 <resources>
-  <string name="app_name_prod">위키백과</string>
-  <string name="app_name_beta">위키백과 베타</string>
-  <string name="app_name_alpha">위키백과 알파</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">위키미디어</string>
   <string name="nav_item_back">뒤로</string>
   <string name="page_tabs_back">뒤로</string>
@@ -175,7 +175,7 @@
   <string name="search_reading_lists_no_results">읽기 목록에 결과가 없습니다</string>
   <string name="search_history_no_results">역사에 결과가 없습니다</string>
   <string name="edit_section_captcha_message">자동화된 스팸으로부터 보호하기 위해, 아래에 나타나는 낱말을 입력해 주세요</string>
-  <string name="edit_section_captcha_request_an_account_message">그림이 보이지 않습니까? &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;계정 요청하기&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">그림이 보이지 않습니까? &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;계정 요청하기&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">위의 낱말을 한 번 더 입력하세요</string>
   <string name="title_captcha">캡차를 입력하세요</string>
   <string name="edit_section_captcha_reload">새로 고치려면 캡차를 누르세요</string>
@@ -242,7 +242,7 @@
   <string name="create_account_button">계정 만들기</string>
   <string name="create_account_name_unavailable">\"%s\" 사용자 이름을 사용할 수 없습니다. 다른 이름을 선택해 주십시오.</string>
   <string name="create_account_ip_block_message">죄송하지만, 당신의 IP 주소가 현재 새로운 계정을 생성하지 못하도록 차단되어 있습니다.</string>
-  <string name="create_account_ip_block_help_url">https://en.wikipedia.org/wiki/Help:I_have_been_blocked</string>
+  <string name="create_account_ip_block_help_url">https://en.Infopedia.org/wiki/Help:I_have_been_blocked</string>
   <string name="create_account_ip_block_details">자세한 사항</string>
   <string name="preferences_general_heading">일반</string>
   <string name="preferences_account_heading">계정</string>
@@ -277,17 +277,17 @@
   <string name="privacy_policy_description">개인정보보호정책</string>
   <string name="terms_of_use_description">이용 약관</string>
   <string name="legal_safety_contacts_description">법률 및 안전 관련 문의</string>
-  <string name="about_wikipedia_url">https://ko.wikipedia.org/wiki/위키백과:소개</string>
-  <string name="offline_reading_and_data_url">https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Offline_reading_and_data</string>
+  <string name="about_wikipedia_url">https://ko.Infopedia.org/wiki/위키백과:소개</string>
+  <string name="offline_reading_and_data_url">https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Offline_reading_and_data</string>
   <string name="cc_by_sa_4_url">https://creativecommons.org/licenses/by-sa/4.0/deed.ko</string>
   <string name="cc_0_url">https://creativecommons.org/publicdomain/zero/1.0/deed.ko</string>
   <string name="about_libraries_heading">사용된 라이브러리</string>
   <string name="about_contributors_heading">기여자</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;팀 페이지&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;팀 페이지&lt;/a&gt;</string>
   <string name="about_translators_heading">번역자</string>
   <string name="about_translators_translatewiki">이 앱은 &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt;의 지원 번역자가 번역했습니다.</string>
   <string name="about_app_license_heading">라이선스</string>
-  <string name="about_app_license">소스 코드는 &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;아파치 2.0 라이선스&lt;/a&gt; 하에 &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;깃허브&lt;/a&gt;에서 확인할 수 있습니다. 별도로 명시하지 않은 내용은 &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.ko\"&gt;크리에이티브 커먼즈 저작자표시-동일조건변경허락 라이선스&lt;/a&gt; 하에 이용할 수 있습니다.</string>
+  <string name="about_app_license">소스 코드는 &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;아파치 2.0 라이선스&lt;/a&gt; 하에 &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;깃허브&lt;/a&gt;에서 확인할 수 있습니다. 별도로 명시하지 않은 내용은 &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.ko\"&gt;크리에이티브 커먼즈 저작자표시-동일조건변경허락 라이선스&lt;/a&gt; 하에 이용할 수 있습니다.</string>
   <string name="about_wmf">&lt;a href=\"https://wikimediafoundation.org/\"&gt;위키미디어 재단&lt;/a&gt;의 제품</string>
   <string name="about_activity_title">정보</string>
   <string name="about_logo_content_description">위키백과 퍼즐 글로브 로고</string>
@@ -465,9 +465,9 @@
   <string name="error_blocked_start">차단일: %s</string>
   <string name="error_blocked_expiry">차단 해제일: %s</string>
   <string name="error_blocked_id">차단 ID: %s</string>
-  <string name="error_blocked_footer">&lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt;님 이나 다른 &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Administrators\"&gt;관리자&lt;/a&gt;와 차단에 관해 의논할 수 있습니다.</string>
+  <string name="error_blocked_footer">&lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt;님 이나 다른 &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Administrators\"&gt;관리자&lt;/a&gt;와 차단에 관해 의논할 수 있습니다.</string>
   <string name="theme_chooser_menu_item_short_tooltip">도구 모음 사용자 지정</string>
-  <string name="error_blocked_footer_no_blocker">&lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Administrators\"&gt;관리자&lt;/a&gt;와 차단에 관해 의논할 수 있습니다.</string>
+  <string name="error_blocked_footer_no_blocker">&lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Administrators\"&gt;관리자&lt;/a&gt;와 차단에 관해 의논할 수 있습니다.</string>
   <string name="temp_account_not_logged_in">로그인하고 있지 않습니다</string>
   <string name="temp_account_anon_ip_dialog_body">편집을 하면 IP 주소가 편집에 연결됩니다.&lt;br /&gt;&lt;br /&gt;향후 편집에 대한 신뢰를 얻고 다른 기능에 접근하려면 &lt;a href=\"https://#login\"&gt;로그인&lt;/a&gt;하거나 &lt;a href=\"https://#createaccount\"&gt;계정을 만드세요&lt;/a&gt;.</string>
   <string name="temp_account_anon_dialog_body">편집을 하면 개인 정보 보호를 위해 &lt;b&gt;임시 계정&lt;/b&gt;이 생성됩니다. &lt;a href=\"%1$s\"&gt;더 알아보기&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;향후 편집에 대한 신뢰를 얻고 다른 기능에 접근하려면 &lt;a href=\"https://#login\"&gt;로그인&lt;/a&gt;하거나 &lt;a href=\"https://#createaccount\"&gt;계정을 만드세요&lt;/a&gt;.</string>
@@ -605,8 +605,8 @@
   <string name="reading_list_confirm_remove_article_from_offline_title">글이 여러 목록으로 표시됩니다</string>
   <string name="reading_list_confirm_remove_article_from_offline_message">%s 문서는 모든 읽기 목록에 대해 오프라인에서 더 이상 읽을 수 없습니다:</string>
   <string name="reading_lists_sync_reminder_title">읽기 목록 동기화를 켜시겠습니까?</string>
-  <string name="reading_lists_sync_reminder_text">목록에 저장된 문서들을 위키백과 계정에 동기화할 수 있습니다. &lt;a href=\"https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;더 알아보기&lt;/a&gt;</string>
-  <string name="reading_lists_login_reminder_text_with_link">목록은 장치 간에 동기화될 수 있습니다. 위키백과 계정에 로그인하면 목록을 저장할 수 있습니다. &lt;a href=\"https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;더 알아보기&lt;/a&gt;</string>
+  <string name="reading_lists_sync_reminder_text">목록에 저장된 문서들을 위키백과 계정에 동기화할 수 있습니다. &lt;a href=\"https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;더 알아보기&lt;/a&gt;</string>
+  <string name="reading_lists_login_reminder_text_with_link">목록은 장치 간에 동기화될 수 있습니다. 위키백과 계정에 로그인하면 목록을 저장할 수 있습니다. &lt;a href=\"https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;더 알아보기&lt;/a&gt;</string>
   <string name="reading_lists_sync_reminder_action">동기화 사용</string>
   <string name="reading_list_login_reminder_title">읽기 목록 동기화</string>
   <string name="reading_lists_login_reminder_text">지금 읽기 목록을 여러 장치 간에 동기화할 수 있습니다. 위키백과 계정으로 로그인하면 목록을 저장할 수 있습니다.</string>
@@ -1401,7 +1401,7 @@
   <string name="talk_snackbar_survey_action_text">시작하기</string>
   <string name="talk_share_discussion_subject">위키백과 - 토론 문서 주제 \"%s\"의 토론</string>
   <string name="talk_share_talk_page">위키백과 - 토론 문서의 토론</string>
-  <string name="talk_edit_disclaimer">이것은 토론 문서입니다. 문서 지침을 준수해 주시고 4개의 물결표를 입력하여 게시글에 꼭 서명해 주세요: 위키텍스트를 사용하여 게시할 때 ~~~~를 입력합니다.&lt;br&gt;&lt;br&gt;&lt;a href=\"https://ko.wikipedia.org/wiki/위키백과:토론_문서_지침\"&gt;위키백과:토론 문서 지침&lt;/a&gt;</string>
+  <string name="talk_edit_disclaimer">이것은 토론 문서입니다. 문서 지침을 준수해 주시고 4개의 물결표를 입력하여 게시글에 꼭 서명해 주세요: 위키텍스트를 사용하여 게시할 때 ~~~~를 입력합니다.&lt;br&gt;&lt;br&gt;&lt;a href=\"https://ko.Infopedia.org/wiki/위키백과:토론_문서_지침\"&gt;위키백과:토론 문서 지침&lt;/a&gt;</string>
   <string name="talk_search_hint">메시지 검색</string>
   <string name="talk_search_topics_hint">주제 검색</string>
   <string name="talk_search_find_in_talk_topics_hint">토론 문서 주제에서 찾기</string>
@@ -1735,7 +1735,7 @@
   <string name="donate_gpay_check_recurring">월간 정기 기부로 설정해 보세요.</string>
   <string name="donate_gpay_check_send_email">네, 위키미디어 재단에서 가끔 이메일을 보내드릴 수 있게 됩니다.</string>
   <string name="donate_gpay_minimum_amount">금액을 선택해 주십시오 (최소 %s)</string>
-  <string name="donate_gpay_maximum_amount">저희 앱에서는 %s 이상의 기부를 받을 수 없습니다. benefactors@wikimedia.org를 통해 고액 기부 담당자에게 문의하세요.</string>
+  <string name="donate_gpay_maximum_amount">저희 앱에서는 %s 이상의 기부를 받을 수 없습니다. benefactors@infopedia.org를 통해 고액 기부 담당자에게 문의하세요.</string>
   <string name="donate_gpay_success_message">&lt;b&gt;감사합니다!&lt;/b&gt; 위키백과에 베풀어 주신 귀하의 아량은 우리에게 큰 의미가 있습니다.</string>
   <string name="donate_gpay_help_problems">기부하시는데 문제가 있습니까?</string>
   <string name="donate_gpay_help_other_ways">다른 기부 방법</string>

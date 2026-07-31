@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * AtonX
 * Cooltey
@@ -26,9 +26,9 @@
 * Yardom78
 -->
 <resources>
-  <string name="app_name_prod">Wikipédia</string>
-  <string name="app_name_beta">Wikipédia Beta</string>
-  <string name="app_name_alpha">Wikipédia Alfa</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Wikimédia</string>
   <string name="nav_item_back">Späť</string>
   <string name="page_tabs_back">Späť</string>
@@ -166,7 +166,7 @@
   <string name="search_reading_lists_no_results">V zoznamoch na prečítanie neboli nájdené žiadne výsledky</string>
   <string name="search_history_no_results">V histórii neboli nájdené žiadne výsledky</string>
   <string name="edit_section_captcha_message">Kvôli ochrane pred automatizovaným spamom, prosím zadajte slová ktoré sa objavujú nižšie.</string>
-  <string name="edit_section_captcha_request_an_account_message">Nevidíte obrázok? &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;Požiadajte o účet&lt;/a&gt; (anglicky)</string>
+  <string name="edit_section_captcha_request_an_account_message">Nevidíte obrázok? &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;Požiadajte o účet&lt;/a&gt; (anglicky)</string>
   <string name="edit_section_captcha_hint">Zadajte text z obrázku vyššie</string>
   <string name="title_captcha">Zadajte text</string>
   <string name="edit_section_captcha_reload">Ťuknutím načítate text znovu</string>
@@ -233,7 +233,7 @@
   <string name="create_account_button">Vytvoriť účet</string>
   <string name="create_account_name_unavailable">Používateľské meno \"%s\" nie je k dispozícii. Prosím, vyberte si iné meno.</string>
   <string name="create_account_ip_block_message">Je nám to ľúto, no z vašej IP adresy nie je možné vytvárať nové účty.</string>
-  <string name="create_account_ip_block_help_url">https://en.wikipedia.org/wiki/Help:I_have_been_blocked</string>
+  <string name="create_account_ip_block_help_url">https://en.Infopedia.org/wiki/Help:I_have_been_blocked</string>
   <string name="create_account_ip_block_details">Podrobnosti</string>
   <string name="preferences_general_heading">Všeobecné</string>
   <string name="preferences_account_heading">Účet</string>
@@ -268,21 +268,21 @@
   <string name="privacy_policy_description">Zásady ochrany súkromia</string>
   <string name="terms_of_use_description">Podmienky používania</string>
   <string name="legal_safety_contacts_description">Právne a bezpečnostné kontakty</string>
-  <string name="about_wikipedia_url">https://sk.wikipedia.org/wiki/Wikipédia:O_Wikipédii</string>
-  <string name="privacy_policy_url">https://foundation.wikimedia.org/wiki/Special:MyLanguage/Privacy_policy</string>
-  <string name="offline_reading_and_data_url">https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Offline_reading_and_data</string>
-  <string name="android_app_faq_url">https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ</string>
-  <string name="terms_of_use_url">https://foundation.wikimedia.org/wiki/Special:MyLanguage/Terms_of_Use</string>
-  <string name="android_app_request_an_account_url">https://en.wikipedia.org/wiki/Wikipedia:Request_an_account</string>
+  <string name="about_wikipedia_url">https://sk.Infopedia.org/wiki/Wikipédia:O_Wikipédii</string>
+  <string name="privacy_policy_url">https://foundation.infopedia.org/wiki/Special:MyLanguage/Privacy_policy</string>
+  <string name="offline_reading_and_data_url">https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Offline_reading_and_data</string>
+  <string name="android_app_faq_url">https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ</string>
+  <string name="terms_of_use_url">https://foundation.infopedia.org/wiki/Special:MyLanguage/Terms_of_Use</string>
+  <string name="android_app_request_an_account_url">https://en.Infopedia.org/wiki/Infopedia:Request_an_account</string>
   <string name="cc_by_sa_4_url">https://creativecommons.org/licenses/by-sa/4.0/deed.sk</string>
   <string name="cc_0_url">https://creativecommons.org/publicdomain/zero/1.0/deed.sk</string>
   <string name="about_libraries_heading">Použité knižnice</string>
   <string name="about_contributors_heading">Prispievatelia</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Stránka tímu&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Stránka tímu&lt;/a&gt;</string>
   <string name="about_translators_heading">Prekladatelia</string>
   <string name="about_translators_translatewiki">Táto aplikácia bola preložená s pomocou dobrovoľných prekladateľov na &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt;.</string>
   <string name="about_app_license_heading">Licencia</string>
-  <string name="about_app_license">Zdrojový kód dostupný na &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;GitHube&lt;/a&gt; na základe &lt;a href=\"https://phabricator.wikimedia.org/diffusion/APAW/browse/master/COPYING?view=raw\"&gt;licencie Apache 2.0&lt;/a&gt;. Pokiaľ nie je uvedené inak, je obsah dostupný pod &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;licenciou Creative Commons Attribution-ShareAlike&lt;/a&gt;.</string>
+  <string name="about_app_license">Zdrojový kód dostupný na &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;GitHube&lt;/a&gt; na základe &lt;a href=\"https://phabricator.infopedia.org/diffusion/APAW/browse/master/COPYING?view=raw\"&gt;licencie Apache 2.0&lt;/a&gt;. Pokiaľ nie je uvedené inak, je obsah dostupný pod &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;licenciou Creative Commons Attribution-ShareAlike&lt;/a&gt;.</string>
   <string name="about_wmf">Produkt &lt;a href=\"https://wikimediafoundation.org/\"&gt;Nadácie Wikimedia&lt;/a&gt;</string>
   <string name="about_activity_title">O aplikácii</string>
   <string name="about_logo_content_description">Logo puzzle glóbusu Wikipédie</string>
@@ -467,9 +467,9 @@
   <string name="error_blocked_start">Začiatok blokovania: %s</string>
   <string name="error_blocked_expiry">Koniec blokovania: %s</string>
   <string name="error_blocked_id">ID bloku: %s</string>
-  <string name="error_blocked_footer">Môžete kontaktovať &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; alebo iného &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Administrators\"&gt;administrátora&lt;/a&gt; pre diskutovanie o bloku.</string>
+  <string name="error_blocked_footer">Môžete kontaktovať &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; alebo iného &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Administrators\"&gt;administrátora&lt;/a&gt; pre diskutovanie o bloku.</string>
   <string name="theme_chooser_menu_item_short_tooltip">Prispôsobte si panel nástrojov</string>
-  <string name="error_blocked_footer_no_blocker">Môžete kontaktovať a href=\"https://en.wikipedia.org/wiki/Wikipedia:Administrators\"&gt;administrátora&lt;/a&gt; pre diskutovanie o bloku.</string>
+  <string name="error_blocked_footer_no_blocker">Môžete kontaktovať a href=\"https://en.Infopedia.org/wiki/Infopedia:Administrators\"&gt;administrátora&lt;/a&gt; pre diskutovanie o bloku.</string>
   <string name="temp_account_not_logged_in">Nie ste prihlásení</string>
   <string name="temp_account_anon_ip_dialog_body">Po vykonaní úpravy bude s vašimi úpravami spojená vaša IP adresa.&lt;br /&gt;&lt;br /&gt;&lt;a href=\"https://#login\"&gt;Prihláste sa&lt;/a&gt; alebo si &lt;a href=\"https://#createaccount\"&gt;vytvorte účet&lt;/a&gt;, aby ste za budúce úpravy získali uznanie a mali prístup k ďalším funkciám.</string>
   <string name="temp_account_anon_dialog_body">Po vykonaní úpravy vám bude na ochranu vášho súkromia vytvorený &lt;b&gt;dočasný účet&lt;/b&gt;. &lt;a href=\"%1$s\"&gt;Ďalšie informácie&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;&lt;a href=\"https://#login\"&gt;Prihláste sa&lt;/a&gt; alebo si &lt;a href=\"https://#createaccount\"&gt;vytvorte účet&lt;/a&gt;, aby ste za budúce úpravy získali uznanie a mali prístup k ďalším funkciám.</string>
@@ -631,8 +631,8 @@
   <string name="reading_list_confirm_remove_article_from_offline_title">Článok je vo viacerých zoznamoch</string>
   <string name="reading_list_confirm_remove_article_from_offline_message">%s ďalej nebude dostupný offline pre všetky zoznamy na prečítanie:</string>
   <string name="reading_lists_sync_reminder_title">Chcete zapnúť synchronizáciu zoznamov na prečítanie?</string>
-  <string name="reading_lists_sync_reminder_text">Články uložené v zoznamoch na prečítanie je teraz možné synchronizovať s vaším účtom na Wikipédii. &lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Ďalšie informácie&lt;/a&gt;</string>
-  <string name="reading_lists_login_reminder_text_with_link">Zoznamy na prečítanie je teraz možné synchronizovať medzi zariadeniami. Prihláste sa do svojho účtu na Wikipédii a povoľte ukladanie svojich zoznamov. &lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Ďalšie informácie&lt;/a&gt;</string>
+  <string name="reading_lists_sync_reminder_text">Články uložené v zoznamoch na prečítanie je teraz možné synchronizovať s vaším účtom na Wikipédii. &lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Ďalšie informácie&lt;/a&gt;</string>
+  <string name="reading_lists_login_reminder_text_with_link">Zoznamy na prečítanie je teraz možné synchronizovať medzi zariadeniami. Prihláste sa do svojho účtu na Wikipédii a povoľte ukladanie svojich zoznamov. &lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Ďalšie informácie&lt;/a&gt;</string>
   <string name="reading_lists_sync_reminder_action">Povoliť synchronizáciu</string>
   <string name="reading_list_login_reminder_title">Synchronizovať zoznamy na prečítanie</string>
   <string name="reading_lists_login_reminder_text">Zoznamy na prečítanie môžu byť teraz synchronizované naprieč zariadeniami. Prihláste sa do svojho účtu na Wikipédii a povoľte ukladanie vašich zoznamov.</string>
@@ -1530,7 +1530,7 @@
   <string name="talk_snackbar_survey_action_text">Začať</string>
   <string name="talk_share_discussion_subject">Wikipédia - diskusia na stránke témy \"%s\"</string>
   <string name="talk_share_talk_page">Wikipédia - diskusie na diskusných stránkach</string>
-  <string name="talk_edit_disclaimer">Toto je diskusná stránka. Prosím rešpektujte pravidlá diskusných stránok a nezabudnite sa podpísať pod svoj príspevok napísaním štyroch vlniek: ~~~~ keď používate wikitext. &lt;br&gt;&lt;br&gt;&lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Talk_page_guidelines\"&gt;Wikipedia: Pravidlá diskusných stránok&lt;/a&gt;</string>
+  <string name="talk_edit_disclaimer">Toto je diskusná stránka. Prosím rešpektujte pravidlá diskusných stránok a nezabudnite sa podpísať pod svoj príspevok napísaním štyroch vlniek: ~~~~ keď používate wikitext. &lt;br&gt;&lt;br&gt;&lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Talk_page_guidelines\"&gt;Infopedia: Pravidlá diskusných stránok&lt;/a&gt;</string>
   <string name="talk_search_hint">Vyhľadať správy</string>
   <string name="talk_search_topics_hint">Hľadať témy</string>
   <string name="talk_search_find_in_talk_topics_hint">Nájsť na diskusnej stránke témy</string>
@@ -1857,7 +1857,7 @@
   <string name="patroller_saved_message_body_edit_summary">Dobrý deň {{{username}}}, zdá sa, že ste z Wikipédie odstránili obsah bez uvedenia zhrnutia úprav. Vždy, keď na Wikipédii pridávate alebo odstraňujete obsah, uveďte prosím zhrnutie úprav.</string>
   <string name="patroller_saved_message_body_do_not_censor">Dobrý deň {{{username}}}, zdá sa, že ste odstránili obsah bez toho, aby ste to prediskutovali na diskusnej stránke článku. Upozorňujeme, že Wikipédia nie je cenzurovaná a obsah by sa nemal odstraňovať len preto, že je kontroverzný. Ak sa domnievate, že informácia je nepresná, dosiahnite prosím konsenzus na diskusnej stránke článku.</string>
   <string name="talk_warn_learn_more_label">Zistite viac o zástupných symboloch v správach</string>
-  <string name="talk_warn_learn_more_url">https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_Suggested_edits#Message_placeholders</string>
+  <string name="talk_warn_learn_more_url">https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_Suggested_edits#Message_placeholders</string>
   <string name="talk_warn_saved_messages_usage_instruction">Použite niektorú z nižšie uvedených vzorových správ, prispôsobte si ju, odošlite ju a uložte medzi svoje správy.</string>
   <string name="patroller_saved_message_body_art_imp">Dobrý deň {{{username}}}. Váš článok je skvelý začiatok! Aby bol ešte lepší, zvážte pridanie ďalších referencií na spoľahlivé zdroje. Pomáha to overiť informácie a zlepšuje kvalitu článku. Ďalšie podrobnosti nájdete v odporúčaniach tejto Wikipédie o [[Wikipédia:Spoľahlivé zdroje|spoľahlivých zdrojoch]].</string>
   <string name="talk_templates_menu_edit_title">Upraviť</string>
@@ -1883,7 +1883,7 @@
   <string name="donate_gpay_check_recurring">Urobiť z tohto pravidelný mesačný dar.</string>
   <string name="donate_gpay_check_send_email">Áno, nadácia Wikimedia Foundation mi môže občas poslať e-mail.</string>
   <string name="donate_gpay_minimum_amount">Vyberte prosím sumu (minimálne %s)</string>
-  <string name="donate_gpay_maximum_amount">Dary vyššie ako %s nemôžeme prostredníctvom našej aplikácie prijať. Kontaktujte prosím našich pracovníkov pre veľké dary na adrese benefactors@wikimedia.org.</string>
+  <string name="donate_gpay_maximum_amount">Dary vyššie ako %s nemôžeme prostredníctvom našej aplikácie prijať. Kontaktujte prosím našich pracovníkov pre veľké dary na adrese benefactors@infopedia.org.</string>
   <string name="donate_gpay_success_message">&lt;b&gt;Ďakujeme!&lt;/b&gt; Vaša štedrosť voči Wikipédii pre nás znamená veľmi veľa.</string>
   <string name="donate_gpay_help_problems">Problémy s darovaním?</string>
   <string name="donate_gpay_help_other_ways">Iné spôsoby darovania</string>

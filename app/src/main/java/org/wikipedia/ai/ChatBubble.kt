@@ -307,7 +307,7 @@ fun ChatBubble(
                                     val historyEntry = HistoryEntry(pageTitle, HistoryEntry.SOURCE_INTERNAL_LINK)
                                     context.startActivity(PageActivity.newIntentForNewTab(context, historyEntry, pageTitle))
                                 } else {
-                                    Toast.makeText(context, "Opening Wikipedia Citation [$citationIndex]…", Toast.LENGTH_SHORT).show()
+                                    Toast.makeText(context, "Opening Infopedia Citation [$citationIndex]…", Toast.LENGTH_SHORT).show()
                                 }
                             }
                         )
@@ -318,7 +318,7 @@ fun ChatBubble(
                     if (articles.isNotEmpty()) {
                         Spacer(modifier = Modifier.height(14.dp))
                         Text(
-                            text = "📚 Wikipedia Sources (${articles.size})",
+                            text = "📚 Infopedia Sources (${articles.size})",
                             fontSize = 12.sp,
                             fontWeight = FontWeight.Bold,
                             color = WikipediaTheme.colors.secondaryColor,
@@ -408,7 +408,7 @@ private fun NeuHeroMediaCard(
                         )
                 )
                 Text(
-                    text = "🌐 Wikipedia Lead Article",
+                    text = "🌐 Infopedia Lead Article",
                     fontSize = 10.sp,
                     fontWeight = FontWeight.Bold,
                     color = Color.White,

@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Dbrant
 * J budissin
 * Michawiki
 -->
 <resources>
-  <string name="app_name_prod">Wikipedija</string>
-  <string name="app_name_beta">Wikipedija Beta</string>
-  <string name="app_name_alpha">Wikipedija Alpha</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Wikimedija</string>
   <string name="nav_item_back">Wróćo</string>
   <string name="page_tabs_back">Wróćo</string>
@@ -119,7 +119,7 @@
   <string name="search_reading_lists_no_results">Žane wuslědki namakane w čitanskich lisćinach</string>
   <string name="search_history_no_results">Žane wuslědki namakane w historiji</string>
   <string name="edit_section_captcha_message">Jako škit přez awtomatizowanym spamom zapodaj prošu słowa, kiž deleka widźiš</string>
-  <string name="edit_section_captcha_request_an_account_message">Njewidźiš wobraz? &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;Prašej so za wužiwarskim kontom&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">Njewidźiš wobraz? &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;Prašej so za wužiwarskim kontom&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">Horjeka pokazane słowa wospjetować</string>
   <string name="title_captcha">Captcha zapodać</string>
   <string name="edit_section_captcha_reload">Tłóč, zo by so CAPTCHA aktualizowało</string>
@@ -179,7 +179,7 @@
   <string name="create_account_button">Konto wutworić</string>
   <string name="create_account_name_unavailable">Wužiwarske mjeno \"%s\" njeje swobodne. Prošu wubjer sej hinaše mjeno.</string>
   <string name="create_account_ip_block_message">Bohužel je wutworjenje nowych kontow wot twojeje IP-adresy tuchwilu zakazane.</string>
-  <string name="create_account_ip_block_help_url">https://en.wikipedia.org/wiki/Help:I_have_been_blocked</string>
+  <string name="create_account_ip_block_help_url">https://en.Infopedia.org/wiki/Help:I_have_been_blocked</string>
   <string name="create_account_ip_block_details">Podrobnosće</string>
   <string name="preferences_general_heading">Powšitkowny</string>
   <string name="preferences_account_heading">Wužiwarske konto</string>
@@ -211,8 +211,8 @@
   <string name="about_description">Wo tutu app</string>
   <string name="privacy_policy_description">Datowoškitne směrnicy</string>
   <string name="terms_of_use_description">Wužiwanske wuměnjenja</string>
-  <string name="about_wikipedia_url">https://de.wikipedia.org/wiki/Wikipedia:Über_Wikipedia</string>
-  <string name="android_app_faq_url" fuzzy="true">https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ/de</string>
+  <string name="about_wikipedia_url">https://de.Infopedia.org/wiki/Infopedia:Über_Infopedia</string>
+  <string name="android_app_faq_url" fuzzy="true">https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ/de</string>
   <string name="about_libraries_heading">Trjebane biblioteki</string>
   <string name="about_contributors_heading">Přinošowarjo</string>
   <string name="about_translators_heading">Přełožowarjo</string>

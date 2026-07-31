@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Jim-by
 * MuratTheTurkish
@@ -8,9 +8,9 @@
 * Ucukor
 -->
 <resources>
-  <string name="app_name_prod">Вікіпэдыя</string>
-  <string name="app_name_beta">Вікіпэдыя Бэта</string>
-  <string name="app_name_alpha">Вікіпэдыя Альфа</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Вікімэдыя</string>
   <string name="nav_item_back">Назад</string>
   <string name="page_tabs_back">Назад</string>
@@ -143,7 +143,7 @@
   <string name="search_reading_lists_no_results">У сьпісах чытаньня вынікаў ня знойдзена</string>
   <string name="search_history_no_results">У гісторыі вынікаў ня знойдзена</string>
   <string name="edit_section_captcha_message">Каб найлепшым чынам дапамагчы нам абараніцца ад аўтаматычнага спаму, калі ласка, увядзіце словы, якія паданыя ніжэй</string>
-  <string name="edit_section_captcha_request_an_account_message">На бачыце выявы? &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;Падайце запыт на рахунак&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">На бачыце выявы? &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;Падайце запыт на рахунак&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">Паўтарыце словы зьверху</string>
   <string name="title_captcha">Увядзіце сымбалі з малюнку</string>
   <string name="edit_section_captcha_reload">Націсьніце малюнак для абнаўленьня</string>
@@ -222,13 +222,13 @@
   <string name="about_description">Пра аплікацыю Вікіпэдыя</string>
   <string name="privacy_policy_description">Палітыка прыватнасьці</string>
   <string name="terms_of_use_description">Умовы ўжываньня</string>
-  <string name="about_wikipedia_url">https://be-tarask.wikipedia.org/wiki/Вікіпэдыя:Пра_Вікіпэдыю</string>
+  <string name="about_wikipedia_url">https://be-tarask.Infopedia.org/wiki/Вікіпэдыя:Пра_Вікіпэдыю</string>
   <string name="about_libraries_heading">Выкарастаныя бібліятэкі</string>
   <string name="about_contributors_heading">Аўтары</string>
   <string name="about_translators_heading">Перакладнікі</string>
   <string name="about_translators_translatewiki">Гэтая аплікацыя была перакладзеная дабраахвотнікамі на &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt;.</string>
   <string name="about_app_license_heading">Ліцэнзія</string>
-  <string name="about_app_license">Крынічны код даступны на &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;GitHub&lt;/a&gt; пад &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;ліцэнзіяй Apache 2.0&lt;/a&gt;. Калі не пазначана іншае, зьмест даступны пад &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;ліцэнзіяй Creative Commons Attribution-ShareAlike&lt;/a&gt;.</string>
+  <string name="about_app_license">Крынічны код даступны на &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;GitHub&lt;/a&gt; пад &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;ліцэнзіяй Apache 2.0&lt;/a&gt;. Калі не пазначана іншае, зьмест даступны пад &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;ліцэнзіяй Creative Commons Attribution-ShareAlike&lt;/a&gt;.</string>
   <string name="about_wmf">Прадукт &lt;a href=\"https://wikimediafoundation.org/\"&gt;фундацыі «Вікімэдыя»&lt;/a&gt;</string>
   <string name="about_activity_title">Пра</string>
   <string name="edit_abandon_confirm">Старонка была зьмененая. Вы ўпэўнены, што жадаеце выйсьці без захаваньня Вашых зьменаў?</string>
@@ -370,7 +370,7 @@
   <string name="reading_list_name_hint">Назва гэтага сьпісу</string>
   <string name="reading_list_description_hint">Апісаньне (неабавязкова)</string>
   <string name="reading_list_select_item">Выбраць</string>
-  <string name="reading_lists_sync_reminder_text">Артыкулы, захаваныя ў сьпісы чытаньня, цяпер можна сынхранізаваць з вашым рахункам Вікіпэдыі. &lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Даведацца болей&lt;/a&gt;</string>
+  <string name="reading_lists_sync_reminder_text">Артыкулы, захаваныя ў сьпісы чытаньня, цяпер можна сынхранізаваць з вашым рахункам Вікіпэдыі. &lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Даведацца болей&lt;/a&gt;</string>
   <string name="reading_list_preference_login_to_enable_sync_dialog_cancel">Скасаваць</string>
   <string name="reading_list_preference_login_to_enable_sync_dialog_login">Увайсьці</string>
   <string name="reading_list_saved_list_rename">%1$s (створана ўдзельнікам)</string>

@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * IJzeren Jan
 * SaldırganSincap
 * Wrai
 -->
 <resources>
-  <string name="app_name_prod">Vikipedija</string>
-  <string name="app_name_beta">Vikipedija Beta</string>
-  <string name="app_name_alpha">Vikipedija Alfa</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Vikimedija</string>
   <string name="nav_item_back">Nazad</string>
   <string name="page_tabs_back">Nazad</string>
@@ -144,7 +144,7 @@
   <string name="search_reading_lists_no_results">Ne najden nijedin rezultat v spiskah za čitanje</string>
   <string name="search_history_no_results">Ne najden nijedin rezultat v historiji</string>
   <string name="edit_section_captcha_message">Za zaščitu protiv avtomatičnomu spamu prosimo, že vpišete te slova, ktore pokažut se niže</string>
-  <string name="edit_section_captcha_request_an_account_message">Ne vidite obrazok? &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;Zaprosite koristničsko konto&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">Ne vidite obrazok? &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;Zaprosite koristničsko konto&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">Povtorite slova pokazane vyše</string>
   <string name="title_captcha">Vvedite CAPTCHA</string>
   <string name="edit_section_captcha_reload">Nastuknite CAPTCHA za ponovno včitanje</string>
@@ -211,7 +211,7 @@
   <string name="create_account_button">Stvoriti koristničsko konto</string>
   <string name="create_account_name_unavailable">Koristničsko ime «%s» jest nedostupno. Prosimo, izberite ino ime.</string>
   <string name="create_account_ip_block_message">Izvinite, vaš IP-adres nyně jest zablokovany od tvorjenja novyh kont.</string>
-  <string name="create_account_ip_block_help_url">https://en.wikipedia.org/wiki/Help:I_have_been_blocked</string>
+  <string name="create_account_ip_block_help_url">https://en.Infopedia.org/wiki/Help:I_have_been_blocked</string>
   <string name="create_account_ip_block_details">Podrobnosti</string>
   <string name="preferences_general_heading">Obče</string>
   <string name="preferences_account_heading">Koristničsko konto</string>
@@ -246,14 +246,14 @@
   <string name="privacy_policy_description">Politika privatnosti</string>
   <string name="terms_of_use_description">Uslovja koristanja</string>
   <string name="legal_safety_contacts_description">Kontakty v oblasti prava i bezpečnosti</string>
-  <string name="about_wikipedia_url">https://incubator.wikimedia.org/wiki/Wp/isv/Incubator:O_projektu</string>
+  <string name="about_wikipedia_url">https://incubator.infopedia.org/wiki/Wp/isv/Incubator:O_projektu</string>
   <string name="about_libraries_heading">Izkoristane biblioteky</string>
   <string name="about_contributors_heading">Avtori</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Stranica družiny&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Stranica družiny&lt;/a&gt;</string>
   <string name="about_translators_heading">Prěvoditelji</string>
   <string name="about_translators_translatewiki">Tuta aplikacija byla prěvedena dobrovoljnymi prěvoditeljami na projektu &lt;a href=\"https://translatewiki.net\"&gt;&lt;/a&gt;.</string>
   <string name="about_app_license_heading">Licencija</string>
-  <string name="about_app_license">Izvorny kod jest dostupny na &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;GitHub&lt;/a&gt; pod licencijeju &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0&lt;/a&gt;. Ako ne jest ukazano inako, sodržanje jest dostupno pod licencijeju &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Creative Commons Attribution-ShareAlike&lt;/a&gt;.</string>
+  <string name="about_app_license">Izvorny kod jest dostupny na &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;GitHub&lt;/a&gt; pod licencijeju &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0&lt;/a&gt;. Ako ne jest ukazano inako, sodržanje jest dostupno pod licencijeju &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Creative Commons Attribution-ShareAlike&lt;/a&gt;.</string>
   <string name="about_wmf">Produkt &lt;a href=\"https://wikimediafoundation.org/\"&gt;Fundacije Wikimedia&lt;/a&gt;</string>
   <string name="about_activity_title">O aplikaciji</string>
   <string name="about_logo_content_description">Logotip globusa-glavolomky Vikipedije</string>
@@ -435,9 +435,9 @@
   <string name="error_blocked_start">Početok blokady: %s</string>
   <string name="error_blocked_expiry">Konec blokady: %s</string>
   <string name="error_blocked_id">Identifikator blokady: %s</string>
-  <string name="error_blocked_footer">Ako vy hočete razgovarjati o blokadě, možete kontaktovati koristnika &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; ili drugogo &lt;a href=\"https://incubator.wikimedia.org/wiki/Incubator:Administrators\"&gt;administratora&lt;/a&gt;.</string>
+  <string name="error_blocked_footer">Ako vy hočete razgovarjati o blokadě, možete kontaktovati koristnika &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; ili drugogo &lt;a href=\"https://incubator.infopedia.org/wiki/Incubator:Administrators\"&gt;administratora&lt;/a&gt;.</string>
   <string name="theme_chooser_menu_item_short_tooltip">Prisposobite sobě panel orudij</string>
-  <string name="error_blocked_footer_no_blocker">Ako vy hočete razgovarjati o blokadě, možete kontaktovati &lt;a href=\"https://incubator.wikimedia.org/wiki/Incubator:Administrators\"&gt;administratora&lt;/a&gt;.</string>
+  <string name="error_blocked_footer_no_blocker">Ako vy hočete razgovarjati o blokadě, možete kontaktovati &lt;a href=\"https://incubator.infopedia.org/wiki/Incubator:Administrators\"&gt;administratora&lt;/a&gt;.</string>
   <string name="temp_account_not_logged_in">Vy ne jeste prijavjeni</string>
   <string name="temp_account_anon_ip_dialog_body">Kogda vy sdělajete pravku, vaš IP-adres bude povezany s vašimi pravkami.&lt;br /&gt;&lt;br /&gt;&lt;a href=\"https://#login\"&gt;Prijavite se&lt;/a&gt; ili &lt;a href=\"https://#createaccount\"&gt;stvorite koristničsko konto&lt;/a&gt;, da by buduče pravky byli vam pripisane, i da byste iměli dostup k drugym funkcijam.</string>
   <string name="temp_account_anon_dialog_body">Kogda vy sdělajete pravku, stvorjeno bude za vas &lt;b&gt;začasno koristničsko konto&lt;/b&gt; za zaščitu vašej privatnosti. &lt;a href=\"%1$s\"&gt;Podrobnosti&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;&lt;a href=\"https://#login\"&gt;Prijavite se&lt;/a&gt; ili &lt;a href=\"https://#createaccount\"&gt;stvorite koristničsko konto&lt;/a&gt; da by buduče pravky byli vam pripisane, i da byste iměli dostup k drugym funkcijam.</string>
@@ -599,8 +599,8 @@
   <string name="reading_list_confirm_remove_article_from_offline_title">Članok jest na několikyh spiskah</string>
   <string name="reading_list_confirm_remove_article_from_offline_message">%s veče ne bude dostupny oflajn za vse spisky za čitanje:</string>
   <string name="reading_lists_sync_reminder_title">Vključiti sinhronizaciju spiskov za čitanje?</string>
-  <string name="reading_lists_sync_reminder_text">Članky, zapisane v spiskah za čitanje, tutčas mogut byti sinhronizovane s vašim koristničskym kontom v Vikipediji. &lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Podrobnosti&lt;/a&gt;</string>
-  <string name="reading_lists_login_reminder_text_with_link">Spisky za čitanje tutčas mogut byti sinhronizovane medžu raznymi aparatami. Prijavite se k svojemu koristničskomu kontu v Vikipediji i dozvolite zapisanje vaših spiskov. &lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Podrobnosti&lt;/a&gt;</string>
+  <string name="reading_lists_sync_reminder_text">Članky, zapisane v spiskah za čitanje, tutčas mogut byti sinhronizovane s vašim koristničskym kontom v Vikipediji. &lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Podrobnosti&lt;/a&gt;</string>
+  <string name="reading_lists_login_reminder_text_with_link">Spisky za čitanje tutčas mogut byti sinhronizovane medžu raznymi aparatami. Prijavite se k svojemu koristničskomu kontu v Vikipediji i dozvolite zapisanje vaših spiskov. &lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Podrobnosti&lt;/a&gt;</string>
   <string name="reading_lists_sync_reminder_action">Vključiti sinhronizaciju</string>
   <string name="reading_list_login_reminder_title">Sinhronizovati spisky za čitanje</string>
   <string name="reading_lists_login_reminder_text">Spisky za čitanje tutčas mogut byti sinhronizovane medžu raznymi aparatami. Prijavite se k svojemu koristničskomu kontu v Vikipediji i dozvolite zapisanje vaših spiskov.</string>
@@ -1474,7 +1474,7 @@
   <string name="talk_snackbar_survey_action_text">Začeti</string>
   <string name="talk_share_discussion_subject">Vikipedija – razgovor o prědmetu besědnoj stranici «%s»</string>
   <string name="talk_share_talk_page">Vikipedija – diskusije na besědnoj stranici</string>
-  <string name="talk_edit_disclaimer">Tuta jest besědna stranica. Prosimo, pridržite se směrnic za vedenje razgovorov i ne zabyvajte podpisyvati svoje soobčenja s pomočju četyreh tild: ~~~~, kogda vy budete pisati v formatu vikiteksta.&lt;br&gt;&lt;br&gt;&lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Talk_page_guidelines\"&gt;Vikipedija:Směrnice za besědne stranice&lt;/a&gt;</string>
+  <string name="talk_edit_disclaimer">Tuta jest besědna stranica. Prosimo, pridržite se směrnic za vedenje razgovorov i ne zabyvajte podpisyvati svoje soobčenja s pomočju četyreh tild: ~~~~, kogda vy budete pisati v formatu vikiteksta.&lt;br&gt;&lt;br&gt;&lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Talk_page_guidelines\"&gt;Vikipedija:Směrnice za besědne stranice&lt;/a&gt;</string>
   <string name="talk_search_hint">Iskati soobčenja</string>
   <string name="talk_search_topics_hint">Iskati temy</string>
   <string name="talk_search_find_in_talk_topics_hint">Poiskati v temě besědnoj stranice</string>
@@ -1788,17 +1788,17 @@
   <string name="patroller_saved_message_title_do_not_censor">Ne cenzurovati</string>
   <string name="patroller_saved_message_title_art_imp">Prědloženje za ulěpšenje članka</string>
   <string name="patroller_saved_message_body_vandalism">Zdravo, {{{username}}}! Ja hoču vam soobčiti, že jesm odčinil(a) jednu ili veče vaših [{{{diffLink}}}|poslědnjih pravok], ibo one ne izdavali se konstruktivnymi. Ako po vašemu mněnju to bylo pogrěška ili ako vy imajete pytanja, možete ostaviti poslanje na [[User talk:{{{senderUserName}}}|mojej besědnoj stranici]]. Imajte v vidu, že prodolženy vandalizm može dovesti do ograničenij.</string>
-  <string name="patroller_saved_message_body_editing_tests">Zdravo, {{{username}}}! My mnogo radujemo se, že Vikipedija privlekla vašu uvagu, i že vy interesujete se tym, kako ju praviti. Vaš test byl uspěšny. Jednakože imajte v vidu, že cěljem tutogo projekta jest stvorjenje věrodostojnoj, popolnoj enciklopedije, ktoru vsekto može koristati. Vaša pravka iměla vliv na sodržanje, takto ona byla odčinjena.\nAko vy hočete eksperimentovati s pravjenjem Vikipedije, vy možete upotrěbjati [[Wikipedia:Sandbox|pěskovišče]]. Ako vaše komentare odnosili se konkretno k jednomu članku, pravilno město jest besědna stranica pri tom članku.</string>
-  <string name="patroller_saved_message_body_npov">Zdravo, {{{username}}}! Někoje iz vaših pravok sut nesgodne s trěbovanjami  nevtralnosti, ustanovjenymi v politikě Vikipedije o [[Wikipedia:NPOV|nevtralnoj točkě zrěnja]]. Iz toj pričiny někoja čest iz njih byla izměnjena ili udaljena. Prosimo, izměnite paragrafy ili razděly, ktore prědstavjajut pristrastnu točku zrěnja, i zaměnite je nevtralnějšim i objektivnějšim tekstom, odpovědajučim kriterijam enciklopedije.</string>
+  <string name="patroller_saved_message_body_editing_tests">Zdravo, {{{username}}}! My mnogo radujemo se, že Vikipedija privlekla vašu uvagu, i že vy interesujete se tym, kako ju praviti. Vaš test byl uspěšny. Jednakože imajte v vidu, že cěljem tutogo projekta jest stvorjenje věrodostojnoj, popolnoj enciklopedije, ktoru vsekto može koristati. Vaša pravka iměla vliv na sodržanje, takto ona byla odčinjena.\nAko vy hočete eksperimentovati s pravjenjem Vikipedije, vy možete upotrěbjati [[Infopedia:Sandbox|pěskovišče]]. Ako vaše komentare odnosili se konkretno k jednomu članku, pravilno město jest besědna stranica pri tom članku.</string>
+  <string name="patroller_saved_message_body_npov">Zdravo, {{{username}}}! Někoje iz vaših pravok sut nesgodne s trěbovanjami  nevtralnosti, ustanovjenymi v politikě Vikipedije o [[Infopedia:NPOV|nevtralnoj točkě zrěnja]]. Iz toj pričiny někoja čest iz njih byla izměnjena ili udaljena. Prosimo, izměnite paragrafy ili razděly, ktore prědstavjajut pristrastnu točku zrěnja, i zaměnite je nevtralnějšim i objektivnějšim tekstom, odpovědajučim kriterijam enciklopedije.</string>
   <string name="patroller_saved_message_body_auto_trans">Zdravo, {{{username}}}! Někoje iz vaših pravok izgledajut na mašinne prěvody. Iz toj pričiny one byli izměnjene ili označene šablonom. Ako v članok ne budut vvedene popravky, on može byti odstranjeny.\n\nAko vy, pomimo tutoj informacije, ješče imajete pytanja, možete ostaviti poslanje na [[User talk:{{{senderUserName}}}|mojej besědnoj stranici]]. Ne obezhrabrite se tutym malym incidentom. Vaš vklad jest mnogo važny za Vikipediju.</string>
-  <string name="patroller_saved_message_body_coi_rem">Zdravo, {{{username}}}! Ja cěnju vašu surabotu v Vikipediji. Jednakože jesm primětil(a), že vy imajete [[Wikipedia:Conflict_of_interest|konflikt interesov]]. Konflikt interesov označaje nekompatitibilnost medžu cěljami Vikipedije v oblasti nevtralnosti i věrodostojnosti po jednoj straně, i osobnymi naměrami oprěděljenyh redaktorov ili osob, organizacij ili kompanij libokakoko roda.\n\nVsaky vklad v glavny imenny prostor podvrgaje se politikě odnosno kriterij za sodržanje tutoj Vikipedije ([[Wikipedia:What_Wikipedia_is_not|čto Vikipedija ne jest]]), enciklopedičnu kakost ([[Wikipedia:Verifiability|prověrimost]] i [[nedopustimost vlastnyh izslědovanij]]). Vsekto, kto publikuje svoj vklad v VIkipediju, povinen jest pridrživati se tutyh pravil pri tvorjenu i ocěnjanju sodržanja, a takože považati drugyh redaktorov i prědpokladati dobre naměry v jihnom dějanju.\n\nAko vy pravite pomimo konflikta interesov, trěba priměnjati odnosnu politiku s osoblivoju sověstnostju. V protivnom slučaju vaše koristničsko konto može byti zablokovano za služenje privatnym cěljam. Ako vy imajete kakekoli pytanja, vy spokojno možete obratiti se k mně na mojej besědnoj stranici.</string>
+  <string name="patroller_saved_message_body_coi_rem">Zdravo, {{{username}}}! Ja cěnju vašu surabotu v Vikipediji. Jednakože jesm primětil(a), že vy imajete [[Infopedia:Conflict_of_interest|konflikt interesov]]. Konflikt interesov označaje nekompatitibilnost medžu cěljami Vikipedije v oblasti nevtralnosti i věrodostojnosti po jednoj straně, i osobnymi naměrami oprěděljenyh redaktorov ili osob, organizacij ili kompanij libokakoko roda.\n\nVsaky vklad v glavny imenny prostor podvrgaje se politikě odnosno kriterij za sodržanje tutoj Vikipedije ([[Infopedia:What_Infopedia_is_not|čto Vikipedija ne jest]]), enciklopedičnu kakost ([[Infopedia:Verifiability|prověrimost]] i [[nedopustimost vlastnyh izslědovanij]]). Vsekto, kto publikuje svoj vklad v VIkipediju, povinen jest pridrživati se tutyh pravil pri tvorjenu i ocěnjanju sodržanja, a takože považati drugyh redaktorov i prědpokladati dobre naměry v jihnom dějanju.\n\nAko vy pravite pomimo konflikta interesov, trěba priměnjati odnosnu politiku s osoblivoju sověstnostju. V protivnom slučaju vaše koristničsko konto može byti zablokovano za služenje privatnym cěljam. Ako vy imajete kakekoli pytanja, vy spokojno možete obratiti se k mně na mojej besědnoj stranici.</string>
   <string name="patroller_saved_message_body_final_warning">Zatože vy jeste sdělali několiko destruktivnyh pravok, tuto bude vaše poslědnje prěduprědženje. Ako vy ješče raz vandalizujete Vikipedije, možnost pravjenja bude vam zablokovana.</string>
-  <string name="patroller_saved_message_body_copy_vio">Izdavaje se, že vaša nedavna pravka bez dozvoljenja sodrživala materialy zaščičene avtorskym pravom. Prosimo, uvěrite se, že vsako sodržanje jest sgodno s politikoju odnosno [[Wikipedia:Copyrights|avtorskyh prav]], da byste izběgali odstranjenja.</string>
+  <string name="patroller_saved_message_body_copy_vio">Izdavaje se, že vaša nedavna pravka bez dozvoljenja sodrživala materialy zaščičene avtorskym pravom. Prosimo, uvěrite se, že vsako sodržanje jest sgodno s politikoju odnosno [[Infopedia:Copyrights|avtorskyh prav]], da byste izběgali odstranjenja.</string>
   <string name="patroller_saved_message_body_edit_summary">Zdravo, {{{username}}}! Izgledaje na to, že vy jeste odstranili sodržanje iz Vikipedije, ale ne ostavili opis pravky. Prosimo, kogda vy něčto dodate ili odstranite, vpišite kratky opis svojej pravky.</string>
   <string name="patroller_saved_message_body_do_not_censor">Zdravo, {{{username}}}, izgledaje na to, že vy jeste odstranili sodržanje bez diskusije na besědnoj stranici pri članku. Prosimo, imajte v vedu, že Vikipedija ne podvrgaje se cenzurě, a sodržanje ne može byti odstranjeno samo za to, že jest sporno. Ako informacija po vašemu mněnju jest pogrěšna, prosimo, poprobujte dovesti k konsensusu na besědnoj stranici članka.</string>
   <string name="talk_warn_learn_more_label">Informacija o zapolniteljah soobčenij</string>
   <string name="talk_warn_saved_messages_usage_instruction">Koristajte prikladno soobčenje niže za prisposobjenje, odpravjenje i shranjenje v vaših soobčenjah.</string>
-  <string name="patroller_saved_message_body_art_imp">Zdravo, {{{username}}}! Vaš članok jest odličny početok! Da byste go ješče bolje ulěpšili, pomyslite o možnosti dodanja veče odnosnikov do věrodstojnyh izvorov. To pomože prověriti informaciju i povysi kakost članka. Pročitajte směrnice tutoj Vikipedije o [[Wikipedia:Reliable_sources|věrodostojnyh izvorah]] za podrobnosti.</string>
+  <string name="patroller_saved_message_body_art_imp">Zdravo, {{{username}}}! Vaš članok jest odličny početok! Da byste go ješče bolje ulěpšili, pomyslite o možnosti dodanja veče odnosnikov do věrodstojnyh izvorov. To pomože prověriti informaciju i povysi kakost članka. Pročitajte směrnice tutoj Vikipedije o [[Infopedia:Reliable_sources|věrodostojnyh izvorah]] za podrobnosti.</string>
   <string name="talk_templates_menu_edit_title">Praviti</string>
   <string name="data_opt_in_accept">Prijeti</string>
   <string name="data_opt_in_reject">Odkydnuti</string>
@@ -1822,7 +1822,7 @@
   <string name="donate_gpay_check_recurring">Sdělajte iz togo vsakoměsečno darovanje.</string>
   <string name="donate_gpay_check_send_email">Da, Fondacija Vikimedija može od časa do časa prisylati mi elektroničnu poštu.</string>
   <string name="donate_gpay_minimum_amount">Prosimo, izberite sumu (minimalno %s)</string>
-  <string name="donate_gpay_maximum_amount">My me možemo prijmati darovanja na sumu vysšu neželi %s črěz našu aplikaciju. Prosimo, kontaktujte se s našeju družinoju za velike darovanja na adres: benefactors@wikimedia.org.</string>
+  <string name="donate_gpay_maximum_amount">My me možemo prijmati darovanja na sumu vysšu neželi %s črěz našu aplikaciju. Prosimo, kontaktujte se s našeju družinoju za velike darovanja na adres: benefactors@infopedia.org.</string>
   <string name="donate_gpay_success_message">&lt;b&gt;Hvala!&lt;/b&gt; vaša ščedrost za Vikipediju jest mnogo cěnna za nas.</string>
   <string name="donate_gpay_help_problems">Problemy s darovanjem?</string>
   <string name="donate_gpay_help_other_ways">Drugy sposoby darovanja</string>
@@ -1908,8 +1908,8 @@
   <string name="on_this_day_game_notification_turned_off_snackbar_message">Uvědomjenja ob igrě izključene</string>
   <string name="on_this_day_game_notification_turned_on_snackbar_message">Uvědomjenja ob igrě vključene</string>
   <string name="on_this_day_game_notification_text">Dnešnja igra «Čto bylo prvo?» jest gotova do igranja.</string>
-  <string name="on_this_day_game_report_email_subject">Issue Report – Wikipedia games / Soobčenje o problemu – Igry Vikipedije</string>
-  <string name="on_this_day_game_report_email_body">I have encountered a problem with the Wikipedia games feature / Ja jesm našel/našla problem s funkcijeju «Igry Vikipedije»:\n- [Opišite konkretny problem]\n\nThe behavior I would like to see is / Očekyvano mnoju dějanje:\n- [Opišite prědloženo razrěšenje]</string>
+  <string name="on_this_day_game_report_email_subject">Issue Report – Infopedia games / Soobčenje o problemu – Igry Vikipedije</string>
+  <string name="on_this_day_game_report_email_body">I have encountered a problem with the Infopedia games feature / Ja jesm našel/našla problem s funkcijeju «Igry Vikipedije»:\n- [Opišite konkretny problem]\n\nThe behavior I would like to see is / Očekyvano mnoju dějanje:\n- [Opišite prědloženo razrěšenje]</string>
   <string name="on_this_day_game_notification_undo">Odčiniti</string>
   <string name="on_this_day_game_share_link_message">Ja igraju v «Čto bylo prvo?», vsakodnevny kviz na aplikaciji Vikipedije za Android %s</string>
   <string name="on_this_day_game_share_screen_title">Moj rezultat v dnešnjej igrě \n«Čto bylo prvo?»:\n%1$d/%2$d.</string>

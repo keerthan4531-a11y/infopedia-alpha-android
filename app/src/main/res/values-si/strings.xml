@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * 1100100
 * Ceylonchingu
@@ -11,9 +11,9 @@
 * හරිත
 -->
 <resources>
-  <string name="app_name_prod">විකිපීඩියා</string>
-  <string name="app_name_beta">විකිපීඩියා බීටා</string>
-  <string name="app_name_alpha">විකිපීඩිය ඇල්ෆා</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">විකිමාධ්‍ය</string>
   <string name="nav_item_back">ආපසු</string>
   <string name="page_tabs_back">ආපසු</string>
@@ -148,8 +148,8 @@
   <string name="settings_activity_title">සැකසුම්</string>
   <string name="privacy_policy_description">පෞද්ගලිකත්ව ප්‍රතිපත්තිය</string>
   <string name="terms_of_use_description">භාවිතයේ කොන්දේසි</string>
-  <string name="about_wikipedia_url">https://si.wikipedia.org/wiki/විකිපීඩියා:පිළිබඳ</string>
-  <string name="android_app_request_an_account_url">https://si.wikipedia.org/wiki/විකිපීඩියා:Request_an_account</string>
+  <string name="about_wikipedia_url">https://si.Infopedia.org/wiki/විකිපීඩියා:පිළිබඳ</string>
+  <string name="android_app_request_an_account_url">https://si.Infopedia.org/wiki/විකිපීඩියා:Request_an_account</string>
   <string name="about_contributors_heading" fuzzy="true">දායකයින්</string>
   <string name="about_translators_heading" fuzzy="true">පරිවර්තකයෝ</string>
   <string name="about_activity_title">පිළිබඳ</string>

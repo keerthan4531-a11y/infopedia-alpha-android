@@ -588,7 +588,7 @@ private fun NeuChatInputBar(
                             )
                             Spacer(modifier = Modifier.width(4.dp))
                             Text(
-                                text = "Wikipedia",
+                                text = "Infopedia",
                                 fontSize = 12.sp,
                                 fontWeight = FontWeight.Bold,
                                 color = WikipediaTheme.colors.progressiveColor
@@ -621,7 +621,7 @@ private fun NeuChatInputBar(
                             )
                             Spacer(modifier = Modifier.width(4.dp))
                             Text(
-                                text = "Wikipedia",
+                                text = "Infopedia",
                                 fontSize = 12.sp,
                                 fontWeight = FontWeight.Bold,
                                 color = WikipediaTheme.colors.secondaryColor

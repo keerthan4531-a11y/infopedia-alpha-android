@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * ArcaneIE
 * Dbrant
@@ -13,9 +13,9 @@
 * Vodnokon4e
 -->
 <resources>
-  <string name="app_name_prod">Уикипедия</string>
-  <string name="app_name_beta">Уикипедия бета</string>
-  <string name="app_name_alpha">Уикипедия алфа</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Уикимедия</string>
   <string name="nav_item_back">Назад</string>
   <string name="page_tabs_back">Назад</string>
@@ -149,7 +149,7 @@
   <string name="search_reading_lists_no_results">Не са открити резултати в списъка за четене</string>
   <string name="search_history_no_results">Не са открити резултати в историята</string>
   <string name="edit_section_captcha_message">За защита от автоматизиран спам, моля, напишете думите, които излизат по-долу.</string>
-  <string name="edit_section_captcha_request_an_account_message">Не можете да видите изображението? &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;Пуснете заявка за създаване на сметка&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">Не можете да видите изображението? &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;Пуснете заявка за създаване на сметка&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">Напишете горепоказаните думи</string>
   <string name="title_captcha">Въведете знаците от картинката</string>
   <string name="edit_section_captcha_reload">Докоснете CAPTCHA за презареждане</string>
@@ -216,7 +216,7 @@
   <string name="create_account_button">Създаване на сметка</string>
   <string name="create_account_name_unavailable">Потребителското име „%s“ не е налично. Моля, изберете различно име.</string>
   <string name="create_account_ip_block_message">За съжаление вашият IP адрес към момента е блокиран за създаване на нови сметки.</string>
-  <string name="create_account_ip_block_help_url">https://en.wikipedia.org/wiki/Help:I_have_been_blocked</string>
+  <string name="create_account_ip_block_help_url">https://en.Infopedia.org/wiki/Help:I_have_been_blocked</string>
   <string name="create_account_ip_block_details">Детайли</string>
   <string name="preferences_general_heading">Основни</string>
   <string name="preferences_account_heading">Сметка</string>
@@ -251,17 +251,17 @@
   <string name="privacy_policy_description">Защита на личните данни</string>
   <string name="terms_of_use_description">Условия за ползване</string>
   <string name="legal_safety_contacts_description">Правни контакти и контакти за безопасност</string>
-  <string name="about_wikipedia_url">https://bg.wikipedia.org/wiki/Уикипедия:За_Уикипедия</string>
-  <string name="privacy_policy_url">https://foundation.wikimedia.org/wiki/Special:MyLanguage/Privacy_policy</string>
-  <string name="offline_reading_and_data_url">https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Офлайн_четене_и_данни</string>
+  <string name="about_wikipedia_url">https://bg.Infopedia.org/wiki/Уикипедия:За_Уикипедия</string>
+  <string name="privacy_policy_url">https://foundation.infopedia.org/wiki/Special:MyLanguage/Privacy_policy</string>
+  <string name="offline_reading_and_data_url">https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Офлайн_четене_и_данни</string>
   <string name="cc_by_sa_4_url">https://creativecommons.org/licenses/by-sa/4.0/deed.bg</string>
   <string name="about_libraries_heading">Използвани библиотеки</string>
   <string name="about_contributors_heading">Сътрудници</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Страница на екипа&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Страница на екипа&lt;/a&gt;</string>
   <string name="about_translators_heading">Преводачи</string>
   <string name="about_translators_translatewiki">Това приложение е преведено от доброволните преводачи на &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt;.</string>
   <string name="about_app_license_heading">Лиценз</string>
-  <string name="about_app_license">Програмният код е достъпен на &lt;a href=\"https://gerrit.wikimedia.org/r/#/admin/projects/apps/android/wikipedia\"&gt;Gerrit&lt;/a&gt; и &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;GitHub&lt;/a&gt; под лиценз &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0&lt;/a&gt;. Освен ако друго не е упоменато, съдържанието е достъпно под лиценз &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.bg\"&gt;Creative Commons Attribution-ShareAlike&lt;/a&gt;.</string>
+  <string name="about_app_license">Програмният код е достъпен на &lt;a href=\"https://gerrit.infopedia.org/r/#/admin/projects/apps/android/Infopedia\"&gt;Gerrit&lt;/a&gt; и &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;GitHub&lt;/a&gt; под лиценз &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0&lt;/a&gt;. Освен ако друго не е упоменато, съдържанието е достъпно под лиценз &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.bg\"&gt;Creative Commons Attribution-ShareAlike&lt;/a&gt;.</string>
   <string name="about_wmf">Продукт на &lt;a href=\"https://wikimediafoundation.org/\"&gt;Фондация Уикимедия&lt;/a&gt;</string>
   <string name="about_activity_title">Относно</string>
   <string name="about_logo_content_description">Лого с пъзел глобус на Уикипедия</string>
@@ -440,9 +440,9 @@
   <string name="error_blocked_start">Начало на блокирането: %s</string>
   <string name="error_blocked_expiry">Изтичане на блокирането: %s</string>
   <string name="error_blocked_id">Идентификационен номер на блокирането: %s</string>
-  <string name="error_blocked_footer">Можете да се свържете с &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; или друг &lt;a href=\" href=\"https://bg.wikipedia.org/wiki/Уикипедия:Администратори\"&gt;администратор&lt;/a&gt;, за да обсъдите блокирането.</string>
+  <string name="error_blocked_footer">Можете да се свържете с &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; или друг &lt;a href=\" href=\"https://bg.Infopedia.org/wiki/Уикипедия:Администратори\"&gt;администратор&lt;/a&gt;, за да обсъдите блокирането.</string>
   <string name="theme_chooser_menu_item_short_tooltip">Персонализирайте лентата си с инструменти</string>
-  <string name="error_blocked_footer_no_blocker">Можете да се свържете с &lt;a href=\"https://https://bg.wikipedia.org/wiki/Уикипедия:Администратори\"&gt;администратор&lt;/a&gt;, за да обсъдите блокирането.</string>
+  <string name="error_blocked_footer_no_blocker">Можете да се свържете с &lt;a href=\"https://https://bg.Infopedia.org/wiki/Уикипедия:Администратори\"&gt;администратор&lt;/a&gt;, за да обсъдите блокирането.</string>
   <string name="temp_account_not_logged_in">Вие не сте влезли в системата</string>
   <string name="temp_account_anon_ip_dialog_body">След като направите редакция, вашият IP адрес ще бъде свързан с вашите редакции.&lt;br /&gt;&lt;br /&gt;&lt;a href=\"https://#login\"&gt;Влезте&lt;/a&gt; или &lt;a href=\"https://#createaccount\"&gt;създайте сметка&lt;/a&gt;, за да получите признание за бъдещи редакции и да получите достъп до други функции.</string>
   <string name="temp_account_anon_dialog_body">След като направите редакция, за вас ще бъде създадена &lt;b&gt;временна сметка&lt;/b&gt;, за да се защити поверителността ви. &lt;a href=\"%1$s\"&gt;Научете повече&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;&lt;a href=\"https://#login\"&gt;Влезте&lt;/a&gt; или &lt;a href=\"https://#createaccount\"&gt;създайте сметка&lt;/a&gt;, за да получите признание за бъдещи редакции и да получите достъп до други функции.</string>
@@ -582,8 +582,8 @@
   <string name="reading_list_confirm_remove_article_from_offline_title">Статията се намира в няколко списъка</string>
   <string name="reading_list_confirm_remove_article_from_offline_message">%s повече няма да е налична офлайн за всички списъци за четене:</string>
   <string name="reading_lists_sync_reminder_title">Включване на синхронизиране на списъци за четене?</string>
-  <string name="reading_lists_sync_reminder_text">Статиите, съхранени в списъците Ви за четене, вече могат да се синхронизират със сметката Ви в Уикипедия. &lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Научете повече&lt;/a&gt;</string>
-  <string name="reading_lists_login_reminder_text_with_link">Списъците за четене вече могат да бъдат синхронизирани на различни устройства. Влезте във Вашата сметка в Уикипедия и позволете списъците Ви да бъдат запазвани. &lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Научете повече&lt;/a&gt;</string>
+  <string name="reading_lists_sync_reminder_text">Статиите, съхранени в списъците Ви за четене, вече могат да се синхронизират със сметката Ви в Уикипедия. &lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Научете повече&lt;/a&gt;</string>
+  <string name="reading_lists_login_reminder_text_with_link">Списъците за четене вече могат да бъдат синхронизирани на различни устройства. Влезте във Вашата сметка в Уикипедия и позволете списъците Ви да бъдат запазвани. &lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Научете повече&lt;/a&gt;</string>
   <string name="reading_lists_sync_reminder_action">Включване на синхронизиране</string>
   <string name="reading_list_login_reminder_title">Синхронизация на списъците за четене</string>
   <string name="reading_lists_login_reminder_text">Списъците за четене вече могат да се синхронизират между устройства. Влезте в сметката си в Уикипедия, за да позволите съхранението на списъците си.</string>

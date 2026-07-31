@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Askar Nazyrov
 * Bosogo
@@ -7,9 +7,9 @@
 * MuratTheTurkish
 -->
 <resources>
-  <string name="app_name_prod">Википедия</string>
-  <string name="app_name_beta">Уикипедия Бета</string>
-  <string name="app_name_alpha">Уикипедия Альфа</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Викимедиа</string>
   <string name="nav_item_back">Артка</string>
   <string name="page_tabs_back">Артка</string>
@@ -115,9 +115,9 @@
   <string name="about_description">«Уикипедия» тиркемеси жөнүндө</string>
   <string name="privacy_policy_description">Купуялык саясаты</string>
   <string name="terms_of_use_description">Колдонуу шарттары</string>
-  <string name="about_wikipedia_url">https://ky.wikipedia.org/wiki/Уикипедия:тууралуу</string>
-  <string name="privacy_policy_url" fuzzy="true">https://meta.wikimedia.org/wiki/Купуялуулук_саясаты</string>
-  <string name="terms_of_use_url" fuzzy="true">https://foundation.m.wikimedia.org/wiki/Terms_of_Use</string>
+  <string name="about_wikipedia_url">https://ky.Infopedia.org/wiki/Уикипедия:тууралуу</string>
+  <string name="privacy_policy_url" fuzzy="true">https://meta.infopedia.org/wiki/Купуялуулук_саясаты</string>
+  <string name="terms_of_use_url" fuzzy="true">https://foundation.m.infopedia.org/wiki/Terms_of_Use</string>
   <string name="about_libraries_heading" fuzzy="true">колдонулган китепканалар</string>
   <string name="about_contributors_heading" fuzzy="true">авторлор</string>
   <string name="about_translators_heading">Котормочулар</string>

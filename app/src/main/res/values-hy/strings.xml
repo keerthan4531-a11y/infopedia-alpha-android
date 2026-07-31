@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Aram1985
 * GeoO
@@ -10,9 +10,9 @@
 * Սերգեյ Սաֆարյան
 -->
 <resources>
-  <string name="app_name_prod">Վիքիպեդիա</string>
-  <string name="app_name_beta">Վիքիպեդիա Բետա</string>
-  <string name="app_name_alpha">Վիքիպեդիա Ալֆա</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Վիքիմեդիա</string>
   <string name="nav_item_back">Հետ</string>
   <string name="page_tabs_back">Հետ</string>
@@ -178,8 +178,8 @@
   <string name="settings_activity_title">Կարգավորումներ</string>
   <string name="privacy_policy_description">Գաղտնիության քաղաքականություն</string>
   <string name="terms_of_use_description">Օգտագործման պայմաններ</string>
-  <string name="about_wikipedia_url">https://hy.wikipedia.org/wiki/Վիքիպեդիա:Վիքիպեդիայի_մասին</string>
-  <string name="offline_reading_and_data_url" fuzzy="true">https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ/hy#Ընթերցանության_ցուցակներ_և_անցանց_ընթերցում</string>
+  <string name="about_wikipedia_url">https://hy.Infopedia.org/wiki/Վիքիպեդիա:Վիքիպեդիայի_մասին</string>
+  <string name="offline_reading_and_data_url" fuzzy="true">https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ/hy#Ընթերցանության_ցուցակներ_և_անցանց_ընթերցում</string>
   <string name="about_contributors_heading">Հեղինակներ</string>
   <string name="about_translators_heading">Թարգմանիչներ</string>
   <string name="about_translators_translatewiki">Այս ծրագիրը թարգմանվել է կամավոր թարգմանիչների կողմից՝ &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt; կայքում։</string>

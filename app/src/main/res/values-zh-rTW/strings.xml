@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * A2093064
 * Chubit
@@ -43,9 +43,9 @@
 * 阿南之人
 -->
 <resources>
-  <string name="app_name_prod">維基百科</string>
-  <string name="app_name_beta">維基百科公測版</string>
-  <string name="app_name_alpha">維基百科封測版</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">維基媒體</string>
   <string name="nav_item_back">上一頁</string>
   <string name="page_tabs_back">返回</string>
@@ -178,7 +178,7 @@
   <string name="search_reading_lists_no_results">在閱讀清單查無結果</string>
   <string name="search_history_no_results">在歷史查無結果</string>
   <string name="edit_section_captcha_message">為了防止自動化的垃圾訊息，請輸入下方顯示的文字</string>
-  <string name="edit_section_captcha_request_an_account_message">看不到圖片嗎？您可以&lt;a href=\"https://zh.wikipedia.org/wiki/Wikipedia:账号请求\"&gt;申請一個帳號&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">看不到圖片嗎？您可以&lt;a href=\"https://zh.Infopedia.org/wiki/Infopedia:账号请求\"&gt;申請一個帳號&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">請重複輸入上面的文字</string>
   <string name="title_captcha">輸入驗證碼</string>
   <string name="edit_section_captcha_reload">輕觸驗證碼以重新載入</string>
@@ -245,7 +245,7 @@
   <string name="create_account_button">建立帳號</string>
   <string name="create_account_name_unavailable">使用者名稱「%s」不可用。請選擇其它名稱。</string>
   <string name="create_account_ip_block_message">很抱歉，您的IP位址目前已被封鎖而無法建立新帳號。</string>
-  <string name="create_account_ip_block_help_url">https://zh.wikipedia.org/wiki/Help:我被封禁了</string>
+  <string name="create_account_ip_block_help_url">https://zh.Infopedia.org/wiki/Help:我被封禁了</string>
   <string name="create_account_ip_block_details">詳細資訊</string>
   <string name="preferences_general_heading">一般</string>
   <string name="preferences_account_heading">帳號</string>
@@ -280,20 +280,20 @@
   <string name="privacy_policy_description">隱私權政策</string>
   <string name="terms_of_use_description">使用條款</string>
   <string name="legal_safety_contacts_description">法律與安全聯絡人</string>
-  <string name="about_wikipedia_url">https://zh.wikipedia.org/wiki/Wikipedia:關於</string>
-  <string name="privacy_policy_url">https://foundation.wikimedia.org/wiki/Special:MyLanguage/Privacy_policy</string>
-  <string name="offline_reading_and_data_url">https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ/zh#Offline_reading_and_data</string>
-  <string name="terms_of_use_url">https://foundation.wikimedia.org/wiki/Special:MyLanguage/Terms_of_Use</string>
-  <string name="android_app_request_an_account_url">https://zh.wikipedia.org/wiki/Wikipedia:账号请求</string>
+  <string name="about_wikipedia_url">https://zh.Infopedia.org/wiki/Infopedia:關於</string>
+  <string name="privacy_policy_url">https://foundation.infopedia.org/wiki/Special:MyLanguage/Privacy_policy</string>
+  <string name="offline_reading_and_data_url">https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ/zh#Offline_reading_and_data</string>
+  <string name="terms_of_use_url">https://foundation.infopedia.org/wiki/Special:MyLanguage/Terms_of_Use</string>
+  <string name="android_app_request_an_account_url">https://zh.Infopedia.org/wiki/Infopedia:账号请求</string>
   <string name="cc_by_sa_4_url">https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW</string>
   <string name="cc_0_url">https://creativecommons.org/publicdomain/zero/1.0/deed.zh_TW</string>
   <string name="about_libraries_heading">使用的函式庫</string>
   <string name="about_contributors_heading">貢獻者</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;團隊頁面&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;團隊頁面&lt;/a&gt;</string>
   <string name="about_translators_heading">翻譯人員</string>
   <string name="about_translators_translatewiki">此應用程式是由 &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt; 的志工翻譯的。</string>
   <string name="about_app_license_heading">授權條款</string>
-  <string name="about_app_license">原始碼位於 &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;GitHub&lt;/a&gt;，根據 &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0 許可證明&lt;/a&gt;授權。除非另有聲明，内容採用&lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW\"&gt;創用 CC 姓名標示 -相同方式分享授權條款&lt;/a&gt;。</string>
+  <string name="about_app_license">原始碼位於 &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;GitHub&lt;/a&gt;，根據 &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0 許可證明&lt;/a&gt;授權。除非另有聲明，内容採用&lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW\"&gt;創用 CC 姓名標示 -相同方式分享授權條款&lt;/a&gt;。</string>
   <string name="about_wmf">&lt;a href=\"https://wikimediafoundation.org/\"&gt;維基媒體基金會&lt;/a&gt;出品</string>
   <string name="about_activity_title">關於</string>
   <string name="about_logo_content_description">維基百科拼圖球標誌</string>
@@ -472,9 +472,9 @@
   <string name="error_blocked_start">封鎖起始：%s</string>
   <string name="error_blocked_expiry">封鎖期滿：%s</string>
   <string name="error_blocked_id">封鎖 ID：%s</string>
-  <string name="error_blocked_footer">您可以向&lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt;或是其他&lt;a href=\"https://zh.wikipedia.org/wiki/Wikipedia:管理员\"&gt;管理員&lt;/a&gt;聯絡來商量該封鎖操作。</string>
+  <string name="error_blocked_footer">您可以向&lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt;或是其他&lt;a href=\"https://zh.Infopedia.org/wiki/Infopedia:管理员\"&gt;管理員&lt;/a&gt;聯絡來商量該封鎖操作。</string>
   <string name="theme_chooser_menu_item_short_tooltip">自訂您的工具列</string>
-  <string name="error_blocked_footer_no_blocker">您可以聯絡&lt;a href=\"https://zh.wikipedia.org/wiki/Wikipedia:管理员\"&gt;管理員&lt;/a&gt;來商量該封鎖操作。</string>
+  <string name="error_blocked_footer_no_blocker">您可以聯絡&lt;a href=\"https://zh.Infopedia.org/wiki/Infopedia:管理员\"&gt;管理員&lt;/a&gt;來商量該封鎖操作。</string>
   <string name="temp_account_not_logged_in">您尚未登入</string>
   <string name="temp_account_anon_ip_dialog_body">一旦您做出編輯，您的IP位址將與您的編輯相關聯。&lt;br /&gt;&lt;br /&gt;請&lt;a href=\"https://#login\"&gt;登入&lt;/a&gt;或&lt;a href=\"https://#createaccount\"&gt;建立帳號&lt;/a&gt;來讓編輯內容歸在您名下，並存取其他功能。</string>
   <string name="temp_account_anon_dialog_body">一旦您做出編輯，會為您建立&lt;b&gt;臨時帳號&lt;/b&gt;以保護您的隱私。&lt;a href=\"%1$s\"&gt;了解更多&lt;/a&gt;。&lt;br /&gt;&lt;br /&gt;請&lt;a href=\"https://#login\"&gt;登入&lt;/a&gt;或&lt;a href=\"https://#createaccount\"&gt;建立帳號&lt;/a&gt;來讓編輯內容歸在您名下，並存取其他功能。</string>
@@ -618,8 +618,8 @@
   <string name="reading_list_confirm_remove_article_from_offline_title">出現在多個清單的條目</string>
   <string name="reading_list_confirm_remove_article_from_offline_message">%s不再用於所有閱讀清單的可用離線內容：</string>
   <string name="reading_lists_sync_reminder_title">開啟閱讀清單同步？</string>
-  <string name="reading_lists_sync_reminder_text">條目已儲存至閱讀清單，現在已可同步至您的百科帳號。&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;了解更多&lt;/a&gt;</string>
-  <string name="reading_lists_login_reminder_text_with_link">閱讀清單現可跨裝置同步。登入您的維基百科帳號來允許您的清單可被儲存。&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;了解更多&lt;/a&gt;</string>
+  <string name="reading_lists_sync_reminder_text">條目已儲存至閱讀清單，現在已可同步至您的百科帳號。&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;了解更多&lt;/a&gt;</string>
+  <string name="reading_lists_login_reminder_text_with_link">閱讀清單現可跨裝置同步。登入您的維基百科帳號來允許您的清單可被儲存。&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;了解更多&lt;/a&gt;</string>
   <string name="reading_lists_sync_reminder_action">啟用同步</string>
   <string name="reading_list_login_reminder_title">同步閱讀清單</string>
   <string name="reading_lists_login_reminder_text">閱讀清單現已具有跨裝置同步的功能。登入您的維基百科帳號，來允許儲存您的清單。</string>
@@ -1445,7 +1445,7 @@
   <string name="talk_snackbar_survey_action_text">入門</string>
   <string name="talk_share_discussion_subject">維基百科 - 討論頁話題「%s」的討論</string>
   <string name="talk_share_talk_page">維基百科 - 討論頁上的討論</string>
-  <string name="talk_edit_disclaimer">這是一個討論頁。請遵守討論頁的指引，並記得在使用 wikitext 發布內容時藉由輸入四個波浪號：~~~~ ，來在您發布的內容裡產生您的簽名。&lt;br&gt;&lt;br&gt;&lt;a href=\"https://zh.wikipedia.org/wiki/Wikipedia:討論頁指引\"&gt;維基百科:討論頁指引&lt;/a&gt;</string>
+  <string name="talk_edit_disclaimer">這是一個討論頁。請遵守討論頁的指引，並記得在使用 wikitext 發布內容時藉由輸入四個波浪號：~~~~ ，來在您發布的內容裡產生您的簽名。&lt;br&gt;&lt;br&gt;&lt;a href=\"https://zh.Infopedia.org/wiki/Infopedia:討論頁指引\"&gt;維基百科:討論頁指引&lt;/a&gt;</string>
   <string name="talk_search_hint">搜尋訊息</string>
   <string name="talk_search_topics_hint">搜尋話題</string>
   <string name="talk_search_find_in_talk_topics_hint">在討論頁話題尋找</string>
@@ -1751,17 +1751,17 @@
   <string name="patroller_saved_message_title_do_not_censor">不審查</string>
   <string name="patroller_saved_message_title_art_imp">條目改善建議</string>
   <string name="patroller_saved_message_body_vandalism">{{{username}}}您好，在這裡向您通知我回退了您的一筆或多筆[{{{diffLink}}}|近期編輯]，因為內容似乎缺乏建設性。如果您認為我做錯了，或是有其他疑問，請在[[User talk:{{{senderUserName}}}|我的討論頁面]]留言。另外請留意，持續的破壞行為可能會導致禁止編輯。</string>
-  <string name="patroller_saved_message_body_editing_tests">{{{username}}}您好，很高興維基百科引起了您的注意，並且您有興趣學習如何編輯。您所做的編輯測試雖已生效；但請記住，維基百科的目標是開發一個人人都可查閱，可靠且完整的百科全書。因為您的編輯已影響到條目內容，所以將其刪除。\n\n如果您想學習如何編輯維基百科，您可以在[[Wikipedia:Sandbox|沙盒]]測試。如果您想對某篇條目發表特定意見，請移至該條目的討論頁面。</string>
-  <string name="patroller_saved_message_body_npov">{{{username}}}您好，您所做的一些貢獻似乎不符合維基百科[[Wikipedia:中立的觀點|中立觀點]]方針裡所提到的中立性需求。因此部分內容已被修改或刪除。請修改那些表現出特定觀點的段落或章節，替換成較中立、客觀、符合百科全書預期的文字內容。</string>
+  <string name="patroller_saved_message_body_editing_tests">{{{username}}}您好，很高興維基百科引起了您的注意，並且您有興趣學習如何編輯。您所做的編輯測試雖已生效；但請記住，維基百科的目標是開發一個人人都可查閱，可靠且完整的百科全書。因為您的編輯已影響到條目內容，所以將其刪除。\n\n如果您想學習如何編輯維基百科，您可以在[[Infopedia:Sandbox|沙盒]]測試。如果您想對某篇條目發表特定意見，請移至該條目的討論頁面。</string>
+  <string name="patroller_saved_message_body_npov">{{{username}}}您好，您所做的一些貢獻似乎不符合維基百科[[Infopedia:中立的觀點|中立觀點]]方針裡所提到的中立性需求。因此部分內容已被修改或刪除。請修改那些表現出特定觀點的段落或章節，替換成較中立、客觀、符合百科全書預期的文字內容。</string>
   <string name="patroller_saved_message_body_auto_trans">{{{username}}}您好，您做的一些編輯被判斷成可能是機器翻譯，這就是為什麼您的貢獻有被修改過，或是被模板標記的原因。如果您的編輯對條目內容沒有改善，有可能會刪除掉。\n\n如果您對這些訊息仍有任何疑問，請隨時在 [[User talk:{{{senderUserName}}}|我的討論頁面]]上留言。請不要因為這樣的小事而灰心，您願意做出貢獻對維基百科非常重要。</string>
-  <string name="patroller_saved_message_body_coi_rem">{{{username}}}您好，感謝您在維基百科上的編輯協作；但是您的編輯行為被注意到有[[Wikipedia:利益衝突|利益衝突]]情況。所謂利益衝突是指維基百科的中立性和可靠性目標，與某些編輯者、個人、實體或任何類型公司的特定目標之間不一致。\n\n在維基百科主空間中的所有貢獻，都均須遵守維基百科內容標準方針（[[Wikipedia:維基百科不是什麼|維基百科不是什麼]]）、百科全書式品質（[[Wikipedia:可供查證|可供查證]]與[[Wikipedia:非原創研究|非原創研究]]）、編輯方法（[[Wikipedia:中立的觀點|中立的觀點]]），和內容的合法性（[[Wikipedia:著作權資訊|著作權]]）。所有發布者在建立與評估內容時都應遵守這些方針，並尊重、善意對待其他發布者的行為，以確保遵守這些方針。\n\n如果您是處於利益衝突情況下進行編輯，您必須特別謹慎地應用相對應的方針，否則您的使用者帳號可能會被視為出於私人目的而被封鎖。若您有任何疑問，請隨時在我的討論頁面留言。</string>
+  <string name="patroller_saved_message_body_coi_rem">{{{username}}}您好，感謝您在維基百科上的編輯協作；但是您的編輯行為被注意到有[[Infopedia:利益衝突|利益衝突]]情況。所謂利益衝突是指維基百科的中立性和可靠性目標，與某些編輯者、個人、實體或任何類型公司的特定目標之間不一致。\n\n在維基百科主空間中的所有貢獻，都均須遵守維基百科內容標準方針（[[Infopedia:維基百科不是什麼|維基百科不是什麼]]）、百科全書式品質（[[Infopedia:可供查證|可供查證]]與[[Infopedia:非原創研究|非原創研究]]）、編輯方法（[[Infopedia:中立的觀點|中立的觀點]]），和內容的合法性（[[Infopedia:著作權資訊|著作權]]）。所有發布者在建立與評估內容時都應遵守這些方針，並尊重、善意對待其他發布者的行為，以確保遵守這些方針。\n\n如果您是處於利益衝突情況下進行編輯，您必須特別謹慎地應用相對應的方針，否則您的使用者帳號可能會被視為出於私人目的而被封鎖。若您有任何疑問，請隨時在我的討論頁面留言。</string>
   <string name="patroller_saved_message_body_final_warning">由於您多次做出破壞性編輯，這是對您的最後警告。如果您再次破壞維基百科，您將被禁止編輯。</string>
-  <string name="patroller_saved_message_body_copy_vio">您最近的編輯內容似乎含有未經許可的受版權保護資料。為避免您的編輯遭到刪除，請確認所有內容均符合維基百科的[[Wikipedia:著作權資訊|版權]]方針。</string>
+  <string name="patroller_saved_message_body_copy_vio">您最近的編輯內容似乎含有未經許可的受版權保護資料。為避免您的編輯遭到刪除，請確認所有內容均符合維基百科的[[Infopedia:著作權資訊|版權]]方針。</string>
   <string name="patroller_saved_message_body_edit_summary">{{{username}}}您好，您似乎沒有留下任何編輯摘要，就直接刪除了維基百科的內容。請留意，每當您在維基百科裡新增或刪除內容時，請記得留下編輯摘要。</string>
   <string name="patroller_saved_message_body_do_not_censor">{{{username}}}您好，您似乎沒在條目討論頁面上進行討論，就直接移除了內容。請注意，維基百科的內容不受審查，不應內容有爭議而移除。如果您認為資訊不準確，請在條目討論頁面達成共識。</string>
   <string name="talk_warn_learn_more_label">了解訊息佔位符</string>
   <string name="talk_warn_saved_messages_usage_instruction">使用下面的範例訊息來自訂、傳送，並儲存到您的訊息裡。</string>
-  <string name="patroller_saved_message_body_art_imp">{{{username}}}您好，您的條目有很好的開始！為了讓內容變得更好，請考慮添加更多可靠來源引用。這有助於驗證內容的可信度，並提高條目的品質。請參閱維基百科[[Wikipedia:Reliable_sources|可靠來源]]上的指南來了解更多詳細資訊。</string>
+  <string name="patroller_saved_message_body_art_imp">{{{username}}}您好，您的條目有很好的開始！為了讓內容變得更好，請考慮添加更多可靠來源引用。這有助於驗證內容的可信度，並提高條目的品質。請參閱維基百科[[Infopedia:Reliable_sources|可靠來源]]上的指南來了解更多詳細資訊。</string>
   <string name="talk_templates_menu_edit_title">編輯</string>
   <string name="data_opt_in_accept">接受</string>
   <string name="data_opt_in_reject">拒絕</string>
@@ -1785,7 +1785,7 @@
   <string name="donate_gpay_check_recurring">將此作為每月定期捐款。</string>
   <string name="donate_gpay_check_send_email">是的，維基媒體基金會可以臨時對我發送電子郵件。</string>
   <string name="donate_gpay_minimum_amount">請選擇金額（最少 %s）</string>
-  <string name="donate_gpay_maximum_amount">我們無法透過我們的應用程式接受超過 %s 的捐款。請藉由 benefactors@wikimedia.org 電郵帳號來聯絡我們的贈品專門處理人員。</string>
+  <string name="donate_gpay_maximum_amount">我們無法透過我們的應用程式接受超過 %s 的捐款。請藉由 benefactors@infopedia.org 電郵帳號來聯絡我們的贈品專門處理人員。</string>
   <string name="donate_gpay_success_message">&lt;b&gt;感謝您！&lt;/b&gt;您對維基百科的慷慨捐款對我們至關重要。</string>
   <string name="donate_gpay_help_problems">捐贈時遇到問題？</string>
   <string name="donate_gpay_help_other_ways">其他給予方式</string>
@@ -1934,7 +1934,7 @@
   <string name="year_in_review_screendeck_image_content_description">年度回顧主畫面圖片資源</string>
   <string name="year_in_review_screenshot_error">無法產生螢幕截圖：%s</string>
   <string name="year_in_review_share_subject">我的維基百科年度回顧</string>
-  <string name="year_in_review_share_body">這是我的 Wikipedia 年度回顧，由 Wikipedia Android 應用程式製作。 %1$s %2$s</string>
+  <string name="year_in_review_share_body">這是我的 Infopedia 年度回顧，由 Infopedia Android 應用程式製作。 %1$s %2$s</string>
   <string name="year_in_review_globe_icon">地球圖示</string>
   <string name="settings_app_icon_title">應用程式圖示</string>
   <string name="settings_app_icon_subtitle">貢獻者福利</string>

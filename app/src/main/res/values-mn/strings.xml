@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Chinneeb
 * Enkhsaihan2005
@@ -9,9 +9,9 @@
 * Буцах
 -->
 <resources>
-  <string name="app_name_prod">Википедиа</string>
-  <string name="app_name_beta">Википедиа Бета хувилбар</string>
-  <string name="app_name_alpha">Википедиа Альфа хувилбар</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Википедиа</string>
   <string name="nav_item_back">Буцах</string>
   <string name="page_tabs_back">Буцах</string>
@@ -117,7 +117,7 @@
   <string name="search_reading_lists_no_results">Жагсаалтыг уншихад үр дүн олдсонгүй</string>
   <string name="search_history_no_results">Явцын түүхэнд ямар ч үр дүн олдсонгүй</string>
   <string name="edit_section_captcha_message">Автомат спамаас хамгаалахын тулд доор харагдаж байгаа үгнүүдийг оруулна уу</string>
-  <string name="edit_section_captcha_request_an_account_message">Та энэ зургийг харж чадахгүй байна уу? &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;Request an account&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">Та энэ зургийг харж чадахгүй байна уу? &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;Request an account&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">Дээрх үгнүүдийг давтана уу</string>
   <string name="title_captcha">CAPTCHA -г оруулна уу</string>
   <string name="edit_section_captcha_reload">CAPTCHA оруулна уу</string>
@@ -160,6 +160,6 @@
   <string name="create_account_button">Бүртгүүлэх</string>
   <string name="preferences_general_heading">Ерөнхий</string>
   <string name="settings_activity_title">Тохиргоо</string>
-  <string name="about_wikipedia_url">https://mn.wikipedia.org/wiki/Wikipedia:Википедиагийн_тухай</string>
+  <string name="about_wikipedia_url">https://mn.Infopedia.org/wiki/Infopedia:Википедиагийн_тухай</string>
   <string name="page_similar_titles" fuzzy="true">Бусад утга</string>
 </resources>

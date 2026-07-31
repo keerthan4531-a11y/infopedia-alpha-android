@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * TerranBoy
 -->
 <resources>
-  <string name="app_name_prod">ویکیپیدیا</string>
-  <string name="app_name_beta">ویکیپیدیاێ بێتا</string>
-  <string name="app_name_alpha">ویکیپیدیاێ ئالفا</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">ویکیمیدیا</string>
   <string name="search_hint">مینەکردن لە ویکیپیدیا</string>
   <string name="search_hint_search_languages">مینەێ زوانێگ کردن</string>

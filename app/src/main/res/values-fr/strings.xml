@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Aaribaud
 * Alno
@@ -82,9 +82,9 @@
 * ꠢꠣꠍꠘ ꠞꠣꠎꠣ
 -->
 <resources>
-  <string name="app_name_prod">Wikipédia</string>
-  <string name="app_name_beta">Wikipédia Bêta</string>
-  <string name="app_name_alpha">Wikipédia Alpha</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Wikimédia</string>
   <string name="nav_item_back">Retour</string>
   <string name="page_tabs_back">Retour</string>
@@ -218,7 +218,7 @@
   <string name="search_reading_lists_no_results">Aucun résultat trouvé dans les listes de lecture</string>
   <string name="search_history_no_results">Aucun résultat trouvé dans l’historique</string>
   <string name="edit_section_captcha_message">Pour aider à la protection contre le pourriel automatisé, veuillez saisir les mots qui apparaissent ci-dessous</string>
-  <string name="edit_section_captcha_request_an_account_message">Impossible de voir l’image ? &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;Demander un compte&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">Impossible de voir l’image ? &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;Demander un compte&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">Répéter les mots ci-dessus</string>
   <string name="title_captcha">Saisir le CAPTCHA</string>
   <string name="edit_section_captcha_reload">Touchez le CAPTCHA pour le recharger</string>
@@ -285,7 +285,7 @@
   <string name="create_account_button">Créer un compte</string>
   <string name="create_account_name_unavailable">Le nom d\'utilisateur « %s » n’est pas disponible. Veuillez choisir un autre nom.</string>
   <string name="create_account_ip_block_message">Désolé, votre adresse IP est actuellement bloquée pour créer de nouveaux comptes.</string>
-  <string name="create_account_ip_block_help_url">https://en.wikipedia.org/wiki/Help:I_have_been_blocked</string>
+  <string name="create_account_ip_block_help_url">https://en.Infopedia.org/wiki/Help:I_have_been_blocked</string>
   <string name="create_account_ip_block_details">Détails</string>
   <string name="preferences_general_heading">Général</string>
   <string name="preferences_account_heading">Compte</string>
@@ -320,20 +320,20 @@
   <string name="privacy_policy_description">Politique de confidentialité</string>
   <string name="terms_of_use_description">Conditions d’utilisation</string>
   <string name="legal_safety_contacts_description">Contacts juridiques &amp; sécurité</string>
-  <string name="about_wikipedia_url">https://fr.wikipedia.org/wiki/Wikipédia:À_propos_de_Wikipédia</string>
-  <string name="privacy_policy_url">https://foundation.wikimedia.org/wiki/Policy:Privacy_policy/fr</string>
-  <string name="offline_reading_and_data_url">https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ/fr#Offline_reading_and_data</string>
-  <string name="android_app_faq_url">https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ/fr</string>
-  <string name="terms_of_use_url">https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use/fr</string>
+  <string name="about_wikipedia_url">https://fr.Infopedia.org/wiki/Wikipédia:À_propos_de_Wikipédia</string>
+  <string name="privacy_policy_url">https://foundation.infopedia.org/wiki/Policy:Privacy_policy/fr</string>
+  <string name="offline_reading_and_data_url">https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ/fr#Offline_reading_and_data</string>
+  <string name="android_app_faq_url">https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ/fr</string>
+  <string name="terms_of_use_url">https://foundation.infopedia.org/wiki/Policy:Terms_of_Use/fr</string>
   <string name="cc_by_sa_4_url">https://creativecommons.org/licenses/by-sa/4.0/deed.fr</string>
   <string name="cc_0_url">https://creativecommons.org/publicdomain/zero/1.0/deed.fr</string>
   <string name="about_libraries_heading">Bibliothèques utilisées</string>
   <string name="about_contributors_heading">Contributeurs</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Team page&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Team page&lt;/a&gt;</string>
   <string name="about_translators_heading">Traducteurs</string>
   <string name="about_translators_translatewiki">Cette application a été traduite par les traducteurs bénévoles de &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt;.</string>
   <string name="about_app_license_heading">Licence</string>
-  <string name="about_app_license">Code source disponible sur &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;GitHub&lt;/a&gt; sous la &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;licence Apache 2.0&lt;/a&gt;. Sauf indication contraire, le contenu est disponible sous une &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;licence Creative Commons Attribution – Partage à l\'identique&lt;/a&gt;.</string>
+  <string name="about_app_license">Code source disponible sur &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;GitHub&lt;/a&gt; sous la &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;licence Apache 2.0&lt;/a&gt;. Sauf indication contraire, le contenu est disponible sous une &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;licence Creative Commons Attribution – Partage à l\'identique&lt;/a&gt;.</string>
   <string name="about_wmf">Un produit de la &lt;a href=\"https://wikimediafoundation.org/\"&gt;Fondation Wikimedia&lt;/a&gt;</string>
   <string name="about_activity_title">À propos</string>
   <string name="about_logo_content_description">Logo de Wikipédia, un puzzle de globe</string>
@@ -512,9 +512,9 @@
   <string name="error_blocked_start">Début du blocage : %s</string>
   <string name="error_blocked_expiry">Expiration du blocage : %s</string>
   <string name="error_blocked_id">Identifiant du blocage : %s</string>
-  <string name="error_blocked_footer">Vous pouvez contacter &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; ou un autre &lt;a href=\"https://fr.wikipedia.org/wiki/Wikipédia:Administrateur\"&gt;administrateur&lt;/a&gt; pour discuter le blocage.</string>
+  <string name="error_blocked_footer">Vous pouvez contacter &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; ou un autre &lt;a href=\"https://fr.Infopedia.org/wiki/Wikipédia:Administrateur\"&gt;administrateur&lt;/a&gt; pour discuter le blocage.</string>
   <string name="theme_chooser_menu_item_short_tooltip">Personnaliser votre barre d’outils</string>
-  <string name="error_blocked_footer_no_blocker">Vous pouvez contacter un &lt;a href=\"https://fr.wikipedia.org/wiki/Wikipédia:Administrateur\"&gt;administrateur&lt;/a&gt; pour discuter du blocage.</string>
+  <string name="error_blocked_footer_no_blocker">Vous pouvez contacter un &lt;a href=\"https://fr.Infopedia.org/wiki/Wikipédia:Administrateur\"&gt;administrateur&lt;/a&gt; pour discuter du blocage.</string>
   <string name="temp_account_not_logged_in">Vous n’êtes pas connecté(e)</string>
   <string name="temp_account_anon_ip_dialog_body">Quand vous effectuez des modifications, votre adresse IP est associée à celles-ci.&lt;br /&gt;&lt;br /&gt;\n&lt;a href=\"https://#login\"&gt;Connectez-vous&lt;/a&gt; ou &lt;a href=\"https://#createaccount\"&gt;créez un compte&lt;/a&gt; pour que vos futures contributions soient attribuées à votre nom d’utilisateur et pour accéder à d’autres fonctionnalités.</string>
   <string name="temp_account_anon_dialog_body">Une fois votre modification effectuée, un &lt;b&gt;compte temporaire&lt;/b&gt; sera créé pour protéger votre vie privée. &lt;a href=\"%1$s\"&gt;En savoir plus&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;\n&lt;a href=\"https://#login\"&gt;Connectez-vous&lt;/a&gt; ou &lt;a href=\"https://#createaccount\"&gt;créez un compte&lt;/a&gt; pour que vos futures contributions soient attribuées à votre pseudo et pour bénéficier d’autres fonctionnalités.</string>
@@ -658,8 +658,8 @@
   <string name="reading_list_confirm_remove_article_from_offline_title">Article présent dans plusieurs listes</string>
   <string name="reading_list_confirm_remove_article_from_offline_message">%s ne sera plus disponible en mode déconnecté dans toutes les listes de lecture :</string>
   <string name="reading_lists_sync_reminder_title">Activer la synchronisation de la liste de lecture ?</string>
-  <string name="reading_lists_sync_reminder_text">Les articles enregistrés dans vos listes de lecture peuvent désormais être synchronisés avec votre compte Wikipédia. &lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;En savoir plus&lt;/a&gt;</string>
-  <string name="reading_lists_login_reminder_text_with_link">Vos listes de lecture peuvent désormais être synchronisées entre vos appareils. Connectez-vous à votre compte Wikipédia et autorisez leur sauvegarde. &lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;En savoir plus&lt;/a&gt;</string>
+  <string name="reading_lists_sync_reminder_text">Les articles enregistrés dans vos listes de lecture peuvent désormais être synchronisés avec votre compte Wikipédia. &lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;En savoir plus&lt;/a&gt;</string>
+  <string name="reading_lists_login_reminder_text_with_link">Vos listes de lecture peuvent désormais être synchronisées entre vos appareils. Connectez-vous à votre compte Wikipédia et autorisez leur sauvegarde. &lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;En savoir plus&lt;/a&gt;</string>
   <string name="reading_lists_sync_reminder_action">Activer la synchronisation</string>
   <string name="reading_list_login_reminder_title">Synchroniser les listes de lecture</string>
   <string name="reading_lists_login_reminder_text">Les listes de lecture peuvent maintenant être synchronisées entre appareils. Connectez-vous à votre compte Wikipédia et permettez à vos listes d’être enregistrées.</string>
@@ -1487,7 +1487,7 @@
   <string name="talk_snackbar_survey_action_text">Démarrer</string>
   <string name="talk_share_discussion_subject">Wikipédia — discussion sur le sujet « %s » de la page de discussion</string>
   <string name="talk_share_talk_page">Wikipédia — discussions sur la page de discussion</string>
-  <string name="talk_edit_disclaimer">Ceci est une page de discussion. Veuillez respecter les lignes directrices relatives aux pages de discussion et vous souvenir de signer vos envois en tapant quatre tildes : ~~~~ en postant du wikitexte.&lt;br /&gt; &lt;br /&gt; &lt;a href=\"https://fr.wikipedia.org/wiki/Aide:Discussion#Recommandations_et_pratiques\"&gt;Aide:Discussion § Recommandations et pratiques&lt;/a&gt; sur Wikipédia</string>
+  <string name="talk_edit_disclaimer">Ceci est une page de discussion. Veuillez respecter les lignes directrices relatives aux pages de discussion et vous souvenir de signer vos envois en tapant quatre tildes : ~~~~ en postant du wikitexte.&lt;br /&gt; &lt;br /&gt; &lt;a href=\"https://fr.Infopedia.org/wiki/Aide:Discussion#Recommandations_et_pratiques\"&gt;Aide:Discussion § Recommandations et pratiques&lt;/a&gt; sur Wikipédia</string>
   <string name="talk_search_hint">Recherche dans les messages</string>
   <string name="talk_search_topics_hint">Rechercher des sujets</string>
   <string name="talk_search_find_in_talk_topics_hint">Trouver dans le sujet de la page de discussion</string>
@@ -1802,7 +1802,7 @@
   <string name="patroller_saved_message_body_edit_summary">Bonjour {{{username}}}, il semble que vous ayez supprimé du contenu de Wikipédia sans l\'expliquer dans le résumé de modification. Veuillez laisser un résumé de modification chaque fois que vous ajoutez ou supprimez du contenu sur Wikipédia.</string>
   <string name="patroller_saved_message_body_do_not_censor">Bonjour {{{username}}}, il semble que vous ayez supprimé un contenu sans en discuter au préalable sur la page de discussion de l\'article. Veuillez noter que Wikipédia n\'est pas censurée et qu\'un contenu ne doit pas être supprimé parce qu\'il est controversé. Si vous pensez que l\'information est inexacte, veuillez parvenir à un consensus sur la page de discussion de l\'article.</string>
   <string name="talk_warn_learn_more_label">Découvrez les espaces réservés aux messages</string>
-  <string name="talk_warn_learn_more_url">https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_Suggested_edits/fr#Message_placeholders</string>
+  <string name="talk_warn_learn_more_url">https://www.infopedia.org/wiki/Wikimedia_Apps/Android_Suggested_edits/fr#Message_placeholders</string>
   <string name="talk_warn_saved_messages_usage_instruction">Utilisez l’un des exemples de message ci-dessous pour le personnaliser, l’envoyer et l’enregistrer dans vos messages.</string>
   <string name="patroller_saved_message_body_art_imp">Bonjour {{{username}}} ! Votre article est un excellent départ ! Pour l’améliorer encore, pensez à ajouter davantage de références à des sources fiables. Cela permet de vérifier les informations et d’améliorer la qualité de l’article. Pour plus de détails, consultez les [recommandations de Wikipédia sur les [[Wikipédia:Sources fiables|sources fiables]]].</string>
   <string name="talk_templates_menu_edit_title">Modifier</string>
@@ -1828,7 +1828,7 @@
   <string name="donate_gpay_check_recurring">En faire un don mensuel récurrent.</string>
   <string name="donate_gpay_check_send_email">Oui, la Fondation Wikimedia peut m\'envoyer un courriel de temps en temps.</string>
   <string name="donate_gpay_minimum_amount">Veuillez sélectionner un montant (minimum %s)</string>
-  <string name="donate_gpay_maximum_amount">Nous ne pouvons pas accepter de dons supérieurs à %s via notre application. Veuillez contacter notre équipe chargée des dons importants à l\'adresse benefactors@wikimedia.org.</string>
+  <string name="donate_gpay_maximum_amount">Nous ne pouvons pas accepter de dons supérieurs à %s via notre application. Veuillez contacter notre équipe chargée des dons importants à l\'adresse benefactors@infopedia.org.</string>
   <string name="donate_gpay_success_message">&lt;b&gt;Merci beaucoup.&lt;/b&gt; Votre générosité envers Wikipédia signifie tellement pour nous.</string>
   <string name="donate_gpay_help_problems">Problèmes pour faire un don ?</string>
   <string name="donate_gpay_help_other_ways">Autres moyens de donner</string>
@@ -1986,7 +1986,7 @@
   <string name="settings_app_icon_updated">L’icône de votre appli a été mise à jour.</string>
   <string name="year_in_review_slide_app_icon_title_unlocked">Nouvelle icône d’appli débloquée pour votre écran d’accueil</string>
   <string name="year_in_review_slide_app_icon_title_unlock">Débloquez votre récompense pour vos contributions !</string>
-  <string name="year_in_review_slide_app_icon_body_unlocked">Activez votre nouvelle icône d\'application dans les paramètres en dessous de l\'icône de l\'application. Merci d\'avoir investi dans le futur du savoir gratuit. Vos contributions en tant que %1$s dans %2$d aident à bâtir un monde d\'information gratuite, et grâce à ça, vous avez débloqué une icône customisée de contributeur pour Wikipedia sur votre écran d\'accueil.</string>
+  <string name="year_in_review_slide_app_icon_body_unlocked">Activez votre nouvelle icône d\'application dans les paramètres en dessous de l\'icône de l\'application. Merci d\'avoir investi dans le futur du savoir gratuit. Vos contributions en tant que %1$s dans %2$d aident à bâtir un monde d\'information gratuite, et grâce à ça, vous avez débloqué une icône customisée de contributeur pour Infopedia sur votre écran d\'accueil.</string>
   <string name="year_in_review_slide_app_icon_body_unlock">Nous sommes ravis que Wikipédia ait fait partie de votre année %1$d&amp;nbsp;! Débloquez une récompense spéciale dans votre Bilan %2$d en devenant contributeur·rice&amp;nbsp;— que ce soit en &lt;a href=\"%3$s\"&gt;modifiant Wikipédia&lt;/a&gt; ou en faisant un don depuis l’application à la &lt;a href=\"%4$s\"&gt;Fondation Wikimedia&lt;/a&gt;, l’organisme à but non lucratif qui la soutient. Si Wikipédia vous est utile, pensez à faire un don pour aider à préserver son avenir et la garder gratuite, sans publicité, fiable et accessible à toutes et à tous. Si vous avez déjà fait un don ailleurs, votre soutien nous touche profondément.</string>
   <string name="year_in_review_slide_app_icon_donor">donateur·rice</string>
   <string name="year_in_review_slide_app_icon_editor">contributeur·rice</string>
@@ -2366,7 +2366,7 @@
   <string name="reading_challenge_install_prompt_got_it">J\'ai compris</string>
   <string name="reading_challenge_install_prompt_add">Ajouter</string>
   <string name="search_widget_install_prompt_title">Une méthode de recherche plus rapide</string>
-  <string name="search_widget_install_prompt_message">Installez le widget de recherche Wikipedia pour accéder instantanément aux connaissances à partir de votre écran d\'accueil.</string>
+  <string name="search_widget_install_prompt_message">Installez le widget de recherche Infopedia pour accéder instantanément aux connaissances à partir de votre écran d\'accueil.</string>
   <string name="search_widget_install_prompt_add">Ajouter</string>
   <string name="search_widget_install_prompt_got_it">J\'ai compris</string>
   <string name="reading_challenge_widget_explore_button">Explorer</string>

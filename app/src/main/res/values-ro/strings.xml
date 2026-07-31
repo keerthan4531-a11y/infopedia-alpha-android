@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Alesaru
 * Andreyyshore
@@ -25,14 +25,14 @@
 * Wintereu
 -->
 <resources>
-  <string name="app_name_prod">Wikipedia</string>
-  <string name="app_name_beta">Wikipedia Beta</string>
-  <string name="app_name_alpha">Wikipedia Alpha</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Wikimedia</string>
   <string name="nav_item_back">Înapoi</string>
   <string name="page_tabs_back">Înapoi</string>
   <string name="nav_item_forward">Înainte</string>
-  <string name="search_hint">Căutare în Wikipedia</string>
+  <string name="search_hint">Căutare în Infopedia</string>
   <string name="search_hint_voice_search">Căutare de intrare vocală</string>
   <string name="search_hint_search_languages">Caută o limbă</string>
   <string name="search_back_button_content_description">Înapoi</string>
@@ -137,12 +137,12 @@
   <string name="edit_save_action_license_logged_in">Salvând, sunteți de acord cu &lt;a href=\"%1$s\"&gt;Termenii de utilizare&lt;/a&gt; și acceptați să vă publicați irevocabil modificările sub licența &lt;a href=\"%2$s\"&gt;CC BY-SA 3.0&lt;/a&gt;.</string>
   <string name="edit_save_action_license_anon">Salvând, sunteți de acord cu &lt;a href=\"%1$s\"&gt;Termenii de utilizare&lt;/a&gt; și acceptați să vă publicați irevocabil modificările sub licența &lt;a href=\"%2$s\"&gt;CC BY-SA 3.0&lt;/a&gt;. Modificările vor fi atribuite adresei IP a dispozitivului dumneavoastră. Dacă vă &lt;a href=\"https://#login\"&gt;autentificați&lt;/a&gt; veți beneficia de mai multă confidențialitate.</string>
   <string name="edit_anon_warning">Modificările vor fi atribuite adresei IP a dispozitivului dvs. Dacă vă &lt;a href=\"https://#login\"&gt;conectați&lt;/a&gt;, veți avea mai multă confidențialitate.</string>
-  <string name="preference_title_language">Limbile Wikipedia</string>
+  <string name="preference_title_language">Limbile Infopedia</string>
   <string name="langlinks_filter_hint">Căutare</string>
   <string name="langlinks_empty">Această pagină nu este disponibilă în alte limbi</string>
   <string name="langlinks_no_match">Nicio limbă nu corespunde interogării dumneavoastră.</string>
   <string name="langlinks_activity_title">Alte limbi</string>
-  <string name="langlinks_your_wikipedia_languages">Limbile tale Wikipedia</string>
+  <string name="langlinks_your_wikipedia_languages">Limbile tale Infopedia</string>
   <string name="menu_save_changes">Salvează modificările</string>
   <string name="edit_saved_successfully">Modificare salvată!</string>
   <string name="stub_article_edit_saved_successfully">Editare publicată! Modificările vor apărea după ceva timp.</string>
@@ -162,11 +162,11 @@
   <string name="search_reading_lists_no_results">Nu au fost găsite rezultate în lista de citire</string>
   <string name="search_history_no_results">Nu au fost găsite rezultate în istoric</string>
   <string name="edit_section_captcha_message">Pentru a ajuta la protejarea împotriva spamului automat, vă rugăm să introduceți cuvintele care apar mai jos</string>
-  <string name="edit_section_captcha_request_an_account_message">Nu poți vedea imaginea? &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;Solicită un cont&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">Nu poți vedea imaginea? &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;Solicită un cont&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">Repetați cuvintele de mai sus</string>
   <string name="title_captcha">Introducere CAPTCHA</string>
   <string name="edit_section_captcha_reload">Atingeți CAPTCHA pentru a reîncărca</string>
-  <string name="nav_item_login">Autentificare la Wikipedia</string>
+  <string name="nav_item_login">Autentificare la Infopedia</string>
   <string name="login_username_hint">Nume de utilizator</string>
   <string name="login_password_hint">Parolă</string>
   <string name="account_creation_password_hint">Parolă</string>
@@ -192,22 +192,22 @@
   <string name="logout_prompt">Aceasta vă va deconecta pe toate dispozitivele în care sunteți conectat momentan. Vrei să continui?</string>
   <string name="logout_dialog_cancel_button_text">Revocare</string>
   <string name="logged_out_in_background_title">Sesiune închisă</string>
-  <string name="logged_out_in_background_dialog">Ați fost deconectat de pe Wikipedia. Doriți să vă conectați din nou?</string>
+  <string name="logged_out_in_background_dialog">Ați fost deconectat de pe Infopedia. Doriți să vă conectați din nou?</string>
   <string name="logged_out_in_background_login">Autentificare</string>
   <string name="logged_out_in_background_cancel">Revocare</string>
   <string name="account_vanish_request_title">Șterge cont</string>
   <string name="account_vanish_request_confirm_title">Șterge avertizarea ștergere cont</string>
-  <string name="account_vanish_request_confirm">Ștergerea este o &lt;b&gt;ultimă soluție&lt;/b&gt; și ar trebui &lt;b&gt;să fie folosită numai atunci când doriți să opriți editarea pentru totdeauna&lt;/b&gt; și, de asemenea, pentru a ascunde cât mai multe dintre asocierile dvs. anterioare.&lt;br/&gt;&lt;br/&gt;Ștergerea contului de pe Wikipedia se face prin schimbarea numelui contului dvs. pentru ca alții să nu vă recunoască contribuțiile într-un proces numit dispariția contului. &lt;b&gt;Vanishing nu garantează anonimatul complet și nu elimină contribuțiile la proiecte&lt;/b&gt;.</string>
+  <string name="account_vanish_request_confirm">Ștergerea este o &lt;b&gt;ultimă soluție&lt;/b&gt; și ar trebui &lt;b&gt;să fie folosită numai atunci când doriți să opriți editarea pentru totdeauna&lt;/b&gt; și, de asemenea, pentru a ascunde cât mai multe dintre asocierile dvs. anterioare.&lt;br/&gt;&lt;br/&gt;Ștergerea contului de pe Infopedia se face prin schimbarea numelui contului dvs. pentru ca alții să nu vă recunoască contribuțiile într-un proces numit dispariția contului. &lt;b&gt;Vanishing nu garantează anonimatul complet și nu elimină contribuțiile la proiecte&lt;/b&gt;.</string>
   <string name="history_empty_title">Niciun articol recent văzut aici.</string>
   <string name="history_empty_message">Urmăriți ceea ce citiți aici.</string>
   <string name="history_offline_articles_toast">Unele articole din istorie să nu pot fi vizibile în timp ce sunt offline.</string>
   <string name="search_empty_message">Căutați și citiți enciclopedia liberă în limba dummeavoastră.</string>
-  <string name="search_empty_message_multilingual_upgrade">Căutați pe Wikipedia în mai multe limbi</string>
+  <string name="search_empty_message_multilingual_upgrade">Căutați pe Infopedia în mai multe limbi</string>
   <string name="delete_selected_items">Ștergeți elementele selectate</string>
   <string name="wp_stylized">&lt;big&gt;W&lt;/big&gt;IKIPEDI&lt;big&gt;A&lt;/big&gt;</string>
   <string name="create_account_username_hint">Nume de utilizator</string>
   <string name="login_dont_have_account">Nu aveți cont încă?</string>
-  <string name="login_join_wikipedia">Alăturați-vă pe Wikipedia</string>
+  <string name="login_join_wikipedia">Alăturați-vă pe Infopedia</string>
   <string name="login_forgot_password">V-ați uitat parola?</string>
   <string name="create_account_already_have">Aveți deja un cont?</string>
   <string name="create_account_activity_title">Creare cont</string>
@@ -229,7 +229,7 @@
   <string name="create_account_button">Creare cont</string>
   <string name="create_account_name_unavailable">Acest nume de utilizator \"%s\" nu este disponibil. Vă rugăm să alegeți un nume diferit.</string>
   <string name="create_account_ip_block_message">Ne pare rău, adresa dumneavoastră de IP este în prezent blocată de la crearea de conturi noi.</string>
-  <string name="create_account_ip_block_help_url">https://en.wikipedia.org/wiki/Help:I_have_been_blocked</string>
+  <string name="create_account_ip_block_help_url">https://en.Infopedia.org/wiki/Help:I_have_been_blocked</string>
   <string name="create_account_ip_block_details">Detalii</string>
   <string name="preferences_general_heading">General</string>
   <string name="preferences_account_heading">Cont</string>
@@ -241,8 +241,8 @@
   <string name="preferences_heading_experimental">Experimental</string>
   <string name="preference_title_sync_reading_lists_from_account">Sincronizarea listei de citiri</string>
   <string name="preference_title_download_reading_list_articles">Descărcați articole din lista de lecturi</string>
-  <string name="preference_summary_sync_reading_lists">Sincronizați listele de lecturi pe diferite dispozitive, salvându-le în contul dvs. Wikipedia</string>
-  <string name="preference_summary_sync_reading_lists_from_account">Sincronizați listelor de lecturi pe diferite dispozitive, salvându-le în contul dumneavoastră Wikipedia \"%s\".</string>
+  <string name="preference_summary_sync_reading_lists">Sincronizați listele de lecturi pe diferite dispozitive, salvându-le în contul dvs. Infopedia</string>
+  <string name="preference_summary_sync_reading_lists_from_account">Sincronizați listelor de lecturi pe diferite dispozitive, salvându-le în contul dumneavoastră Infopedia \"%s\".</string>
   <string name="preference_dialog_of_turning_off_reading_list_sync_title">Ștergi listele de lecturi din \"%s\"?</string>
   <string name="preference_dialog_of_turning_off_reading_list_sync_text">Aceasta va șterge complet toate listele de lectură sincronizate anterior din spațiul de stocare de la distanță. Eliminați toate listele sincronizate din contul dumneavoastră \"%s\"?</string>
   <string name="preference_title_auto_upload_crash_reports">Trimite rapoarte de erori</string>
@@ -260,21 +260,21 @@
   <string name="page_watchlist_overflow_menu_onboarding_tooltip_text">Urmăriți ce se întâmplă cu articolele de care sunteți interesat(ă). Apăsați meniul de revărsare și selectați &lt;b&gt;Adaugă la urmărite&lt;/b&gt; pentru a vedea shimbări asupra unui articol.</string>
   <string name="settings_item_preferences">Setări</string>
   <string name="settings_activity_title">Setări</string>
-  <string name="about_description">Despre aplicația Wikipedia</string>
+  <string name="about_description">Despre aplicația Infopedia</string>
   <string name="privacy_policy_description">Politica de confidențialitate</string>
   <string name="terms_of_use_description">Termeni de utilizare</string>
-  <string name="about_wikipedia_url">https://ro.wikipedia.org/wiki/Wikipedia:Despre_Wikipedia</string>
-  <string name="privacy_policy_url">https\n://foundation.wikimedia.org/wiki/Special:MyLanguage/Privacy_policy</string>
-  <string name="terms_of_use_url">https://foundation.wikimedia.org/wiki/Special:MyLanguage/Terms_of_Use</string>
+  <string name="about_wikipedia_url">https://ro.Infopedia.org/wiki/Infopedia:Despre_Infopedia</string>
+  <string name="privacy_policy_url">https\n://foundation.infopedia.org/wiki/Special:MyLanguage/Privacy_policy</string>
+  <string name="terms_of_use_url">https://foundation.infopedia.org/wiki/Special:MyLanguage/Terms_of_Use</string>
   <string name="cc_by_sa_4_url">https://creativecommons.org/licenses/by-sa/4.0/deed.ro</string>
   <string name="cc_0_url">https://creativecommons.org/publicdomain/zero/1.0/deed.ro</string>
   <string name="about_libraries_heading">Biblioteci utilizate</string>
   <string name="about_contributors_heading">Contribuitori</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Pagina echipei&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Pagina echipei&lt;/a&gt;</string>
   <string name="about_translators_heading">Traducători</string>
   <string name="about_translators_translatewiki">Această aplicație a fost tradusă de către traducători voluntari la &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt;.</string>
   <string name="about_app_license_heading">Licență</string>
-  <string name="about_app_license">Cod sursă disponibil pe &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;GitHub&lt;/a&gt; sub &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Licența Apache 2.0&lt;/a&gt;. Dacă nu se specifică altfel, conținutul este disponibil sub o &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Licență Creative Commons Attribution-ShareAlike&lt;/a&gt;.</string>
+  <string name="about_app_license">Cod sursă disponibil pe &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;GitHub&lt;/a&gt; sub &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Licența Apache 2.0&lt;/a&gt;. Dacă nu se specifică altfel, conținutul este disponibil sub o &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Licență Creative Commons Attribution-ShareAlike&lt;/a&gt;.</string>
   <string name="about_wmf">Un produs al &lt;a href=\"https://wikimediafoundation.org/\"&gt;Fundației Wikimedia&lt;/a&gt;</string>
   <string name="about_activity_title">Despre</string>
   <string name="about_logo_content_description">Sigla de glob de puzzle a Wikipediei</string>
@@ -322,7 +322,7 @@
   <string name="abusefilter_title_warn">Această modificare poate fi neconstructivă. Sigur doriți s-o salvați?</string>
   <string name="abusefilter_title_disallow">Nu puteți salva această modificare. Mergeți înapoi și schimbați-o.</string>
   <string name="abusefilter_text_warn">Un filtru automat a identificat această modificare ca potențial neconstructivă. Poate avea cel puțin una din următoarele probleme:&lt;br /&gt;&lt;br /&gt;· Scrierea integrală cu majuscule&lt;br /&gt;· Golirea conținutului sau introducerea de spam&lt;br /&gt;· Legături externe sau imagini irelevante&lt;br /&gt;· Caractere repetate</string>
-  <string name="abusefilter_text_disallow">Un filtru automat a identificat această modificare ca potențial neconstructivă sau o potențială acțiune de vandalism.&lt;br /&gt;&lt;br /&gt;Wikipedia este o enciclopedie și acceptă doar conținut neutru și notabil.</string>
+  <string name="abusefilter_text_disallow">Un filtru automat a identificat această modificare ca potențial neconstructivă sau o potențială acțiune de vandalism.&lt;br /&gt;&lt;br /&gt;Infopedia este o enciclopedie și acceptă doar conținut neutru și notabil.</string>
   <string name="page_similar_titles">Pagini similare</string>
   <string name="search_did_you_mean">Vă refereați la „%s”?</string>
   <string name="search_recent_header">Căutări recente:</string>
@@ -340,11 +340,11 @@
   <string name="table_infobox">Informații pe scurt</string>
   <string name="table_other">Mai multe informații</string>
   <string name="table_close">Închide</string>
-  <string name="widget_name_featured_page">Articol de calitate la Wikipedia</string>
+  <string name="widget_name_featured_page">Articol de calitate la Infopedia</string>
   <string name="widget_title_featured_page">Articolul de calitate al zilei:</string>
-  <string name="widget_name_search">Căutare Wikipedia</string>
-  <string name="widget_description_search">Cel mai rapid mod de a căuta în Wikipedia</string>
-  <string name="widget_description_featured_page">Cele mai bune articole pe care Wikipedia le are de oferit</string>
+  <string name="widget_name_search">Căutare Infopedia</string>
+  <string name="widget_description_search">Cel mai rapid mod de a căuta în Infopedia</string>
+  <string name="widget_description_featured_page">Cele mai bune articole pe care Infopedia le are de oferit</string>
   <string name="wiktionary_no_definitions_found">Nicio definiție găsită.</string>
   <string name="alpha_update_notification_title">O nouă actualizare alfa disponibilă</string>
   <string name="alpha_update_notification_text">Atingeți pentru a descărca</string>
@@ -435,9 +435,9 @@
   <string name="link_preview_dialog_share_button">Distribuie</string>
   <string name="link_preview_stub_placeholder_text">Acest articol este un ciot, ceea ce înseamnă faptul că nu există suficient conținut în articol pentru a genera o previzualizare. Cu toate acestea, dvs. puteți schimba asta.</string>
   <string name="error_page_does_not_exist">Această pagină nu există</string>
-  <string name="error_user_page_does_not_exist">Wikipedia nu are o &lt;a href=\"%1$s\"&gt;pagină de utilizator&lt;/a&gt; cu exact acest nume. În general, această pagină ar trebui creată și editată de &lt;b&gt;%2$s&lt;/b&gt;. Dacă sunteți în dubiu, vă rugăm să verificați dacă „%3$s” există.</string>
+  <string name="error_user_page_does_not_exist">Infopedia nu are o &lt;a href=\"%1$s\"&gt;pagină de utilizator&lt;/a&gt; cu exact acest nume. În general, această pagină ar trebui creată și editată de &lt;b&gt;%2$s&lt;/b&gt;. Dacă sunteți în dubiu, vă rugăm să verificați dacă „%3$s” există.</string>
   <string name="view_wiki_error_message_offline">Nu se poate conecta la internet</string>
-  <string name="view_wiki_error_message_timeout">Nu se poate conecta la Wikipedia. Verificați conexiunea la rețea sau încercați din nou mai târziu</string>
+  <string name="view_wiki_error_message_timeout">Nu se poate conecta la Infopedia. Verificați conexiunea la rețea sau încercați din nou mai târziu</string>
   <string name="reference_title">Referințe %s</string>
   <string name="reference_list_title">Referințe</string>
   <string name="theme_chooser_dialog_image_dimming_switch_label">Reducerea imaginii (în tema întunecată)</string>
@@ -454,9 +454,9 @@
   <string name="error_blocked_start">Începutul blocării: %s</string>
   <string name="error_blocked_expiry">Expirarea blocării: %s</string>
   <string name="error_blocked_id">ID Blocare: %s</string>
-  <string name="error_blocked_footer">Puteţi contacta &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; sau alt &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Administrators\"&gt;administrator&lt;/a&gt; pentru a discuta blocarea.</string>
+  <string name="error_blocked_footer">Puteţi contacta &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; sau alt &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Administrators\"&gt;administrator&lt;/a&gt; pentru a discuta blocarea.</string>
   <string name="theme_chooser_menu_item_short_tooltip">Personalizați-vă bara de instrumente</string>
-  <string name="error_blocked_footer_no_blocker">Puteţi contacta un &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Administrators\"&gt;administrator&lt;/a&gt; pentru a discuta blocarea.</string>
+  <string name="error_blocked_footer_no_blocker">Puteţi contacta un &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Administrators\"&gt;administrator&lt;/a&gt; pentru a discuta blocarea.</string>
   <string name="temp_account_not_logged_in">Nu sunteți autentificat</string>
   <string name="temp_account_anon_ip_dialog_body">Odată ce faceți o editare, adresa dvs. IP va fi asociată cu editările dvs.&lt;br /&gt;&lt;br /&gt;&lt;a href=\"https://#login\"&gt;Autentificați-vă&lt;/a&gt; sau &lt;a href=\"https://#createaccount\"&gt;creați un cont&lt;/a&gt; pentru a primi credit pentru editările viitoare și pentru a accesa alte funcționalități.</string>
   <string name="temp_account_anon_dialog_body">Odată ce faceți o editare, un &lt;b&gt;cont temporar&lt;/b&gt; va fi creat pentru dvs. pentru a vă proteja confidențialitatea. &lt;a href=\"%1$s\"&gt;Află mai multe&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;&lt;a href=\"https://#login\"&gt;Autentificați-vă&lt;/a&gt; sau &lt;a href=\"https://#createaccount\"&gt;Creați-vă un cont&lt;/a&gt; pentru a primi credit pentru modificările viitoare și pentru a accesa alte funcționalități.</string>
@@ -464,7 +464,7 @@
   <string name="temp_account_using_title">Dvs. utilizați un cont temporar</string>
   <string name="temp_account_dialog_discard">Anulați modificările și conectați-vă</string>
   <string name="crash_report_activity_title">Eroare aplicație</string>
-  <string name="crash_report_relaunch_or_quit">Ne pare rău, aplicația Wikipedia a întâmpinat o eroare și nu mai funcționează.\n\nDoriți să o reporniți sau să o închideți?</string>
+  <string name="crash_report_relaunch_or_quit">Ne pare rău, aplicația Infopedia a întâmpinat o eroare și nu mai funcționează.\n\nDoriți să o reporniți sau să o închideți?</string>
   <string name="crash_report_relaunch">Repornește</string>
   <string name="crash_report_quit">Închide</string>
   <string name="article_menu_bar_save_button">Salvează</string>
@@ -575,12 +575,12 @@
   <string name="reading_list_confirm_remove_article_from_offline_title">Articolul apare în mai multe liste</string>
   <string name="reading_list_confirm_remove_article_from_offline_message">%s nu va mai fi disponibil offline pentru toate listele de citire:</string>
   <string name="reading_lists_sync_reminder_title">Activați sincronizarea listelor de citire?</string>
-  <string name="reading_lists_sync_reminder_text">Articolele salvate pe listele de citire pot fi acum sincronizate cu contul dvs. Wikipedia. &lt;a href=\"https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Aflați mai multe&lt;/a&gt;</string>
-  <string name="reading_lists_login_reminder_text_with_link">Listele de citire pot fi sincronizate pe dispozitive. Conectați-vă la contul dvs. Wikipedia și permiteți salvarea listelor dvs. &lt;a href=\"https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Aflați mai multe&lt;/a&gt;</string>
+  <string name="reading_lists_sync_reminder_text">Articolele salvate pe listele de citire pot fi acum sincronizate cu contul dvs. Infopedia. &lt;a href=\"https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Aflați mai multe&lt;/a&gt;</string>
+  <string name="reading_lists_login_reminder_text_with_link">Listele de citire pot fi sincronizate pe dispozitive. Conectați-vă la contul dvs. Infopedia și permiteți salvarea listelor dvs. &lt;a href=\"https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Aflați mai multe&lt;/a&gt;</string>
   <string name="reading_lists_sync_reminder_action">Activați sincronizarea</string>
   <string name="reading_list_login_reminder_title">Sincronizați listele de citire</string>
-  <string name="reading_lists_login_reminder_text">Listele de citire pot fi sincronizate pe dispozitive. Conectați-vă la contul dvs. Wikipedia și permiteți salvarea listelor dvs.</string>
-  <string name="reading_lists_login_button">Autentificare / alăturare Wikipedia</string>
+  <string name="reading_lists_login_reminder_text">Listele de citire pot fi sincronizate pe dispozitive. Conectați-vă la contul dvs. Infopedia și permiteți salvarea listelor dvs.</string>
+  <string name="reading_lists_login_button">Autentificare / alăturare Infopedia</string>
   <string name="reading_lists_ignore_button">Nu acum</string>
   <string name="reading_lists_confirm_remote_delete_yes">Da</string>
   <string name="reading_lists_confirm_remote_delete_no">Nu</string>
@@ -598,7 +598,7 @@
   <string name="reading_list_turned_sync_off_dialog_ok">OK</string>
   <string name="reading_list_turned_sync_off_dialog_settings">Setări</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_title">Activați sincronizarea listelor de citire?</string>
-  <string name="reading_list_prompt_turned_sync_on_dialog_text">Articolele salvate pe listele de citire pot fi acum sincronizate cu contul dvs. Wikipedia. &lt;a href=\"#faq\"&gt;Aflați mai multe&lt;/a&gt;</string>
+  <string name="reading_list_prompt_turned_sync_on_dialog_text">Articolele salvate pe listele de citire pot fi acum sincronizate cu contul dvs. Infopedia. &lt;a href=\"#faq\"&gt;Aflați mai multe&lt;/a&gt;</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_do_not_show">Nu-mi mai arată asta</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_enable_syncing">Activați sincronizarea</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_no_thanks">Nu, mulțumesc</string>
@@ -686,7 +686,7 @@
     <item quantity="few">%1$d liste rămase</item>
     <item quantity="other">%1$d liste rămase</item>
   </plurals>
-  <string name="notification_echo_channel_description">Notificări Wikipedia</string>
+  <string name="notification_echo_channel_description">Notificări Infopedia</string>
   <string name="notifications_activity_title">Notificări</string>
   <string name="notifications_activity_title_archived">Notificări (arhivate)</string>
   <string name="notifications_search">Caută notificările</string>
@@ -751,8 +751,8 @@
   <string name="preference_title_customize_push_notifications">Personalizați notificările push</string>
   <string name="preference_category_display_settings">Setări afișare</string>
   <string name="preference_title_hide_read_notifications">Ascundeți notificările citite</string>
-  <string name="notifications_channel_group_wikipedia_notifications_title">Wikipedia</string>
-  <string name="notifications_channel_group_wikipedia_notifications_description">Notificări de pe Wikipedia</string>
+  <string name="notifications_channel_group_wikipedia_notifications_title">Infopedia</string>
+  <string name="notifications_channel_group_wikipedia_notifications_description">Notificări de pe Infopedia</string>
   <string name="notifications_channel_group_other_title">Altceva</string>
   <string name="notifications_channel_group_other_description">Alte notificări din aplicație</string>
   <string name="notifications_filter_label">Filtrează notificările</string>
@@ -791,7 +791,7 @@
   <string name="view_top_read_card_pageviews_k_suffix">%d k</string>
   <string name="view_top_read_card_pageviews_m_suffix">%d M</string>
   <string name="view_next_random_article">Încarcă un alt articol aleatoriu</string>
-  <string name="view_main_page_card_title">Astăzi la Wikipedia</string>
+  <string name="view_main_page_card_title">Astăzi la Infopedia</string>
   <string name="view_main_page_card_action">Vezi pagina principală</string>
   <string name="view_featured_image_card_title">Imaginea zilei</string>
   <string name="view_featured_image_card_download">Descarcă</string>
@@ -820,16 +820,16 @@
   <string name="feed_configure_menu_reset">Restaurați filtrele prestabilite</string>
   <string name="feed_configure_menu_select_all">Arată toate</string>
   <string name="feed_configure_menu_deselect_all">Ascunde totul</string>
-  <string name="feed_configure_language_warning">Rețineți că nu toate tipurile de carduri sunt disponibile în toate limbile Wikipedia. Modificați limbile selectate în Setări.</string>
+  <string name="feed_configure_language_warning">Rețineți că nu toate tipurile de carduri sunt disponibile în toate limbile Infopedia. Modificați limbile selectate în Setări.</string>
   <string name="feed_item_type_news">Articole despre evenimente actuale</string>
   <string name="feed_item_type_on_this_day">Evenimente din istorie în această zi</string>
   <string name="feed_item_type_because_you_read">Sugestii bazate pe un articol citit recent din istoricul dvs.</string>
-  <string name="feed_item_type_featured_article">Articol recomandat zilnic pe Wikipedia</string>
+  <string name="feed_item_type_featured_article">Articol recomandat zilnic pe Infopedia</string>
   <string name="feed_item_type_trending">Articole zilnic cele mai vizionate</string>
   <string name="feed_item_type_featured_image">Imagine recomandată zilnic de la Wikimedia Commons</string>
-  <string name="feed_item_type_main_page">Pagina principală a Wikipedia cu conținut recomandat zilnic</string>
+  <string name="feed_item_type_main_page">Pagina principală a Infopedia cu conținut recomandat zilnic</string>
   <string name="feed_item_type_randomizer">Generați articole aleatorii pentru a fi citite</string>
-  <string name="feed_item_type_suggested_edits">Sugestii pentru adăugarea de conținut la Wikipedia</string>
+  <string name="feed_item_type_suggested_edits">Sugestii pentru adăugarea de conținut la Infopedia</string>
   <string name="feed_empty_message" fuzzy="true">Nu există nimic în feedul dvs. Explorează</string>
   <string name="feed_configure_onboarding_action">Personalizare</string>
   <string name="customize_lang_selection_dialog_ok_button_text">OK</string>
@@ -863,7 +863,7 @@
   <string name="description_edit_help_title">Info: Descrierea articolelor</string>
   <string name="description_edit_help_about_wikidata">Despre Wikidata</string>
   <string name="description_edit_help_wikidata_guide">Ghidul Wikidata pentru scrierea descrierilor</string>
-  <string name="description_edit_anon_limit">Vă mulțumim pentru interesul dvs. continuu de a edita descrierile articolelor! Pentru a face modificări suplimentare, vă rugăm să vă conectați la contul dvs. Wikipedia.</string>
+  <string name="description_edit_anon_limit">Vă mulțumim pentru interesul dvs. continuu de a edita descrierile articolelor! Pentru a face modificări suplimentare, vă rugăm să vă conectați la contul dvs. Infopedia.</string>
   <string name="description_edit_license_notice">Modificând descrierea articolului, sunt de acord cu &lt;a href=\"%1$s\"&gt; Termenii de utilizare&lt;/a&gt; și îmi eliberez irevocabil contribuțiile sub licența &lt;a href=\"%2$s\"&gt;Creative Commons CC0&lt;/a&gt;.</string>
   <string name="description_edit_helper_text_lowercase_warning">începe de obicei cu o literă mică</string>
   <string name="description_edit_voice_input_description">Intrare vocală</string>
@@ -882,7 +882,7 @@
   <string name="description_edit_success_saved_image_caption_in_lang_snackbar">Subtitrare imagine publicată! (%s)</string>
   <string name="description_edit_success_saved_image_tags_snackbar">Etichet(ă/e) de imagine publicat(ă/e)!</string>
   <string name="description_edit_success_se_general_feed_link_snackbar">V-a plăcut? Ajutați-ne să adăugăm mai mult.</string>
-  <string name="description_edit_success_encouragement">Tocmai ai făcut Wikipedia mai bună pentru toată lumea</string>
+  <string name="description_edit_success_encouragement">Tocmai ai făcut Infopedia mai bună pentru toată lumea</string>
   <string name="description_edit_success_done">Realizat</string>
   <string name="description_edit_success_did_you_know">Știați că?</string>
   <string name="description_edit_success_article_edit_hint">De asemenea, puteți edita articole din această aplicație. Încercați să remediați greșelile de dactilografie și propozițiile mici, făcând click pe pictograma ^1 data viitoare</string>
@@ -928,7 +928,7 @@
   <string name="suggested_edits_task_translate_caption_title">Traduceți descrieri de imagine</string>
   <string name="suggested_edits_task_translate_caption_description">Traduceți subtitrările în alte limbi</string>
   <string name="suggested_edits_task_multilingual_title">Mai multe sarcini pentru editori multilingvi</string>
-  <string name="suggested_edits_task_multilingual_description">Sarcinile de traducere sunt disponibile dacă citiți și scrieți în mai multe limbi Wikipedia.</string>
+  <string name="suggested_edits_task_multilingual_description">Sarcinile de traducere sunt disponibile dacă citiți și scrieți în mai multe limbi Infopedia.</string>
   <string name="suggested_edits_task_image_caption_edit_disable_text">Blocat până când ați editat %d descrieri de imagine</string>
   <string name="suggested_edits_task_translate_description_edit_disable_text">Blocat până când ați modificat %d descrieri ale articolului (verificat)</string>
   <string name="suggested_edits_task_multilingual_negative">Nu pentru mine</string>
@@ -958,7 +958,7 @@
   <string name="suggested_edits_image_preview_dialog_licensing">Licențiere</string>
   <string name="suggested_edits_image_preview_dialog_more_info">Mai multe informații</string>
   <string name="suggested_edits_image_preview_dialog_file_page_link_text">Pagina fișierului pe Wikimedia Commons</string>
-  <string name="suggested_edits_image_preview_dialog_file_page_wikipedia_link_text">Pagina fișierului pe Wikipedia</string>
+  <string name="suggested_edits_image_preview_dialog_file_page_wikipedia_link_text">Pagina fișierului pe Infopedia</string>
   <string name="suggested_edits_article_cta_image_tags">Adaugă etichete imagine</string>
   <string name="suggested_edits_article_cta_image_caption">Adaugă descriere imagine</string>
   <string name="suggested_edits_article_cta_image_caption_in_language">Adaugă descriere imagine (%s)</string>
@@ -973,7 +973,7 @@
   <string name="suggested_edits_image_tags_publishing">Publicare</string>
   <string name="suggested_edits_image_tags_published">Publicat</string>
   <string name="suggested_edits_image_tags_onboarding_title">Etichetarea imaginilor le face mai ușor de găsit.</string>
-  <string name="suggested_edits_image_tags_onboarding_text">Prin adăugarea de etichete de imagine, veți ajuta să faceți mai ușor căutarea imaginilor pe Commons, depozitul de imagini cu licență liberă pe care Wikipedia îl folosește pentru imaginile din articolele sale.</string>
+  <string name="suggested_edits_image_tags_onboarding_text">Prin adăugarea de etichete de imagine, veți ajuta să faceți mai ușor căutarea imaginilor pe Commons, depozitul de imagini cu licență liberă pe care Infopedia îl folosește pentru imaginile din articolele sale.</string>
   <string name="suggested_edits_image_tags_onboarding_note">Doar etichetele pe care le alegeți vor fi adăugate la imagini.</string>
   <string name="suggested_edits_image_tags_task_detail">Adăugați etichete personalizate la o imagine pentru a fi mai ușor de găsit.</string>
   <string name="suggested_edits_image_tags_choose">Adăugați sau alegeți etichete potrivite</string>
@@ -983,7 +983,7 @@
   <string name="suggested_edits_image_tags_select_text">Doar etichetele pe care le alegeți vor fi adăugate la imagini. Etichetele care nu sunt selectate vor fi marcate ca respinse. Sigur doriți să marcați toate etichetele ca respinse?</string>
   <string name="suggested_edits_image_tags_add_tag">Adaugă etichetă</string>
   <string name="suggested_edits_image_zoom_tooltip">Prindeți pentru a mări această imagine.</string>
-  <string name="suggested_edits_encouragement_message">%s, mulțumim pentru modificări. Mai jos puteți găsi mai multe modalități de a contribui la Wikipedia.</string>
+  <string name="suggested_edits_encouragement_message">%s, mulțumim pentru modificări. Mai jos puteți găsi mai multe modalități de a contribui la Infopedia.</string>
   <string name="suggested_edits_onboarding_message">&lt;b&gt;Bună %s&lt;/b&gt;, mai jos puteți găsi unele moduri rapide și ușoare de a ajuta la îmbunătățirea Wikipediei. Veți vedea diferența pe care o faceți cât de curând începeți. Editare fericită!</string>
   <string name="suggested_edits_image_captions_task_detail">Descrieți o imagine pentru a ajuta cititorii să înțeleagă sensul și contextul acesteia.</string>
   <string name="suggested_edits_add_descriptions_task_detail">Rezumați un articol pentru a ajuta cititorii să înțeleagă subiectul dintr-o privire.</string>
@@ -1020,7 +1020,7 @@
     <item quantity="other">%d zile</item>
   </plurals>
   <string name="suggested_edits_what_is_title">Ce sunt editările sugerate?</string>
-  <string name="suggested_edits_what_is_text">Editările sugerate prezintă oportunități pentru contribuții mici, dar vitale la Wikipedia.</string>
+  <string name="suggested_edits_what_is_text">Editările sugerate prezintă oportunități pentru contribuții mici, dar vitale la Infopedia.</string>
   <string name="suggested_edits_learn_more">Învățați mai multe</string>
   <string name="suggested_edits_paused_title">Pauză</string>
   <string name="suggested_edits_disabled_title">Dezactivat</string>
@@ -1030,8 +1030,8 @@
   <string name="suggested_edits_task_new">Nou</string>
   <string name="suggested_edits_cc0_notice">Prin publicare, sunteți de acord cu &lt;a href=\"%1$s\"&gt;termenii de utilizare&lt;/a&gt; și pentru a elibera irevocabil această contribuție în temeiul &lt;a href=\"%2$s\"&gt;licenței CC0&lt;/a&gt;.</string>
   <string name="suggested_edits_reactivation_notification_title">Modificări sugerate</string>
-  <string name="suggested_edits_reactivation_notification_stage_one">Mulțumim pentru editarea Wikipedia! De ce să nu continui de la locul unde ai rămas?</string>
-  <string name="suggested_edits_reactivation_notification_stage_two">Aveți un minut pentru a continua îmbunătățirea Wikipedia? Vezi aceste sugestii de editare.</string>
+  <string name="suggested_edits_reactivation_notification_stage_one">Mulțumim pentru editarea Infopedia! De ce să nu continui de la locul unde ai rămas?</string>
+  <string name="suggested_edits_reactivation_notification_stage_two">Aveți un minut pentru a continua îmbunătățirea Infopedia? Vezi aceste sugestii de editare.</string>
   <string name="suggested_edits_contributions_screen_title">%s\'s contribuții</string>
   <string name="suggested_edits_contribution_language_label">Limba</string>
   <string name="suggested_edits_contribution_date_time_label">Data / Ora</string>
@@ -1051,11 +1051,11 @@
     <item quantity="other">Ai adăugat etichetele %d</item>
   </plurals>
   <string name="suggested_edits_contribution_date_yesterday_text">Ieri</string>
-  <string name="suggested_edits_encourage_account_creation_title">Știați că toată lumea poate edita Wikipedia?</string>
-  <string name="suggested_edits_encourage_account_creation_message">Editările sugerate sunt un nou mod de a edita Wikipedia pe Android. Vă ajută să faceți contribuții mici, dar vitale la Wikipedia.\nȚelul nostru este să facem procesul de editare și mai accesibil pentru toată lumea! Autentificați-vă sau alăturați-vă Wikipediei pentru a începe.</string>
-  <string name="suggested_edits_encourage_account_creation_login_button">Autentificare / alăturare Wikipedia</string>
+  <string name="suggested_edits_encourage_account_creation_title">Știați că toată lumea poate edita Infopedia?</string>
+  <string name="suggested_edits_encourage_account_creation_message">Editările sugerate sunt un nou mod de a edita Infopedia pe Android. Vă ajută să faceți contribuții mici, dar vitale la Infopedia.\nȚelul nostru este să facem procesul de editare și mai accesibil pentru toată lumea! Autentificați-vă sau alăturați-vă Wikipediei pentru a începe.</string>
+  <string name="suggested_edits_encourage_account_creation_login_button">Autentificare / alăturare Infopedia</string>
   <string name="suggested_edits_contribution_type_image_tag">Etichetă imagine</string>
-  <string name="suggested_edits_contribution_current_revision_text">Editarea dvs. este în prezent activă pe Wikipedia</string>
+  <string name="suggested_edits_contribution_current_revision_text">Editarea dvs. este în prezent activă pe Infopedia</string>
   <string name="suggested_card_more_edits">Mai multe editări sugerate</string>
   <string name="suggested_edits_article_descriptions_dialog_title">Descrieri sugerate</string>
   <string name="suggested_edits_descriptions_report_dialog_title">Ce doriți să raportați?</string>
@@ -1086,7 +1086,7 @@
     <item quantity="other">Aţi adăugat %d caractere</item>
   </plurals>
   <string name="suggested_edits_image_recommendations_task_title">Imaginile articolelor</string>
-  <string name="suggested_edits_image_recommendations_task_detail">Adăugați imaginile sugerate în articolele Wikipedia pentru a îmbunătăți înțelegerea.</string>
+  <string name="suggested_edits_image_recommendations_task_detail">Adăugați imaginile sugerate în articolele Infopedia pentru a îmbunătăți înțelegerea.</string>
   <string name="image_recommendation_tutorial">Tutorial</string>
   <string name="image_recommendation_accept">Da</string>
   <string name="image_recommendation_reject">Nu</string>
@@ -1101,9 +1101,9 @@
   <string name="image_recommendation_reject_other">Altceva</string>
   <string name="image_recommendation_reject_submit">Trimite</string>
   <string name="image_recommendation_onboarding_1">Imaginile îi ajută pe oameni să înțeleagă, dar multe articole nu le au.</string>
-  <string name="image_recommendation_onboarding_2">Dumneavoastră veți decide dacă o imagine sugerată ar trebui plasată într-un articol Wikipedia.</string>
+  <string name="image_recommendation_onboarding_2">Dumneavoastră veți decide dacă o imagine sugerată ar trebui plasată într-un articol Infopedia.</string>
   <string name="image_recommendation_onboarding_3">Sugestiile sunt generate automat și veți folosi propria judecată pentru a decide dacă le acceptați sau le respingeți.</string>
-  <string name="image_recommendation_onboarding_4">Imaginile sunt preluate din Wikimedia Commons, o colecție de imagini cu licență liberă folosite de Wikipedia.</string>
+  <string name="image_recommendation_onboarding_4">Imaginile sunt preluate din Wikimedia Commons, o colecție de imagini cu licență liberă folosite de Infopedia.</string>
   <string name="image_recommendation_tooltip_3">Decideți dacă imaginea îi ajută pe cititori să înțeleagă mai bine acest subiect</string>
   <string name="image_recommendation_tooltip_next">Înainte</string>
   <string name="image_recommendation_tooltip_warning">Vă rugăm să revizuiți articolul pentru a înțelege subiectul acestuia și să inspectați imaginea</string>
@@ -1111,15 +1111,15 @@
   <string name="suggested_edits_report_feature_subject">Problemă cu modificările sugerate</string>
   <string name="edit_summary_added_image">Imagine adăugată</string>
   <string name="edit_published_view">Vizualizare</string>
-  <string name="activity_tab_logged_out_title">Autentificați-vă sau creați un cont pentru a vă viziualiza activitatea în aplicația Wikipedia</string>
+  <string name="activity_tab_logged_out_title">Autentificați-vă sau creați un cont pentru a vă viziualiza activitatea în aplicația Infopedia</string>
   <string name="activity_tab_user_reading">Lecturile utilizatorului %s</string>
-  <string name="activity_tab_on_wikipedia_android">Pe aplicația Wikipedia pentru Android</string>
+  <string name="activity_tab_on_wikipedia_android">Pe aplicația Infopedia pentru Android</string>
   <string name="activity_tab_weekly_time_spent_hm">%1$dh %2$dm</string>
   <string name="activity_tab_weekly_time_spent">Timp petrecut citind în această săptămână</string>
   <string name="activity_tab_monthly_articles_read">Articole citite în această lună</string>
   <string name="activity_tab_monthly_articles_saved">Articole salvate în această lună</string>
   <string name="activity_tab_monthly_top_categories">Cele mai citite categorii în această lună</string>
-  <string name="activity_tab_explore_wikipedia">Descoperă prin Wikipedia</string>
+  <string name="activity_tab_explore_wikipedia">Descoperă prin Infopedia</string>
   <string name="activity_tab_discover_encourage">Căutați ceva nou de citit?</string>
   <string name="activity_tab_donation_unknown">Necunoscut</string>
   <string name="activity_tab_donation_last_donation">&lt;b&gt;Ultima donație&lt;/b&gt; în aplicație</string>
@@ -1146,7 +1146,7 @@
   <string name="file_page_add_image_caption_button">Adaugă legendă pentru imagine</string>
   <string name="file_page_add_image_tags_button">Adaugă etichete pentru imagine</string>
   <string name="file_page_edit_button_content_description">Editează %s</string>
-  <string name="description_edit_revert_subtitle">Mulțumim pentru editarea Wikipedia!</string>
+  <string name="description_edit_revert_subtitle">Mulțumim pentru editarea Infopedia!</string>
   <string name="description_edit_revert_intro">Știm că ai încercat tot posibilul, dar unul dintre recenzori avea o îndoială. Posibilele motive pentru care modificarea dvs. a fost anulată includ:</string>
   <string name="description_edit_revert_reason1">contribuția dvs. nu a respectat una dintre &lt;a href=\"%1$s\"&gt;politici&lt;/a&gt;.</string>
   <string name="description_edit_revert_reason2">contribuția ta arăta ca un experiment sau un vandalism.</string>
@@ -1161,9 +1161,9 @@
   <string name="onboarding_get_started">Începe</string>
   <string name="onboarding_maybe_later">Poate mai târziu</string>
   <string name="onboarding_explore_title">Noi căi de explorare</string>
-  <string name="onboarding_explore_text" fuzzy="true">Aruncă-te în gaura de iepure Wikipedia cu o actualizare constantă a fluxului Explore. &lt;br/&gt; &lt;b&gt;Personalizați&lt;/b&gt; fluxul în funcție de interesele dvs. - fie că învață despre evenimente istorice &lt;b&gt;În această zi&lt;/b&gt;, fie că arunca cu zarurile cu &lt;b&gt;Aleator&lt;/b&gt;.</string>
+  <string name="onboarding_explore_text" fuzzy="true">Aruncă-te în gaura de iepure Infopedia cu o actualizare constantă a fluxului Explore. &lt;br/&gt; &lt;b&gt;Personalizați&lt;/b&gt; fluxul în funcție de interesele dvs. - fie că învață despre evenimente istorice &lt;b&gt;În această zi&lt;/b&gt;, fie că arunca cu zarurile cu &lt;b&gt;Aleator&lt;/b&gt;.</string>
   <string name="onboarding_reading_list_sync_title">Citirea listelor cu sincronizare</string>
-  <string name="onboarding_reading_list_sync_text_v2">Puteți crea liste de citire din articole pe care doriți să le citiți mai târziu, chiar și atunci când sunteți offline.&lt;br/&gt;Conectați-vă la contul dvs. Wikipedia pentru a vă sincroniza listele de citire.. &lt;a href=\"#login\"&gt;Alăturați-vă Wikipedia&lt;/a&gt;</string>
+  <string name="onboarding_reading_list_sync_text_v2">Puteți crea liste de citire din articole pe care doriți să le citiți mai târziu, chiar și atunci când sunteți offline.&lt;br/&gt;Conectați-vă la contul dvs. Infopedia pentru a vă sincroniza listele de citire.. &lt;a href=\"#login\"&gt;Alăturați-vă Infopedia&lt;/a&gt;</string>
   <string name="onboarding_data_privacy_title">Confidențialitatea datelor</string>
   <string name="onboarding_data_privacy_text" fuzzy="true">Considerăm că nu ar trebui să furnizați informații personale pentru a participa la mișcarea liberă a cunoașterii. Datele de utilizare colectate pentru această aplicație sunt anonime. Aflați mai multe despre &lt;a href=\"#privacy\"&gt;politica noastră de confidențialitate&lt;/a&gt; și de &lt;a href=\"#termsOfUse\"&gt;termenii de utilizare&lt;/a&gt; .</string>
   <string name="onboarding_analytics_switch_title">Trimiteți date de utilizare</string>
@@ -1192,7 +1192,7 @@
   <string name="languages_list_activity_title">Adăugați o limbă</string>
   <string name="languages_list_suggested_text">Sugerat</string>
   <string name="languages_list_all_text">Toate limbile</string>
-  <string name="wikipedia_languages_title">Limbile Wikipedia</string>
+  <string name="wikipedia_languages_title">Limbile Infopedia</string>
   <string name="wikipedia_languages_your_languages_text">Limbile tale</string>
   <string name="wikipedia_languages_add_language_text">Adaugă limbă</string>
   <string name="wikipedia_languages_remove_text">Eliminați limba</string>
@@ -1202,11 +1202,11 @@
     <item quantity="few">Eliminați limbile selectate?</item>
     <item quantity="other"/>
   </plurals>
-  <string name="wikipedia_languages_remove_dialog_content" fuzzy="true">Veți vedea conținut doar în fluxul Explorează și filtrele de căutare rapidă pentru limbile Wikipedia rămase.</string>
+  <string name="wikipedia_languages_remove_dialog_content" fuzzy="true">Veți vedea conținut doar în fluxul Explorează și filtrele de căutare rapidă pentru limbile Infopedia rămase.</string>
   <string name="wikipedia_languages_remove_warning_dialog_title">Imposibil de șters toate limbile</string>
-  <string name="wikipedia_languages_remove_warning_dialog_content">Păstrați cel puțin o limbă Wikipedia din care să căutați și să citiți conținut.</string>
+  <string name="wikipedia_languages_remove_warning_dialog_content">Păstrați cel puțin o limbă Infopedia din care să căutați și să citiți conținut.</string>
   <string name="more_language_options">mai mult</string>
-  <string name="add_wikipedia_languages_text">Adaugă limbi Wikipedia</string>
+  <string name="add_wikipedia_languages_text">Adaugă limbi Infopedia</string>
   <string name="remove_language_dialog_cancel_button_text">Anulează</string>
   <string name="remove_language_dialog_ok_button_text">OK</string>
   <string name="remove_all_language_warning_dialog_ok_button_text">OK</string>
@@ -1265,7 +1265,7 @@
   <string name="insert_media_insert_button">Inserare</string>
   <string name="templates_insert_button">Inserează</string>
   <string name="main_drawer_help">Ajutor</string>
-  <string name="main_drawer_login">Autentificare / alăturare Wikipedia</string>
+  <string name="main_drawer_login">Autentificare / alăturare Infopedia</string>
   <string name="main_tooltip_action_button">Începe</string>
   <string name="main_tooltip_watchlist_title">Pagini urmărite</string>
   <string name="main_tooltip_watchlist_text">Găsiți articole și pagini pe care le-ați adăugat anterior la lista de urmărire a dvs. în meniul Mai mult de sub &lt;b&gt;Pagini urmărite&lt;/b&gt;.</string>
@@ -1288,7 +1288,7 @@
   <string name="talk_warn_saved_messages">Mesaje salvate</string>
   <string name="talk_page_empty">Această pagină de discuție este goală.</string>
   <string name="talk_page_empty_title">Conversația începe aici</string>
-  <string name="talk_page_empty_content">Paginile de discuții sunt locurile în care oamenii discută despre cum să facă conținutul Wikipedia să fie cât mai bun posibil. Începeți prin a adăuga un subiect nou de discuție pentru a vă conecta și colabora cu o comunitate de Wikipediști.</string>
+  <string name="talk_page_empty_content">Paginile de discuții sunt locurile în care oamenii discută despre cum să facă conținutul Infopedia să fie cât mai bun posibil. Începeți prin a adăuga un subiect nou de discuție pentru a vă conecta și colabora cu o comunitate de Wikipediști.</string>
   <string name="talk_add_reply">Răspunde</string>
   <string name="talk_no_subject">(Niciun subiect)</string>
   <string name="talk_reply_subject">Subiect</string>
@@ -1301,9 +1301,9 @@
   <string name="talk_last_modified">&lt;b&gt;Ultima modificare %1$s&lt;/b&gt; de %2$s</string>
   <string name="talk_snackbar_survey_text">Vă mulțumim pentru că utilizați pagini de discuție. Ne-ați putea ajuta să îmbunătățim aplicația participând la un sondaj?</string>
   <string name="talk_snackbar_survey_action_text">Începeți</string>
-  <string name="talk_share_discussion_subject">Wikipedia - discuție la subiectul „%s” de pe pagină de discuție</string>
-  <string name="talk_share_talk_page">Wikipedia - discuții pe pagina de discuție</string>
-  <string name="talk_edit_disclaimer">Aceasta este o pagină de discuție. Vă rugăm să respectați regulile paginii de discuție și nu uitați să vă semnați postările introducând patru tilde: ~~~~ când postați folosind wikitext.&lt;br&gt;&lt;br&gt;&lt;a href=\"https://en.wikipedia.org/wiki/ Wikipedia:Talk_page_guidelines\"&gt;Wikipedia:Instrucțiuni privind pagina de discuții&lt;/a&gt;</string>
+  <string name="talk_share_discussion_subject">Infopedia - discuție la subiectul „%s” de pe pagină de discuție</string>
+  <string name="talk_share_talk_page">Infopedia - discuții pe pagina de discuție</string>
+  <string name="talk_edit_disclaimer">Aceasta este o pagină de discuție. Vă rugăm să respectați regulile paginii de discuție și nu uitați să vă semnați postările introducând patru tilde: ~~~~ când postați folosind wikitext.&lt;br&gt;&lt;br&gt;&lt;a href=\"https://en.Infopedia.org/wiki/ Infopedia:Talk_page_guidelines\"&gt;Infopedia:Instrucțiuni privind pagina de discuții&lt;/a&gt;</string>
   <string name="talk_search_hint">Căutați mesaje</string>
   <string name="talk_search_topics_hint">Caută subiecte</string>
   <string name="talk_search_find_in_talk_topics_hint">Găsiți în subiectul paginii de discuție</string>
@@ -1352,7 +1352,7 @@
   <string name="thank_label">Mulțumiți</string>
   <string name="view_user_page">Vizualizați pagina utilizatorului</string>
   <string name="thank_dialog_title_text">Trimiteți public „Mulțumiri”</string>
-  <string name="thank_dialog_text">„Mulțumirile” sunt o modalitate ușoară de a arăta aprecieri pentru munca unui editor pe Wikipedia. „Mulțumirile” nu pot fi anulate și pot fi vizualizate public.</string>
+  <string name="thank_dialog_text">„Mulțumirile” sunt o modalitate ușoară de a arăta aprecieri pentru munca unui editor pe Infopedia. „Mulțumirile” nu pot fi anulate și pot fi vizualizate public.</string>
   <string name="thank_dialog_positive_button_text">Trimite mulțumiri</string>
   <string name="thank_dialog_negative_button_text">Anulează</string>
   <string name="thank_success_message">Mulțumirea dvs. a fost trimisă către %s 👍</string>
@@ -1511,9 +1511,9 @@
   <string name="recommended_reading_list_page_snackbar_action">Personalizează „Discover“</string>
   <string name="recommended_reading_list_settings_title">Setări Discover</string>
   <string name="recommended_reading_list_settings_toggle">Lista de lectură „Discover”</string>
-  <string name="recommended_reading_list_settings_toggle_disable_message">„Discover“ este dezactivat. Wikipedia nu vă va recomanda articole de citit.</string>
+  <string name="recommended_reading_list_settings_toggle_disable_message">„Discover“ este dezactivat. Infopedia nu vă va recomanda articole de citit.</string>
   <string name="recommended_reading_list_settings_turn_off_dialog_title">Dezactivați „Discover“?</string>
-  <string name="recommended_reading_list_settings_turn_off_dialog_message">Dacă dezactivați „Descoperă“, nu veți mai primi recomandări de lectură %s de la Wikipedia.</string>
+  <string name="recommended_reading_list_settings_turn_off_dialog_message">Dacă dezactivați „Descoperă“, nu veți mai primi recomandări de lectură %s de la Infopedia.</string>
   <string name="recommended_reading_list_settings_articles">articole</string>
   <string name="recommended_reading_list_settings_updates_frequency">Se actualizează %s</string>
   <string name="recommended_reading_list_settings_updates_frequency_daily">zilnic</string>
@@ -1536,7 +1536,7 @@
   <string name="recommended_reading_list_settings_notifications_subtitle_disable">Notificările pentru Discover sunt dezactivate. Nu veți primi o notificare când Discover este actualizat.</string>
   <string name="recommended_reading_list_settings_notifications_dialog_title">Dezactivați notificările?</string>
   <string name="recommended_reading_list_settings_notifications_dialog_message">Dacă vă dezactivați notificările, nu veți mai fi notificat când „Discover” este actualizat.</string>
-  <string name="recommended_reading_list_settings_notification_subtitle_enable">Când „Discover“-ul dvs. este actualizat, Wikipedia vă va trimite o notificare.</string>
-  <string name="recommended_reading_list_settings_toggle_enable_message">„Descoperă“ este activat. Wikipedia vă va recomanda articole de citit.</string>
+  <string name="recommended_reading_list_settings_notification_subtitle_enable">Când „Discover“-ul dvs. este actualizat, Infopedia vă va trimite o notificare.</string>
+  <string name="recommended_reading_list_settings_toggle_enable_message">„Descoperă“ este activat. Infopedia vă va recomanda articole de citit.</string>
   <string name="donation_reminders_prompt_positive_button">Donați acum</string>
 </resources>

@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Tuwewanzi
 -->
 <resources>
-  <string name="app_name_prod">Wikipedia</string>
-  <string name="app_name_beta">Wikipedia Beta</string>
-  <string name="app_name_alpha">Wikipedia Alpha</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Wikimedia</string>
   <string name="nav_item_back">Hékta</string>
   <string name="page_tabs_back">Hékta</string>
   <string name="nav_item_forward">Íyokhihe</string>
-  <string name="search_hint">Wikipedia Wóle yo/ye</string>
+  <string name="search_hint">Infopedia Wóle yo/ye</string>
   <string name="search_hint_voice_search">Wičháho uŋ wóle</string>
   <string name="search_hint_search_languages">Iyápi olé</string>
   <string name="search_back_button_content_description">Hékta ya</string>
@@ -111,12 +111,12 @@
   <string name="edit_save_action_license_logged_in">Leyá kiŋháŋ, &lt;a href=\"%1$s\"&gt;Úƞpi-wóopȟe&lt;/a&gt; héčhetuyala kte, na &lt;a href=\"%2$s\"&gt;CC BY-SA 4.0&lt;/a&gt; wóopȟe-wóiyowiƞkhiye kiŋ ogná táku yéč’uŋ ókiwaŋžila yaglúška kte.</string>
   <string name="edit_save_action_license_anon">Leyá kiŋháŋ, &lt;a href=\"%1$s\"&gt;Úƞpi-wóopȟe&lt;/a&gt; héčhetuyala kte, na &lt;a href=\"%2$s\"&gt;CC BY-SA 4.0&lt;/a&gt; wóopȟe-wóiyowiƞkhiye kiŋ ogná táku yéč’uŋ ókiwaŋžila yaglúška kte. IP makȟóčhažeyate nitȟáwa owa égnaka kte. &lt;a href=\"https://#login\"&gt;Čhaž\'ónigwa&lt;/a&gt; eháŋtaŋš, isáŋm naȟmála lutȟókeča kte.</string>
   <string name="edit_anon_warning">IP makȟóčhažeyate nitȟáwa owa égnaka kte. &lt;a href=\"https://#login\"&gt;Čhaž\'ónigwa&lt;/a&gt; eháŋtaŋš, isáŋm naȟmála lutȟókeča kte.</string>
-  <string name="preference_title_language">Wikipedia iyápi</string>
+  <string name="preference_title_language">Infopedia iyápi</string>
   <string name="langlinks_filter_hint">Wóle</string>
   <string name="langlinks_empty">Tȟog\'íyapi uŋ lawá oyákihi šni.</string>
   <string name="langlinks_no_match">Tákuni iyápi iyeyaye šni.</string>
   <string name="langlinks_activity_title">Tȟog’íyapi kiŋ</string>
-  <string name="langlinks_your_wikipedia_languages">Wikipedia iyápi nitȟáwa</string>
+  <string name="langlinks_your_wikipedia_languages">Infopedia iyápi nitȟáwa</string>
   <string name="menu_save_changes">Wóyutȟokča yeyá</string>
   <string name="edit_saved_successfully">Wóyutȟokča yewáye!</string>
   <string name="stub_article_edit_saved_successfully">Wóyutȟokča yewáye! Ečháƞni he waŋláŋke kte.</string>
@@ -136,11 +136,11 @@
   <string name="search_reading_lists_no_results">Táku-awáyawa čhašówapi mahél tákuni iyéyapi šni</string>
   <string name="search_history_no_results">Eháŋni-wóyakapi mahél tákuni iyéyapi šni</string>
   <string name="edit_section_captcha_message">Mas\'wíčhaša šíča khušéuŋyaŋpi uŋčhíŋpi. Wičhóiye kiŋ dená yo/ye</string>
-  <string name="edit_section_captcha_request_an_account_message">Itówapi kiŋ le wáŋlaŋka oyákihi šni he? &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;Čhažé-oyáŋke waŋ kila yo&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">Itówapi kiŋ le wáŋlaŋka oyákihi šni he? &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;Čhažé-oyáŋke waŋ kila yo&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">Akȟé wičhóiye kiŋ lená owá yo/ye</string>
   <string name="title_captcha">CAPTCHA yeyá yo/ye</string>
   <string name="edit_section_captcha_reload">CAPTCHA akáŋn akákpi yo/ye</string>
-  <string name="nav_item_login">Wikipedia ogná čhaž\'óigwa</string>
+  <string name="nav_item_login">Infopedia ogná čhaž\'óigwa</string>
   <string name="login_username_hint">Tuwá uƞ kiƞ Tȟačháze</string>
   <string name="login_password_hint">Iyówiƞkhiya-wičhóiye</string>
   <string name="account_creation_password_hint">Iyówiƞkhiya-wičhóiye</string>
@@ -161,7 +161,7 @@
   <string name="logout_prompt">Léčhel makȟásitomniyaŋ Čhaž\'ónigwa-alúštaƞ kte. Le yačhíŋ he?</string>
   <string name="logout_dialog_cancel_button_text">Yužúžu</string>
   <string name="logged_out_in_background_title">Čhaž\'ónigwa šni</string>
-  <string name="logged_out_in_background_dialog">Wikipedia etáŋhaŋ čhaž\'ónigwa-alúštaƞ. Akȟé čhaž\'ónigwa yačhíŋ he?</string>
+  <string name="logged_out_in_background_dialog">Infopedia etáŋhaŋ čhaž\'ónigwa-alúštaƞ. Akȟé čhaž\'ónigwa yačhíŋ he?</string>
   <string name="logged_out_in_background_login">Čhaž\'óigwa</string>
   <string name="logged_out_in_background_cancel">Yužúžu</string>
   <string name="account_vanish_request_title">Čhažé-oyáŋke iháŋgya</string>
@@ -169,13 +169,13 @@
   <string name="history_empty_title">Leháŋl tákuni waŋláŋke šni</string>
   <string name="history_empty_message">Léčhiya táku lawá kiksúya</string>
   <string name="history_offline_articles_toast">Čhaž\'ónigwa šni kiŋháŋ, wówapi tóna waŋyágpȟiča šni načhéče.</string>
-  <string name="search_empty_message">Iyápi nitȟáwa ogná Wikipedia mahél yawá na wóle</string>
-  <string name="search_empty_message_multilingual_upgrade">Iyápi sáŋpȟa ogná Wikipedia mahél wóle</string>
+  <string name="search_empty_message">Iyápi nitȟáwa ogná Infopedia mahél yawá na wóle</string>
+  <string name="search_empty_message_multilingual_upgrade">Iyápi sáŋpȟa ogná Infopedia mahél wóle</string>
   <string name="delete_selected_items">Táku yakáȟniǧe kiŋ iháŋgya</string>
   <string name="wp_stylized">&lt;big&gt;W&lt;/big&gt;IKIPEDI&lt;big&gt;A&lt;/big&gt;</string>
   <string name="create_account_username_hint">Tuwá uƞ kiƞ Tȟačháze</string>
   <string name="login_dont_have_account">Čhažé-oyáŋke luhá šni he?</string>
-  <string name="login_join_wikipedia">Wikipedia ektá Čhažé oígwa</string>
+  <string name="login_join_wikipedia">Infopedia ektá Čhažé oígwa</string>
   <string name="login_forgot_password">Iyówiƞkhiya-wičhóiye ayéktuƞža he?</string>
   <string name="create_account_already_have">Waŋnáš čhažé-oyáŋke gluhá he?</string>
   <string name="create_account_activity_title">Čhažé-oyáŋke káǧa</string>
@@ -197,11 +197,11 @@
   <string name="create_account_button">Čhažé-oyáŋke kičháǧa</string>
   <string name="create_account_name_unavailable">Čhažé \"%s\" uŋphiča šni. Čhažé uŋma kaȟniǧa yo/ye.</string>
   <string name="create_account_ip_block_message">IP makȟóčhažeyate nitȟáwa anáptapi. Čhažé-oyáŋke yakáǧa oyákihi šni.</string>
-  <string name="create_account_ip_block_help_url">https://en.wikipedia.org/wiki/Help:I_have_been_blocked</string>
+  <string name="create_account_ip_block_help_url">https://en.Infopedia.org/wiki/Help:I_have_been_blocked</string>
   <string name="create_account_ip_block_details">Wóanapte-wíhoši</string>
   <string name="preferences_general_heading">Ikčé-wóigluštaŋ</string>
   <string name="preferences_account_heading">Čhažé-oyáŋke</string>
-  <string name="wikipedia_app_faq">Wikipedia App FAQ</string>
+  <string name="wikipedia_app_faq">Infopedia App FAQ</string>
   <string name="send_feedback">Wóuŋkiyaka po/pe</string>
   <string name="create_account_account_created_toast">Čhažé-oyáŋke yakíčhaǧe!</string>
   <string name="preferences_heading_syncing">Wíhoši-yutȟéčapi</string>
@@ -220,19 +220,19 @@
   <string name="page_watchlist_overflow_menu_onboarding_tooltip_title">Wóawaƞyaƞke čhašówapi ektá ognáka</string>
   <string name="settings_item_preferences">Wóigluštaŋ</string>
   <string name="settings_activity_title">Wóigluštaŋ</string>
-  <string name="about_description">Wikipedia app ečhíyataŋhaŋ</string>
+  <string name="about_description">Infopedia app ečhíyataŋhaŋ</string>
   <string name="privacy_policy_description">Waúŋyutȟaŋiŋpi šni</string>
   <string name="terms_of_use_description">Úƞpi-wóopȟe</string>
-  <string name="about_wikipedia_url">https://en.wikipedia.org/wiki/Wikipedia:About</string>
+  <string name="about_wikipedia_url">https://en.Infopedia.org/wiki/Infopedia:About</string>
   <string name="about_libraries_heading">Tukté wówapi-othí úŋpi</string>
   <string name="about_contributors_heading">Tuwá kíč\'uŋ kiŋ</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Okȟólakičhiye oyúblaye&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Okȟólakičhiye oyúblaye&lt;/a&gt;</string>
   <string name="about_translators_heading">Wayúiyeska</string>
   <string name="about_translators_translatewiki">Wíkhičhaŋye kiŋ le &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt; etáŋhaŋ wayúiyeska kiŋ yuíyeskapi.</string>
   <string name="about_app_license_heading">Wóopȟe Wóiyowiƞkhiye</string>
   <string name="about_wmf">&lt;a href=\"https://wikimediafoundation.org/\"&gt;Wikimedia Okȟólakičhiye&lt;/a&gt; tȟawíčhoȟ\'aŋ</string>
   <string name="about_activity_title">Ečhíyataŋhaŋ</string>
-  <string name="about_logo_content_description">Wikipedia makȟógmigma wíyačhiŋ</string>
+  <string name="about_logo_content_description">Infopedia makȟógmigma wíyačhiŋ</string>
   <string name="edit_abandon_confirm">Oyúblaye kiŋ le lutȟókeča, na héčhena wóyutȟokeča ékignake šni. Wičákȟeya ilála yačhíŋ he?</string>
   <string name="edit_abandon_confirm_yes">Hau/Haŋ</string>
   <string name="edit_abandon_confirm_no">Hiyá</string>
@@ -282,11 +282,11 @@
   <string name="table_infobox">Ináȟni-wóslolye</string>
   <string name="table_other">Wihoši sáŋpȟa</string>
   <string name="table_close">Ečhél iyéya</string>
-  <string name="widget_name_featured_page">Wikipedia oyúblaye-waŋkátuya</string>
+  <string name="widget_name_featured_page">Infopedia oyúblaye-waŋkátuya</string>
   <string name="widget_title_featured_page">Le aŋpétu oyúblaye-waŋkátuya:</string>
-  <string name="widget_name_search">Wikipedia wóle</string>
-  <string name="widget_description_search">Léčhel Wikipedia mahél iyótaŋ ináȟniyela wólepi</string>
-  <string name="widget_description_featured_page">Léčhiya Wikipedia mahél wówapi iyótaŋ wašté kiŋ</string>
+  <string name="widget_name_search">Infopedia wóle</string>
+  <string name="widget_description_search">Léčhel Infopedia mahél iyótaŋ ináȟniyela wólepi</string>
+  <string name="widget_description_featured_page">Léčhiya Infopedia mahél wówapi iyótaŋ wašté kiŋ</string>
   <string name="alpha_update_notification_text">Léčhiya khulókšu</string>
   <string name="dialog_close_description">Ečhél iyéya</string>
   <string name="preference_title_show_images">Itówapi pazó</string>
@@ -351,8 +351,8 @@
   <string name="error_blocked_start">Wóanapte otȟókahe: %s</string>
   <string name="error_blocked_expiry">Wóanapte oíhaƞke: %s</string>
   <string name="error_blocked_id">Wóanapte ID: %s</string>
-  <string name="error_blocked_footer">Wóanapte kiŋ iwóyaglaka yačhíŋ haŋtáŋš, &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; naíŋš &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Administrators\"&gt;oítȟaƞčhaƞ&lt;/a&gt; uŋmá ekíya oyákihi.</string>
-  <string name="error_blocked_footer_no_blocker">&lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Administrators\"&gt;Oítȟaƞčhaƞ&lt;/a&gt; kiŋ wóanapte kiŋ le iwóyaglaka oyákihi.</string>
+  <string name="error_blocked_footer">Wóanapte kiŋ iwóyaglaka yačhíŋ haŋtáŋš, &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; naíŋš &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Administrators\"&gt;oítȟaƞčhaƞ&lt;/a&gt; uŋmá ekíya oyákihi.</string>
+  <string name="error_blocked_footer_no_blocker">&lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Administrators\"&gt;Oítȟaƞčhaƞ&lt;/a&gt; kiŋ wóanapte kiŋ le iwóyaglaka oyákihi.</string>
   <string name="temp_account_not_logged_in">Waŋná čhaž\'ónigwa šni</string>
   <string name="temp_account_dialog_ok">Héčhetu</string>
   <string name="temp_account_using_title">Waŋna čhažé-oyáŋke íȟaƞhaƞ waŋ yaúŋ</string>
@@ -428,8 +428,8 @@
   <string name="reading_lists_default_list_delete_message">Ikčé-čhašówapi kiŋ (%s) iháŋgyaya oyákihi šni</string>
   <string name="reading_lists_default_plus_one_list_delete_message">%1$s iháŋgyaye. Ikčé-čhašówapi kiŋ (%2$s) iháŋgyaya oyákihi šni.</string>
   <string name="reading_lists_default_plus_many_lists_delete_message">Čhašówapi kiŋ hená iháŋgyaye. Ikčé-čhašówapi kiŋ (%s) iháŋgyaya oyákihi šni.</string>
-  <string name="single_list_json_file_name">%s (Wikipedia táku-awáyawa čhašówapi).json</string>
-  <string name="multiple_lists_json_file_name">Wikipedia táku-awáyawa čhašówapi (%s sáŋpȟa).json</string>
+  <string name="single_list_json_file_name">%s (Infopedia táku-awáyawa čhašówapi).json</string>
+  <string name="multiple_lists_json_file_name">Infopedia táku-awáyawa čhašówapi (%s sáŋpȟa).json</string>
   <string name="reading_list_items_deleted">Čhašówapi kiŋ wówapi %d yuȟéyab ičú</string>
   <string name="reading_lists_item_deleted">Čhašówapi kiŋ %s yuȟéyab ičú</string>
   <string name="reading_list_item_delete_undo">Khigléya</string>
@@ -442,7 +442,7 @@
   <string name="reading_list_remove_from_list">%s etáŋhaŋ yuȟéyab ičú</string>
   <string name="reading_list_remove_from_lists">Táku-awáyawa čhašówapi etáŋhaŋ yuȟéyab ičú</string>
   <string name="reading_list_select_item">Kaȟníǧa</string>
-  <string name="reading_lists_login_button">Wikipedia ogná čhaž\'óigwa</string>
+  <string name="reading_lists_login_button">Infopedia ogná čhaž\'óigwa</string>
   <string name="reading_lists_ignore_button">Waŋná wačhíŋ šni</string>
   <string name="reading_lists_confirm_remote_delete_yes">Hau/Haŋ</string>
   <string name="reading_lists_confirm_remote_delete_no">Hiyá</string>
@@ -509,7 +509,7 @@
   <plurals name="notification_syncing_title">
     <item quantity="other">Wówapi %1$d khulwówakšu</item>
   </plurals>
-  <string name="notification_echo_channel_description">Wikipedia wahóši aú kiƞ</string>
+  <string name="notification_echo_channel_description">Infopedia wahóši aú kiƞ</string>
   <string name="notifications_activity_title">Wahóši aú kiƞ</string>
   <string name="notifications_search">Wahóši aú kiƞ mahél wóle</string>
   <string name="notifications_view_unread">Táku lawá šni kiŋ waŋyáŋka</string>
@@ -536,7 +536,7 @@
   <string name="preference_title_notification_email_user">Wakȟáƞgli wóyakapi waŋ iyáču</string>
   <string name="preference_summary_notification_email_user">Tuwá wiki ogná Wakȟáƞgli wóyakapi waŋ nič\'u</string>
   <string name="preference_title_notification_user_rights">Wóiyowiƞkhiye wóyutȟokča</string>
-  <string name="notifications_channel_group_wikipedia_notifications_title">Wikipedia</string>
+  <string name="notifications_channel_group_wikipedia_notifications_title">Infopedia</string>
   <string name="notifications_channel_group_other_title">Uƞmá kiƞ</string>
   <plurals name="notifications_number_of_filters">
     <item quantity="other">wínazeya %d</item>
@@ -558,7 +558,7 @@
   <string name="view_top_read_card_pageviews_m_suffix">%d M</string>
   <string name="view_top_read_card_pageviews_views_suffix">waŋyáŋkapi</string>
   <string name="view_next_random_article">Akȟé tukté wówapi k\'éyaš ičú</string>
-  <string name="view_main_page_card_title">Aŋpetu kiŋ le Wikipedia mahél</string>
+  <string name="view_main_page_card_title">Aŋpetu kiŋ le Infopedia mahél</string>
   <string name="view_main_page_card_action">Oyúblaye Čhokáta waŋyáŋka</string>
   <string name="view_featured_image_card_title">Aŋpetu kiŋ le itówapi-waŋkátuya</string>
   <string name="view_featured_image_card_download">Khulwókšu</string>
@@ -583,7 +583,7 @@
   <string name="feed_configure_menu_deselect_all">Táku iyúha naȟmá</string>
   <string name="feed_item_type_news">Wówapi wótȟaŋiŋ-iwówa kiŋ</string>
   <string name="feed_item_type_on_this_day">Wówapi aŋpétu kiŋ le eháŋi-iwówa kiŋ</string>
-  <string name="feed_item_type_featured_article">Wikipedia mahél wówapi-waŋkátuya</string>
+  <string name="feed_item_type_featured_article">Infopedia mahél wówapi-waŋkátuya</string>
   <string name="customize_lang_selection_dialog_ok_button_text">Hau/Haƞ</string>
   <string name="customize_lang_selection_dialog_cancel_button_text">Yužúžu</string>
   <string name="feed_lang_selection_dialog_ok_button_text">Hau/Haƞ</string>
@@ -620,7 +620,7 @@
   <string name="description_edit_success_saved_in_lang_snackbar">Wówa-oyákapi éyakignake! (%s)</string>
   <string name="description_edit_success_saved_image_caption_snackbar">Itówa-oyákapi éyakignake!</string>
   <string name="description_edit_success_saved_image_caption_in_lang_snackbar">Itówa-oyákapi éyakignake! (%s)</string>
-  <string name="description_edit_success_encouragement">Waŋna Wikipedia yuwášte</string>
+  <string name="description_edit_success_encouragement">Waŋna Infopedia yuwášte</string>
   <string name="description_edit_success_done">Yuštáƞ</string>
   <string name="description_edit_success_did_you_know">Oslólyaya he?</string>
   <string name="description_edit_tutorial_title_descriptions">Wówa-oyákapi</string>
@@ -666,7 +666,7 @@
   <string name="suggested_edits_image_preview_dialog_licensing">Wóopȟe wóiyowiƞkhiye</string>
   <string name="suggested_edits_image_preview_dialog_more_info">Wíhoši sáŋpȟa</string>
   <string name="suggested_edits_image_preview_dialog_file_page_link_text">Wikimedia Commons el wópȟaȟta oyúblaye</string>
-  <string name="suggested_edits_image_preview_dialog_file_page_wikipedia_link_text">Wikipedia el wópȟaȟta oyúblaye</string>
+  <string name="suggested_edits_image_preview_dialog_file_page_wikipedia_link_text">Infopedia el wópȟaȟta oyúblaye</string>
   <string name="suggested_edits_article_cta_image_tags">Itówapi-oyákapi yeyá</string>
   <string name="suggested_edits_article_cta_image_caption">Itówa-oyákapi káǧa</string>
   <string name="suggested_edits_article_cta_image_caption_in_language">Itówa-oyákapi káǧa (%s)</string>
@@ -712,8 +712,8 @@
   <string name="suggested_edits_contribution_article_label">Wówapi</string>
   <string name="suggested_edits_contribution_views">%s owáŋyaŋke</string>
   <string name="suggested_edits_contribution_date_yesterday_text">Ȟtálehaƞ</string>
-  <string name="suggested_edits_encourage_account_creation_title">Oyáte iyúha Wikipedia yutȟókečapi okíhipi! Oslolyaya he?</string>
-  <string name="suggested_edits_encourage_account_creation_login_button">Wikipedia ogná čhaž\'óigwa</string>
+  <string name="suggested_edits_encourage_account_creation_title">Oyáte iyúha Infopedia yutȟókečapi okíhipi! Oslolyaya he?</string>
+  <string name="suggested_edits_encourage_account_creation_login_button">Infopedia ogná čhaž\'óigwa</string>
   <string name="suggested_edits_contribution_type_image_tag">Itówapi-oyákapi</string>
   <string name="suggested_edits_report_suggestion">El iglé</string>
   <string name="suggested_edits_suggestion_report_submitted">Wóel\'igle leyá</string>
@@ -740,9 +740,9 @@
   <string name="edit_summary_added_caption">Itówa-oyákapi yeyá</string>
   <string name="edit_summary_added_image_and_caption">Itówapi na itówa-oyákapi yeyá</string>
   <string name="edit_published_view">Waŋyáŋka</string>
-  <string name="activity_tab_on_wikipedia_android">Wikipedia Android ogná</string>
+  <string name="activity_tab_on_wikipedia_android">Infopedia Android ogná</string>
   <string name="activity_tab_weekly_time_spent_hm">%1$dh %2$dm</string>
-  <string name="activity_tab_explore_wikipedia">Wikipedia ogná Uŋspeič\'iya</string>
+  <string name="activity_tab_explore_wikipedia">Infopedia ogná Uŋspeič\'iya</string>
   <string name="activity_tab_donation_unknown">Oslólyapi šni</string>
   <string name="activity_tab_game_stats">Wóškate wóiyawa</string>
   <string name="activity_tab_play_wiki_games">WikiGames škáta</string>
@@ -780,7 +780,7 @@
   <string name="onboarding_multilingual_add_language_text">Iyápi yeyá na yutȟókeča</string>
   <string name="onboarding_next">Íyokhihe</string>
   <string name="onboarding_fresh_install_knowledge_title">Makȟá tȟawóslolye iyúha</string>
-  <string name="onboarding_fresh_install_knowledge_learn_more">Wikipedia uŋspéič\'ičhiya</string>
+  <string name="onboarding_fresh_install_knowledge_learn_more">Infopedia uŋspéič\'ičhiya</string>
   <string name="onboarding_app_languages_title">Iyápi 300+ ogná wayáwa</string>
   <string name="onboarding_app_languages_text">Omás’apȟela nitȟáwa mahél iyápi kiŋ lená luhé:</string>
   <string name="onboarding_app_languages_add_button">Iyápi yekíya naíŋš glutȟókeča</string>
@@ -797,7 +797,7 @@
   </plurals>
   <string name="languages_list_activity_title">Iyápi waŋ yeyá</string>
   <string name="languages_list_all_text">Iyápi iyúha</string>
-  <string name="wikipedia_languages_title">Wikipedia iyápi</string>
+  <string name="wikipedia_languages_title">Infopedia iyápi</string>
   <string name="wikipedia_languages_your_languages_text">Iyápi nitȟáwa</string>
   <string name="wikipedia_languages_add_language_text">Iyápi waŋ yeyá</string>
   <string name="wikipedia_languages_remove_text">Iyápi waŋ yuȟéyab ičú</string>
@@ -807,7 +807,7 @@
   </plurals>
   <string name="wikipedia_languages_remove_warning_dialog_title">Iyápi iyúha yuȟéyab iyáču oyákihi šni</string>
   <string name="more_language_options">sáŋpȟa</string>
-  <string name="add_wikipedia_languages_text">Wikipedia iyápi kaȟníǧa</string>
+  <string name="add_wikipedia_languages_text">Infopedia iyápi kaȟníǧa</string>
   <string name="remove_language_dialog_cancel_button_text">Yužúžu</string>
   <string name="remove_language_dialog_ok_button_text">Hau/Haŋ</string>
   <string name="remove_all_language_warning_dialog_ok_button_text">Hau/Haŋ</string>
@@ -845,7 +845,7 @@
   <string name="templates_param_optional_hint">%s (Kaȟníȟphiča)</string>
   <string name="templates_learn_more_link">Táku sáŋpȟa uŋspéič’iya</string>
   <string name="main_drawer_help">Wóokiye</string>
-  <string name="main_drawer_login">Wikipedia ogná čhaž\'óigwa</string>
+  <string name="main_drawer_login">Infopedia ogná čhaž\'óigwa</string>
   <string name="main_tooltip_watchlist_title">Wóawaƞyaƞke čhašówapi</string>
   <string name="custom_date_picker_dialog_ok_button_text">Hau/Haƞ</string>
   <string name="text_input_dialog_ok_button_text">Hau/Haƞ</string>
@@ -1030,19 +1030,19 @@
   <string name="games_hub_activity_title">Wóškate</string>
   <string name="games_hub_activity_overflow_view_game_stats">Wóškate wóiyawa waŋyáŋka</string>
   <string name="games_hub_activity_overflow_learn_more">Táku sáŋpȟa uŋspéič’iya</string>
-  <string name="on_this_day_game_entry_dialog_subtitle">Wikipedia wóškate</string>
+  <string name="on_this_day_game_entry_dialog_subtitle">Infopedia wóškate</string>
   <string name="on_this_day_game_entry_dialog_button">Škáta</string>
   <string name="on_this_day_game_dialog_button">Škáta</string>
   <string name="on_this_day_game_correct">Léčhetu!</string>
   <string name="on_this_day_game_incorrect">Léčhetu šni!</string>
-  <string name="on_this_day_game_feed_entry_card_heading">Wikipedia wóškate</string>
+  <string name="on_this_day_game_feed_entry_card_heading">Infopedia wóškate</string>
   <string name="on_this_day_game_your_stats">Wóiyawa nitȟáwa</string>
   <string name="on_this_day_game_notification_undo">Pažúžu</string>
   <string name="on_this_day_game_more_label">Sáƞpȟa</string>
   <string name="on_this_day_game_card_archive_label">Wówapi-mnayáŋpi</string>
   <string name="on_this_day_game_stats_log_in_prompt_card_button">Čhaž\'óigwa</string>
   <string name="year_in_review_learn_more">Táku sáŋpȟa uŋspéič’iya</string>
-  <string name="year_in_review_topbar_w_icon">Wikipedia W Wíyačhiŋ</string>
+  <string name="year_in_review_topbar_w_icon">Infopedia W Wíyačhiŋ</string>
   <string name="year_in_review_navigate_left">Čhatkátakiya ya</string>
   <string name="year_in_review_close">Ečhél iyéya</string>
   <string name="year_in_review_share_icon">Ok’u Wíyačhiŋ</string>
@@ -1059,7 +1059,7 @@
   <string name="year_in_review_slide_app_icon_donor">tuwá mázaska kič\'uŋ waŋ</string>
   <string name="year_in_review_slide_app_icon_editor">tuwá wayútȟokeča waŋ</string>
   <string name="year_in_review_slide_app_icon_donor_and_editor">tuwá wayútȟokeča waŋ na mázaska kič\'uŋ waŋ</string>
-  <string name="year_in_review_login_dialog_positive">Wikipedia ogná čhaž\'óigwa</string>
+  <string name="year_in_review_login_dialog_positive">Infopedia ogná čhaž\'óigwa</string>
   <plurals name="year_in_review_slide_bytes_added_headline">
     <item quantity="other">wíhoši okáza %,d yutȟáŋka</item>
   </plurals>
@@ -1071,7 +1071,7 @@
   <string name="year_in_review_slide_reading_pattern_late_night">Haŋčhókaya</string>
   <string name="year_in_review_reading_list_dialog_positive_button_label">Káǧa</string>
   <string name="year_in_review_reading_list_dialog_negative_button_label">Hiyá</string>
-  <string name="year_in_review_highlights_logo_description">Wikipedia wíyačhiŋ</string>
+  <string name="year_in_review_highlights_logo_description">Infopedia wíyačhiŋ</string>
   <string name="recommended_reading_list_onboarding_card_new">Théča!</string>
   <string name="recommended_reading_list_onboarding_card_negative_button">Hiyá</string>
   <string name="recommended_reading_list_page_snackbar_day">Aŋpétu</string>
@@ -1104,7 +1104,7 @@
   <string name="hybrid_search_who_is_prefix">Tuwé %s he?</string>
   <string name="reading_challenge_onboarding_learn_more_button">Táku sáŋpȟa uŋspéič’iya</string>
   <string name="reading_challenge_onboarding_prompt_no_thanks">Hiyá</string>
-  <string name="reading_challenge_onboarding_prompt_login">Wikipedia ogná čhaž\'óigwa</string>
+  <string name="reading_challenge_onboarding_prompt_login">Infopedia ogná čhaž\'óigwa</string>
   <string name="reading_challenge_install_prompt_got_it">He owákaȟniǧe</string>
   <string name="reading_challenge_widget_search_button">Wóle</string>
   <plurals name="reading_challenge_small_widget_streak">

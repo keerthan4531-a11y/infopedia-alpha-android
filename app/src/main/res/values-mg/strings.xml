@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Jagwar
 -->
 <resources>
-  <string name="app_name_prod">Wikipedia</string>
-  <string name="app_name_beta">Wikipedia Beta</string>
-  <string name="app_name_alpha">Wikipedia Alpha</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Wikimedia</string>
-  <string name="search_hint">Hikaroka an\'i Wikipedia</string>
+  <string name="search_hint">Hikaroka an\'i Infopedia</string>
   <string name="search_hint_search_languages">Hikaroka fiteny</string>
   <string name="error_network_error">Tsy afaka mifandray amin\'ny Aterineto.</string>
   <string name="page_error_retry">Andramana indray</string>
@@ -39,12 +39,12 @@
   <string name="map_view_link_text">Jerena amin\'ny sarintany</string>
   <string name="other_languages_indication_text">Vakiana amin\'ny teny hafa</string>
   <string name="language_count_link_text">Azo vakiana amin\'ny teny %d maro</string>
-  <string name="preference_title_language">Fitenin\'ny Wikipedia</string>
+  <string name="preference_title_language">Fitenin\'ny Infopedia</string>
   <string name="langlinks_filter_hint">Hikaroka</string>
   <string name="langlinks_empty">Ity pejy ity dia tsy hita amin\'ny teny hafa</string>
   <string name="langlinks_no_match">Tsy nahitana fiteny</string>
   <string name="langlinks_activity_title">Fiteny hafa</string>
-  <string name="langlinks_your_wikipedia_languages">Ny teny Wikipedianao</string>
+  <string name="langlinks_your_wikipedia_languages">Ny teny Infopedianao</string>
   <string name="menu_save_changes">Hamoaka ny fiovana</string>
   <string name="edit_saved_successfully">Navoaka ny fiovana!</string>
   <string name="dialog_message_edit_failed">Tsy nahomby ny fandraiketana!</string>
@@ -62,11 +62,11 @@
   <string name="edit_section_captcha_hint">Avereno ny teny teo ambony</string>
   <string name="title_captcha">Hampiditra CAPTCHA</string>
   <string name="edit_section_captcha_reload">Tsindrio ny CAPTCHA mba hamerina azy ireo</string>
-  <string name="nav_item_login">Hiditra amin\'i Wikipedia</string>
+  <string name="nav_item_login">Hiditra amin\'i Infopedia</string>
   <string name="login_username_hint">Anaram-pikambana</string>
   <string name="login_password_hint">Tenimiafina</string>
   <string name="menu_login">Hiditra</string>
-  <string name="login_activity_title" fuzzy="true">Hiditra amin\'i Wikipedia</string>
+  <string name="login_activity_title" fuzzy="true">Hiditra amin\'i Infopedia</string>
   <string name="login_in_progress_dialog_message">Mampiditra anao....</string>
   <string name="login_success_toast" fuzzy="true">Tafiditra!</string>
   <string name="reset_password_title">Forony ny tenimiafinao</string>
@@ -77,7 +77,7 @@
   <string name="delete_selected_items">Hamafa ny zavatra voasafidy</string>
   <string name="create_account_username_hint">Anaram-pikambana</string>
   <string name="login_dont_have_account">Tsy manana kaonty ve?</string>
-  <string name="login_join_wikipedia">Hiditra ho mpikamban\'i Wikipedia</string>
+  <string name="login_join_wikipedia">Hiditra ho mpikamban\'i Infopedia</string>
   <string name="login_forgot_password">Hadinonao ve ny tenimiafinao?</string>
   <string name="create_account_already_have">Efa manana kaonty ve?</string>
   <string name="create_account_activity_title">Hamorona kaonty</string>
@@ -93,7 +93,7 @@
   <string name="create_account_button">Hamorona kaonty</string>
   <string name="create_account_ip_block_details">Antsipirihany</string>
   <string name="preferences_general_heading">Ankapobe</string>
-  <string name="wikipedia_app_faq">FAQn\'i Wikipedia App</string>
+  <string name="wikipedia_app_faq">FAQn\'i Infopedia App</string>
   <string name="send_feedback">Hamoa-kevitra momba ny fampiharana</string>
   <string name="create_account_account_created_toast">Voaforona ny kaonty!</string>
   <string name="preferences_heading_syncing">Fisinkiana</string>
@@ -106,7 +106,7 @@
   <string name="page_protected_can_not_edit_title">Voaaro ity pejy ity</string>
   <string name="settings_item_preferences">Fanafahana</string>
   <string name="settings_activity_title">Fanafahana</string>
-  <string name="about_description">Momba ny fampiharana Wikipedia</string>
+  <string name="about_description">Momba ny fampiharana Infopedia</string>
   <string name="privacy_policy_description">Politika momba ny fiainana manokana</string>
   <string name="terms_of_use_description">Fepe-pampiasana</string>
   <string name="about_libraries_heading">Tahirimboky ampiasaina</string>
@@ -143,7 +143,7 @@
   <string name="error_browser_not_found">Tsy afaka nanokatra pejy web (tsy nahitana fampiharana mpitety tranonkala)</string>
   <string name="table_other">Torohay fanampiny</string>
   <string name="table_close">Hidiana</string>
-  <string name="widget_name_search">Karoka Wikipedia</string>
+  <string name="widget_name_search">Karoka Infopedia</string>
   <string name="wiktionary_no_definitions_found">Tsy nahitana famaritana.</string>
   <string name="alpha_update_notification_title">Misy fanavaozana alpha azo alaina</string>
   <string name="alpha_update_notification_text">Kitiho mba hampidina</string>

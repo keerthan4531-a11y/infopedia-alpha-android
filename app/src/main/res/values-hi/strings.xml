@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Abijeet Patro
 * Adithyavr
@@ -40,9 +40,9 @@
 * संजीव कुमार
 -->
 <resources>
-  <string name="app_name_prod">विकिपीडिया</string>
-  <string name="app_name_beta">विकिपीडिया बीटा</string>
-  <string name="app_name_alpha">विकिपीडिया आल्फ़ा</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">विकिमीडिया</string>
   <string name="nav_item_back">पीछे जाएँ</string>
   <string name="page_tabs_back">पीछे जाएँ</string>
@@ -173,7 +173,7 @@
   <string name="search_reading_lists_no_results">पठन सूची में कोई परिणाम नहीं मिला</string>
   <string name="search_history_no_results">इतिहास में कोई परिणाम नहीं मिला</string>
   <string name="edit_section_captcha_message">स्वचालित स्पैम से बचने के लिए कृपया नीचे दिखाए गए शब्दों को लिखें</string>
-  <string name="edit_section_captcha_request_an_account_message">चित्र नहीं दिख रहा? &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;एक खाते का अनुरोध करें&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">चित्र नहीं दिख रहा? &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;एक खाते का अनुरोध करें&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">ऊपर से शब्दों को दोहराएँ</string>
   <string name="title_captcha">CAPTCHA दर्ज करें</string>
   <string name="edit_section_captcha_reload">पुनः लोड करने के लिए CAPTCHA पर टैप करें</string>
@@ -240,7 +240,7 @@
   <string name="create_account_button">खाता बनायें</string>
   <string name="create_account_name_unavailable">सदस्य नाम %s उपलब्ध नहीं है। कृपया कोई अलग नाम चुनें।</string>
   <string name="create_account_ip_block_message">क्षमा करें, आपका आई पी एड्रेस वर्तमान में नये खाते बनने के लिए प्रतिबंधित है।</string>
-  <string name="create_account_ip_block_help_url">https://en.wikipedia.org/wiki/Help:I_have_been_blocked</string>
+  <string name="create_account_ip_block_help_url">https://en.Infopedia.org/wiki/Help:I_have_been_blocked</string>
   <string name="create_account_ip_block_details">विवरण</string>
   <string name="preferences_general_heading">सामान्य</string>
   <string name="preferences_account_heading">खाता</string>
@@ -275,14 +275,14 @@
   <string name="privacy_policy_description">गोपनीयता नीति</string>
   <string name="terms_of_use_description">उपयोग की शर्तें</string>
   <string name="legal_safety_contacts_description">कानूनी और सुरक्षा संपर्क</string>
-  <string name="about_wikipedia_url">https://hi.wikipedia.org/wiki/विकिपीडिया:विकिपीडिया_के_बारे में</string>
+  <string name="about_wikipedia_url">https://hi.Infopedia.org/wiki/विकिपीडिया:विकिपीडिया_के_बारे में</string>
   <string name="about_libraries_heading">लाइब्रेरीज़ का प्रयोग किया गया</string>
   <string name="about_contributors_heading">योगदानकर्ता</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;टीम पेज&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;टीम पेज&lt;/a&gt;</string>
   <string name="about_translators_heading">अनुवादक</string>
   <string name="about_translators_translatewiki">इस एप को स्वयंसेवक अनुवादकों के द्वारा &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt; पर अनुवादित किया गया है।</string>
   <string name="about_app_license_heading">लाइसेंस</string>
-  <string name="about_app_license">स्रोत कोड &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;GitHub&lt;/a&gt; पर &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0 License&lt;/a&gt; के तहत उपलब्ध है। जब तक अन्यथा निर्दिष्ट न हो, सामग्री &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Creative Commons Attribution-ShareAlike License&lt;/a&gt; के तहत उपलब्ध है।</string>
+  <string name="about_app_license">स्रोत कोड &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;GitHub&lt;/a&gt; पर &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0 License&lt;/a&gt; के तहत उपलब्ध है। जब तक अन्यथा निर्दिष्ट न हो, सामग्री &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Creative Commons Attribution-ShareAlike License&lt;/a&gt; के तहत उपलब्ध है।</string>
   <string name="about_wmf">&lt;a href=\"https://wikimediafoundation.org/\"&gt;विकिमीडिया संस्थान&lt;/a&gt; का एक उत्पाद</string>
   <string name="about_activity_title">बारे में</string>
   <string name="edit_abandon_confirm">पृष्ठ को संशोधित किया गया है। क्या आप अपने परिवर्तन को सहेजने के बिना निकास करना चाहते है?</string>
@@ -458,9 +458,9 @@
   <string name="error_blocked_start">प्रतिबंध की शुरुआत: %s</string>
   <string name="error_blocked_expiry">प्रतिबंध की समाप्ति: %s</string>
   <string name="error_blocked_id">ब्लॉक आईडी: %s</string>
-  <string name="error_blocked_footer">आप प्रतिबंध पर चर्चा करने के लिए &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; या फिर किसी दूसरे &lt;a href=\"https://hi.wikipedia.org/wiki/विकिपीडिया:प्रबन्धक\"&gt;प्रबंधक&lt;/a&gt; से संपर्क कर सकते हैं।</string>
+  <string name="error_blocked_footer">आप प्रतिबंध पर चर्चा करने के लिए &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; या फिर किसी दूसरे &lt;a href=\"https://hi.Infopedia.org/wiki/विकिपीडिया:प्रबन्धक\"&gt;प्रबंधक&lt;/a&gt; से संपर्क कर सकते हैं।</string>
   <string name="theme_chooser_menu_item_short_tooltip">अपने टूलबार में परिवर्तन करें</string>
-  <string name="error_blocked_footer_no_blocker">प्रतिबंध पर चर्चा करने के लिए आप किसी &lt;a href=\"https://hi.wikipedia.org/wiki/विकिपीडिया:प्रबन्धक\"&gt;प्रबन्धक&lt;/a&gt; से संपर्क कर सकते हैं।</string>
+  <string name="error_blocked_footer_no_blocker">प्रतिबंध पर चर्चा करने के लिए आप किसी &lt;a href=\"https://hi.Infopedia.org/wiki/विकिपीडिया:प्रबन्धक\"&gt;प्रबन्धक&lt;/a&gt; से संपर्क कर सकते हैं।</string>
   <string name="temp_account_not_logged_in">आप लॉग इन नहीं हैं</string>
   <string name="temp_account_anon_ip_dialog_body">जैसे ही आप कोई संपादन करते हैं, आपका आईपी पता आपके संपादनों से जुड़ जाएगा।&lt;br /&gt;&lt;br /&gt;&lt;a href=\"https://#login\"&gt;लॉग इन करें&lt;/a&gt; या &lt;a href=\"https://#createaccount\"&gt;खाता बनाएं&lt;/a&gt; ताकि भविष्य के संपादनों का श्रेय मिल सके और अन्य सुविधाओं तक पहुंच प्राप्त हो सके।</string>
   <string name="temp_account_anon_dialog_body">जैसे ही आप कोई संपादन करते हैं, आपकी गोपनीयता की सुरक्षा के लिए एक &lt;b&gt;अस्थायी खाता&lt;/b&gt; बनाया जाएगा। &lt;a href=\"%1$s\"&gt;अधिक जानें&lt;/a&gt;।&lt;br /&gt;&lt;br /&gt;&lt;a href=\"https://#login\"&gt;लॉग इन करें&lt;/a&gt; या &lt;a href=\"https://#createaccount\"&gt;खाता बनाएं&lt;/a&gt; ताकि भविष्य के संपादनों का श्रेय मिल सके और अन्य सुविधाओं तक पहुंच प्राप्त हो सके।</string>
@@ -583,7 +583,7 @@
   <string name="reading_lists_default_list_delete_message">डिफ़ॉल्ट सूची ( %s ) को हटाया नहीं जा सकता</string>
   <string name="reading_lists_default_plus_one_list_delete_message">%1$s हटा दिया गया। डिफ़ॉल्ट सूची ( %2$s ) को हटाया नहीं जा सकता।</string>
   <string name="reading_lists_default_plus_many_lists_delete_message">सूचियाँ हटा दी गईं। डिफ़ॉल्ट सूची ( %s ) को हटाया नहीं जा सकता।</string>
-  <string name="single_list_json_file_name">%s (Wikipedia reading list).json</string>
+  <string name="single_list_json_file_name">%s (Infopedia reading list).json</string>
   <string name="multiple_lists_json_file_name">विकिपीडिया पठन सूचियाँ ( %s और अधिक).json</string>
   <string name="reading_list_items_deleted">%d लेख सूची से हटाये गए</string>
   <string name="reading_lists_item_deleted">%s को सूचियों से हटाया गया</string>
@@ -604,8 +604,8 @@
   <string name="reading_list_confirm_remove_article_from_offline_title">लेख एक से अधिक सूचियों में है</string>
   <string name="reading_list_confirm_remove_article_from_offline_message">%s सभी ऑफलाइन पढ़ने वाली सूचियों में आगे उपलब्ध नहीं होगा:</string>
   <string name="reading_lists_sync_reminder_title">पठन सूची को सिंक करना चालू करें?</string>
-  <string name="reading_lists_sync_reminder_text" fuzzy="true">पठन सूचियों में सहेजे गए लेख अब आपके विकिपीडिया खाते से सिंक किए जा सकते हैं। &lt;a href=\"https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;अधिक जानें&lt;/a&gt;</string>
-  <string name="reading_lists_login_reminder_text_with_link" fuzzy="true">पठन सूचियां अब सभी उपकरणों में सिंक की जा सकती हैं। अपने विकिपीडिया खाते में लॉग इन करें और अपनी सूचियों को सहेजने दें। &lt;a href=\"https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;अधिक जानें&lt;/a&gt;</string>
+  <string name="reading_lists_sync_reminder_text" fuzzy="true">पठन सूचियों में सहेजे गए लेख अब आपके विकिपीडिया खाते से सिंक किए जा सकते हैं। &lt;a href=\"https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;अधिक जानें&lt;/a&gt;</string>
+  <string name="reading_lists_login_reminder_text_with_link" fuzzy="true">पठन सूचियां अब सभी उपकरणों में सिंक की जा सकती हैं। अपने विकिपीडिया खाते में लॉग इन करें और अपनी सूचियों को सहेजने दें। &lt;a href=\"https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;अधिक जानें&lt;/a&gt;</string>
   <string name="reading_lists_sync_reminder_action">सिंक चालू करें</string>
   <string name="reading_list_login_reminder_title">\nअपनी पठन सूचियों को सिंक करें</string>
   <string name="reading_lists_login_reminder_text">पठन सूचियां अब सभी उपकरणों में सिंक की जा सकती हैं। अपने विकिपीडिया खाते में लॉग इन करें और अपनी सूचियों को सहेजने दें।</string>
@@ -1340,7 +1340,7 @@
   <string name="talk_snackbar_survey_action_text">शुरूआत करें</string>
   <string name="talk_share_discussion_subject">विकिपीडिया - वार्ता पृष्ठ विषय \"%s\" पर चर्चा</string>
   <string name="talk_share_talk_page">विकिपीडिया - वार्ता पृष्ठ पर चर्चा</string>
-  <string name="talk_edit_disclaimer">यह एक वार्ता पृष्ठ है। कृपया वार्ता पृष्ठ दिशानिर्देशों का सम्मान करें, और विकीटेक्स्ट का उपयोग करके पोस्ट करते समय चार टिल्ड टाइप करके अपनी पोस्ट पर हस्ताक्षर करना याद रखें: ~~~~।&lt;br&gt;&lt;br&gt; &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Talk_page_guidelines\"&gt;विकिपीडिया: वार्ता पृष्ठ दिशानिर्देश&lt;/a&gt;</string>
+  <string name="talk_edit_disclaimer">यह एक वार्ता पृष्ठ है। कृपया वार्ता पृष्ठ दिशानिर्देशों का सम्मान करें, और विकीटेक्स्ट का उपयोग करके पोस्ट करते समय चार टिल्ड टाइप करके अपनी पोस्ट पर हस्ताक्षर करना याद रखें: ~~~~।&lt;br&gt;&lt;br&gt; &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Talk_page_guidelines\"&gt;विकिपीडिया: वार्ता पृष्ठ दिशानिर्देश&lt;/a&gt;</string>
   <string name="talk_search_hint">संदेश खोजें</string>
   <string name="talk_search_topics_hint">विषय खोजें</string>
   <string name="talk_search_find_in_talk_topics_hint">वार्ता पृष्ठ विषय में खोजें</string>
@@ -1522,7 +1522,7 @@
   <string name="shareable_reading_lists_new_imported_snackbar">पठन सूची आयात की गई</string>
   <string name="reading_list_share_menu_label">साझा करें…</string>
   <string name="reading_list_share_menu_tooltip">यह रीडिंग लिस्ट अन्य लोगों के साथ साझा करें</string>
-  <string name="reading_list_share_message_v2">हैलो! मैं अपना Wikipedia रीडिंग लिस्ट आपके साथ साझा करना चाहता/चाहती हूं :</string>
+  <string name="reading_list_share_message_v2">हैलो! मैं अपना Infopedia रीडिंग लिस्ट आपके साथ साझा करना चाहता/चाहती हूं :</string>
   <string name="talk_templates_new_message_subject_hint">विषय</string>
   <string name="talk_templates_new_message_compose_hint">संदेश लिखें</string>
   <string name="talk_templates_new_message_save">सहेजें</string>

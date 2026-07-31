@@ -98,7 +98,7 @@ fun StreamingTextRenderer(
                 RotatingText(
                     texts = listOf(
                         "✨ Thinking…",
-                        "🌐 Connecting to Wikipedia…",
+                        "🌐 Connecting to Infopedia…",
                         "🧬 Collecting Context Data…",
                         "⚡ Synthesizing Response…"
                     ),

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Agurwin Isaac
 * Akudugu
@@ -7,14 +7,14 @@
 * Dbrant
 -->
 <resources>
-  <string name="app_name_prod">Wikipiidia</string>
-  <string name="app_name_beta">Wikipedia Beta</string>
-  <string name="app_name_alpha">Wikipedia Alfa</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Wikimedia</string>
   <string name="nav_item_back">Nya\'aŋ</string>
   <string name="page_tabs_back">Nya\'aŋ</string>
   <string name="nav_item_forward">Tuon</string>
-  <string name="search_hint">Ieem Wikipedia</string>
+  <string name="search_hint">Ieem Infopedia</string>
   <string name="search_hint_voice_search">Kʋkɔr kpɛn\'esʋg ieeb</string>
   <string name="search_hint_search_languages">Ieem pian\'ad la</string>
   <string name="filter_hint_filter_my_lists_and_articles">Duusimi m la\'ad</string>
@@ -131,7 +131,7 @@
   <string name="search_reading_lists_no_results">Labaar sia kae zin\'ikanɛ ka fʋ karim la</string>
   <string name="search_history_no_results">Labaar sia kae labakʋda la nii</string>
   <string name="edit_section_captcha_message">Fʋ ya\'a na sʋŋi gu\'uf yi \"automated spam\" pʋʋgin, sɔm opian\'abanɛ bɛ teŋir la</string>
-  <string name="edit_section_captcha_request_an_account_message">Mam pʋ nyɛ footo la? &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia: Bu\'osim akaʋnt yɛla&gt;Bu\'osim akaʋnt yɛla&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">Mam pʋ nyɛ footo la? &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia: Bu\'osim akaʋnt yɛla&gt;Bu\'osim akaʋnt yɛla&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">Lɛn maligim sɔb pian\'abanɛ bɛ agɔl la</string>
   <string name="title_captcha">Kpɛn\'ɛsim CAPTCHA</string>
   <string name="edit_section_captcha_reload">Diim CAPTCHA ka di maligim pin\'il</string>
@@ -192,11 +192,11 @@
   <string name="create_account_button">Yɔ\'ɔgim akaunt</string>
   <string name="create_account_name_unavailable">Tʋntʋn la yʋ\'ʋr \"%s\" ka\'asigɛ. M bɛlimnɛ tiakim gaŋ yʋ\'ʋsi\'a.</string>
   <string name="create_account_ip_block_message">Gaafara, Ba gu\'u fʋ IP addɛrɛs lanɛ ye di kʋ nyaŋi yɔ\'ɔg akaʋnt paalaa.</string>
-  <string name="create_account_ip_block_help_url">https://en.wikipedia.org/wiki/Sʋŋim:Ba gu\'umnɛ.</string>
+  <string name="create_account_ip_block_help_url">https://en.Infopedia.org/wiki/Sʋŋim:Ba gu\'umnɛ.</string>
   <string name="create_account_ip_block_details">Wiesʋg</string>
   <string name="preferences_general_heading">Li wʋsa</string>
   <string name="preferences_account_heading">Akaʋnt</string>
-  <string name="wikipedia_app_faq">Wikipedia App FAQ</string>
+  <string name="wikipedia_app_faq">Infopedia App FAQ</string>
   <string name="send_feedback">Tisim app la gandigir</string>
   <string name="create_account_account_created_toast">Akaʋnt yɔ\'ɔgya!</string>
   <string name="preferences_heading_syncing">Syncing</string>
@@ -204,7 +204,7 @@
   <string name="preferences_heading_experimental">Kpansi baŋ</string>
   <string name="preference_title_sync_reading_lists_from_account">Banɛ ka fʋ karim la yuulimnɛ</string>
   <string name="preference_title_download_reading_list_articles">Vɛ\'ɛgim atikil banɛ ka fʋ karim la</string>
-  <string name="preference_summary_sync_reading_lists">Giligidnɛ la\'abanɛ ka fʋ karim la divaasinam wʋsa ni ka kpɛn\'ɛsidi ba Wikipedia akaʋnt ni</string>
+  <string name="preference_summary_sync_reading_lists">Giligidnɛ la\'abanɛ ka fʋ karim la divaasinam wʋsa ni ka kpɛn\'ɛsidi ba Infopedia akaʋnt ni</string>
   <string name="preference_dialog_of_turning_off_reading_list_sync_title">Yisim synched dinɛ ka fʋ karim la yi \"%s\"?</string>
   <string name="preference_dialog_of_turning_off_reading_list_sync_text">Nɛ\' na yis la\'abanɛ ka fʋ giligin la lɛbis zin\'ikanɛ ka sɔ\' zi\'.\n\nYisim la\'abanɛ ka fʋ giligin la fʋ akaʋnt \"%s\" nii</string>
   <string name="preference_title_auto_upload_crash_reports">Tisimi agbirigi san\'am labaya</string>
@@ -224,10 +224,10 @@
   <string name="about_description">Wikipiidia app la yɛla</string>
   <string name="privacy_policy_description">Su\'adim gban\'ar</string>
   <string name="terms_of_use_description">Tʋʋma suor dɔlisʋg</string>
-  <string name="about_wikipedia_url">https://en.wikipedia.org/wiki/Wikipedia:About</string>
+  <string name="about_wikipedia_url">https://en.Infopedia.org/wiki/Infopedia:About</string>
   <string name="about_libraries_heading">Gbana buoris banɛ zaŋi tʋm</string>
   <string name="about_contributors_heading">Tʋntʋnnib</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Tʋntʋnnib lakir&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Tʋntʋnnib lakir&lt;/a&gt;</string>
   <string name="about_translators_heading">pian\'alɛbigirib</string>
   <string name="about_translators_translatewiki">Sɔ\' da pɛsigi o mɛŋi lɛbig app kaŋa bɛ &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt;.</string>
   <string name="about_app_license_heading">Kasɛta gbaʋŋ</string>
@@ -364,9 +364,9 @@
   <string name="error_message_generic">Daʋŋ si\'a naamya</string>
   <string name="view_link_preview_error_button_dismiss">Basim</string>
   <string name="error_page_does_not_exist">Lakir kaŋa nam pʋ bɛɛ</string>
-  <string name="error_user_page_does_not_exist">Wikipedia pʋ mɔr &lt;a href=\"%1$s\"&gt;tʋmtʋm lakirɛ&lt;/a&gt; nɛ yʋ\'ʋkaŋa nɔɔnɛ. Di wʋsa ni, lakir kaŋa nar ye fʋ maal ka dɛmis nɛ &lt;b&gt;%2$s&lt;/b&gt;. Fʋ ya\'a bi\'esid, m bɛlimnɛ gɔsim ye \"%3$s\" bɛɛ.</string>
+  <string name="error_user_page_does_not_exist">Infopedia pʋ mɔr &lt;a href=\"%1$s\"&gt;tʋmtʋm lakirɛ&lt;/a&gt; nɛ yʋ\'ʋkaŋa nɔɔnɛ. Di wʋsa ni, lakir kaŋa nar ye fʋ maal ka dɛmis nɛ &lt;b&gt;%2$s&lt;/b&gt;. Fʋ ya\'a bi\'esid, m bɛlimnɛ gɔsim ye \"%3$s\" bɛɛ.</string>
   <string name="view_wiki_error_message_offline">Li kʋ nyaŋi tɔŋ nɛ na\'asaasɔɔng nwa</string>
-  <string name="view_wiki_error_message_timeout">Di kʋ nyaŋi tɔ\'ɔŋ nɛ Wikipedia. Gɔsimi fʋ tɔ\'ɔŋir la, bɛɛ fʋn mɔ\' nya\'aŋ</string>
+  <string name="view_wiki_error_message_timeout">Di kʋ nyaŋi tɔ\'ɔŋ nɛ Infopedia. Gɔsimi fʋ tɔ\'ɔŋir la, bɛɛ fʋn mɔ\' nya\'aŋ</string>
   <string name="reference_title">Gbanvɛɛnsa %s</string>
   <string name="reference_list_title">Gbanvɛɛnsa</string>
   <string name="theme_chooser_dialog_image_dimming_switch_label">Footo diisʋg (di bɛnɛ lik zin\'ig)</string>
@@ -381,11 +381,11 @@
   <string name="error_blocked_start">Kparib pin\'ilʋg: %s</string>
   <string name="error_blocked_expiry">Fʋ kparib la naad nɛ: %s</string>
   <string name="error_blocked_id">Kparib la zanbin: %s</string>
-  <string name="error_blocked_footer">Fʋ na tʋn\'e paae &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; bɛɛ sɔ\' ya\'as &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Administrators\"&gt;kpɛɛm&lt;/a&gt; ka ya sɔns kparib la yɛla.</string>
+  <string name="error_blocked_footer">Fʋ na tʋn\'e paae &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; bɛɛ sɔ\' ya\'as &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Administrators\"&gt;kpɛɛm&lt;/a&gt; ka ya sɔns kparib la yɛla.</string>
   <string name="theme_chooser_menu_item_short_tooltip">Tiakimb toolbar la</string>
-  <string name="error_blocked_footer_no_blocker">Fʋ tʋn\'e paae &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Administrators\"&gt;administrator&lt;/a&gt; ka ya sɔns kparib la yɛla.</string>
+  <string name="error_blocked_footer_no_blocker">Fʋ tʋn\'e paae &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Administrators\"&gt;administrator&lt;/a&gt; ka ya sɔns kparib la yɛla.</string>
   <string name="crash_report_activity_title">Fʋ buosʋg la paam gbɛlʋŋ</string>
-  <string name="crash_report_relaunch_or_quit">Ti tum taal, Wikipedia app la nyɛnɛ gbɛlʋŋ si\'a ka ba gu\'oe di.\n\nFʋ na bɔɔd ye fʋ pin\'il ya\'as bɛɛ fʋ basɛ?</string>
+  <string name="crash_report_relaunch_or_quit">Ti tum taal, Infopedia app la nyɛnɛ gbɛlʋŋ si\'a ka ba gu\'oe di.\n\nFʋ na bɔɔd ye fʋ pin\'il ya\'as bɛɛ fʋ basɛ?</string>
   <string name="crash_report_relaunch">Maligim pin\'il</string>
   <string name="crash_report_quit">Gu\'om</string>
   <string name="article_menu_bar_save_button">Kpɛn\'ɛsim</string>
@@ -476,8 +476,8 @@
     <item quantity="one">%d list deleted</item>
     <item quantity="other">%d lists deleted\n</item>
   </plurals>
-  <string name="single_list_json_file_name">%s (Wikipedia karʋŋ la\'ad). json</string>
-  <string name="multiple_lists_json_file_name">Wikipedia karʋŋ la\'ad nam (%s nɛ bɛdegʋ).json</string>
+  <string name="single_list_json_file_name">%s (Infopedia karʋŋ la\'ad). json</string>
+  <string name="multiple_lists_json_file_name">Infopedia karʋŋ la\'ad nam (%s nɛ bɛdegʋ).json</string>
   <string name="reading_list_items_deleted">Ba yis %d atikil nam yi la\'ad la ni</string>
   <string name="reading_lists_item_deleted">Ba yis %s la\'ad la ni</string>
   <string name="reading_list_item_delete_undo">Lɛbisim</string>
@@ -489,7 +489,7 @@
   <string name="reading_list_select_item">Gaŋim</string>
   <string name="reading_list_confirm_remove_article_from_offline">Yisimi li offline</string>
   <string name="reading_list_confirm_remove_article_from_offline_title">Atikil bɛ zin\'is bɛdegʋ ni</string>
-  <string name="reading_lists_login_button">Kpɛn\'ɛm pʋʋgin/ paasim Wikipedia ni</string>
+  <string name="reading_lists_login_button">Kpɛn\'ɛm pʋʋgin/ paasim Infopedia ni</string>
   <string name="reading_lists_ignore_button">Ka\' nananaa</string>
   <string name="reading_lists_confirm_remote_delete_yes">Ɛɛn</string>
   <string name="reading_lists_confirm_remote_delete_no">Ayei</string>
@@ -566,7 +566,7 @@
     <item quantity="one">%1$d list left</item>
     <item quantity="other">%1$d lists left</item>
   </plurals>
-  <string name="notification_echo_channel_description">Wikipedia labaya</string>
+  <string name="notification_echo_channel_description">Infopedia labaya</string>
   <string name="notifications_activity_title">Labaya</string>
   <string name="notifications_activity_title_archived">Labaya(su\'a nɛ)</string>
   <string name="notifications_search">Iem labaya</string>
@@ -617,8 +617,8 @@
   <string name="preference_summary_notification_user_rights">Fʋ na di\'e fʋ tʋmtʋm nyadi ya\'a tiak</string>
   <string name="preference_category_push_notifications">Tuunsug labaya kenna</string>
   <string name="preference_title_hide_read_notifications">Su\'am karʋŋ labaya</string>
-  <string name="notifications_channel_group_wikipedia_notifications_title">Wikipedia</string>
-  <string name="notifications_channel_group_wikipedia_notifications_description">Labaya banɛ yi Wikipedia</string>
+  <string name="notifications_channel_group_wikipedia_notifications_title">Infopedia</string>
+  <string name="notifications_channel_group_wikipedia_notifications_description">Labaya banɛ yi Infopedia</string>
   <string name="notifications_channel_group_other_title">Sieba</string>
   <string name="notifications_channel_group_other_description">Labaya sieba banɛ yi app la ni</string>
   <string name="notifications_filter_label">Gaansʋg labaya</string>
@@ -645,7 +645,7 @@
   <string name="view_top_read_card_pageviews_k_suffix">%d k</string>
   <string name="view_top_read_card_pageviews_m_suffix">%d M</string>
   <string name="view_next_random_article">Kpɛn\'ɛsim yɔɔg-yɔɔg atikil si\'a ya\'as</string>
-  <string name="view_main_page_card_title">Zina Wikipedia pʋʋgin</string>
+  <string name="view_main_page_card_title">Zina Infopedia pʋʋgin</string>
   <string name="view_main_page_card_action">Gɔsim lakir mɛŋ zin\'ig</string>
   <string name="view_featured_image_card_title">Footo kanɛ bɛ di kɔn\' dabisir la pʋʋgin</string>
   <string name="view_featured_image_card_download">Vɛ\'ɛgim</string>
@@ -713,7 +713,7 @@
   <string name="description_edit_success_saved_image_caption_in_lang_snackbar">Footo pian\'azug widigya (%s)</string>
   <string name="description_edit_success_saved_image_tags_snackbar">Footo tɔɔŋir(nam) widigya!</string>
   <string name="description_edit_success_se_general_feed_link_snackbar">Fʋ sung ma\'ae nɛ di? Sʋŋimi ti na ti paas bɛdegʋ.</string>
-  <string name="description_edit_success_encouragement">Fʋ kɛya ka Wikipedia niŋ sʋ\'ʋŋa tis sɔ\' wʋsa</string>
+  <string name="description_edit_success_encouragement">Fʋ kɛya ka Infopedia niŋ sʋ\'ʋŋa tis sɔ\' wʋsa</string>
   <string name="description_edit_success_done">Naaeya</string>
   <string name="description_edit_success_did_you_know">Fʋ mi\'i?</string>
   <string name="description_edit_success_article_edit_hint">Fʋ mɛ na nyaŋi dɛmis atikil banɛ bɛ app kaŋa ni. Mɔɔm ka duos sɔb gbɛlima nɛ pian\'atɔŋbaanlʋg dɔlisid fun na din\'^1 nya\'aŋ</string>
@@ -768,15 +768,15 @@
   <string name="suggested_edits_tasks_onboarding_get_started">Pin\'ilim</string>
   <string name="suggested_edits_image_preview_dialog_caption_in_language_title">Footo pian\'azug (%s)</string>
   <string name="suggested_edits_image_preview_dialog_image">Footo</string>
-  <string name="suggested_edits_image_preview_dialog_file_commons">Faal kanɛ yi Wikipedia Commons</string>
+  <string name="suggested_edits_image_preview_dialog_file_commons">Faal kanɛ yi Infopedia Commons</string>
   <string name="suggested_edits_image_preview_dialog_artist">Di\'em Di\'em</string>
   <string name="suggested_edits_image_preview_dialog_tags">Tɔ\'ɔŋir nam</string>
   <string name="suggested_edits_image_preview_dialog_date">Dabisir kal</string>
   <string name="suggested_edits_image_preview_dialog_source">Din yi zin\'isia/ onɛ nwaad footonam</string>
   <string name="suggested_edits_image_preview_dialog_licensing">Tʋʋma gbaʋŋ maalʋg</string>
   <string name="suggested_edits_image_preview_dialog_more_info">Paasim labaya bɛdegʋ</string>
-  <string name="suggested_edits_image_preview_dialog_file_page_link_text">Faal lakiri bɛ Wikipedia Commons ni</string>
-  <string name="suggested_edits_image_preview_dialog_file_page_wikipedia_link_text">Faal lakir bɛ Wikipedia ni</string>
+  <string name="suggested_edits_image_preview_dialog_file_page_link_text">Faal lakiri bɛ Infopedia Commons ni</string>
+  <string name="suggested_edits_image_preview_dialog_file_page_wikipedia_link_text">Faal lakir bɛ Infopedia ni</string>
   <string name="suggested_edits_article_cta_image_tags">Paasim footo Tɔ\'ɔŋirnam</string>
   <string name="suggested_edits_article_cta_image_caption">Paasim footo pian\'azug</string>
   <string name="suggested_edits_article_cta_image_caption_in_language">Paasim footo pian\'azug (%s)</string>
@@ -798,10 +798,10 @@
   <string name="suggested_edits_contribution_article_label">Atikil</string>
   <string name="suggested_edits_contribution_views">%s gɔs</string>
   <string name="suggested_edits_contribution_date_yesterday_text">Su\'os</string>
-  <string name="suggested_edits_encourage_account_creation_title">Fʋ mi\'i ye sɔ\' wʋsa tʋn\'e dɛmisim Wikipedia?</string>
-  <string name="suggested_edits_encourage_account_creation_login_button">Kpɛn\'ɛm/ paasim Wikipedia ni</string>
+  <string name="suggested_edits_encourage_account_creation_title">Fʋ mi\'i ye sɔ\' wʋsa tʋn\'e dɛmisim Infopedia?</string>
+  <string name="suggested_edits_encourage_account_creation_login_button">Kpɛn\'ɛm/ paasim Infopedia ni</string>
   <string name="suggested_edits_contribution_type_image_tag">Footo Tɔ\'ɔŋir</string>
-  <string name="suggested_edits_contribution_current_revision_text">Fʋ dɛmisa la yʋ\'ʋn nice nyain Wikipedia ni</string>
+  <string name="suggested_edits_contribution_current_revision_text">Fʋ dɛmisa la yʋ\'ʋn nice nyain Infopedia ni</string>
   <string name="suggested_edits_descriptions_report_dialog_title">Bɔ\' ka fʋ bɔɔd ye fʋ pɔɔtim?</string>
   <string name="suggested_edits_descriptions_not_enough_info_suggestion">Labaar la pʋ zu\'oe</string>
   <string name="suggested_edits_do_not_understand_suggestion">Pʋ gban\'e tʋʋma gbinnɛ</string>
@@ -832,7 +832,7 @@
   <string name="file_page_add_image_caption_button">Paasim footo pian\'azug</string>
   <string name="file_page_add_image_tags_button">Paasim footo Tɔ\'ɔŋirnam</string>
   <string name="file_page_edit_button_content_description">Dɛmisim %s</string>
-  <string name="description_edit_revert_subtitle">M pʋ\'ʋsya nɛ fun dɛmisim Wikipedia la</string>
+  <string name="description_edit_revert_subtitle">M pʋ\'ʋsya nɛ fun dɛmisim Infopedia la</string>
   <string name="description_edit_login_cancel_button_text">Basim</string>
   <string name="size_gb">%.2f GB</string>
   <string name="size_mb">%.2f MB</string>
@@ -885,7 +885,7 @@
   <string name="wikitext_preview_link">Linki kanɛ ka fʋ dɛŋim gɔs</string>
   <string name="wikitext_mention_user">Buolim tʋmtʋm</string>
   <string name="insert_media_title">Kpɛn\'ɛsim miidia</string>
-  <string name="insert_media_search_description">Gaŋim faali yi Wikipedia Commons</string>
+  <string name="insert_media_search_description">Gaŋim faali yi Infopedia Commons</string>
   <string name="insert_media_search_hint">Iem media</string>
   <string name="insert_media_settings">Paasim footo wiesʋg</string>
   <string name="insert_media_settings_uploaded_image">Kpɛn\'ɛsim footo</string>
@@ -912,7 +912,7 @@
   <string name="insert_media_advanced_settings_image_size_custom_px">px</string>
   <string name="insert_media_insert_button">Kpɛn\'ɛsim</string>
   <string name="main_drawer_help">Sʋŋir</string>
-  <string name="main_drawer_login">Kpɛn\'ɛm pʋʋgin/ paasim Wikipedia ni</string>
+  <string name="main_drawer_login">Kpɛn\'ɛm pʋʋgin/ paasim Infopedia ni</string>
   <string name="main_tooltip_action_button">Pin\'ilim</string>
   <string name="main_tooltip_watchlist_title">Fʋn na gɔt si\'el</string>
   <string name="custom_date_picker_dialog_ok_button_text">Awɔɔ</string>
@@ -943,7 +943,7 @@
   <string name="talk_snackbar_undo">Lɛbisim din aan si\'em</string>
   <string name="talk_last_modified">&lt;b&gt;Last edited %1$s&lt;/b&gt; by %2$s</string>
   <string name="talk_snackbar_survey_action_text">Pin\'ilim</string>
-  <string name="talk_share_talk_page">Wikipedia  - sɔnsʋg bɛ pian\'ad lakir la ni</string>
+  <string name="talk_share_talk_page">Infopedia  - sɔnsʋg bɛ pian\'ad lakir la ni</string>
   <string name="talk_search_hint">Iem labaya</string>
   <string name="talk_search_topics_hint">Iem pian\'azut</string>
   <string name="talk_search_find_in_talk_topics_hint">Paamim pian\'azug sɔnsʋg lakir la ni</string>

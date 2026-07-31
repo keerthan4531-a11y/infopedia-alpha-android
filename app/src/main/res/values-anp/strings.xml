@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Angpradesh
 * Proabscorp!
 -->
 <resources>
-  <string name="app_name_prod">विकिपीडिया</string>
-  <string name="app_name_beta">विकिपीडिया बीटा</string>
-  <string name="app_name_alpha">विकिपीडिया अल्फा</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">विकिमीडिया</string>
   <string name="nav_item_back">पीछू</string>
   <string name="page_tabs_back">पीछू</string>
@@ -178,11 +178,11 @@
   <string name="about_description">विकिपीडिया एप केरौ बारै मँ</string>
   <string name="privacy_policy_description">गोपनीयता नीति</string>
   <string name="terms_of_use_description">उपयोग केरौ शर्त सिनी</string>
-  <string name="about_wikipedia_url">https://anp.wikipedia.org/wiki/विकिपीडिया:विकिपीडिया_केरौ_बारै_मँ</string>
-  <string name="android_app_request_an_account_url">https://anp.wikipedia.org/wiki/विकिपीडिया:एगो_खाता_केरौ_अनुरोध</string>
+  <string name="about_wikipedia_url">https://anp.Infopedia.org/wiki/विकिपीडिया:विकिपीडिया_केरौ_बारै_मँ</string>
+  <string name="android_app_request_an_account_url">https://anp.Infopedia.org/wiki/विकिपीडिया:एगो_खाता_केरौ_अनुरोध</string>
   <string name="about_libraries_heading">लाइब्रेरीज़ क प्रयोग होलै</string>
   <string name="about_contributors_heading">योगदानकर्ता सिनी</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;टीम पेज&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;टीम पेज&lt;/a&gt;</string>
   <string name="about_translators_heading">अनुवादक</string>
   <string name="about_app_license_heading">लाइसेंस</string>
   <string name="about_activity_title">बारै मँ</string>

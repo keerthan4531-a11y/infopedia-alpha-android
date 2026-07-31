@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * AnB
 * Chameleon222
@@ -26,14 +26,14 @@
 * Yupik
 -->
 <resources>
-  <string name="app_name_prod">Wikipedia</string>
-  <string name="app_name_beta">Wikipedia beta</string>
-  <string name="app_name_alpha">Wikipedia alfa</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Wikimedia</string>
   <string name="nav_item_back">Tilbake</string>
   <string name="page_tabs_back">Tilbake</string>
   <string name="nav_item_forward">Fremover</string>
-  <string name="search_hint">Søk i Wikipedia</string>
+  <string name="search_hint">Søk i Infopedia</string>
   <string name="search_hint_voice_search">Talesøk</string>
   <string name="search_hint_search_languages">Søk etter språk</string>
   <string name="search_back_button_content_description">Gå tilbake</string>
@@ -136,12 +136,12 @@
   <string name="edit_save_action_license_logged_in">Ved å publisere samtykker du til &lt;a href=\"%1$s\"&gt;bruksvilkårene&lt;/a&gt;, og til å ugjenkallelig slippe bidragene dine under &lt;a href=\"%2$s\"&gt;CC BY-SA 4.0&lt;/a&gt;-lisensen.</string>
   <string name="edit_save_action_license_anon">Ved å publisere samtykker du til &lt;a href=\"%1$s\"&gt;bruksvilkårene&lt;/a&gt;, og til å ugjenkallelig slippe bidragene dine under &lt;a href=\"%2$s\"&gt;CC BY-SA 4.0&lt;/a&gt;-lisensen. Redigeringer vil bli tilskrevet IP-adressen for enheten din. Hvis du &lt;a href=\"https://#login\"&gt;logger inn&lt;/a&gt; vil du få bedre personvern.</string>
   <string name="edit_anon_warning">Redigeringer blir tilskrevet IP-adressen til enheten din. Hvis du &lt;a href=\"https://#login\"&gt;logger inn&lt;/a&gt; vil du få bedre personvern.</string>
-  <string name="preference_title_language">Wikipedia-språk</string>
+  <string name="preference_title_language">Infopedia-språk</string>
   <string name="langlinks_filter_hint">Søk</string>
   <string name="langlinks_empty">Denne siden er ikke tilgjengelig på andre språk</string>
   <string name="langlinks_no_match">Ingen språk ble funnet</string>
   <string name="langlinks_activity_title">Andre språk</string>
-  <string name="langlinks_your_wikipedia_languages">Dine Wikipedia-språk</string>
+  <string name="langlinks_your_wikipedia_languages">Dine Infopedia-språk</string>
   <string name="menu_save_changes">Publiser endringer</string>
   <string name="edit_saved_successfully">Redigeringen ble publisert!</string>
   <string name="stub_article_edit_saved_successfully">Redigering publisert! Det kan ta noe tid før endringene dukker opp.</string>
@@ -161,11 +161,11 @@
   <string name="search_reading_lists_no_results">Ingen treff i leselistene</string>
   <string name="search_history_no_results">Ingen treff i historikken</string>
   <string name="edit_section_captcha_message">For å beskytte mot automatisk spam må du skrive inn ordene som vises under</string>
-  <string name="edit_section_captcha_request_an_account_message">Kan du ikke se bildet? &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;Søk om konto her&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">Kan du ikke se bildet? &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;Søk om konto her&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">Gjenta ordene ovenfor</string>
   <string name="title_captcha">Fyll inn CAPTCHA</string>
   <string name="edit_section_captcha_reload">Trykk på CAPTCHA for å laste inn på nytt</string>
-  <string name="nav_item_login">Logg inn på Wikipedia</string>
+  <string name="nav_item_login">Logg inn på Infopedia</string>
   <string name="login_username_hint">Brukernavn</string>
   <string name="login_password_hint">Passord</string>
   <string name="account_creation_password_hint">Passord</string>
@@ -191,22 +191,22 @@
   <string name="logout_prompt">Du vil bli logget ut fra alle enheter du er logget inn på. Vil du fortsette?</string>
   <string name="logout_dialog_cancel_button_text">Avbryt</string>
   <string name="logged_out_in_background_title">Logget ut</string>
-  <string name="logged_out_in_background_dialog">Du har blitt logget ut av Wikipedia. Vil du logge inn igjen?</string>
+  <string name="logged_out_in_background_dialog">Du har blitt logget ut av Infopedia. Vil du logge inn igjen?</string>
   <string name="logged_out_in_background_login">Logg inn</string>
   <string name="logged_out_in_background_cancel">Avbryt</string>
   <string name="account_vanish_request_title">Få kontoen til å forsvinne</string>
   <string name="account_vanish_request_confirm_title">Advarsel om å få konto til å forsvinne</string>
-  <string name="account_vanish_request_confirm">Å få en konto til å forsvinne er &lt;b&gt;siste utvei&lt;/b&gt;, og bør &lt;b&gt;kun brukes når du vil slutte å redigere for alltid&lt;/b&gt; og også skjule så mange av tilknytningene dine som mulig.&lt;br/&gt;&lt;br/&gt;Kontosletting på Wikipedia gjøres ved å endre kontonavnet ditt for å gjøre at andre ikke kan kjenne igjen bidragene dine i en prosess som kalles kontoforsvinning. &lt;b&gt;Å få en konto til å forsvinne garanterer ikke fullstendig anonymitet, og fjerner ikke bidragene dine fra prosjektene.&lt;/b&gt;</string>
+  <string name="account_vanish_request_confirm">Å få en konto til å forsvinne er &lt;b&gt;siste utvei&lt;/b&gt;, og bør &lt;b&gt;kun brukes når du vil slutte å redigere for alltid&lt;/b&gt; og også skjule så mange av tilknytningene dine som mulig.&lt;br/&gt;&lt;br/&gt;Kontosletting på Infopedia gjøres ved å endre kontonavnet ditt for å gjøre at andre ikke kan kjenne igjen bidragene dine i en prosess som kalles kontoforsvinning. &lt;b&gt;Å få en konto til å forsvinne garanterer ikke fullstendig anonymitet, og fjerner ikke bidragene dine fra prosjektene.&lt;/b&gt;</string>
   <string name="history_empty_title">Ingen nylig besøkte sider</string>
   <string name="history_empty_message">Finn igjen det du har lest her.</string>
   <string name="history_offline_articles_toast">Det kan hende at noen artikler i historikken ikke kan vises når du er uten nett.</string>
   <string name="search_empty_message">Søk i og les den frie encyklopedien på ditt språk</string>
-  <string name="search_empty_message_multilingual_upgrade">Søk i Wikipedia på flere språk</string>
+  <string name="search_empty_message_multilingual_upgrade">Søk i Infopedia på flere språk</string>
   <string name="delete_selected_items">Fjern valgte sider</string>
   <string name="wp_stylized">&lt;big&gt;W&lt;/big&gt;IKIPEDI&lt;big&gt;A&lt;/big&gt;</string>
   <string name="create_account_username_hint">Brukernavn</string>
   <string name="login_dont_have_account">Har du ikke en konto?</string>
-  <string name="login_join_wikipedia">Registrer deg på Wikipedia</string>
+  <string name="login_join_wikipedia">Registrer deg på Infopedia</string>
   <string name="login_forgot_password">Glemt passord?</string>
   <string name="create_account_already_have">Har du allerede en konto?</string>
   <string name="create_account_activity_title">Opprett konto</string>
@@ -228,11 +228,11 @@
   <string name="create_account_button">Opprett konto</string>
   <string name="create_account_name_unavailable">Brukernavnet »%s« er ikke tilgjengelig. Vennligst velg et annet navn.</string>
   <string name="create_account_ip_block_message">Beklager, IP-adressen din er blokkert fra å opprette nye kontoer.</string>
-  <string name="create_account_ip_block_help_url">https://en.wikipedia.org/wiki/Help:I_have_been_blocked</string>
+  <string name="create_account_ip_block_help_url">https://en.Infopedia.org/wiki/Help:I_have_been_blocked</string>
   <string name="create_account_ip_block_details">Detaljer</string>
   <string name="preferences_general_heading">Generelt</string>
   <string name="preferences_account_heading">Konto</string>
-  <string name="wikipedia_app_faq">Ofte stilte spørsmål om Wikipedia-appen</string>
+  <string name="wikipedia_app_faq">Ofte stilte spørsmål om Infopedia-appen</string>
   <string name="send_feedback">Gi oss tilbakemelding</string>
   <string name="create_account_account_created_toast">Opprettet konto!</string>
   <string name="preferences_heading_syncing">Synkronisering</string>
@@ -240,10 +240,10 @@
   <string name="preferences_heading_experimental">Eksperimentelt</string>
   <string name="preference_title_sync_reading_lists_from_account">Synkronisering av leselister</string>
   <string name="preference_title_download_reading_list_articles">Last ned leselisteartikler</string>
-  <string name="preference_summary_sync_reading_lists">Synkroniser leselistene på tvers av ulike enheter ved å lagre dem i Wikipedia-kontoen din</string>
-  <string name="preference_summary_sync_reading_lists_from_account">Synkroniser leselistene på tvers av ulike enheter ved å lagre dem i Wikipedia-kontoen «%s»</string>
+  <string name="preference_summary_sync_reading_lists">Synkroniser leselistene på tvers av ulike enheter ved å lagre dem i Infopedia-kontoen din</string>
+  <string name="preference_summary_sync_reading_lists_from_account">Synkroniser leselistene på tvers av ulike enheter ved å lagre dem i Infopedia-kontoen «%s»</string>
   <string name="preference_dialog_of_turning_off_reading_list_sync_title">Fjerne synkroniserte leselister fra kontoen «%s»?</string>
-  <string name="preference_dialog_of_turning_off_reading_list_sync_text">Synkroniserte leselister vil bli fullstendig fjernet fra serverne til Wikipedia, men du beholder lokale kopier på denne enheten. Vil du fjerne alle synkroniserte lister fra kontoen «%s»?</string>
+  <string name="preference_dialog_of_turning_off_reading_list_sync_text">Synkroniserte leselister vil bli fullstendig fjernet fra serverne til Infopedia, men du beholder lokale kopier på denne enheten. Vil du fjerne alle synkroniserte lister fra kontoen «%s»?</string>
   <string name="preference_title_auto_upload_crash_reports">Send rapporter om krasj</string>
   <string name="preference_summary_auto_upload_crash_reports">Tillat at appen automatisk sender krasjrapporter til en tredjepartstjeneste, slik at vi kan gjennomgå disse og fikse feil raskere.</string>
   <string name="editing_error_spamblacklist">Lenker til blokkerte domener (%s) ble funnet. Vennligst fjern dem og prøv igjen.</string>
@@ -259,22 +259,22 @@
   <string name="page_watchlist_overflow_menu_onboarding_tooltip_text">Følg med på hva som skjer med artikler du er interessert i. Trykk på overløpsmenyen og velg &lt;b&gt;Legg til i overvåkningsliste&lt;/b&gt; for å se hvordan artikkelen endrer seg.</string>
   <string name="settings_item_preferences">Innstillinger</string>
   <string name="settings_activity_title">Innstillinger</string>
-  <string name="about_description">Om Wikipedia-appen</string>
+  <string name="about_description">Om Infopedia-appen</string>
   <string name="privacy_policy_description">Personvernspolitikk</string>
   <string name="terms_of_use_description">Bruksvilkår</string>
-  <string name="about_wikipedia_url">https://no.wikipedia.org/wiki/Wikipedia:Om</string>
+  <string name="about_wikipedia_url">https://no.Infopedia.org/wiki/Infopedia:Om</string>
   <string name="cc_by_sa_4_url">https://creativecommons.org/licenses/by-sa/4.0/deed.no</string>
   <string name="cc_0_url">https://creativecommons.org/publicdomain/zero/1.0/deed.no</string>
   <string name="about_libraries_heading">Bibliotek brukt</string>
   <string name="about_contributors_heading">Bidragsytere</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Teamets side&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Teamets side&lt;/a&gt;</string>
   <string name="about_translators_heading">Oversettere</string>
   <string name="about_translators_translatewiki">Appen ble oversatt av frivillige oversettere på &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt;.</string>
   <string name="about_app_license_heading">Lisens</string>
-  <string name="about_app_license">Kildekode tilgjengelig på &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;GitHub&lt;/a&gt; under &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0-lisensen&lt;/a&gt;. Om ikke annet er angitt, er innhold tilgjengelig under lisensen &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Creative Commons Navngivelse-DelPåSammeVilkår&lt;/a&gt;.</string>
+  <string name="about_app_license">Kildekode tilgjengelig på &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;GitHub&lt;/a&gt; under &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0-lisensen&lt;/a&gt;. Om ikke annet er angitt, er innhold tilgjengelig under lisensen &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Creative Commons Navngivelse-DelPåSammeVilkår&lt;/a&gt;.</string>
   <string name="about_wmf">Et produkt fra &lt;a href=\"https://wikimediafoundation.org/\"&gt;Wikimedia Foundation&lt;/a&gt;</string>
   <string name="about_activity_title">Om</string>
-  <string name="about_logo_content_description">Wikipedia puslespill globuslogo</string>
+  <string name="about_logo_content_description">Infopedia puslespill globuslogo</string>
   <string name="edit_abandon_confirm">Denne siden har blitt endret. Er du sikker på at du ønsker å avslutte uten å lagre endringene dine?</string>
   <string name="edit_abandon_confirm_yes">Ja</string>
   <string name="edit_abandon_confirm_no">Nei</string>
@@ -318,7 +318,7 @@
   <string name="abusefilter_title_warn">Dette er muligens en lite konstruktiv redigering. Er du sikker på at du vil publisere den?</string>
   <string name="abusefilter_title_disallow">Denne redigeringen kan ikke publiseres. Gå tilbake og prøv igjen.</string>
   <string name="abusefilter_text_warn">Redigeringen har blitt identifisert som potensielt destruktiv av et automatisk filter. Den kan inneholde en eller flere av følgende ting:&lt;br /&gt;&lt;br /&gt;· Hele ord skrevet med store bokstaver&lt;br /&gt;· Tømming av artikkelen eller spamming&lt;br /&gt;· Irrelevante eksterne lenker eller bilder&lt;br /&gt;· Gjentagende tegn</string>
-  <string name="abusefilter_text_disallow">Redigeringen har blitt identifisert som potentiselt destruktiv, eller som potensiell vandalisme av et automatisk filter.&lt;br /&gt;&lt;br /&gt;Wikipedia er en encyklopedi og kun nøytralt og relevant innhold hører hjemme her.</string>
+  <string name="abusefilter_text_disallow">Redigeringen har blitt identifisert som potentiselt destruktiv, eller som potensiell vandalisme av et automatisk filter.&lt;br /&gt;&lt;br /&gt;Infopedia er en encyklopedi og kun nøytralt og relevant innhold hører hjemme her.</string>
   <string name="page_similar_titles">Lignende sider</string>
   <string name="search_did_you_mean">Mente du «%s»?</string>
   <string name="search_recent_header">Nylige søk:</string>
@@ -335,11 +335,11 @@
   <string name="table_infobox">Kjappe fakta</string>
   <string name="table_other">Mer informasjon</string>
   <string name="table_close">Lukk</string>
-  <string name="widget_name_featured_page">Utvalgt WIkipedia-side</string>
+  <string name="widget_name_featured_page">Utvalgt Infopedia-side</string>
   <string name="widget_title_featured_page">Dagens utvalgte side:</string>
-  <string name="widget_name_search">Wikipedia-søk</string>
-  <string name="widget_description_search">Den raskeste måten å søke i Wikipedia</string>
-  <string name="widget_description_featured_page">De beste artiklene Wikipedia har å tilby</string>
+  <string name="widget_name_search">Infopedia-søk</string>
+  <string name="widget_description_search">Den raskeste måten å søke i Infopedia</string>
+  <string name="widget_description_featured_page">De beste artiklene Infopedia har å tilby</string>
   <string name="wiktionary_no_definitions_found">Ingen definisjoner funnet.</string>
   <string name="alpha_update_notification_title">Ny alphaoppdatering tilgjengelig</string>
   <string name="alpha_update_notification_text">Trykk for å laste ned</string>
@@ -429,9 +429,9 @@
   <string name="link_preview_dialog_share_button">Del</string>
   <string name="link_preview_stub_placeholder_text">Denne artikkelen er en spire, hvilket betyr at det ikke er nok innhold i artikkelen til å generere en forhåndsvisning. Du kan endre på det.</string>
   <string name="error_page_does_not_exist">Siden eksisterer ikke</string>
-  <string name="error_user_page_does_not_exist">Wikipedia har ikke en &lt;a href=\"%1$s\"&gt;brukerside&lt;/a&gt; med dette navnet. Denne siden bør kun opprettes og redigeres av &lt;b&gt;%2$s&lt;/b&gt;. Hvis du er i tvil, sjekk om «%3$s» eksisterer.</string>
+  <string name="error_user_page_does_not_exist">Infopedia har ikke en &lt;a href=\"%1$s\"&gt;brukerside&lt;/a&gt; med dette navnet. Denne siden bør kun opprettes og redigeres av &lt;b&gt;%2$s&lt;/b&gt;. Hvis du er i tvil, sjekk om «%3$s» eksisterer.</string>
   <string name="view_wiki_error_message_offline">Kan ikke koble til internett</string>
-  <string name="view_wiki_error_message_timeout">Klarte ikke å koble til Wikipedia. Sjekk nettverksforbindelsen, eller prøv igjen senere</string>
+  <string name="view_wiki_error_message_timeout">Klarte ikke å koble til Infopedia. Sjekk nettverksforbindelsen, eller prøv igjen senere</string>
   <string name="reference_title">Referanse %s</string>
   <string name="reference_list_title">Referanser</string>
   <string name="theme_chooser_dialog_image_dimming_switch_label">Mørklegging av bilder (i den mørke drakten)</string>
@@ -448,9 +448,9 @@
   <string name="error_blocked_start">Blokkeringen startet: %s</string>
   <string name="error_blocked_expiry">Blokkeringen utløper: %s</string>
   <string name="error_blocked_id">Blokkerings-ID: %s</string>
-  <string name="error_blocked_footer">Du kan kontakte &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; eller en annen &lt;a href=\"https://no.wikipedia.org/wiki/Wikipedia:Administratorer\"&gt;administrator&lt;/a&gt; for å diskutere blokkeringen.</string>
+  <string name="error_blocked_footer">Du kan kontakte &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; eller en annen &lt;a href=\"https://no.Infopedia.org/wiki/Infopedia:Administratorer\"&gt;administrator&lt;/a&gt; for å diskutere blokkeringen.</string>
   <string name="theme_chooser_menu_item_short_tooltip">Tilpass verktøylinje</string>
-  <string name="error_blocked_footer_no_blocker">Du kan kontakte en &lt;a href=\"https://no.wikipedia.org/wiki/Wikipedia:Administratorer\"&gt;administrator&lt;/a&gt; for å diskutere blokkeringen.</string>
+  <string name="error_blocked_footer_no_blocker">Du kan kontakte en &lt;a href=\"https://no.Infopedia.org/wiki/Infopedia:Administratorer\"&gt;administrator&lt;/a&gt; for å diskutere blokkeringen.</string>
   <string name="temp_account_not_logged_in">Du er ikke logget inn</string>
   <string name="temp_account_anon_ip_dialog_body">Når dugjør en redigering blir IP-adressa di tilknyttet redigeringene dine.&lt;br /&gt;&lt;br /&gt;&lt;a href=\"https://#login\"&gt;Logg inn&lt;/a&gt; eller &lt;a href=\"https://#createaccount\"&gt;opprett en konto&lt;/a&gt; for å bli tilskrevet fremtidige redigeringer og få tilgang til andre funksjoner.</string>
   <string name="temp_account_anon_dialog_body">Når du gjør en redigering blir en &lt;b&gt;midlertidig konto&lt;/b&gt; opprettet for å beskytte personvernet ditt. &lt;a href=\"%1$s\"&gt;Lær mer&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;&lt;a href=\"https://#login\"&gt;Logg inn&lt;/a&gt; eller &lt;a href=\"https://#createaccount\"&gt;opprett en konto&lt;/a&gt; for å få kreditering for framtidige redigeringer du gjør og få tilgang til andre funksjoner.</string>
@@ -473,7 +473,7 @@
   <string name="temp_account_end_session">Avslutt økt</string>
   <string name="temp_account_end_session_confirm">Dette vil logge deg ut fra den midlertidige kontoen. Vil du fortsette?</string>
   <string name="crash_report_activity_title">Applikasjonsfeil</string>
-  <string name="crash_report_relaunch_or_quit">Wikipedia-appen avsluttet på grunn av en feil.\n\nVil du prøve å starte den på nytt eller avslutte?</string>
+  <string name="crash_report_relaunch_or_quit">Infopedia-appen avsluttet på grunn av en feil.\n\nVil du prøve å starte den på nytt eller avslutte?</string>
   <string name="crash_report_relaunch">Start på nytt</string>
   <string name="crash_report_quit">Avslutt</string>
   <string name="article_menu_bar_save_button">Lagre</string>
@@ -573,8 +573,8 @@
   <string name="reading_lists_default_list_delete_message">Standardlista (%s) kan ikke slettes</string>
   <string name="reading_lists_default_plus_one_list_delete_message">%1$s slettet. Standardlista (%2$s) kan ikke slettes.</string>
   <string name="reading_lists_default_plus_many_lists_delete_message">Lister slettet. Standardlista (%s) kan ikke slettes.</string>
-  <string name="single_list_json_file_name">%s (Wikipedia-leselist).json</string>
-  <string name="multiple_lists_json_file_name">Wikipedia-leselister (%s og mer).json</string>
+  <string name="single_list_json_file_name">%s (Infopedia-leselist).json</string>
+  <string name="multiple_lists_json_file_name">Infopedia-leselister (%s og mer).json</string>
   <string name="reading_list_items_deleted">%d artikler ble fjernet fra lista</string>
   <string name="reading_lists_item_deleted">%s fjernet fra lister</string>
   <string name="reading_list_item_delete_undo">Angre</string>
@@ -594,12 +594,12 @@
   <string name="reading_list_confirm_remove_article_from_offline_title">Artikkelen finnes i flere lister</string>
   <string name="reading_list_confirm_remove_article_from_offline_message">%s vil ikke lenger være tilgjengelig offline via noen av leselistene:</string>
   <string name="reading_lists_sync_reminder_title">Skru på synkronisering av leselister?</string>
-  <string name="reading_lists_sync_reminder_text">Artikler lagret i leselister kan synkroniseres med Wikipedia-kontoen din. &lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Finn ut mer&lt;/a&gt;</string>
-  <string name="reading_lists_login_reminder_text_with_link">Leselister kan synkroniseres på tvers av enheter. Logg inn med Wikipedia-kontoen din om du vil aktivere dette. &lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Finn ut mer&lt;/a&gt;</string>
+  <string name="reading_lists_sync_reminder_text">Artikler lagret i leselister kan synkroniseres med Infopedia-kontoen din. &lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Finn ut mer&lt;/a&gt;</string>
+  <string name="reading_lists_login_reminder_text_with_link">Leselister kan synkroniseres på tvers av enheter. Logg inn med Infopedia-kontoen din om du vil aktivere dette. &lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Finn ut mer&lt;/a&gt;</string>
   <string name="reading_lists_sync_reminder_action">Aktiver synkronisering</string>
   <string name="reading_list_login_reminder_title">Synkroniser leselister</string>
-  <string name="reading_lists_login_reminder_text">Leselister kan sikkerhetskopieres og synkroniseres på tvers av enheter. Logg inn med Wikipedia-kontoen din om du vil aktivere dette.</string>
-  <string name="reading_lists_login_button">Logg inn / registrer deg på Wikipedia</string>
+  <string name="reading_lists_login_reminder_text">Leselister kan sikkerhetskopieres og synkroniseres på tvers av enheter. Logg inn med Infopedia-kontoen din om du vil aktivere dette.</string>
+  <string name="reading_lists_login_button">Logg inn / registrer deg på Infopedia</string>
   <string name="reading_lists_ignore_button">Ikke nå</string>
   <string name="reading_lists_confirm_remote_delete_yes">Ja</string>
   <string name="reading_lists_confirm_remote_delete_no">Nei</string>
@@ -621,7 +621,7 @@
   <string name="reading_list_turned_sync_off_dialog_ok">Ok</string>
   <string name="reading_list_turned_sync_off_dialog_settings">Innstillinger</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_title">Skru på synkronisering av leselister?</string>
-  <string name="reading_list_prompt_turned_sync_on_dialog_text">Artikler lagret i leselister kan synkroniseres med Wikipedia-kontoen din. &lt;a href=\"#faq\"&gt;Finn ut mer&lt;/a&gt;</string>
+  <string name="reading_list_prompt_turned_sync_on_dialog_text">Artikler lagret i leselister kan synkroniseres med Infopedia-kontoen din. &lt;a href=\"#faq\"&gt;Finn ut mer&lt;/a&gt;</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_do_not_show">Ikke vis meg dette igjen</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_enable_syncing">Aktiver synkronisering</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_no_thanks">Nei takk</string>
@@ -717,7 +717,7 @@
     <item quantity="one">%1$d liste gjenstår</item>
     <item quantity="other">%1$d lister gjenstår</item>
   </plurals>
-  <string name="notification_echo_channel_description">Wikipedia-varsler</string>
+  <string name="notification_echo_channel_description">Infopedia-varsler</string>
   <string name="notifications_activity_title">Varsler</string>
   <string name="notifications_activity_title_archived">Varsler (arkivert)</string>
   <string name="notifications_search">Søk i varsler</string>
@@ -779,8 +779,8 @@
   <string name="preference_title_customize_push_notifications">Tilpass pushvarsler</string>
   <string name="preference_category_display_settings">Visningsinnstillinger</string>
   <string name="preference_title_hide_read_notifications">Skjul leste varsler</string>
-  <string name="notifications_channel_group_wikipedia_notifications_title">Wikipedia</string>
-  <string name="notifications_channel_group_wikipedia_notifications_description">Varsler fra Wikipedia</string>
+  <string name="notifications_channel_group_wikipedia_notifications_title">Infopedia</string>
+  <string name="notifications_channel_group_wikipedia_notifications_description">Varsler fra Infopedia</string>
   <string name="notifications_channel_group_other_title">Annet</string>
   <string name="notifications_channel_group_other_description">Andre varsler fra appen</string>
   <string name="notifications_filter_label">Filtrer varsler</string>
@@ -818,7 +818,7 @@
   <string name="view_top_read_card_pageviews_k_suffix">%d k</string>
   <string name="view_top_read_card_pageviews_m_suffix">%d M</string>
   <string name="view_next_random_article">Last en annen tilfeldig artikkel</string>
-  <string name="view_main_page_card_title">I dag på Wikipedia</string>
+  <string name="view_main_page_card_title">I dag på Infopedia</string>
   <string name="view_main_page_card_action">Vis forsiden</string>
   <string name="view_featured_image_card_title">Dagens bilde</string>
   <string name="view_featured_image_card_download">Last ned</string>
@@ -846,16 +846,16 @@
   <string name="feed_configure_menu_reset">Tilbakestill standardvisningen</string>
   <string name="feed_configure_menu_select_all">Vis alt</string>
   <string name="feed_configure_menu_deselect_all">Skjul alt</string>
-  <string name="feed_configure_language_warning">Merk at ikke alle typer kort er tilgjengelige på alle Wikipedia-språk. Du kan endre språk i innstillingene.</string>
+  <string name="feed_configure_language_warning">Merk at ikke alle typer kort er tilgjengelige på alle Infopedia-språk. Du kan endre språk i innstillingene.</string>
   <string name="feed_item_type_news">Artikler om aktuelle hendelser</string>
   <string name="feed_item_type_on_this_day">Historiske hendelser på denne dagen</string>
   <string name="feed_item_type_because_you_read">Forslag basert på nylig leste artikler i historikken din</string>
-  <string name="feed_item_type_featured_article">Dagens anbefalte artikkel på Wikipedia</string>
+  <string name="feed_item_type_featured_article">Dagens anbefalte artikkel på Infopedia</string>
   <string name="feed_item_type_trending">Dagens mest leste artikler</string>
   <string name="feed_item_type_featured_image">Dagens utvalgte bilde fra Wikimedia Commons</string>
-  <string name="feed_item_type_main_page">Hovedsiden til Wikipedia med dagens fremhevede innhold</string>
+  <string name="feed_item_type_main_page">Hovedsiden til Infopedia med dagens fremhevede innhold</string>
   <string name="feed_item_type_randomizer">Tilfeldig utvalgte artikler</string>
-  <string name="feed_item_type_suggested_edits">Forslag om å legge til innhold på Wikipedia</string>
+  <string name="feed_item_type_suggested_edits">Forslag om å legge til innhold på Infopedia</string>
   <string name="feed_item_type_places">Artikler i nærheten, basert på den nåværende plasseringen din</string>
   <string name="feed_empty_message" fuzzy="true">Det er ingenting her</string>
   <string name="feed_configure_onboarding_action">Tilpass</string>
@@ -867,7 +867,7 @@
   <string name="feed_accessibility_card_text">Du har nådd bunnen av utforskersiden.</string>
   <string name="feed_accessibility_card_load_more_button">Last inn mer</string>
   <string name="feed_language_variants_removal_dialog_title">Velg en regional språkvariant for en forbedret leseopplevelse.</string>
-  <string name="feed_language_variants_removal_dialog_message">Du bruker en ustøttet generiske kinesisk språkvariant som ditt primære Wikipedia-språk</string>
+  <string name="feed_language_variants_removal_dialog_message">Du bruker en ustøttet generiske kinesisk språkvariant som ditt primære Infopedia-språk</string>
   <string name="feed_language_variants_removal_dialog_save">Lagre</string>
   <string name="feed_language_variants_removal_secondary_dialog_title">Oppdater sekundærspråkene dine</string>
   <string name="feed_language_variants_removal_secondary_dialog_message">Du bruker en ustøttet generiske kinesisk språkvariant som sekundærspråk. Gå til innstillingene dine for å velge et nytt sekundærspråk eller bekrefte språklista di.</string>
@@ -895,7 +895,7 @@
   <string name="description_edit_help_about_wikidata">Om Wikidata</string>
   <string name="description_edit_help_wikidata_guide">Wikidata-guide for å skrive beskrivelser</string>
   <string name="wikidata_description_guide_url" fuzzy="true">https://www.wikidata.org/wiki/Help:Description#Guidelines_for_descriptions_in_English</string>
-  <string name="description_edit_anon_limit">Takk for at du fortsatt er interessert i å legge inn artikkelbeskrivelser! Logg inn med Wikipedia-kontoen din om du ønsker å gjøre flere redigeringer.</string>
+  <string name="description_edit_anon_limit">Takk for at du fortsatt er interessert i å legge inn artikkelbeskrivelser! Logg inn med Infopedia-kontoen din om du ønsker å gjøre flere redigeringer.</string>
   <string name="description_edit_license_notice">Ved å redigere artikkelbeskrivelsen, aksepterer jeg &lt;a href=\"%1$s\"&gt;bruksvilkårene&lt;/a&gt; og samtykker til å ugjenkallelig slippe bidragene mine under &lt;a href=\"%2$s\"&gt;Creative Commons CC0&lt;/a&gt;-lisensen.</string>
   <string name="description_edit_helper_text_lowercase_warning">begynner vanligvis med en liten bokstav</string>
   <string name="description_edit_voice_input_description">Stemmestyring</string>
@@ -918,7 +918,7 @@
   <string name="description_edit_success_saved_image_caption_in_lang_snackbar">Bildetekst publisert! (%s)</string>
   <string name="description_edit_success_saved_image_tags_snackbar">Bildeknagg(er) publisert!</string>
   <string name="description_edit_success_se_general_feed_link_snackbar">Var det artig? Hjelp oss med å legge til flere.</string>
-  <string name="description_edit_success_encouragement">Du har akkurat bidratt til å gjøre Wikipedia litt bedre for alle</string>
+  <string name="description_edit_success_encouragement">Du har akkurat bidratt til å gjøre Infopedia litt bedre for alle</string>
   <string name="description_edit_success_done">Ferdig</string>
   <string name="description_edit_success_did_you_know">Visste du at?</string>
   <string name="description_edit_success_article_edit_hint">Du kan også redigere artikler med denne appen. Prøv gjerne å fikse skrivefeil og korte setninger ved å trykke på ^1-ikonet neste gang</string>
@@ -965,7 +965,7 @@
   <string name="suggested_edits_task_translate_caption_title">Oversett bildetekster</string>
   <string name="suggested_edits_task_translate_caption_description">Oversett beskrivelser til andre språk</string>
   <string name="suggested_edits_task_multilingual_title">Flere oppgaver for flerspråklige bidragsytere</string>
-  <string name="suggested_edits_task_multilingual_description">Oversettelsesoppgaver er tilgjengelige hvis du leser eller skriver flere Wikipedia-språk.</string>
+  <string name="suggested_edits_task_multilingual_description">Oversettelsesoppgaver er tilgjengelige hvis du leser eller skriver flere Infopedia-språk.</string>
   <string name="suggested_edits_task_image_caption_edit_disable_text">Ikke tilgjengelig før du har har lagt til %d bildetekster.</string>
   <string name="suggested_edits_task_translate_description_edit_disable_text">Ikke tilgjengelig før du har lagt til %d artikkelbeskrivelser (godkjente)</string>
   <string name="suggested_edits_task_multilingual_negative">Passer ikke for meg</string>
@@ -994,7 +994,7 @@
   <string name="suggested_edits_image_preview_dialog_licensing">Lisensiering</string>
   <string name="suggested_edits_image_preview_dialog_more_info">Mer info</string>
   <string name="suggested_edits_image_preview_dialog_file_page_link_text">Filside på Wikimedia Commons</string>
-  <string name="suggested_edits_image_preview_dialog_file_page_wikipedia_link_text">Filside på Wikipedia</string>
+  <string name="suggested_edits_image_preview_dialog_file_page_wikipedia_link_text">Filside på Infopedia</string>
   <string name="suggested_edits_article_cta_image_tags">Legg til bildeknagger</string>
   <string name="suggested_edits_article_cta_image_caption">Legg til bildetekst</string>
   <string name="suggested_edits_article_cta_image_caption_in_language">Legg til bildetekst (%s)</string>
@@ -1009,7 +1009,7 @@
   <string name="suggested_edits_image_tags_publishing">Publiserer</string>
   <string name="suggested_edits_image_tags_published">Publisert</string>
   <string name="suggested_edits_image_tags_onboarding_title">Emneknagger gjør bilder lettere å finne.</string>
-  <string name="suggested_edits_image_tags_onboarding_text">Ved å legge til bildetagger vil du gjøre det enklere å søke etter bilder på Commons, det frie bildelageret som brukes i Wikipedia-artikler.</string>
+  <string name="suggested_edits_image_tags_onboarding_text">Ved å legge til bildetagger vil du gjøre det enklere å søke etter bilder på Commons, det frie bildelageret som brukes i Infopedia-artikler.</string>
   <string name="suggested_edits_image_tags_onboarding_note">Bare tagger du velger blir lagt til bildene.</string>
   <string name="suggested_edits_image_tags_task_detail">Legg til tilpassede tagger til et bilde for å gjøre det enklere å finne.</string>
   <string name="suggested_edits_image_tags_choose">Legg til eller velg passende tagger</string>
@@ -1020,8 +1020,8 @@
   <string name="suggested_edits_image_tags_add_tag">Legg til tagg</string>
   <string name="suggested_edits_image_tags_exit_dialog_message">De upubliserte taggene blir ikke lagret</string>
   <string name="suggested_edits_image_zoom_tooltip">Dra to fingre fra hverandre for å zoome i bildet.</string>
-  <string name="suggested_edits_encouragement_message">Takk for redigeringene dine, %s. Under finner du flere måter du kan bidra med på Wikipedia.</string>
-  <string name="suggested_edits_onboarding_message">&lt;b&gt;Hei %s&lt;/b&gt;, under finner du noen raske og enkle måter du kan forbedre Wikipedia på. Prøv dem gjerne ut!</string>
+  <string name="suggested_edits_encouragement_message">Takk for redigeringene dine, %s. Under finner du flere måter du kan bidra med på Infopedia.</string>
+  <string name="suggested_edits_onboarding_message">&lt;b&gt;Hei %s&lt;/b&gt;, under finner du noen raske og enkle måter du kan forbedre Infopedia på. Prøv dem gjerne ut!</string>
   <string name="suggested_edits_image_captions_task_detail">Beskriv et bilde for å hjelpe lesere å forstå bildets motiv og kontekst.</string>
   <string name="suggested_edits_add_descriptions_task_detail">Oppsummer en artikkel for å hjelpe lesere å raskt forstå hva den handler om.</string>
   <string name="suggested_edits_contributions_stat_tooltip">Totalt antall bidrag du har gjort hittil.</string>
@@ -1030,7 +1030,7 @@
   <string name="suggested_edits_edit_quality_stat_tooltip">Basert på hvor mange ganger et av bidragene dine har blitt tilbakestilt (gjort om av en annen bdiragsyter). Tilbakestilte redigeringer: %d.</string>
   <string name="suggested_edits_paused_message">Redigeringsforslag er deaktivert frem til %1$s. Beklager %2$s, men noen av de siste bidragene dine har blitt tilbakestilt.</string>
   <string name="suggested_edits_disabled_message">Redigeringsforslag er deaktivert. Beklager %s, for mange av de siste bidragene dine har blitt tilbakestilt.</string>
-  <string name="suggested_edits_ip_blocked_message">Det ser ut som IP-adressen din er blokkert fra å rdeigere Wikipedia, eller befinner seg i et blokkert intervall.</string>
+  <string name="suggested_edits_ip_blocked_message">Det ser ut som IP-adressen din er blokkert fra å rdeigere Infopedia, eller befinner seg i et blokkert intervall.</string>
   <string name="suggested_edits_gate_message">Beklager, %s, du må gjøre minst tre redigeringer direkte i artikler for å bruke denne funksjonen.</string>
   <string name="suggested_edits_editing_tips_link_text">Tips og -triks for redigering</string>
   <string name="suggested_edits_help_page_link_text">Hjelpeside for redigeringsforslag</string>
@@ -1059,7 +1059,7 @@
     <item quantity="other">%d dager</item>
   </plurals>
   <string name="suggested_edits_what_is_title">Hva er Redigeringsforslag?</string>
-  <string name="suggested_edits_what_is_text">Redigeringsforslag tilbyr muligheter for å gjøre små, men viktige bidrag til Wikipedia.</string>
+  <string name="suggested_edits_what_is_text">Redigeringsforslag tilbyr muligheter for å gjøre små, men viktige bidrag til Infopedia.</string>
   <string name="suggested_edits_learn_more">Les mer</string>
   <string name="suggested_edits_paused_title">Satt på pause</string>
   <string name="suggested_edits_disabled_title">Deaktivert</string>
@@ -1069,8 +1069,8 @@
   <string name="suggested_edits_task_new">Ny</string>
   <string name="suggested_edits_cc0_notice">Ved å publisere, godtar du &lt;a href=\"%1$s\"&gt;bruksvilkårene&lt;/a&gt; og samtykker til å ugjenkallelig slippe bidraget under &lt;a href=\"%2$s\"&gt;CC0-lisensen&lt;/a&gt;.</string>
   <string name="suggested_edits_reactivation_notification_title">Redigeringsforslag</string>
-  <string name="suggested_edits_reactivation_notification_stage_one">Takk for at du redigerer Wikipedia! Hvorfor ikke fortsette der du slapp?</string>
-  <string name="suggested_edits_reactivation_notification_stage_two">Har du et minutt til overs for å forbedre Wikipedia? Se på disse forslagene til hva du kan gjøre.</string>
+  <string name="suggested_edits_reactivation_notification_stage_one">Takk for at du redigerer Infopedia! Hvorfor ikke fortsette der du slapp?</string>
+  <string name="suggested_edits_reactivation_notification_stage_two">Har du et minutt til overs for å forbedre Infopedia? Se på disse forslagene til hva du kan gjøre.</string>
   <string name="suggested_edits_contributions_screen_title">%ss bidrag</string>
   <string name="suggested_edits_contribution_language_label">Språk</string>
   <string name="suggested_edits_contribution_date_time_label">Dato / Tid</string>
@@ -1088,11 +1088,11 @@
     <item quantity="other">Du la til %d tagger</item>
   </plurals>
   <string name="suggested_edits_contribution_date_yesterday_text">I går</string>
-  <string name="suggested_edits_encourage_account_creation_title">Visste du at hvem som helst kan redigere Wikipedia?</string>
-  <string name="suggested_edits_encourage_account_creation_message">Redigeringsforslag er en ny måte å redigere Wikipedia på fra Android. Den hjelper deg å å gjøre små, men viktige bidrag til Wikipedia.\nMålet vårt er å gjøre redigering enklere og mer tilgjengelig for alle! Logg inn eller registrer deg på Wikipedia for å komme i gang.</string>
-  <string name="suggested_edits_encourage_account_creation_login_button">Logg inn / registrer deg på Wikipedia</string>
+  <string name="suggested_edits_encourage_account_creation_title">Visste du at hvem som helst kan redigere Infopedia?</string>
+  <string name="suggested_edits_encourage_account_creation_message">Redigeringsforslag er en ny måte å redigere Infopedia på fra Android. Den hjelper deg å å gjøre små, men viktige bidrag til Infopedia.\nMålet vårt er å gjøre redigering enklere og mer tilgjengelig for alle! Logg inn eller registrer deg på Infopedia for å komme i gang.</string>
+  <string name="suggested_edits_encourage_account_creation_login_button">Logg inn / registrer deg på Infopedia</string>
   <string name="suggested_edits_contribution_type_image_tag">Bildeknagg</string>
-  <string name="suggested_edits_contribution_current_revision_text">Endringen din er nå publisert på Wikipedia</string>
+  <string name="suggested_edits_contribution_current_revision_text">Endringen din er nå publisert på Infopedia</string>
   <string name="suggested_card_more_edits">Flere redigeringsforslag</string>
   <string name="suggested_edits_article_descriptions_dialog_title">Foreslåtte beskrivelser</string>
   <string name="suggested_edits_descriptions_report_dialog_title">Hva ønsker du å rapportere?</string>
@@ -1119,7 +1119,7 @@
     <item quantity="other">Du la til %d tegn</item>
   </plurals>
   <string name="suggested_edits_image_recommendations_task_title">Artikkelbilder</string>
-  <string name="suggested_edits_image_recommendations_task_detail">Legg foreslåtte bilder til Wikipedia-artikler for å forbedre forståelsen.</string>
+  <string name="suggested_edits_image_recommendations_task_detail">Legg foreslåtte bilder til Infopedia-artikler for å forbedre forståelsen.</string>
   <string name="image_recommendation_task_instruction">Ønsker du å legge til dette bildet i artikkelen?</string>
   <string name="image_recommendation_tutorial">Veiviser</string>
   <string name="image_recommendation_accept">Ja</string>
@@ -1136,9 +1136,9 @@
   <string name="image_recommendation_reject_submit">Send</string>
   <string name="image_recommendation_tooltip_main">Legg til manglende bilder i artikler i foreslåtte redigeringer</string>
   <string name="image_recommendation_onboarding_1">Bilder hjelper fgolk å forstå, men mange artikler mangler bilder.</string>
-  <string name="image_recommendation_onboarding_2">Du avgjør om et foreslått bilde skal plasseres i en Wikipedia-artikkel.</string>
+  <string name="image_recommendation_onboarding_2">Du avgjør om et foreslått bilde skal plasseres i en Infopedia-artikkel.</string>
   <string name="image_recommendation_onboarding_3">Forslag er maskingenererte og du avgjør selv om du vil godta eller avvise dem.</string>
-  <string name="image_recommendation_onboarding_4">Bildene kommer fra Wikimedia Commons, en samling med fritt lisensierte bilder som brukes av Wikipedia.</string>
+  <string name="image_recommendation_onboarding_4">Bildene kommer fra Wikimedia Commons, en samling med fritt lisensierte bilder som brukes av Infopedia.</string>
   <string name="image_recommendation_tooltip_1">Gjennomgå artikkelen for å forstå dens emne</string>
   <string name="image_recommendation_tooltip_2">Inspiser bildet og tilhørende informasjon</string>
   <string name="image_recommendation_tooltip_3">Avgjør om bildet hjelper leserne med å forstå dette emnet bedre</string>
@@ -1151,15 +1151,15 @@
   <string name="edit_summary_added_caption">La til bildetekst</string>
   <string name="edit_summary_added_image_and_caption">Bilde og bildetekst lagt til</string>
   <string name="edit_published_view">Vis</string>
-  <string name="activity_tab_logged_out_title">Logg inn eller opprett en konto for å se aktiviteten din i Wikipedia-appen</string>
+  <string name="activity_tab_logged_out_title">Logg inn eller opprett en konto for å se aktiviteten din i Infopedia-appen</string>
   <string name="activity_tab_user_reading">%ss lesning</string>
-  <string name="activity_tab_on_wikipedia_android">På Wikipedia Android</string>
+  <string name="activity_tab_on_wikipedia_android">På Infopedia Android</string>
   <string name="activity_tab_weekly_time_spent_hm">%1$dh %2$dm</string>
   <string name="activity_tab_weekly_time_spent">Tid brukt på lesing denne uken</string>
   <string name="activity_tab_monthly_articles_read">Artikler lest denne måneden</string>
   <string name="activity_tab_monthly_articles_saved">Artikler lagret denne måneden</string>
   <string name="activity_tab_monthly_top_categories">Toppkategorier lest denne måneden</string>
-  <string name="activity_tab_explore_wikipedia">Oppdag gjennom Wikipedia</string>
+  <string name="activity_tab_explore_wikipedia">Oppdag gjennom Infopedia</string>
   <string name="activity_tab_discover_encourage">Leter du etter noe nytt å lese?</string>
   <string name="activity_tab_donation_unknown">Ukjent</string>
   <string name="activity_tab_donation_last_donation">&lt;b&gt;Siste gave&lt;/b&gt; i appen</string>
@@ -1229,16 +1229,16 @@
   <string name="activity_tab_onboarding_impact_title">Høydepunkter for innvirkningen din</string>
   <string name="activity_tab_onboarding_impact_message">Få innsikt i bidragene dine og rekkevidden til kunnskapen du har delt.</string>
   <string name="activity_tab_onboarding_engage_title">Flere måter å engasjere seg på</string>
-  <string name="activity_tab_onboarding_engage_message">Utforsk statistikk for spill, lagrede artikler og andre aktiviteter som knytter deg nærmere til Wikipedia.</string>
+  <string name="activity_tab_onboarding_engage_message">Utforsk statistikk for spill, lagrede artikler og andre aktiviteter som knytter deg nærmere til Infopedia.</string>
   <string name="activity_tab_onboarding_stay_in_control_title">Ta kontroll</string>
   <string name="activity_tab_onboarding_stay_in_control_message">Velg hvilk moduler som skal vises. Alle personlige data forblir private på din enhet, og leseloggen kan slettes når som helst.</string>
-  <string name="edits_screen_what_is_title">Redigering i Wikipedia-appen</string>
-  <string name="edits_screen_what_is_body">Er du usikker på hvordan du kan begynne å redigere? Prøv foreslåtte redigeringer, en funksjon som lar deg gjøre små, men viktige bidrag til Wikipedia. Du kan også gå direkte til en artikkel du er interessert i og endre den ved hjelp av wikitekst.</string>
+  <string name="edits_screen_what_is_title">Redigering i Infopedia-appen</string>
+  <string name="edits_screen_what_is_body">Er du usikker på hvordan du kan begynne å redigere? Prøv foreslåtte redigeringer, en funksjon som lar deg gjøre små, men viktige bidrag til Infopedia. Du kan også gå direkte til en artikkel du er interessert i og endre den ved hjelp av wikitekst.</string>
   <string name="file_page_activity_title">Filside</string>
   <string name="file_page_add_image_caption_button">Legg til bildetekst</string>
   <string name="file_page_add_image_tags_button">Legg til bildeknagger</string>
   <string name="file_page_edit_button_content_description">Rediger %s</string>
-  <string name="description_edit_revert_subtitle">Takk for at du redigerer Wikipedia!</string>
+  <string name="description_edit_revert_subtitle">Takk for at du redigerer Infopedia!</string>
   <string name="description_edit_revert_intro">Vi forstår at du forsøkte ditt beste, men en av korrekturleserne hadde en innvending. Noen mulige årsaker til at redigeringen din ble tilbakestilt kan være:</string>
   <string name="description_edit_revert_reason1">bidraget var ikke i tråd med en av &lt;a href=\"%1$s\"&gt;retningslinjene&lt;/a&gt;.</string>
   <string name="description_edit_revert_reason2">bidraget så ut som testing eller vandalisme.</string>
@@ -1253,9 +1253,9 @@
   <string name="onboarding_get_started">Kom i gang</string>
   <string name="onboarding_maybe_later">Kanskje senere</string>
   <string name="onboarding_explore_title">Nye måter å utforske</string>
-  <string name="onboarding_explore_text" fuzzy="true">Dykk ned i Wikipedia gjennom utforskersiden. &lt;br/&gt; &lt;b&gt;Tilpass&lt;/b&gt; innholdet etter smaken din, enten du vil se historiske hendelser &lt;b&gt;på denne dag&lt;/b&gt; eller oppdage &lt;b&gt;tilfeldige artikler&lt;/b&gt;.</string>
+  <string name="onboarding_explore_text" fuzzy="true">Dykk ned i Infopedia gjennom utforskersiden. &lt;br/&gt; &lt;b&gt;Tilpass&lt;/b&gt; innholdet etter smaken din, enten du vil se historiske hendelser &lt;b&gt;på denne dag&lt;/b&gt; eller oppdage &lt;b&gt;tilfeldige artikler&lt;/b&gt;.</string>
   <string name="onboarding_reading_list_sync_title">Leselister med synkronisering</string>
-  <string name="onboarding_reading_list_sync_text_v2">Du kan lage leselister med artikler du vil lese senere, selv når du er uten nettilgang.&lt;br/&gt;Logg inn med en Wikipedia-konto for å sikkerhetskopiere listene. &lt;a href=\"#login\"&gt;Registrer deg på Wikipedia&lt;/a&gt;</string>
+  <string name="onboarding_reading_list_sync_text_v2">Du kan lage leselister med artikler du vil lese senere, selv når du er uten nettilgang.&lt;br/&gt;Logg inn med en Infopedia-konto for å sikkerhetskopiere listene. &lt;a href=\"#login\"&gt;Registrer deg på Infopedia&lt;/a&gt;</string>
   <string name="onboarding_data_privacy_title">Data og personvern</string>
   <string name="onboarding_data_privacy_text" fuzzy="true">Vi mener at du ikke skal trenge å oppgi personlig informasjon for å delta i bevegelsen for fri kunnskap. Bruksdata som samles inn for denne appen er anonyme. Lær mer om &lt;a href=\"#privacy\"&gt;personvernspolitikken vår&lt;/a&gt; og &lt;a href=\"#termsOfUse\"&gt;bruksvilkårene våre&lt;/a&gt;.</string>
   <string name="onboarding_analytics_switch_title">Send bruksdata</string>
@@ -1283,7 +1283,7 @@
   <string name="languages_list_activity_title">Legg til språk</string>
   <string name="languages_list_suggested_text">Foreslått</string>
   <string name="languages_list_all_text">Alle språk</string>
-  <string name="wikipedia_languages_title">Wikipedia-språk</string>
+  <string name="wikipedia_languages_title">Infopedia-språk</string>
   <string name="wikipedia_languages_your_languages_text">Språkene dine</string>
   <string name="wikipedia_languages_add_language_text">Legg til språk</string>
   <string name="wikipedia_languages_remove_text">Fjern språk</string>
@@ -1292,11 +1292,11 @@
     <item quantity="one">Fjern valgt språk?</item>
     <item quantity="other">Fjern valgte språk?</item>
   </plurals>
-  <string name="wikipedia_languages_remove_dialog_content" fuzzy="true">Innhold på utforskersiden og hurtigsøkefilter vil bare være tilgjengelig på de gjenværende Wikipedia-språkene.</string>
+  <string name="wikipedia_languages_remove_dialog_content" fuzzy="true">Innhold på utforskersiden og hurtigsøkefilter vil bare være tilgjengelig på de gjenværende Infopedia-språkene.</string>
   <string name="wikipedia_languages_remove_warning_dialog_title">Kan ikke fjerne alle språk</string>
-  <string name="wikipedia_languages_remove_warning_dialog_content">Behold minst ett Wikipedia-språk som du kan søke og lese innhold på</string>
+  <string name="wikipedia_languages_remove_warning_dialog_content">Behold minst ett Infopedia-språk som du kan søke og lese innhold på</string>
   <string name="more_language_options">mer</string>
-  <string name="add_wikipedia_languages_text">Legg til Wikipedia-språk</string>
+  <string name="add_wikipedia_languages_text">Legg til Infopedia-språk</string>
   <string name="remove_language_dialog_cancel_button_text">Avbryt</string>
   <string name="remove_language_dialog_ok_button_text">OK</string>
   <string name="remove_all_language_warning_dialog_ok_button_text">OK</string>
@@ -1366,7 +1366,7 @@
   <string name="templates_description_empty">Malen «%s» har ingen beskivelse ennå.</string>
   <string name="templates_description_missing_data">Denne malen mangler &lt;a href=\"%1$s\"&gt;TemplateData&lt;/a&gt;, og parametrene dens har blitt &lt;a href=\"%2$s\"&gt;autogenererte&lt;/a&gt;. Som et resultat av dette mangler malen og parametrene dens beskrivelser.</string>
   <string name="main_drawer_help">Hjelp</string>
-  <string name="main_drawer_login">Logg inn / bli med på Wikipedia</string>
+  <string name="main_drawer_login">Logg inn / bli med på Infopedia</string>
   <string name="main_tooltip_action_button">Kom i gang</string>
   <string name="main_tooltip_watchlist_title">Overvåkningsliste</string>
   <string name="main_tooltip_watchlist_text">Finn artikler og sider du tidligere har lagt til overvåkningslisten din i menyen «Mer» under &lt;b&gt;Overvåkningsliste&lt;/b&gt;.</string>
@@ -1392,7 +1392,7 @@
   <string name="talk_warn_saved_messages">Lagrede meldinger</string>
   <string name="talk_page_empty">Denne diskusjonssiden er tom.</string>
   <string name="talk_page_empty_title">Samtalen begynner her</string>
-  <string name="talk_page_empty_content">Diskusjonssider er stedet for å diskutere hvordan Wikipedias innhold kan bli enda bedre. Du kan begynne ved å legge til et nytt emne for å få kontakt og samarbeide med fellesskapet av wikipedianere.</string>
+  <string name="talk_page_empty_content">Diskusjonssider er stedet for å diskutere hvordan Infopedias innhold kan bli enda bedre. Du kan begynne ved å legge til et nytt emne for å få kontakt og samarbeide med fellesskapet av Infopedianere.</string>
   <string name="talk_add_reply">Svar</string>
   <string name="talk_no_subject">(Intet emne)</string>
   <string name="talk_reply_subject">Emne</string>
@@ -1406,9 +1406,9 @@
   <string name="talk_last_modified">&lt;b&gt;Sist redigert %1$s&lt;/b&gt; av %2$s</string>
   <string name="talk_snackbar_survey_text">Takk for at du bruker diskusjonssider. Kan du hjelpe oss å forbedre appen ved å delta i en spørreundersøkelse?</string>
   <string name="talk_snackbar_survey_action_text">Sett i gang</string>
-  <string name="talk_share_discussion_subject">Wikipedia – diskusjon om «%s» på diskusjonsside</string>
-  <string name="talk_share_talk_page">Wikipedia – diskusjoner på diskusjonsside</string>
-  <string name="talk_edit_disclaimer">Dette er en diskusjonsside. Respekter retningslinjene for diskusjoner, og husk å signere innlegget ditt ved å skrive inn fire tilder: ~~~~ når du poster med wikitekst.&lt;br&gt;&lt;br&gt;&lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Talk_page_guidelines\"&gt;Retningslinjer for diskusjonssider&lt;/a&gt;</string>
+  <string name="talk_share_discussion_subject">Infopedia – diskusjon om «%s» på diskusjonsside</string>
+  <string name="talk_share_talk_page">Infopedia – diskusjoner på diskusjonsside</string>
+  <string name="talk_edit_disclaimer">Dette er en diskusjonsside. Respekter retningslinjene for diskusjoner, og husk å signere innlegget ditt ved å skrive inn fire tilder: ~~~~ når du poster med wikitekst.&lt;br&gt;&lt;br&gt;&lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Talk_page_guidelines\"&gt;Retningslinjer for diskusjonssider&lt;/a&gt;</string>
   <string name="talk_search_hint">Søk i meldingene</string>
   <string name="talk_search_topics_hint">Søk i emner</string>
   <string name="talk_search_find_in_talk_topics_hint">Finn i diskusjonssideemner</string>
@@ -1439,7 +1439,7 @@
   <string name="talk_list_item_swipe_mark_as_read">Lest</string>
   <string name="talk_list_item_swipe_mark_as_unread">Ulest</string>
   <string name="talk_login_to_subscribe_dialog_title">Logg inn for å abonnere på emner</string>
-  <string name="talk_login_to_subscribe_dialog_content">Emneabbonementer lar deg få varsler om nye kommentarer på dette emnet. Opprett en konto eller logg inn på Wikipedia-kontoen din for å abonnere på et emne.</string>
+  <string name="talk_login_to_subscribe_dialog_content">Emneabbonementer lar deg få varsler om nye kommentarer på dette emnet. Opprett en konto eller logg inn på Infopedia-kontoen din for å abonnere på et emne.</string>
   <string name="talk_archived_title">Diskusjonsarkiv: %s</string>
   <string name="menu_option_share_talk_discussion">Del diskusjon</string>
   <string name="menu_option_share_talk_page">Del diskusjonsside</string>
@@ -1459,7 +1459,7 @@
   <string name="thank_label">Takk</string>
   <string name="view_user_page">Vis brukerside</string>
   <string name="thank_dialog_title_text">Send en offentlig takk</string>
-  <string name="thank_dialog_text">«Takk» er en enkel måte å vise takknemlighet for bidragene til en annen bruker på Wikipedia. Merk at takking er offentlig og ikke kan angres.</string>
+  <string name="thank_dialog_text">«Takk» er en enkel måte å vise takknemlighet for bidragene til en annen bruker på Infopedia. Merk at takking er offentlig og ikke kan angres.</string>
   <string name="thank_dialog_positive_button_text">Send takk</string>
   <string name="thank_dialog_negative_button_text">Avbryt</string>
   <string name="thank_success_message">Din takk ble sendt til %s 👍</string>
@@ -1591,7 +1591,7 @@
   <string name="shareable_reading_lists_new_imported_snackbar">Leseliste importert</string>
   <string name="reading_list_share_menu_label">Del …</string>
   <string name="reading_list_share_menu_tooltip">Del denne leselista med andre</string>
-  <string name="reading_list_share_message_v2">Hei! Jeg ønsker å dele leselista mi på Wikipedia med deg:</string>
+  <string name="reading_list_share_message_v2">Hei! Jeg ønsker å dele leselista mi på Infopedia med deg:</string>
   <string name="talk_templates_empty_message">Opprett dine egne meldinger eller bruk &lt;a href=\"#\"&gt;eksempelmeldinger&lt;/a&gt; for å komme i gang.</string>
   <string name="talk_templates_new_message_title">Ny melding</string>
   <string name="talk_templates_new_message_subject_hint">Emne</string>
@@ -1686,8 +1686,8 @@
   <string name="patroller_tasks_patrol_edit_snackbar_view">Vis</string>
   <string name="patroller_tasks_overflow_report">Problem med funksjonen</string>
   <string name="patroller_tasks_overflow_learn">Lær mer</string>
-  <string name="patroller_onboarding_one_title">Bidra til tilsyn og godkjenning av Wikipedia-redigeringer.</string>
-  <string name="patroller_onboarding_one_content">Forbedre kvaliteten til Wikipedia-innhold ved å aktivt gjennomgå en liste over siste endringer og gi veiledning, kvalitetskontroll og oppmuntring til andre bidragsytere.</string>
+  <string name="patroller_onboarding_one_title">Bidra til tilsyn og godkjenning av Infopedia-redigeringer.</string>
+  <string name="patroller_onboarding_one_content">Forbedre kvaliteten til Infopedia-innhold ved å aktivt gjennomgå en liste over siste endringer og gi veiledning, kvalitetskontroll og oppmuntring til andre bidragsytere.</string>
   <string name="patroller_onboarding_two_title">Gi tilbakemelding, overvåk redigeringer og utfør handlinger på diff-skjermen</string>
   <string name="patroller_onboarding_two_thank_title">Takk</string>
   <string name="patroller_onboarding_two_thank_content">Ser du en produktiv redigering? Takk en bruker for bidraget.</string>
@@ -1714,12 +1714,12 @@
   <string name="patroller_saved_message_title_do_not_censor">Ikke sensurer</string>
   <string name="patroller_saved_message_title_art_imp">Forslag til forbedring av artikkel</string>
   <string name="patroller_saved_message_body_vandalism">Hei, {{{username}}}. Jeg vil bare si fra om at jeg har tilbakestilt én eller flere av de [{{{diffLink}}}|nyeste bidragene dine]] fordi de ikke virker konstruktive. Hvis du mener at jeg har gjort en feil eller har noen spørsmål kan du legge igjen en melding på [[User talk:{{{senderUserName}}}|diskusjonssiden min]]. Vær oppmerksom på at fortsatt hærverk kan føre til innskrenkinger i tilgangen din.</string>
-  <string name="patroller_saved_message_body_editing_tests">Hei {{{username}}}. Jeg er veldig glad for at Wikipedia har fanget oppmerksomheten din, og at du har vist interesse for å lære å redigere. Redigeringstesten din virket, men du må være oppmerksom på at målet med dette prosjektet er å utvikle et pålitelig og komplett leksikon som alle kan benytte. Din redigering påvirket innholdet, så den er fjernet.\nHvis du vil lære hvordan redigere Wikipedia, så er [[Wikipedia:Sandbox|sandkassa]] det beste stedet. Hvis kommentarene dine var til en spesifikk artikkel, så er riktig sted på artikkelens diskusjonsside.</string>
-  <string name="patroller_saved_message_body_npov">Hei {{{username}}}. Noen av bidragene tilfredsstiller ikke kravene til Wikipedia om [[Wikipedia:NPOV|nøytralt perspektivt]]. På grunn av dette er noe av innholdet endret eller fjernet. Det hadde vært fint om du endret avsnittene til en mer nøytral og objektiv tekst, i tråd med hva som forventes i et leksikon.</string>
-  <string name="patroller_saved_message_body_auto_trans">Hei {{{username}}}. Noen av bidragene du har gjort er muligens maskinoversettelse, som er årsaken til at de har blitt endret eller markert med en mal. Hvis ingen forbedringer er gjort med artikkelen, kan de bli slettet.\n\nHvis du til tross for denne informasjonen, fortsatt har spørsmål kan du etterlate en melding på [[User talk:{{{senderUserName}}}|min brukerdiskusjonsside]]. Ikke bli motløs av denne hendelser. Bidragene dine er veldig viktig for Wikipedia.</string>
+  <string name="patroller_saved_message_body_editing_tests">Hei {{{username}}}. Jeg er veldig glad for at Infopedia har fanget oppmerksomheten din, og at du har vist interesse for å lære å redigere. Redigeringstesten din virket, men du må være oppmerksom på at målet med dette prosjektet er å utvikle et pålitelig og komplett leksikon som alle kan benytte. Din redigering påvirket innholdet, så den er fjernet.\nHvis du vil lære hvordan redigere Infopedia, så er [[Infopedia:Sandbox|sandkassa]] det beste stedet. Hvis kommentarene dine var til en spesifikk artikkel, så er riktig sted på artikkelens diskusjonsside.</string>
+  <string name="patroller_saved_message_body_npov">Hei {{{username}}}. Noen av bidragene tilfredsstiller ikke kravene til Infopedia om [[Infopedia:NPOV|nøytralt perspektivt]]. På grunn av dette er noe av innholdet endret eller fjernet. Det hadde vært fint om du endret avsnittene til en mer nøytral og objektiv tekst, i tråd med hva som forventes i et leksikon.</string>
+  <string name="patroller_saved_message_body_auto_trans">Hei {{{username}}}. Noen av bidragene du har gjort er muligens maskinoversettelse, som er årsaken til at de har blitt endret eller markert med en mal. Hvis ingen forbedringer er gjort med artikkelen, kan de bli slettet.\n\nHvis du til tross for denne informasjonen, fortsatt har spørsmål kan du etterlate en melding på [[User talk:{{{senderUserName}}}|min brukerdiskusjonsside]]. Ikke bli motløs av denne hendelser. Bidragene dine er veldig viktig for Infopedia.</string>
   <string name="talk_warn_learn_more_label">Lær om plassholdere for meldinger</string>
   <string name="talk_warn_saved_messages_usage_instruction">BBruk en eksempelmelding under for å tilpasse, sende og lagre meldingene dine.</string>
-  <string name="patroller_saved_message_body_art_imp">Hei {{{username}}}. Artikkelen din er en god start! For å gjøre den ennå bedre, bør du se på å legge til flere referanser til pålitelige kilder. Dette bidrar til å bekrefte informasjonen og forbedre artikkelens kvalitet. Sjekk ut Wikipedias retningslinjer på [[Wikipedia:Gode_kilder|gode kilder]] for mer informasjon.</string>
+  <string name="patroller_saved_message_body_art_imp">Hei {{{username}}}. Artikkelen din er en god start! For å gjøre den ennå bedre, bør du se på å legge til flere referanser til pålitelige kilder. Dette bidrar til å bekrefte informasjonen og forbedre artikkelens kvalitet. Sjekk ut Infopedias retningslinjer på [[Infopedia:Gode_kilder|gode kilder]] for mer informasjon.</string>
   <string name="talk_templates_menu_edit_title">Rediger</string>
   <string name="data_opt_in_accept">Godta</string>
   <string name="data_opt_in_reject">Avvis</string>
@@ -1730,7 +1730,7 @@
   <string name="email_report_patroller_tasks_subject">Problemrapport – Redigeringspatruljeringsfunksjon</string>
   <string name="email_report_patroller_tasks_body">Jeg har støtt på et problam med redigeringspatruljeringsfunksjonen:\n- [Beskriv spesifikt problem]\n\nAdferden jeg vil se:\n- [Beskriv løsningsforslag]\n\n[Skjermbilder eller lenker]</string>
   <string name="donation_campaign_maybe_later_snackbar">Vi påminner deg igjen i morgen.</string>
-  <string name="donation_campaign_donated_snackbar" fuzzy="true">Takk, kjære giver! Din sjenerøsitet hjelper å blomstre Wikipedia og søsterprosjektene.</string>
+  <string name="donation_campaign_donated_snackbar" fuzzy="true">Takk, kjære giver! Din sjenerøsitet hjelper å blomstre Infopedia og søsterprosjektene.</string>
   <string name="donation_campaign_go_back_button">Tilbake</string>
   <string name="menu_single_webview_open_external">Åpne i systemnettleseren</string>
   <string name="donate_gpay_dialog_title">Donere med Google Pay?</string>
@@ -1742,7 +1742,7 @@
   <string name="donate_gpay_check_recurring">Gjør dette til en gjentatt månedlig gave.</string>
   <string name="donate_gpay_check_send_email">Ja, Wikimedia Foundation kan sende meg en e-post i ny og ne.</string>
   <string name="donate_gpay_minimum_amount">Velg et beløp (minimum %s)</string>
-  <string name="donate_gpay_maximum_amount">Vi kan ikke ta imot donasjoner som er større enn %s via appen vår. Kontakt personalet vårt for større gaver på benefactors@wikimedia.org.</string>
+  <string name="donate_gpay_maximum_amount">Vi kan ikke ta imot donasjoner som er større enn %s via appen vår. Kontakt personalet vårt for større gaver på benefactors@infopedia.org.</string>
   <string name="donate_gpay_success_message">&lt;b&gt;Tusen takk!&lt;/b&gt; Din gavmildhet betyr veldig mye for oss.</string>
   <string name="donate_gpay_help_problems">Problemer med å donere?</string>
   <string name="donate_gpay_help_other_ways">Andre måter å gi</string>
@@ -1758,7 +1758,7 @@
   <string name="places_empty_list">Dette området er tomt. Zoom ut &lt;a href=\"#\"&gt;på kartet&lt;/a&gt;.</string>
   <string name="places_card_title">Steder i nærheten</string>
   <string name="places_card_action">Flere steder i nærheten</string>
-  <string name="places_card_enable_location_card_message">«Steder» er en kartbasert måte å utforske Wikipedia på</string>
+  <string name="places_card_enable_location_card_message">«Steder» er en kartbasert måte å utforske Infopedia på</string>
   <string name="places_card_enable_location_card_button">Slå på plassering</string>
   <string name="places_card_distance_suffix">%s unna</string>
   <string name="places_card_distance_unknown">Ukjent avstand</string>
@@ -1779,9 +1779,9 @@
   <string name="survey_dialog_input_hint">Ytterligere tilbakemeldinger</string>
   <string name="survey_dialog_submitted_snackbar">Tilbakemelding sendt. Hjertelig takk!</string>
   <string name="on_this_day_game_entry_dialog_title">Introduserer</string>
-  <string name="on_this_day_game_entry_dialog_subtitle">Wikipediaspill</string>
+  <string name="on_this_day_game_entry_dialog_subtitle">Infopediaspill</string>
   <string name="on_this_day_game_entry_dialog_button" fuzzy="true">Spill dagens spill</string>
-  <string name="on_this_day_game_entry_dialog_snackbar_message" fuzzy="true">Wikipedia-spill er tilgjengelig i Utforsk-feeden.</string>
+  <string name="on_this_day_game_entry_dialog_snackbar_message" fuzzy="true">Infopedia-spill er tilgjengelig i Utforsk-feeden.</string>
   <string name="on_this_day_game_title">Hva kom først?</string>
   <string name="on_this_day_game_dialog_button">Spill</string>
   <string name="on_this_day_game_splash_message">Gjett hvilken hendelse som kom først på denne dagen i historien.</string>
@@ -1794,7 +1794,7 @@
   <string name="on_this_day_game_next">Neste spørsmål</string>
   <string name="on_this_day_game_finish">Endelig resultat</string>
   <string name="on_this_day_game_share_button" fuzzy="true">Del</string>
-  <string name="on_this_day_game_feed_entry_card_heading">Wikipediaspill</string>
+  <string name="on_this_day_game_feed_entry_card_heading">Infopediaspill</string>
   <string name="on_this_day_game_feed_entry_card_title">Hva kom først?</string>
   <string name="on_this_day_game_result">Du fikk %1$d av %2$d poeng.</string>
   <string name="on_this_day_game_next_in">Neste spill om %s</string>
@@ -1824,9 +1824,9 @@
   <string name="on_this_day_game_notification_turned_off_snackbar_message">Spillvarsler er av.</string>
   <string name="on_this_day_game_notification_turned_on_snackbar_message">Spillvarsler er på.</string>
   <string name="on_this_day_game_notification_text">Dagens spill \"Hva kom først?\" er klart for å spilles.</string>
-  <string name="on_this_day_game_report_email_subject">Problemrapport - Wikipediaspill</string>
+  <string name="on_this_day_game_report_email_subject">Problemrapport - Infopediaspill</string>
   <string name="on_this_day_game_notification_undo">Angre</string>
-  <string name="on_this_day_game_share_link_message">Jeg spiller \"Hva kom først?\", et daglig quiz-spill på Wikipedia Android-appen %s</string>
+  <string name="on_this_day_game_share_link_message">Jeg spiller \"Hva kom først?\", et daglig quiz-spill på Infopedia Android-appen %s</string>
   <string name="on_this_day_game_share_screen_title">Jeg fikk %1$d av %2$d poeng på \"Hva kom først?\" i dag.</string>
   <string name="on_this_day_game_share_screen_subtitle">Temaer inkludert:</string>
   <string name="on_this_day_game_archive_calendar_title">Velg et spill etter dato for å spille.</string>
@@ -1841,15 +1841,15 @@
   <string name="on_this_day_game_sound_off">Slå av lyden</string>
   <string name="year_in_review_learn_more" fuzzy="true">Lær mer</string>
   <string name="year_in_review_get_started" fuzzy="true">Kom i gang</string>
-  <string name="year_in_review_topbar_w_icon">Wikipedias W-ikon</string>
+  <string name="year_in_review_topbar_w_icon">Infopedias W-ikon</string>
   <string name="year_in_review_navigate_left" fuzzy="true">Naviger til venstre</string>
   <string name="year_in_review_share_icon">Delingsikon</string>
   <string name="year_in_review_heart_icon">Hjerteikon</string>
   <string name="year_in_review_navigate_right">Naviger til høyre</string>
   <string name="year_in_review_donate">Doner</string>
   <string name="year_in_review_information_icon">Informasjonsikon</string>
-  <string name="year_in_review_get_started_headline">Utforsk Wikipedia-årskavalkaden din</string>
-  <string name="year_in_review_get_started_bodytext" fuzzy="true">Få innsikt i hvilke artikler du har lest i Wikipedia-appen og redigeringene du har gjort. Lesehistorikken din er beskyttet. Leseinnsikten beregnes ved hjelp av data som lagres lokalt på enheten din.</string>
+  <string name="year_in_review_get_started_headline">Utforsk Infopedia-årskavalkaden din</string>
+  <string name="year_in_review_get_started_bodytext" fuzzy="true">Få innsikt i hvilke artikler du har lest i Infopedia-appen og redigeringene du har gjort. Lesehistorikken din er beskyttet. Leseinnsikten beregnes ved hjelp av data som lagres lokalt på enheten din.</string>
   <string name="year_in_review_survey_title">Hjelp til å forbedre årskavalkaden</string>
   <string name="year_in_review_survey_subtitle">Er du fornøyd med denne funksjonen?</string>
   <string name="year_in_review_survey_very_satisfied">Veldig fornøyd</string>
@@ -1865,7 +1865,7 @@
   <string name="year_in_review_globe_icon" fuzzy="true">Globusikon</string>
   <string name="recommended_reading_list_title">Oppdag</string>
   <string name="recommended_reading_list_onboarding_card_title">Oppdag artikler som er valgt spesielt for deg</string>
-  <string name="recommended_reading_list_onboarding_card_message">Din ukentlige leseliste med Wikipediaartikler, satt sammen spesielt for deg.</string>
+  <string name="recommended_reading_list_onboarding_card_message">Din ukentlige leseliste med Infopediaartikler, satt sammen spesielt for deg.</string>
   <string name="recommended_reading_list_onboarding_card_new">Nytt</string>
   <string name="recommended_reading_list_onboarding_card_positive_button">Kom i gang</string>
   <string name="recommended_reading_list_onboarding_card_negative_button">Nei takk</string>
@@ -1903,7 +1903,7 @@
   <string name="recommended_reading_list_page_snackbar_week">Uke</string>
   <string name="recommended_reading_list_page_snackbar_month">Måned</string>
   <string name="recommended_reading_list_settings_section_header">Anbefalinger</string>
-  <string name="recommended_reading_list_settings_turn_off_dialog_message">Hvis du slår av Oppdagelse vil du ikke lenger motta %s leseanbefalinger fra Wikipedia.</string>
+  <string name="recommended_reading_list_settings_turn_off_dialog_message">Hvis du slår av Oppdagelse vil du ikke lenger motta %s leseanbefalinger fra Infopedia.</string>
   <string name="recommended_reading_list_settings_turn_off_dialog_positive_button">Slå av</string>
   <string name="recommended_reading_list_settings_turn_off_dialog_negative_button">Nei, behold dem</string>
   <string name="recommended_reading_list_settings_turn_off_snackbar">Oppdagelse er slått av. Du kan slå det på igjen i innstillingene når som helst.</string>

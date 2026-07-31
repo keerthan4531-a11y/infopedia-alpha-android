@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Abella
 * Akifumii
@@ -34,9 +34,9 @@
 * Xavier Dengra
 -->
 <resources>
-  <string name="app_name_prod">Viquipèdia</string>
-  <string name="app_name_beta">Viquipèdia Beta</string>
-  <string name="app_name_alpha">Viquipèdia Alfa</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Wikimedia</string>
   <string name="nav_item_back">Enrere</string>
   <string name="page_tabs_back">Enrere</string>
@@ -169,7 +169,7 @@
   <string name="search_reading_lists_no_results">No s\'ha trobat cap resultat a les llistes de lectura</string>
   <string name="search_history_no_results">No s\'ha trobat cap resultat a l\'historial</string>
   <string name="edit_section_captcha_message">Com a protecció contra l\'spam automàtic, introduïu les paraules que apareixen a sota</string>
-  <string name="edit_section_captcha_request_an_account_message">No podeu veure la imatge? &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;Sol·liciteu un compte&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">No podeu veure la imatge? &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;Sol·liciteu un compte&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">Repetiu les paraules de dalt</string>
   <string name="title_captcha">Introduïu el CAPTCHA</string>
   <string name="edit_section_captcha_reload">Toqueu el CAPTCHA per tornar a carregar</string>
@@ -234,7 +234,7 @@
   <string name="create_account_button">Crea un compte</string>
   <string name="create_account_name_unavailable">El nom d’usuari «%s» no és disponible. Trieu-ne un altre.</string>
   <string name="create_account_ip_block_message">Ho sentim, s\'ha blocat la vostra adreça IP per crear comptes nous.</string>
-  <string name="create_account_ip_block_help_url">https://en.wikipedia.org/wiki/Help:I_have_been_blocked</string>
+  <string name="create_account_ip_block_help_url">https://en.Infopedia.org/wiki/Help:I_have_been_blocked</string>
   <string name="create_account_ip_block_details">Detalls</string>
   <string name="preferences_general_heading">General</string>
   <string name="preferences_account_heading">Compte</string>
@@ -268,18 +268,18 @@
   <string name="about_description">Quant a l’aplicació de la Viquipèdia</string>
   <string name="privacy_policy_description">Política de privadesa</string>
   <string name="terms_of_use_description">Condicions d’ús</string>
-  <string name="about_wikipedia_url">https://ca.wikipedia.org/wiki/Viquipèdia:Quant_a_la_Viquipèdia</string>
-  <string name="privacy_policy_url" fuzzy="true">https://foundation.m.wikimedia.org/wiki/Privacy_policy</string>
-  <string name="terms_of_use_url" fuzzy="true">https://foundation.m.wikimedia.org/wiki/Terms_of_Use</string>
+  <string name="about_wikipedia_url">https://ca.Infopedia.org/wiki/Viquipèdia:Quant_a_la_Viquipèdia</string>
+  <string name="privacy_policy_url" fuzzy="true">https://foundation.m.infopedia.org/wiki/Privacy_policy</string>
+  <string name="terms_of_use_url" fuzzy="true">https://foundation.m.infopedia.org/wiki/Terms_of_Use</string>
   <string name="cc_by_sa_4_url">https://creativecommons.org/licenses/by-sa/4.0/deed.ca</string>
   <string name="cc_0_url">https://creativecommons.org/publicdomain/zero/1.0/deed.ca</string>
   <string name="about_libraries_heading">Biblioteques utilitzades</string>
   <string name="about_contributors_heading">Col·laboradors</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Pàgina de l\'equip&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Pàgina de l\'equip&lt;/a&gt;</string>
   <string name="about_translators_heading">Traductors</string>
   <string name="about_translators_translatewiki">La traducció de l\'aplicació és obra dels traductors voluntaris de &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt;.</string>
   <string name="about_app_license_heading">Llicència</string>
-  <string name="about_app_license" fuzzy="true">Codi font disponible a &lt;a href=\"https://gerrit.wikimedia.org/r/#/admin/projects/apps/android/wikipedia\"&gt;Gerrit&lt;/a&gt; i &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;GitHub&lt;/a&gt; sota la &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Llicència Apache 2.0&lt;/a&gt;. Si no s\'indica el contrari, el contingut es troba disponible sota una llicència &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Creative Commons Reconeixement-CompartirIgual&lt;/a&gt;.</string>
+  <string name="about_app_license" fuzzy="true">Codi font disponible a &lt;a href=\"https://gerrit.infopedia.org/r/#/admin/projects/apps/android/Infopedia\"&gt;Gerrit&lt;/a&gt; i &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;GitHub&lt;/a&gt; sota la &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Llicència Apache 2.0&lt;/a&gt;. Si no s\'indica el contrari, el contingut es troba disponible sota una llicència &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Creative Commons Reconeixement-CompartirIgual&lt;/a&gt;.</string>
   <string name="about_wmf">Un projecte de la &lt;a href=\"https://wikimediafoundation.org/\"&gt;Fundació Wikimedia&lt;/a&gt;</string>
   <string name="about_activity_title">Quant a</string>
   <string name="edit_abandon_confirm">S\'ha modificat la pàgina. Segur que voleu sortir sense desar-ne els canvis?</string>
@@ -447,9 +447,9 @@
   <string name="error_blocked_start">Inici del blocatge: %s</string>
   <string name="error_blocked_expiry">Venciment del blocatge: %s</string>
   <string name="error_blocked_id">ID del blocatge: %s</string>
-  <string name="error_blocked_footer">Podeu contactar amb &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; o un altre &lt;a href=\"https://ca.wikipedia.org/wiki/Viquipèdia:Administradors\"&gt;administrador o administradora&lt;/a&gt; per a discutir el blocatge.</string>
+  <string name="error_blocked_footer">Podeu contactar amb &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; o un altre &lt;a href=\"https://ca.Infopedia.org/wiki/Viquipèdia:Administradors\"&gt;administrador o administradora&lt;/a&gt; per a discutir el blocatge.</string>
   <string name="theme_chooser_menu_item_short_tooltip">Personalitza la barra d\'eines</string>
-  <string name="error_blocked_footer_no_blocker">Podeu contactar amb un &lt;a href=\"https://ca.wikipedia.org/wiki/Viquipèdia:Administradors\"&gt; administrador o una administradora&lt;/a&gt; per a discutir el blocatge.</string>
+  <string name="error_blocked_footer_no_blocker">Podeu contactar amb un &lt;a href=\"https://ca.Infopedia.org/wiki/Viquipèdia:Administradors\"&gt; administrador o una administradora&lt;/a&gt; per a discutir el blocatge.</string>
   <string name="temp_account_not_logged_in">No heu iniciat cap sessió</string>
   <string name="temp_account_anon_ip_dialog_body">Un cop hagis fet una modificació, la teva adreça IP s\'associarà amb les modificacions.&lt;br /&gt;&lt;br /&gt; &lt;a href=\"https://#login\"&gt;Inicia la sessió&lt;/a&gt; o &lt;a href=\"https://#createaccount\"&gt;crea un compte&lt;/a&gt; per obtenir crèdit per a futures edicions i per accedir a altres funcions.</string>
   <string name="temp_account_dialog_ok">D\'acord</string>
@@ -578,8 +578,8 @@
   <string name="reading_list_confirm_remove_article_from_offline_title">L\'article apareix en múltiples llistes</string>
   <string name="reading_list_confirm_remove_article_from_offline_message">%s ja no estarà disponible fora de línia a totes les llistes de lectura:</string>
   <string name="reading_lists_sync_reminder_title">Voleu activar la sincronització de les llistes de lectura?</string>
-  <string name="reading_lists_sync_reminder_text" fuzzy="true">Els articles que es desen a les llistes de lectura ara poden sincronitzar-se amb el vostre compte de Viquipèdia. &lt;a href=\"https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Més informació&lt;/a&gt;</string>
-  <string name="reading_lists_login_reminder_text_with_link" fuzzy="true">Ara és possible sincronitzar les llistes de lectura amb diferents dispositius. Entreu al vostre compte de la Viquipèdia i permeteu que s’hi desin les vostres llistes. &lt;a href=\"https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Més informació&lt;/a&gt;</string>
+  <string name="reading_lists_sync_reminder_text" fuzzy="true">Els articles que es desen a les llistes de lectura ara poden sincronitzar-se amb el vostre compte de Viquipèdia. &lt;a href=\"https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Més informació&lt;/a&gt;</string>
+  <string name="reading_lists_login_reminder_text_with_link" fuzzy="true">Ara és possible sincronitzar les llistes de lectura amb diferents dispositius. Entreu al vostre compte de la Viquipèdia i permeteu que s’hi desin les vostres llistes. &lt;a href=\"https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Més informació&lt;/a&gt;</string>
   <string name="reading_lists_sync_reminder_action">Habilita la sincronització</string>
   <string name="reading_list_login_reminder_title">Sincronitza les llistes de lectura</string>
   <string name="reading_lists_login_reminder_text">Les llistes de lectura poden sincronitzar-se entre dispositius. Inicieu una sessió amb el vostre compte de Viquipèdia i permeteu desar les llistes.</string>
@@ -1298,7 +1298,7 @@
   <string name="talk_snackbar_survey_action_text">Primers passos</string>
   <string name="talk_share_discussion_subject">Viquipèdia - debat en el tema «%s» de la pàgina de discussió</string>
   <string name="talk_share_talk_page">Viquipèdia - debats a la pàgina de discussió</string>
-  <string name="talk_edit_disclaimer">Aquesta és una pàgina de discussió. Respecteu les recomanacions de les pàgines de discussió i recordeu signar els vostres apunts amb quatre titlles: ~~~~ en enviar utilitzant wikitext.&lt;br&gt;&lt;br&gt;&lt;a href=\"https://ca.wikipedia.org/wiki/Viquipèdia:Pàgines de discussió\"&gt;Recomanacions de les pàgines de discussió&lt;/a&gt;</string>
+  <string name="talk_edit_disclaimer">Aquesta és una pàgina de discussió. Respecteu les recomanacions de les pàgines de discussió i recordeu signar els vostres apunts amb quatre titlles: ~~~~ en enviar utilitzant wikitext.&lt;br&gt;&lt;br&gt;&lt;a href=\"https://ca.Infopedia.org/wiki/Viquipèdia:Pàgines de discussió\"&gt;Recomanacions de les pàgines de discussió&lt;/a&gt;</string>
   <string name="talk_search_hint">Cerca en els missatges</string>
   <string name="talk_search_topics_hint">Temes de cerca</string>
   <string name="talk_search_find_in_talk_topics_hint">Cerca en el tema de la pàgina de discussió</string>

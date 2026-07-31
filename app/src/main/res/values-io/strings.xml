@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Algentem
 * Dbrant
@@ -9,9 +9,9 @@
 * ToprakM
 -->
 <resources>
-  <string name="app_name_prod">Wikipedio</string>
-  <string name="app_name_beta">Wikipedio Beta</string>
-  <string name="app_name_alpha">Wikipedio Alfa</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Wikimedio</string>
   <string name="nav_item_back">Addope</string>
   <string name="page_tabs_back">Retroirar</string>
@@ -136,7 +136,7 @@
   <string name="search_reading_lists_no_results">Nula rezulti trovita en la lektebla listi</string>
   <string name="search_history_no_results">Nula rezulti trovita en la \'historio\' di retnavigado</string>
   <string name="edit_section_captcha_message">Por preventar l\'automatala \'spam\', kopiez la vorti quin vu vidas infre</string>
-  <string name="edit_section_captcha_request_an_account_message">Ka l\'imajo ne povas videsar? &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;Demandez konto&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">Ka l\'imajo ne povas videsar? &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;Demandez konto&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">Kopiez la vorti lektebla adsupre</string>
   <string name="title_captcha">Skribez per CAPTCHA</string>
   <string name="edit_section_captcha_reload">Frapez CAPTCHA por richarjar</string>
@@ -168,7 +168,7 @@
   <string name="logged_out_in_background_cancel">Anular</string>
   <string name="account_vanish_request_title">Efacar konto</string>
   <string name="account_vanish_request_confirm_title">Avizo pri efaco di konto</string>
-  <string name="account_vanish_request_confirm">Efaco di konto esas &lt;b&gt;lasta resurso&lt;/b&gt; e devas uzesar &lt;b&gt;nur se vu fakte e permanante ne pluse deziras redaktar&lt;/b&gt;, ed anke celar la maxim multa kam posibla ek vua pasinta asocii.&lt;br/&gt;&lt;br/&gt;Efaco di konto che Wikipedia facesas modifikanta la nomo di vua konto, por ke altri ne povas agnoskar vua kontributadi, en procedo nomizita Angle \'\'vanishing\'\' (\"desaparo\"). &lt;b&gt;\'\'Vanishing\'\' ne grantas kompleta anonimeso, o removo di kontributadi ad omna projeti&lt;/b&gt;.</string>
+  <string name="account_vanish_request_confirm">Efaco di konto esas &lt;b&gt;lasta resurso&lt;/b&gt; e devas uzesar &lt;b&gt;nur se vu fakte e permanante ne pluse deziras redaktar&lt;/b&gt;, ed anke celar la maxim multa kam posibla ek vua pasinta asocii.&lt;br/&gt;&lt;br/&gt;Efaco di konto che Infopedia facesas modifikanta la nomo di vua konto, por ke altri ne povas agnoskar vua kontributadi, en procedo nomizita Angle \'\'vanishing\'\' (\"desaparo\"). &lt;b&gt;\'\'Vanishing\'\' ne grantas kompleta anonimeso, o removo di kontributadi ad omna projeti&lt;/b&gt;.</string>
   <string name="history_empty_title">Nula artiklo vidita recente</string>
   <string name="history_empty_message">Hike tu povas vidar la kozi quin tu lektabis.</string>
   <string name="history_offline_articles_toast">Kelka artikli en la historio povas ne esar videbla \'\'offline\'\'.</string>
@@ -200,7 +200,7 @@
   <string name="create_account_button">Krear konto</string>
   <string name="create_account_name_unavailable">La nomo dil uzero \"%s\" ne esas disponebla. Voluntez selektar altra diferanta nomo.</string>
   <string name="create_account_ip_block_message">Pardonez, vua IP-adreso esas nun blokusita, e ne povas krear nova konti.</string>
-  <string name="create_account_ip_block_help_url">https://en.wikipedia.org/wiki/Help:I_have_been_blocked</string>
+  <string name="create_account_ip_block_help_url">https://en.Infopedia.org/wiki/Help:I_have_been_blocked</string>
   <string name="create_account_ip_block_details">Detali</string>
   <string name="preferences_general_heading">Ordinara preferaji</string>
   <string name="preferences_account_heading">Konto</string>
@@ -234,14 +234,14 @@
   <string name="about_description">Pri l\'apo (app) di Wikipedio</string>
   <string name="privacy_policy_description">Politiki pri privateso</string>
   <string name="terms_of_use_description">Uzo-termini</string>
-  <string name="about_wikipedia_url">https://en.wikipedia.org/wiki/Wikipedia:About</string>
+  <string name="about_wikipedia_url">https://en.Infopedia.org/wiki/Infopedia:About</string>
   <string name="about_libraries_heading">Biblioteki uzita</string>
   <string name="about_contributors_heading">Kontributeri</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Pagino dil esquado&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Pagino dil esquado&lt;/a&gt;</string>
   <string name="about_translators_heading">Tradukeri</string>
   <string name="about_translators_translatewiki">Ica \'app\' tradukesis da voluntara tradukeri en &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt;.</string>
   <string name="about_app_license_heading">Licenco</string>
-  <string name="about_app_license">Fonto-kodexo disponebla che &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;GitHub&lt;/a&gt; sub &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Licenco Apache 2.0&lt;/a&gt;. Ecepte kande kontree mencionata, kontenaji esas disponebla sub &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Creative Commons Attribution-ShareAlike License&lt;/a&gt;.</string>
+  <string name="about_app_license">Fonto-kodexo disponebla che &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;GitHub&lt;/a&gt; sub &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Licenco Apache 2.0&lt;/a&gt;. Ecepte kande kontree mencionata, kontenaji esas disponebla sub &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Creative Commons Attribution-ShareAlike License&lt;/a&gt;.</string>
   <string name="about_wmf">Produkturo del &lt;a href=\"https://wikimediafoundation.org/\"&gt;Wikimedia Foundation&lt;/a&gt;</string>
   <string name="about_activity_title">Pri</string>
   <string name="edit_abandon_confirm">Ca pagino modifikesis. Ka tu fakte deziras ekirar sen salvar tua modifikuri?</string>
@@ -394,7 +394,7 @@
   <string name="link_preview_dialog_share_button">Partigar</string>
   <string name="link_preview_stub_placeholder_text">Ca artiklo esas shablono. To signifikas ke ne existas suficanta kontenajo en ol por produktar previdado. Tamen, vu povas modifikar to.</string>
   <string name="error_page_does_not_exist">Ica pagino ne existas</string>
-  <string name="error_user_page_does_not_exist">Wikipedia ne havas &lt;a href=\"%1$s\"&gt;uzero-pagino&lt;/a&gt; kun ca nomo. Ordinare, ca pagino mustos kreesar e redaktesar da &lt;b&gt;%2$s&lt;/b&gt;. Se vu havas dubi, voluntez verifikar se \"%3$s\" existas.</string>
+  <string name="error_user_page_does_not_exist">Infopedia ne havas &lt;a href=\"%1$s\"&gt;uzero-pagino&lt;/a&gt; kun ca nomo. Ordinare, ca pagino mustos kreesar e redaktesar da &lt;b&gt;%2$s&lt;/b&gt;. Se vu havas dubi, voluntez verifikar se \"%3$s\" existas.</string>
   <string name="view_wiki_error_message_offline">Ne povas konektar a la interreto</string>
   <string name="view_wiki_error_message_timeout">Ne povas konektar a Wikipedio. Verifikez vua interretala konektilo, o probez itere pĺu tarde</string>
   <string name="reference_title">Refero %s</string>
@@ -412,9 +412,9 @@
   <string name="error_blocked_start">Komenco di bloko: %s</string>
   <string name="error_blocked_expiry">La blukuso finos ye: %s</string>
   <string name="error_blocked_id">ID dil blokuso: %s</string>
-  <string name="error_blocked_footer">Vu povas kontaktar &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; od altra &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Administrators\"&gt;administrero&lt;/a&gt; por diskutar la blokuso.</string>
+  <string name="error_blocked_footer">Vu povas kontaktar &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; od altra &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Administrators\"&gt;administrero&lt;/a&gt; por diskutar la blokuso.</string>
   <string name="theme_chooser_menu_item_short_tooltip">Ajustez vua utensilo-stango</string>
-  <string name="error_blocked_footer_no_blocker">Vu povas kontaktar ul &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Administrators\"&gt;administranto&lt;/a&gt; por diskutar pri la blokuso.</string>
+  <string name="error_blocked_footer_no_blocker">Vu povas kontaktar ul &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Administrators\"&gt;administranto&lt;/a&gt; por diskutar pri la blokuso.</string>
   <string name="temp_account_not_logged_in">Vu ne esas konektita</string>
   <string name="temp_account_dialog_ok">Me komprenis</string>
   <string name="temp_account_using_title">Vu esas uzanta provizora konto</string>
@@ -523,7 +523,7 @@
   <string name="reading_lists_default_list_delete_message">La listo \'default\' (%s) ne povas efacesar</string>
   <string name="reading_lists_default_plus_one_list_delete_message">%1$s efacita. La listo \'default\' (%2$s) ne povas efacesar.</string>
   <string name="reading_lists_default_plus_many_lists_delete_message">Listi efacita. La listo \'default\' (%s) ne povas efacesar.</string>
-  <string name="single_list_json_file_name">%s (lektebla listo de Wikipedia).json</string>
+  <string name="single_list_json_file_name">%s (lektebla listo de Infopedia).json</string>
   <string name="reading_list_items_deleted">%d artikli efacesis de la listo</string>
   <string name="reading_lists_item_deleted">%s efacesis de la listi</string>
   <string name="reading_list_item_delete_undo">Desfacar</string>
@@ -543,8 +543,8 @@
   <string name="reading_list_confirm_remove_article_from_offline_title">Ca artiklo aparas en multa listi</string>
   <string name="reading_list_confirm_remove_article_from_offline_message">%s ne divenos disponebla \'\'offline\'\' por omna lekto-listi:</string>
   <string name="reading_lists_sync_reminder_title">Ka sinkronigar listi pri lektado?</string>
-  <string name="reading_lists_sync_reminder_text" fuzzy="true">Artikli konservita che lektado-listi nun povas sinkronigesar a vua Wikipedio-konto. &lt;a href=\"https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Savez pluse&lt;/a&gt;</string>
-  <string name="reading_lists_login_reminder_text_with_link" fuzzy="true">Nun vu povas sinkronigar vua listi pri lektado. Facez \'log in\' en vua konto che Wikipedio, e permisez konservar vua listi. &lt;a href=\"https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Learn more&lt;/a&gt;</string>
+  <string name="reading_lists_sync_reminder_text" fuzzy="true">Artikli konservita che lektado-listi nun povas sinkronigesar a vua Wikipedio-konto. &lt;a href=\"https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Savez pluse&lt;/a&gt;</string>
+  <string name="reading_lists_login_reminder_text_with_link" fuzzy="true">Nun vu povas sinkronigar vua listi pri lektado. Facez \'log in\' en vua konto che Wikipedio, e permisez konservar vua listi. &lt;a href=\"https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Learn more&lt;/a&gt;</string>
   <string name="reading_lists_sync_reminder_action">Permisar sinkronigo</string>
   <string name="reading_list_login_reminder_title">Sinkronigo di listi pri lektado</string>
   <string name="reading_lists_login_reminder_text">Listi pri lektado nun povas sinkronigesar en multa utensili. Facez \'\'log in\'\' en vua Wikipedio-konto, e permisez konservar la listi.</string>
@@ -836,7 +836,7 @@
   <string name="description_edit_success_saved_image_caption_in_lang_snackbar">Deskripto dil imajo publikigita! (%s)</string>
   <string name="description_edit_success_saved_image_tags_snackbar">Etiketo/etiketi dil imajo publikigita!</string>
   <string name="description_edit_success_se_general_feed_link_snackbar">Ka vu prizis to? Helpez ni adjuntar pluse.</string>
-  <string name="description_edit_success_encouragement">Vu plubonigis Wikipedia por omni</string>
+  <string name="description_edit_success_encouragement">Vu plubonigis Infopedia por omni</string>
   <string name="description_edit_success_done">Facita</string>
   <string name="description_edit_success_did_you_know">Ka tu savis?</string>
   <string name="description_edit_success_article_edit_hint">Vu anke povas redaktar artikli uzanta ca \'\'app\'\'. En altra okaziono, probez korektigar ortografial erori e kurta frazi uzante ikono ^1</string>
@@ -1219,6 +1219,6 @@
   <string name="user_contrib_current">nuna</string>
   <string name="reading_list_share_menu_label">Partigez...</string>
   <string name="reading_list_share_menu_tooltip">Partigez ca texto kun altri</string>
-  <string name="reading_challenge_widget_reward_body">Celebrez la kompletigo di la tasko kun diskonto di 15%% che Wikipedia Store.</string>
+  <string name="reading_challenge_widget_reward_body">Celebrez la kompletigo di la tasko kun diskonto di 15%% che Infopedia Store.</string>
   <string name="reading_challenge_widget_reward_button_label">Obtenez 15%% diskonto che magazino</string>
 </resources>

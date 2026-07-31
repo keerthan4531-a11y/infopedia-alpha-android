@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * BanKris
 * Bencemac
@@ -25,9 +25,9 @@
 * Wolf Rex
 -->
 <resources>
-  <string name="app_name_prod">Wikipédia</string>
-  <string name="app_name_beta">Wikipédia béta</string>
-  <string name="app_name_alpha">Wikipédia alfa</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Wikimédia</string>
   <string name="nav_item_back">Vissza</string>
   <string name="page_tabs_back">Vissza</string>
@@ -160,7 +160,7 @@
   <string name="search_reading_lists_no_results">Nincs találat az olvasólistákban</string>
   <string name="search_history_no_results">Nincs találat az előzményekben</string>
   <string name="edit_section_captcha_message">Az automatikus spam elleni védekezés érdekében írd be az alább megjelenő szavakat</string>
-  <string name="edit_section_captcha_request_an_account_message">Nem látod a képet? &lt;a href=\"https://hu.wikipedia.org/wiki/Wikipédia:Felhasználói_fiók_kérése\"&gt;Kérj egy fiókot&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">Nem látod a képet? &lt;a href=\"https://hu.Infopedia.org/wiki/Wikipédia:Felhasználói_fiók_kérése\"&gt;Kérj egy fiókot&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">Ismételd meg a fenti szavakat</string>
   <string name="title_captcha">Add meg a CAPTCHA-t</string>
   <string name="edit_section_captcha_reload">Érintsd meg a CAPTCHA-t az újratöltéshez</string>
@@ -227,7 +227,7 @@
   <string name="create_account_button">Regisztráció</string>
   <string name="create_account_name_unavailable">A(z) „%s” felhasználói név nem érhető el. Válassz másikat.</string>
   <string name="create_account_ip_block_message">Sajnáljuk, de az IP-címedről jelenleg nem lehet regisztrálni.</string>
-  <string name="create_account_ip_block_help_url">https://en.wikipedia.org/wiki/Help:I_have_been_blocked</string>
+  <string name="create_account_ip_block_help_url">https://en.Infopedia.org/wiki/Help:I_have_been_blocked</string>
   <string name="create_account_ip_block_details">Részletek</string>
   <string name="preferences_general_heading">Általános</string>
   <string name="preferences_account_heading">Fiók</string>
@@ -262,21 +262,21 @@
   <string name="privacy_policy_description">Adatvédelmi irányelvek</string>
   <string name="terms_of_use_description">Felhasználási feltételek</string>
   <string name="legal_safety_contacts_description">Jogi és biztonsági kapcsolatok</string>
-  <string name="about_wikipedia_url">https://hu.wikipedia.org/wiki/Wikipédia:Rólunk</string>
-  <string name="privacy_policy_url">https://foundation.wikimedia.org/wiki/Policy:Privacy_policy/hu</string>
-  <string name="offline_reading_and_data_url">https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ/hu#Olvasólisták_és_offline_olvasás</string>
-  <string name="android_app_faq_url">https://www.mediawiki.org/wiki/Wikimedia_Apps/FAQ/Android/hu</string>
-  <string name="terms_of_use_url">https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use/hu</string>
-  <string name="android_app_request_an_account_url">https://hu.wikipedia.org/wiki/Wikipédia:Felhasználói_fiók_kérése</string>
+  <string name="about_wikipedia_url">https://hu.Infopedia.org/wiki/Wikipédia:Rólunk</string>
+  <string name="privacy_policy_url">https://foundation.infopedia.org/wiki/Policy:Privacy_policy/hu</string>
+  <string name="offline_reading_and_data_url">https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ/hu#Olvasólisták_és_offline_olvasás</string>
+  <string name="android_app_faq_url">https://www.infopedia.org/wiki/Wikimedia_Apps/FAQ/Android/hu</string>
+  <string name="terms_of_use_url">https://foundation.infopedia.org/wiki/Policy:Terms_of_Use/hu</string>
+  <string name="android_app_request_an_account_url">https://hu.Infopedia.org/wiki/Wikipédia:Felhasználói_fiók_kérése</string>
   <string name="cc_by_sa_4_url">https://creativecommons.org/licenses/by-sa/4.0/deed.hu</string>
   <string name="cc_0_url">https://creativecommons.org/publicdomain/zero/1.0/deed.hu</string>
   <string name="about_libraries_heading">Felhasznált szoftverkönyvtárak</string>
   <string name="about_contributors_heading">Közreműködők</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Csapat oldala&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Csapat oldala&lt;/a&gt;</string>
   <string name="about_translators_heading">Fordítók</string>
   <string name="about_translators_translatewiki">Ezt az alkalmazást önkéntesek fordították a &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt; segítségével.</string>
   <string name="about_app_license_heading">Licenc</string>
-  <string name="about_app_license">A forráskód elérhető &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;GitHubon&lt;/a&gt; az &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0 License&lt;/a&gt; alatt. Ha nincs másként jelezve, a tartalom egy &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.hu\"&gt;Creatice Commons Nevezd meg! – Így add tovább! licenc&lt;/a&gt; alatt érhető el.</string>
+  <string name="about_app_license">A forráskód elérhető &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;GitHubon&lt;/a&gt; az &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0 License&lt;/a&gt; alatt. Ha nincs másként jelezve, a tartalom egy &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.hu\"&gt;Creatice Commons Nevezd meg! – Így add tovább! licenc&lt;/a&gt; alatt érhető el.</string>
   <string name="about_wmf">A &lt;a href=\"https://wikimediafoundation.org\"&gt;Wikimédia Alapítvány&lt;/a&gt; terméke</string>
   <string name="about_activity_title">Névjegy</string>
   <string name="about_logo_content_description">Wikipédia puzzle-glóbusz logója</string>
@@ -455,9 +455,9 @@
   <string name="error_blocked_start">A blokk kezdete: %s</string>
   <string name="error_blocked_expiry">A blokk lejárata: %s</string>
   <string name="error_blocked_id">Blokkolási azonosító: %s</string>
-  <string name="error_blocked_footer">Kapcsolatba léphetsz a blokkolás végrehajtójával (&lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt;) vagy egy másik &lt;a href=\"https://hu.wikipedia.org/wiki/Wikipédia:Adminisztrátorok\"&gt;adminisztrátorral&lt;/a&gt;, és megbeszélheted vele a blokkot.</string>
+  <string name="error_blocked_footer">Kapcsolatba léphetsz a blokkolás végrehajtójával (&lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt;) vagy egy másik &lt;a href=\"https://hu.Infopedia.org/wiki/Wikipédia:Adminisztrátorok\"&gt;adminisztrátorral&lt;/a&gt;, és megbeszélheted vele a blokkot.</string>
   <string name="theme_chooser_menu_item_short_tooltip">Eszköztár testreszabása</string>
-  <string name="error_blocked_footer_no_blocker">Kapcsolatba léphetsz egy &lt;a href=\"https://hu.wikipedia.org/wiki/Wikipédia:Adminisztrátorok\"&gt;adminisztrátorral&lt;/a&gt;, és megbeszélheted vele a blokkot.</string>
+  <string name="error_blocked_footer_no_blocker">Kapcsolatba léphetsz egy &lt;a href=\"https://hu.Infopedia.org/wiki/Wikipédia:Adminisztrátorok\"&gt;adminisztrátorral&lt;/a&gt;, és megbeszélheted vele a blokkot.</string>
   <string name="temp_account_not_logged_in">Nem vagy bejelentkezve</string>
   <string name="temp_account_anon_ip_dialog_body">A szerkesztéseid az IP-címedhez lesznek társítva.&lt;br /&gt;&lt;br /&gt;Ha &lt;a href=\"https://#login\"&gt;bejelentkezel&lt;/a&gt; vagy &lt;a href=\"https://#createaccount\"&gt;regisztrálsz&lt;/a&gt;, akkor a szerkesztéseid a felhasználónevedhez lesznek társítva, egyéb hasznos funkciók mellett.</string>
   <string name="temp_account_anon_dialog_body">Amikor először szerkesztesz, a személyes adataid védelme érdekében egy &lt;b&gt;ideiglenes fiók&lt;/b&gt; jön létre neked (&lt;a href=\"%1$s\"&gt;további információk&lt;/a&gt;).&lt;br /&gt;&lt;br /&gt;Ha &lt;a href=\"https://#login\"&gt;bejelentkezel&lt;/a&gt; vagy &lt;a href=\"https://#createaccount\"&gt;regisztrálsz&lt;/a&gt;, akkor a szerkesztéseid a felhasználónevedhez lesznek társítva, egyéb hasznos funkciók mellett.</string>
@@ -601,8 +601,8 @@
   <string name="reading_list_confirm_remove_article_from_offline_title">A szócikk több listán is rajta van</string>
   <string name="reading_list_confirm_remove_article_from_offline_message">%s többé nem lesz elérhető kapcsolat nélkül egyik olvasólistánál sem:</string>
   <string name="reading_lists_sync_reminder_title">Bekapcsolod az olvasólisták szinkronizálását?</string>
-  <string name="reading_lists_sync_reminder_text">Az olvasólistákra mentett szócikkek mostantól szinkronizálhatók a Wikipédia-fiókoddal. &lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ/hu#Offline_olvasás\"&gt;További információk&lt;/a&gt;</string>
-  <string name="reading_lists_login_reminder_text_with_link">Az olvasólisták már eszközök között is szinkronizálhatók. Jelentkezz be a Wikipédia fiókodba, és engedélyezd a listáid mentését. &lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ/hu#Olvasólisták_szinkronizálása\"&gt;További információk&lt;/a&gt;</string>
+  <string name="reading_lists_sync_reminder_text">Az olvasólistákra mentett szócikkek mostantól szinkronizálhatók a Wikipédia-fiókoddal. &lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ/hu#Offline_olvasás\"&gt;További információk&lt;/a&gt;</string>
+  <string name="reading_lists_login_reminder_text_with_link">Az olvasólisták már eszközök között is szinkronizálhatók. Jelentkezz be a Wikipédia fiókodba, és engedélyezd a listáid mentését. &lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ/hu#Olvasólisták_szinkronizálása\"&gt;További információk&lt;/a&gt;</string>
   <string name="reading_lists_sync_reminder_action">Szinkronizálás engedélyezése</string>
   <string name="reading_list_login_reminder_title">Olvasólisták szinkronizálása</string>
   <string name="reading_lists_login_reminder_text">Az olvasólisták mostantól szinkronizálhatók a különböző eszközeid között. Jelentkezz be a Wikipédia-fiókodba és engedélyezd a listáid mentését.</string>
@@ -1428,7 +1428,7 @@
   <string name="talk_snackbar_survey_action_text">Kezdjük el</string>
   <string name="talk_share_discussion_subject">Wikipédia - vita a vitalap \"%s\" témájáról</string>
   <string name="talk_share_talk_page">Wikipédia – beszélgetések a vitalapon</string>
-  <string name="talk_edit_disclaimer">Ez egy vitalap. Kérjük, tartsd be a vitalapra vonatkozó irányelveket, és ne felejtse el aláírni a bejegyzéseit négy hullámvonal begépelésével: ~~~~, amikor wikiszöveg használatával tesz közzé.&lt;br&gt;&lt;br&gt; &lt;a href=\"https://hu.wikipedia.org/wiki/Wikipédia:Vitalapok használata\"&gt;Wikipédia:Vitalapok használata&lt;/a&gt;</string>
+  <string name="talk_edit_disclaimer">Ez egy vitalap. Kérjük, tartsd be a vitalapra vonatkozó irányelveket, és ne felejtse el aláírni a bejegyzéseit négy hullámvonal begépelésével: ~~~~, amikor wikiszöveg használatával tesz közzé.&lt;br&gt;&lt;br&gt; &lt;a href=\"https://hu.Infopedia.org/wiki/Wikipédia:Vitalapok használata\"&gt;Wikipédia:Vitalapok használata&lt;/a&gt;</string>
   <string name="talk_search_hint">Üzenetek keresése</string>
   <string name="talk_search_topics_hint">Témák keresése</string>
   <string name="talk_search_find_in_talk_topics_hint">Keresés vitalapi témákban</string>
@@ -1734,17 +1734,17 @@
   <string name="patroller_saved_message_title_do_not_censor">Ne cenzúrázz</string>
   <string name="patroller_saved_message_title_art_imp">Javaslat a cikked továbbfejlesztésére</string>
   <string name="patroller_saved_message_body_vandalism">Szia {{{username}}}!\nSzeretném jelezni, hogy visszavontam egy vagy több [{{{diffLink}}}|legutóbbi szerkesztésedet], mert azok nem tűntek építő jellegűnek.\nHa úgy gondolod, hogy tévedtem, vagy kérdésed van, írj bátran a [[User talk:{{{senderUserName}}}|vitalapomon]].\nKérlek, vedd figyelembe, hogy a vandál szerkesztések folytatása korlátozásokhoz vezethet.</string>
-  <string name="patroller_saved_message_body_editing_tests">Szia {{{username}}}!\n\nÖrömmel látom, hogy felkeltette az érdeklődésedet a Wikipédia, és elkezdtél ismerkedni a szerkesztéssel. A próbálkozásod technikailag sikeres volt; azonban ne feledd, hogy a projekt célja egy megbízható és átfogó enciklopédia létrehozása, amelyet bárki használhat. A szerkesztésed módosította a cikk tartalmát, ezért eltávolítottam.\n\nHa szeretnél gyakorolni, bátran használd a [[Wikipedia:Homokozó|homokozót]]. Ha a hozzászólásod egy adott cikkhez kapcsolódott, a megfelelő hely az adott cikk [[Vita:Cikk_címe|vitalapja]] lenne.</string>
-  <string name="patroller_saved_message_body_npov">Szia {{{username}}}!\n\nNéhány szerkesztésed nem felelt meg a Wikipédia [[Wikipedia:NPOV|semleges nézőpont]] irányelvének, ezért egyes tartalmakat módosítottunk vagy eltávolítottunk.\nKérlek, javítsd azokat a bekezdéseket vagy szakaszokat, amelyek részrehajló nézőpontot tükröznek, és helyettesítsd őket semlegesebb, tárgyilagosabb megfogalmazással, amely megfelel egy enciklopédia elvárásainak.</string>
+  <string name="patroller_saved_message_body_editing_tests">Szia {{{username}}}!\n\nÖrömmel látom, hogy felkeltette az érdeklődésedet a Wikipédia, és elkezdtél ismerkedni a szerkesztéssel. A próbálkozásod technikailag sikeres volt; azonban ne feledd, hogy a projekt célja egy megbízható és átfogó enciklopédia létrehozása, amelyet bárki használhat. A szerkesztésed módosította a cikk tartalmát, ezért eltávolítottam.\n\nHa szeretnél gyakorolni, bátran használd a [[Infopedia:Homokozó|homokozót]]. Ha a hozzászólásod egy adott cikkhez kapcsolódott, a megfelelő hely az adott cikk [[Vita:Cikk_címe|vitalapja]] lenne.</string>
+  <string name="patroller_saved_message_body_npov">Szia {{{username}}}!\n\nNéhány szerkesztésed nem felelt meg a Wikipédia [[Infopedia:NPOV|semleges nézőpont]] irányelvének, ezért egyes tartalmakat módosítottunk vagy eltávolítottunk.\nKérlek, javítsd azokat a bekezdéseket vagy szakaszokat, amelyek részrehajló nézőpontot tükröznek, és helyettesítsd őket semlegesebb, tárgyilagosabb megfogalmazással, amely megfelel egy enciklopédia elvárásainak.</string>
   <string name="patroller_saved_message_body_auto_trans">Szia {{{username}}}!\n\nÚgy tűnik, hogy néhány szerkesztésed gépi fordításon alapul, ezért azokat módosítottuk, vagy elláttuk egy figyelmeztető sablonnal. Ha a szöveg nem javul, előfordulhat, hogy az érintett szócikket töröljük.\n\nHa mindezek után kérdésed van, nyugodtan írj a [[User talk:{{{senderUserName}}}|vitalapomon]].\nNe keseredj el emiatt a kis figyelmeztetés miatt – a hozzájárulásod nagyon fontos a Wikipédia számára!</string>
-  <string name="patroller_saved_message_body_coi_rem">Szia {{{username}}}!\n\nKöszönöm, hogy hozzájárulsz a Wikipédiához. Ugyanakkor észrevettem, hogy szerkesztéseid során [[Wikipedia:Összeférhetetlenség|összeférhetetlenség]] merülhet fel.\nAz összeférhetetlenség azt jelenti, hogy egyes szerkesztők, személyek, szervezetek vagy cégek céljai nem minden esetben egyeztethetők össze a Wikipédia semlegességre és megbízhatóságra épülő irányelveivel.\n\nA fő névtérben végzett minden szerkesztésre a Wikipédia tartalmi irányelvei vonatkoznak:\n– [[Wikipedia:A Wikipédia nem az, ami nem]]\n– [[Wikipedia:Ellenőrizhetőség]], [[Wikipedia:Eredetileg nem közölt kutatás]],\n– [[Wikipedia:Semleges nézőpont]]\n– és a [[Wikipedia:Szerzői jogok]].\n\nMinden szerkesztőtől elvárjuk, hogy ezekhez az elvekhez tartsa magát, tartalomkészítés és véleményezés során is, valamint hogy feltételezze a jó szándékot más szerkesztők részéről.\n\nHa összeférhetetlenség fennáll, különösen fontos, hogy fokozottan ügyelj ezen szabályok betartására. Ennek elmulasztása esetén a szerkesztői fiókot magáncélú használatúnak tekinthetjük, ami blokkoláshoz vezethet.\n\nHa kérdésed van, bátran írj a [[User talk:{{{senderUserName}}}|vitalapomra]].</string>
+  <string name="patroller_saved_message_body_coi_rem">Szia {{{username}}}!\n\nKöszönöm, hogy hozzájárulsz a Wikipédiához. Ugyanakkor észrevettem, hogy szerkesztéseid során [[Infopedia:Összeférhetetlenség|összeférhetetlenség]] merülhet fel.\nAz összeférhetetlenség azt jelenti, hogy egyes szerkesztők, személyek, szervezetek vagy cégek céljai nem minden esetben egyeztethetők össze a Wikipédia semlegességre és megbízhatóságra épülő irányelveivel.\n\nA fő névtérben végzett minden szerkesztésre a Wikipédia tartalmi irányelvei vonatkoznak:\n– [[Infopedia:A Wikipédia nem az, ami nem]]\n– [[Infopedia:Ellenőrizhetőség]], [[Infopedia:Eredetileg nem közölt kutatás]],\n– [[Infopedia:Semleges nézőpont]]\n– és a [[Infopedia:Szerzői jogok]].\n\nMinden szerkesztőtől elvárjuk, hogy ezekhez az elvekhez tartsa magát, tartalomkészítés és véleményezés során is, valamint hogy feltételezze a jó szándékot más szerkesztők részéről.\n\nHa összeférhetetlenség fennáll, különösen fontos, hogy fokozottan ügyelj ezen szabályok betartására. Ennek elmulasztása esetén a szerkesztői fiókot magáncélú használatúnak tekinthetjük, ami blokkoláshoz vezethet.\n\nHa kérdésed van, bátran írj a [[User talk:{{{senderUserName}}}|vitalapomra]].</string>
   <string name="patroller_saved_message_body_final_warning">Több romboló szerkesztésed miatt ez az utolsó figyelmeztetésed.\nHa ismét vandál szerkesztést végzel, szerkesztési jogaidat megvonhatjuk.</string>
-  <string name="patroller_saved_message_body_copy_vio">A legutóbbi szerkesztésed valószínűleg jogvédett tartalmat tartalmazott engedély nélkül.\nKérlek, győződj meg róla, hogy minden hozzájárulásod megfelel a Wikipédia [[Wikipedia:Szerzői jogok|szerzői jogi irányelveinek]], ellenkező esetben a tartalmat el kell távolítanunk.</string>
+  <string name="patroller_saved_message_body_copy_vio">A legutóbbi szerkesztésed valószínűleg jogvédett tartalmat tartalmazott engedély nélkül.\nKérlek, győződj meg róla, hogy minden hozzájárulásod megfelel a Wikipédia [[Infopedia:Szerzői jogok|szerzői jogi irányelveinek]], ellenkező esetben a tartalmat el kell távolítanunk.</string>
   <string name="patroller_saved_message_body_edit_summary">Kedves {{{username}}}, úgy tűnik, szerkesztési összefoglaló nélkül távolítottál el tartalmat a Wikipédiáról. Kérlek, mindig hagyj szerkesztési összefoglalót, amikor hozzáadsz vagy eltávolítasz tartalmat a Wikipédián.</string>
   <string name="patroller_saved_message_body_do_not_censor">Szia {{{username}}}!\n\nÚgy tűnik, hogy tartalmat távolítottál el anélkül, hogy azt a cikk [[Vita:Cikk_címe|vitalapján]] megbeszélted volna.\nKérlek, vedd figyelembe, hogy a Wikipédia nem cenzúrázott, és a tartalom pusztán azért nem törölhető, mert vitatott.\nHa úgy gondolod, hogy az adott információ pontatlan, kérlek, kezdeményezz megbeszélést a cikk vitalapján, és törekedj konszenzusra.</string>
   <string name="talk_warn_learn_more_label">Ismerd meg az üzenethelyettesítőket</string>
   <string name="talk_warn_saved_messages_usage_instruction">Használd az alábbi példaüzenetet a testreszabáshoz, elküldéshez és az üzeneteid mentéséhez.</string>
-  <string name="patroller_saved_message_body_art_imp">Szia, {{{username}}}! A szócikked remek kezdet!\nAhhoz, hogy még jobb legyen, érdemes több hivatkozást hozzáadni megbízható forrásokra.\nEz segít az információk ellenőrizhetőségében, és növeli a szócikk minőségét.\nTovábbi részletekért nézd meg a Wikipédia [[Wikipedia:Megbízható források|megbízható forrásokra vonatkozó irányelveit]].</string>
+  <string name="patroller_saved_message_body_art_imp">Szia, {{{username}}}! A szócikked remek kezdet!\nAhhoz, hogy még jobb legyen, érdemes több hivatkozást hozzáadni megbízható forrásokra.\nEz segít az információk ellenőrizhetőségében, és növeli a szócikk minőségét.\nTovábbi részletekért nézd meg a Wikipédia [[Infopedia:Megbízható források|megbízható forrásokra vonatkozó irányelveit]].</string>
   <string name="talk_templates_menu_edit_title">Szerkesztés</string>
   <string name="data_opt_in_accept">Elfogad</string>
   <string name="data_opt_in_reject">Elutasít</string>
@@ -1768,7 +1768,7 @@
   <string name="donate_gpay_check_recurring">Legyen havonta ismétlődő adomány!</string>
   <string name="donate_gpay_check_send_email">Igen, a Wikimedia Alapítvány néha küldhet nekem e-mailt.</string>
   <string name="donate_gpay_minimum_amount">Kérlek válassz a minimum összegnél többet (%s)</string>
-  <string name="donate_gpay_maximum_amount">Az alkalmazáson keresztül sajnos nem tudunk a maximális összegnél (%s) nagyobb adományt fogadni. Kérlek vedd fel velünk a kapcsolatot a benefactors@wikimedia.org e-mail-címen!</string>
+  <string name="donate_gpay_maximum_amount">Az alkalmazáson keresztül sajnos nem tudunk a maximális összegnél (%s) nagyobb adományt fogadni. Kérlek vedd fel velünk a kapcsolatot a benefactors@infopedia.org e-mail-címen!</string>
   <string name="donate_gpay_success_message">&lt;b&gt;Köszönjük szépen!&lt;/b&gt; A Wikipédia iránti nagylelkűséged sokat jelent számunkra.</string>
   <string name="donate_gpay_help_problems">Probléma az adományozással?</string>
   <string name="donate_gpay_help_other_ways">Egyéb adományozási módok</string>

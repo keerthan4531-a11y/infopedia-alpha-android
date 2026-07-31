@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Friday musa
 * Kambai Akau
 -->
 <resources>
-  <string name="app_name_prod">Wikipidya</string>
-  <string name="app_name_beta">Wikipidya Beta</string>
-  <string name="app_name_alpha">Wikipidya A̱lfa</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Wikimidya</string>
   <string name="nav_item_back">A̱zama</string>
   <string name="page_tabs_back">A̱zama</string>
@@ -165,7 +165,7 @@
   <string name="create_account_button">Khwuk a̱la̱n</string>
   <string name="create_account_name_unavailable">A̱lyoot a̱tyuta̱m ka \"%s\" nwai shyia̱. Ma̱sa̱kut khai a̱lyoot ma̱ vwuon.</string>
   <string name="create_account_ip_block_message">Foo, a̱vwuonswat IP ang ka shyia̱ di̱ fwun mi̱ di̱ yong huni mat khwuk mi̱ khwuk li̱la̱n nfai.</string>
-  <string name="create_account_ip_block_help_url">https://en.wikipedia.org/wiki/Help:I_have_been_blocked</string>
+  <string name="create_account_ip_block_help_url">https://en.Infopedia.org/wiki/Help:I_have_been_blocked</string>
   <string name="create_account_ip_block_details">A̱cyuang nkhang</string>
   <string name="preferences_general_heading">Konyan</string>
   <string name="preferences_account_heading">A̱la̱n</string>
@@ -190,13 +190,13 @@
   <string name="about_description">Tazwa ap Wikipidya wu</string>
   <string name="privacy_policy_description">Kwambwat khap a̱pyia̱</string>
   <string name="terms_of_use_description">A̱yaaka̱nda̱n nyian ta̱m</string>
-  <string name="about_wikipedia_url">https://en.wikipedia.org/wiki/Wikipedia:About</string>
+  <string name="about_wikipedia_url">https://en.Infopedia.org/wiki/Infopedia:About</string>
   <string name="about_libraries_heading">Á̱tutunkwambwat nang á̱ nyian ta̱m ma̱ng a̱mba</string>
   <string name="about_contributors_heading">Á̱nietnwuat</string>
   <string name="about_translators_heading">Á̱nietbwan</string>
   <string name="about_translators_translatewiki">Á̱ ku bwuak ap wuni mbwak á̱nietbwan ba̱ yet á̱nietyei-a̱pyia̱ bya ma̱ &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt;.</string>
   <string name="about_app_license_heading">Kwambwat yak</string>
-  <string name="about_app_license" fuzzy="true">Zwunzwuo a̱vwuoneet shyia̱ ma̱ &lt;a href=\"https://gerrit.wikimedia.org/r/#/admin/projects/apps/android/wikipedia\"&gt;Gerrit&lt;/a&gt; ma̱ng &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;GitHub&lt;/a&gt; a̱tafa &lt;a href=\"https://phabricator.wikimedia.org/diffusion/APAW/browse/master/COPYING?view=raw\"&gt;Apache 2.0 License&lt;/a&gt; hu. Si̱ nang á̱ bai nyia̱ da̱ a̱nia wa bah, kyangmami shyia̱ a̱tafa &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License\"&gt;Creative Commons Attribution-ShareAlike License&lt;/a&gt;.</string>
+  <string name="about_app_license" fuzzy="true">Zwunzwuo a̱vwuoneet shyia̱ ma̱ &lt;a href=\"https://gerrit.infopedia.org/r/#/admin/projects/apps/android/Infopedia\"&gt;Gerrit&lt;/a&gt; ma̱ng &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;GitHub&lt;/a&gt; a̱tafa &lt;a href=\"https://phabricator.infopedia.org/diffusion/APAW/browse/master/COPYING?view=raw\"&gt;Apache 2.0 License&lt;/a&gt; hu. Si̱ nang á̱ bai nyia̱ da̱ a̱nia wa bah, kyangmami shyia̱ a̱tafa &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License\"&gt;Creative Commons Attribution-ShareAlike License&lt;/a&gt;.</string>
   <string name="about_wmf">Kidee &lt;a href=\"https://wikimediafoundation.org/\"&gt;Wikimedia Foundation&lt;/a&gt; hu</string>
   <string name="about_activity_title">Tazwa</string>
   <string name="edit_abandon_confirm_yes">Ii</string>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Dovud
 * Farorud
@@ -9,9 +9,9 @@
 * Vashgird
 -->
 <resources>
-  <string name="app_name_prod">Википедия</string>
-  <string name="app_name_beta">Википедия Бета</string>
-  <string name="app_name_alpha">Википедия Алфа</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Викимедиа</string>
   <string name="nav_item_back">Бозгашт</string>
   <string name="page_tabs_back">Бозгашт</string>
@@ -166,7 +166,7 @@
   <string name="settings_activity_title">Танзимот</string>
   <string name="about_description">Дар бораи афзунаи Википедия</string>
   <string name="terms_of_use_description">Шартҳои истифода</string>
-  <string name="about_wikipedia_url">https://tg.wikipedia.org/wiki/Википедиа:Ошноӣ_бо_донишнома</string>
+  <string name="about_wikipedia_url">https://tg.Infopedia.org/wiki/Википедиа:Ошноӣ_бо_донишнома</string>
   <string name="about_libraries_heading" fuzzy="true">китобхонаҳои истифодашуда</string>
   <string name="about_translators_heading">Тарҷумонҳо</string>
   <string name="about_translators_translatewiki">Ин афзуна тавассути тарҷумонҳо ихтиёриҳо дар &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt; тарҷума шудааст.</string>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * AProdromou
 * Auslaender
@@ -26,9 +26,9 @@
 * Wrai
 -->
 <resources>
-  <string name="app_name_prod">Βικιπαίδεια</string>
-  <string name="app_name_beta">Βικιπαίδεια Beta</string>
-  <string name="app_name_alpha">Βικιπαίδεια Alpha</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Wikimedia</string>
   <string name="nav_item_back">Πίσω</string>
   <string name="page_tabs_back">Επιστροφή</string>
@@ -161,7 +161,7 @@
   <string name="search_reading_lists_no_results">Δεν βρέθηκαν αποτελέσματα στις λίστες ανάγνωσης</string>
   <string name="search_history_no_results">Δεν βρέθηκαν αποτελέσματα στο ιστορικό</string>
   <string name="edit_section_captcha_message">Για να βοηθήσετε στην προστασία από αυτόματα ανεπιθύμητα μηνύματα, παρακαλούμε εισαγάγετε τις λέξεις που εμφανίζονται από κάτω</string>
-  <string name="edit_section_captcha_request_an_account_message">Δεν μπορείτε να δείτε την εικόνα; &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;Ζητήστε ένα λογαριασμό&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">Δεν μπορείτε να δείτε την εικόνα; &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;Ζητήστε ένα λογαριασμό&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">Επαναλάβετε τις λέξεις από πάνω</string>
   <string name="title_captcha">Εισάγετε CAPTCHA</string>
   <string name="edit_section_captcha_reload">Πατήστε το CAPTCHA για επαναφόρτωση</string>
@@ -196,12 +196,12 @@
   <string name="logged_out_in_background_cancel">Ακύρωση</string>
   <string name="account_vanish_request_title">Εξαφάνιση λογαριασμού</string>
   <string name="account_vanish_request_confirm_title">Προειδοποίηση εξαφάνισης λογαριασμού</string>
-  <string name="account_vanish_request_confirm">Η εξαφάνιση είναι η &lt;b&gt;έσχατη λύση&lt;/b&gt; και θα πρέπει &lt;b&gt;να χρησιμοποιείται μόνο όταν θέλετε να σταματήσετε την επεξεργασία για πάντα&lt;/b&gt; και επίσης να αποκρύψετε όσο το δυνατόν περισσότερες από τις προηγούμενες συσχετίσεις σας.&lt;br/&gt;&lt;br/&gt; Η διαγραφή λογαριασμού στη Wikipedia γίνεται αλλάζοντας το όνομα του λογαριασμού σας, ώστε άλλοι να μην μπορούν να αναγνωρίσουν τις συνεισφορές σας, με μια διαδικασία που ονομάζεται εξαφάνιση λογαριασμού. &lt;b&gt;Η εξαφάνιση δεν εγγυάται πλήρη ανωνυμία ούτε την κατάργηση συνεισφορών στα έργα&lt;/b&gt; .</string>
+  <string name="account_vanish_request_confirm">Η εξαφάνιση είναι η &lt;b&gt;έσχατη λύση&lt;/b&gt; και θα πρέπει &lt;b&gt;να χρησιμοποιείται μόνο όταν θέλετε να σταματήσετε την επεξεργασία για πάντα&lt;/b&gt; και επίσης να αποκρύψετε όσο το δυνατόν περισσότερες από τις προηγούμενες συσχετίσεις σας.&lt;br/&gt;&lt;br/&gt; Η διαγραφή λογαριασμού στη Infopedia γίνεται αλλάζοντας το όνομα του λογαριασμού σας, ώστε άλλοι να μην μπορούν να αναγνωρίσουν τις συνεισφορές σας, με μια διαδικασία που ονομάζεται εξαφάνιση λογαριασμού. &lt;b&gt;Η εξαφάνιση δεν εγγυάται πλήρη ανωνυμία ούτε την κατάργηση συνεισφορών στα έργα&lt;/b&gt; .</string>
   <string name="history_empty_title">Δεν υπάρχουν πρόσφατες σελίδες εδώ.</string>
   <string name="history_empty_message">Ιχνηλατήστε τι έχετε διαβάσει εδώ.</string>
   <string name="history_offline_articles_toast">Μερικά λήμματα στο ιστορικό μπορεί να μην είναι προσβάσιμα όταν είστε εκτός σύνδεσης.</string>
   <string name="search_empty_message">Αναζητήστε και διαβάστε την ελεύθερη εγκυκλοπαίδεια στη δική σας γλώσσα</string>
-  <string name="search_empty_message_multilingual_upgrade">Αναζητήστε την Wikipedia σε περισσότερες γλώσσες</string>
+  <string name="search_empty_message_multilingual_upgrade">Αναζητήστε την Infopedia σε περισσότερες γλώσσες</string>
   <string name="delete_selected_items">Διαγραφή επιλεγμένων αντικειμένων</string>
   <string name="wp_stylized">&lt;big&gt;Β&lt;/big&gt;ΙΚΙΠΑΙΔΕΙ&lt;big&gt;Α&lt;/big&gt;</string>
   <string name="create_account_username_hint">Όνομα χρήστη</string>
@@ -228,7 +228,7 @@
   <string name="create_account_button">Δημιουργία λογαριασμού</string>
   <string name="create_account_name_unavailable">Το όνομα χρήστη «%s» δεν είναι διαθέσιμο. Παρακαλούμε επίλεξε διαφορετικό όνομα.</string>
   <string name="create_account_ip_block_message">Δυστυχώς, αυτή τη στιγμή η διεύθυνσή IP σας είναι αποκλεισμένη από τη δημιουργία νέων λογαριασμών.</string>
-  <string name="create_account_ip_block_help_url">https://en.wikipedia.org/wiki/Help:I_have_been_blocked</string>
+  <string name="create_account_ip_block_help_url">https://en.Infopedia.org/wiki/Help:I_have_been_blocked</string>
   <string name="create_account_ip_block_details">Λεπτομέρειες</string>
   <string name="preferences_general_heading">Γενικά</string>
   <string name="preferences_account_heading">Λογαριασμός</string>
@@ -263,21 +263,21 @@
   <string name="privacy_policy_description">Πολιτική ιδιωτικότητας</string>
   <string name="terms_of_use_description">Όροι χρήσης</string>
   <string name="legal_safety_contacts_description">Επαφές για νομικά θέματα και θέματα ασφαλείας</string>
-  <string name="about_wikipedia_url">https://el.wikipedia.org/wiki/Βικιπαίδεια:Σχετικά</string>
-  <string name="privacy_policy_url" fuzzy="true">https://foundation.m.wikimedia.org/wiki/Privacy_policy</string>
-  <string name="terms_of_use_url" fuzzy="true">https://foundation.m.wikimedia.org/wiki/Terms_of_Use</string>
+  <string name="about_wikipedia_url">https://el.Infopedia.org/wiki/Βικιπαίδεια:Σχετικά</string>
+  <string name="privacy_policy_url" fuzzy="true">https://foundation.m.infopedia.org/wiki/Privacy_policy</string>
+  <string name="terms_of_use_url" fuzzy="true">https://foundation.m.infopedia.org/wiki/Terms_of_Use</string>
   <string name="cc_by_sa_4_url">https://creativecommons.org/licenses/by-sa/4.0/deed.el</string>
   <string name="cc_0_url">https://creativecommons.org/publicdomain/zero/1.0/deed.el</string>
   <string name="about_libraries_heading">Βιβλιοθήκες που χρησιμοποιούνται</string>
   <string name="about_contributors_heading">Συνεισφέροντες</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Σελίδα ομάδας&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Σελίδα ομάδας&lt;/a&gt;</string>
   <string name="about_translators_heading">Μεταφραστές</string>
   <string name="about_translators_translatewiki">Η εφαρμογή αυτή έχει μεταφραστεί από τους εθελοντές μεταφραστές στο &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt;.</string>
   <string name="about_app_license_heading">Άδεια</string>
-  <string name="about_app_license">Ο πηγαίος κώδικας είναι διαθέσιμος στο &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;GitHub&lt;/a&gt; με την &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Άδεια Apache 2.0&lt;/a&gt; . Εκτός εάν ορίζεται διαφορετικά, το περιεχόμενο είναι διαθέσιμο με την &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Άδεια Creative Commons Attribution-ShareAlike&lt;/a&gt; .</string>
+  <string name="about_app_license">Ο πηγαίος κώδικας είναι διαθέσιμος στο &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;GitHub&lt;/a&gt; με την &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Άδεια Apache 2.0&lt;/a&gt; . Εκτός εάν ορίζεται διαφορετικά, το περιεχόμενο είναι διαθέσιμο με την &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Άδεια Creative Commons Attribution-ShareAlike&lt;/a&gt; .</string>
   <string name="about_wmf">Ένα προϊόν του &lt;a href=\"https://wikimediafoundation.org/\"&gt;Ιδρύματος Wikimedia&lt;/a&gt;</string>
   <string name="about_activity_title">Σχετικά</string>
-  <string name="about_logo_content_description">Λογότυπο παζλ της Wikipedia με την υδρόγειο σφαίρα</string>
+  <string name="about_logo_content_description">Λογότυπο παζλ της Infopedia με την υδρόγειο σφαίρα</string>
   <string name="edit_abandon_confirm">Η σελίδα έχει τροποποιηθεί. Είστε βέβαιοι ότι θέλετε να πραγματοποιήσετε έξοδο χωρίς να αποθηκεύσετε τις αλλαγές σας;</string>
   <string name="edit_abandon_confirm_yes">Ναι</string>
   <string name="edit_abandon_confirm_no">Όχι</string>
@@ -340,9 +340,9 @@
   <string name="table_close">Κλείσιμο</string>
   <string name="widget_name_featured_page">Προβεβλημένο λήμμα της Βικιπαίδειας</string>
   <string name="widget_title_featured_page">Προβεβλημένο λήμμα της ημέρας:</string>
-  <string name="widget_name_search">Αναζήτηση στη Wikipedia</string>
-  <string name="widget_description_search">Ο πιο γρήγορος τρόπος αναζήτησης στη Wikipedia</string>
-  <string name="widget_description_featured_page">Τα καλύτερα λήμματα που έχει να προσφέρει η Wikipedia</string>
+  <string name="widget_name_search">Αναζήτηση στη Infopedia</string>
+  <string name="widget_description_search">Ο πιο γρήγορος τρόπος αναζήτησης στη Infopedia</string>
+  <string name="widget_description_featured_page">Τα καλύτερα λήμματα που έχει να προσφέρει η Infopedia</string>
   <string name="wiktionary_no_definitions_found">Δε βρέθηκαν ορισμοί.</string>
   <string name="alpha_update_notification_title">Νέα έκδοση alpha είναι διαθέσιμη</string>
   <string name="alpha_update_notification_text">Πατήστε για να κατεβάσετε</string>
@@ -453,9 +453,9 @@
   <string name="error_blocked_start">Έναρξη αποκλεισμού: %s</string>
   <string name="error_blocked_expiry">Λήξη αποκλεισμού%s:</string>
   <string name="error_blocked_id">Κωδικός αποκλεισμού: %s</string>
-  <string name="error_blocked_footer">Μπορείτε να επικοινωνήσετε με τον &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; ή άλλον &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Administrators\"&gt;διαχειριστή&lt;/a&gt; για να συζητήσετε για τον αποκλεισμό.</string>
+  <string name="error_blocked_footer">Μπορείτε να επικοινωνήσετε με τον &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; ή άλλον &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Administrators\"&gt;διαχειριστή&lt;/a&gt; για να συζητήσετε για τον αποκλεισμό.</string>
   <string name="theme_chooser_menu_item_short_tooltip">Προσαρμόστε τη γραμμή εργαλείων σας</string>
-  <string name="error_blocked_footer_no_blocker">Μπορείτε να επικοινωνήσετε με ένα &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Administrators\"&gt;διαχειριστή&lt;/a&gt; για να συζητήσετε για τον αποκλεισμό.</string>
+  <string name="error_blocked_footer_no_blocker">Μπορείτε να επικοινωνήσετε με ένα &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Administrators\"&gt;διαχειριστή&lt;/a&gt; για να συζητήσετε για τον αποκλεισμό.</string>
   <string name="temp_account_not_logged_in">Δεν έχετε συνδεθεί</string>
   <string name="temp_account_anon_ip_dialog_body">Μόλις κάνετε μια επεξεργασία, η διεύθυνση IP σας θα συσχετιστεί με τις επεξεργασίες σας.&lt;br /&gt;&lt;br /&gt;&lt;a href=\"https://#login\"&gt;Συνδεθείτε&lt;/a&gt; ή &lt;a href=\"https://#createaccount\"&gt;δημιουργήστε έναν λογαριασμό&lt;/a&gt; για να πάρετε τα εύσημα για μελλοντικές επεξεργασίες και για να αποκτήσετε πρόσβαση σε άλλες λειτουργίες.</string>
   <string name="temp_account_anon_dialog_body">Μόλις κάνετε μια επεξεργασία, θα δημιουργηθεί ένας &lt;b&gt;προσωρινός λογαριασμός&lt;/b&gt; για την προστασία του απορρήτου σας. &lt;a href=\"%1$s\"&gt;Μάθετε περισσότερα&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;&lt;a href=\"https://#login\"&gt;Συνδεθείτε&lt;/a&gt; ή &lt;a href=\"https://#createaccount\"&gt;δημιουργήστε έναν λογαριασμό&lt;/a&gt; για να πάρετε τα εύσημα για μελλοντικές επεξεργασίες και για να αποκτήσετε πρόσβαση σε άλλες λειτουργίες.</string>
@@ -591,8 +591,8 @@
   <string name="reading_list_confirm_remove_article_from_offline_title">Το λήμμα εμφανίζεται σε πολλαπλές λίστες</string>
   <string name="reading_list_confirm_remove_article_from_offline_message">Το %s δεν θα είναι πλέον διαθέσιμο εκτός σύνδεσης για όλες τις λίστες ανάγνωσης:</string>
   <string name="reading_lists_sync_reminder_title">Ενεργοποίηση συγχρονισμού της λίστας ανάγνωσης;</string>
-  <string name="reading_lists_sync_reminder_text">Τα άρθρα που αποθηκεύονται σε λίστες ανάγνωσης μπορούν πλέον να συγχρονιστούν με τον λογαριασμό σας στη Βικιπαίδεια. &lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Μάθετε περισσότερα&lt;/a&gt;</string>
-  <string name="reading_lists_login_reminder_text_with_link">Οι λίστες ανάγνωσης μπορούν πλέον να συγχρονιστούν μεταξύ συσκευών. Συνδεθείτε στον λογαριασμό σας στη Βικιπαίδεια και επιτρέψτε την αποθήκευση των λιστών σας. &lt;&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Μάθετε περισσότερα&lt;/a&gt;</string>
+  <string name="reading_lists_sync_reminder_text">Τα άρθρα που αποθηκεύονται σε λίστες ανάγνωσης μπορούν πλέον να συγχρονιστούν με τον λογαριασμό σας στη Βικιπαίδεια. &lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Μάθετε περισσότερα&lt;/a&gt;</string>
+  <string name="reading_lists_login_reminder_text_with_link">Οι λίστες ανάγνωσης μπορούν πλέον να συγχρονιστούν μεταξύ συσκευών. Συνδεθείτε στον λογαριασμό σας στη Βικιπαίδεια και επιτρέψτε την αποθήκευση των λιστών σας. &lt;&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Μάθετε περισσότερα&lt;/a&gt;</string>
   <string name="reading_lists_sync_reminder_action">Ενεργοποίηση συγχρονισμού</string>
   <string name="reading_list_login_reminder_title">Λίστες ανάγνωσης Sync</string>
   <string name="reading_lists_login_reminder_text">Οι λίστες ανάγνωσης μπορούν πλέον να συγχρονιστούν μεταξύ συσκευών. Συνδεθείτε στον λογαριασμό σας στη Βικιπαίδεια και επιτρέψτε την αποθήκευση των λιστών σας.</string>
@@ -957,7 +957,7 @@
   <string name="suggested_edits_image_tags_publishing">Γίνεται δημοσίευση</string>
   <string name="suggested_edits_image_tags_published">Δημοσιεύθηκε</string>
   <string name="suggested_edits_image_tags_onboarding_title">Η προσθήκη ετικετών σε εικόνες καθιστά ευκολότερη την εύρεση.</string>
-  <string name="suggested_edits_image_tags_onboarding_text">Προσθέτοντας ετικέτες εικόνων, θα βοηθήσετε στην ευκολότερη αναζήτηση εικόνων στο Commons, το αποθετήριο εικόνων με ελεύθερη άδεια χρήσης που χρησιμοποιεί η Wikipedia για εικόνες στα άρθρα της.</string>
+  <string name="suggested_edits_image_tags_onboarding_text">Προσθέτοντας ετικέτες εικόνων, θα βοηθήσετε στην ευκολότερη αναζήτηση εικόνων στο Commons, το αποθετήριο εικόνων με ελεύθερη άδεια χρήσης που χρησιμοποιεί η Infopedia για εικόνες στα άρθρα της.</string>
   <string name="suggested_edits_image_tags_onboarding_note">Μόνο οι ετικέτες που επιλέγετε θα προστεθούν στις εικόνες.</string>
   <string name="suggested_edits_image_tags_task_detail">Προσθέστε προσαρμοσμένες ετικέτες σε μια εικόνα για να διευκολύνετε την εύρεση.</string>
   <string name="suggested_edits_image_tags_choose">Προσθήκη ή επιλογή αντίστοιχων ετικετών</string>
@@ -1013,7 +1013,7 @@
   <string name="suggested_edits_task_new">Νέα</string>
   <string name="suggested_edits_cc0_notice">Με την δημοσίευση, συμφωνείτε με τους &lt;a href=\"%1$s\"&gt;Όρους Χρήσης&lt;/a&gt; και αμετάκλητα δημοσιεύετε τις συνεισφορές σας υπό την άδεια &lt;a href=\"%2$s\"&gt;CC BY-SA 4.0&lt;/a&gt;.</string>
   <string name="suggested_edits_reactivation_notification_title">Προτεινόμενες τροποποιήσεις</string>
-  <string name="suggested_edits_reactivation_notification_stage_one">Ευχαριστώ για την επεξεργασία της Wikipedia! Γιατί να μην συνεχίσετε από εκεί που σταματήσατε;</string>
+  <string name="suggested_edits_reactivation_notification_stage_one">Ευχαριστώ για την επεξεργασία της Infopedia! Γιατί να μην συνεχίσετε από εκεί που σταματήσατε;</string>
   <string name="suggested_edits_reactivation_notification_stage_two">Έχετε ένα λεπτό για να συνεχίσετε να βελτιώνετε τη Βικιπαίδεια; Δείτε αυτές τις προτάσεις επεξεργασίας.</string>
   <string name="suggested_edits_contributions_screen_title">Οι συνεισφορές του %s</string>
   <string name="suggested_edits_contribution_language_label">Γλώσσα</string>
@@ -1029,10 +1029,10 @@
   </plurals>
   <string name="suggested_edits_contribution_date_yesterday_text">Χθες</string>
   <string name="suggested_edits_encourage_account_creation_title">Γνωρίζετε ότι όλοι μπορούν να επεξεργαστούν την Βικιπαίδεια;</string>
-  <string name="suggested_edits_encourage_account_creation_message">Οι Προτεινόμενες επεξεργασίες είναι ένας νέος τρόπος επεξεργασίας της Wikipedia σε Android. Σας βοηθά να κάνετε μικρές αλλά σημαντικές συνεισφορές στη Wikipedia. Στόχος μας είναι να κάνουμε την επεξεργασία ευκολότερη και πιο προσβάσιμη για όλους! Συνδεθείτε ή εγγραφείτε στη Wikipedia για να ξεκινήσετε.</string>
+  <string name="suggested_edits_encourage_account_creation_message">Οι Προτεινόμενες επεξεργασίες είναι ένας νέος τρόπος επεξεργασίας της Infopedia σε Android. Σας βοηθά να κάνετε μικρές αλλά σημαντικές συνεισφορές στη Infopedia. Στόχος μας είναι να κάνουμε την επεξεργασία ευκολότερη και πιο προσβάσιμη για όλους! Συνδεθείτε ή εγγραφείτε στη Infopedia για να ξεκινήσετε.</string>
   <string name="suggested_edits_encourage_account_creation_login_button">Σύνδεση / εγγραφή στη Βικιπαίδεια</string>
   <string name="suggested_edits_contribution_type_image_tag">Ετικέτα εικόνας</string>
-  <string name="suggested_edits_contribution_current_revision_text">Η επεξεργασία σας είναι τώρα εμφανής στη Wikipedia</string>
+  <string name="suggested_edits_contribution_current_revision_text">Η επεξεργασία σας είναι τώρα εμφανής στη Infopedia</string>
   <string name="suggested_card_more_edits">Περισσότερες προτεινόμενες επεξεργασίες</string>
   <string name="suggested_edits_article_descriptions_dialog_title">Προτεινόμενες περιγραφές</string>
   <string name="suggested_edits_descriptions_report_dialog_title">Τι θα θέλατε να αναφέρετε;</string>
@@ -1076,8 +1076,8 @@
   <string name="image_recommendation_reject_submit">Υποβολή</string>
   <string name="image_recommendation_tooltip_main">Προσθήκη εικόνων που λείπουν σε άρθρα στις Προτεινόμενες Επεξεργασίες</string>
   <string name="image_recommendation_onboarding_1">Οι εικόνες βοηθούν τους ανθρώπους να κατανοήσουν, αλλά πολλά άρθρα δεν τις έχουν.</string>
-  <string name="image_recommendation_onboarding_2">Θα αποφασίσετε εάν μια προτεινόμενη εικόνα πρέπει να τοποθετηθεί σε ένα λήμμα της Wikipedia.</string>
-  <string name="image_recommendation_onboarding_4">Οι εικόνες προέρχονται από το Wikimedia Commons, μια συλλογή εικόνων με ελεύθερη άδεια χρήσης που χρησιμοποιούνται από τη Wikipedia.</string>
+  <string name="image_recommendation_onboarding_2">Θα αποφασίσετε εάν μια προτεινόμενη εικόνα πρέπει να τοποθετηθεί σε ένα λήμμα της Infopedia.</string>
+  <string name="image_recommendation_onboarding_4">Οι εικόνες προέρχονται από το Wikimedia Commons, μια συλλογή εικόνων με ελεύθερη άδεια χρήσης που χρησιμοποιούνται από τη Infopedia.</string>
   <string name="image_recommendation_tooltip_1">Διαβάστε αυτό το λήμμα για να κατανοήσετε το θέμα του</string>
   <string name="image_recommendation_tooltip_2">Ελέγξτε την εικόνα και τις σχετικές πληροφορίες</string>
   <string name="image_recommendation_tooltip_3">Αποφασίστε αν η εικόνα βοηθά τους αναγνώστες να κατανοήσουν καλύτερα αυτό το θέμα</string>
@@ -1089,7 +1089,7 @@
   <string name="edit_summary_added_caption">Προστέθηκε λεζάντα</string>
   <string name="edit_summary_added_image_and_caption">Προστέθηκε εικόνα και λεζάντα</string>
   <string name="edit_published_view">Προβολή</string>
-  <string name="activity_tab_logged_out_title">Συνδεθείτε ή δημιουργήστε έναν λογαριασμό για να δείτε τη δραστηριότητά σας στην εφαρμογή Wikipedia</string>
+  <string name="activity_tab_logged_out_title">Συνδεθείτε ή δημιουργήστε έναν λογαριασμό για να δείτε τη δραστηριότητά σας στην εφαρμογή Infopedia</string>
   <string name="activity_tab_user_reading">Ανάγνωση χρήστη %s</string>
   <string name="activity_tab_weekly_time_spent_hm">%1$dω %2$dλ</string>
   <string name="activity_tab_weekly_time_spent">Χρόνος που αφιερώσατε στην ανάγνωση αυτήν την εβδομάδα</string>
@@ -1163,7 +1163,7 @@
   <string name="onboarding_get_started">Ξεκινήστε</string>
   <string name="onboarding_maybe_later">Ίσως αργότερα</string>
   <string name="onboarding_explore_title">Νέοι τρόποι να εξερευνήσετε</string>
-  <string name="onboarding_reading_list_sync_text_v2">Μπορείτε να δημιουργήσετε λίστες ανάγνωσης από άρθρα που θέλετε να διαβάσετε αργότερα, ακόμα και όταν είστε εκτός σύνδεσης. &lt;br/&gt; Συνδεθείτε στον λογαριασμό σας στη Wikipedia για να συγχρονίσετε τις λίστες ανάγνωσης. &lt;a href=\"#login\"&gt; Εγγραφείτε στο Wikipedia &lt;/a&gt;</string>
+  <string name="onboarding_reading_list_sync_text_v2">Μπορείτε να δημιουργήσετε λίστες ανάγνωσης από άρθρα που θέλετε να διαβάσετε αργότερα, ακόμα και όταν είστε εκτός σύνδεσης. &lt;br/&gt; Συνδεθείτε στον λογαριασμό σας στη Infopedia για να συγχρονίσετε τις λίστες ανάγνωσης. &lt;a href=\"#login\"&gt; Εγγραφείτε στο Infopedia &lt;/a&gt;</string>
   <string name="onboarding_data_privacy_title">Δεδομένα &amp; Απόρρητο</string>
   <string name="onboarding_analytics_switch_title">Αποστολή δεδομένων χρήσης</string>
   <string name="onboarding_got_it">Κατάλαβα</string>
@@ -1498,8 +1498,8 @@
   <string name="patroller_tasks_patrol_edit_rollback_success">Η επαναφορά ολοκληρώθηκε</string>
   <string name="patroller_tasks_patrol_edit_snackbar_view">Προβολή</string>
   <string name="patroller_tasks_overflow_learn">Μάθετε περισσότερα</string>
-  <string name="patroller_onboarding_one_title">Συμβάλλετε στην εποπτεία και την έγκριση των επεξεργασιών της Wikipedia.</string>
-  <string name="patroller_onboarding_one_content">Βελτιώστε την ποιότητα του περιεχομένου της Wikipedia ελέγχοντας ενεργά μια ροή πρόσφατων επεξεργασιών και παρέχοντας καθοδήγηση, έλεγχο ποιότητας και ενθάρρυνση σε άλλους συντάκτες.</string>
+  <string name="patroller_onboarding_one_title">Συμβάλλετε στην εποπτεία και την έγκριση των επεξεργασιών της Infopedia.</string>
+  <string name="patroller_onboarding_one_content">Βελτιώστε την ποιότητα του περιεχομένου της Infopedia ελέγχοντας ενεργά μια ροή πρόσφατων επεξεργασιών και παρέχοντας καθοδήγηση, έλεγχο ποιότητας και ενθάρρυνση σε άλλους συντάκτες.</string>
   <string name="patroller_onboarding_two_thank_title">Ευχαριστίες</string>
   <string name="patroller_onboarding_two_thank_content">Βλέπετε μια παραγωγική επεξεργασία; Ευχαριστήστε έναν χρήστη για τη συνεισφορά του.</string>
   <string name="patroller_onboarding_two_watch_title">Παρακολούθηση</string>
@@ -1666,7 +1666,7 @@
   <string name="hybrid_search_onboarding_search_example_query_pineapple_pizza">Γιατί βάζουν ανανά στην πίτσα;</string>
   <string name="hybrid_search_onboarding_search_example_query_biggest_cities_europe">Ποιες είναι οι μεγαλύτερες πόλεις της Ευρώπης;</string>
   <string name="hybrid_search_onboarding_screen_title">Ένας νέος τρόπος αναζήτησης</string>
-  <string name="hybrid_search_results_header_description" fuzzy="true">Προέρχεται από άρθρα της Wikipedia που έχουν γραφτεί από ανθρώπους</string>
+  <string name="hybrid_search_results_header_description" fuzzy="true">Προέρχεται από άρθρα της Infopedia που έχουν γραφτεί από ανθρώπους</string>
   <string name="hybrid_search_results_rate_label">Αξιολόγησε αυτό το αποτέλεσμα</string>
   <string name="hybrid_search_results_rated_label">Αξιολογηθεί</string>
   <string name="hybrid_lexical_search_results_empty">Δεν υπάρχει τίτλος άρθρου που να αντιστοιχεί σε αυτό το ερώτημα</string>

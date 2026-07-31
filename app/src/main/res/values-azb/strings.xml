@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Alp Er Tunqa
 * Ilğım
 -->
 <resources>
-  <string name="app_name_prod">ویکی‌پدیا</string>
-  <string name="app_name_beta">ویکی‌پدیا بتا</string>
-  <string name="app_name_alpha">ویکی‌پدیا آلفا</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">ویکی‌مدیا</string>
   <string name="search_hint">ویکی‌پدیادا آختار</string>
   <string name="error_network_error">اینترنتی باغلانمادی</string>

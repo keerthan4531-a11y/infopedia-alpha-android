@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Arsenekoumyk
 * ArslanX
 -->
 <resources>
-  <string name="app_name_prod">Википедия</string>
-  <string name="app_name_beta">Википедия Бета</string>
-  <string name="app_name_alpha">Википедия Алфа</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Викимедиа</string>
   <string name="nav_item_back">Артгъа</string>
   <string name="page_tabs_back">Артгъа</string>

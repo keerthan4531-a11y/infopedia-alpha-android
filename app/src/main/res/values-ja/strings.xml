@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * 129femtoseconds
 * A2y4
@@ -72,9 +72,9 @@
 * 翻訳者a
 -->
 <resources>
-  <string name="app_name_prod">ウィキペディア</string>
-  <string name="app_name_beta">ウィキペディアベータ</string>
-  <string name="app_name_alpha">ウィキペディアアルファ</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">ウィキメディア</string>
   <string name="nav_item_back">戻る</string>
   <string name="page_tabs_back">戻る</string>
@@ -206,7 +206,7 @@
   <string name="search_reading_lists_no_results">あとで読むリストにはありませんでした</string>
   <string name="search_history_no_results">履歴には見つかりませんでした</string>
   <string name="edit_section_captcha_message">自動投稿スパム避けのため、以下に表示される言葉を入力してください</string>
-  <string name="edit_section_captcha_request_an_account_message">画像が見られませんか? &lt;a href=\"https://ja.wikipedia.org/wiki/Help:ログイン#アカウントの作成\"&gt;アカウント作成の申請&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">画像が見られませんか? &lt;a href=\"https://ja.Infopedia.org/wiki/Help:ログイン#アカウントの作成\"&gt;アカウント作成の申請&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">上記の言葉を繰り返してください</string>
   <string name="title_captcha">CAPTCHA を入力</string>
   <string name="edit_section_captcha_reload">タップすると CAPTCHA を再読み込みします</string>
@@ -273,7 +273,7 @@
   <string name="create_account_button">アカウント作成</string>
   <string name="create_account_name_unavailable">利用者名「%s」は利用できません。別の名前を指定してください。</string>
   <string name="create_account_ip_block_message">申し訳ありませんが現在あなたのIPアドレスはアカウント作成がブロックされています。</string>
-  <string name="create_account_ip_block_help_url">https://ja.wikipedia.org/wiki/ヘルプ:あなたが投稿ブロックされたら</string>
+  <string name="create_account_ip_block_help_url">https://ja.Infopedia.org/wiki/ヘルプ:あなたが投稿ブロックされたら</string>
   <string name="create_account_ip_block_details">詳細</string>
   <string name="preferences_general_heading">全般</string>
   <string name="preferences_account_heading">アカウント</string>
@@ -308,21 +308,21 @@
   <string name="privacy_policy_description">プライバシーポリシー</string>
   <string name="terms_of_use_description">利用規約</string>
   <string name="legal_safety_contacts_description">法律および安全に関する連絡先</string>
-  <string name="about_wikipedia_url">https://ja.wikipedia.org/wiki/Wikipedia:ウィキペディアについて</string>
-  <string name="privacy_policy_url">https://foundation.wikimedia.org/wiki/Special:MyLanguage/Privacy_policy</string>
-  <string name="offline_reading_and_data_url">https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ/ja#オフラインでの閲覧とデータ</string>
-  <string name="android_app_faq_url">https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ/ja</string>
-  <string name="terms_of_use_url">https://foundation.wikimedia.org/wiki/Special:MyLanguage/Terms_of_Use</string>
-  <string name="android_app_request_an_account_url">//ja.wikipedia.org/wiki/Help:ログイン#アカウントの作成</string>
+  <string name="about_wikipedia_url">https://ja.Infopedia.org/wiki/Infopedia:ウィキペディアについて</string>
+  <string name="privacy_policy_url">https://foundation.infopedia.org/wiki/Special:MyLanguage/Privacy_policy</string>
+  <string name="offline_reading_and_data_url">https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ/ja#オフラインでの閲覧とデータ</string>
+  <string name="android_app_faq_url">https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ/ja</string>
+  <string name="terms_of_use_url">https://foundation.infopedia.org/wiki/Special:MyLanguage/Terms_of_Use</string>
+  <string name="android_app_request_an_account_url">//ja.Infopedia.org/wiki/Help:ログイン#アカウントの作成</string>
   <string name="cc_by_sa_4_url">https://creativecommons.org/licenses/by-sa/4.0/deed.ja</string>
   <string name="cc_0_url">https://creativecommons.org/publicdomain/zero/1.0/deed.ja</string>
   <string name="about_libraries_heading">使用しているライブラリ</string>
   <string name="about_contributors_heading">貢献者</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;チームページ&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;チームページ&lt;/a&gt;</string>
   <string name="about_translators_heading">翻訳者</string>
   <string name="about_translators_translatewiki">このアプリは&lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt;で、ボランティアの翻訳者によって翻訳されました。</string>
   <string name="about_app_license_heading">ライセンス</string>
-  <string name="about_app_license">ソースコードは&lt;a href=\"https://phabricator.wikimedia.org/diffusion/APAW/browse/master/COPYING?view=raw\"&gt;Apache 2.0 License&lt;/a&gt;の下に&lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;GitHub&lt;/a&gt;上で利用可能です。特に明記されている場合を除き、コンテンツは&lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;クリエイティブ・コモンズ 表示-継承ライセンス&lt;/a&gt;の下で、利用可能です。</string>
+  <string name="about_app_license">ソースコードは&lt;a href=\"https://phabricator.infopedia.org/diffusion/APAW/browse/master/COPYING?view=raw\"&gt;Apache 2.0 License&lt;/a&gt;の下に&lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;GitHub&lt;/a&gt;上で利用可能です。特に明記されている場合を除き、コンテンツは&lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;クリエイティブ・コモンズ 表示-継承ライセンス&lt;/a&gt;の下で、利用可能です。</string>
   <string name="about_wmf">&lt;a href=\"https://wikimediafoundation.org/\"&gt;ウィキメディア財団&lt;/a&gt;のプロダクト</string>
   <string name="about_activity_title">このアプリについて</string>
   <string name="about_logo_content_description">ウィキペディアパズル地球儀ロゴ</string>
@@ -498,9 +498,9 @@
   <string name="error_blocked_start">ブロックの開始日：%s</string>
   <string name="error_blocked_expiry">ブロックの終了日：%s</string>
   <string name="error_blocked_id">ブロックID：%s</string>
-  <string name="error_blocked_footer">&lt;a href=\"%2$s\"&gt;&lt;/a&gt;または別の&lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Administrators\"&gt;&lt;/a&gt;管理者&lt;/ aに連絡できます。 &gt;ブロックについて話し合う。%1$s</string>
+  <string name="error_blocked_footer">&lt;a href=\"%2$s\"&gt;&lt;/a&gt;または別の&lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Administrators\"&gt;&lt;/a&gt;管理者&lt;/ aに連絡できます。 &gt;ブロックについて話し合う。%1$s</string>
   <string name="theme_chooser_menu_item_short_tooltip">ツールバーをカスタマイズする</string>
-  <string name="error_blocked_footer_no_blocker">&lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Administrators\"&gt;管理者&lt;/a&gt;に連絡して、ブロックについて話し合うことができます。</string>
+  <string name="error_blocked_footer_no_blocker">&lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Administrators\"&gt;管理者&lt;/a&gt;に連絡して、ブロックについて話し合うことができます。</string>
   <string name="temp_account_not_logged_in">ログインしていません</string>
   <string name="temp_account_anon_ip_dialog_body">編集を行うと、IPアドレスが編集に紐付けられます。&lt;br /&gt;&lt;br /&gt;今後の編集のクレジット表記やその他の機能へのアクセスのために &lt;a href=\"https://#login\"&gt;ログイン&lt;/a&gt; または &lt;a href=\"https://#createaccount\"&gt;アカウントを作成&lt;/a&gt; してください。</string>
   <string name="temp_account_anon_dialog_body">編集を行うと、プライバシー保護のために&lt;b&gt;仮アカウント&lt;/b&gt;が作成されます。 &lt;a href=\"%1$s\"&gt;詳細&lt;/a&gt;。&lt;br /&gt;&lt;br /&gt;今後の編集のクレジット表記やその他の機能へのアクセスのために &lt;a href=\"https://#login\"&gt;ログイン&lt;/a&gt; または &lt;a href=\"https://#createaccount\"&gt;アカウントを作成&lt;/a&gt; してください。</string>
@@ -637,8 +637,8 @@
   <string name="reading_list_confirm_remove_article_from_offline_title">複数のリストに記事が表示されます</string>
   <string name="reading_list_confirm_remove_article_from_offline_message">すべての閲覧リストに対して、%sはオフラインで利用できなくなります：</string>
   <string name="reading_lists_sync_reminder_title">あとで読むリストの同期を停止しますか?</string>
-  <string name="reading_lists_sync_reminder_text">あとで読むリストに保存された記事を、あなたのウィキペディアアカウントで同期することができるようになりました。&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ/ja#Synced_reading_lists\"&gt;さらに詳しく&lt;/a&gt;</string>
-  <string name="reading_lists_login_reminder_text_with_link">あとで読むリストはデバイスをまたいで同期できるようになりました。ウィキペディアアカウントにログインして、あなたのリストを保存しましょう。&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ/ja#Synced_reading_lists\"&gt;さらに詳しく&lt;/a&gt;</string>
+  <string name="reading_lists_sync_reminder_text">あとで読むリストに保存された記事を、あなたのウィキペディアアカウントで同期することができるようになりました。&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ/ja#Synced_reading_lists\"&gt;さらに詳しく&lt;/a&gt;</string>
+  <string name="reading_lists_login_reminder_text_with_link">あとで読むリストはデバイスをまたいで同期できるようになりました。ウィキペディアアカウントにログインして、あなたのリストを保存しましょう。&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ/ja#Synced_reading_lists\"&gt;さらに詳しく&lt;/a&gt;</string>
   <string name="reading_lists_sync_reminder_action">同期を有効にする</string>
   <string name="reading_list_login_reminder_title">あとで読むリストを同期する</string>
   <string name="reading_lists_login_reminder_text">あとで読むリストはデバイス間で同期できるようになりました。ウィキペディアのアカウントにログインして、リストの保存を許可してください。</string>
@@ -1151,7 +1151,7 @@
     <item quantity="other">%d文字追加しました</item>
   </plurals>
   <string name="suggested_edits_image_recommendations_task_title">記事の画像</string>
-  <string name="suggested_edits_image_recommendations_task_detail">理解を深めるために、Wikipedia の記事に推奨画像を追加します。</string>
+  <string name="suggested_edits_image_recommendations_task_detail">理解を深めるために、Infopedia の記事に推奨画像を追加します。</string>
   <string name="image_recommendation_task_instruction">この画像を記事に追加しますか？</string>
   <string name="image_recommendation_tutorial">チュートリアル</string>
   <string name="image_recommendation_accept">はい</string>
@@ -1168,7 +1168,7 @@
   <string name="image_recommendation_reject_submit">送信</string>
   <string name="image_recommendation_tooltip_main">不足している画像を「編集案」の記事に追加する</string>
   <string name="image_recommendation_onboarding_1">写真は人々の理解を助けますが、多くの記事には写真がありません。</string>
-  <string name="image_recommendation_onboarding_2">提案された画像を Wikipedia の記事に掲載するかどうかを決定します。</string>
+  <string name="image_recommendation_onboarding_2">提案された画像を Infopedia の記事に掲載するかどうかを決定します。</string>
   <string name="image_recommendation_onboarding_3">提案は機械によって生成され、それを受け入れるか拒否するかを判断するのはユーザー自身です。</string>
   <string name="image_recommendation_onboarding_4">画像の出どころはウィキメディア・コモンズといい、コモンズではウィキペディアで使用されるフリーなライセンスの画像を収集しています。</string>
   <string name="image_recommendation_tooltip_1">この記事を読んでトピックを理解してください</string>
@@ -1419,7 +1419,7 @@
   <string name="talk_snackbar_survey_action_text">始める</string>
   <string name="talk_share_discussion_subject">ウィキペディア - トークページのトピック「 %s 」に関する議論</string>
   <string name="talk_share_talk_page">ウィキペディア - トークページでの議論</string>
-  <string name="talk_edit_disclaimer">トークページです。トークページのガイドラインを尊重し、ウィキテキストを使用して投稿する場合は文末に ~~~~と入力し必ず署名をしてください。&lt;br&gt;&lt;br&gt; &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Talk_page_guidelines\"&gt;Wikipedia:トークページのガイドライン&lt;/a&gt;</string>
+  <string name="talk_edit_disclaimer">トークページです。トークページのガイドラインを尊重し、ウィキテキストを使用して投稿する場合は文末に ~~~~と入力し必ず署名をしてください。&lt;br&gt;&lt;br&gt; &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Talk_page_guidelines\"&gt;Infopedia:トークページのガイドライン&lt;/a&gt;</string>
   <string name="talk_search_hint">メッセージを検索する</string>
   <string name="talk_search_topics_hint">トピックを検索</string>
   <string name="talk_search_find_in_talk_topics_hint">トークページのトピックを探す</string>
@@ -1692,7 +1692,7 @@
   <string name="patroller_tasks_overflow_report">機能の問題</string>
   <string name="patroller_tasks_overflow_learn">詳細</string>
   <string name="patroller_onboarding_one_title">ウィキペディアの編集の管理と確認に貢献する。</string>
-  <string name="patroller_onboarding_one_content">最近の編集のフィードを積極的にレビューし、他の編集者にガイダンス、品質管理、励ましを提供することで、Wikipedia コンテンツの品質を向上させます。</string>
+  <string name="patroller_onboarding_one_content">最近の編集のフィードを積極的にレビューし、他の編集者にガイダンス、品質管理、励ましを提供することで、Infopedia コンテンツの品質を向上させます。</string>
   <string name="patroller_onboarding_two_thank_title">感謝</string>
   <string name="patroller_onboarding_two_watch_title">ウォッチ</string>
   <string name="patroller_onboarding_two_talk_title">トーク</string>
@@ -1711,11 +1711,11 @@
   <string name="patroller_saved_message_title_do_not_censor">検閲をしない</string>
   <string name="patroller_saved_message_title_art_imp">記事の改善提案</string>
   <string name="patroller_saved_message_body_vandalism">こんにちは{{{username}}}さん、あなたの[{{{diffLink}}}|最近の投稿]のひとつまたはいくつかが建設的ではないように思われるため、差し戻したことをお知らせしたいと思います。私が間違っていると思われる場合や質問がある場合は、[[User talk:{{{senderUserName}}}|私のトークページ]]にメッセージを残してください。荒らしを継続すると制限が課される可能性がありますのでご注意ください。</string>
-  <string name="patroller_saved_message_body_editing_tests">こんにちは{{{username}}}さん、ウィキペディアに注目し、編集方法を学ぶことに興味を持っていただいたことを嬉しく思います。編集テストはうまくいっていますが、このプロジェクトの目標は、誰もが活用できる信頼性が高く完成された百科事典を作ることであることを覚えておく必要があります。あなたの編集はコンテンツに影響を与えたため、除去されました。\nウィキペディアの編集方法を学びたい場合は、[[Wikipedia:サンドボックス|サンドボックス]]が自由に使えます。特定の記事についてのコメントの場合、記事のトークページが適切な場所です。</string>
-  <string name="patroller_saved_message_body_npov">こんにちは{{{username}}}さん、あなたが行った投稿の一部はこのウィキペディアで従う必要がある[[Wikipedia:NPOV|中立的な観点]]の方針を満たしていません。このため、一部の内容が修正または除去されました。偏った観点を示す段落や節を修正し、百科事典で求められるより中立で客観的な文章に置き換えてください。</string>
+  <string name="patroller_saved_message_body_editing_tests">こんにちは{{{username}}}さん、ウィキペディアに注目し、編集方法を学ぶことに興味を持っていただいたことを嬉しく思います。編集テストはうまくいっていますが、このプロジェクトの目標は、誰もが活用できる信頼性が高く完成された百科事典を作ることであることを覚えておく必要があります。あなたの編集はコンテンツに影響を与えたため、除去されました。\nウィキペディアの編集方法を学びたい場合は、[[Infopedia:サンドボックス|サンドボックス]]が自由に使えます。特定の記事についてのコメントの場合、記事のトークページが適切な場所です。</string>
+  <string name="patroller_saved_message_body_npov">こんにちは{{{username}}}さん、あなたが行った投稿の一部はこのウィキペディアで従う必要がある[[Infopedia:NPOV|中立的な観点]]の方針を満たしていません。このため、一部の内容が修正または除去されました。偏った観点を示す段落や節を修正し、百科事典で求められるより中立で客観的な文章に置き換えてください。</string>
   <string name="patroller_saved_message_body_auto_trans">こんにちは{{{username}}}さん、あなたが行った投稿の一部は機械翻訳の可能性があるため、修正またはテンプレートが付与されました。記事が改善されない場合、削除される可能性があります。\n\nこの情報をすべて見て、なおも質問がある場合は、[[User talk:{{{senderUserName}}}|私のトークページ]]に遠慮なくメッセージを残してください。この小さな出来事に落ち込まないでください。あなたの貢献はウィキペディアにとって非常に重要です。</string>
   <string name="patroller_saved_message_body_final_warning">あなたは複数の破壊的編集を行ったため、これは最終警告となります。ウィキペディアを再び荒らした場合には、編集が禁止されます。</string>
-  <string name="patroller_saved_message_body_copy_vio">あなたの最近の編集には著作権で保護されている素材が許可なく含まれているようです。除去されないためには、すべてのコンテンツがこのウィキペディアの[[Wikipedia:著作権|著作権]]の方針に従っていることを確認してください。</string>
+  <string name="patroller_saved_message_body_copy_vio">あなたの最近の編集には著作権で保護されている素材が許可なく含まれているようです。除去されないためには、すべてのコンテンツがこのウィキペディアの[[Infopedia:著作権|著作権]]の方針に従っていることを確認してください。</string>
   <string name="patroller_saved_message_body_edit_summary">こんにちは{{{username}}}さん、編集の要約を残さずにウィキペディアからコンテンツを除去されたように見受けられます。ウィキペディアにコンテンツを追加または除去するときには、常に編集の要約を残してください。</string>
   <string name="patroller_saved_message_body_do_not_censor">こんにちは{{{username}}}さん、記事のトークページで議論することなくコンテンツを除去したように見受けられます。ウィキペディアでは検閲をせず、物議を醸すためにコンテンツを除去すべきではありません。情報が不正確であると思われる場合は、記事のトークページで合意を形成してください。</string>
   <string name="talk_warn_learn_more_label">メッセージプレースホルダーについてもっと知る</string>

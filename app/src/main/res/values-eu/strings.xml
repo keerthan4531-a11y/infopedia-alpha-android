@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Alexgabi
 * Amaia
@@ -22,14 +22,14 @@
 * Xabier Armendaritz
 -->
 <resources>
-  <string name="app_name_prod">Wikipedia</string>
-  <string name="app_name_beta">Wikipedia Beta</string>
-  <string name="app_name_alpha">Wikipedia Alfa</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Wikimedia</string>
   <string name="nav_item_back">Atzera</string>
   <string name="page_tabs_back">Atzera</string>
   <string name="nav_item_forward">Aurrera</string>
-  <string name="search_hint">Bilatu Wikipedian</string>
+  <string name="search_hint">Bilatu Infopedian</string>
   <string name="search_hint_voice_search">Ahotsaren bidez bilatu</string>
   <string name="search_hint_search_languages">Hizkuntza bat bilatu</string>
   <string name="search_back_button_content_description">Atzera joan</string>
@@ -132,12 +132,12 @@
   <string name="edit_save_action_license_logged_in">Gordetzen baduzu &lt;a href=\"%1$s\"&gt;Erabilera Baldintzak&lt;/a&gt; onartzen dituzu, eta zure ekarpen guztiak atzera bueltarik gabe &lt;a href=\"%2$s\"&gt;CC BY-SA 4.0&lt;/a&gt; lizentziapean jartzen dituzu.</string>
   <string name="edit_save_action_license_anon">Aurreztuz, &lt;a href=\"%1$s\"&gt;Terms of Use&lt;/a&gt; onartuko duzu, eta ezinbestez zure ekarpenak askatu beharko dituzu &lt;a href=\"%2$s/\"&gt;CC BY-SA 4.0&lt;/a&gt; lizentziaren babespean. Aldaketak zure gailuaren IP helbideari egotziko zaizkio. Zu &lt;a href=\"https://#login\"&gt;log in&lt;/a&gt; ba zara, pribautasun gehiago edukiko duzu.</string>
   <string name="edit_anon_warning">Aldaketak zure gailuaren IP helbideari egotziko zaizkio. &lt;a href=\"https://#login\"&gt;Saioa hasten&lt;/a&gt; baduzu, pribatutasun handiagoa izango duzu.</string>
-  <string name="preference_title_language">Wikipediako hizkuntzak</string>
+  <string name="preference_title_language">Infopediako hizkuntzak</string>
   <string name="langlinks_filter_hint">Bilatu</string>
   <string name="langlinks_empty">Orrialde hau ez dago eskuragarri beste hizkuntzetan.</string>
   <string name="langlinks_no_match">Hizkuntzarik ez da aurkitu</string>
   <string name="langlinks_activity_title">Beste hizkuntzak</string>
-  <string name="langlinks_your_wikipedia_languages">Zure Wikipedia hizkuntzak</string>
+  <string name="langlinks_your_wikipedia_languages">Zure Infopedia hizkuntzak</string>
   <string name="menu_save_changes">Aldaketak argitaratu</string>
   <string name="edit_saved_successfully">Aldaketa argitaratu da!</string>
   <string name="stub_article_edit_saved_successfully">Aldaketa argitaratu da! Aldaketak agertzeko denbora behar du.</string>
@@ -157,11 +157,11 @@
   <string name="search_reading_lists_no_results">Ez dira emaitzarik aurkitu irakurketa zerrendetan</string>
   <string name="search_history_no_results">Historian ez da emaitzik aurkitu</string>
   <string name="edit_section_captcha_message">Spam automatikoaren aurka babesteko, mesedez idatzi jarraian ageri diren hitzak</string>
-  <string name="edit_section_captcha_request_an_account_message">Ezin duzu argazkia ikusi? &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;Gehiago ikasi&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">Ezin duzu argazkia ikusi? &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;Gehiago ikasi&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">Goiko hitzak errepikatu</string>
   <string name="title_captcha">Sartu CAPTCHA</string>
   <string name="edit_section_captcha_reload">CAPTCHA sakatu eguneratu</string>
-  <string name="nav_item_login">Saioa hasi Wikipedian</string>
+  <string name="nav_item_login">Saioa hasi Infopedian</string>
   <string name="login_username_hint">Erabiltzaile izena</string>
   <string name="login_password_hint">Pasahitza</string>
   <string name="account_creation_password_hint">Pasahitza</string>
@@ -187,22 +187,22 @@
   <string name="logout_prompt">Hau egiten baduzu zure kontutik irtengo zara izena emanda zauden gailu guztietan. Jarraitu nahi duzu?</string>
   <string name="logout_dialog_cancel_button_text">Utzi</string>
   <string name="logged_out_in_background_title">Saioa itxita</string>
-  <string name="logged_out_in_background_dialog">Wikipediako saioa itxi da. Nahi al duzu berriro ere saioa hasi?</string>
+  <string name="logged_out_in_background_dialog">Infopediako saioa itxi da. Nahi al duzu berriro ere saioa hasi?</string>
   <string name="logged_out_in_background_login">Saioa hasi</string>
   <string name="logged_out_in_background_cancel">Utzi</string>
   <string name="account_vanish_request_title">Kendu kontua</string>
   <string name="account_vanish_request_confirm_title">Kontua kentzearen abisua</string>
-  <string name="account_vanish_request_confirm">Kontua kentzea &lt;b&gt;azken aukera&lt;/b&gt; da eta &lt;b&gt;betiko editatzeari utzi nahi diozunean eta iraganeko loturak ahalik eta gehien ezkutatu nahi dituzunean bakarrik erabili&lt;/b&gt; behar da.&lt;br/&gt;&lt;br/&gt; Wikipedian kontua ezabatzeko, kontuaren izena aldatu behar da, besteek zure ekarpenak ezagutu ez ditzaten. Prozesu horretan, kontua &lt;b&gt;desagertzeak ez du anonimotasun osoa bermatzen, ezta proiektuetarako ekarpenak ezabatzen ere&lt;/b&gt; .</string>
+  <string name="account_vanish_request_confirm">Kontua kentzea &lt;b&gt;azken aukera&lt;/b&gt; da eta &lt;b&gt;betiko editatzeari utzi nahi diozunean eta iraganeko loturak ahalik eta gehien ezkutatu nahi dituzunean bakarrik erabili&lt;/b&gt; behar da.&lt;br/&gt;&lt;br/&gt; Infopedian kontua ezabatzeko, kontuaren izena aldatu behar da, besteek zure ekarpenak ezagutu ez ditzaten. Prozesu horretan, kontua &lt;b&gt;desagertzeak ez du anonimotasun osoa bermatzen, ezta proiektuetarako ekarpenak ezabatzen ere&lt;/b&gt; .</string>
   <string name="history_empty_title">Ez dago azkenaldian ikusitako orririk!</string>
   <string name="history_empty_message">Egin hemen irakurri duzunaren jarraipena.</string>
   <string name="history_offline_articles_toast">Baliteke historialeko artikulu batzuk ezin ikustea offline bazaude.</string>
   <string name="search_empty_message">Bilatu eta irakurri doako entziklopedia zure hizkuntzan</string>
-  <string name="search_empty_message_multilingual_upgrade">Bilatu Wikipedia beste hizkuntzatan</string>
+  <string name="search_empty_message_multilingual_upgrade">Bilatu Infopedia beste hizkuntzatan</string>
   <string name="delete_selected_items">Ezabatu aukeratutako item-ak</string>
   <string name="wp_stylized">&lt;big&gt;W&lt;/big&gt;IKIPEDI&lt;big&gt;A&lt;/big&gt;</string>
   <string name="create_account_username_hint">Erabiltzaile izena</string>
   <string name="login_dont_have_account">Ez al duzu konturik?</string>
-  <string name="login_join_wikipedia">Wikipediara batu</string>
+  <string name="login_join_wikipedia">Infopediara batu</string>
   <string name="login_forgot_password">Zure pasahitza ahaztu duzu?</string>
   <string name="create_account_already_have">Baduzu erabiltzaile kontua?</string>
   <string name="create_account_activity_title">Kontua sortu</string>
@@ -224,11 +224,11 @@
   <string name="create_account_button">Kontua sortu</string>
   <string name="create_account_name_unavailable">%s erabiltzaile-izena ez dago erabilgarri. Mesedez hauta ezazu beste izen bat.</string>
   <string name="create_account_ip_block_message">Barkatu, zure IP helbidea blokeatuta dago, eta ezin du kontu berririk sortu.</string>
-  <string name="create_account_ip_block_help_url">https://en.wikipedia.org/wiki/Help:I_have_been_blocked</string>
+  <string name="create_account_ip_block_help_url">https://en.Infopedia.org/wiki/Help:I_have_been_blocked</string>
   <string name="create_account_ip_block_details">Xehetasunak</string>
   <string name="preferences_general_heading">Orokorra</string>
   <string name="preferences_account_heading">Kontua</string>
-  <string name="wikipedia_app_faq">Wikipedia App FAQ</string>
+  <string name="wikipedia_app_faq">Infopedia App FAQ</string>
   <string name="send_feedback">Aplikazioari buruzko feedbacka eman</string>
   <string name="create_account_account_created_toast">Kontua sortua!</string>
   <string name="preferences_heading_syncing">Sinkronizatzen</string>
@@ -236,8 +236,8 @@
   <string name="preferences_heading_experimental">Esperimentala</string>
   <string name="preference_title_sync_reading_lists_from_account">Irakurketa zerrendaren sinkronizazioa</string>
   <string name="preference_title_download_reading_list_articles">Deskargatu irakurketa zerrendako artikuluak</string>
-  <string name="preference_summary_sync_reading_lists">Utzi zure irakurketa zerrendak gailuen zehar sinkronizatzen, zure Wikipedia kontuan gordez</string>
-  <string name="preference_summary_sync_reading_lists_from_account">Utzi Wikipediak sinkroniza ditzala irakurketa zerrendak zure \"%s\" Wikipedia kontura gordez</string>
+  <string name="preference_summary_sync_reading_lists">Utzi zure irakurketa zerrendak gailuen zehar sinkronizatzen, zure Infopedia kontuan gordez</string>
+  <string name="preference_summary_sync_reading_lists_from_account">Utzi Infopediak sinkroniza ditzala irakurketa zerrendak zure \"%s\" Infopedia kontura gordez</string>
   <string name="preference_dialog_of_turning_off_reading_list_sync_title">Zure %s kontutik kendu nahi dituzu sinkronizatutako irakurketa zerrendak?</string>
   <string name="preference_dialog_of_turning_off_reading_list_sync_text">Aurretik sinkronizatutako irakurketa zerrendak ezabatu egingo dira urruneko biltegitik. Kendu nahi dituzu sinkronizatutako zerrenda guztiak \"%s\" kontutik?</string>
   <string name="preference_title_auto_upload_crash_reports">Bidali akatsen txostenak</string>
@@ -255,23 +255,23 @@
   <string name="page_watchlist_overflow_menu_onboarding_tooltip_text">Interesatzen zaizkizun artikuluen jarraipena. Sakatu ondoko menua eta hautatu &lt;b&gt;Gehitu jarraipen-zerrendan&lt;/b&gt; artikulu batean egindako aldaketak ikusteko.</string>
   <string name="settings_item_preferences">Ezarpenak</string>
   <string name="settings_activity_title">Ezarpenak</string>
-  <string name="about_description">Wikipediaren aplikazioari buruz</string>
+  <string name="about_description">Infopediaren aplikazioari buruz</string>
   <string name="privacy_policy_description">Pribatutasun politika</string>
   <string name="terms_of_use_description">Erabilera-baldintzak</string>
   <string name="legal_safety_contacts_description">Lege eta segurtasun kontaktuak</string>
-  <string name="about_wikipedia_url">https://eu.wikipedia.org/wiki/Laguntza:Wikipediari_buruz</string>
+  <string name="about_wikipedia_url">https://eu.Infopedia.org/wiki/Laguntza:Infopediari_buruz</string>
   <string name="cc_by_sa_4_url">https://creativecommons.org/licenses/by-sa/4.0/deed.eu</string>
   <string name="cc_0_url">https://creativecommons.org/publicdomain/zero/1.0/deed.eu</string>
   <string name="about_libraries_heading">Erabilitako liburutegiak</string>
   <string name="about_contributors_heading">Ekarleak</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Taldeko orria&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Taldeko orria&lt;/a&gt;</string>
   <string name="about_translators_heading">Itzultzaileak</string>
   <string name="about_translators_translatewiki">Aplikazio hau boluntarioek itzuli dute hementxe &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt;.</string>
   <string name="about_app_license_heading">Lizentzia</string>
-  <string name="about_app_license">Iturburu kodea eskuragarri dago &lt;a href=\"https://gerrit.wikimedia.org/r/#/admin/projects/apps/android/wikipedia\"&gt;Gerrit&lt;/a&gt; orrian eta &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;GitHub&lt;/a&gt;-en &lt;a href=\"https://phabricator.wikimedia.org/diffusion/APAW/browse/master/COPYING?view=raw\"&gt;Apache 2.0 Lizentziapean&lt;/a&gt;. Bestela zehazten ez bada, edukia &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_4.0_Unported_License\"&gt;Creative Commons Aitortu-PartekatuBerdin Lizentziapean&lt;/a&gt; dago eskuragarri.</string>
+  <string name="about_app_license">Iturburu kodea eskuragarri dago &lt;a href=\"https://gerrit.infopedia.org/r/#/admin/projects/apps/android/Infopedia\"&gt;Gerrit&lt;/a&gt; orrian eta &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;GitHub&lt;/a&gt;-en &lt;a href=\"https://phabricator.infopedia.org/diffusion/APAW/browse/master/COPYING?view=raw\"&gt;Apache 2.0 Lizentziapean&lt;/a&gt;. Bestela zehazten ez bada, edukia &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Text_of_Creative_Commons_Attribution-ShareAlike_4.0_Unported_License\"&gt;Creative Commons Aitortu-PartekatuBerdin Lizentziapean&lt;/a&gt; dago eskuragarri.</string>
   <string name="about_wmf">&lt;a href=\"https://wikimediafoundation.org/\"&gt;Wikimedia Fundazioaren&lt;/a&gt; produktua</string>
   <string name="about_activity_title">Honi buruz</string>
-  <string name="about_logo_content_description">Wikipedia globo puzzle logoa</string>
+  <string name="about_logo_content_description">Infopedia globo puzzle logoa</string>
   <string name="edit_abandon_confirm">Orrialde honek aldaketak jasan ditu. Ziur zaude zure aldaketak gorde gabe irten nahi duzula?</string>
   <string name="edit_abandon_confirm_yes">Bai</string>
   <string name="edit_abandon_confirm_no">Ez</string>
@@ -314,7 +314,7 @@
   <string name="abusefilter_title_warn">Hau editatze ezezaguna izan daiteke. Ziur al zaude argitaratu nahi duzula?</string>
   <string name="abusefilter_title_disallow">Ezin duzu aldaketa hau argitaratu. Mesedez itzul zaitez eta alda ezazu.</string>
   <string name="abusefilter_text_warn">Iragazki automatizatu batek aldaketa hau ezezagun potentzial gisa identifikatu du. Hurrengotariko baten bat izan daiteke:&lt;br /&gt;&lt;br /&gt;· Typing in all caps&lt;br /&gt;· Blanking articles or spamming&lt;br /&gt;· Irrelevant external links or images&lt;br /&gt;· Errepikaturiko karaktereak</string>
-  <string name="abusefilter_text_disallow">Iragazki automatizatu batek aldaketa hau potentzialki ezezaguna edo bandalismo gisa identifikatu du.&lt;br /&gt;&lt;br /&gt;Wikipedia entziklopedia bat da, eta hemen bakarrik egon daitezke eduki neutralak eta onargarriak.</string>
+  <string name="abusefilter_text_disallow">Iragazki automatizatu batek aldaketa hau potentzialki ezezaguna edo bandalismo gisa identifikatu du.&lt;br /&gt;&lt;br /&gt;Infopedia entziklopedia bat da, eta hemen bakarrik egon daitezke eduki neutralak eta onargarriak.</string>
   <string name="page_similar_titles">Antzeko orrialdeak</string>
   <string name="search_did_you_mean">\"%s\" esan nahi zenuen?</string>
   <string name="search_recent_header">Azken bilaketak:</string>
@@ -331,11 +331,11 @@
   <string name="table_infobox">Datu azkarrak</string>
   <string name="table_other">Informazio gehiago</string>
   <string name="table_close">Itxi</string>
-  <string name="widget_name_featured_page">Wikipediako nabarmendutako orrialdea</string>
+  <string name="widget_name_featured_page">Infopediako nabarmendutako orrialdea</string>
   <string name="widget_title_featured_page">Gaurko orrialde nabarmena:</string>
-  <string name="widget_name_search">Wikipedia bilaketa</string>
-  <string name="widget_description_search">Wikipedian bilatzeko modurik azkarrena</string>
-  <string name="widget_description_featured_page">Wikipediak eskaintzen dituen artikulu onenak</string>
+  <string name="widget_name_search">Infopedia bilaketa</string>
+  <string name="widget_description_search">Infopedian bilatzeko modurik azkarrena</string>
+  <string name="widget_description_featured_page">Infopediak eskaintzen dituen artikulu onenak</string>
   <string name="wiktionary_no_definitions_found">Ez da definiziorik aurkitu.</string>
   <string name="alpha_update_notification_title">Alpha eguneraketa berria eskuragarri</string>
   <string name="alpha_update_notification_text">Sakatu, deskargatzeko</string>
@@ -423,9 +423,9 @@
   <string name="link_preview_dialog_share_button">Partekatu</string>
   <string name="link_preview_stub_placeholder_text">Artikulu hau zirriborroa da, hau da, artikuluan ez dago aurrebista bat sortzeko nahikoa eduki. Hala ere, hori alda dezakezu.</string>
   <string name="error_page_does_not_exist">Orri hori ez da existitzen</string>
-  <string name="error_user_page_does_not_exist">Wikipediak ez du izen zehatz hori duen &lt;a href=\"%1$s \"&gt;erabiltzaile orria&lt;/a&gt; . Oro har, orri hau &lt;b&gt;%2$s&lt;/b&gt;(e)k sortu eta editatu beharko luke. Zalantzarik izanez gero, egiaztatu \"%3$s\" existitzen dela.</string>
+  <string name="error_user_page_does_not_exist">Infopediak ez du izen zehatz hori duen &lt;a href=\"%1$s \"&gt;erabiltzaile orria&lt;/a&gt; . Oro har, orri hau &lt;b&gt;%2$s&lt;/b&gt;(e)k sortu eta editatu beharko luke. Zalantzarik izanez gero, egiaztatu \"%3$s\" existitzen dela.</string>
   <string name="view_wiki_error_message_offline">Ezin izan da Internetera konektatu</string>
-  <string name="view_wiki_error_message_timeout">Ezin da Wikipediara konektatu. Egiaztatu zure sareko konexioa edo saiatu berriro geroago.</string>
+  <string name="view_wiki_error_message_timeout">Ezin da Infopediara konektatu. Egiaztatu zure sareko konexioa edo saiatu berriro geroago.</string>
   <string name="reference_title">Erreferentzia %s</string>
   <string name="reference_list_title">Erreferentziak</string>
   <string name="theme_chooser_dialog_image_dimming_switch_label">Irudia lausotu (gai ilunetan)</string>
@@ -441,9 +441,9 @@
   <string name="error_blocked_start">Blokearen hasiera: %s</string>
   <string name="error_blocked_expiry">Blokearen epemuga: %s</string>
   <string name="error_blocked_id">Blokeoaren IDa: %s</string>
-  <string name="error_blocked_footer">Blokeoaz hitz egiteko, &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; edo beste &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Administrators\"&gt;administratzaile batekin&lt;/a&gt; harremanetan jar zaitezke.</string>
+  <string name="error_blocked_footer">Blokeoaz hitz egiteko, &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; edo beste &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Administrators\"&gt;administratzaile batekin&lt;/a&gt; harremanetan jar zaitezke.</string>
   <string name="theme_chooser_menu_item_short_tooltip">Pertsonalizatu zure tresna-barra</string>
-  <string name="error_blocked_footer_no_blocker">Blokeoaz hitz egiteko &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Administrators\"&gt;administratzaile&lt;/a&gt; batekin harremanetan jar zaitezke.</string>
+  <string name="error_blocked_footer_no_blocker">Blokeoaz hitz egiteko &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Administrators\"&gt;administratzaile&lt;/a&gt; batekin harremanetan jar zaitezke.</string>
   <string name="temp_account_not_logged_in">Ez duzu saioa hasi</string>
   <string name="temp_account_anon_ip_dialog_body">Aldaketa bat egiten duzunean, zure IP helbidea zure aldaketekin lotuko da.&lt;br /&gt;&lt;br /&gt;&lt;a href=\"https://#login\"&gt;Hasi saioa&lt;/a&gt; edo &lt;a href=\"https://#createaccount\"&gt;sortu kontu bat&lt;/a&gt; etorkizuneko aldaketen kreditua jasotzeko eta beste funtzio batzuetara sartzeko.</string>
   <string name="temp_account_anon_dialog_body">Aldaketa bat egiten duzunean, &lt;b&gt;aldi baterako kontu&lt;/b&gt; bat sortuko da zuretzat zure pribatutasuna babesteko. &lt;a href=\"%1$s\"&gt;Ikasi gehiago&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt; &lt;a href=\"https://#login\"&gt;Hasi saioa&lt;/a&gt; edo &lt;a href=\"https://#createaccount\"&gt;sortu kontu bat&lt;/a&gt; etorkizuneko aldaketen kreditua jasotzeko eta beste funtzio batzuetara sartzeko.</string>
@@ -466,7 +466,7 @@
   <string name="temp_account_end_session">Saioa itxi</string>
   <string name="temp_account_end_session_confirm">Honek zure aldi baterako kontuaren saioa itxiko du. Jarraitu nahi duzu?</string>
   <string name="crash_report_activity_title">Aplikazioaren akatsa</string>
-  <string name="crash_report_relaunch_or_quit">Sentitzen dugu, Wikipedia aplikazioak errorea jasan du eta eten egin da.\n\nBerriro hasi ala irten nahiko zenuke?</string>
+  <string name="crash_report_relaunch_or_quit">Sentitzen dugu, Infopedia aplikazioak errorea jasan du eta eten egin da.\n\nBerriro hasi ala irten nahiko zenuke?</string>
   <string name="crash_report_relaunch">Berriro ere hasi</string>
   <string name="crash_report_quit">Irten</string>
   <string name="article_menu_bar_save_button">Gorde</string>
@@ -562,8 +562,8 @@
   <string name="reading_lists_default_list_delete_message">Ezin da lehenetsitako zerrenda (%s) ezabatu</string>
   <string name="reading_lists_default_plus_one_list_delete_message">%1$s ezabatuta. Ezin da lehenetsitako zerrenda (%2$s) ezabatu.</string>
   <string name="reading_lists_default_plus_many_lists_delete_message">Zerrendak ezabatuta. Ezin da lehenetsitako zerrenda (%s) ezabatu.</string>
-  <string name="single_list_json_file_name">%s (Wikipediako irakurketa zerrenda).json</string>
-  <string name="multiple_lists_json_file_name">Wikipediako irakurketa zerrendak (%s eta gehiago).json</string>
+  <string name="single_list_json_file_name">%s (Infopediako irakurketa zerrenda).json</string>
+  <string name="multiple_lists_json_file_name">Infopediako irakurketa zerrendak (%s eta gehiago).json</string>
   <string name="reading_list_items_deleted">%d artikulu ezabatu dira zerrendatik</string>
   <string name="reading_lists_item_deleted">%s zerrendetatik kendu da</string>
   <string name="reading_list_item_delete_undo">Desegin</string>
@@ -583,12 +583,12 @@
   <string name="reading_list_confirm_remove_article_from_offline_title">Artikulua zerrenda anitzetan agertzen da</string>
   <string name="reading_list_confirm_remove_article_from_offline_message">%s ez da erabilgarri egongo konexiorik gabe hurrengo zerrendetan:</string>
   <string name="reading_lists_sync_reminder_title">Irakurketa zerrendaren sinkronizazioa piztu?</string>
-  <string name="reading_lists_sync_reminder_text">Irakurketa-zerrendetan gordetako artikuluak zure Wikipedia kontuarekin sinkronizatu daitezke orain. &lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Informazio gehiago&lt;/a&gt;</string>
-  <string name="reading_lists_login_reminder_text_with_link">Irakurketa zerrendak orain gailuen zehar sinkroniza daitezke. Hasi saioa zure Wikipedia kontuan eta baimena eman zure zerrendak gorde daitezen. &lt;a href=\"https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Informazio gehiago&lt;/a&gt;</string>
+  <string name="reading_lists_sync_reminder_text">Irakurketa-zerrendetan gordetako artikuluak zure Infopedia kontuarekin sinkronizatu daitezke orain. &lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Informazio gehiago&lt;/a&gt;</string>
+  <string name="reading_lists_login_reminder_text_with_link">Irakurketa zerrendak orain gailuen zehar sinkroniza daitezke. Hasi saioa zure Infopedia kontuan eta baimena eman zure zerrendak gorde daitezen. &lt;a href=\"https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Informazio gehiago&lt;/a&gt;</string>
   <string name="reading_lists_sync_reminder_action">Sinkronizazioa ahalbidetu</string>
   <string name="reading_list_login_reminder_title">Zure irakurketa zerrendak sinkronizatu</string>
-  <string name="reading_lists_login_reminder_text">Irakurketa-zerrendak gailu guztietan sinkronizatu daitezke. Hasi saioa zure Wikipedia kontuan, zure zerrendak gorde ahal izateko.</string>
-  <string name="reading_lists_login_button">Saioa hasi Wikipedian</string>
+  <string name="reading_lists_login_reminder_text">Irakurketa-zerrendak gailu guztietan sinkronizatu daitezke. Hasi saioa zure Infopedia kontuan, zure zerrendak gorde ahal izateko.</string>
+  <string name="reading_lists_login_button">Saioa hasi Infopedian</string>
   <string name="reading_lists_ignore_button">Orain ez</string>
   <string name="reading_lists_confirm_remote_delete_yes">Bai</string>
   <string name="reading_lists_confirm_remote_delete_no">Ez</string>
@@ -610,7 +610,7 @@
   <string name="reading_list_turned_sync_off_dialog_ok">Ados</string>
   <string name="reading_list_turned_sync_off_dialog_settings">Ezarpenak</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_title">Irakurketa zerrendaren sinkronizazioa piztu?</string>
-  <string name="reading_list_prompt_turned_sync_on_dialog_text">Irakurketa zerrendetan gordetako artikuluak zure Wikipedia kontuarekin sinkroniza daitezke. &lt;a href=\"#faq\"&gt;Learn more&lt;/a&gt;</string>
+  <string name="reading_list_prompt_turned_sync_on_dialog_text">Irakurketa zerrendetan gordetako artikuluak zure Infopedia kontuarekin sinkroniza daitezke. &lt;a href=\"#faq\"&gt;Learn more&lt;/a&gt;</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_do_not_show">Ez erakutsi hau berriro</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_enable_syncing">Sinkronizazioa ahalbidetu</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_no_thanks">Ez, eskerrik asko</string>
@@ -706,7 +706,7 @@
     <item quantity="one">Zerrenda %1$d faltan…</item>
     <item quantity="other">%1$d zerrenda faltan...</item>
   </plurals>
-  <string name="notification_echo_channel_description">Wikipedia jakinarazpenak</string>
+  <string name="notification_echo_channel_description">Infopedia jakinarazpenak</string>
   <string name="notifications_activity_title">Jakinarazpenak</string>
   <string name="notifications_activity_title_archived">Jakinarazpenak (erregistratuta)</string>
   <string name="notifications_search">Jakinarazpenak bilatu</string>
@@ -766,8 +766,8 @@
   <string name="preference_title_customize_push_notifications">Pertsonalizatu jakinarazpenen aktibazioa</string>
   <string name="preference_category_display_settings">Bistaratu ezarpenak</string>
   <string name="preference_title_hide_read_notifications">Ezkutatu irakurritako jakinarazpenak</string>
-  <string name="notifications_channel_group_wikipedia_notifications_title">Wikipedia</string>
-  <string name="notifications_channel_group_wikipedia_notifications_description">Wikipediako jakinarazpenak</string>
+  <string name="notifications_channel_group_wikipedia_notifications_title">Infopedia</string>
+  <string name="notifications_channel_group_wikipedia_notifications_description">Infopediako jakinarazpenak</string>
   <string name="notifications_channel_group_other_title">Bestelakoa</string>
   <string name="notifications_channel_group_other_description">Aplikazioko beste jakinarazpen batzuk</string>
   <string name="notifications_filter_label">Iragazi jakinarazpenak</string>
@@ -800,13 +800,13 @@
   <string name="view_random_article_card_title">Ausazko artikulua</string>
   <string name="view_random_article_card_action">Ausazko artikulu gehiago</string>
   <string name="view_top_read_card_title">Irakurrienak</string>
-  <string name="view_top_read_card_description">Zer dago boladan gaur Wikipedian?</string>
+  <string name="view_top_read_card_description">Zer dago boladan gaur Infopedian?</string>
   <string name="view_top_read_card_action">Irakurri gehiago</string>
   <string name="view_top_read_card_pageviews_k_suffix">%d k</string>
   <string name="view_top_read_card_pageviews_m_suffix">%d M</string>
   <string name="view_top_read_card_pageviews_views_suffix">Ikustaldiak</string>
   <string name="view_next_random_article">Ausazko beste artikulu bat kargatu</string>
-  <string name="view_main_page_card_title">Gaur Wikipedian</string>
+  <string name="view_main_page_card_title">Gaur Infopedian</string>
   <string name="view_main_page_card_action">Orrialde nagusia ikusi</string>
   <string name="view_featured_image_card_title">Eguneko irudia</string>
   <string name="view_featured_image_card_download">Deskargatu</string>
@@ -834,16 +834,16 @@
   <string name="feed_configure_menu_reset">Leheneratu ikuspegi lehenetsiak</string>
   <string name="feed_configure_menu_select_all">Dena erakutsi</string>
   <string name="feed_configure_menu_deselect_all">Dena ezkutatu</string>
-  <string name="feed_configure_language_warning">Jakin ezazu txartel guztiak ez daudela erabilgarri Wikipedia hizkuntza guztietan. Aldatu aukeratutako hizkuntza Ezarpenetan.</string>
+  <string name="feed_configure_language_warning">Jakin ezazu txartel guztiak ez daudela erabilgarri Infopedia hizkuntza guztietan. Aldatu aukeratutako hizkuntza Ezarpenetan.</string>
   <string name="feed_item_type_news">Eguneko ekitaldiei buruzko artikuluak</string>
   <string name="feed_item_type_on_this_day">Gaurko eguneko historian zehar gertaturiko ekitaldiak</string>
   <string name="feed_item_type_because_you_read">Orain dela gutxi irakurritako zure historiako artikulu batean oinarritutako iradokizunak</string>
-  <string name="feed_item_type_featured_article">Eguneko Wikipediako artikulu aipagarria</string>
+  <string name="feed_item_type_featured_article">Eguneko Infopediako artikulu aipagarria</string>
   <string name="feed_item_type_trending">Egunean gehien ikusten diren artikuluak</string>
   <string name="feed_item_type_featured_image">Wikimedia Commonsetik hartutako eguneko irudi aipagarria</string>
-  <string name="feed_item_type_main_page">Wikipediako orrialde nagusia eguneko eduki aipagarriarekin</string>
+  <string name="feed_item_type_main_page">Infopediako orrialde nagusia eguneko eduki aipagarriarekin</string>
   <string name="feed_item_type_randomizer">Irakurtzeko ausazko artikuluak sortu</string>
-  <string name="feed_item_type_suggested_edits">Wikipedian edukia gehitzeko iradokizunak</string>
+  <string name="feed_item_type_suggested_edits">Infopedian edukia gehitzeko iradokizunak</string>
   <string name="feed_item_type_places">Uneko kokapenean oinarritutako inguruko artikuluak</string>
   <string name="feed_empty_message" fuzzy="true">Ez dago ezer zure Arakatze-jarioan</string>
   <string name="feed_configure_onboarding_action">Pertsonalizatu</string>
@@ -855,7 +855,7 @@
   <string name="feed_accessibility_card_text">Jarioaren amaierara iritsi zara.</string>
   <string name="feed_accessibility_card_load_more_button">Gehiago kargatu</string>
   <string name="feed_language_variants_removal_dialog_title">Irakurketa esperientzia hobea lortzeko, hautatu eskualdeko hizkuntza aldaera bat</string>
-  <string name="feed_language_variants_removal_dialog_message">Une honetan Wikipediako hizkuntza nagusi gisa onartzen ez den txinerazko aldaera generiko bat erabiltzen ari zara.</string>
+  <string name="feed_language_variants_removal_dialog_message">Une honetan Infopediako hizkuntza nagusi gisa onartzen ez den txinerazko aldaera generiko bat erabiltzen ari zara.</string>
   <string name="feed_language_variants_removal_dialog_save">Gorde</string>
   <string name="feed_language_variants_removal_secondary_dialog_title">Mesedez, eguneratu zure bigarren mailako hizkuntzak</string>
   <string name="feed_language_variants_removal_secondary_dialog_message">Une honetan txinerazko aldaera generiko bateraezin bat erabiltzen ari zara bigarren mailako hizkuntza gisa. Joan ezarpenetara bigarren mailako hizkuntza berri bat hautatzeko edo hizkuntzen zerrenda berresteko.</string>
@@ -882,7 +882,7 @@
   <string name="description_edit_help_title">Info: artikuluen deskribapenak</string>
   <string name="description_edit_help_about_wikidata">Wikidatari buruz</string>
   <string name="description_edit_help_wikidata_guide">Wikidata gida idatzitako deskribapenentzat</string>
-  <string name="description_edit_anon_limit">Eskerrik asko deskribapenak aldatzen jarri duzun etengabeko interesagatik! Aldaketa gehigarriak egiteko, saioa hasi zure Wikipedia kontuan.</string>
+  <string name="description_edit_anon_limit">Eskerrik asko deskribapenak aldatzen jarri duzun etengabeko interesagatik! Aldaketa gehigarriak egiteko, saioa hasi zure Infopedia kontuan.</string>
   <string name="description_edit_license_notice">Deskribapena aldatzerakoan, hurrengo hau onartzen dut &lt;a href=\"%1$s\"&gt;Terms of Use&lt;/a&gt; eta onartzen dut nire ekarpenak aske uzten ditudala &lt;a href=\"%2$s\"&gt;Creative Commons CC0&lt;/a&gt; lizentziaren babespean.</string>
   <string name="description_edit_helper_text_lowercase_warning">normalean letra minuskulaz hasten dira</string>
   <string name="description_edit_voice_input_description">Ahots-sarrera</string>
@@ -904,7 +904,7 @@
   <string name="description_edit_success_saved_image_caption_in_lang_snackbar">Irudi azpiko testua argitaratu da! ( %s )</string>
   <string name="description_edit_success_saved_image_tags_snackbar">Irudiaren etiketa(k) argitaratu dira!</string>
   <string name="description_edit_success_se_general_feed_link_snackbar">Gustatu zaizu? Lagundu gehitzen.</string>
-  <string name="description_edit_success_encouragement">Wikipedia askoz hobea egin duzu gu denontzat</string>
+  <string name="description_edit_success_encouragement">Infopedia askoz hobea egin duzu gu denontzat</string>
   <string name="description_edit_success_done">Egina</string>
   <string name="description_edit_success_did_you_know">Ba al zenekien?</string>
   <string name="description_edit_success_article_edit_hint">Aplikazio honetatik ere artikuluak alda ditzakezu. Saia zaitez tipoak eta esaldi laburrak konpontzen ^1 ikonoaren bitartez hurrengo batean</string>
@@ -950,7 +950,7 @@
   <string name="suggested_edits_task_translate_caption_title">Itzuli irudi oinak</string>
   <string name="suggested_edits_task_translate_caption_description">Itzuli irudi oinak beste hizkuntzetara</string>
   <string name="suggested_edits_task_multilingual_title">Ataza gehiago editore eleanitzentzat</string>
-  <string name="suggested_edits_task_multilingual_description">Itzulpen atazak eskuragarri daude Wikipedia hizkuntza bat baino gehiagotan irakurri eta idatzi badezakezu.</string>
+  <string name="suggested_edits_task_multilingual_description">Itzulpen atazak eskuragarri daude Infopedia hizkuntza bat baino gehiagotan irakurri eta idatzi badezakezu.</string>
   <string name="suggested_edits_task_image_caption_edit_disable_text">Blokeatua dago %d irudi oin aldatzen dituzun arte</string>
   <string name="suggested_edits_task_translate_description_edit_disable_text">Blokeatua dago %d artikulu deskribapen aldatu dituzun arte</string>
   <string name="suggested_edits_task_multilingual_negative">Ez da niretzat</string>
@@ -979,7 +979,7 @@
   <string name="suggested_edits_image_preview_dialog_licensing">Lizentzia</string>
   <string name="suggested_edits_image_preview_dialog_more_info">Informazio Gehiago</string>
   <string name="suggested_edits_image_preview_dialog_file_page_link_text">Fitxategiaren orrialdea Wikimedia Commonsen</string>
-  <string name="suggested_edits_image_preview_dialog_file_page_wikipedia_link_text">Wikipediako fitxategi orria</string>
+  <string name="suggested_edits_image_preview_dialog_file_page_wikipedia_link_text">Infopediako fitxategi orria</string>
   <string name="suggested_edits_article_cta_image_tags">Gehitu irudi-etiketak</string>
   <string name="suggested_edits_article_cta_image_caption">Gehitu irudi oineko testua</string>
   <string name="suggested_edits_article_cta_image_caption_in_language">Gehitu irudi oineko testua (%s)</string>
@@ -994,7 +994,7 @@
   <string name="suggested_edits_image_tags_publishing">Argitaratzen</string>
   <string name="suggested_edits_image_tags_published">Argitaratua</string>
   <string name="suggested_edits_image_tags_onboarding_title">Irudiak etiketatzeak errazago aurkitzen laguntzen du.</string>
-  <string name="suggested_edits_image_tags_onboarding_text">Irudi-etiketak gehituz, irudiak errazago bilatuko dituzu Commons-en, Wikipediak bere artikuluetako irudietarako erabiltzen duen lizentzia libreko irudi-biltegian.</string>
+  <string name="suggested_edits_image_tags_onboarding_text">Irudi-etiketak gehituz, irudiak errazago bilatuko dituzu Commons-en, Infopediak bere artikuluetako irudietarako erabiltzen duen lizentzia libreko irudi-biltegian.</string>
   <string name="suggested_edits_image_tags_onboarding_note">Zuk aukeratzen dituzun etiketak bakarrik gehituko zaizkie irudiei.</string>
   <string name="suggested_edits_image_tags_task_detail">Gehitu etiketa pertsonalizatuak irudi bati errazago aurkitzeko.</string>
   <string name="suggested_edits_image_tags_choose">Gehitu edo aukeratu etiketak</string>
@@ -1005,8 +1005,8 @@
   <string name="suggested_edits_image_tags_add_tag">Gehitu etiketa</string>
   <string name="suggested_edits_image_tags_exit_dialog_message">Argitaratu gabeko etiketak ez dira gordeko</string>
   <string name="suggested_edits_image_zoom_tooltip">Atximurkatu irudian zoom egiteko.</string>
-  <string name="suggested_edits_encouragement_message">%s , eskerrik asko zure aldaketengatik. Jarraian Wikipedian laguntzeko modu gehiago aurki ditzakezu.</string>
-  <string name="suggested_edits_onboarding_message">&lt;b&gt;Kaixo %s&lt;/b&gt;, behean Wikipedia hobetzen laguntzeko modu azkar eta erraz batzuk aurkituko dituzu. Hasi bezain laster ikusiko duzu egiten ari zaren aldea. Edizio zoriontsua!</string>
+  <string name="suggested_edits_encouragement_message">%s , eskerrik asko zure aldaketengatik. Jarraian Infopedian laguntzeko modu gehiago aurki ditzakezu.</string>
+  <string name="suggested_edits_onboarding_message">&lt;b&gt;Kaixo %s&lt;/b&gt;, behean Infopedia hobetzen laguntzeko modu azkar eta erraz batzuk aurkituko dituzu. Hasi bezain laster ikusiko duzu egiten ari zaren aldea. Edizio zoriontsua!</string>
   <string name="suggested_edits_image_captions_task_detail">Deskribatu irudi bat irakurleei haren esanahia eta testuingurua ulertzen laguntzeko.</string>
   <string name="suggested_edits_add_descriptions_task_detail">Laburtu artikulu bat irakurleek gaia begirada batean uler dezaten.</string>
   <string name="suggested_edits_contributions_stat_tooltip">Orain arteko ekarpen kopuru osoa.</string>
@@ -1015,7 +1015,7 @@
   <string name="suggested_edits_edit_quality_stat_tooltip">Zure ekarpen bat zenbat aldiz desegin den kontuan hartuta (beste editore batek desegin duena). Desegindako edizioak: %d.</string>
   <string name="suggested_edits_paused_message">Iradokitako edizioak %1$s arte pausatuta daude. Barkatu %2$s , zure azken ekarpen batzuk desegin dira.</string>
   <string name="suggested_edits_disabled_message">Iradokitako edizioak desgaituta daude. Barkatu %s , zure azken ekarpenetatik gehiegi desegin dira.</string>
-  <string name="suggested_edits_ip_blocked_message">Badirudi zure IP helbidea (edo IP helbideen barrutia) Wikipedia editatzeko blokeatuta dagoela.</string>
+  <string name="suggested_edits_ip_blocked_message">Badirudi zure IP helbidea (edo IP helbideen barrutia) Infopedia editatzeko blokeatuta dagoela.</string>
   <string name="suggested_edits_gate_message">Barkatu, %s , funtzio hau erabiltzeko gutxienez hiru aldaketa egin behar dituzu artikulu batean zuzenean.</string>
   <string name="suggested_edits_editing_tips_link_text">Editatzeko aholkuak eta trikimailuak</string>
   <string name="suggested_edits_help_page_link_text">Iradokitako edizioen laguntza orria</string>
@@ -1043,7 +1043,7 @@
     <item quantity="other"> %d egun</item>
   </plurals>
   <string name="suggested_edits_what_is_title">Zer dira Iradokitako aldaketak?</string>
-  <string name="suggested_edits_what_is_text">Iradokitako edizioek Wikipediari ekarpen txiki baina funtsezkoak egiteko aukerak eskaintzen dituzte.</string>
+  <string name="suggested_edits_what_is_text">Iradokitako edizioek Infopediari ekarpen txiki baina funtsezkoak egiteko aukerak eskaintzen dituzte.</string>
   <string name="suggested_edits_learn_more">Informazio gehiago</string>
   <string name="suggested_edits_paused_title">Pausatua</string>
   <string name="suggested_edits_disabled_title">Desgaitua</string>
@@ -1053,8 +1053,8 @@
   <string name="suggested_edits_task_new">Berria</string>
   <string name="suggested_edits_cc0_notice">Argitaratzen baduzu, &lt;a href=%1$s \"&gt;erabilera baldintzak&lt;/a&gt; onartzen dituzu eta ekarpen hau &lt;a href=%2$s \"&gt;CC0 lizentzia&lt;/a&gt;pean atzeraezinki argitaratzen duzula adierazten duzu.</string>
   <string name="suggested_edits_reactivation_notification_title">Iradokitako aldaketak</string>
-  <string name="suggested_edits_reactivation_notification_stage_one">Eskerrik asko Wikipedia editatzeagatik! Zergatik ez duzu utzi zenuen tokitik jarraitzen?</string>
-  <string name="suggested_edits_reactivation_notification_stage_two">Baduzu minutu bat Wikipedia hobetzen jarraitzeko? Begiratu iradokitako edizio hauei.</string>
+  <string name="suggested_edits_reactivation_notification_stage_one">Eskerrik asko Infopedia editatzeagatik! Zergatik ez duzu utzi zenuen tokitik jarraitzen?</string>
+  <string name="suggested_edits_reactivation_notification_stage_two">Baduzu minutu bat Infopedia hobetzen jarraitzeko? Begiratu iradokitako edizio hauei.</string>
   <string name="suggested_edits_contributions_screen_title">%s -ren ekarpenak</string>
   <string name="suggested_edits_contribution_language_label">Hizkuntza</string>
   <string name="suggested_edits_contribution_date_time_label">Data eta ordua</string>
@@ -1072,11 +1072,11 @@
     <item quantity="other"> %d etiketa gehitu dituzu</item>
   </plurals>
   <string name="suggested_edits_contribution_date_yesterday_text">Atzo</string>
-  <string name="suggested_edits_encourage_account_creation_title">Ba al zenekien edonork edita dezakeela Wikipedia?</string>
-  <string name="suggested_edits_encourage_account_creation_message">Iradokitako edizioak Wikipedia editatzeko modu berri bat da Android-en. Wikipediari ekarpen txiki baina garrantzitsuak egiten laguntzen dizu.\nGure helburua edizioa errazagoa eta eskuragarriagoa egitea da guztiontzat! Hasi saioa edo batu zaitez Wikipediara hasteko.</string>
-  <string name="suggested_edits_encourage_account_creation_login_button">Hasi saioa / batu Wikipediara</string>
+  <string name="suggested_edits_encourage_account_creation_title">Ba al zenekien edonork edita dezakeela Infopedia?</string>
+  <string name="suggested_edits_encourage_account_creation_message">Iradokitako edizioak Infopedia editatzeko modu berri bat da Android-en. Infopediari ekarpen txiki baina garrantzitsuak egiten laguntzen dizu.\nGure helburua edizioa errazagoa eta eskuragarriagoa egitea da guztiontzat! Hasi saioa edo batu zaitez Infopediara hasteko.</string>
+  <string name="suggested_edits_encourage_account_creation_login_button">Hasi saioa / batu Infopediara</string>
   <string name="suggested_edits_contribution_type_image_tag">Irudi etiketa</string>
-  <string name="suggested_edits_contribution_current_revision_text">Zure edizioa Wikipedian argitaratuta dago une honetan</string>
+  <string name="suggested_edits_contribution_current_revision_text">Zure edizioa Infopedian argitaratuta dago une honetan</string>
   <string name="suggested_card_more_edits">Iradokitako edizio gehiago</string>
   <string name="suggested_edits_article_descriptions_dialog_title">Iradokitako deskribapenak</string>
   <string name="suggested_edits_descriptions_report_dialog_title">Zer salatu nahi duzu?</string>
@@ -1103,7 +1103,7 @@
     <item quantity="other">%d karaktere gehitu dituzu</item>
   </plurals>
   <string name="suggested_edits_image_recommendations_task_title">Artikuluaren irudiak</string>
-  <string name="suggested_edits_image_recommendations_task_detail">Gehitu irudi iradokizunak Wikipedia artikuluetan ulermena hobetzeko.</string>
+  <string name="suggested_edits_image_recommendations_task_detail">Gehitu irudi iradokizunak Infopedia artikuluetan ulermena hobetzeko.</string>
   <string name="image_recommendation_task_instruction">Nahi duzu irudi hau gehitu artikuluari?</string>
   <string name="image_recommendation_tutorial">Tutoriala</string>
   <string name="image_recommendation_accept">Bai</string>
@@ -1120,9 +1120,9 @@
   <string name="image_recommendation_reject_submit">Bidali</string>
   <string name="image_recommendation_tooltip_main">Gehitu falta diren irudiak artikuluetan Iradokitako Aldaketetan</string>
   <string name="image_recommendation_onboarding_1">Irudiek jendeari ulertzen laguntzen diote, baina artikulu askok ez dituzte horrelakorik.</string>
-  <string name="image_recommendation_onboarding_2">Zuk erabakiko duzu proposatutako irudi bat Wikipedia artikulu batean jarri behar den ala ez.</string>
+  <string name="image_recommendation_onboarding_2">Zuk erabakiko duzu proposatutako irudi bat Infopedia artikulu batean jarri behar den ala ez.</string>
   <string name="image_recommendation_onboarding_3">Iradokizunak makinaz sortzen dira eta zure irizpidea erabiliko duzu onartu edo baztertu erabakitzeko.</string>
-  <string name="image_recommendation_onboarding_4">Irudiak Wikimedia Commons-etik datoz, Wikipediak erabiltzen dituen lizentzia libreko irudien bilduma batetik.</string>
+  <string name="image_recommendation_onboarding_4">Irudiak Wikimedia Commons-etik datoz, Infopediak erabiltzen dituen lizentzia libreko irudien bilduma batetik.</string>
   <string name="image_recommendation_tooltip_1">Berrikusi artikulu hau bere gaia ulertzeko</string>
   <string name="image_recommendation_tooltip_2">Aztertu irudia eta hari lotutako informazioa</string>
   <string name="image_recommendation_tooltip_3">Erabaki irudiak irakurleei gai hau hobeto ulertzen laguntzen dien ala ez</string>
@@ -1135,15 +1135,15 @@
   <string name="edit_summary_added_caption">Gehitutako irudi oineko testua</string>
   <string name="edit_summary_added_image_and_caption">Irudia eta oineko testua gehitu dira</string>
   <string name="edit_published_view">Ikusi</string>
-  <string name="activity_tab_logged_out_title">Hasi saioa edo sortu kontu bat Wikipedia aplikazioan zure jarduera ikusteko</string>
+  <string name="activity_tab_logged_out_title">Hasi saioa edo sortu kontu bat Infopedia aplikazioan zure jarduera ikusteko</string>
   <string name="activity_tab_user_reading">%s irakurtzen ari da</string>
-  <string name="activity_tab_on_wikipedia_android">Android Wikipedian</string>
+  <string name="activity_tab_on_wikipedia_android">Android Infopedian</string>
   <string name="activity_tab_weekly_time_spent_hm">%1$dh %2$dm</string>
   <string name="activity_tab_weekly_time_spent">Aste honetan irakurtzen emandako denbora</string>
   <string name="activity_tab_monthly_articles_read">Hilabete honetan irakurritako artikuluak</string>
   <string name="activity_tab_monthly_articles_saved">Hilabete honetan gordetako artikuluak</string>
   <string name="activity_tab_monthly_top_categories">Hilabete honetan irakurritako kategoria nagusiak</string>
-  <string name="activity_tab_explore_wikipedia">Ezagutu Wikipediaren bidez</string>
+  <string name="activity_tab_explore_wikipedia">Ezagutu Infopediaren bidez</string>
   <string name="activity_tab_discover_encourage">Zerbait berria irakurtzeko?</string>
   <string name="activity_tab_donation_unknown">Ezezaguna</string>
   <string name="activity_tab_donation_last_donation">&lt;b&gt;Azken dohaintza&lt;/b&gt; aplikazioan</string>
@@ -1208,17 +1208,17 @@
   <string name="activity_tab_onboarding_impact_title">Eragin aipagarrienak</string>
   <string name="activity_tab_onboarding_impact_message">Ezagutu zure ekarpenei eta partekatu duzun ezagutzaren irismenari buruzko informazioa.</string>
   <string name="activity_tab_onboarding_engage_title">Parte hartzeko modu gehiago</string>
-  <string name="activity_tab_onboarding_engage_message">Arakatu jokoen, gordetako artikuluen eta Wikipediarekin sakonago konektatzen zaituzten beste jarduera batzuen estatistikak.</string>
+  <string name="activity_tab_onboarding_engage_message">Arakatu jokoen, gordetako artikuluen eta Infopediarekin sakonago konektatzen zaituzten beste jarduera batzuen estatistikak.</string>
   <string name="activity_tab_onboarding_stay_in_control_title">Egon kontrolpean</string>
   <string name="activity_tab_onboarding_stay_in_control_message">Aukeratu zein modulu bistaratu. Datu pertsonal guztiak pribatuak izaten jarraituko dute zure gailuan eta nabigazio-historia edozein unetan garbitu daiteke.</string>
-  <string name="edits_screen_what_is_title">Wikipedia aplikazioan editatzea</string>
-  <string name="edits_screen_what_is_body">Ez dakizu nondik hasi editatzen? Probatu Edizio Iradokizunak, Wikipedian ekarpen txiki baina garrantzitsuak egiteko aukerak sortzen dituen funtzio bat. Bestela, joan zuzenean intereseko artikulu batera eta egin aldaketa bat wikitestua erabiliz.</string>
+  <string name="edits_screen_what_is_title">Infopedia aplikazioan editatzea</string>
+  <string name="edits_screen_what_is_body">Ez dakizu nondik hasi editatzen? Probatu Edizio Iradokizunak, Infopedian ekarpen txiki baina garrantzitsuak egiteko aukerak sortzen dituen funtzio bat. Bestela, joan zuzenean intereseko artikulu batera eta egin aldaketa bat wikitestua erabiliz.</string>
   <string name="activity_tab_snackbar_label">Jokoaren estatistikak zure hizkuntza nagusirako erakusten dira.</string>
   <string name="file_page_activity_title">Fitxategi orria</string>
   <string name="file_page_add_image_caption_button">Editatu irudiaren oineko testua</string>
   <string name="file_page_add_image_tags_button">Gehitu irudi-etiketak</string>
   <string name="file_page_edit_button_content_description">Editatu %s</string>
-  <string name="description_edit_revert_subtitle">Eskerrik asko Wikipedia aldatzeagatik!</string>
+  <string name="description_edit_revert_subtitle">Eskerrik asko Infopedia aldatzeagatik!</string>
   <string name="description_edit_revert_intro">Badakigu hoberen egiten saiatu zarela, baina gure berrikuskarietako batek arazo bat ikusi du. Zure aldaketa lehengoratzeko arrazoi posibleen artean hurrengoak daude:</string>
   <string name="description_edit_revert_reason1">zure ekarpenak ez du &lt;a href=\"%1$s\"&gt;guidelines&lt;/a&gt;(e)tatik bat jarraitu.</string>
   <string name="description_edit_revert_reason2">Zure ekarpenak esperimentua edo hantura ematen zuen.</string>
@@ -1233,9 +1233,9 @@
   <string name="onboarding_get_started">Has zaitez!</string>
   <string name="onboarding_maybe_later">Agian geroago</string>
   <string name="onboarding_explore_title">Exploratzeko era berriak</string>
-  <string name="onboarding_explore_text" fuzzy="true">Murgildu zaitez Wikipedian etengabe Arakatzaile ezarpena eguneratuz.&lt;br/&gt; &lt;b&gt;Pertsonalizatu&lt;/b&gt; zure interesetako jarioa – bai gertakari historikoen inguruan ikasteko &lt;b&gt;Egun honetan&lt;/b&gt;, zein dadoa botaz &lt;b&gt;Ausazkoa&lt;/b&gt;.</string>
+  <string name="onboarding_explore_text" fuzzy="true">Murgildu zaitez Infopedian etengabe Arakatzaile ezarpena eguneratuz.&lt;br/&gt; &lt;b&gt;Pertsonalizatu&lt;/b&gt; zure interesetako jarioa – bai gertakari historikoen inguruan ikasteko &lt;b&gt;Egun honetan&lt;/b&gt;, zein dadoa botaz &lt;b&gt;Ausazkoa&lt;/b&gt;.</string>
   <string name="onboarding_reading_list_sync_title">Sinkronizatutako irakurketa zerrendak</string>
-  <string name="onboarding_reading_list_sync_text_v2">Gero irakurri nahi dituzun artikuluen irakurketa-zerrendak egin ditzakezu, nahiz eta offline egon. &lt;br/&gt;Hasi saioa zure Wikipedian kontuan zure irakurketa-zerrendak sinkronizatzeko. &lt;a href=\"#login\"&gt;Wikipediara batu&lt;/a&gt;</string>
+  <string name="onboarding_reading_list_sync_text_v2">Gero irakurri nahi dituzun artikuluen irakurketa-zerrendak egin ditzakezu, nahiz eta offline egon. &lt;br/&gt;Hasi saioa zure Infopedian kontuan zure irakurketa-zerrendak sinkronizatzeko. &lt;a href=\"#login\"&gt;Infopediara batu&lt;/a&gt;</string>
   <string name="onboarding_data_privacy_title">Datuak eta pribatutasuna</string>
   <string name="onboarding_data_privacy_text" fuzzy="true">Uste dugu ez duzula informazio pertsonalik eman behar ezagutza librearen mugimenduan parte hartzeko. Aplikazio honetarako bildutako erabilera-datuak anonimoak dira. Lortu informazio gehiago gure &lt;a href=\"#privacy\"&gt;pribatutasun-politikari&lt;/a&gt; eta &lt;a href=\"#termsOfUse\"&gt;erabilera-baldintzei&lt;/a&gt; buruz.</string>
   <string name="onboarding_analytics_switch_title">Erabilitako data bidali</string>
@@ -1245,8 +1245,8 @@
   <string name="onboarding_welcome_title_v2">Entziklopedia Askea\n...300 hizkuntza baino gehiagotan</string>
   <string name="onboarding_next">Hurrengoa</string>
   <string name="onboarding_fresh_install_knowledge_title">Munduko ezagutza guztia.</string>
-  <string name="onboarding_fresh_install_knowledge_text">Wikipedia entziklopedia librea da, 65 milioi artikulu dituena, boluntarioen komunitate batek idatzi eta mantentzen duena, 300 hizkuntza baino gehiagotan.</string>
-  <string name="onboarding_fresh_install_knowledge_learn_more">Wikipediari buruz gehiago ikasi</string>
+  <string name="onboarding_fresh_install_knowledge_text">Infopedia entziklopedia librea da, 65 milioi artikulu dituena, boluntarioen komunitate batek idatzi eta mantentzen duena, 300 hizkuntza baino gehiagotan.</string>
+  <string name="onboarding_fresh_install_knowledge_learn_more">Infopediari buruz gehiago ikasi</string>
   <string name="onboarding_app_languages_title">Irakurri 300 hizkuntza baino gehiagotan</string>
   <string name="onboarding_app_languages_text">Hurrengo hizkuntzak aurkitu ditugu zure gailuan:</string>
   <string name="onboarding_app_languages_primary">Lehen mailakoa</string>
@@ -1271,7 +1271,7 @@
   <string name="languages_list_activity_title">Gehitu hizkuntza</string>
   <string name="languages_list_suggested_text">Iradokia</string>
   <string name="languages_list_all_text">Hizkuntza guztiak</string>
-  <string name="wikipedia_languages_title">Wikipedia hizkuntzak</string>
+  <string name="wikipedia_languages_title">Infopedia hizkuntzak</string>
   <string name="wikipedia_languages_your_languages_text">Zure hizkuntzak</string>
   <string name="wikipedia_languages_add_language_text">Gehitu hizkuntza</string>
   <string name="wikipedia_languages_remove_text">Hizkuntza kendu</string>
@@ -1280,11 +1280,11 @@
     <item quantity="one">Aukeratutako hizkuntza kendu?</item>
     <item quantity="other">Aukeratutako hizkuntzak kendu?</item>
   </plurals>
-  <string name="wikipedia_languages_remove_dialog_content" fuzzy="true">Arakatze horniduratik eta bilaketa azkarreko iragazkitik baino ez duzu edukia ikusiko, gainontzeko Wikipedia hizkuntzetan.</string>
+  <string name="wikipedia_languages_remove_dialog_content" fuzzy="true">Arakatze horniduratik eta bilaketa azkarreko iragazkitik baino ez duzu edukia ikusiko, gainontzeko Infopedia hizkuntzetan.</string>
   <string name="wikipedia_languages_remove_warning_dialog_title">Ezin dira hizkuntza guztiak ezabatu</string>
-  <string name="wikipedia_languages_remove_warning_dialog_content">Gorde ezazu behintzat Wikipedia hizkuntza bat zeinetatik edukia bilatu eta irakurri ahalko duzun.</string>
+  <string name="wikipedia_languages_remove_warning_dialog_content">Gorde ezazu behintzat Infopedia hizkuntza bat zeinetatik edukia bilatu eta irakurri ahalko duzun.</string>
   <string name="more_language_options">gehiago</string>
-  <string name="add_wikipedia_languages_text">Wikipedia hizkuntzak gehitu</string>
+  <string name="add_wikipedia_languages_text">Infopedia hizkuntzak gehitu</string>
   <string name="remove_language_dialog_cancel_button_text">Utzi</string>
   <string name="remove_language_dialog_ok_button_text">Ados</string>
   <string name="remove_all_language_warning_dialog_ok_button_text">Ados</string>
@@ -1350,7 +1350,7 @@
   <string name="templates_description_incomplete">Txantiloiak erabiltzaileek sortzen dituzte eta baliteke deskribapen osoak ez izatea.</string>
   <string name="templates_description_empty">\"%s\" txantiloiak ez du oraindik deskribapenik.</string>
   <string name="main_drawer_help">Laguntza</string>
-  <string name="main_drawer_login">Hasi saioa / batu Wikipediara</string>
+  <string name="main_drawer_login">Hasi saioa / batu Infopediara</string>
   <string name="main_tooltip_action_button">Hasi</string>
   <string name="main_tooltip_watchlist_title">Jarraipen zerrenda</string>
   <string name="main_tooltip_watchlist_text">Bilatu zure jarraipen-zerrendan aurretik gehitu dituzun artikuluak eta orrialdeak &lt;b&gt;Jarraipen-zerrenda&lt;/b&gt; ataleko Gehiago menuan.</string>
@@ -1376,7 +1376,7 @@
   <string name="talk_warn_saved_messages">Gordetako mezuak</string>
   <string name="talk_page_empty">Eztabaida orrialde hau hutsik dago.</string>
   <string name="talk_page_empty_title">Elkarrizketa hemen hasten da</string>
-  <string name="talk_page_empty_content">Eztabaida orrialdeetan Wikipediako edukia ahalik eta onena nola egin eztabaidatzen da. Hasi eztabaida gai berri bat gehituz Wikipediako komunitate batekin konektatu eta lankidetzan aritzeko.</string>
+  <string name="talk_page_empty_content">Eztabaida orrialdeetan Infopediako edukia ahalik eta onena nola egin eztabaidatzen da. Hasi eztabaida gai berri bat gehituz Infopediako komunitate batekin konektatu eta lankidetzan aritzeko.</string>
   <string name="talk_add_reply">Erantzun</string>
   <string name="talk_no_subject">(Gairik gabe)</string>
   <string name="talk_reply_subject">Gaia</string>
@@ -1390,6 +1390,6 @@
   <string name="talk_last_modified">&lt;b&gt;Azken edizioa %1$s&lt;/b&gt; egilea: %2$s</string>
   <string name="talk_snackbar_survey_text">Eskerrik asko eztabaida orrialdeak erabiltzeagatik. Lagundu nahi al duzu aplikazioa hobetzen inkesta batean parte hartuz?</string>
   <string name="talk_snackbar_survey_action_text">Hasi</string>
-  <string name="talk_share_discussion_subject">Wikipedia - \"%s\" gaiaren eztabaida-orrialdeko  inguruko eztabaida</string>
+  <string name="talk_share_discussion_subject">Infopedia - \"%s\" gaiaren eztabaida-orrialdeko  inguruko eztabaida</string>
   <string name="places_title">Lekuak</string>
 </resources>

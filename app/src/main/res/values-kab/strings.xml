@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Belkacem77
 * Bilalbill
@@ -11,14 +11,14 @@
 * ZiriSut
 -->
 <resources>
-  <string name="app_name_prod">Wikipedia</string>
-  <string name="app_name_beta">Wikipedia Bêta</string>
-  <string name="app_name_alpha">Wikipedia Alpha</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Wikimedia</string>
   <string name="nav_item_back">Uɣal</string>
   <string name="page_tabs_back">Uɣal</string>
   <string name="nav_item_forward">Welleh</string>
-  <string name="search_hint">Nadi di Wikipedia</string>
+  <string name="search_hint">Nadi di Infopedia</string>
   <string name="search_hint_voice_search">Anadi n yinekcam s taɣect</string>
   <string name="search_hint_search_languages">Nadi ɣef tutlayt</string>
   <string name="search_back_button_content_description">Uɣal ar deffir</string>
@@ -105,12 +105,12 @@
   <string name="language_count_link_text">Yella di %d n tutlayin nniḍen</string>
   <string name="edit_save_action_license_logged_in">S usuffeɣ, ad tqebleḍ &lt;a href=\"%1$s\"&gt;Tiwtilin n useqdec&lt;/a&gt;, udiɣ ad tserseḍ i lebda ittekkiyen-ik ddaw n turagt &lt;a href=\"%2$s\"&gt;CC BY-SA 4.0&lt;/a&gt;.</string>
   <string name="edit_save_action_license_anon">S usuffeɣ, ad tqebleḍ &lt;a href=\"%1$s\"&gt;tiwtilin n useqdec&lt;/a&gt;, udiɣ ad tserseḍ i lebda ittekkiyen-ik ddaw n turagt &lt;a href=\"%2$s/\"&gt;CC BY-SA 4.0&lt;/a&gt;. Akk ayen tbeddleḍ ad ittunefk i tensa IP n yibenk-ik. Ma yella &lt;a href=\"https://#login\"&gt;teqqneḍ&lt;/a&gt;, ad yili ɣur-k ugar n tbaḍnit.</string>
-  <string name="preference_title_language">Tutlayt n wikipedia</string>
+  <string name="preference_title_language">Tutlayt n Infopedia</string>
   <string name="langlinks_filter_hint">Nadi</string>
   <string name="langlinks_empty">Asebter-agi ulac-it di tutlayin-nniḍen.</string>
   <string name="langlinks_no_match">Ulac tutlayin yettwafen</string>
   <string name="langlinks_activity_title">Tutlayin-nniḍen</string>
-  <string name="langlinks_your_wikipedia_languages">Tutlayt-ik n Wikipedia</string>
+  <string name="langlinks_your_wikipedia_languages">Tutlayt-ik n Infopedia</string>
   <string name="menu_save_changes">Suffeɣ-d asnifel</string>
   <string name="edit_saved_successfully">Taẓrigt teffeɣ-d!</string>
   <string name="dialog_message_edit_failed">Taẓrigt tecceḍ!</string>
@@ -128,11 +128,11 @@
   <string name="search_reading_lists_no_results">Ulac igmaḍ di tebdarin n tɣuri</string>
   <string name="search_history_no_results">Ulac igmaḍ deg umazray</string>
   <string name="edit_section_captcha_message">Akken ad tmuddeḍ afus n ummestane mgal ispamen, sekcem awalen ara d-ibanen daw-a</string>
-  <string name="edit_section_captcha_request_an_account_message">D awezɣi uwali n tugna ? &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;Suter amiḍan&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">D awezɣi uwali n tugna ? &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;Suter amiḍan&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">Ales awalen n daw-a</string>
   <string name="title_captcha">Sekcem CAPTCHA</string>
   <string name="edit_section_captcha_reload">Sekcem CAPTCHA ad talseḍ asali</string>
-  <string name="nav_item_login">Kcem ar Wikipedia</string>
+  <string name="nav_item_login">Kcem ar Infopedia</string>
   <string name="login_username_hint">Isem n useqdac</string>
   <string name="login_password_hint">Awal uffir</string>
   <string name="account_creation_password_hint">Awal uffir</string>
@@ -156,19 +156,19 @@
   <string name="logout_prompt">Aya ad k-yessufeɣ seg akk yibenkan iɣer teqqneḍ tura. Tebɣiḍ ad tkemmleḍ?</string>
   <string name="logout_dialog_cancel_button_text">Sefsex</string>
   <string name="logged_out_in_background_title">Yeffeɣ</string>
-  <string name="logged_out_in_background_dialog">Aql-ak teffɣeḍ seg Wikipedia. Tebɣiḍ ad teqqneḍ tikkelt-nniḍen?</string>
+  <string name="logged_out_in_background_dialog">Aql-ak teffɣeḍ seg Infopedia. Tebɣiḍ ad teqqneḍ tikkelt-nniḍen?</string>
   <string name="logged_out_in_background_login">Qqen</string>
   <string name="logged_out_in_background_cancel">Sefsex</string>
   <string name="history_empty_title">Ula d yiwen n umagrad ur twalan ussan-a ineggura</string>
   <string name="history_empty_message">Ḍfeṛ ayen tɣareḍ dagi.</string>
   <string name="history_offline_articles_toast">Kra n yimagraden n umazray izmer ur tent-tettwaliḍ ara ma ur tessineḍ ara.</string>
   <string name="search_empty_message">Nadi sakin ɣeṛ tasanayt tilellit s tutlayt-ik</string>
-  <string name="search_empty_message_multilingual_upgrade">Nadi Wikipedia deg wugar n tutlayin.</string>
+  <string name="search_empty_message_multilingual_upgrade">Nadi Infopedia deg wugar n tutlayin.</string>
   <string name="delete_selected_items">Kkes iferdisen yettwafernen</string>
   <string name="wp_stylized">&lt;big&gt;W&lt;/big&gt;IKIPEDI&lt;big&gt;A&lt;/big&gt;</string>
   <string name="create_account_username_hint">Isem n useqdac</string>
   <string name="login_dont_have_account">Ur tesɛiḍ ara amiḍan ?</string>
-  <string name="login_join_wikipedia">Ddu ar Wikipedia</string>
+  <string name="login_join_wikipedia">Ddu ar Infopedia</string>
   <string name="login_forgot_password">Tettuḍ awal uffir?</string>
   <string name="create_account_already_have">Ɣur-k yakan amiḍan?</string>
   <string name="create_account_activity_title">Rnu amiḍan</string>
@@ -189,11 +189,11 @@
   <string name="create_account_button">Rnu amiḍan</string>
   <string name="create_account_name_unavailable">Isem n useqdac \"%s\" ur yelli ara. Ttxil fren wayeḍ.</string>
   <string name="create_account_ip_block_message">Suref-aɣ, tansa-k(m) IP ha-tt-an tewḥel i usnulfu n yimiḍanen imaynuten.</string>
-  <string name="create_account_ip_block_help_url">https://en.wikipedia.org/wiki/Help:I_have_been_blocked</string>
+  <string name="create_account_ip_block_help_url">https://en.Infopedia.org/wiki/Help:I_have_been_blocked</string>
   <string name="create_account_ip_block_details">Ttfaṣil</string>
   <string name="preferences_general_heading">Amatu</string>
   <string name="preferences_account_heading">Amiḍan</string>
-  <string name="wikipedia_app_faq">Isteqsiyen FAQ n isnasen Wikipedia</string>
+  <string name="wikipedia_app_faq">Isteqsiyen FAQ n isnasen Infopedia</string>
   <string name="send_feedback">Azen-d tikti ɣef usnas</string>
   <string name="create_account_account_created_toast">Amiḍan yettwarna!</string>
   <string name="preferences_heading_syncing">Amtawi</string>
@@ -201,8 +201,8 @@
   <string name="preferences_heading_experimental">Anermay</string>
   <string name="preference_title_sync_reading_lists_from_account">Amtawi n tebdart n tɣuri</string>
   <string name="preference_title_download_reading_list_articles">Ssader-d umuɣ n yimagraden n tɣuri.</string>
-  <string name="preference_summary_sync_reading_lists">Mtawi tibdarin n tɣuri gar yibenkan yemgaraden s usekles-nsen n umḍan-ik(im) n Wikipedia</string>
-  <string name="preference_summary_sync_reading_lists_from_account">Mtawi tibdarin n tɣuri gar yibenkan yemgaraden s usekles-nsen n umḍan-ik(im) \"%s\" n Wikipedia</string>
+  <string name="preference_summary_sync_reading_lists">Mtawi tibdarin n tɣuri gar yibenkan yemgaraden s usekles-nsen n umḍan-ik(im) n Infopedia</string>
+  <string name="preference_summary_sync_reading_lists_from_account">Mtawi tibdarin n tɣuri gar yibenkan yemgaraden s usekles-nsen n umḍan-ik(im) \"%s\" n Infopedia</string>
   <string name="preference_dialog_of_turning_off_reading_list_sync_title">Tukksa n umtawi n tebdarin n tɣuri seg \"%s\"?</string>
   <string name="preference_dialog_of_turning_off_reading_list_sync_text">Aya ad yekkes akk tibdarin n tɣuri yemtawin seg tazwara seg uklas anmeggag. Tukksa n tebdarin yemtawin akk seg umiḍan-ik(im) \"%s\"?</string>
   <string name="preference_title_auto_upload_crash_reports">Azen ineqqisen n uɣelluy</string>
@@ -219,16 +219,16 @@
   <string name="page_watchlist_overflow_menu_onboarding_tooltip_title">Rnu ɣer umuɣ n uḍfar</string>
   <string name="settings_item_preferences">Iɣewwaṛen</string>
   <string name="settings_activity_title">Iɣewwaṛen</string>
-  <string name="about_description">Ɣef usnas Wikipedia</string>
+  <string name="about_description">Ɣef usnas Infopedia</string>
   <string name="privacy_policy_description">Tasertit n tbaḍnit</string>
   <string name="terms_of_use_description">Tiwtilin n useqdec</string>
-  <string name="about_wikipedia_url">https://kab.wikipedia.org/wiki/Wikipedia:About</string>
+  <string name="about_wikipedia_url">https://kab.Infopedia.org/wiki/Infopedia:About</string>
   <string name="about_libraries_heading">Timkaṛḍiyin yettwasqedcen</string>
   <string name="about_contributors_heading">Imttekkiyen</string>
   <string name="about_translators_heading">Imsuqal</string>
   <string name="about_translators_translatewiki">Asnas-agi suqlen-t imsuqal iwiziwen n &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt;.</string>
   <string name="about_app_license_heading">Turagt</string>
-  <string name="about_app_license" fuzzy="true">Tangalt aɣbalu yella di &lt;a href=\"https://gerrit.wikimedia.org/r/#/admin/projects/apps/android/wikipedia\"&gt;Gerrit&lt;/a&gt; akked &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;GitHub&lt;/a&gt; daw n  &lt;a href=\"https://phabricator.wikimedia.org/diffusion/APAW/browse/master/COPYING?view=raw\"&gt;turagt Apache 2.0&lt;/a&gt;. Ala ma yettwammel akken-nniḍen, agbur yella daw n &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License\"&gt;turagt Creative Commons Attribution-ShareAlike&lt;/a&gt;.</string>
+  <string name="about_app_license" fuzzy="true">Tangalt aɣbalu yella di &lt;a href=\"https://gerrit.infopedia.org/r/#/admin/projects/apps/android/Infopedia\"&gt;Gerrit&lt;/a&gt; akked &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;GitHub&lt;/a&gt; daw n  &lt;a href=\"https://phabricator.infopedia.org/diffusion/APAW/browse/master/COPYING?view=raw\"&gt;turagt Apache 2.0&lt;/a&gt;. Ala ma yettwammel akken-nniḍen, agbur yella daw n &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License\"&gt;turagt Creative Commons Attribution-ShareAlike&lt;/a&gt;.</string>
   <string name="about_wmf">Afaris n &lt;a href=\"https://wikimediafoundation.org/\"&gt;tesbeddit Wikimedia&lt;/a&gt;</string>
   <string name="about_activity_title">Ɣef</string>
   <string name="edit_abandon_confirm">Asebter-agi yettusnifel. Tebɣid ad teffɣeḍ war ma teskelseḍ asnifel-ik?</string>
@@ -258,7 +258,7 @@
   <string name="abusefilter_title_warn">Ahat yezmer ad yili d asnifel ur nemɛin ara. Tebɣiḍ ad tessuffɣeḍ?</string>
   <string name="abusefilter_title_disallow">Ur tezmireḍ ara ad tessuffɣeḍ taẓrigt-agi. Ma ulac aɣilif, uɣal ar deffir sakin beddel-it.</string>
   <string name="abusefilter_text_warn">Imzizdig awurman yufa-d asnifel-agi d ayen ur yelhin ara. Yezmer d akken yegber kra  n iferdisen-agi::&lt;br /&gt;&lt;br /&gt;. Tira s usekkil ameqqran &lt;br /&gt;. Beṭṭu n imagraden neɣ n ispamen &lt;br /&gt;. Iseɣwan neɣ tugniwin tizɣarayin ur ilaqen ara&lt;br /&gt;.  Tulsa n uisekkilen</string>
-  <string name="abusefilter_text_disallow">Imzizdig awurman yufa-d tazrigt-agi d akken diri-tt, neɣ ahat d asexseṛ.&lt;br /&gt;&lt;br /&gt;Wikipedia d tasanayt tarawsant, s ugbur yelhan.</string>
+  <string name="abusefilter_text_disallow">Imzizdig awurman yufa-d tazrigt-agi d akken diri-tt, neɣ ahat d asexseṛ.&lt;br /&gt;&lt;br /&gt;Infopedia d tasanayt tarawsant, s ugbur yelhan.</string>
   <string name="page_similar_titles">Isebtar icuban</string>
   <string name="search_did_you_mean">Tebɣiḍ ad tiniḍ \"%s\"?</string>
   <string name="search_recent_header">Inadiyen n melmi kan:</string>
@@ -275,9 +275,9 @@
   <string name="table_infobox">Axeddim s tewzel</string>
   <string name="table_other">Ugar n telɣut</string>
   <string name="table_close">Mdel</string>
-  <string name="widget_name_featured_page">Asebter amedya n Wikipedia</string>
+  <string name="widget_name_featured_page">Asebter amedya n Infopedia</string>
   <string name="widget_title_featured_page">Asebter amedya n wass-a:</string>
-  <string name="widget_name_search">Anadi Wikipedia</string>
+  <string name="widget_name_search">Anadi Infopedia</string>
   <string name="wiktionary_no_definitions_found">Ulac tabadut.</string>
   <string name="alpha_update_notification_title">Lqem amaynut alpha yella</string>
   <string name="alpha_update_notification_text">Kenned akken ad tessidreḍ</string>
@@ -353,7 +353,7 @@
   <string name="link_preview_dialog_share_button">Bḍu</string>
   <string name="error_page_does_not_exist">Asebter-agi ulac-it</string>
   <string name="view_wiki_error_message_offline">Ur izmir ara ad yeqqen ar Internet.</string>
-  <string name="view_wiki_error_message_timeout">D awezɣi ad yeqqen ɣer Wikipedia. Senqed tuqqna-k ɣer uẓeṭṭa, neɣ ɛreḍ tikkelt-nniḍen umebɛed</string>
+  <string name="view_wiki_error_message_timeout">D awezɣi ad yeqqen ɣer Infopedia. Senqed tuqqna-k ɣer uẓeṭṭa, neɣ ɛreḍ tikkelt-nniḍen umebɛed</string>
   <string name="reference_title">Tamsisɣelt %s</string>
   <string name="reference_list_title">Timsisɣal</string>
   <string name="theme_chooser_dialog_image_dimming_switch_label">Asibrek n tugna (deg usentel ubrik)</string>
@@ -508,7 +508,7 @@
     <item quantity="one">Azdam n umagrad</item>
     <item quantity="other">Azdam n imagraden</item>
   </plurals>
-  <string name="notification_echo_channel_description">Ilɣa n Wikipedia</string>
+  <string name="notification_echo_channel_description">Ilɣa n Infopedia</string>
   <string name="notifications_activity_title">Ilɣa</string>
   <string name="notifications_activity_title_archived">Ilɣa (taṛcivt)</string>
   <string name="notifications_search">Nadi ilɣa</string>
@@ -548,7 +548,7 @@
   <string name="view_top_read_card_pageviews_k_suffix">%d k</string>
   <string name="view_top_read_card_pageviews_m_suffix">%d M</string>
   <string name="view_next_random_article">Sali-d amagrad nniden agacuran</string>
-  <string name="view_main_page_card_title">Ass-a di Wikipedia</string>
+  <string name="view_main_page_card_title">Ass-a di Infopedia</string>
   <string name="view_main_page_card_action">Sken asebter agejdan</string>
   <string name="view_featured_image_card_title">Tugna n wass</string>
   <string name="view_featured_image_card_download">Sider-d</string>
@@ -576,7 +576,7 @@
   <string name="feed_configure_menu_reset">Ales awennez ar umezwer</string>
   <string name="feed_configure_menu_select_all">Sken-d akk</string>
   <string name="feed_configure_menu_deselect_all">Ffer akk</string>
-  <string name="feed_configure_language_warning">Ẓeṛ dakken mačči akk anawen n tkerḍiwin llan deg meṛṛa tutlayin n Wikipedia. Ẓreg tutlayin-ik(im) i yettwafernen deg yiɣewwaṛen.</string>
+  <string name="feed_configure_language_warning">Ẓeṛ dakken mačči akk anawen n tkerḍiwin llan deg meṛṛa tutlayin n Infopedia. Ẓreg tutlayin-ik(im) i yettwafernen deg yiɣewwaṛen.</string>
   <string name="feed_item_type_news">Imagraden ɣef tedyanin timiranin</string>
   <string name="feed_item_type_on_this_day">Tidyanin deg umazray n wass-a</string>
   <string name="feed_item_type_because_you_read">Isumar bnan ɣef yimagraden yettwaɣran melmi kan deg umazray-ik</string>
@@ -606,14 +606,14 @@
   <string name="description_edit_translate_image_caption">Suqqel taneffust n tugna</string>
   <string name="description_edit_cancel_hint">Sefsex</string>
   <string name="description_edit_help_title">Talɣut: iglamen n yimagraden</string>
-  <string name="description_edit_help_about_wikidata">Ɣef Wikipedia</string>
+  <string name="description_edit_help_about_wikidata">Ɣef Infopedia</string>
   <string name="description_edit_help_wikidata_guide">Amnir n Wikidata  n tira n yeglamen</string>
-  <string name="description_edit_anon_limit">Tanemmirt imi turiḍ aglam amaynut ! Akken ad tesnifleḍ ugar, qqen ɣer umiḍan-ik Wikipedia.</string>
+  <string name="description_edit_anon_limit">Tanemmirt imi turiḍ aglam amaynut ! Akken ad tesnifleḍ ugar, qqen ɣer umiḍan-ik Infopedia.</string>
   <string name="description_edit_license_notice">Ma beddleɣ aglam n uzwel, ad qebleɣ &lt;a href=\"%1$s\"&gt;Tiwtilin n useqdec&lt;/a&gt; udiɣ ad rreɣ i lebda attekki-iw ddaw turagt &lt;a href=\"%2$s\"&gt;Creative Commons CC0&lt;/a&gt;.</string>
   <string name="description_edit_success_saved">Aglam n umagrad yeffeɣ-d!</string>
   <string name="description_edit_success_saved_snackbar">Aglam n umagrad yeffeɣ-d!</string>
   <string name="description_edit_success_saved_in_lang_snackbar">Aglam n umagrad yeffeɣ-d! (%s)</string>
-  <string name="description_edit_success_encouragement">Hatan akken kan i terriḍ Wikipedia yelha i yal yiwen</string>
+  <string name="description_edit_success_encouragement">Hatan akken kan i terriḍ Infopedia yelha i yal yiwen</string>
   <string name="description_edit_success_done">Immed</string>
   <string name="description_edit_success_did_you_know">Tezriḍ?</string>
   <string name="description_edit_success_article_edit_hint">Tzemreḍ daɣen ad tesnifleḍ imagraden deg usnas. Ɛreḍ aseɣti n tuccḍiwin akked tifyar meẓẓiyen s usiti ɣeftignit ^1 tikelt-nniḍen.</string>
@@ -665,7 +665,7 @@
   <string name="activity_tab_timeline_today">Ass-a</string>
   <string name="activity_tab_timeline_yesterday">Iḍelli</string>
   <string name="file_page_edit_button_content_description">Ẓreg %s</string>
-  <string name="description_edit_revert_subtitle">Tanemmirt ɣef teẓrigt Wikipedia!</string>
+  <string name="description_edit_revert_subtitle">Tanemmirt ɣef teẓrigt Infopedia!</string>
   <string name="description_edit_revert_intro">Neẓra d akken txeddmeḍ ayen tzemreḍ, acu kan yiwen seg imeɣriyen-nneɣ yufa-d ugur. D ayen i d-yewwin asefsex n usnifel-ik. Hatan wacuɣeṛ:</string>
   <string name="description_edit_revert_reason1">attekki-ik ur yedfiṛ ara yiwen seg &lt;a href=\"%1$s\"&gt;imniren&lt;/a&gt;.</string>
   <string name="description_edit_revert_reason2">attekki-ik yettban am termit neɣ ahuddu.</string>

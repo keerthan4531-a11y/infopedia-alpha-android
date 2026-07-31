@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * 1917 Ekim Devrimi
 * Dbrant
@@ -13,14 +13,14 @@
 * SHaran (WMF)
 -->
 <resources>
-  <string name="app_name_prod">Wikipediya</string>
-  <string name="app_name_beta">Wikipedia Beta</string>
-  <string name="app_name_alpha">Wikipedia Alpha</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Wikimedia</string>
   <string name="nav_item_back">Peyser</string>
   <string name="page_tabs_back">Peyser</string>
   <string name="nav_item_forward">Raveri</string>
-  <string name="search_hint">Wikipedia de bıvinê</string>
+  <string name="search_hint">Infopedia de bıvinê</string>
   <string name="search_hint_voice_search">Dekewtışê vengi cıgeyrayış</string>
   <string name="search_hint_search_languages">Nê zıwani de cı geyre</string>
   <string name="search_icon_content_description">Cı geyre</string>
@@ -81,12 +81,12 @@
   <string name="language_count_link_text">%d zıwanê bini de esto</string>
   <string name="edit_save_action_license_logged_in" fuzzy="true">Ney çapnayışa &lt;a href=\"%1$s\"&gt;Şertanê karkerdışi &lt;/a&gt; u iştırakanê peyser nêgeriyaya be lisansê &lt;a href=\"%2$s\"&gt;CC BY-SA 3.0&lt;/a&gt; çapnayışi şıma qebul kenê .</string>
   <string name="edit_save_action_license_anon" fuzzy="true">Çapnayışiya &lt;a href=\"%1$s\"&gt;Şertanê karkerdışi &lt;/a&gt;\'u vurnayışa peyser megêriya weziyet de lisansê &lt;a href=\"%2$s\"&gt;CC BY-SA 3.0&lt;/a&gt; çapnayışi qebul kenê. Vurnayışê şıma adresê IP\'a cihaziya  do qeyd bıbo. Ek &lt;a href=\"https://#login\"&gt;ronıştış akerê &lt;/a&gt; se dehana zeydê wahêrê dızdeyi benê .</string>
-  <string name="preference_title_language">Zıwanê Wikipedia</string>
+  <string name="preference_title_language">Zıwanê Infopedia</string>
   <string name="langlinks_filter_hint">Cı geyre</string>
   <string name="langlinks_empty">Na wesiqa zıwanan de binan de çıniya</string>
   <string name="langlinks_no_match">Zıwan nêvineya</string>
   <string name="langlinks_activity_title">Zıwani</string>
-  <string name="langlinks_your_wikipedia_languages">Zıwanê Wikipedia ya şıma</string>
+  <string name="langlinks_your_wikipedia_languages">Zıwanê Infopedia ya şıma</string>
   <string name="menu_save_changes">Vurnayışan qeyd ke</string>
   <string name="edit_saved_successfully">Vurnayış weşaniya!</string>
   <string name="dialog_message_edit_failed">Vırnayış xırabiya!</string>
@@ -103,7 +103,7 @@
   <string name="search_reading_list_no_results">\"%s\" tede de theba nêvineya</string>
   <string name="search_reading_lists_no_results">Lista wanayışan de netice nêvineya</string>
   <string name="search_history_no_results">Verori de theba nêvineya</string>
-  <string name="edit_section_captcha_request_an_account_message">Resımi şımayê nêvinenê ? &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;Hesab bıwaze&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">Resımi şımayê nêvinenê ? &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;Hesab bıwaze&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">Çekuyanê cori tekrar kerê</string>
   <string name="title_captcha">captcha de fide</string>
   <string name="edit_section_captcha_reload">CAPTCHA\'y anewe kerê</string>
@@ -153,10 +153,10 @@
   <string name="email_recommendation_dialog_create_without_email_action">Bêeposta dewam kerê</string>
   <string name="email_recommendation_dialog_create_with_email_action">Yew eposta cı kerê</string>
   <string name="create_account_button">Hesab vıraze</string>
-  <string name="create_account_ip_block_help_url">https://diq.wikipedia.org/wiki/Help:Ez_bloqe_biya</string>
+  <string name="create_account_ip_block_help_url">https://diq.Infopedia.org/wiki/Help:Ez_bloqe_biya</string>
   <string name="create_account_ip_block_details">Detayi</string>
   <string name="preferences_general_heading">Bıngeh</string>
-  <string name="wikipedia_app_faq">Wikipedia App PZP</string>
+  <string name="wikipedia_app_faq">Infopedia App PZP</string>
   <string name="send_feedback">Verpersê tetbiqi bırışe</string>
   <string name="create_account_account_created_toast">Hesab vıraziya!</string>
   <string name="preferences_heading_syncing">Senkronize beno</string>
@@ -174,13 +174,13 @@
   <string name="page_watchlist_overflow_menu_onboarding_tooltip_title">Listey seyri kerê</string>
   <string name="settings_item_preferences">Eyari</string>
   <string name="settings_activity_title">Eyari</string>
-  <string name="about_description">Heqdê dezgehda Wikipedia</string>
+  <string name="about_description">Heqdê dezgehda Infopedia</string>
   <string name="privacy_policy_description">Politikaya nımıteyiye</string>
   <string name="terms_of_use_description">Şertê gurenayışi</string>
-  <string name="about_wikipedia_url">https://diq.wikipedia.org/wiki/Wikipedia:Heqa_cı_de</string>
+  <string name="about_wikipedia_url">https://diq.Infopedia.org/wiki/Infopedia:Heqa_cı_de</string>
   <string name="about_libraries_heading">Karkerdena kıtıbxani</string>
   <string name="about_contributors_heading">İştırakkerdoği</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Pela taxıme&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Pela taxıme&lt;/a&gt;</string>
   <string name="about_translators_heading">Çarnayoği</string>
   <string name="about_app_license_heading">Lisans</string>
   <string name="about_activity_title">Heqa</string>
@@ -219,9 +219,9 @@
   <string name="table_infobox">Zanayışê pratiki</string>
   <string name="table_other">Tayêna melumat</string>
   <string name="table_close">Kip ke</string>
-  <string name="widget_name_featured_page">Perê bestıyayeyê Wikipedia</string>
+  <string name="widget_name_featured_page">Perê bestıyayeyê Infopedia</string>
   <string name="widget_title_featured_page">Ewro ra zerreko weçiniyaye</string>
-  <string name="widget_name_search">Wikipedia Cıgeyrış</string>
+  <string name="widget_name_search">Infopedia Cıgeyrış</string>
   <string name="wiktionary_no_definitions_found">Herhangi yew zanayış nêvineya</string>
   <string name="alpha_update_notification_title">Alfa rovane kerdışa newi est a</string>
   <string name="alpha_update_notification_text">Qandé ronayışi dest pan</string>
@@ -360,7 +360,7 @@
   <string name="reading_list_article_offline">Resayışê offline</string>
   <string name="reading_list_remove_from_list">%s ra wedarne</string>
   <string name="reading_list_select_item">Weçine</string>
-  <string name="reading_lists_login_button">Cıkewe /tewrê Wikipedia be</string>
+  <string name="reading_lists_login_button">Cıkewe /tewrê Infopedia be</string>
   <string name="reading_lists_ignore_button">Enewke nê</string>
   <string name="reading_lists_confirm_remote_delete_yes">Eya</string>
   <string name="reading_lists_confirm_remote_delete_no">Nê</string>
@@ -403,7 +403,7 @@
     <item quantity="one">%1$d lista dariyê</item>
     <item quantity="other">%1$d listey dariyay</item>
   </plurals>
-  <string name="notification_echo_channel_description">Pêhesnayışê Wikipedia</string>
+  <string name="notification_echo_channel_description">Pêhesnayışê Infopedia</string>
   <string name="notifications_activity_title">Pêhesnayış</string>
   <string name="notifications_activity_title_archived">Pêhesnayışi (arşivyaye)</string>
   <string name="notifications_search">Pêhesnayışa cıgeyrayış</string>
@@ -536,7 +536,7 @@
   <string name="suggested_edits_image_preview_dialog_licensing">Lisansdayış</string>
   <string name="suggested_edits_image_preview_dialog_more_info">Tayêna melumat</string>
   <string name="suggested_edits_image_preview_dialog_file_page_link_text">Wikimedia Commons de pela dosyeyan</string>
-  <string name="suggested_edits_image_preview_dialog_file_page_wikipedia_link_text">Pela dosyay Wikipedia</string>
+  <string name="suggested_edits_image_preview_dialog_file_page_wikipedia_link_text">Pela dosyay Infopedia</string>
   <string name="suggested_edits_article_cta_image_tags">Etiketê resımi cı ke</string>
   <string name="suggested_edits_article_cta_image_caption">Bınnuştey resimi cı kerê</string>
   <string name="suggested_edits_article_cta_image_caption_in_language">Bınnuştey resimi cı kerê (%s)</string>
@@ -571,7 +571,7 @@
   <string name="suggested_edits_last_edited">Vurnayışo peyên</string>
   <string name="suggested_edits_last_edited_never">Qet</string>
   <string name="suggested_edits_task_new" fuzzy="true">newe</string>
-  <string name="description_edit_revert_subtitle">Seba vurnayışê Wikipedia teşekur keme!</string>
+  <string name="description_edit_revert_subtitle">Seba vurnayışê Infopedia teşekur keme!</string>
   <string name="description_edit_login_cancel_button_text">Bıtexelne</string>
   <string name="size_gb">%.2f GB</string>
   <string name="size_mb">%.2f MB</string>
@@ -603,7 +603,7 @@
   <string name="languages_list_activity_title">Yew zıwan cı kerê</string>
   <string name="languages_list_suggested_text">Wesıbnaye</string>
   <string name="languages_list_all_text">Zıwani pêro</string>
-  <string name="wikipedia_languages_title">Zıwanê Wikipedia</string>
+  <string name="wikipedia_languages_title">Zıwanê Infopedia</string>
   <string name="wikipedia_languages_your_languages_text">Zıwanê şıma</string>
   <string name="wikipedia_languages_add_language_text">Zıwan cı kerê</string>
   <string name="wikipedia_languages_remove_text">Zıwani wedarne</string>
@@ -633,7 +633,7 @@
   <string name="wikitext_reference">Çıme</string>
   <string name="wikitext_preview_link">Gırey verqayti</string>
   <string name="main_drawer_help">Peşti</string>
-  <string name="main_drawer_login">Wikipedia rê qeyd bıbê / ronıştış akerê</string>
+  <string name="main_drawer_login">Infopedia rê qeyd bıbê / ronıştış akerê</string>
   <string name="main_tooltip_action_button">Ravêr serkewtış</string>
   <string name="custom_date_picker_dialog_ok_button_text">TEMAM</string>
   <string name="text_input_dialog_ok_button_text">TEMAM</string>

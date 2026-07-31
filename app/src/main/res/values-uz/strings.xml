@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Cooltey
 * Dbrant
@@ -12,9 +12,9 @@
 * Шоҳидахоним
 -->
 <resources>
-  <string name="app_name_prod">Vikipediya</string>
-  <string name="app_name_beta">Vikipediya Beta</string>
-  <string name="app_name_alpha">Vikipediya Alfa</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Vikimediya</string>
   <string name="nav_item_back">Orqaga</string>
   <string name="page_tabs_back">Ortga</string>
@@ -136,7 +136,7 @@
   <string name="search_reading_lists_no_results">O‘qish ro‘yxatida natija topilmadi</string>
   <string name="search_history_no_results">Tarixda hech qanday natija topilmadi</string>
   <string name="edit_section_captcha_message">Avtomatlashtirilgan spamdan himoyalanish uchun quyida keltirilgan so‘zlarni kiriting</string>
-  <string name="edit_section_captcha_request_an_account_message">Rasmni ko‘rmayapsizmi? &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;Akkauntni so‘ramoq&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">Rasmni ko‘rmayapsizmi? &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;Akkauntni so‘ramoq&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">Tepadagi so‘zlarni takrorlang</string>
   <string name="title_captcha">CAPTCHAni kiriting</string>
   <string name="edit_section_captcha_reload">CAPTCHAni qayta yuklash uchun bosing</string>
@@ -197,7 +197,7 @@
   <string name="create_account_button">Akkaunt tuzmoq</string>
   <string name="create_account_name_unavailable">\"%s\" foydalanuvchi nomi mavjud emas. Boshqa ismni tanlang.</string>
   <string name="create_account_ip_block_message">Kechirasiz, Sizning IP-manzilingizda hozirda akkaunt tuzib bo‘lmaydi.</string>
-  <string name="create_account_ip_block_help_url">https://en.wikipedia.org/wiki/Help:I_have_been_blocked</string>
+  <string name="create_account_ip_block_help_url">https://en.Infopedia.org/wiki/Help:I_have_been_blocked</string>
   <string name="create_account_ip_block_details">Tafsilotlar</string>
   <string name="preferences_general_heading">Umumiy</string>
   <string name="preferences_account_heading">Akkaunt</string>
@@ -231,18 +231,18 @@
   <string name="about_description">«Vikipediya» ilovasi haqida</string>
   <string name="privacy_policy_description">Maxfiylik siyosati</string>
   <string name="terms_of_use_description">Foydalanish shartlari</string>
-  <string name="about_wikipedia_url">https://uz.wikipedia.org/wiki/Vikipediya</string>
-  <string name="privacy_policy_url" fuzzy="true">https://foundation.wikimedia.org/wiki/Privacy_policy</string>
-  <string name="offline_reading_and_data_url" fuzzy="true">https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ#Offline_reading_and_data</string>
-  <string name="terms_of_use_url" fuzzy="true">https://foundation.wikimedia.org/wiki/Terms_of_Use</string>
+  <string name="about_wikipedia_url">https://uz.Infopedia.org/wiki/Vikipediya</string>
+  <string name="privacy_policy_url" fuzzy="true">https://foundation.infopedia.org/wiki/Privacy_policy</string>
+  <string name="offline_reading_and_data_url" fuzzy="true">https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ#Offline_reading_and_data</string>
+  <string name="terms_of_use_url" fuzzy="true">https://foundation.infopedia.org/wiki/Terms_of_Use</string>
   <string name="cc_by_sa_4_url">https://creativecommons.org/licenses/by-sa/4.0/deed.uz</string>
   <string name="about_libraries_heading">Ilovada foydalanilgan tashqi manbalar:</string>
   <string name="about_contributors_heading">Ilova mualliflari:</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Mualliflar haqida sahifa&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Mualliflar haqida sahifa&lt;/a&gt;</string>
   <string name="about_translators_heading">Tarjimonlar</string>
   <string name="about_translators_translatewiki">Ilovaning oʻzbekchasi &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt; saytida koʻngilli tarjimonlar tomonidan tarjima qilingan.</string>
   <string name="about_app_license_heading">Litsenziya</string>
-  <string name="about_app_license" fuzzy="true">Ilovaning ochiq manba kodi &lt;a href=\"https://gerrit.wikimedia.org/r/#/admin/projects/apps/android/wikipedia\"&gt;Gerrit&lt;/a&gt; va &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;GitHub&lt;/a&gt; saytlarida &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0 litsenziyasi&lt;/a&gt; asosida mavjud. Qolgan barcha zaruriy tarkiblar &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Creative Commons Attribution-ShareAlike License&lt;/a&gt; sahifasiga joylangan.</string>
+  <string name="about_app_license" fuzzy="true">Ilovaning ochiq manba kodi &lt;a href=\"https://gerrit.infopedia.org/r/#/admin/projects/apps/android/Infopedia\"&gt;Gerrit&lt;/a&gt; va &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;GitHub&lt;/a&gt; saytlarida &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0 litsenziyasi&lt;/a&gt; asosida mavjud. Qolgan barcha zaruriy tarkiblar &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Creative Commons Attribution-ShareAlike License&lt;/a&gt; sahifasiga joylangan.</string>
   <string name="about_wmf">&lt;a href=\"https://wikimediafoundation.org/\"&gt;Vikimediya Fondi&lt;/a&gt;  mahsuloti</string>
   <string name="about_activity_title">Ilova haqida</string>
   <string name="edit_abandon_confirm">Sahifa oʻzgartirildi. Oʻzgartirishlaringizni saqlamasdan chiqmoqchimisiz?</string>
@@ -413,9 +413,9 @@
   <string name="error_blocked_start">Bloklashni boshlash: %s</string>
   <string name="error_blocked_expiry">Bloklash muddati: %s</string>
   <string name="error_blocked_id">Bloklashning ID kodi: %s</string>
-  <string name="error_blocked_footer">Siz &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; bilan yoki &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Administrators\"&gt;administrator&lt;/a&gt; bilan bloklash masalasida murojaat qilishingiz mumkin.</string>
+  <string name="error_blocked_footer">Siz &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; bilan yoki &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Administrators\"&gt;administrator&lt;/a&gt; bilan bloklash masalasida murojaat qilishingiz mumkin.</string>
   <string name="theme_chooser_menu_item_short_tooltip">Panelni moslang</string>
-  <string name="error_blocked_footer_no_blocker">Siz &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Administrators\"&gt;administrator&lt;/a&gt; bilan bloklash boʻyicha bogʻlanishingiz mumkin.</string>
+  <string name="error_blocked_footer_no_blocker">Siz &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Administrators\"&gt;administrator&lt;/a&gt; bilan bloklash boʻyicha bogʻlanishingiz mumkin.</string>
   <string name="crash_report_activity_title">Ilova xatoligi</string>
   <string name="crash_report_relaunch_or_quit">Kechirasiz, Vikipediya ilovasida xatolik yuz berdi va u bekor qilindi.\n\nBoshlashni xohlaysizmi yoki ishdan chiqishni xohlaysizmi?</string>
   <string name="crash_report_relaunch">Boshlandi</string>
@@ -538,8 +538,8 @@
   <string name="reading_list_confirm_remove_article_from_offline_title">Maqola bir nechta roʻyxatdan iborat</string>
   <string name="reading_list_confirm_remove_article_from_offline_message">%s endi barcha roʻyxatlar uchun oflayn rejimda mavjud boʻlmaydi:</string>
   <string name="reading_lists_sync_reminder_title">Roʻyxatni sinxronlashtirasizmi?</string>
-  <string name="reading_lists_sync_reminder_text" fuzzy="true">Maqolalar sizning Vikipediya akkauntingiz bilan sinxronlashtirildi. &lt;a href=\"https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Batafsil maʼlumot&lt;/a&gt;</string>
-  <string name="reading_lists_login_reminder_text_with_link" fuzzy="true">Roʻyxatlardan endi barcha qurilmalaringizda sinxron tarzda foydalanishingiz mumkin. Vikipediya hisobingizga kiring va roʻyxatlaringizni saqlashga ruxsat bering.&lt;a href=\"https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Batafsil maʼlumot&lt;/a&gt;</string>
+  <string name="reading_lists_sync_reminder_text" fuzzy="true">Maqolalar sizning Vikipediya akkauntingiz bilan sinxronlashtirildi. &lt;a href=\"https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Batafsil maʼlumot&lt;/a&gt;</string>
+  <string name="reading_lists_login_reminder_text_with_link" fuzzy="true">Roʻyxatlardan endi barcha qurilmalaringizda sinxron tarzda foydalanishingiz mumkin. Vikipediya hisobingizga kiring va roʻyxatlaringizni saqlashga ruxsat bering.&lt;a href=\"https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Batafsil maʼlumot&lt;/a&gt;</string>
   <string name="reading_lists_sync_reminder_action">Sinxronlashtirmoq</string>
   <string name="reading_list_login_reminder_title">Sinxronlashgan roʻyxatlar</string>
   <string name="reading_lists_login_reminder_text">Roʻyxatlarini endi qurilmalararo sinxronlashtirish mumkin. Vikipediya hisobingizga kiring va roʻyxatlaringizni saqlashga ruxsat bering.</string>
@@ -1241,7 +1241,7 @@
   <string name="talk_snackbar_survey_action_text">Boshladik</string>
   <string name="talk_share_discussion_subject">Vikipediya - munozara sahifasidagi \"%s\" mavzusidagi muhokama</string>
   <string name="talk_share_talk_page">Vikipediya - munozaralar sahifasi</string>
-  <string name="talk_edit_disclaimer">Bu munozara sahifasi. Iltimos, munozara sahifasi yoʻriqnomalarini hurmat qiling va toʻrtta tilda belgisini terish orqali postlaringizga imzo qoʻyishni unutmang: vikimatn yordamida joylashda ~~~~.&lt;br&gt;&lt;br&gt;&lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Talk_page_guidelines\"&gt;Wikipedia:Talk page guidelines&lt;/a&gt;</string>
+  <string name="talk_edit_disclaimer">Bu munozara sahifasi. Iltimos, munozara sahifasi yoʻriqnomalarini hurmat qiling va toʻrtta tilda belgisini terish orqali postlaringizga imzo qoʻyishni unutmang: vikimatn yordamida joylashda ~~~~.&lt;br&gt;&lt;br&gt;&lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Talk_page_guidelines\"&gt;Infopedia:Talk page guidelines&lt;/a&gt;</string>
   <string name="talk_search_hint">Xabarni izlash</string>
   <string name="talk_search_topics_hint">Mavzularni qidirmoq</string>
   <string name="talk_search_find_in_talk_topics_hint">Muhokama sahifasida mavzuni izlamoq</string>

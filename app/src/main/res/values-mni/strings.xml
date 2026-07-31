@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Afingba Mangang
 * Awangba Mangang
@@ -6,9 +6,9 @@
 * ꯴꯰꯴
 -->
 <resources>
-  <string name="app_name_prod">ꯋꯤꯀꯤꯄꯦꯗꯤꯌꯥ</string>
-  <string name="app_name_beta">ꯋꯤꯀꯤꯄꯦꯗꯤꯌꯥ ꯕꯦꯇꯥ</string>
-  <string name="app_name_alpha">ꯋꯤꯀꯤꯄꯦꯗꯤꯌꯥ ꯑꯜꯐꯥ</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">ꯋꯤꯀꯤꯃꯦꯗꯤꯌꯥ</string>
   <string name="nav_item_back">ꯃꯅꯤꯡ</string>
   <string name="page_tabs_back">ꯃꯅꯤꯡ</string>
@@ -128,7 +128,7 @@
   <string name="email_recommendation_dialog_title">ꯏ-ꯃꯦꯜ ꯌꯥꯎꯗꯕꯤꯗ ꯑꯦꯀꯥꯎꯟ ꯁꯥꯔꯣ?</string>
   <string name="email_recommendation_dialog_create_with_email_action">ꯏꯃꯦꯜ ꯍꯥꯞꯆꯤꯟꯂꯨ</string>
   <string name="create_account_button">ꯑꯩꯒꯤ ꯑꯣꯏꯕꯥ ꯑꯃꯥ ꯁꯦꯝꯕꯥ</string>
-  <string name="create_account_ip_block_help_url">https://mni.wikipedia.org/wiki/ꯃꯇꯦꯡ:ꯑꯩꯒꯤꯗꯨ_ꯊꯤꯡꯖꯤꯟꯈꯔꯦ</string>
+  <string name="create_account_ip_block_help_url">https://mni.Infopedia.org/wiki/ꯃꯇꯦꯡ:ꯑꯩꯒꯤꯗꯨ_ꯊꯤꯡꯖꯤꯟꯈꯔꯦ</string>
   <string name="create_account_ip_block_details">ꯑꯀꯨꯞꯄ ꯋꯥꯔꯝ</string>
   <string name="preferences_account_heading">ꯑꯩꯒꯤ ꯑꯣꯏꯕ ꯱</string>
   <string name="wikipedia_app_faq">ꯋꯤꯀꯤꯄꯦꯗꯤꯌꯥ ꯑꯦꯞꯁꯇ ꯇ•ꯍ•ꯋ</string>
@@ -140,13 +140,13 @@
   <string name="about_description">ꯋꯤꯀꯤꯄꯦꯗꯤꯌꯥ ꯑꯦꯞꯁ ꯃꯔꯝꯗ</string>
   <string name="privacy_policy_description">ꯑꯔꯣꯟꯕ ꯊꯧꯔꯥꯡ</string>
   <string name="terms_of_use_description">ꯁꯤꯖꯤꯟꯅꯕꯒꯤ ꯃꯇꯝ ꯑꯃꯗꯤ ꯃꯑꯣꯡ</string>
-  <string name="about_wikipedia_url">https://mni.wikipedia.org/wiki/ꯋꯤꯀꯤꯄꯦꯗꯤꯌꯥ:ꯃꯔꯝꯗ</string>
-  <string name="android_app_request_an_account_url">https://en.wikipedia.org/wiki/Wikipedia:ꯑꯦꯀꯥꯎꯟ ꯑꯃꯥ ꯍꯥꯤꯖꯕ ꯄꯤꯕꯤꯅꯕ</string>
+  <string name="about_wikipedia_url">https://mni.Infopedia.org/wiki/ꯋꯤꯀꯤꯄꯦꯗꯤꯌꯥ:ꯃꯔꯝꯗ</string>
+  <string name="android_app_request_an_account_url">https://en.Infopedia.org/wiki/Infopedia:ꯑꯦꯀꯥꯎꯟ ꯑꯃꯥ ꯍꯥꯤꯖꯕ ꯄꯤꯕꯤꯅꯕ</string>
   <string name="about_contributors_heading">ꯁꯔꯨꯛꯌꯥꯔꯤꯕꯁꯤꯡ</string>
   <string name="about_translators_heading">ꯍꯟꯗꯣꯛꯂꯤꯕꯥꯁꯤꯡ</string>
   <string name="about_translators_translatewiki">ꯃꯁꯤꯒꯤ ꯑꯦꯞꯁ ꯁꯤ ꯅꯈꯣꯏꯒꯨꯝꯕ ꯃꯌꯥꯃꯅ ꯁꯔꯨꯛ ꯌꯥꯗꯎꯅ ꯍꯟꯗꯣꯛꯂꯒ ꯑꯣꯏꯈꯤꯕꯅꯤ &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt;.</string>
   <string name="about_app_license_heading">ꯑꯌꯥꯕꯥ</string>
-  <string name="about_app_license" fuzzy="true">Source code available on &lt;a href=\"https://gerrit.wikimedia.org/r/#/admin/projects/apps/android/wikipedia\"&gt;Gerrit&lt;/a&gt; and &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;GitHub&lt;/a&gt; under the &lt;a href=\"https://phabricator.wikimedia.org/diffusion/APAW/browse/master/COPYING?view=raw\"&gt;Apache 2.0 License&lt;/a&gt;. Unless otherwise specified, content is available under a &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License\"&gt;Creative Commons Attribution-ShareAlike License&lt;/a&gt;.</string>
+  <string name="about_app_license" fuzzy="true">Source code available on &lt;a href=\"https://gerrit.infopedia.org/r/#/admin/projects/apps/android/Infopedia\"&gt;Gerrit&lt;/a&gt; and &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;GitHub&lt;/a&gt; under the &lt;a href=\"https://phabricator.infopedia.org/diffusion/APAW/browse/master/COPYING?view=raw\"&gt;Apache 2.0 License&lt;/a&gt;. Unless otherwise specified, content is available under a &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License\"&gt;Creative Commons Attribution-ShareAlike License&lt;/a&gt;.</string>
   <string name="about_activity_title">ꯃꯔꯝꯗ</string>
   <string name="edit_abandon_confirm_yes">ꯍꯣꯏ</string>
   <string name="edit_abandon_confirm_no">ꯅꯠꯇꯦ</string>

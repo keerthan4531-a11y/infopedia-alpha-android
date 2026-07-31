@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * 1917 Ekim Devrimi
 * Agaafd
@@ -55,9 +55,9 @@
 * İmmortalance
 -->
 <resources>
-  <string name="app_name_prod">Vikipedi</string>
-  <string name="app_name_beta">Vikipedi Beta</string>
-  <string name="app_name_alpha">Vikipedi Alfa</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Wikimedia</string>
   <string name="nav_item_back">Geri</string>
   <string name="page_tabs_back">Geri</string>
@@ -191,7 +191,7 @@
   <string name="search_reading_lists_no_results">Okuma listelerinde sonuç bulunamadı</string>
   <string name="search_history_no_results">Geçmişte sonuç bulunamadı</string>
   <string name="edit_section_captcha_message">Otomatik spamlara karşı korunmaya yardımcı olmak için aşağıda görünen kelimeleri yazınız.</string>
-  <string name="edit_section_captcha_request_an_account_message">Resmi göremiyor musunuz? &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;Bir hesap talep edin&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">Resmi göremiyor musunuz? &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;Bir hesap talep edin&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">Yukarıdaki kelimeleri tekrarlayın</string>
   <string name="title_captcha">CAPTCHA\'yı girin</string>
   <string name="edit_section_captcha_reload">Yeniden yüklemek için CAPTCHA\'ya dokunun</string>
@@ -258,7 +258,7 @@
   <string name="create_account_button">Hesap oluştur</string>
   <string name="create_account_name_unavailable">\"%s\" kullanıcı adı mevcut değil. Lütfen, farklı bir kullanıcı adı seçin.</string>
   <string name="create_account_ip_block_message">Maalesef, IP adresinizin şu anda yeni hesap oluşturması engellendi.</string>
-  <string name="create_account_ip_block_help_url">https://en.wikipedia.org/wiki/Help:I_have_been_blocked</string>
+  <string name="create_account_ip_block_help_url">https://en.Infopedia.org/wiki/Help:I_have_been_blocked</string>
   <string name="create_account_ip_block_details">Ayrıntılar</string>
   <string name="preferences_general_heading">Genel</string>
   <string name="preferences_account_heading">Hesap</string>
@@ -293,24 +293,24 @@
   <string name="privacy_policy_description">Gizlilik politikası</string>
   <string name="terms_of_use_description">Kullanım şartları</string>
   <string name="legal_safety_contacts_description">Hukuki ve güvenlik iletişim</string>
-  <string name="about_wikipedia_url">https://tr.wikipedia.org/wiki/Vikipedi:Hakkında</string>
-  <string name="privacy_policy_url">https://foundation.wikimedia.org/wiki/Special:MyLanguage/Privacy_policy</string>
-  <string name="offline_reading_and_data_url">https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ/tr#Offline_reading_and_data</string>
-  <string name="android_app_faq_url">https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ</string>
-  <string name="terms_of_use_url">https://foundation.wikimedia.org/wiki/Special:MyLanguage/Terms_of_Use</string>
-  <string name="android_app_request_an_account_url">https://en.wikipedia.org/wiki/Wikipedia:Request_an_account</string>
+  <string name="about_wikipedia_url">https://tr.Infopedia.org/wiki/Vikipedi:Hakkında</string>
+  <string name="privacy_policy_url">https://foundation.infopedia.org/wiki/Special:MyLanguage/Privacy_policy</string>
+  <string name="offline_reading_and_data_url">https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ/tr#Offline_reading_and_data</string>
+  <string name="android_app_faq_url">https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ</string>
+  <string name="terms_of_use_url">https://foundation.infopedia.org/wiki/Special:MyLanguage/Terms_of_Use</string>
+  <string name="android_app_request_an_account_url">https://en.Infopedia.org/wiki/Infopedia:Request_an_account</string>
   <string name="cc_by_sa_4_url">https://creativecommons.org/licenses/by-sa/4.0/deed.tr</string>
   <string name="cc_0_url">https://creativecommons.org/publicdomain/zero/1.0/deed.tr</string>
   <string name="about_libraries_heading">Kullanılan kütüphaneler</string>
   <string name="about_contributors_heading">Katkıda bulunanlar</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Ekip sayfası&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Ekip sayfası&lt;/a&gt;</string>
   <string name="about_translators_heading">Çevirmenler</string>
   <string name="about_translators_translatewiki">Bu uygulama &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt;\'teki gönüllü çevirmenler tarafından tercüme edilmiştir.</string>
   <string name="about_app_license_heading">Lisans</string>
-  <string name="about_app_license">Kaynak koduna &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;GitHub&lt;/a&gt;\'da &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0 Lisansı&lt;/a&gt; ile ulaşılabilir. Aksi belirtilmediği sürece, içerikler &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Creative Commons Atıf-BenzerPaylaşım Lisansı&lt;/a&gt; ile sunulmaktadır.</string>
+  <string name="about_app_license">Kaynak koduna &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;GitHub&lt;/a&gt;\'da &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0 Lisansı&lt;/a&gt; ile ulaşılabilir. Aksi belirtilmediği sürece, içerikler &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Creative Commons Atıf-BenzerPaylaşım Lisansı&lt;/a&gt; ile sunulmaktadır.</string>
   <string name="about_wmf">&lt;a href=\"https://wikimediafoundation.org/\"&gt;Wikimedia Vakfı&lt;/a&gt; ürünüdür</string>
   <string name="about_activity_title">Hakkında</string>
-  <string name="about_logo_content_description">Wikipedia puzzle globe logosu</string>
+  <string name="about_logo_content_description">Infopedia puzzle globe logosu</string>
   <string name="edit_abandon_confirm">Sayfa değiştirildi. Değişikliklerinizi kaydetmeden çıkmak istediğinizden emin misiniz?</string>
   <string name="edit_abandon_confirm_yes">Evet</string>
   <string name="edit_abandon_confirm_no">Hayır</string>
@@ -486,9 +486,9 @@
   <string name="error_blocked_start">Engel başlangıcı: %s</string>
   <string name="error_blocked_expiry">Engel bitişi: %s</string>
   <string name="error_blocked_id">Engel kimliği: %s</string>
-  <string name="error_blocked_footer">Engellemeyi görüşmek için &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; ya da başka bir &lt;a href=\"https://tr.wikipedia.org/wiki/Vikipedi:Hizmetliler#Hizmetliler_listesi\"&gt;hizmetli&lt;/a&gt; ile iletişime geçebilirsiniz.</string>
+  <string name="error_blocked_footer">Engellemeyi görüşmek için &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; ya da başka bir &lt;a href=\"https://tr.Infopedia.org/wiki/Vikipedi:Hizmetliler#Hizmetliler_listesi\"&gt;hizmetli&lt;/a&gt; ile iletişime geçebilirsiniz.</string>
   <string name="theme_chooser_menu_item_short_tooltip">Araç çubuğunuzu özelleştirin</string>
-  <string name="error_blocked_footer_no_blocker">Engellemeyi görüşmek için bir &lt;a href=\"https://tr.wikipedia.org/wiki/Vikipedi:Hizmetliler#Hizmetliler_listesi\"&gt;hizmetli&lt;/a&gt; ile iletişime geçebilirsiniz.</string>
+  <string name="error_blocked_footer_no_blocker">Engellemeyi görüşmek için bir &lt;a href=\"https://tr.Infopedia.org/wiki/Vikipedi:Hizmetliler#Hizmetliler_listesi\"&gt;hizmetli&lt;/a&gt; ile iletişime geçebilirsiniz.</string>
   <string name="temp_account_not_logged_in">Oturum açmadınız</string>
   <string name="temp_account_anon_ip_dialog_body">Bir değişiklik yaptığınızda, IP adresiniz değişikliklerinizle ilişkilendirilecektir.\n&lt;br /&gt;&lt;br /&gt;Gelecekteki düzenlemelerinizi kaydetmek ve diğer özelliklere erişmek için &lt;a href=\"https://#login\"&gt;Giriş yapın&lt;/a&gt; veya &lt;a href=\"https://#createaccount\"&gt;hesap oluşturun&lt;/a&gt;.</string>
   <string name="temp_account_anon_dialog_body">Bir düzenleme yaptığınızda gizliliğinizi korumak için &lt;b&gt;geçici bir hesap&lt;/b&gt; oluşturulacaktır. &lt;a href=\"%1$s\"&gt;Daha fazla bilgi edinin&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;&lt;a href=\"https://#login\"&gt;Giriş yapın&lt;/a&gt; veya gelecekteki düzenlemelerinizin size atfedilmesi ve diğer özelliklere erişim için &lt;a href=\"https://#createaccount\"&gt;hesap oluşturun&lt;/a&gt;.</string>
@@ -632,8 +632,8 @@
   <string name="reading_list_confirm_remove_article_from_offline_title">Madde birden çok listede yer alıyor</string>
   <string name="reading_list_confirm_remove_article_from_offline_message">%s artık şu listelerde çevrimdışı erişilebilir olmayacak:</string>
   <string name="reading_lists_sync_reminder_title">Okuma listesi senkronizasyonunu etkinleştirilsin mi?</string>
-  <string name="reading_lists_sync_reminder_text">Okuma listelerine kaydedilen maddeler artık Vikipedi hesabınıza senkronize edilebilir. &lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Daha fazla bilgi&lt;/a&gt;</string>
-  <string name="reading_lists_login_reminder_text_with_link">Okuma listeleri artık cihazlar arasında senkronize edilebilir. Vikipedi hesabınıza oturum açın ve listelerinizin kaydedilmesine izin verin. &lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Daha fazla bilgi&lt;/a&gt;</string>
+  <string name="reading_lists_sync_reminder_text">Okuma listelerine kaydedilen maddeler artık Vikipedi hesabınıza senkronize edilebilir. &lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Daha fazla bilgi&lt;/a&gt;</string>
+  <string name="reading_lists_login_reminder_text_with_link">Okuma listeleri artık cihazlar arasında senkronize edilebilir. Vikipedi hesabınıza oturum açın ve listelerinizin kaydedilmesine izin verin. &lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Daha fazla bilgi&lt;/a&gt;</string>
   <string name="reading_lists_sync_reminder_action">Senkronizasyonu etkinleştir</string>
   <string name="reading_list_login_reminder_title">Okuma listelerini eşitle</string>
   <string name="reading_lists_login_reminder_text">Okuma listeleri artık cihazlar arasında senkronize edilebilir. Vikipedi hesabınıza giriş yapın ve listelerinizin kaydedilmesine izin verin.</string>
@@ -1458,7 +1458,7 @@
   <string name="talk_snackbar_survey_action_text">Başla</string>
   <string name="talk_share_discussion_subject">Vikipedi - tartışma sayfasındaki \"%s\" hakkındaki tartışma</string>
   <string name="talk_share_talk_page">Vikipedi - tartışma sayfasındaki tartışmalar</string>
-  <string name="talk_edit_disclaimer">Bu bir tartışma sayfasıdır. Lütfen, tartışma sayfası yönergelerine uyun ve gönderilerinizi dört tilde yazarak imzalamayı unutmayın: vikimetni kullanırken gönderinin sonuna ~~~~ ekleyin.&lt;br&gt;&lt;br&gt;&lt;a href=\"https://tr.wikipedia.org/wiki/Vikipedi:Tartışma_sayfası\"&gt;Vikipedi:Tartışma sayfası&lt;/a&gt;</string>
+  <string name="talk_edit_disclaimer">Bu bir tartışma sayfasıdır. Lütfen, tartışma sayfası yönergelerine uyun ve gönderilerinizi dört tilde yazarak imzalamayı unutmayın: vikimetni kullanırken gönderinin sonuna ~~~~ ekleyin.&lt;br&gt;&lt;br&gt;&lt;a href=\"https://tr.Infopedia.org/wiki/Vikipedi:Tartışma_sayfası\"&gt;Vikipedi:Tartışma sayfası&lt;/a&gt;</string>
   <string name="talk_search_hint">Mesajları ara</string>
   <string name="talk_search_topics_hint">Konu ara</string>
   <string name="talk_search_find_in_talk_topics_hint">Tartışma sayfasında konu bul</string>
@@ -1764,18 +1764,18 @@
   <string name="patroller_saved_message_title_do_not_censor">Sansürlemeyin</string>
   <string name="patroller_saved_message_title_art_imp">Madde iyileştirme önerisi</string>
   <string name="patroller_saved_message_body_vandalism">Merhaba {{{username}}}, [{{{diffLink}}}|son katkılarınızdan] bir veya daha fazlasını geri aldığımı bildirmek isterim çünkü yapıcı görünmemektedirler. Hata yaptığımı düşünüyorsanız veya sorularınız varsa [[User talk:{{{senderUserName}}}|tartışma sayfamda]] mesaj bırakabilirsiniz. Lütfen devam eden vandalizmin kısıtlamalara yol açabileceğini unutmayın.</string>
-  <string name="patroller_saved_message_body_editing_tests">Merhaba {{{username}}}, Vikipedi\'nin dikkatinizi çektiğine ve düzenlemeyi öğrenmek istediğinize memnunum. Yaptığınız düzenleme denemesi işe yaradı; ancak bu projenin amacının herkesin başvurabileceği güvenilir ve eksiksiz bir ansiklopedi geliştirmek olduğunu unutmamalısınız. Düzenlemeniz içeriği etkilediği için kaldırılmıştır.\nVikipedi\'de nasıl düzenleme yapacağınızı öğrenmek istiyorsanız [[Wikipedia:Sandbox|deneme tahtası]] hizmetinizdedir. Yorumlarınız bir maddeye özgüyse doğru yer o maddenin tartışma sayfasıdır.</string>
-  <string name="patroller_saved_message_body_npov">Merhaba {{{username}}}, yaptığınız bazı katkılar bu Vikipedi\'nin [[Wikipedia:NPOV|tarafsız bakış açısı]] politikasına uyum için gereken tarafsızlığı karşılamamaktadır. Bu nedenle bazı içerikler değiştirilmiş veya kaldırılmıştır. Lütfen kısmi bir bakış açısı gösteren paragrafları veya bölümleri, bir ansiklopedide beklenen daha tarafsız ve nesnel bir metinle değiştirin.</string>
+  <string name="patroller_saved_message_body_editing_tests">Merhaba {{{username}}}, Vikipedi\'nin dikkatinizi çektiğine ve düzenlemeyi öğrenmek istediğinize memnunum. Yaptığınız düzenleme denemesi işe yaradı; ancak bu projenin amacının herkesin başvurabileceği güvenilir ve eksiksiz bir ansiklopedi geliştirmek olduğunu unutmamalısınız. Düzenlemeniz içeriği etkilediği için kaldırılmıştır.\nVikipedi\'de nasıl düzenleme yapacağınızı öğrenmek istiyorsanız [[Infopedia:Sandbox|deneme tahtası]] hizmetinizdedir. Yorumlarınız bir maddeye özgüyse doğru yer o maddenin tartışma sayfasıdır.</string>
+  <string name="patroller_saved_message_body_npov">Merhaba {{{username}}}, yaptığınız bazı katkılar bu Vikipedi\'nin [[Infopedia:NPOV|tarafsız bakış açısı]] politikasına uyum için gereken tarafsızlığı karşılamamaktadır. Bu nedenle bazı içerikler değiştirilmiş veya kaldırılmıştır. Lütfen kısmi bir bakış açısı gösteren paragrafları veya bölümleri, bir ansiklopedide beklenen daha tarafsız ve nesnel bir metinle değiştirin.</string>
   <string name="patroller_saved_message_body_auto_trans">Merhaba {{{username}}}, yaptığınız bazı katkılar muhtemelen makine çevirileridir, bu nedenle şablonla değiştirilmiş veya işaretlenmiştir. Maddede iyileştirme yapılmazsa silinebilir.\n\nTüm bu bilgilere rağmen hâlâ sorularınız varsa [[User talk:{{{senderUserName}}}|tartışma sayfamda]] mesaj bırakmaktan çekinmeyin. Bu küçük olay nedeniyle cesaretinizi kaybetmeyin. Katkılarınız Vikipedi için çok önemlidir.</string>
-  <string name="patroller_saved_message_body_coi_rem">Merhaba {{{username}}}, Vikipedi\'ye katkılarınızı takdir ediyorum; ancak [[Wikipedia:Conflict_of_interest|çıkar çatışması]] durumunda olduğunuzu fark ettim. Çıkar çatışması, Vikipedi\'nin tarafsızlık ve güvenilirlik hedefleri ile belirli editörlerin, kişilerin, kuruluşların veya her türden şirketlerin özel hedefleri arasındaki uyumsuzluktur.\n\nAna alandaki tüm katkılar, bu Vikipedi\'nin içerik kriterleri ([[Wikipedia:What_Wikipedia_is_not|Vikipedi ne değildir]]), ansiklopedik kalite ([[Wikipedia:Verifiability|doğrulanabilirlik]] ve [[Wikipedia:No_original_research|özgün araştırma yasağı]]), editöryel yöntem ([[Wikipedia:Neutral_point_of_view|tarafsız bakış açısı]]) ve içerik meşruiyeti ([[Wikipedia:Copyrights|telif hakları]]) politikalarına tabidir.\n\nÇıkar çatışması altında düzenleme yapıyorsanız ilgili politikayı özel bir dikkatle uygulamalısınız; aksi hâlde kullanıcı hesabınız özel amaçlı olarak değerlendirilebilir ve engellenebilir. Sorularınız varsa tartışma sayfamda bana ulaşmaktan çekinmeyin.</string>
+  <string name="patroller_saved_message_body_coi_rem">Merhaba {{{username}}}, Vikipedi\'ye katkılarınızı takdir ediyorum; ancak [[Infopedia:Conflict_of_interest|çıkar çatışması]] durumunda olduğunuzu fark ettim. Çıkar çatışması, Vikipedi\'nin tarafsızlık ve güvenilirlik hedefleri ile belirli editörlerin, kişilerin, kuruluşların veya her türden şirketlerin özel hedefleri arasındaki uyumsuzluktur.\n\nAna alandaki tüm katkılar, bu Vikipedi\'nin içerik kriterleri ([[Infopedia:What_Infopedia_is_not|Vikipedi ne değildir]]), ansiklopedik kalite ([[Infopedia:Verifiability|doğrulanabilirlik]] ve [[Infopedia:No_original_research|özgün araştırma yasağı]]), editöryel yöntem ([[Infopedia:Neutral_point_of_view|tarafsız bakış açısı]]) ve içerik meşruiyeti ([[Infopedia:Copyrights|telif hakları]]) politikalarına tabidir.\n\nÇıkar çatışması altında düzenleme yapıyorsanız ilgili politikayı özel bir dikkatle uygulamalısınız; aksi hâlde kullanıcı hesabınız özel amaçlı olarak değerlendirilebilir ve engellenebilir. Sorularınız varsa tartışma sayfamda bana ulaşmaktan çekinmeyin.</string>
   <string name="patroller_saved_message_body_final_warning">Birden fazla yıkıcı düzenleme yaptığınız için bu son uyarınız olacaktır. Vikipedi\'yi tekrar vandalizmle tahrip ederseniz düzenlemeniz engellenebilir.</string>
   <string name="patroller_saved_message_body_copy_vio">Son düzenlemeniz izinsiz telif hakkıyla korunan materyal içeriyor gibi görünmektedir. Lütfen tüm içeriğin bu Vikipedi\'nin telif hakkı politikalarına uygun olduğundan emin olun.</string>
   <string name="patroller_saved_message_body_edit_summary">Merhaba {{{username}}}, düzenleme özeti bırakmadan Vikipedi\'den içerik kaldırdığınız görülmektedir. Lütfen diğer editörlerin katkılarınızı anlamasına yardımcı olması için bir düzenleme özeti bırakın.</string>
   <string name="patroller_saved_message_body_do_not_censor">Merhaba {{{username}}}, madde tartışma sayfasında tartışmadan içerik kaldırdığınız görülmektedir. Lütfen Vikipedi\'nin sansürlenmediğini ve içeriğin tartışmalı olduğu için kaldırılmaması gerektiğini unutmayın. Bilginin yanlış olduğunu düşünüyorsanız lütfen madde tartışma sayfasında uzlaşmaya varın.</string>
   <string name="talk_warn_learn_more_label">Mesaj yer tutucuları hakkında bilgi edinin</string>
-  <string name="talk_warn_learn_more_url">https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_Suggested_edits#Message_placeholders</string>
+  <string name="talk_warn_learn_more_url">https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_Suggested_edits#Message_placeholders</string>
   <string name="talk_warn_saved_messages_usage_instruction">Özelleştirmek, göndermek ve mesajlarınıza kaydetmek için aşağıdaki örnek bir mesajı kullanın.</string>
-  <string name="patroller_saved_message_body_art_imp">Merhaba {{{username}}}. Maddeniz harika bir başlangıç! Daha da iyi hale getirmek için güvenilir kaynaklara daha fazla referans eklemeyi düşünün. Bu, bilgilerin doğrulanmasına yardımcı olur ve maddenin kalitesini artırır. Daha fazla ayrıntı için bu Vikipedi\'nin [[Wikipedia:Reliable_sources|güvenilir kaynaklar]] kurallarına göz atın.</string>
+  <string name="patroller_saved_message_body_art_imp">Merhaba {{{username}}}. Maddeniz harika bir başlangıç! Daha da iyi hale getirmek için güvenilir kaynaklara daha fazla referans eklemeyi düşünün. Bu, bilgilerin doğrulanmasına yardımcı olur ve maddenin kalitesini artırır. Daha fazla ayrıntı için bu Vikipedi\'nin [[Infopedia:Reliable_sources|güvenilir kaynaklar]] kurallarına göz atın.</string>
   <string name="talk_templates_menu_edit_title">Düzenle</string>
   <string name="data_opt_in_accept">Kabul et</string>
   <string name="data_opt_in_reject">Reddet</string>
@@ -1799,7 +1799,7 @@
   <string name="donate_gpay_check_recurring">Bunu aylık olarak yinelenen bir bağış yapın.</string>
   <string name="donate_gpay_check_send_email">Evet, Wikimedia Vakfı bana ara sıra e-posta gönderebilir.</string>
   <string name="donate_gpay_minimum_amount">Lütfen bir miktar seçin (en az %s)</string>
-  <string name="donate_gpay_maximum_amount">Uygulamamız aracılığıyla %s üzerindeki bağışları kabul edemiyoruz. Lütfen benefactors@wikimedia.org adresinde büyük bağışlar ekibimizle iletişime geçin.</string>
+  <string name="donate_gpay_maximum_amount">Uygulamamız aracılığıyla %s üzerindeki bağışları kabul edemiyoruz. Lütfen benefactors@infopedia.org adresinde büyük bağışlar ekibimizle iletişime geçin.</string>
   <string name="donate_gpay_success_message">&lt;b&gt;Teşekkürler!&lt;/b&gt; Vikipedi\'ye olan cömertliğiniz bizim için çok değerli.</string>
   <string name="donate_gpay_help_problems">Bağış sorunları mı yaşıyorsunuz?</string>
   <string name="donate_gpay_help_other_ways">Diğer bağış yolları</string>
@@ -2164,7 +2164,7 @@
     <item quantity="other">Makaleler düzenlendi</item>
   </plurals>
   <string name="year_in_review_highlights_share_button_title">Önemli noktaları paylaşın</string>
-  <string name="year_in_review_highlights_logo_description">Wikipedia logosu</string>
+  <string name="year_in_review_highlights_logo_description">Infopedia logosu</string>
   <string name="recommended_reading_list_title">Keşfet</string>
   <string name="recommended_reading_list_onboarding_card_title">Özellikle sizin için seçilmiş maddeleri keşfedin</string>
   <string name="recommended_reading_list_onboarding_card_message">Sizin için özel olarak derlenen haftalık Vikipedi makale okuma listeniz.</string>

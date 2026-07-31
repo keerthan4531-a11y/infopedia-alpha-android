@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Chinamoonroll
 * Joseagush
 -->
 <resources>
-  <string name="app_name_prod">Wikipédia</string>
-  <string name="app_name_beta">Wikipédia Béta</string>
-  <string name="app_name_alpha">Wikipédia Kapertama</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Wikimédia</string>
   <string name="nav_item_back">Walik</string>
   <string name="page_tabs_back">Walik</string>
@@ -138,7 +138,7 @@
   <string name="search_reading_lists_no_results">Nénten wenten asil katemu ring lis wacaan</string>
   <string name="search_history_no_results">Nenten wénten asil katemu ring lelintihan</string>
   <string name="edit_section_captcha_message">Antuk ngewantuk ngalindungin majeng spam otomatis, ketik kruna-kruna sané kacingak ring metén puniki</string>
-  <string name="edit_section_captcha_request_an_account_message">Nentén prasida nyingakin gambar?&lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Mapinunas_satunggal_akun\"&gt;&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">Nentén prasida nyingakin gambar?&lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Mapinunas_satunggal_akun\"&gt;&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">Ulangin kruna-kruna saking duur</string>
   <string name="title_captcha">Masukang CAPTCHA</string>
   <string name="edit_section_captcha_reload">Teken CAPTCHA antuk ngamuat malih</string>
@@ -205,7 +205,7 @@
   <string name="create_account_button">Kardi akun</string>
   <string name="create_account_name_unavailable">Wastan sang anganggé \"%s\" nénten kasedia. Durusang pilih wastan sané tiosan.</string>
   <string name="create_account_ip_block_message">Ampura, alamat IP Ida sané mangkin kablokir mangda nénten ngardi akun anyar.</string>
-  <string name="create_account_ip_block_help_url">https://en.wikipedia.org/wiki/Help:I_have_been_blocked</string>
+  <string name="create_account_ip_block_help_url">https://en.Infopedia.org/wiki/Help:I_have_been_blocked</string>
   <string name="create_account_ip_block_details">Rerincén</string>
   <string name="preferences_general_heading">Umum</string>
   <string name="preferences_account_heading">Akun</string>
@@ -239,17 +239,17 @@
   <string name="about_description">Indik aplikasi Wikipédia</string>
   <string name="privacy_policy_description">Awig-awig indik data praragan</string>
   <string name="terms_of_use_description">Katentuan pawigunaan</string>
-  <string name="about_wikipedia_url">https://ban.wikipedia.org/wiki/Wikipedia:Indik</string>
-  <string name="privacy_policy_url" fuzzy="true">https://foundation.wikimedia.org/wiki/Privacy_policy</string>
-  <string name="terms_of_use_url" fuzzy="true">https://foundation.wikimedia.org/wiki/Terms_of_Use</string>
-  <string name="android_app_request_an_account_url">https://ban.wikipedia.org/wiki/Wikipedia:Pinunas_satunggal_akun</string>
+  <string name="about_wikipedia_url">https://ban.Infopedia.org/wiki/Infopedia:Indik</string>
+  <string name="privacy_policy_url" fuzzy="true">https://foundation.infopedia.org/wiki/Privacy_policy</string>
+  <string name="terms_of_use_url" fuzzy="true">https://foundation.infopedia.org/wiki/Terms_of_Use</string>
+  <string name="android_app_request_an_account_url">https://ban.Infopedia.org/wiki/Infopedia:Pinunas_satunggal_akun</string>
   <string name="about_libraries_heading">Kapustakaan kaanggén</string>
   <string name="about_contributors_heading">Papituut</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special\n:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Kaca seka&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special\n:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Kaca seka&lt;/a&gt;</string>
   <string name="about_translators_heading">Pangalih basa</string>
   <string name="about_translators_translatewiki">Aplikasi puniki sampun kaalih basa olih rélawan pangalih basa ring &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt;.</string>
   <string name="about_app_license_heading">Lisénsi</string>
-  <string name="about_app_license">Kode wit kasedia ring &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;GitHub&lt;/a&gt; ring sor &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0 License\"&gt;Lisénsi Apache 2.0&lt;/a&gt;. Kontén kasedia ring sor &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Lisénsi Atribusi-MawagiSarupa Creative Commons&lt;/a&gt; tiosan kanikayang liyanan.</string>
+  <string name="about_app_license">Kode wit kasedia ring &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;GitHub&lt;/a&gt; ring sor &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0 License\"&gt;Lisénsi Apache 2.0&lt;/a&gt;. Kontén kasedia ring sor &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Lisénsi Atribusi-MawagiSarupa Creative Commons&lt;/a&gt; tiosan kanikayang liyanan.</string>
   <string name="about_wmf">Satunggil produk saking &lt;a href=\"https://wikimediafoundation.org/\"&gt;Yayasan Wikimédia&lt;/a&gt;</string>
   <string name="about_activity_title">Indik</string>
   <string name="about_logo_content_description">Logo puzzle globe Wikipédia</string>
@@ -384,7 +384,7 @@
   <string name="link_preview_dialog_share_button">Sobyahang</string>
   <string name="error_page_does_not_exist">Kaca puniki nénten wénten.</string>
   <string name="view_wiki_error_message_offline">Nénten prasida kahubung nuju Internét</string>
-  <string name="view_wiki_error_message_timeout">Ten prasida ngubungin Wikipedia. Turéksa sambungan jaringan Ragané, utawi indayang malih jebos</string>
+  <string name="view_wiki_error_message_timeout">Ten prasida ngubungin Infopedia. Turéksa sambungan jaringan Ragané, utawi indayang malih jebos</string>
   <string name="reference_title">Pustaka %s</string>
   <string name="reference_list_title">Pustaka</string>
   <string name="theme_chooser_dialog_image_dimming_switch_label">Paredupan gambar (ting téma Gelap)</string>

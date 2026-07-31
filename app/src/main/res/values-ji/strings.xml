@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Alefbeis
 * Har-wradim
@@ -8,9 +8,9 @@
 * פוילישער
 -->
 <resources>
-  <string name="app_name_prod">וויקיפעדיע</string>
-  <string name="app_name_beta">וויקיפעדיע בעטא</string>
-  <string name="app_name_alpha">וויקיפעדיע אלפא</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">וויקימעדיע</string>
   <string name="nav_item_back">צוריק</string>
   <string name="page_tabs_back">צוריק</string>
@@ -159,7 +159,7 @@
   <string name="about_description">וועגן דעם וויקימעדיע־אפ</string>
   <string name="privacy_policy_description">פּריוואַטקייט פּאליסי</string>
   <string name="terms_of_use_description">ניצבאדינגונגען</string>
-  <string name="about_wikipedia_url">https://yi.wikipedia.org/wiki/װיקיפּעדיע:וועגן</string>
+  <string name="about_wikipedia_url">https://yi.Infopedia.org/wiki/װיקיפּעדיע:וועגן</string>
   <string name="about_libraries_heading">געניצטע ביבליאטעקן</string>
   <string name="about_contributors_heading">בײַשטײַערער</string>
   <string name="about_translators_heading">איבערזעצער</string>

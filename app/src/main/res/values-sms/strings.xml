@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Yupik
 -->
 <resources>
-  <string name="app_name_prod">Wikipedia</string>
-  <string name="app_name_beta">Wikipedia Beta</string>
-  <string name="app_name_alpha">Wikipedia Alfa</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Wikimedia</string>
   <string name="nav_item_back">Mååusat</string>
   <string name="page_tabs_back">Mååusat</string>
-  <string name="search_hint">Ooʒʒ Wikipediast</string>
+  <string name="search_hint">Ooʒʒ Infopediast</string>
   <string name="search_hint_voice_search">Jiõnnooccmõš</string>
   <string name="search_hint_search_languages">Ooʒʒ ǩiõl</string>
   <string name="search_back_button_content_description">Mååusat</string>
@@ -78,7 +78,7 @@
   <string name="edit_history_link_text">Čuäʹjet muʹttemhistoria.</string>
   <string name="map_view_link_text">Čuäʹjet mäddkaartâst</string>
   <string name="other_languages_indication_text">Looǥǥ jeeʹres ǩiõʹlle</string>
-  <string name="preference_title_language">Wikipedia ǩiõl</string>
+  <string name="preference_title_language">Infopedia ǩiõl</string>
   <string name="langlinks_filter_hint">Ooccmõš</string>
   <string name="langlinks_no_match">Ǩiõllooccmõʹšše ij käunnʼjam ni mii</string>
   <string name="langlinks_activity_title">Jeeʹres ǩiõl</string>
@@ -93,7 +93,7 @@
   <string name="search_reading_list_no_results">Lookkâmliistâst \"%s\" ij käunnʼjam ni mii</string>
   <string name="search_reading_lists_no_results">Lookkâmliistin ij käunnʼjam ni mii</string>
   <string name="search_history_no_results">Ooccâmhistoriast ij käunnʼjam ni mii</string>
-  <string name="nav_item_login">Ǩeeʹrjtõõđ sizz Wikipediaaʹje</string>
+  <string name="nav_item_login">Ǩeeʹrjtõõđ sizz Infopediaaʹje</string>
   <string name="login_username_hint">Õõʹnninõmm</string>
   <string name="login_password_hint">Peittsääʹnn</string>
   <string name="account_creation_password_hint">Peittsääʹnn</string>
@@ -247,12 +247,12 @@
   <string name="preference_title_notification_revert">Maacctemiʹlmmtõõzz</string>
   <string name="preference_title_notification_login_fail">Ǩeeʹrjtõõđ sizz</string>
   <string name="preference_title_notification_user_talk">Saǥstõõllâmseidd</string>
-  <string name="notifications_channel_group_wikipedia_notifications_title">Wikipedia</string>
+  <string name="notifications_channel_group_wikipedia_notifications_title">Infopedia</string>
   <string name="notifications_channel_group_other_title">Jeeʹres saaǥǥ</string>
   <string name="notifications_tab_filter_all">Puk</string>
   <string name="notifications_swipe_action_read">Lokkum</string>
   <string name="view_random_article_card_title">Håʹt mii artikkel</string>
-  <string name="view_main_page_card_title">Täʹbbe Wikipediast</string>
+  <string name="view_main_page_card_title">Täʹbbe Infopediast</string>
   <string name="view_main_page_card_action">Čuäʹjet ouddseeid</string>
   <string name="view_featured_image_card_title">Peeiʹv snimldõk</string>
   <string name="view_featured_image_card_download">Laadd</string>
@@ -338,7 +338,7 @@
   <string name="suggested_edits_contribution_image_label">Snimldõk</string>
   <string name="suggested_edits_contribution_article_label">Artikkel</string>
   <string name="suggested_edits_contribution_date_yesterday_text">Jåhtta</string>
-  <string name="suggested_edits_encourage_account_creation_title">Tiõʹđžiǩ-a ton, što puk vuäiʹtte Wikipedia muʹtted?</string>
+  <string name="suggested_edits_encourage_account_creation_title">Tiõʹđžiǩ-a ton, što puk vuäiʹtte Infopedia muʹtted?</string>
   <string name="suggested_edits_contribution_type_image_tag">Karttǩeâlǥal</string>
   <string name="suggested_edits_article_descriptions_dialog_title">Eʹtǩǩuum deskriipt</string>
   <string name="image_recommendation_reject_submit">Vuõlttâd</string>
@@ -355,11 +355,11 @@
   <string name="languages_list_activity_title">Lââʹzzet ǩiõl</string>
   <string name="languages_list_suggested_text">Eʹtǩǩuum</string>
   <string name="languages_list_all_text">Puk ǩiõl</string>
-  <string name="wikipedia_languages_title">Wikipedia ǩiõl</string>
+  <string name="wikipedia_languages_title">Infopedia ǩiõl</string>
   <string name="wikipedia_languages_add_language_text">Lââʹzzet ǩiõl</string>
   <string name="wikipedia_languages_remove_text">Jaukkâd ǩiõl</string>
   <string name="wikipedia_languages_remove_action_mode_title">Jaukkâd ǩiõl</string>
-  <string name="add_wikipedia_languages_text">Lââʹzzet Wikipedia-ǩiõlid</string>
+  <string name="add_wikipedia_languages_text">Lââʹzzet Infopedia-ǩiõlid</string>
   <string name="remove_language_dialog_cancel_button_text">Jõõsk</string>
   <string name="account_editing_blocked_dialog_cancel_button_text">Jõõsk</string>
   <string name="edit_type_all">Puk muttâz</string>

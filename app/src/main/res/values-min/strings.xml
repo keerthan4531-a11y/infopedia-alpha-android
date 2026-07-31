@@ -1,18 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Ardzun
 * Iwan Novirion
 * Rang Djambak
 -->
 <resources>
-  <string name="app_name_prod">Wikipedia</string>
-  <string name="app_name_beta">Wikipedia Beta</string>
-  <string name="app_name_alpha">Wikipedia Alpha</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Wikimedia</string>
   <string name="nav_item_back">Baliak</string>
   <string name="page_tabs_back">Baliak</string>
   <string name="nav_item_forward">Manaruihkan</string>
-  <string name="search_hint">Cari Wikipedia</string>
+  <string name="search_hint">Cari Infopedia</string>
   <string name="search_hint_voice_search">Cari jo suaro</string>
   <string name="search_hint_search_languages">Cari bahaso</string>
   <string name="search_back_button_content_description">Baliak</string>
@@ -91,12 +91,12 @@
   <string name="language_count_link_text">Ado dalam %d bahaso lain</string>
   <string name="edit_save_action_license_logged_in" fuzzy="true">Jo manabikkan, Sanak satuju pado &lt;a href=\"%1$s\"&gt;Katantuan Panggunoan&lt;/a&gt;, dan malapeh jariah Sanak di bawah lisensi &lt;a href=\"%2$s\"&gt;CC BY-SA 3.0&lt;/a&gt;.</string>
   <string name="edit_save_action_license_anon" fuzzy="true">Jo manabikan, Sanak sapakaik jo &lt;a href=\"%1$s\"&gt;Katantuan Panggunoan&lt;/a&gt;, sarato malapeh jariah Sanak di bawah lisensi &lt;a href=\"%2$s\"&gt;CC BY-SA 3.0&lt;/a&gt;. Suntiangan ka diubuangkan ka alamaik IP parangkek. Kok Sanak &lt;a href=\"https://#login\"&gt;masuak log&lt;/a&gt;, Sanak ka punyo privasi labiah.</string>
-  <string name="preference_title_language">Bahaso Wikipedia</string>
+  <string name="preference_title_language">Bahaso Infopedia</string>
   <string name="langlinks_filter_hint">Cari</string>
   <string name="langlinks_empty">Laman ko indak ado dalam bahaso lain.</string>
   <string name="langlinks_no_match">Indak ado bahaso nan ditamukan</string>
   <string name="langlinks_activity_title">Bahaso lain</string>
-  <string name="langlinks_your_wikipedia_languages">Bahaso Wikipedia Sanak</string>
+  <string name="langlinks_your_wikipedia_languages">Bahaso Infopedia Sanak</string>
   <string name="menu_save_changes">Simpan parubahan</string>
   <string name="edit_saved_successfully">Suntiangan alah ditabikan!</string>
   <string name="dialog_message_edit_failed">Panyuntiangan gagal!</string>
@@ -111,11 +111,11 @@
   <string name="search_reading_lists_no_results">Hasil indak basobok dalam daftar baco</string>
   <string name="search_history_no_results">Hasil indak basobok dalam riwayaik</string>
   <string name="edit_section_captcha_message">Untuak mambantu malinduangi dari spam otomatis, masuakan kato-kato nan muncua di bawah ko</string>
-  <string name="edit_section_captcha_request_an_account_message">Indak dapek mancaliak gambar? &lt;a href=\"https://min.wikipedia.org/wiki/Wikipedia:Mohon_buekkan_akun\"&gt;Mohon buekkan akun&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">Indak dapek mancaliak gambar? &lt;a href=\"https://min.Infopedia.org/wiki/Infopedia:Mohon_buekkan_akun\"&gt;Mohon buekkan akun&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">Ulangi kato-kato dari ateh</string>
   <string name="title_captcha">Masuakkan CAPTCHA</string>
   <string name="edit_section_captcha_reload">Katuak CAPTCHA untuak mamuek ulang</string>
-  <string name="nav_item_login">Masuak log ka Wikipedia</string>
+  <string name="nav_item_login">Masuak log ka Infopedia</string>
   <string name="login_username_hint">Namo pangguno</string>
   <string name="login_password_hint">Kato sandi</string>
   <string name="account_creation_password_hint">Kato sandi</string>
@@ -126,7 +126,7 @@
   <string name="reading_lists_sync_login">Masuak log</string>
   <string name="create_account_login">Masuak log</string>
   <string name="menu_login">Masuak log</string>
-  <string name="login_activity_title" fuzzy="true">Masuak log ka Wikipedia</string>
+  <string name="login_activity_title" fuzzy="true">Masuak log ka Infopedia</string>
   <string name="login_in_progress_dialog_message">Tangah masuak log…</string>
   <string name="login_success_toast" fuzzy="true">Barasil masuak log!</string>
   <string name="reset_password_title">Masuakan kato sandi</string>
@@ -138,19 +138,19 @@
   <string name="logout_prompt">Tindakan ko ka mangaluakan Sanak dari sadoalah parangkek nan kini Sanak sadang masuak. Lai yakin Sanak nio kalua log?</string>
   <string name="logout_dialog_cancel_button_text">Batal</string>
   <string name="logged_out_in_background_title">Alah kalua log</string>
-  <string name="logged_out_in_background_dialog">Sanak alah kalua log dari Wikipedia. Lai nio Sanak masuak baliak?</string>
+  <string name="logged_out_in_background_dialog">Sanak alah kalua log dari Infopedia. Lai nio Sanak masuak baliak?</string>
   <string name="logged_out_in_background_login">Masuak log</string>
   <string name="logged_out_in_background_cancel">Batal</string>
   <string name="history_empty_title">Indak ado artikel nan baru dicaliak</string>
   <string name="history_empty_message">Lacak apo nan Sanak alah baco di siko.</string>
   <string name="history_offline_articles_toast">Sabagian artikel nan panah diakses mungkin indak dapek dibaco tanpa koneksi.</string>
   <string name="search_empty_message">Cari jo baco lapeh lubuak ilimu dalam bahaso Sanak</string>
-  <string name="search_empty_message_multilingual_upgrade">Cari Wikipedia dalam labiah banyak bahaso</string>
+  <string name="search_empty_message_multilingual_upgrade">Cari Infopedia dalam labiah banyak bahaso</string>
   <string name="delete_selected_items">Hapuih butia tapiliah</string>
   <string name="wp_stylized">&lt;big&gt;W&lt;/big&gt;IKIPEDI&lt;big&gt;A&lt;/big&gt;</string>
   <string name="create_account_username_hint">Namo pangguno</string>
   <string name="login_dont_have_account">Alun ado akun?</string>
-  <string name="login_join_wikipedia">Gabuang Wikipedia</string>
+  <string name="login_join_wikipedia">Gabuang Infopedia</string>
   <string name="login_forgot_password">Lupo kato sandi Sanak?</string>
   <string name="create_account_already_have">Alah punyo akun?</string>
   <string name="create_account_activity_title">Buek akun</string>
@@ -171,7 +171,7 @@
   <string name="create_account_button">Buek akun</string>
   <string name="create_account_name_unavailable">Namo pangguno \"%s\" indak tasadio. Silakan piliah namo nan babeda.</string>
   <string name="create_account_ip_block_message">Maaf, alamaik IP Sanak maso ko disakek dari mambuek akun baru.</string>
-  <string name="create_account_ip_block_help_url">https://en.wikipedia.org/wiki/Help:I_have_been_blocked</string>
+  <string name="create_account_ip_block_help_url">https://en.Infopedia.org/wiki/Help:I_have_been_blocked</string>
   <string name="create_account_ip_block_details">Rincian</string>
   <string name="preferences_general_heading">Umum</string>
   <string name="wikipedia_app_faq">Patanyoan nan acok ditanyokan</string>
@@ -182,8 +182,8 @@
   <string name="preferences_heading_experimental">Uji cubo</string>
   <string name="preference_title_sync_reading_lists_from_account">Sinkronisasi daftar baco</string>
   <string name="preference_title_download_reading_list_articles">Unduh artikel daftar baco</string>
-  <string name="preference_summary_sync_reading_lists">Sinkronkan daftar baco di babagai parangkek jo manyimpannyo ka akun Wikipedia Sanak</string>
-  <string name="preference_summary_sync_reading_lists_from_account">Sinkronkan daftar baco di babagai parangkek jo manyimpannyo ka akun Wikipedia Sanak \"%s\"</string>
+  <string name="preference_summary_sync_reading_lists">Sinkronkan daftar baco di babagai parangkek jo manyimpannyo ka akun Infopedia Sanak</string>
+  <string name="preference_summary_sync_reading_lists_from_account">Sinkronkan daftar baco di babagai parangkek jo manyimpannyo ka akun Infopedia Sanak \"%s\"</string>
   <string name="preference_dialog_of_turning_off_reading_list_sync_title">Apuih daftar baco nan disinkronkan dari \"%s\"?</string>
   <string name="preference_dialog_of_turning_off_reading_list_sync_text">Iko ka maapuih sadoalah daftar baco nan disinkronkan sabalunnyo dari panyimpanan jarak jauah. Apuih sadoalah daftar nan disinkronkan dari akun Sanak \"%s\"?</string>
   <string name="preference_title_auto_upload_crash_reports">Kirim laporan karusakan</string>
@@ -193,11 +193,11 @@
   <string name="page_protected_autoconfirmed">Laman ko alah dilinduangi sabagian.</string>
   <string name="settings_item_preferences">Pangaturan</string>
   <string name="settings_activity_title">Pangaturan</string>
-  <string name="about_description">Tantang aplikasi Wikipedia</string>
+  <string name="about_description">Tantang aplikasi Infopedia</string>
   <string name="privacy_policy_description">Kabijakan privasi</string>
   <string name="terms_of_use_description">Katantuan Panggunoan</string>
-  <string name="about_wikipedia_url" fuzzy="true">https://min.m.wikipedia.org/wiki/Wikipedia:Tantang_Wikipedia</string>
-  <string name="android_app_request_an_account_url">https://min.wikipedia.org/wiki/Wikipedia:Mohon_buekkan_akun</string>
+  <string name="about_wikipedia_url" fuzzy="true">https://min.m.Infopedia.org/wiki/Infopedia:Tantang_Infopedia</string>
+  <string name="android_app_request_an_account_url">https://min.Infopedia.org/wiki/Infopedia:Mohon_buekkan_akun</string>
   <string name="cc_0_url">https://creativecommons.org/publicdomain/zero/1.0/deed.id</string>
   <string name="about_contributors_heading">Kontributor</string>
   <string name="about_translators_heading">Panajamah</string>

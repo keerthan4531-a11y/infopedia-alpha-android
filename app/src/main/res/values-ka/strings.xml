@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Arabuli
 * BRUTE
@@ -13,14 +13,14 @@
 * Იო ოქრო
 -->
 <resources>
-  <string name="app_name_prod">ვიკიპედია</string>
-  <string name="app_name_beta">ვიკიპედია ბეტა</string>
-  <string name="app_name_alpha">ვიკიპედია ალფა</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">ვიკიმედია</string>
   <string name="nav_item_back">უკან</string>
   <string name="page_tabs_back">უკან</string>
   <string name="nav_item_forward">წინ</string>
-  <string name="search_hint">Wikipedia-ით ძებნა</string>
+  <string name="search_hint">Infopedia-ით ძებნა</string>
   <string name="search_hint_voice_search">ხმოვანი ძიება</string>
   <string name="search_hint_search_languages">ენის მოძებნა</string>
   <string name="search_back_button_content_description">უკან გადასვლა</string>
@@ -127,7 +127,7 @@
   <string name="search_reading_lists_no_results">საკითხავ სიაში შედეგები ვერ მოიძებნა</string>
   <string name="search_history_no_results">ისტორიაში შედეგები ვერ მოიძებნა</string>
   <string name="edit_section_captcha_message">ავტომატური სპამისგან დასაცავად, გთხოვთ შეიყვანეთ ქვემოთ მოცემული სიტყვები</string>
-  <string name="edit_section_captcha_request_an_account_message">სურათს ვერ ხედავთ? &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;მოითხოვეთ ანგარიში&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">სურათს ვერ ხედავთ? &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;მოითხოვეთ ანგარიში&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">გაიმეორეთ ზემოთ მოცემული სიტყვები</string>
   <string name="title_captcha">შეიყვანეთ CAPTCHA</string>
   <string name="edit_section_captcha_reload">დააჭირეთ CAPTCHA-ის გადასატვირთად</string>
@@ -185,7 +185,7 @@
   <string name="create_account_button">ანგარიშის შექმნა</string>
   <string name="create_account_name_unavailable">მომხმარებლის სახელი \"%s\" ხელმისაწვდომი არაა. გთხოვთ აირჩიოთ სხვა სახელი.</string>
   <string name="create_account_ip_block_message">ბოდიში, თქვენი IP მისამართი ამ დროისთვის დაბლოკილია ახალი ანგარიშის შექმნისთვის.</string>
-  <string name="create_account_ip_block_help_url">https://en.wikipedia.org/wiki/Help:I_have_been_blocked</string>
+  <string name="create_account_ip_block_help_url">https://en.Infopedia.org/wiki/Help:I_have_been_blocked</string>
   <string name="create_account_ip_block_details">დეტალები</string>
   <string name="preferences_general_heading">ზოგადი</string>
   <string name="preferences_account_heading">ანგარიში</string>
@@ -212,7 +212,7 @@
   <string name="about_description">ვიკიპედიის აპლიკაციის შესახებ</string>
   <string name="privacy_policy_description">კონფიდენციალობის პოლიტიკა</string>
   <string name="terms_of_use_description">გამოყენების პირობები</string>
-  <string name="android_app_request_an_account_url">https://kk.wikipedia.org/wiki/Уикипедия:Тіркелгі_сұрау</string>
+  <string name="android_app_request_an_account_url">https://kk.Infopedia.org/wiki/Уикипедия:Тіркелгі_сұрау</string>
   <string name="cc_0_url">https://creativecommons.org/publicdomain/zero/1.0/deed.ka</string>
   <string name="about_libraries_heading">გამოყენებული ბიბლიოთეკები</string>
   <string name="about_contributors_heading">ავტორები</string>
@@ -342,7 +342,7 @@
   <string name="temp_account_dialog_ok">გავიგე</string>
   <string name="temp_account_end_session">სესიის დასრულება</string>
   <string name="crash_report_activity_title">აპლიკაციის შეცდომა</string>
-  <string name="crash_report_relaunch_or_quit">უკაცრავად, მაგრამ Wikipedia-ის აპში შეცდომაა და მისი შესრულება შეწყდა.\n\nგნებავთ თავიდან გაშვება, თუ გახვალთ?</string>
+  <string name="crash_report_relaunch_or_quit">უკაცრავად, მაგრამ Infopedia-ის აპში შეცდომაა და მისი შესრულება შეწყდა.\n\nგნებავთ თავიდან გაშვება, თუ გახვალთ?</string>
   <string name="crash_report_relaunch">თავიდან დაწყება</string>
   <string name="crash_report_quit">გასვლა</string>
   <string name="article_menu_bar_save_button">შენახვა</string>

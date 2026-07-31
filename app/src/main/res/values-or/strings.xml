@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * DareDevil
 * Hellohappy
@@ -9,9 +9,9 @@
 * Susant purohit
 -->
 <resources>
-  <string name="app_name_prod">ଉଇକିପିଡ଼ିଆ</string>
-  <string name="app_name_beta">ଉଇକିପିଡ଼ିଆ ବିଟା</string>
-  <string name="app_name_alpha">ଉଇକିପିଡ଼ିଆ ଆଲ୍ଫା</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">ଉଇକିମିଡ଼ିଆ</string>
   <string name="search_hint">ଉଇକିପିଡ଼ିଆରେ ଖୋଜନ୍ତୁ</string>
   <string name="error_network_error">ନେଟୱର୍କ ସହ ସଂଯୋଗ ହୋଇ ପାରିବ ନାହିଁ।</string>
@@ -93,8 +93,8 @@
   <string name="about_description">ଉଇକିପିଡ଼ିଆ ଆପ ବାବଦରେ</string>
   <string name="privacy_policy_description">ଗୁମର ନୀତି</string>
   <string name="terms_of_use_description">ବ୍ୟବହାର ନିୟମାବଳୀ</string>
-  <string name="about_wikipedia_url">https://or.wikipedia.org/wiki/ଉଇକିପିଡ଼ିଆ:ଉଇକିପିଡ଼ିଆ_ବାବଦରେ</string>
-  <string name="android_app_request_an_account_url">https://or.wikipedia.org/wiki/ଉଇକିପିଡ଼ିଆ:Request_an_account</string>
+  <string name="about_wikipedia_url">https://or.Infopedia.org/wiki/ଉଇକିପିଡ଼ିଆ:ଉଇକିପିଡ଼ିଆ_ବାବଦରେ</string>
+  <string name="android_app_request_an_account_url">https://or.Infopedia.org/wiki/ଉଇକିପିଡ଼ିଆ:Request_an_account</string>
   <string name="about_libraries_heading">ବ୍ୟବହୃତ ଲାଇବ୍ରେରି</string>
   <string name="about_contributors_heading">ଅବଦାନକାରୀଗଣ</string>
   <string name="about_translators_heading">ଅନୁବାଦକଗଣ</string>

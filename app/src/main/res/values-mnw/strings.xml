@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Aue Nai
 * BanyarHongSar
@@ -9,9 +9,9 @@
 * 咽頭べさ
 -->
 <resources>
-  <string name="app_name_prod">ဝဳကဳပဳဒဳယာ</string>
-  <string name="app_name_beta">ဝဳကဳပဳဒဳယာ ဗေတ</string>
-  <string name="app_name_alpha">ဝဳကဳပဳဒဳယာ အလ်ဖ</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">ဝဳကဳမဳဒဳယာ</string>
   <string name="nav_item_back">ကလေင်</string>
   <string name="page_tabs_back">ကလေင်</string>
@@ -133,7 +133,7 @@
   <string name="search_reading_lists_no_results">အရာမဂၠာဲဂှ် ဟွံဂွံဆဵု ပ္ဍဲစရင် လိက်ဗွဟ်</string>
   <string name="search_history_no_results">အရာမဂၠာဲဂှ် ဟွံဂွံဆဵု ပ္ဍဲလိက်မဗှ်လဝ်တုဲ</string>
   <string name="edit_section_captcha_message">တၞဟ်န မဂွံဆဵုဒၞာ အရာမပထုဲပလီုတုဲ၊ ပဂုန်တုဲ တက်စုတ် မလိက် မဗမံက်လဝ်ဏအ် ဗွဲသၟဝ်ဂှ်ညိ၊၊</string>
-  <string name="edit_section_captcha_request_an_account_message">ဗီုရုပ်ဂှ် ဟွံဂွံဆဵုကေတ်ဟာ? &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;အာတ်မိက်ဒၟံင် အကံက်မွဲရ၊၊&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">ဗီုရုပ်ဂှ် ဟွံဂွံဆဵုကေတ်ဟာ? &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;အာတ်မိက်ဒၟံင် အကံက်မွဲရ၊၊&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">ကလေင်တက်စုတ် အတိုင်မလိက် ဗွဲလတူဂှ်</string>
   <string name="title_captcha">ဍဵု CAPTCHA</string>
   <string name="edit_section_captcha_reload">ဍဵု CAPTCHA သွက်ဂွံ ကလေင်ပၠောပ်</string>
@@ -194,11 +194,11 @@
   <string name="create_account_button">ခၞံကၠောန် အကံက်</string>
   <string name="create_account_name_unavailable">ယၟုအသုင်စောဲ %s ဂှ် ဟွံလုပ်အဝေါင်၊၊ ပဂုန်တုဲ ရုဲစှ် ယၟုတၞဟ်ညိ၊၊</string>
   <string name="create_account_ip_block_message">သၠးအခေါင်၊ IP address မၞး ပြဟ်ဟ်ဏအ် ဒးဒုင်ကၟာတ်လဝ် သွက်ဂွံ ခၞံကၠောန် အကံက်တၟိ၊၊</string>
-  <string name="create_account_ip_block_help_url">https://en.wikipedia.org/wiki/Help:I_have_been_blocked</string>
+  <string name="create_account_ip_block_help_url">https://en.Infopedia.org/wiki/Help:I_have_been_blocked</string>
   <string name="create_account_ip_block_details">ဗွဲမစုင်လေင်</string>
   <string name="preferences_general_heading">နာနာ</string>
   <string name="preferences_account_heading">အကံက်</string>
-  <string name="wikipedia_app_faq">Wikipedia App FAQ</string>
+  <string name="wikipedia_app_faq">Infopedia App FAQ</string>
   <string name="send_feedback">ပလံင် လညာတ်ဇကု စပ်ကဵု app</string>
   <string name="create_account_account_created_toast">အကံက်ဂှ် ကၠောန်ဂွံ ဗွဲမအံင်ဇၞး!</string>
   <string name="preferences_heading_syncing">ပချဳဓရာင်</string>
@@ -227,13 +227,13 @@
   <string name="about_description">ပရူ app ဝဳကဳပဳဒဳယာ</string>
   <string name="privacy_policy_description">ပဝ်လသဳ မဆေင်ကဵု အခေါင်အရာပူဂဵု</string>
   <string name="terms_of_use_description">Terms of use</string>
-  <string name="about_wikipedia_url">https://en.wikipedia.org/wiki/Wikipedia:About</string>
+  <string name="about_wikipedia_url">https://en.Infopedia.org/wiki/Infopedia:About</string>
   <string name="about_libraries_heading">တိုက်ဗွဟ်လိက် မသုင်စောဲလဝ်</string>
   <string name="about_contributors_heading">ညးမချူလိက်ဂမၠိုၚ်</string>
   <string name="about_translators_heading">ညးတြာဲဘာသာဂမၠိုင်</string>
   <string name="about_translators_translatewiki">app ဏအ်ဂှ် ကၠာဲစၠောအ်လဝ် နကဵုမၞိဟ်မကၠာဲဘာသာ နကဵုစေတနာ ပ္ဍဲ&lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt;.</string>
   <string name="about_app_license_heading">လာင်ဇြေန်</string>
-  <string name="about_app_license" fuzzy="true">ကုဒ်တင်ဂၞင် မကလိဂွံမာန်နူလ္တူ &lt;a href=\"https://gerrit.wikimedia.org/r/#/admin/projects/apps/android/wikipedia\"&gt;Gerrit&lt;/a&gt; and &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;GitHub&lt;/a&gt; under the &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0 License&lt;/a&gt;။ သီုမဍိုက်ပေၚ်တဴကဵုတၞဟ်ခြာဟွံကၠောန်ချိုတ်တ်ပၠိုတ်တ်မ္ဂး၊ ပရောပရာမနွံအမှဝ်မရပ်စကာမာန် &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Creative Commons Attribution-ShareAlike License&lt;/a&gt;။</string>
+  <string name="about_app_license" fuzzy="true">ကုဒ်တင်ဂၞင် မကလိဂွံမာန်နူလ္တူ &lt;a href=\"https://gerrit.infopedia.org/r/#/admin/projects/apps/android/Infopedia\"&gt;Gerrit&lt;/a&gt; and &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;GitHub&lt;/a&gt; under the &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0 License&lt;/a&gt;။ သီုမဍိုက်ပေၚ်တဴကဵုတၞဟ်ခြာဟွံကၠောန်ချိုတ်တ်ပၠိုတ်တ်မ္ဂး၊ ပရောပရာမနွံအမှဝ်မရပ်စကာမာန် &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Creative Commons Attribution-ShareAlike License&lt;/a&gt;။</string>
   <string name="about_wmf">အရာမကၠောန်ပ္တိတ် နူ&lt;a href=\"https://wikimediafoundation.org/\"&gt;ဝဳကဳမဳဒဳယာဖံင်ဒေရှေန်&lt;/a&gt;</string>
   <string name="about_activity_title">ပရူ</string>
   <string name="edit_abandon_confirm">မုက်လိက်ဏအ် ပလေဝ်ပလေတ်လဝ်၊၊ မၞး မိက်ဂွံတိတ် နူမုက်လိက် သီုဟွံဂိုင်သိပ် ကွေဟ်ဟ်ရဟာ？</string>
@@ -389,8 +389,8 @@
   <string name="error_blocked_start">မစ ကၟာတ် - %s</string>
   <string name="error_blocked_expiry">အခိင်မကၟာတ် အိုတ် - %s</string>
   <string name="error_blocked_id">အာင်ဒီ မကၟာတ် - %s</string>
-  <string name="error_blocked_footer">မၞး ဆက်စၠောအ် ကု&lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; ဟွံသေင်မ္ဂး ညးပကင်ရင် တၞဟ်&lt;a href=\"https://mnw.wikipedia.org/wiki/ဝဳကဳပဳဒဳယာ:Administrators\"&gt;&lt;/a&gt; သွက်ဂွံ သဳကၠဳ အရာမကၟာတ်လဒဵုဂှ်။</string>
-  <string name="error_blocked_footer_no_blocker">မၞး ဆက်စၠောအ် ကု&lt;a href=\"https://mnw.wikipedia.org/wiki/ဝဳကဳပဳဒဳယာ:Administrators\"&gt;ညးပကင်ရင်&lt;/a&gt; သွက်ဂွံ သဳကၠဳ အရာမကၟာတ်လဒဵုဂှ်။</string>
+  <string name="error_blocked_footer">မၞး ဆက်စၠောအ် ကု&lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; ဟွံသေင်မ္ဂး ညးပကင်ရင် တၞဟ်&lt;a href=\"https://mnw.Infopedia.org/wiki/ဝဳကဳပဳဒဳယာ:Administrators\"&gt;&lt;/a&gt; သွက်ဂွံ သဳကၠဳ အရာမကၟာတ်လဒဵုဂှ်။</string>
+  <string name="error_blocked_footer_no_blocker">မၞး ဆက်စၠောအ် ကု&lt;a href=\"https://mnw.Infopedia.org/wiki/ဝဳကဳပဳဒဳယာ:Administrators\"&gt;ညးပကင်ရင်&lt;/a&gt; သွက်ဂွံ သဳကၠဳ အရာမကၟာတ်လဒဵုဂှ်။</string>
   <string name="crash_report_activity_title">ပရေင်အာတ်မိက် ဗၠေတ်</string>
   <string name="crash_report_relaunch_or_quit">မၞး မိက်ဂွံ ကလေင်စဟာ ဟွံသေင်တှ်ေ တိတ်ဟာ？</string>
   <string name="crash_report_relaunch">ကလေင်စ</string>
@@ -484,8 +484,8 @@
   <string name="reading_list_confirm_remove_article_from_offline_title">လိက်ပရေင်ဂှ် မံက်ဂတဝ်ဒၟံင် ပ္ဍဲ စရင် နာနာ</string>
   <string name="reading_list_confirm_remove_article_from_offline_message">%s ဂှ် ဆက်ဗှ် ပ္ဍဲအခိင် မ္ၚးလာင် ဟွံဂွံရ၊၊</string>
   <string name="reading_lists_sync_reminder_title">ပံက် ကချဳဓရာင် စရင်လိက်သွက်ဂွံဗှ်？</string>
-  <string name="reading_lists_sync_reminder_text" fuzzy="true">လိက်ပရေင်ဂှ် ဂိုင်သိပ်လဝ် ပ္ဍဲ စရင်လိက်သွက်ဂွံဗှ်တုဲ လၟုဟ် ချဳဓရာင် ပ္ဍဲအကံက်ဝဳကဳပဳယာ မၞး &lt;a href=\"https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt; ဆက်ဗှ် &lt;/a&gt;</string>
-  <string name="reading_lists_login_reminder_text_with_link" fuzzy="true">စရင်လိက်သွက်ဂွံဗှ်တအ် လၟုဟ် ချဳဓရာင် မွဲဒမြေပ် devices. လုပ်လံက်အေန် အကံက် ဝဳကဳပဳဒဳယာ မၞး တုဲ ကဵုအခေါင် စရင်မၞး ကဵုဂိုင်သိပ်၊၊ &lt;a href=\"https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;ဆက် ဗှ်&lt;/a&gt;</string>
+  <string name="reading_lists_sync_reminder_text" fuzzy="true">လိက်ပရေင်ဂှ် ဂိုင်သိပ်လဝ် ပ္ဍဲ စရင်လိက်သွက်ဂွံဗှ်တုဲ လၟုဟ် ချဳဓရာင် ပ္ဍဲအကံက်ဝဳကဳပဳယာ မၞး &lt;a href=\"https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt; ဆက်ဗှ် &lt;/a&gt;</string>
+  <string name="reading_lists_login_reminder_text_with_link" fuzzy="true">စရင်လိက်သွက်ဂွံဗှ်တအ် လၟုဟ် ချဳဓရာင် မွဲဒမြေပ် devices. လုပ်လံက်အေန် အကံက် ဝဳကဳပဳဒဳယာ မၞး တုဲ ကဵုအခေါင် စရင်မၞး ကဵုဂိုင်သိပ်၊၊ &lt;a href=\"https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;ဆက် ဗှ်&lt;/a&gt;</string>
   <string name="reading_lists_sync_reminder_action">ကချဳဓရာင် သၟဟ်အစောံ</string>
   <string name="reading_list_login_reminder_title">ပချဳဓရာင် စရင် လိက်ဗွဟ်</string>
   <string name="reading_lists_login_reminder_text">စရင် လိက်ဗွဟ်တအ် လၟုဟ် ချဳဓရာင် ပ္ဍဲမဒမြေပ် devices. လုပ်လံက်အေန် အကံက် ဝဳကဳပဳဒဳယာ မၞး တုဲ ကဵုအခေါင် စရင်မၞး ကဵုဂိုင်သိပ်၊၊</string>
@@ -917,7 +917,7 @@
   <string name="onboarding_get_started">စဂွံရ၊၊</string>
   <string name="onboarding_maybe_later">လက္ကရဴတှေ်</string>
   <string name="onboarding_explore_title">ဂၠာဲ နကဵု နဲကဲတၟိ</string>
-  <string name="onboarding_explore_text" fuzzy="true">Dive down the Wikipedia rabbit hole with a constantly updating Explore feed. &lt;br/&gt; &lt;b&gt;Customize&lt;/b&gt; the feed to your interests – whether it’s learning about historical events &lt;b&gt;On this day&lt;/b&gt;, or rolling the dice with &lt;b&gt;Random&lt;/b&gt;.</string>
+  <string name="onboarding_explore_text" fuzzy="true">Dive down the Infopedia rabbit hole with a constantly updating Explore feed. &lt;br/&gt; &lt;b&gt;Customize&lt;/b&gt; the feed to your interests – whether it’s learning about historical events &lt;b&gt;On this day&lt;/b&gt;, or rolling the dice with &lt;b&gt;Random&lt;/b&gt;.</string>
   <string name="onboarding_reading_list_sync_title">စရင် လိက်ဗွဟ် နကဵု ကချဳဓရာင်</string>
   <string name="onboarding_reading_list_sync_text_v2"> ခၞံကၠောန် စရင် လိက်ဗွဟ် နူကဵု လိက်ပရေင် မၞးမိက်ဂွံဗှ် ကာလ မၞးမဂွံအခိင် ၜိုန်ရ မၞးနွံဒၟံင် မ္ၚးလာင်၊၊ &lt;br/&gt;လုပ်လံက်အေန် ပ္ဍဲအကံက် ဝဳကဳပဳဒဳယာ မၞး သွက်ဂွံ ပချဳဓရာင် စရင် လိက်ဗွဟ် မၞး &lt;a href=\"#login\"&gt;လုပ်ပံင်တောဲ ဝဳကဳပဳဒဳယာ&lt;/a&gt;</string>
   <string name="onboarding_analytics_switch_title">ပလံင် တင်ဂၞင် မသုင်စောဲ</string>

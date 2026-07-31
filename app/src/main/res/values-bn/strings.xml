@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Aftabuzzaman
 * Aishik Rehman
@@ -39,9 +39,9 @@
 * ফাহাদ কাজমী
 -->
 <resources>
-  <string name="app_name_prod">উইকিপিডিয়া</string>
-  <string name="app_name_beta">উইকিপিডিয়া বেটা</string>
-  <string name="app_name_alpha">উইকিপিডিয়া আলফা</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">উইকিমিডিয়া</string>
   <string name="nav_item_back">পিছনে</string>
   <string name="page_tabs_back">পিছনে</string>
@@ -171,7 +171,7 @@
   <string name="search_reading_lists_no_results">পড়ার তালিকায় কোন ফলাফল পাওয়া যায়নি</string>
   <string name="search_history_no_results">ইতিহাসে কোন ফলাফল পাওয়া যায়নি</string>
   <string name="edit_section_captcha_message">স্বয়ংক্রিয় স্প্যামের বিরুদ্ধে সুরক্ষা করতে সাহায্য করুতে, অনুগ্রহ করে নিচে দেখানো শব্দটি লিখুন</string>
-  <string name="edit_section_captcha_request_an_account_message">চিত্র দেখা যাচ্ছে না? &lt;a href=\"https://bn.wikipedia.org/wiki/উইকিপিডিয়া:অ্যাকাউন্টের_জন্য_অনুরোধ\"&gt;অ্যাকাউন্টের জন্য আবেদন করুন&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">চিত্র দেখা যাচ্ছে না? &lt;a href=\"https://bn.Infopedia.org/wiki/উইকিপিডিয়া:অ্যাকাউন্টের_জন্য_অনুরোধ\"&gt;অ্যাকাউন্টের জন্য আবেদন করুন&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">শব্দটি পুনরায় লিখুন</string>
   <string name="title_captcha">ক্যাপচা লিখুন</string>
   <string name="edit_section_captcha_reload">পুনঃলোড করতে ক্যাপচা টোকা দিন</string>
@@ -235,7 +235,7 @@
   <string name="create_account_button">অ্যাকাউন্ট তৈরি করুন</string>
   <string name="create_account_name_unavailable">\"%s\" নামে কোনো ব্যবহারকারী উপলব্ধ নেই। দয়া করে অন্য কোনো নাম বাছুন।</string>
   <string name="create_account_ip_block_message">দুঃখিত, নতুন অ্যাকাউন্ট তৈরি করা থেকে আপনার আইপি ঠিকানাকে অবরুদ্ধ করা হয়েছে।</string>
-  <string name="create_account_ip_block_help_url">https://en.wikipedia.org/wiki/Help:I_have_been_blocked</string>
+  <string name="create_account_ip_block_help_url">https://en.Infopedia.org/wiki/Help:I_have_been_blocked</string>
   <string name="create_account_ip_block_details">বিস্তারিত</string>
   <string name="preferences_general_heading">সাধারণ</string>
   <string name="preferences_account_heading">অ্যাকাউন্ট</string>
@@ -268,20 +268,20 @@
   <string name="about_description">উইকিপিডিয়া অ্যাপ সম্পর্কে</string>
   <string name="privacy_policy_description">গোপনীয়তা নীতি</string>
   <string name="terms_of_use_description">ব্যবহারের শর্তাবলী</string>
-  <string name="about_wikipedia_url">https://bn.wikipedia.org/wiki/উইকিপিডিয়া:বৃত্তান্ত</string>
-  <string name="privacy_policy_url" fuzzy="true">https://meta.m.wikimedia.org/wiki/Privacy_policy/bn</string>
-  <string name="android_app_faq_url" fuzzy="true">https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ/bn</string>
-  <string name="terms_of_use_url" fuzzy="true">https://foundation.wikimedia.org/wiki/Terms_of_Use/bn</string>
-  <string name="android_app_request_an_account_url">https://bn.wikipedia.org/wiki/উইকিপিডিয়া:অ্যাকাউন্টের_জন্য_অনুরোধ</string>
+  <string name="about_wikipedia_url">https://bn.Infopedia.org/wiki/উইকিপিডিয়া:বৃত্তান্ত</string>
+  <string name="privacy_policy_url" fuzzy="true">https://meta.m.infopedia.org/wiki/Privacy_policy/bn</string>
+  <string name="android_app_faq_url" fuzzy="true">https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ/bn</string>
+  <string name="terms_of_use_url" fuzzy="true">https://foundation.infopedia.org/wiki/Terms_of_Use/bn</string>
+  <string name="android_app_request_an_account_url">https://bn.Infopedia.org/wiki/উইকিপিডিয়া:অ্যাকাউন্টের_জন্য_অনুরোধ</string>
   <string name="cc_by_sa_4_url">https://creativecommons.org/licenses/by-sa/4.0/deed.bn</string>
   <string name="cc_0_url">https://creativecommons.org/publicdomain/zero/1.0/deed.bn</string>
   <string name="about_libraries_heading">ব্যবহৃত গ্রন্থাগারগুলি</string>
   <string name="about_contributors_heading">অবদানকারীগণ</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;দলের পাতা&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;দলের পাতা&lt;/a&gt;</string>
   <string name="about_translators_heading">অনুবাদকগণ</string>
   <string name="about_translators_translatewiki">এই অ্যাপ্লিকেশন স্বেচ্ছাসেবী অনুবাদকদের দ্বারা &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt;-এ অনূদিত হয়েছে।</string>
   <string name="about_app_license_heading">লাইসেন্স</string>
-  <string name="about_app_license" fuzzy="true">উৎস কোড &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;অ্যাপাচি ২.০ লাইসেন্সের&lt;/a&gt; অধীনে &lt;a href=\"https://gerrit.wikimedia.org/r/#/admin/projects/apps/android/wikipedia\"&gt;গেরিট&lt;/a&gt; ও &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;গিটহাবে&lt;/a&gt; উপলব্ধ। অন্যথায় নির্দিষ্ট করা না থাকলে, বিষয়বস্তু &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.bn\"&gt;ক্রিয়েটিভ কমন্স অ্যাট্রিবিউশন-শেয়ারঅ্যালাইক লাইসেন্সের&lt;/a&gt; অধীনে উপলব্ধ।</string>
+  <string name="about_app_license" fuzzy="true">উৎস কোড &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;অ্যাপাচি ২.০ লাইসেন্সের&lt;/a&gt; অধীনে &lt;a href=\"https://gerrit.infopedia.org/r/#/admin/projects/apps/android/Infopedia\"&gt;গেরিট&lt;/a&gt; ও &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;গিটহাবে&lt;/a&gt; উপলব্ধ। অন্যথায় নির্দিষ্ট করা না থাকলে, বিষয়বস্তু &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.bn\"&gt;ক্রিয়েটিভ কমন্স অ্যাট্রিবিউশন-শেয়ারঅ্যালাইক লাইসেন্সের&lt;/a&gt; অধীনে উপলব্ধ।</string>
   <string name="about_wmf">&lt;a href=\"https://wikimediafoundation.org/\"&gt;উইকিমিডিয়া ফাউন্ডেশনের&lt;/a&gt; একটি পণ্য</string>
   <string name="about_activity_title">পরিচিতি</string>
   <string name="edit_abandon_confirm">এই পাতাটি পরিবর্তিত হয়েছে। আপনি কী নিশ্চিত যে আপনার পরিবর্তন সংরক্ষণ না করেই প্রস্থান করবেন?</string>

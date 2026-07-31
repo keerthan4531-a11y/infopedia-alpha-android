@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Aca
 * Acamicamacaraca
@@ -22,9 +22,9 @@
 * Сербијана
 -->
 <resources>
-  <string name="app_name_prod">Википедија</string>
-  <string name="app_name_beta">Википедија бета</string>
-  <string name="app_name_alpha">Википедија алфа</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Викимедија</string>
   <string name="nav_item_back">Назад</string>
   <string name="page_tabs_back">Назад</string>
@@ -158,7 +158,7 @@
   <string name="search_reading_lists_no_results">Нису пронађени резултати на листама за читање</string>
   <string name="search_history_no_results">Нису пронађени резултати у историји</string>
   <string name="edit_section_captcha_message">Да бисте помогли у заштити против аутоматизованог нежељеног садржаја, унесите речи које су приказане испод</string>
-  <string name="edit_section_captcha_request_an_account_message">Не видите слику? &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;Затражите налог&lt;/a&gt;.</string>
+  <string name="edit_section_captcha_request_an_account_message">Не видите слику? &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;Затражите налог&lt;/a&gt;.</string>
   <string name="edit_section_captcha_hint">Поновите речи изнад</string>
   <string name="title_captcha">Унесите CAPTCHA текст</string>
   <string name="edit_section_captcha_reload">Додирните CAPTCHA слику да бисте је поново учитали</string>
@@ -225,7 +225,7 @@
   <string name="create_account_button">Отвори налог</string>
   <string name="create_account_name_unavailable">Корисничко име „%s” је недоступно. Изаберите друго.</string>
   <string name="create_account_ip_block_message">Отварање нових налога са ваше IP адресе је тренутно блокирано.</string>
-  <string name="create_account_ip_block_help_url">https://en.wikipedia.org/wiki/Help:I_have_been_blocked</string>
+  <string name="create_account_ip_block_help_url">https://en.Infopedia.org/wiki/Help:I_have_been_blocked</string>
   <string name="create_account_ip_block_details">Детаљи</string>
   <string name="preferences_general_heading">Опште</string>
   <string name="preferences_account_heading">Налог</string>
@@ -260,17 +260,17 @@
   <string name="privacy_policy_description">Политика приватности</string>
   <string name="terms_of_use_description">Услови коришћења</string>
   <string name="legal_safety_contacts_description">Правни и сигурносни контакти</string>
-  <string name="about_wikipedia_url">https://sr.wikipedia.org/wiki/Википедија:О_нама</string>
-  <string name="privacy_policy_url">https://foundation.wikimedia.org/wiki/Special:MyLanguage/Privacy_policy</string>
-  <string name="terms_of_use_url">https://foundation.wikimedia.org/wiki/Special:MyLanguage/Terms_of_Use</string>
+  <string name="about_wikipedia_url">https://sr.Infopedia.org/wiki/Википедија:О_нама</string>
+  <string name="privacy_policy_url">https://foundation.infopedia.org/wiki/Special:MyLanguage/Privacy_policy</string>
+  <string name="terms_of_use_url">https://foundation.infopedia.org/wiki/Special:MyLanguage/Terms_of_Use</string>
   <string name="cc_by_sa_4_url">https://creativecommons.org/licenses/by-sa/4.0/deed.sr</string>
   <string name="about_libraries_heading">Коришћене библиотеке</string>
   <string name="about_contributors_heading">Сарадници</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Team page&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Team page&lt;/a&gt;</string>
   <string name="about_translators_heading">Преводиоци</string>
   <string name="about_translators_translatewiki">Апликацију су превели волонтери &lt;a href=\"https://translatewiki.net\"&gt;Транслејтвикија&lt;/a&gt;.</string>
   <string name="about_app_license_heading">Лиценца</string>
-  <string name="about_app_license">Изворни кôд је доступан на &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;GitHub-у&lt;/a&gt; под лиценцом &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0&lt;/a&gt;. Садржај је доступан под лиценцом &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Creative Commons Ауторство—Делити под истим условима&lt;/a&gt;, осим ако није другачије наведено.</string>
+  <string name="about_app_license">Изворни кôд је доступан на &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;GitHub-у&lt;/a&gt; под лиценцом &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0&lt;/a&gt;. Садржај је доступан под лиценцом &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Creative Commons Ауторство—Делити под истим условима&lt;/a&gt;, осим ако није другачије наведено.</string>
   <string name="about_wmf">Производ &lt;a href=\"https://wikimediafoundation.org/\"&gt;Задужбине Викимедија&lt;/a&gt;</string>
   <string name="about_activity_title">О апликацији</string>
   <string name="edit_abandon_confirm">Страница је измењена. Желите ли заиста да изађете без чувања промене?</string>
@@ -562,7 +562,7 @@
   <string name="reading_lists_default_list_delete_message">Подразумеван списак (%s) не може бити обрисан</string>
   <string name="reading_lists_default_plus_one_list_delete_message">%1$s обрисан. Подразумеван списак (%2$s) не може бити обрисан.</string>
   <string name="reading_lists_default_plus_many_lists_delete_message">Спискови обрисани. Подразумеван списак (%s) не може бити обрисан.</string>
-  <string name="single_list_json_file_name">%s (Wikipedia reading list).json</string>
+  <string name="single_list_json_file_name">%s (Infopedia reading list).json</string>
   <string name="reading_list_items_deleted">Чланака уклоњено са листе: %d</string>
   <string name="reading_lists_item_deleted">%s уклоњено са спискова</string>
   <string name="reading_list_item_delete_undo">Опозови</string>
@@ -582,8 +582,8 @@
   <string name="reading_list_confirm_remove_article_from_offline_title">Чланак се појављује на више листа</string>
   <string name="reading_list_confirm_remove_article_from_offline_message">Страница „%s” више неће бити доступна офлајн за све листе за читање:</string>
   <string name="reading_lists_sync_reminder_title">Укључити синхронизацију листе за читање?</string>
-  <string name="reading_lists_sync_reminder_text">Чланци сачувани на листама за читање сада се могу синхронизовати са вашим налогом на Википедији. &lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Сазнајте више&lt;/a&gt;.</string>
-  <string name="reading_lists_login_reminder_text_with_link">Листе за читање сада се могу синхронизовати између уређаја. Пријавите се на ваш налог на Википедији и дозволите чување листа. &lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Сазнајте више&lt;/a&gt;.</string>
+  <string name="reading_lists_sync_reminder_text">Чланци сачувани на листама за читање сада се могу синхронизовати са вашим налогом на Википедији. &lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Сазнајте више&lt;/a&gt;.</string>
+  <string name="reading_lists_login_reminder_text_with_link">Листе за читање сада се могу синхронизовати између уређаја. Пријавите се на ваш налог на Википедији и дозволите чување листа. &lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Сазнајте више&lt;/a&gt;.</string>
   <string name="reading_lists_sync_reminder_action">Омогући синхронизацију</string>
   <string name="reading_list_login_reminder_title">Синхронизација листа за читање</string>
   <string name="reading_lists_login_reminder_text">Листе за читање се сада могу синхронизовати између уређаја. Пријавите се на ваш налог на Википедији и дозволите чување листа.</string>
@@ -1308,7 +1308,7 @@
   <string name="talk_snackbar_survey_action_text">Започните</string>
   <string name="talk_share_discussion_subject">Википедија - дискусија на теми странице за разговор \"%s\"</string>
   <string name="talk_share_talk_page">Википедија — дискусије на страници за разговор</string>
-  <string name="talk_edit_disclaimer">Ово је страница за разговор. Поштујте правила странице за разговор, и не заборавите да потпишете своје објаве куцајући четири тилде: ~~~~ када објављујете користећи викитекст.&lt;br&gt;&lt;br&gt;&lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Talk_page_guidelines\"&gt;Wikipedia:Talk page guidelines&lt;/a&gt;</string>
+  <string name="talk_edit_disclaimer">Ово је страница за разговор. Поштујте правила странице за разговор, и не заборавите да потпишете своје објаве куцајући четири тилде: ~~~~ када објављујете користећи викитекст.&lt;br&gt;&lt;br&gt;&lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Talk_page_guidelines\"&gt;Infopedia:Talk page guidelines&lt;/a&gt;</string>
   <string name="talk_search_hint">Претрага порука</string>
   <string name="talk_search_topics_hint">Претражи теме</string>
   <string name="talk_search_find_in_talk_topics_hint">Пронађи у теми на страници за разговор</string>
@@ -1633,7 +1633,7 @@
   <string name="donate_gpay_check_recurring">Донирај аутоматски сваког месеца.</string>
   <string name="donate_gpay_check_send_email">Да, нека ми Задужбина Викимедија периодично шаље имејлове.</string>
   <string name="donate_gpay_minimum_amount">Изаберите износ (најмање %s)</string>
-  <string name="donate_gpay_maximum_amount">Нисмо у могућности да прихватимо донације веће од %s путем наше апликације. Контактирајте наш тим за поклоне на benefactors@wikimedia.org.</string>
+  <string name="donate_gpay_maximum_amount">Нисмо у могућности да прихватимо донације веће од %s путем наше апликације. Контактирајте наш тим за поклоне на benefactors@infopedia.org.</string>
   <string name="donate_gpay_success_message">&lt;b&gt;Хвала пуно!&lt;/b&gt; Ваша великодушност ка Википедији значи нам много.</string>
   <string name="donate_gpay_help_problems">Проблема при донирању?</string>
   <string name="donate_gpay_help_other_ways">Други начини донирања</string>

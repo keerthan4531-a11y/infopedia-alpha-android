@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Af420
 * Ahmed-Najib-Biabani-Ibrahimkhel
@@ -11,9 +11,9 @@
 * شاه زمان پټان
 -->
 <resources>
-  <string name="app_name_prod">ويکيپېډيا</string>
-  <string name="app_name_beta">بيټا ويکيپېډيا</string>
-  <string name="app_name_alpha">الفا ويکيپېډيا</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">ويکي‌رسنۍ</string>
   <string name="nav_item_back">پر شا کېدل</string>
   <string name="page_tabs_back">پر شا کېدل</string>
@@ -147,7 +147,7 @@
   <string name="search_reading_lists_no_results">لوستلړونو کې هېڅ پايلې ونه موندل شوې</string>
   <string name="search_history_no_results">پېښليک کې هېڅ پايلې ونه موندل شوې</string>
   <string name="edit_section_captcha_message">د خپلکاره سپم څخه ژغورنې لپاره مهرباني وکړئ لاندېې ويي وليکئ.</string>
-  <string name="edit_section_captcha_request_an_account_message">انځور نه وينئ؟&lt;a href=\"https://ps.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;د يو گڼون غوښتنه وکړئ&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">انځور نه وينئ؟&lt;a href=\"https://ps.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;د يو گڼون غوښتنه وکړئ&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">پورتني ويوکي بياويل</string>
   <string name="title_captcha">کېپچا ورکړئ</string>
   <string name="edit_section_captcha_reload">په کپچا گوته ووهئ چې بيابرسېره شي</string>
@@ -214,7 +214,7 @@
   <string name="create_account_button">گڼون جوړول</string>
   <string name="create_account_name_unavailable">\"%s\" کارن‌نوم د لاسرسي وړ نه دی.\nمهرباني وکړئ يو بل نوم غوره کړئ.</string>
   <string name="create_account_ip_block_message">بښنې سره، اوسمهال ستاسو په وېب‌‌پتې د نوي گڼون جوړولو بنديز لگول شوی.</string>
-  <string name="create_account_ip_block_help_url">https://en.wikipedia.org/wiki/Help:I_have_been_blocked</string>
+  <string name="create_account_ip_block_help_url">https://en.Infopedia.org/wiki/Help:I_have_been_blocked</string>
   <string name="create_account_ip_block_details">سپيناوي</string>
   <string name="preferences_general_heading">ټولواله</string>
   <string name="preferences_account_heading">گڼون</string>
@@ -249,21 +249,21 @@
   <string name="privacy_policy_description">د پټنتيا تگلار</string>
   <string name="terms_of_use_description">د کارولو منښتونه</string>
   <string name="legal_safety_contacts_description">قانوني او خونديتوب اړيکې</string>
-  <string name="about_wikipedia_url">https://ps.wikipedia.org/wiki/ويکيپېډيا:پېژندنه</string>
-  <string name="privacy_policy_url">https://foundation.wikimedia.org/wiki/Special:MyLanguage/Privacy_policy/ps</string>
-  <string name="offline_reading_and_data_url">https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Offline_reading_and_data</string>
-  <string name="android_app_faq_url">https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ</string>
-  <string name="terms_of_use_url">https://foundation.wikimedia.org/wiki/Special:MyLanguage/Terms_of_Use</string>
-  <string name="android_app_request_an_account_url">https://ps.wikipedia.org/wiki/ويکيپېډيا:د_گڼون_جوړېدو_غوښتنه</string>
+  <string name="about_wikipedia_url">https://ps.Infopedia.org/wiki/ويکيپېډيا:پېژندنه</string>
+  <string name="privacy_policy_url">https://foundation.infopedia.org/wiki/Special:MyLanguage/Privacy_policy/ps</string>
+  <string name="offline_reading_and_data_url">https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Offline_reading_and_data</string>
+  <string name="android_app_faq_url">https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ</string>
+  <string name="terms_of_use_url">https://foundation.infopedia.org/wiki/Special:MyLanguage/Terms_of_Use</string>
+  <string name="android_app_request_an_account_url">https://ps.Infopedia.org/wiki/ويکيپېډيا:د_گڼون_جوړېدو_غوښتنه</string>
   <string name="cc_by_sa_4_url">https://creativecommons.org/licenses/by-sa/4.0/deed.ps</string>
   <string name="cc_0_url">https://creativecommons.org/publicdomain/zero/1.0/deed.ps</string>
   <string name="about_libraries_heading">کارېدلي کتابتونونه</string>
   <string name="about_contributors_heading">ونډه‌وال</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;ډله مخ&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;ډله مخ&lt;/a&gt;</string>
   <string name="about_translators_heading">ژباړونکي</string>
   <string name="about_translators_translatewiki">دا کاريال په &lt;a href=\"https://translatewiki.net\"&gt;ټرانسليټ‌ويکي‌.نېټ&lt;/a&gt; کې د خپل‌خوښو ژباړونکو له خوا ژباړل شوی.</string>
   <string name="about_app_license_heading">منښتليک</string>
-  <string name="about_app_license">سرچينې کوډ يې په &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;گيټ‌هاب&lt;/a&gt; کې د &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;اپاچې ۲.۰ منښتليک&lt;/a&gt; لاندې شتون لري. پرته له دې چې بل ډول مشخص شي منځپانگه د &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;ټولگړې پنځونې ځانگړي‌کونگ - ورته شريکېدنې منښتليک&lt;/a&gt; لاندې شتون لري.</string>
+  <string name="about_app_license">سرچينې کوډ يې په &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;گيټ‌هاب&lt;/a&gt; کې د &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;اپاچې ۲.۰ منښتليک&lt;/a&gt; لاندې شتون لري. پرته له دې چې بل ډول مشخص شي منځپانگه د &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;ټولگړې پنځونې ځانگړي‌کونگ - ورته شريکېدنې منښتليک&lt;/a&gt; لاندې شتون لري.</string>
   <string name="about_wmf">د &lt;a href=\"https://wikimediafoundation.org/\"&gt;ويکي‌رسنۍ بنسټ&lt;/a&gt; يوه زېږنده</string>
   <string name="about_activity_title">په اړه</string>
   <string name="about_logo_content_description">د ويکي‌پېډيا د اريانوونکې نړۍ نښان</string>
@@ -442,9 +442,9 @@
   <string name="error_blocked_start">د بنديز پیل: %s</string>
   <string name="error_blocked_expiry">د بنديز پای: %s</string>
   <string name="error_blocked_id">بنديز پېژند: %s</string>
-  <string name="error_blocked_footer">د بنديز اړوند تاسو کولی شئ له &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; يا يو بل &lt;a href=\"https://ps.wikipedia.org/wiki/ويکيپېډيا:پازوالان\"&gt;پازوال&lt;/a&gt; سره وغږېږئ.</string>
+  <string name="error_blocked_footer">د بنديز اړوند تاسو کولی شئ له &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; يا يو بل &lt;a href=\"https://ps.Infopedia.org/wiki/ويکيپېډيا:پازوالان\"&gt;پازوال&lt;/a&gt; سره وغږېږئ.</string>
   <string name="theme_chooser_menu_item_short_tooltip">خپله توک‌پټه دوديزول</string>
-  <string name="error_blocked_footer_no_blocker">د بنديز اړوند تاسو کولی شئ له يو &lt;a href=\"https://ps.wikipedia.org/wiki/ويکيپېډيا:پازوالان\"&gt;پازوال&lt;/a&gt; سره وغږېږئ.</string>
+  <string name="error_blocked_footer_no_blocker">د بنديز اړوند تاسو کولی شئ له يو &lt;a href=\"https://ps.Infopedia.org/wiki/ويکيپېډيا:پازوالان\"&gt;پازوال&lt;/a&gt; سره وغږېږئ.</string>
   <string name="temp_account_not_logged_in">تاسو غونډال کې ننوتي نه ياست</string>
   <string name="temp_account_anon_ip_dialog_body">کله چې تاسو سمون وکړئ، ستاسو وېب‌پته به ستاسو سمونونو سره ونښلي. د راتلونوکو سمونونو د امتياز ترلاسنې او نورو ځانگړنو ته د لاسرسي لپاره &lt;br /&gt;&lt;br /&gt;&lt;a href=\"https://#login\"&gt;غونډال ته ننوځئ&lt;/a&gt; يا &lt;a href=\"https://#createaccount\"&gt;گڼون جوړ کړئ&lt;/a&gt;.</string>
   <string name="temp_account_anon_dialog_body">کله چې تاسو سمون وکړئ؛ نو ستاسو د پټنتيا ساتلو لپاره به يو &lt;b&gt;لنډمهاله گڼون&lt;/b&gt; جوړ شي. &lt;a href=\"%1$s\"&gt;په دې اړه نور ولولئ&lt;/a&gt;. نورو ځانگړنو ته د لاسرسي لپاره &lt;br /&gt;&lt;br /&gt;&lt;a href=\"https://#login\"&gt;غونډال ته ننوځئ&lt;/a&gt; يا &lt;a href=\"https://#createaccount\"&gt;گڼون جوړ کړئ&lt;/a&gt;.</string>
@@ -588,8 +588,8 @@
   <string name="reading_list_confirm_remove_article_from_offline_title">ليکنه په څو لړليکونو کې ښکاري</string>
   <string name="reading_list_confirm_remove_article_from_offline_message">%s به نور په ټولو لوستلړونو کې په افلاين بڼه د لاسرسي وړ نه وي:</string>
   <string name="reading_lists_sync_reminder_title">لوستلړ همغږی کړي؟</string>
-  <string name="reading_lists_sync_reminder_text">هغه ليکنې چې لوستلړونو کې خوندي شوې دي، اوس ستاسو د ويکي‌پېډيا گڼون سره همغږي کېدای شي. a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;په دې اړه نور ولولئ&lt;/a&gt;</string>
-  <string name="reading_lists_login_reminder_text_with_link">لوستلړونه اوس په ټولو وسيلو کې همغږي کېدای شي. خپل ويکي‌پېډيا گڼون ته ننوځئ او خپلو لوستلړنو ته د خوندي کېدو اجازه ورکړئ. &lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;په دې اړه نور مالومات زده کړئ&lt;/a&gt;</string>
+  <string name="reading_lists_sync_reminder_text">هغه ليکنې چې لوستلړونو کې خوندي شوې دي، اوس ستاسو د ويکي‌پېډيا گڼون سره همغږي کېدای شي. a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;په دې اړه نور ولولئ&lt;/a&gt;</string>
+  <string name="reading_lists_login_reminder_text_with_link">لوستلړونه اوس په ټولو وسيلو کې همغږي کېدای شي. خپل ويکي‌پېډيا گڼون ته ننوځئ او خپلو لوستلړنو ته د خوندي کېدو اجازه ورکړئ. &lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;په دې اړه نور مالومات زده کړئ&lt;/a&gt;</string>
   <string name="reading_lists_sync_reminder_action">همغږي چارنول</string>
   <string name="reading_list_login_reminder_title">لوستلړونه همغږي کول</string>
   <string name="reading_lists_login_reminder_text">لوستلړونه اوس په ټولو وسيلو کې همغږي کېدای شي. خپل ويکي‌پېډيا گڼون ته ننوځئ او خپلو لوستلړنو ته د خوندي کېدو اجازه ورکړئ.</string>
@@ -1417,7 +1417,7 @@
   <string name="talk_snackbar_survey_action_text">پيلول</string>
   <string name="talk_share_discussion_subject">ويکيپېډيا - په \"%s\" سکالو باندې د خبرو اترو مخ شننه</string>
   <string name="talk_share_talk_page">ويکيپېډيا - د خبرو اترو مخ کې شننې</string>
-  <string name="talk_edit_disclaimer">دا د خبرو اترو مخ دی. مهرباني وکړئ د خبرو اترو مخ لارښوونو ته درناوی وکړئ او په ياد ولرئ چې خپلې ليکنې څلور مدونو ليکلو سره لاسليک کړئ: ~~~~ کله چې ويکي‌متن کارولو سره پوسټ کوئ. &lt;br&gt;&lt;br&gt;&lt;a href=\"https://ps.wikipedia.org/wiki/ويکيپېډيا:د_خبرو_اترو_مخونو_لارښود\"&gt;ويکيپېډيا:د خبرو اترو مخونو لارښود&lt;/a&gt;</string>
+  <string name="talk_edit_disclaimer">دا د خبرو اترو مخ دی. مهرباني وکړئ د خبرو اترو مخ لارښوونو ته درناوی وکړئ او په ياد ولرئ چې خپلې ليکنې څلور مدونو ليکلو سره لاسليک کړئ: ~~~~ کله چې ويکي‌متن کارولو سره پوسټ کوئ. &lt;br&gt;&lt;br&gt;&lt;a href=\"https://ps.Infopedia.org/wiki/ويکيپېډيا:د_خبرو_اترو_مخونو_لارښود\"&gt;ويکيپېډيا:د خبرو اترو مخونو لارښود&lt;/a&gt;</string>
   <string name="talk_search_hint">پيغامونه پلټل</string>
   <string name="talk_search_topics_hint">سکالوگانې پلټل</string>
   <string name="talk_search_find_in_talk_topics_hint">د خبرو اترو مخ سکالو کې پلټل</string>
@@ -1732,7 +1732,7 @@
   <string name="patroller_saved_message_body_edit_summary">سلام {{{username}}}، داسې ښکاري چې تاسو د ويکي‌پېډيا څخه منځپانگه لرې کړې ده، بې له دې چې د هغې د سمون لنډيز پرېږدئ. مهرباني وکړئ هرلکه چې تاسو ته ويکي‌پېډيا منځپانگه ورگډوئ يا لرې کوئ، د سمون لنډيز يې وليکئ.</string>
   <string name="patroller_saved_message_body_do_not_censor">سلام {{{username}}}، داسې ښکاري چې تاسو د ليکنې د خبرو اترو مخ کې له شننې کولو پرته منځپانگه لرې کړې ده. مهرباني وکړئ دا په ياد ولرئ چې ويکي‌پېډيا کوم سانسور نه دی او منځپانگه بايد لرې نه شي ځکه چې دا جنجال جوړوي. که تاسو باوري ياست چې مالومات ناسم دي، مهرباني وکړئ د ليکنې د خبرو اترو مخ کې پرې يوې اجماع ته ورسېږې.</string>
   <string name="talk_warn_learn_more_label">د پيغام ځاي‌ناستو په اړه نور زده کړئ</string>
-  <string name="talk_warn_learn_more_url">https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_Suggested_edits#Message_placeholders</string>
+  <string name="talk_warn_learn_more_url">https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_Suggested_edits#Message_placeholders</string>
   <string name="talk_warn_saved_messages_usage_instruction">لاندې يو پيغام د خپلو پيغامونو دوديزولو، لېږلو او خوندي کولو لپاره د بېلگې په توگه وکاروئ.</string>
   <string name="patroller_saved_message_body_art_imp">سلام {{{username}}}. ستاسو ليکنه يو ښه پيل ده! د دې لا ښه کولو لپاره د باوري سرچينو لپاره د نورو سرچينو ورگډول په پام کې ونيسئ. دا د مالوماتو تاييد کې مرسته کوي او د ليکنې کيفيت ښه کوي. د نور سپيناوي لپاره د ويکي‌پېډيا د [[ويکيپېډيا:باوري_سرچينې|باوري سرچينو]] لارښود کرښې وگورئ.</string>
   <string name="talk_templates_menu_edit_title">سمول</string>
@@ -1758,7 +1758,7 @@
   <string name="donate_gpay_check_recurring">دا د مياشتنۍ تکراري بسپنې په توگه جوړ کړئ.</string>
   <string name="donate_gpay_check_send_email">هو، ويکي‌رسنۍ بنسټ کله ناکله ماته برېښليک رالېږلی شي.</string>
   <string name="donate_gpay_minimum_amount">مهرباني وکړئ اندازه وټاکئ (لږترلږه %s)</string>
-  <string name="donate_gpay_maximum_amount">موږ د خپل کاريال له لارې له %s څخه ډېره بسپنه نشو منلی. مهرباني وکړئ زموږ د لويو ډاليو کارمندانو سره په benefactors@wikimedia.org کې اړيکه ونيسئ.</string>
+  <string name="donate_gpay_maximum_amount">موږ د خپل کاريال له لارې له %s څخه ډېره بسپنه نشو منلی. مهرباني وکړئ زموږ د لويو ډاليو کارمندانو سره په benefactors@infopedia.org کې اړيکه ونيسئ.</string>
   <string name="donate_gpay_success_message">&lt;b&gt;مننه!&lt;/b&gt; ويکي‌پېډيا سره ستاسو سخاوت زموږ لپاره ډېر ارزښت لري.</string>
   <string name="donate_gpay_help_problems">د بسپنه ورکولو ستونزې؟</string>
   <string name="donate_gpay_help_other_ways">د ورکولو نورې لارې</string>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Astrind
 * Bugoslav
@@ -17,9 +17,9 @@
 * Wumbolo
 -->
 <resources>
-  <string name="app_name_prod">Wikipedija</string>
-  <string name="app_name_beta">Wikipedija Beta</string>
-  <string name="app_name_alpha">Wikipedija Alfa</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Wikimedija</string>
   <string name="nav_item_back">Natrag</string>
   <string name="page_tabs_back">Natrag</string>
@@ -154,7 +154,7 @@
   <string name="search_reading_lists_no_results">Nisu pronađeni rezultati na popisima za čitanje</string>
   <string name="search_history_no_results">Nisu pronađeni rezultati u povijesti</string>
   <string name="edit_section_captcha_message">Da biste se zaštitili od neželjenih poruka, molimo unesite riječi koje se pokazuju ispod</string>
-  <string name="edit_section_captcha_request_an_account_message">Ne vidite sliku? &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;Zatražite račun&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">Ne vidite sliku? &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;Zatražite račun&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">Ponovite riječi iznad</string>
   <string name="title_captcha">Unesite CAPTCHA</string>
   <string name="edit_section_captcha_reload">Za ponovno učitavanje dodirnite CAPTCHA</string>
@@ -220,7 +220,7 @@
   <string name="create_account_button">Otvori suradnički račun</string>
   <string name="create_account_name_unavailable">Suradničko ime \"%s\" nije dostupno. Molimo izaberite drugo ime.</string>
   <string name="create_account_ip_block_message">Žao nam je, Vašoj internetskoj adresi trenutačno je zabranjeno stvaranje novih računa.</string>
-  <string name="create_account_ip_block_help_url">https://en.wikipedia.org/wiki/Help:I_have_been_blocked</string>
+  <string name="create_account_ip_block_help_url">https://en.Infopedia.org/wiki/Help:I_have_been_blocked</string>
   <string name="create_account_ip_block_details">Detalji</string>
   <string name="preferences_general_heading">Općenito</string>
   <string name="preferences_account_heading">Račun</string>
@@ -250,19 +250,19 @@
   <string name="page_watchlist_overflow_menu_onboarding_tooltip_title">Dodaj na popis praćenja</string>
   <string name="settings_item_preferences">Postavke</string>
   <string name="settings_activity_title">Postavke</string>
-  <string name="about_description">O aplikaciji \"Wikipedia\"</string>
+  <string name="about_description">O aplikaciji \"Infopedia\"</string>
   <string name="privacy_policy_description">Politika privatnosti</string>
   <string name="terms_of_use_description">Uvjeti uporabe</string>
-  <string name="about_wikipedia_url">https://en.wikipedia.org/wiki/Wikipedia:About</string>
+  <string name="about_wikipedia_url">https://en.Infopedia.org/wiki/Infopedia:About</string>
   <string name="cc_by_sa_4_url">https://creativecommons.org/licenses/by-sa/4.0/deed.hr</string>
   <string name="cc_0_url">https://creativecommons.org/publicdomain/zero/1.0/deed.hr</string>
   <string name="about_libraries_heading">Korištene biblioteke</string>
   <string name="about_contributors_heading">Doprinositelji</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Timska stranica&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Timska stranica&lt;/a&gt;</string>
   <string name="about_translators_heading">Prevoditelji</string>
   <string name="about_translators_translatewiki">Ovu aplikaciju preveli su su prevoditelji volonteri na projektu &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt;.</string>
   <string name="about_app_license_heading">Licencija</string>
-  <string name="about_app_license">Izvorni kôd dostupan je na &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;GitHubu&lt;/a&gt; pod licencijom &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0&lt;/a&gt;. Ako nije drugačije navedeno, sadržaj je dostupan pod licencijom &lt;a href=\" &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Creative Commons Attribution-ShareAlike&lt;/a&gt;.</string>
+  <string name="about_app_license">Izvorni kôd dostupan je na &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;GitHubu&lt;/a&gt; pod licencijom &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0&lt;/a&gt;. Ako nije drugačije navedeno, sadržaj je dostupan pod licencijom &lt;a href=\" &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Creative Commons Attribution-ShareAlike&lt;/a&gt;.</string>
   <string name="about_wmf">Proizvod &lt;a href=\"https://wikimediafoundation.org/\"&gt;Zaklade Wikimedija&lt;/a&gt;</string>
   <string name="about_activity_title">O</string>
   <string name="about_logo_content_description">Globus od slagalica, logotip Wikipedije</string>
@@ -307,7 +307,7 @@
   <string name="abusefilter_title_warn">Ovo uređivanje možda je nekonstruktivno. Želite li ga objaviti?</string>
   <string name="abusefilter_title_disallow">Ne možete objaviti ovo uređivanje. Vratite se natrag i promijenite ga.</string>
   <string name="abusefilter_text_warn">Automatizirani filter je ovo uređivanje označio kao moguće nekonstruktivno. Moguće je da sadrži nešto od sljedećeg:&lt;br /&gt;&lt;br /&gt;· pisanje tiskanim slovima&lt;br /&gt;· brisanje članaka ili spamiranje&lt;br /&gt;· nevažne vanjske poveznice ili slike&lt;br /&gt;· ponavljanje znakova</string>
-  <string name="abusefilter_text_disallow">An automated filter has identified this edit as potentially unconstructive, or potential vandalism.&lt;br /&gt;&lt;br /&gt;Wikipedia is an encyclopedia and only neutral, notable content belongs here.\n\nAutomatizirani filter je ovo uređivanje označio kao moguće nekonstruktivno ili vandalizam.&lt;br /&gt;&lt;br /&gt;Wikipedija je enciklopedija i dodajite samo neutralan i provjerljiv sadržaj.</string>
+  <string name="abusefilter_text_disallow">An automated filter has identified this edit as potentially unconstructive, or potential vandalism.&lt;br /&gt;&lt;br /&gt;Infopedia is an encyclopedia and only neutral, notable content belongs here.\n\nAutomatizirani filter je ovo uređivanje označio kao moguće nekonstruktivno ili vandalizam.&lt;br /&gt;&lt;br /&gt;Wikipedija je enciklopedija i dodajite samo neutralan i provjerljiv sadržaj.</string>
   <string name="page_similar_titles">Slične stranice</string>
   <string name="search_did_you_mean">Jeste li mislili \"%s\"?</string>
   <string name="search_recent_header">Nedavna pretraživanja:</string>
@@ -329,7 +329,7 @@
   <string name="widget_title_featured_page">Današnja izabrana stranica:</string>
   <string name="widget_name_search">Pretraživanje Wikipedije</string>
   <string name="widget_description_search">Najbrži način pretraživanja Wikipedije</string>
-  <string name="widget_description_featured_page">Najbolji članci koje Wikipedia nudi</string>
+  <string name="widget_description_featured_page">Najbolji članci koje Infopedia nudi</string>
   <string name="wiktionary_no_definitions_found">Nema pronađenih definicija.</string>
   <string name="alpha_update_notification_title">Dostupno je novo alfa ažuriranje</string>
   <string name="alpha_update_notification_text">Dodirnite za preuzimanje</string>
@@ -432,9 +432,9 @@
   <string name="error_blocked_start">Početak blokade: %s</string>
   <string name="error_blocked_expiry">Završetak blokade: %s</string>
   <string name="error_blocked_id">ID blokade: %s</string>
-  <string name="error_blocked_footer">Za razgovor o blokiranju možete kontaktirati &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; ili drugog &lt;a href=\"https://hr.wikipedia.org/wiki/Wikipedija:Administratori\"&gt;administratora&lt;/a&gt;.</string>
+  <string name="error_blocked_footer">Za razgovor o blokiranju možete kontaktirati &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; ili drugog &lt;a href=\"https://hr.Infopedia.org/wiki/Wikipedija:Administratori\"&gt;administratora&lt;/a&gt;.</string>
   <string name="theme_chooser_menu_item_short_tooltip">Uredi alatnu traku</string>
-  <string name="error_blocked_footer_no_blocker">Za razgovor o blokiranju možete kontaktirati &lt;a href=\"https://hr.wikipedia.org/wiki/Wikipedija:Administratori\"&gt;administratora&lt;/a&gt;.</string>
+  <string name="error_blocked_footer_no_blocker">Za razgovor o blokiranju možete kontaktirati &lt;a href=\"https://hr.Infopedia.org/wiki/Wikipedija:Administratori\"&gt;administratora&lt;/a&gt;.</string>
   <string name="temp_account_not_logged_in">Niste prijavljeni</string>
   <string name="temp_account_anon_ip_dialog_body">Kad napravite izmjenu, vaše izmjene pripisat će se vašoj IP adresi.&lt;br /&gt;&lt;a href=\"https://#login\"&gt;Prijavite se&lt;/a&gt; ili &lt;a href=\"https://#createaccount\"&gt;registrirajte&lt;/a&gt; da bi vam se pripisale zasluge za buduće izmjene i da biste dobili pristup drugim mogućnostima.</string>
   <string name="temp_account_dialog_ok">Shvaćam</string>

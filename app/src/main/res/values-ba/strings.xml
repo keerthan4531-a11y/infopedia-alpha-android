@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Bashkorttan
 * Dbrant
@@ -22,9 +22,9 @@
 * Янмурза Баки
 -->
 <resources>
-  <string name="app_name_prod">Википедия</string>
-  <string name="app_name_beta">Википедия Бета</string>
-  <string name="app_name_alpha">Википедия Альфа</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Викимедиа</string>
   <string name="nav_item_back">Кирегә</string>
   <string name="page_tabs_back">Кирегә</string>
@@ -147,7 +147,7 @@
   <string name="search_reading_lists_no_results">Уҡыу исемлектәрендә һөҙөмтәләр табылманы</string>
   <string name="search_history_no_results">Тарихта һөҙөмтәләр табылманы</string>
   <string name="edit_section_captcha_message">Автоматлаштырылған спамдан һаҡланыу өсөн түбәндәге һүҙҙе яҙығыҙ.</string>
-  <string name="edit_section_captcha_request_an_account_message">Һүрәтте күрмәйһегеҙме? &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;Иҫәп яҙмаһын һорарға&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">Һүрәтте күрмәйһегеҙме? &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;Иҫәп яҙмаһын һорарға&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">Өҫтәге һүҙҙе ҡабатлағыҙ</string>
   <string name="title_captcha">CAPTCHA индерегеҙ</string>
   <string name="edit_section_captcha_reload">Яңыртыу өсөн CAPTCHA-ға ҡағылығыҙ</string>
@@ -211,7 +211,7 @@
   <string name="create_account_button">Иҫәп яҙмаһын булдырырға</string>
   <string name="create_account_name_unavailable">Ҡатнашыусы \"%s\" исеме уҡылмай. Зинһар, башҡа исем һайлағыҙ.</string>
   <string name="create_account_ip_block_message">Ғәфү итегеҙ, һеҙҙең IP-адрес яңы иҫәп яҙмалары булдырыуҙан бикләнгән.</string>
-  <string name="create_account_ip_block_help_url">https://ru.wikipedia.org/wiki/Википедия:Бикләүҙәр</string>
+  <string name="create_account_ip_block_help_url">https://ru.Infopedia.org/wiki/Википедия:Бикләүҙәр</string>
   <string name="create_account_ip_block_details">Ентеклерәк</string>
   <string name="preferences_general_heading">Дөйөм</string>
   <string name="preferences_account_heading">Иҫәп яҙмаһы</string>
@@ -245,14 +245,14 @@
   <string name="about_description">«Википедия» ҡушымтаһы тураһында</string>
   <string name="privacy_policy_description">Сер һаҡлау сәйәсәте</string>
   <string name="terms_of_use_description">Ҡулланыу шарттары</string>
-  <string name="about_wikipedia_url">https://ba.wikipedia.org/wiki/Википедия:Тасуирлама</string>
+  <string name="about_wikipedia_url">https://ba.Infopedia.org/wiki/Википедия:Тасуирлама</string>
   <string name="about_libraries_heading">Файҙаланылған китапханалар</string>
   <string name="about_contributors_heading">Авторҙар</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Команда бите&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Команда бите&lt;/a&gt;</string>
   <string name="about_translators_heading">Тәржемәселәр</string>
   <string name="about_translators_translatewiki">Был ҡушымта &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt; ирекмәндәре тарафынан тәржемә ителгән.</string>
   <string name="about_app_license_heading">Лицензия</string>
-  <string name="about_app_license">Код сығанағы [GitHub](https://github.com/wikimedia/apps-android-wikipedia) сайтында [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0) аҫтында. Әгәр башҡаһы күрһәтелмәһә, эстәлек [Creative Commons Attribution-ShareAlike License](https://creativecommons.org/licenses/by-sa/4.0) аҫтында.</string>
+  <string name="about_app_license">Код сығанағы [GitHub](https://github.com/wikimedia/apps-android-Infopedia) сайтында [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0) аҫтында. Әгәр башҡаһы күрһәтелмәһә, эстәлек [Creative Commons Attribution-ShareAlike License](https://creativecommons.org/licenses/by-sa/4.0) аҫтында.</string>
   <string name="about_wmf">&lt;a href=\"https://wikimediafoundation.org/\"&gt; Викимедиа фонды&lt;/a&gt; продукты</string>
   <string name="about_activity_title">Ҡушымта тураһында</string>
   <string name="edit_abandon_confirm">Бит үҙгәртелде. Үҙгәртеүҙәрҙе һаҡламайынса сығырға уйлайһығыҙмы?</string>
@@ -430,9 +430,9 @@
   <string name="error_blocked_start">Бикләү башлана: %s</string>
   <string name="error_blocked_expiry">Бикләү тамамлана: %s</string>
   <string name="error_blocked_id">Бикләү идентификаторы: %s</string>
-  <string name="error_blocked_footer">Һеҙ &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; йәки башҡа &lt;a href=\"https://ru.wikipedia.org/wiki/Википедия:Администраторы\"&gt;хаким&lt;/a&gt; менән бикләү тураһында һөйләшә алаһығыҙ.</string>
+  <string name="error_blocked_footer">Һеҙ &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; йәки башҡа &lt;a href=\"https://ru.Infopedia.org/wiki/Википедия:Администраторы\"&gt;хаким&lt;/a&gt; менән бикләү тураһында һөйләшә алаһығыҙ.</string>
   <string name="theme_chooser_menu_item_short_tooltip">Ҡоралдар панелын көйләгеҙ</string>
-  <string name="error_blocked_footer_no_blocker">Һеҙ &lt;a href=\"https://ru.wikipedia.org/wiki/Википедия:Администраторы\"&gt;хаким&lt;/a&gt; менән бикләү сәбәптәре тураһында һөйләшә алаһығыҙ</string>
+  <string name="error_blocked_footer_no_blocker">Һеҙ &lt;a href=\"https://ru.Infopedia.org/wiki/Википедия:Администраторы\"&gt;хаким&lt;/a&gt; менән бикләү сәбәптәре тураһында һөйләшә алаһығыҙ</string>
   <string name="temp_account_not_logged_in">Һеҙ системаға инмәнегеҙ</string>
   <string name="temp_account_anon_dialog_body" fuzzy="true">Бер үҙгәртеү индергәс, һеҙҙең өсөн шәхси мәғлүмәтегеҙҙе яҡлау маҡсатында &lt;b&gt;ваҡытлыса аккаунт&lt;/b&gt; булдырыласаҡ. [Тулыраҡ мәғлүмәт](%1$s).&lt;br /&gt;&lt;br /&gt;Киләсәктәге үҙгәртеүҙәр өсөн кредит алыу һәм башҡа мөмкинлектәргә инеү өсөн [Системаға инегеҙ](https://#login) йәки [Аккаунт булдырығыҙ](https://#login).</string>
   <string name="temp_account_temp_dialog_body" fuzzy="true">Һеҙҙең үҙгәртеү %1$s исеме аҫтында күрһәтеләсәк. Һеҙҙең IP-адресығыҙ администраторҙар өсөн күренерлек буласаҡ.&lt;br /&gt;&lt;br /&gt;Әгәр һеҙ &lt;a href=\"https://#login\"&gt;инеп&lt;/a&gt; йәки &lt;a href=\"https://#login\"&gt;яңы аккаунт булдырһағыҙ&lt;/a&gt;, һеҙҙең үҙгәртеүҙәрегеҙ һеҙ һайлаған исем аҫтында күрһәтеләсәк, башҡа өҫтөнлөктәр менән бер рәттән.</string>
@@ -550,7 +550,7 @@
   <string name="reading_lists_default_list_delete_message">Программа көйләгән исемлек (%s) юйыла алмай</string>
   <string name="reading_lists_default_plus_one_list_delete_message">%1$s исемлеге юйылған. Программа көйләгән исемлек (%2$s) юйыла алмай.</string>
   <string name="reading_lists_default_plus_many_lists_delete_message">Исемлектәр юйылған. Программа көйләгән исемлек (%s) юйыла алмай.</string>
-  <string name="single_list_json_file_name">%s (Wikipedia reading list).json</string>
+  <string name="single_list_json_file_name">%s (Infopedia reading list).json</string>
   <string name="multiple_lists_json_file_name">Википедия уҡыу исемлеге (%s һәм күберәк).json</string>
   <string name="reading_list_items_deleted">%d мәҡәлә исемлектән юйылған</string>
   <string name="reading_lists_item_deleted">%s исемлектәрҙән юйылған</string>
@@ -571,8 +571,8 @@
   <string name="reading_list_confirm_remove_article_from_offline_title">Мәҡәлә бер-нисә исемлеккә индерелгән</string>
   <string name="reading_list_confirm_remove_article_from_offline_message">барлыҡ уҡыу исемлектәрендә  %s бите башҡаса офлайн-режимда  булмаясаҡ</string>
   <string name="reading_lists_sync_reminder_title">Уҡыу исемлеген синхронлаштырыуҙы ҡабыҙырғамы?</string>
-  <string name="reading_lists_sync_reminder_text" fuzzy="true">Уҡыу исемлегендә һаҡланған мәҡәләләрҙе хәҙер Википедиялағы иҫәп яҙмаһы менән синхронлаштырырға мөмкин. &lt;a href=\"https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ/tr#Synced_reading_lists\"&gt;Күберәк белергә&lt;/a&gt;</string>
-  <string name="reading_lists_login_reminder_text_with_link" fuzzy="true">Уҡыу өсөн исемлектәрҙе хәҙер ҡулайламалар араһында синхронлаштырырға мөмкин. Википедияның иҫәп яҙмаһына инегеҙ һәм исемлектәрҙе һаҡларға рөхсәт итегеҙ. &lt;a href=\"https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Күберәк белергә&lt;/a&gt;</string>
+  <string name="reading_lists_sync_reminder_text" fuzzy="true">Уҡыу исемлегендә һаҡланған мәҡәләләрҙе хәҙер Википедиялағы иҫәп яҙмаһы менән синхронлаштырырға мөмкин. &lt;a href=\"https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ/tr#Synced_reading_lists\"&gt;Күберәк белергә&lt;/a&gt;</string>
+  <string name="reading_lists_login_reminder_text_with_link" fuzzy="true">Уҡыу өсөн исемлектәрҙе хәҙер ҡулайламалар араһында синхронлаштырырға мөмкин. Википедияның иҫәп яҙмаһына инегеҙ һәм исемлектәрҙе һаҡларға рөхсәт итегеҙ. &lt;a href=\"https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Күберәк белергә&lt;/a&gt;</string>
   <string name="reading_lists_sync_reminder_action">Синхронлаштырыуҙы ҡабыҙырға</string>
   <string name="reading_list_login_reminder_title">Уҡыу исемлектәрен синхронлаштырырға</string>
   <string name="reading_lists_login_reminder_text">Уҡыу исемлеге хәҙер ҡоролмалар араһында синхронлаштырыла. Үҙегеҙҙең иҫәп яҙмаһына инегеҙ һәм исемлектәрҙе һаҡларға рөхсәт итегеҙ.</string>
@@ -1288,7 +1288,7 @@
   <string name="talk_snackbar_survey_action_text">Башларға</string>
   <string name="talk_share_discussion_subject">Википедия - фекер алышыу темаһы \"%s\"</string>
   <string name="talk_share_talk_page">Википедия - фекер алышыу бите</string>
-  <string name="talk_edit_disclaimer">Был - фекер алышыу бите. Зинһар, фекер алышыу бите ҡағиҙәләрен үтәгеҙ, һәм хәбәрегеҙ һуңында ҡултамғаны дүрт тильда - ~~~~ менән ҡуйырға онотмағыҙ.\n&lt;br&gt;&lt;br&gt; &lt;a href=\"https://ru.wikipedia.org/wiki/Википедия:Фекер алышыу ҡағиҙәләре\"&gt;Википедия:Фекер алышыу ҡағиҙәләре&lt;/a&gt;</string>
+  <string name="talk_edit_disclaimer">Был - фекер алышыу бите. Зинһар, фекер алышыу бите ҡағиҙәләрен үтәгеҙ, һәм хәбәрегеҙ һуңында ҡултамғаны дүрт тильда - ~~~~ менән ҡуйырға онотмағыҙ.\n&lt;br&gt;&lt;br&gt; &lt;a href=\"https://ru.Infopedia.org/wiki/Википедия:Фекер алышыу ҡағиҙәләре\"&gt;Википедия:Фекер алышыу ҡағиҙәләре&lt;/a&gt;</string>
   <string name="talk_search_hint">Хәбәрҙәрҙе эҙләргә</string>
   <string name="talk_search_topics_hint">Темаларҙа эҙләргә</string>
   <string name="talk_search_find_in_talk_topics_hint">Фекер алышу битендә теманы эҙләү</string>

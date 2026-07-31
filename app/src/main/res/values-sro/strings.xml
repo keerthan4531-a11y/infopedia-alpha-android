@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * F Samaritani
 * Larentzu
 -->
 <resources>
-  <string name="app_name_prod">Wikipedia</string>
-  <string name="app_name_beta">Wikipedia Beta</string>
-  <string name="app_name_alpha">Wikipedia Alpha</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Wikimèdia</string>
   <string name="nav_item_back">Acoa</string>
   <string name="page_tabs_back">Acoa</string>
   <string name="nav_item_forward">Ainnantis</string>
-  <string name="search_hint">Circa in Wikipedia</string>
+  <string name="search_hint">Circa in Infopedia</string>
   <string name="search_hint_voice_search">Circa a boxi</string>
   <string name="search_hint_search_languages">Circa una lìngua</string>
   <string name="filter_hint_filter_my_lists_and_articles">Circa me is elencus</string>
@@ -103,12 +103,12 @@
   <string name="edit_save_action_license_logged_in" fuzzy="true">Pubrichendi, ses acetendi is &lt;a href=\"%1$s\"&gt;Cunditzionis de impreu&lt;/a&gt; nostras e ses acetendi de lassai po sempri s\'agiudu cosa tua segundu sa licèntzia &lt;a href=\"%2$s\"&gt;CC BY-SA 3.0&lt;/a&gt;.</string>
   <string name="edit_save_action_license_anon" fuzzy="true">Pubrichendi, ses acetendi is &lt;a href=\"%1$s\"&gt;Cunditzionis de impreu&lt;/a&gt; nostras e ses acetendi de lassai po sempri s\'agiudu cosa tua segundu sa licèntzia &lt;a href=\"%2$s\"&gt;CC BY-SA 3.0&lt;/a&gt;. Is càmbius funt a essi arrelataus a s\'indiritzu IP de s\'aparìciu tuu. Chi &lt;a href=\"https://#login\"&gt;intras&lt;/a&gt;, as a tenni privacy prus manna.</string>
   <string name="edit_anon_warning">Is càmbius funt a essi arrelataus a s\'indiritzu IP de s\'aparìciu tuu. Chi &lt;a href=\"https://#login\"&gt;intras&lt;/a&gt;, as a tenni privacy prus manna.</string>
-  <string name="preference_title_language">Lìnguas de Wikipedia</string>
+  <string name="preference_title_language">Lìnguas de Infopedia</string>
   <string name="langlinks_filter_hint">Circa</string>
   <string name="langlinks_empty">Custa pàgina no est fasia in atras lìnguas.</string>
   <string name="langlinks_no_match">Nisciuna lìngua agatada</string>
   <string name="langlinks_activity_title">Atras lìnguas</string>
-  <string name="langlinks_your_wikipedia_languages">Lìnguas tuas de Wikipedia</string>
+  <string name="langlinks_your_wikipedia_languages">Lìnguas tuas de Infopedia</string>
   <string name="menu_save_changes">Pùbrica is càmbius</string>
   <string name="edit_saved_successfully">Càmbiu pubricau!</string>
   <string name="dialog_message_edit_failed">Càmbiu no arrennèsciu!</string>
@@ -123,11 +123,11 @@
   <string name="search_reading_lists_no_results">Nisciunu arresultau agatau me is listas de ligidura</string>
   <string name="search_history_no_results">Nisciunu arresultau agatau in sa cronologia</string>
   <string name="edit_section_captcha_message">Po agiudai a amparai de su spam automàticu, po prexeri inserta is fueddus chi aparessint asuta</string>
-  <string name="edit_section_captcha_request_an_account_message">Non podit biri sa màgina? &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;Pedi unu contu&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">Non podit biri sa màgina? &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;Pedi unu contu&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">Arrapiti is fueddus de artu</string>
   <string name="title_captcha">Inserta su CAPTCHA</string>
   <string name="edit_section_captcha_reload">Toca su CAPTCHA po torrai a carrigai</string>
-  <string name="nav_item_login">Intra in Wikipedia</string>
+  <string name="nav_item_login">Intra in Infopedia</string>
   <string name="login_username_hint">Nòmini umperadori</string>
   <string name="login_password_hint">Password</string>
   <string name="account_creation_password_hint">Password</string>
@@ -150,19 +150,19 @@
   <string name="logout_prompt">Custu t\'at a bogai s\'acàpiu de totu s\'aparìcius ddui ses imoi acapiau. Sighiri bolis?</string>
   <string name="logout_dialog_cancel_button_text">Annudda</string>
   <string name="logged_out_in_background_title">Bessiu</string>
-  <string name="logged_out_in_background_dialog">T\'ant bogau s\'acàpiu de Wikipedia. Bolis fai torra s\'intrada?</string>
+  <string name="logged_out_in_background_dialog">T\'ant bogau s\'acàpiu de Infopedia. Bolis fai torra s\'intrada?</string>
   <string name="logged_out_in_background_login">Intra</string>
   <string name="logged_out_in_background_cancel">Annudda</string>
   <string name="history_empty_title">Nisciuna boxi bia imoi de pagu</string>
   <string name="history_empty_message">Trassa innoi su chi as lìgiu.</string>
   <string name="history_offline_articles_toast">Carchi boxi in sa cronologia iat a podi no essi visìbili offline.</string>
   <string name="search_empty_message">Circa e ligi s\'enciclopedia lìbera in sa lìngua tua</string>
-  <string name="search_empty_message_multilingual_upgrade">Circa in Wikipedia in prus lìnguas</string>
+  <string name="search_empty_message_multilingual_upgrade">Circa in Infopedia in prus lìnguas</string>
   <string name="delete_selected_items">Boga is elementus pigaus</string>
   <string name="wp_stylized">&lt;big&gt;W&lt;/big&gt;IKIPEDI&lt;big&gt;A&lt;/big&gt;</string>
   <string name="create_account_username_hint">Nòmini umperadori</string>
   <string name="login_dont_have_account">Non tenis unu contu?</string>
-  <string name="login_join_wikipedia">Unirisì a Wikipedia</string>
+  <string name="login_join_wikipedia">Unirisì a Infopedia</string>
   <string name="login_forgot_password">As scarèsciu sa password?</string>
   <string name="create_account_already_have">Tenis giai unu contu?</string>
   <string name="create_account_activity_title">Crea unu contu</string>
@@ -184,11 +184,11 @@
   <string name="create_account_button">Crea unu contu</string>
   <string name="create_account_name_unavailable">Su nòmini umperadori \"%s\" no est fasiu. Po prexeri, scèbera unu nòmini diferenti.</string>
   <string name="create_account_ip_block_message">Scusasì, s\'indiritzu IP tuu imoi est siddau e non podis criai contus nous.</string>
-  <string name="create_account_ip_block_help_url">https://it.m.wikipedia.org/wiki/Wikipedia:Politiche_di_blocco_degli_utenti</string>
+  <string name="create_account_ip_block_help_url">https://it.m.Infopedia.org/wiki/Infopedia:Politiche_di_blocco_degli_utenti</string>
   <string name="create_account_ip_block_details">Minudas</string>
   <string name="preferences_general_heading">Generali</string>
   <string name="preferences_account_heading">Contu</string>
-  <string name="wikipedia_app_faq">Wikipedia App FAQ</string>
+  <string name="wikipedia_app_faq">Infopedia App FAQ</string>
   <string name="send_feedback">Imbia cumentu de s\'aplicatzioni</string>
   <string name="create_account_account_created_toast">Contu criau!</string>
   <string name="preferences_heading_syncing">Sincronizendi</string>
@@ -196,8 +196,8 @@
   <string name="preferences_heading_experimental">Sperimentali</string>
   <string name="preference_title_sync_reading_lists_from_account">Sincronizendi sa lista de ligidura</string>
   <string name="preference_title_download_reading_list_articles">Scàrriga is boxis me is listas de ligidura</string>
-  <string name="preference_summary_sync_reading_lists">Sincroniza is listas de ligidura in aparìcius diversus sarvendiddusì in su contu tuu de Wikipedia</string>
-  <string name="preference_summary_sync_reading_lists_from_account">Sincroniza is listas de ligidura in aparìcius diversus sarvendiddusì in su contu tuu de Wikipedia \"%s\"</string>
+  <string name="preference_summary_sync_reading_lists">Sincroniza is listas de ligidura in aparìcius diversus sarvendiddusì in su contu tuu de Infopedia</string>
+  <string name="preference_summary_sync_reading_lists_from_account">Sincroniza is listas de ligidura in aparìcius diversus sarvendiddusì in su contu tuu de Infopedia \"%s\"</string>
   <string name="preference_dialog_of_turning_off_reading_list_sync_title">A bogai is listas de ligidura sincronizaus de \"%s\"</string>
   <string name="preference_dialog_of_turning_off_reading_list_sync_text">Custu at a bogai de totu calichisiat lista de ligidura sincronizada ainnantis in su cloud. Bolis bogai totu is listas sincronizadas de su contu tuu \"%s\"?</string>
   <string name="preference_title_auto_upload_crash_reports">Imbia arrelatus de faddina</string>
@@ -212,13 +212,13 @@
   <string name="page_watchlist_overflow_menu_onboarding_tooltip_text">Trassa su chi acuntessit a is boxis a chi ses interessosu. Craca su menu e sèbera &lt;b&gt;Aciungi a is castiaus&lt;/b&gt; po biri is càmbius a una boxi.</string>
   <string name="settings_item_preferences">Impostatzionis</string>
   <string name="settings_activity_title">Impostatzionis</string>
-  <string name="about_description">Novas de s\'aplicatzioni de Wikipedia</string>
+  <string name="about_description">Novas de s\'aplicatzioni de Infopedia</string>
   <string name="privacy_policy_description">Normas po s\'arriservadesa</string>
   <string name="terms_of_use_description">Conditzionis de imperu</string>
-  <string name="offline_reading_and_data_url" fuzzy="true">https://m.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ/it#Offline_reading_and_data</string>
-  <string name="android_app_request_an_account_url">https://it.wikipedia.org/wiki/Aiuto:Come_registrarsi</string>
+  <string name="offline_reading_and_data_url" fuzzy="true">https://m.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ/it#Offline_reading_and_data</string>
+  <string name="android_app_request_an_account_url">https://it.Infopedia.org/wiki/Aiuto:Come_registrarsi</string>
   <string name="cc_0_url">https://creativecommons.org/publicdomain/zero/1.0/deed.it</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Pagina del gruppo&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Pagina del gruppo&lt;/a&gt;</string>
   <string name="about_activity_title">Informus</string>
   <string name="edit_abandon_confirm_yes">Eja</string>
   <string name="edit_abandon_confirm_no">No</string>
@@ -258,7 +258,7 @@
   <string name="reading_list_items_deleted">%d artìculus bogaus de sa cronologia</string>
   <string name="reading_lists_item_deleted">%s bogau de sa cronologia</string>
   <string name="reading_list_item_delete_undo">Annudda</string>
-  <string name="reading_lists_login_button">Intra in Wikipedia</string>
+  <string name="reading_lists_login_button">Intra in Infopedia</string>
   <string name="reading_lists_confirm_remote_delete_yes">Eja</string>
   <string name="reading_lists_confirm_remote_delete_no">No</string>
   <string name="reading_list_preference_login_to_enable_sync_dialog_cancel">Annudda</string>
@@ -328,7 +328,7 @@
   <string name="description_edit_login_cancel_button_text">Annudda</string>
   <string name="app_shortcuts_random">Pàgina a sa tzurpa</string>
   <string name="app_shortcuts_search">Circa</string>
-  <string name="wikipedia_languages_title">Lìnguas de Wikipedia</string>
+  <string name="wikipedia_languages_title">Lìnguas de Infopedia</string>
   <string name="remove_language_dialog_cancel_button_text">Annudda</string>
   <string name="remove_language_dialog_ok_button_text">OK</string>
   <string name="remove_all_language_warning_dialog_ok_button_text">OK</string>
@@ -341,7 +341,7 @@
   <string name="wikitext_template">Mòlliu</string>
   <string name="wikitext_reference">Preferèntzias</string>
   <string name="main_drawer_help">Agiudu</string>
-  <string name="main_drawer_login">Intra in Wikipedia</string>
+  <string name="main_drawer_login">Intra in Infopedia</string>
   <string name="main_tooltip_watchlist_title">Postas a càstiu</string>
   <string name="custom_date_picker_dialog_ok_button_text">OK</string>
   <string name="text_input_dialog_ok_button_text">OK</string>

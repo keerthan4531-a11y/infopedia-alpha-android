@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Awdsweq123
 * Bapham123
@@ -38,14 +38,14 @@
 * Yosari101
 -->
 <resources>
-  <string name="app_name_prod">Wikipedia</string>
-  <string name="app_name_beta">Wikipedia Beta</string>
-  <string name="app_name_alpha">Wikipedia Alpha</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Wikimedia</string>
   <string name="nav_item_back">Quay lại</string>
   <string name="page_tabs_back">Quay lại</string>
   <string name="nav_item_forward">Chuyển tiếp</string>
-  <string name="search_hint">Tìm trong Wikipedia</string>
+  <string name="search_hint">Tìm trong Infopedia</string>
   <string name="search_hint_voice_search">Tìm kiếm bằng giọng nói</string>
   <string name="search_hint_search_languages">Tìm một ngôn ngữ</string>
   <string name="search_back_button_content_description">Quay lại</string>
@@ -146,12 +146,12 @@
   <string name="edit_save_action_license_logged_in">Với việc xuất bản, bạn chấp nhận &lt;a href=\"%1$s\"&gt;Điều khoản Sử dụng&lt;/a&gt; và đồng ý phát hành, một cách không thể hủy bỏ, các đóng góp của bạn theo giấy phép &lt;a href=\"%2$s\"&gt;CC BY-SA 4.0&lt;/a&gt;.</string>
   <string name="edit_save_action_license_anon">Bằng việc xuất bản trang, bạn chấp nhận &lt;a href=\"%1$s\"&gt;các Điều khoản Sử dụng&lt;/a&gt; và phát hành, một cách không thể hủy bỏ, các đóng góp của bạn theo giấy phép &lt;a href=\"%2$s\"&gt;CC BY-SA 4.0&lt;/a&gt;. Các sửa đổi của bạn sẽ ghi rõ địa chỉ IP của thiết bị của bạn. Nếu bạn có thể &lt;a href=\"https://#login\"&gt;đăng nhập&lt;/a&gt;, bạn có thể có thêm riêng tư.</string>
   <string name="edit_anon_warning">Các sửa đổi sẽ ghi rõ địa chỉ IP thiết bị của bạn. &lt;a href=\"https://#login\"&gt;Đăng nhập&lt;/a&gt; để giúp bảo vệ quyền riêng tư của bạn.</string>
-  <string name="preference_title_language">Ngôn ngữ của Wikipedia</string>
+  <string name="preference_title_language">Ngôn ngữ của Infopedia</string>
   <string name="langlinks_filter_hint">Tìm kiếm</string>
   <string name="langlinks_empty">Trang này không có sẵn trong ngôn ngữ khác.</string>
   <string name="langlinks_no_match">Không tìm thấy ngôn ngữ</string>
   <string name="langlinks_activity_title">Ngôn ngữ khác</string>
-  <string name="langlinks_your_wikipedia_languages">Các ngôn ngữ Wikipedia của bạn</string>
+  <string name="langlinks_your_wikipedia_languages">Các ngôn ngữ Infopedia của bạn</string>
   <string name="menu_save_changes">Đăng thay đổi</string>
   <string name="edit_saved_successfully">Thay đổi đã được đăng tải!</string>
   <string name="stub_article_edit_saved_successfully">Đã xuất bản sửa đổi! Những thay đổi có thể mất thời gian để hiển thị.</string>
@@ -171,11 +171,11 @@
   <string name="search_reading_lists_no_results">Không tìm thấy kết quả trong danh sách đọc</string>
   <string name="search_history_no_results">Không tìm thấy kết quả trong lịch sử</string>
   <string name="edit_section_captcha_message">Để giúp tránh các sửa đổi spam tự động, xin vui lòng nhập các từ xuất hiện ở dưới</string>
-  <string name="edit_section_captcha_request_an_account_message">Không đọc được các chữ trong hình này? &lt;a href=\"https://vi.wikipedia.org/wiki/Wikipedia:Yêu_cầu_tạo_tài_khoản\"&gt;Yêu cầu tạo tài khoản&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">Không đọc được các chữ trong hình này? &lt;a href=\"https://vi.Infopedia.org/wiki/Infopedia:Yêu_cầu_tạo_tài_khoản\"&gt;Yêu cầu tạo tài khoản&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">Lặp lại các từ bên trên</string>
   <string name="title_captcha">Nhập CAPTCHA</string>
   <string name="edit_section_captcha_reload">Chạm vào CAPTCHA để tải lại</string>
-  <string name="nav_item_login">Đăng nhập vào Wikipedia</string>
+  <string name="nav_item_login">Đăng nhập vào Infopedia</string>
   <string name="login_username_hint">Tên người dùng</string>
   <string name="login_password_hint">Mật khẩu</string>
   <string name="account_creation_password_hint">Mật khẩu</string>
@@ -201,22 +201,22 @@
   <string name="logout_prompt">Việc này sẽ đăng xuất bạn khỏi mọi thiết bị mà bạn hiện đang đăng nhập. Bạn vẫn muốn tiếp tục?</string>
   <string name="logout_dialog_cancel_button_text">Hủy bỏ</string>
   <string name="logged_out_in_background_title">Đã đăng xuất</string>
-  <string name="logged_out_in_background_dialog">Bạn đã đăng xuất khỏi Wikipedia. Bạn có muốn đăng nhập lại không?</string>
+  <string name="logged_out_in_background_dialog">Bạn đã đăng xuất khỏi Infopedia. Bạn có muốn đăng nhập lại không?</string>
   <string name="logged_out_in_background_login">Đăng nhập</string>
   <string name="logged_out_in_background_cancel">Hủy bỏ</string>
   <string name="account_vanish_request_title">Biến mất tài khoản</string>
   <string name="account_vanish_request_confirm_title">Cảnh báo biến mất tài khoản</string>
-  <string name="account_vanish_request_confirm">Biến mất là &lt;b&gt;biện pháp cuối cùng&lt;/b&gt; và &lt;b&gt;nên chỉ dùng khi bạn muốn chấm dứt sửa đổi vĩnh viễn&lt;/b&gt; và muốn che giấu tối đa những mối liên hệ với bạn trong quá khứ.\n\nViệc xóa tài khoản trên Wikipedia được thực hiện bằng cách đổi tên tài khoản của bạn để người khác không nhận ra được những đóng góp của bạn trong một quy trình gọi là làm biến mất tài khoản. Bạn có thể dùng mẫu bên dưới để yêu cầu biến mất tài khoản. Việc biến mất không đảm bảo ẩn danh hoàn toàn hoặc xóa bỏ những đóng góp trên các dự án.</string>
+  <string name="account_vanish_request_confirm">Biến mất là &lt;b&gt;biện pháp cuối cùng&lt;/b&gt; và &lt;b&gt;nên chỉ dùng khi bạn muốn chấm dứt sửa đổi vĩnh viễn&lt;/b&gt; và muốn che giấu tối đa những mối liên hệ với bạn trong quá khứ.\n\nViệc xóa tài khoản trên Infopedia được thực hiện bằng cách đổi tên tài khoản của bạn để người khác không nhận ra được những đóng góp của bạn trong một quy trình gọi là làm biến mất tài khoản. Bạn có thể dùng mẫu bên dưới để yêu cầu biến mất tài khoản. Việc biến mất không đảm bảo ẩn danh hoàn toàn hoặc xóa bỏ những đóng góp trên các dự án.</string>
   <string name="history_empty_title">Không có bài viết nào được xem gần đây</string>
   <string name="history_empty_message">Theo dõi nhưng gì bạn đã xem qua tại đây.</string>
   <string name="history_offline_articles_toast">Một số bài viết trong lịch sử có thể không xem được khi offline.</string>
   <string name="search_empty_message">Tìm kiếm và đọc bách khoa toàn thư mở trong ngôn ngữ của bạn</string>
-  <string name="search_empty_message_multilingual_upgrade">Tìm kiếm Wikipedia trong các ngôn ngữ khác</string>
+  <string name="search_empty_message_multilingual_upgrade">Tìm kiếm Infopedia trong các ngôn ngữ khác</string>
   <string name="delete_selected_items">Xóa mục đã chọn</string>
   <string name="wp_stylized">&lt;big&gt;W&lt;/big&gt;IKIPEDI&lt;big&gt;A&lt;/big&gt;</string>
   <string name="create_account_username_hint">Tên người dùng</string>
   <string name="login_dont_have_account">Chưa có tài khoản?</string>
-  <string name="login_join_wikipedia">Tham gia Wikipedia</string>
+  <string name="login_join_wikipedia">Tham gia Infopedia</string>
   <string name="login_forgot_password">Quên mật khẩu?</string>
   <string name="create_account_already_have">Đã mở tài khoản rồi?</string>
   <string name="create_account_activity_title">Mở tài khoản</string>
@@ -238,11 +238,11 @@
   <string name="create_account_button">Mở tài khoản</string>
   <string name="create_account_name_unavailable">Tên người dùng “%s” không sẵn có. Xin hãy chọn một cái tên khác.</string>
   <string name="create_account_ip_block_message">Đáng tiếc, địa chỉ IP của bạn hiện đang được cấm không được mở tài khoản mới.</string>
-  <string name="create_account_ip_block_help_url">https://vi.wikipedia.org/wiki/Trợ_giúp:Tôi_đã_bị_cấm</string>
+  <string name="create_account_ip_block_help_url">https://vi.Infopedia.org/wiki/Trợ_giúp:Tôi_đã_bị_cấm</string>
   <string name="create_account_ip_block_details">Chi tiết</string>
   <string name="preferences_general_heading">Tổng quát</string>
   <string name="preferences_account_heading">Tài khoản</string>
-  <string name="wikipedia_app_faq">Câu hỏi thường gặp về ứng dụng Wikipedia</string>
+  <string name="wikipedia_app_faq">Câu hỏi thường gặp về ứng dụng Infopedia</string>
   <string name="send_feedback">Gửi phản hồi về ứng dụng</string>
   <string name="create_account_account_created_toast">Đã mở tài khoản thành công!</string>
   <string name="preferences_heading_syncing">Đang đồng bộ hóa</string>
@@ -250,8 +250,8 @@
   <string name="preferences_heading_experimental">Thử nghiệm</string>
   <string name="preference_title_sync_reading_lists_from_account">Đồng bộ hóa danh sách đọc</string>
   <string name="preference_title_download_reading_list_articles">Tải về bài trong danh sách đọc</string>
-  <string name="preference_summary_sync_reading_lists">Đồng bộ hóa danh sách đọc giữa các thiết bị khác nhau bằng cách lưu chúng vào tài khoản Wikipedia</string>
-  <string name="preference_summary_sync_reading_lists_from_account">Đồng bộ hóa danh sách đọc giữa các thiết bị khác nhau bằng cách lưu chúng vào tài khoản Wikipedia “%s”</string>
+  <string name="preference_summary_sync_reading_lists">Đồng bộ hóa danh sách đọc giữa các thiết bị khác nhau bằng cách lưu chúng vào tài khoản Infopedia</string>
+  <string name="preference_summary_sync_reading_lists_from_account">Đồng bộ hóa danh sách đọc giữa các thiết bị khác nhau bằng cách lưu chúng vào tài khoản Infopedia “%s”</string>
   <string name="preference_dialog_of_turning_off_reading_list_sync_title">Xóa danh sách đọc đã được đồng bộ từ “%s”?</string>
   <string name="preference_dialog_of_turning_off_reading_list_sync_text">Điều này sẽ xóa bỏ hoàn toàn các danh sách đọc đã được đồng bộ trước đó từ các thiết bị khác. Bạn thật sự muốn xóa các danh sách đã đồng bộ từ tài khoản “%s” chứ?</string>
   <string name="preference_title_auto_upload_crash_reports">Gửi báo cáo sự cố</string>
@@ -269,24 +269,24 @@
   <string name="page_watchlist_overflow_menu_onboarding_tooltip_text">Theo dõi những gì đang xảy ra với các trang mà bạn quan tâm. Nhấn vào menu mục bổ sung và chọn &lt;b&gt;Thêm vào danh sách theo dõi&lt;/b&gt; để xem các thay đổi đối với một bài viết.</string>
   <string name="settings_item_preferences">Tùy chọn</string>
   <string name="settings_activity_title">Tùy chọn</string>
-  <string name="about_description">Giới thiệu về ứng dụng Wikipedia</string>
+  <string name="about_description">Giới thiệu về ứng dụng Infopedia</string>
   <string name="privacy_policy_description">Quy định về quyền riêng tư</string>
   <string name="terms_of_use_description">Điều khoản sử dụng</string>
-  <string name="about_wikipedia_url">https://vi.wikipedia.org/wiki/Wikipedia:Giới_thiệu</string>
-  <string name="privacy_policy_url" fuzzy="true">https://meta.wikimedia.org/wiki/Privacy_policy/vi?uselang=vi</string>
-  <string name="terms_of_use_url" fuzzy="true">https://foundation.wikimedia.org/wiki/Terms_of_Use/vi?uselang=vi</string>
-  <string name="android_app_request_an_account_url">https://vi.wikipedia.org/wiki/Wikipedia:Yêu_cầu_tạo_tài_khoản</string>
+  <string name="about_wikipedia_url">https://vi.Infopedia.org/wiki/Infopedia:Giới_thiệu</string>
+  <string name="privacy_policy_url" fuzzy="true">https://meta.infopedia.org/wiki/Privacy_policy/vi?uselang=vi</string>
+  <string name="terms_of_use_url" fuzzy="true">https://foundation.infopedia.org/wiki/Terms_of_Use/vi?uselang=vi</string>
+  <string name="android_app_request_an_account_url">https://vi.Infopedia.org/wiki/Infopedia:Yêu_cầu_tạo_tài_khoản</string>
   <string name="cc_by_sa_4_url">https://creativecommons.org/licenses/by-sa/4.0/deed.vi</string>
   <string name="about_libraries_heading">Thư viện được sử dụng</string>
   <string name="about_contributors_heading">Người đóng góp</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Đội ngũ&lt;/a&gt;&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Đội ngũ&lt;/a&gt;&lt;/a&gt;</string>
   <string name="about_translators_heading">Biên dịch viên</string>
   <string name="about_translators_translatewiki">Ứng dụng này được biên dịch bởi những người tình nguyện tại &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt;.</string>
   <string name="about_app_license_heading">Giấy phép</string>
-  <string name="about_app_license">Mã nguồn có sẵn tại &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;GitHub&lt;/a&gt; under the &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Giấy phép Apache 2.0&lt;/a&gt;. Trừ khi được chỉ rõ, toàn bộ nội dung được phát hành theo &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Giấy phép Creative Commons Ghi công–Chia sẻ tương tự&lt;/a&gt;.</string>
+  <string name="about_app_license">Mã nguồn có sẵn tại &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;GitHub&lt;/a&gt; under the &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Giấy phép Apache 2.0&lt;/a&gt;. Trừ khi được chỉ rõ, toàn bộ nội dung được phát hành theo &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Giấy phép Creative Commons Ghi công–Chia sẻ tương tự&lt;/a&gt;.</string>
   <string name="about_wmf">Một sản phẩm của &lt;a href=\"https://wikimediafoundation.org\"&gt;Quỹ Wikimedia&lt;/a&gt;</string>
   <string name="about_activity_title">Giới thiệu</string>
-  <string name="about_logo_content_description">Biểu tượng quả địa cầu của Wikipedia</string>
+  <string name="about_logo_content_description">Biểu tượng quả địa cầu của Infopedia</string>
   <string name="edit_abandon_confirm">Trang đã được sửa đổi. Bạn có chắc chắn muốn thoát mà không lưu các thay đổi của bạn?</string>
   <string name="edit_abandon_confirm_yes">Có</string>
   <string name="edit_abandon_confirm_no">Không</string>
@@ -329,7 +329,7 @@
   <string name="abusefilter_title_warn">Sửa đổi này có vẻ không mang tính xây dựng. Bạn có chắc chắn muốn đăng nó lên?</string>
   <string name="abusefilter_title_disallow">Bạn không thể đăng sửa đổi này. Vui lòng quay lại và sửa nó.</string>
   <string name="abusefilter_text_warn">Một bộ lọc đã tự động nhận ra sửa đổi này có thể không mang tính xây dựng. Nó có thể có một trong những vấn đề sau:&lt;br /&gt;&lt;br /&gt;· Viết tất cả bằng chữ hoa&lt;br /&gt;· Xóa trống hoặc đưa spam vào bài&lt;br /&gt;· Liên kết ngoài hoặc hình ảnh không có liên quan đến đề tài&lt;br /&gt;· Ký tự lặp lại</string>
-  <string name="abusefilter_text_disallow">Một bộ lọc đã tự động nhận ra sửa đổi này có thể không mang tính xây dựng hoặc là sự phá hoại.&lt;br /&gt;&lt;br /&gt;Là một bách khoa toàn thư, Wikipedia chỉ chấp nhận các nội dung trung lập và nổi bật.</string>
+  <string name="abusefilter_text_disallow">Một bộ lọc đã tự động nhận ra sửa đổi này có thể không mang tính xây dựng hoặc là sự phá hoại.&lt;br /&gt;&lt;br /&gt;Là một bách khoa toàn thư, Infopedia chỉ chấp nhận các nội dung trung lập và nổi bật.</string>
   <string name="page_similar_titles">Trang tương tự</string>
   <string name="search_did_you_mean">Có phải bạn muốn tìm “%s”?</string>
   <string name="search_recent_header">Tìm kiếm gần đây:</string>
@@ -346,11 +346,11 @@
   <string name="table_infobox">Thông tin nhanh</string>
   <string name="table_other">Thêm thông tin</string>
   <string name="table_close">Đóng</string>
-  <string name="widget_name_featured_page">Bài viết chọn lọc Wikipedia</string>
+  <string name="widget_name_featured_page">Bài viết chọn lọc Infopedia</string>
   <string name="widget_title_featured_page">Bài viết chọn lọc hôm nay:</string>
-  <string name="widget_name_search">Tìm kiếm Wikipedia</string>
-  <string name="widget_description_search">Cách nhanh nhất để tìm kiếm trên Wikipedia</string>
-  <string name="widget_description_featured_page">Những bài viết hay nhất mà Wikipedia cung cấp</string>
+  <string name="widget_name_search">Tìm kiếm Infopedia</string>
+  <string name="widget_description_search">Cách nhanh nhất để tìm kiếm trên Infopedia</string>
+  <string name="widget_description_featured_page">Những bài viết hay nhất mà Infopedia cung cấp</string>
   <string name="wiktionary_no_definitions_found">Không tìm thấy định nghĩa nào.</string>
   <string name="alpha_update_notification_title">Có sẵn bản cập nhật alpha mới</string>
   <string name="alpha_update_notification_text">Chạm để tải về</string>
@@ -441,9 +441,9 @@
   <string name="link_preview_dialog_share_button">Chia sẻ</string>
   <string name="link_preview_stub_placeholder_text">Bài viết này là một bài sơ khai, nghĩa là bài viết không có đủ nội dung để tạo bản xem trước. Tuy nhiên, bạn có thể thay đổi điều đó.</string>
   <string name="error_page_does_not_exist">Trang này không tồn tại</string>
-  <string name="error_user_page_does_not_exist">Wikipedia không có &lt;a href=\"%1$s\"&gt;trang thành viên&lt;/a&gt; đúng tên này. Nói chung, trang này nên được &lt;b&gt;%2$s&lt;/b&gt; tạo và sửa đổi. Nếu không chắc chắn, xin hãy kiểm tra rằng “%3$s” đã tồn tại.</string>
+  <string name="error_user_page_does_not_exist">Infopedia không có &lt;a href=\"%1$s\"&gt;trang thành viên&lt;/a&gt; đúng tên này. Nói chung, trang này nên được &lt;b&gt;%2$s&lt;/b&gt; tạo và sửa đổi. Nếu không chắc chắn, xin hãy kiểm tra rằng “%3$s” đã tồn tại.</string>
   <string name="view_wiki_error_message_offline">Không thể kết nối với Internet</string>
-  <string name="view_wiki_error_message_timeout">Không thể kết nối với Wikipedia.  Kiểm tra kết nối mạng của bạn hoặc thử lại sau.</string>
+  <string name="view_wiki_error_message_timeout">Không thể kết nối với Infopedia.  Kiểm tra kết nối mạng của bạn hoặc thử lại sau.</string>
   <string name="reference_title">Chú thích %s</string>
   <string name="reference_list_title">Tham khảo</string>
   <string name="theme_chooser_dialog_image_dimming_switch_label">Hình ảnh mờ (trong giao diện Tối)</string>
@@ -460,9 +460,9 @@
   <string name="error_blocked_start">Ngày bắt đầu cấm: %s</string>
   <string name="error_blocked_expiry">Ngày hạn tác vụ cấm: %s</string>
   <string name="error_blocked_id">Số tác vụ cấm: %s</string>
-  <string name="error_blocked_footer">Bạn có thể liên hệ &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; hoặc &lt;a href=\"https://vi.wikipedia.org/wiki/Wikipedia:Bảo quản viên\"&gt;bảo quản viên&lt;/a&gt; khác để thảo luận về cấm.</string>
+  <string name="error_blocked_footer">Bạn có thể liên hệ &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; hoặc &lt;a href=\"https://vi.Infopedia.org/wiki/Infopedia:Bảo quản viên\"&gt;bảo quản viên&lt;/a&gt; khác để thảo luận về cấm.</string>
   <string name="theme_chooser_menu_item_short_tooltip">Tùy chỉnh thanh công cụ của bạn</string>
-  <string name="error_blocked_footer_no_blocker">Bạn có thể liên hệ một &lt;a href=\"https://vi.wikipedia.org/wiki/Wikipedia:Bảo quản viên\"&gt;bảo quản viên&lt;/a&gt; để thảo luận về cấm.</string>
+  <string name="error_blocked_footer_no_blocker">Bạn có thể liên hệ một &lt;a href=\"https://vi.Infopedia.org/wiki/Infopedia:Bảo quản viên\"&gt;bảo quản viên&lt;/a&gt; để thảo luận về cấm.</string>
   <string name="temp_account_not_logged_in">Bạn chưa đăng nhập</string>
   <string name="temp_account_anon_ip_dialog_body">Sau khi bạn thực hiện sửa đổi, địa chỉ IP của bạn sẽ được dùng để liên kết với các sửa đổi của bạn.&lt;br /&gt;&lt;br /&gt; &lt;a href=\"https://#login\"&gt;Đăng nhập&lt;/a&gt; hoặc &lt;a href=\"https://#createaccount\"&gt;tạo tài khoản&lt;/a&gt; để được ghi công các sửa đổi khác trong tương lai và truy cập vào các tính năng khác.</string>
   <string name="temp_account_anon_dialog_body">Sau khi bạn thực hiện sửa đổi, một &lt;b&gt;tài khoản tạm thời&lt;/b&gt; sẽ được tạo cho bạn nhằm bảo vệ quyền riêng tư. &lt;a href=\"%1$s\"&gt;Tìm hiểu thêm&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;&lt;a href=\"https://#login\"&gt;Đăng nhập&lt;/a&gt; hoặc &lt;a href=\"https://#createaccount\"&gt;tạo tài khoản&lt;/a&gt; để được ghi công các sửa đổi khác trong tương lai và truy cập vào các tính năng khác.</string>
@@ -578,8 +578,8 @@
   <string name="reading_lists_default_list_delete_message">Danh sách mặc định (%s) không thể bị xóa</string>
   <string name="reading_lists_default_plus_one_list_delete_message">%1$s đã bị xóa. Danh sách mặc định (%2$s) không thể bị xóa.</string>
   <string name="reading_lists_default_plus_many_lists_delete_message">Đã xóa danh sách. Danh sách mặc định (%s) không thể xóa được.</string>
-  <string name="single_list_json_file_name">%s (Danh sách đọc Wikipedia).json</string>
-  <string name="multiple_lists_json_file_name">Danh sách đọc Wikipedia (%s và thêm).json</string>
+  <string name="single_list_json_file_name">%s (Danh sách đọc Infopedia).json</string>
+  <string name="multiple_lists_json_file_name">Danh sách đọc Infopedia (%s và thêm).json</string>
   <string name="reading_list_items_deleted">%d bài viết đã được xóa khỏi danh sách</string>
   <string name="reading_lists_item_deleted">Đã xóa %s khỏi danh sách</string>
   <string name="reading_list_item_delete_undo">Hoàn tác</string>
@@ -599,12 +599,12 @@
   <string name="reading_list_confirm_remove_article_from_offline_title">Bài nằm trong nhiều danh sách</string>
   <string name="reading_list_confirm_remove_article_from_offline_message">%s hiện không còn có sẵn ngoại tuyến cho danh sách đọc nào:</string>
   <string name="reading_lists_sync_reminder_title">Bật đồng bộ hóa danh sách đọc?</string>
-  <string name="reading_lists_sync_reminder_text">Các bài viết được lưu vào danh sách đọc bây giờ đã có thể được đồng bộ hóa vào tài khoản Wikipedia của bạn. &lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Tìm hiểu thêm&lt;/a&gt;</string>
-  <string name="reading_lists_login_reminder_text_with_link">Danh sách đọc có thể được đồng bộ hóa. Đăng nhập tài khoản Wikipedia của bạn, chắc chắn rằng danh sách đọc của riêng bạn đã được lưu. &lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;&lt;/a&gt;</string>
+  <string name="reading_lists_sync_reminder_text">Các bài viết được lưu vào danh sách đọc bây giờ đã có thể được đồng bộ hóa vào tài khoản Infopedia của bạn. &lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Tìm hiểu thêm&lt;/a&gt;</string>
+  <string name="reading_lists_login_reminder_text_with_link">Danh sách đọc có thể được đồng bộ hóa. Đăng nhập tài khoản Infopedia của bạn, chắc chắn rằng danh sách đọc của riêng bạn đã được lưu. &lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;&lt;/a&gt;</string>
   <string name="reading_lists_sync_reminder_action">Bật đồng bộ hóa</string>
   <string name="reading_list_login_reminder_title">Đồng bộ hóa các danh sách đọc</string>
-  <string name="reading_lists_login_reminder_text">Danh sách đọc bây giờ đã có thể được đồng bộ hóa xuyên suốt các thiết bị. Hãy đăng nhập vào tài khoản Wikipedia của bạn để cho phép các danh sách của bạn được lưu.</string>
-  <string name="reading_lists_login_button">Đăng nhập / Tham gia Wikipedia</string>
+  <string name="reading_lists_login_reminder_text">Danh sách đọc bây giờ đã có thể được đồng bộ hóa xuyên suốt các thiết bị. Hãy đăng nhập vào tài khoản Infopedia của bạn để cho phép các danh sách của bạn được lưu.</string>
+  <string name="reading_lists_login_button">Đăng nhập / Tham gia Infopedia</string>
   <string name="reading_lists_ignore_button">Để sau.</string>
   <string name="reading_lists_confirm_remote_delete_yes">Có</string>
   <string name="reading_lists_confirm_remote_delete_no">Không</string>
@@ -625,7 +625,7 @@
   <string name="reading_list_turned_sync_off_dialog_ok">Đã hiểu</string>
   <string name="reading_list_turned_sync_off_dialog_settings">Tùy chọn</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_title">Bật đồng bộ hóa danh sách đọc?</string>
-  <string name="reading_list_prompt_turned_sync_on_dialog_text">Hiện có thể đồng bộ hóa các bài đã lưu vào danh sách đọc vào tài khoản Wikipedia của bạn. &lt;a href=\"#faq\"&gt;Tìm hiểu thêm&lt;/a&gt;</string>
+  <string name="reading_list_prompt_turned_sync_on_dialog_text">Hiện có thể đồng bộ hóa các bài đã lưu vào danh sách đọc vào tài khoản Infopedia của bạn. &lt;a href=\"#faq\"&gt;Tìm hiểu thêm&lt;/a&gt;</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_do_not_show">Đừng hiện tôi thông báo này nữa</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_enable_syncing">Bật đồng bộ hóa</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_no_thanks">Không, cảm ơn</string>
@@ -719,7 +719,7 @@
     <item quantity="one">còn %1$d danh sách</item>
     <item quantity="other">còn %1$d danh sách</item>
   </plurals>
-  <string name="notification_echo_channel_description">Thông báo Wikipedia</string>
+  <string name="notification_echo_channel_description">Thông báo Infopedia</string>
   <string name="notifications_activity_title">Thông báo</string>
   <string name="notifications_activity_title_archived">Thông báo (lưu trữ)</string>
   <string name="notifications_search">Tìm thông báo</string>
@@ -779,8 +779,8 @@
   <string name="preference_title_customize_push_notifications">Tùy biến các thông báo đẩy</string>
   <string name="preference_category_display_settings">Tùy chọn hiển thị</string>
   <string name="preference_title_hide_read_notifications">Ẩn thông báo đã đọc</string>
-  <string name="notifications_channel_group_wikipedia_notifications_title">Wikipedia</string>
-  <string name="notifications_channel_group_wikipedia_notifications_description">Thông báo từ Wikipedia</string>
+  <string name="notifications_channel_group_wikipedia_notifications_title">Infopedia</string>
+  <string name="notifications_channel_group_wikipedia_notifications_description">Thông báo từ Infopedia</string>
   <string name="notifications_channel_group_other_title">Khác</string>
   <string name="notifications_channel_group_other_description">Thông báo khác từ ứng dụng</string>
   <string name="notifications_filter_label">Lọc thông báo</string>
@@ -812,13 +812,13 @@
   <string name="view_random_article_card_title">Bài viết ngẫu nhiên</string>
   <string name="view_random_article_card_action">Thêm bài viết ngẫu nhiên</string>
   <string name="view_top_read_card_title">Bài đọc nhiều nhất</string>
-  <string name="view_top_read_card_description">Những chủ đề nào đang thịnh hành trên Wikipedia hôm nay</string>
+  <string name="view_top_read_card_description">Những chủ đề nào đang thịnh hành trên Infopedia hôm nay</string>
   <string name="view_top_read_card_action">Thêm bài đọc nhiều nhất</string>
   <string name="view_top_read_card_pageviews_k_suffix">%d k</string>
   <string name="view_top_read_card_pageviews_m_suffix">%d M</string>
   <string name="view_top_read_card_pageviews_views_suffix">lượt xem</string>
   <string name="view_next_random_article">Một bài ngẫu nhiên nữa</string>
-  <string name="view_main_page_card_title">Hôm nay tại Wikipedia</string>
+  <string name="view_main_page_card_title">Hôm nay tại Infopedia</string>
   <string name="view_main_page_card_action">Xem trang chính</string>
   <string name="view_featured_image_card_title">Hình ảnh trong ngày</string>
   <string name="view_featured_image_card_download">Tải về</string>
@@ -846,16 +846,16 @@
   <string name="feed_configure_menu_reset">Mặc định lại tùy chọn</string>
   <string name="feed_configure_menu_select_all">Hiển thị tất cả</string>
   <string name="feed_configure_menu_deselect_all">Ẩn tất cả</string>
-  <string name="feed_configure_language_warning">Một số loại phiếu không có sẵn trong một số ngôn ngữ Wikipedia. Sửa đổi các ngôn ngữ của bạn trong Tùy chọn.</string>
+  <string name="feed_configure_language_warning">Một số loại phiếu không có sẵn trong một số ngôn ngữ Infopedia. Sửa đổi các ngôn ngữ của bạn trong Tùy chọn.</string>
   <string name="feed_item_type_news">Bài về thời sự</string>
   <string name="feed_item_type_on_this_day">Sự kiện xảy ra ngày này năm xưa</string>
   <string name="feed_item_type_because_you_read">Gợi ý đọc bài tùy theo bài đã đọc gần đây</string>
-  <string name="feed_item_type_featured_article">Bài viết chọn lọc trong ngày tại Wikipedia</string>
+  <string name="feed_item_type_featured_article">Bài viết chọn lọc trong ngày tại Infopedia</string>
   <string name="feed_item_type_trending">Các bài viết được xem nhiều nhất trong ngày</string>
   <string name="feed_item_type_featured_image">Hình ảnh chọn lọc trong ngày từ Wikimedia Commons</string>
-  <string name="feed_item_type_main_page">Trang chính của Wikipedia với các nội dung chọn lọc hằng ngày</string>
+  <string name="feed_item_type_main_page">Trang chính của Infopedia với các nội dung chọn lọc hằng ngày</string>
   <string name="feed_item_type_randomizer">Đưa ra danh sách các bài viết ngẫu nhiên để đọc</string>
-  <string name="feed_item_type_suggested_edits">Gợi ý thêm nội dung vào Wikipedia</string>
+  <string name="feed_item_type_suggested_edits">Gợi ý thêm nội dung vào Infopedia</string>
   <string name="feed_item_type_places">Các bài viết liên quan dựa trên vị trí hiện tại</string>
   <string name="feed_empty_message">Không có gì trên Trang nhà của bạn</string>
   <string name="feed_configure_onboarding_action">Tùy chỉnh</string>
@@ -867,7 +867,7 @@
   <string name="feed_accessibility_card_text">Bạn đã đến cuối nguồn cấp dữ liệu.</string>
   <string name="feed_accessibility_card_load_more_button">Tải thêm</string>
   <string name="feed_language_variants_removal_dialog_title">Chọn một biến thể ngôn ngữ khu vực để có trải nghiệm đọc tốt hơn</string>
-  <string name="feed_language_variants_removal_dialog_message">Hiện tại bạn đang sử dụng một biến thể tiếng Trung không được hỗ trợ làm ngôn ngữ Wikipedia chính của mình</string>
+  <string name="feed_language_variants_removal_dialog_message">Hiện tại bạn đang sử dụng một biến thể tiếng Trung không được hỗ trợ làm ngôn ngữ Infopedia chính của mình</string>
   <string name="feed_language_variants_removal_dialog_save">Lưu</string>
   <string name="feed_language_variants_removal_secondary_dialog_title">Vui lòng cập nhật ngôn ngữ phụ của bạn</string>
   <string name="feed_language_variants_removal_secondary_dialog_message">Hiện tại bạn đang sử dụng một biến thể tiếng Trung không được hỗ trợ làm ngôn ngữ phụ. Vui lòng vào phần cài đặt để chọn ngôn ngữ phụ mới hoặc để xác nhận danh sách ngôn ngữ của bạn.</string>
@@ -895,7 +895,7 @@
   <string name="description_edit_help_about_wikidata">Giới thiệu về Wikidata</string>
   <string name="description_edit_help_wikidata_guide">Hướng dẫn viết miêu tả tại Wikidata</string>
   <string name="wikidata_description_guide_url" fuzzy="true">https://www.wikidata.org/wiki/Special:MyLanguage/Help:Description#Guidelines_for_descriptions_in_English</string>
-  <string name="description_edit_anon_limit">Cảm ơn bạn vì đã tiếp tục quan tâm đến việc sửa miêu tả bài viết! Để thực hiện thêm sửa đổi nữa, xin hãy đăng nhập vào tài khoản Wikipedia của bạn.</string>
+  <string name="description_edit_anon_limit">Cảm ơn bạn vì đã tiếp tục quan tâm đến việc sửa miêu tả bài viết! Để thực hiện thêm sửa đổi nữa, xin hãy đăng nhập vào tài khoản Infopedia của bạn.</string>
   <string name="description_edit_license_notice">Với việc thay đổi miêu tả bài viết, tôi chấp nhận &lt;a href=\"%1$s\"&gt;các Điều khoản Sử dụng&lt;/a&gt; và phát hành, một cách không thể hủy bỏ, các đóng góp của mình theo giấy phép &lt;a href=\"%2$s\"&gt;Creative Commons CC0&lt;/a&gt;.</string>
   <string name="description_edit_helper_text_lowercase_warning">thường bắt đầu bằng chữ viết thường</string>
   <string name="description_edit_voice_input_description">Dữ liệu giọng nói đầu vào.</string>
@@ -918,7 +918,7 @@
   <string name="description_edit_success_saved_image_caption_in_lang_snackbar">Đã đăng chú thích hình ảnh! (%s)</string>
   <string name="description_edit_success_saved_image_tags_snackbar">Đã đăng chú thích hình ảnh!</string>
   <string name="description_edit_success_se_general_feed_link_snackbar">Bạn có thích không? Tiếp tục nhé?</string>
-  <string name="description_edit_success_encouragement">Bạn vừa cải thiện Wikipedia cho mọi người</string>
+  <string name="description_edit_success_encouragement">Bạn vừa cải thiện Infopedia cho mọi người</string>
   <string name="description_edit_success_done">Xong</string>
   <string name="description_edit_success_did_you_know">Bạn có biết?</string>
   <string name="description_edit_success_article_edit_hint">Bạn cũng có thể sửa đổi các bài viết dùng ứng dụng này. Hãy bấm nút ^1 lần sau để sửa các lỗi chính tả và câu ngắn.</string>
@@ -965,7 +965,7 @@
   <string name="suggested_edits_task_translate_caption_title">Dịch chú thích hình ảnh</string>
   <string name="suggested_edits_task_translate_caption_description">Dịch chú thích sang các ngôn ngữ khác</string>
   <string name="suggested_edits_task_multilingual_title">Nhiều nhiệm vụ hơn cho các biên tập viên đa ngôn ngữ</string>
-  <string name="suggested_edits_task_multilingual_description">Các nhiệm vụ dịch thuật có sẵn nếu bạn đọc và viết bằng nhiều ngôn ngữ Wikipedia.</string>
+  <string name="suggested_edits_task_multilingual_description">Các nhiệm vụ dịch thuật có sẵn nếu bạn đọc và viết bằng nhiều ngôn ngữ Infopedia.</string>
   <string name="suggested_edits_task_image_caption_edit_disable_text">Bị khóa cho đến khi bạn sửa đổi %d chú thích hình ảnh</string>
   <string name="suggested_edits_task_translate_description_edit_disable_text">Bị khóa cho đến khi bạn sửa đổi %d miêu tả bài viết (đã xác minh)</string>
   <string name="suggested_edits_task_multilingual_negative">Không phải cho tôi</string>
@@ -994,7 +994,7 @@
   <string name="suggested_edits_image_preview_dialog_licensing">Giấy phép</string>
   <string name="suggested_edits_image_preview_dialog_more_info">Thêm thông tin</string>
   <string name="suggested_edits_image_preview_dialog_file_page_link_text">Trang tập tin trên Wikimedia Commons</string>
-  <string name="suggested_edits_image_preview_dialog_file_page_wikipedia_link_text">Trang tập tin trên Wikipedia</string>
+  <string name="suggested_edits_image_preview_dialog_file_page_wikipedia_link_text">Trang tập tin trên Infopedia</string>
   <string name="suggested_edits_article_cta_image_tags">Thêm thẻ cho hình ảnh</string>
   <string name="suggested_edits_article_cta_image_caption">Thêm chú thích hình ảnh</string>
   <string name="suggested_edits_article_cta_image_caption_in_language">Thêm chú thích hình ảnh (%s)</string>
@@ -1009,7 +1009,7 @@
   <string name="suggested_edits_image_tags_publishing">Đang xuất bản</string>
   <string name="suggested_edits_image_tags_published">Đã xuất bản</string>
   <string name="suggested_edits_image_tags_onboarding_title">Gắn thẻ cho hình ảnh sẽ giúp chúng dễ tìm hơn.</string>
-  <string name="suggested_edits_image_tags_onboarding_text">Bằng cách thêm thẻ cho hình ảnh, bạn sẽ giúp chúng dễ tìm hơn trên Commons, kho lưu trữ hình ảnh tự do mà Wikipedia dùng làm nguồn cung hình ảnh cho bài viết.</string>
+  <string name="suggested_edits_image_tags_onboarding_text">Bằng cách thêm thẻ cho hình ảnh, bạn sẽ giúp chúng dễ tìm hơn trên Commons, kho lưu trữ hình ảnh tự do mà Infopedia dùng làm nguồn cung hình ảnh cho bài viết.</string>
   <string name="suggested_edits_image_tags_onboarding_note">Chỉ những thẻ bạn chọn mới được thêm vào hình ảnh.</string>
   <string name="suggested_edits_image_tags_task_detail">Thêm thẻ vào hình ảnh để giúp chúng dễ tìm hơn.</string>
   <string name="suggested_edits_image_tags_choose">Thêm hoặc lựa chọn các thẻ phù hợp</string>
@@ -1020,8 +1020,8 @@
   <string name="suggested_edits_image_tags_add_tag">Thêm thẻ</string>
   <string name="suggested_edits_image_tags_exit_dialog_message">Các thẻ chưa được xuất bản sẽ không được lưu</string>
   <string name="suggested_edits_image_zoom_tooltip">Vuốt để phóng to hình ảnh này.</string>
-  <string name="suggested_edits_encouragement_message">%s, cảm ơn vì sửa đổi của bạn. Dưới đây, bạn có thể tìm hiểu thêm các cách đóng góp cho Wikipedia.</string>
-  <string name="suggested_edits_onboarding_message">&lt;b&gt;Xin chào %s&lt;/b&gt;, dưới đây, bạn có thể tìm hiểu một số cách nhanh chóng và dễ dàng để giúp đóng góp cho Wikipedia. Chúc bạn đóng góp vui vẻ!</string>
+  <string name="suggested_edits_encouragement_message">%s, cảm ơn vì sửa đổi của bạn. Dưới đây, bạn có thể tìm hiểu thêm các cách đóng góp cho Infopedia.</string>
+  <string name="suggested_edits_onboarding_message">&lt;b&gt;Xin chào %s&lt;/b&gt;, dưới đây, bạn có thể tìm hiểu một số cách nhanh chóng và dễ dàng để giúp đóng góp cho Infopedia. Chúc bạn đóng góp vui vẻ!</string>
   <string name="suggested_edits_image_captions_task_detail">Mô tả một hình ảnh để giúp người đọc hiểu ý nghĩa và ngữ cảnh của nó.</string>
   <string name="suggested_edits_add_descriptions_task_detail">Tóm lược bài để giúp độc giả dễ dàng hiểu hơn.</string>
   <string name="suggested_edits_contributions_stat_tooltip">Tổng số đóng góp của bạn cho đến nay.</string>
@@ -1030,7 +1030,7 @@
   <string name="suggested_edits_edit_quality_stat_tooltip">Dựa trên số lần một trong những đóng góp của bạn đã được lùi sửa (lùi sửa bởi một người dùng khác). Sửa đổi bị lùi sửa: %d.</string>
   <string name="suggested_edits_paused_message">Các sửa đổi gợi ý bị tạm dừng cho đến %1$s. Xin lỗi %2$s, một số đóng góp gần đây của bạn đã được lùi sửa.</string>
   <string name="suggested_edits_disabled_message">Các sửa đổi gợi ý bị tắt. Xin lỗi %s, quá nhiều đóng góp gần đây của bạn đã được lùi sửa.</string>
-  <string name="suggested_edits_ip_blocked_message">Có vẻ như địa chỉ IP (hoặc dãy địa chỉ IP) của bạn hiện đang bị cấm sửa đổi Wikipedia.</string>
+  <string name="suggested_edits_ip_blocked_message">Có vẻ như địa chỉ IP (hoặc dãy địa chỉ IP) của bạn hiện đang bị cấm sửa đổi Infopedia.</string>
   <string name="suggested_edits_gate_message">Xin lỗi, %s, bạn phải thực hiện ít nhất ba lần sửa đổi trực tiếp trong một bài viết để sử dụng tính năng này.</string>
   <string name="suggested_edits_editing_tips_link_text">Sửa đổi mẹo và thủ thuật</string>
   <string name="suggested_edits_help_page_link_text">Trang trợ giúp về các sửa đổi được gợi ý</string>
@@ -1058,7 +1058,7 @@
     <item quantity="other">%d ngày</item>
   </plurals>
   <string name="suggested_edits_what_is_title">Sửa đổi gợi ý là gì?</string>
-  <string name="suggested_edits_what_is_text">các sửa đổi gợi ý dù nhỏ nhưng quan trọng cho Wikipedia.</string>
+  <string name="suggested_edits_what_is_text">các sửa đổi gợi ý dù nhỏ nhưng quan trọng cho Infopedia.</string>
   <string name="suggested_edits_learn_more">Tìm hiểu thêm</string>
   <string name="suggested_edits_paused_title">Đã tạm ngừng</string>
   <string name="suggested_edits_disabled_title">Đã tắt kích hoạt</string>
@@ -1068,8 +1068,8 @@
   <string name="suggested_edits_task_new">Mới</string>
   <string name="suggested_edits_cc0_notice">Bằng việc xuất bản trang, bạn chấp nhận &lt;a href=\"%1$s\"&gt;các Điều khoản Sử dụng&lt;/a&gt; và phát hành, một cách không thể hủy bỏ, các đóng góp của bạn theo giấy phép &lt;a href=\"%2$s\"&gt;CC BY-SA 3.0&lt;/a&gt;.</string>
   <string name="suggested_edits_reactivation_notification_title">Sửa đổi gợi ý</string>
-  <string name="suggested_edits_reactivation_notification_stage_one">Cảm ơn đã đóng góp cho Wikipedia! Tại sao không tiếp tục nơi bạn đã dừng lại?</string>
-  <string name="suggested_edits_reactivation_notification_stage_two">Có vài phút để tiếp tục đóng góp cho Wikipedia? Xem các sửa đổi gợi ý này.</string>
+  <string name="suggested_edits_reactivation_notification_stage_one">Cảm ơn đã đóng góp cho Infopedia! Tại sao không tiếp tục nơi bạn đã dừng lại?</string>
+  <string name="suggested_edits_reactivation_notification_stage_two">Có vài phút để tiếp tục đóng góp cho Infopedia? Xem các sửa đổi gợi ý này.</string>
   <string name="suggested_edits_contributions_screen_title">%s\'s đóng góp</string>
   <string name="suggested_edits_contribution_language_label">Ngôn ngữ</string>
   <string name="suggested_edits_contribution_date_time_label">Ngày / Giờ</string>
@@ -1087,11 +1087,11 @@
     <item quantity="other">Bạn đã thêm thẻ %d</item>
   </plurals>
   <string name="suggested_edits_contribution_date_yesterday_text">Hôm qua</string>
-  <string name="suggested_edits_encourage_account_creation_title">Bạn có biết rằng bất cứ ai cũng có thể đóng góp cho Wikipedia?</string>
-  <string name="suggested_edits_encourage_account_creation_message">Các sửa đổi gợi ý là một cách mới để đóng góp cho Wikipedia trên Android. Nó giúp bạn có những đóng góp nhỏ nhưng quan trọng cho Wikipedia.\nMục tiêu của chúng tôi là làm cho việc sửa đổi dễ dàng hơn và dễ tiếp cận hơn cho mọi người! Đăng nhập hoặc tham gia Wikipedia để bắt đầu.</string>
-  <string name="suggested_edits_encourage_account_creation_login_button">Đăng nhập / Tham gia Wikipedia</string>
+  <string name="suggested_edits_encourage_account_creation_title">Bạn có biết rằng bất cứ ai cũng có thể đóng góp cho Infopedia?</string>
+  <string name="suggested_edits_encourage_account_creation_message">Các sửa đổi gợi ý là một cách mới để đóng góp cho Infopedia trên Android. Nó giúp bạn có những đóng góp nhỏ nhưng quan trọng cho Infopedia.\nMục tiêu của chúng tôi là làm cho việc sửa đổi dễ dàng hơn và dễ tiếp cận hơn cho mọi người! Đăng nhập hoặc tham gia Infopedia để bắt đầu.</string>
+  <string name="suggested_edits_encourage_account_creation_login_button">Đăng nhập / Tham gia Infopedia</string>
   <string name="suggested_edits_contribution_type_image_tag">Thẻ cho hình ảnh</string>
-  <string name="suggested_edits_contribution_current_revision_text">Sửa đổi của bạn đang hiện tại ở Wikipedia</string>
+  <string name="suggested_edits_contribution_current_revision_text">Sửa đổi của bạn đang hiện tại ở Infopedia</string>
   <string name="suggested_card_more_edits">Thêm các sửa đổi gợi ý</string>
   <string name="suggested_edits_article_descriptions_dialog_title">Mô tả gợi ý</string>
   <string name="suggested_edits_descriptions_report_dialog_title">Bạn muốn báo cáo điều gì?</string>
@@ -1118,7 +1118,7 @@
     <item quantity="other">Bạn đã thêm %d ký tự</item>
   </plurals>
   <string name="suggested_edits_image_recommendations_task_title">Hình ảnh bài viết</string>
-  <string name="suggested_edits_image_recommendations_task_detail">Thêm hình ảnh gợi ý vào bài viết Wikipedia để tăng khả năng nhận diện.</string>
+  <string name="suggested_edits_image_recommendations_task_detail">Thêm hình ảnh gợi ý vào bài viết Infopedia để tăng khả năng nhận diện.</string>
   <string name="image_recommendation_task_instruction">Bạn có muốn thêm hình ảnh này vào bài viết không?</string>
   <string name="image_recommendation_tutorial">Hướng dẫn</string>
   <string name="image_recommendation_accept">Có</string>
@@ -1135,9 +1135,9 @@
   <string name="image_recommendation_reject_submit">Gửi</string>
   <string name="image_recommendation_tooltip_main">Thêm hình ảnh còn thiếu vào bài viết trong mục sửa đổi gợi ý</string>
   <string name="image_recommendation_onboarding_1">Hình ảnh giúp mọi người hiểu rõ hơn, nhưng nhiều bài viết lại không có hình ảnh.</string>
-  <string name="image_recommendation_onboarding_2">Bạn sẽ quyết định xem hình ảnh được gợi ý có nên được đưa vào bài viết Wikipedia hay không.</string>
+  <string name="image_recommendation_onboarding_2">Bạn sẽ quyết định xem hình ảnh được gợi ý có nên được đưa vào bài viết Infopedia hay không.</string>
   <string name="image_recommendation_onboarding_3">Các gợi ý được tạo ra bằng máy và bạn sẽ sử dụng khả năng phán đoán của mình để quyết định chấp nhận hay từ chối chúng.</string>
-  <string name="image_recommendation_onboarding_4">Hình ảnh đến từ Wikimedia Commons, một tập hợp các hình ảnh được cấp phép tự do được sử dụng bởi Wikipedia.</string>
+  <string name="image_recommendation_onboarding_4">Hình ảnh đến từ Wikimedia Commons, một tập hợp các hình ảnh được cấp phép tự do được sử dụng bởi Infopedia.</string>
   <string name="image_recommendation_tooltip_1">Xem lại bài viết này để hiểu chủ đề của nó</string>
   <string name="image_recommendation_tooltip_2">Kiểm tra hình ảnh và thông tin liên quan</string>
   <string name="image_recommendation_tooltip_3">Quyết định xem hình ảnh có giúp người đọc hiểu chủ đề này tốt hơn không</string>
@@ -1150,15 +1150,15 @@
   <string name="edit_summary_added_caption">Đã thêm chú thích</string>
   <string name="edit_summary_added_image_and_caption">Đã thêm hình ảnh và chú thích</string>
   <string name="edit_published_view">Xem</string>
-  <string name="activity_tab_logged_out_title">Đăng nhập hoặc tạo tài khoản để xem hoạt động của bạn trên ứng dụng Wikipedia.</string>
+  <string name="activity_tab_logged_out_title">Đăng nhập hoặc tạo tài khoản để xem hoạt động của bạn trên ứng dụng Infopedia.</string>
   <string name="activity_tab_user_reading">Thời gian đọc của %s</string>
-  <string name="activity_tab_on_wikipedia_android">Trên Wikipedia Android</string>
+  <string name="activity_tab_on_wikipedia_android">Trên Infopedia Android</string>
   <string name="activity_tab_weekly_time_spent_hm">%1$dg %2$dp</string>
   <string name="activity_tab_weekly_time_spent">Tổng thời gian trong tuần dành ra để đọc bài viết</string>
   <string name="activity_tab_monthly_articles_read">Lượng bài viết đã đọc trong tháng này</string>
   <string name="activity_tab_monthly_articles_saved">Lượng bài viết đã lưu trong tháng này</string>
   <string name="activity_tab_monthly_top_categories">Những trang thể loại được xem nhiều nhất trong tháng này</string>
-  <string name="activity_tab_explore_wikipedia">Khám phá thông qua Wikipedia</string>
+  <string name="activity_tab_explore_wikipedia">Khám phá thông qua Infopedia</string>
   <string name="activity_tab_discover_encourage">Bạn đang muốn tìm thứ gì đó mới mẻ để đọc?</string>
   <string name="activity_tab_donation_unknown">Không rõ</string>
   <string name="activity_tab_donation_last_donation">&lt;b&gt;Lần quyên góp cuối cùng&lt;/b&gt; trong ứng dụng</string>
@@ -1202,13 +1202,13 @@
   <string name="activity_tab_timeline_view_changes_button">Xem thay đổi</string>
   <string name="activity_tab_onboarding_screen_title">Giới thiệu Hoạt động</string>
   <string name="activity_tab_onboarding_stay_in_control_title">Giữ quyền kiểm soát</string>
-  <string name="edits_screen_what_is_title">Sửa đổi trong ứng dụng Wikipedia</string>
-  <string name="edits_screen_what_is_body">Bạn chưa biết bắt đầu sửa đổi từ đâu? Hãy thử tính năng sửa đổi gợi ý, một tính năng tạo cơ hội cho những đóng góp nhỏ nhưng thiết thực cho Wikipedia. Hoặc, bạn có thể truy cập trực tiếp vào bài viết mà bạn quan tâm và thực hiện thay đổi bằng mã wiki.</string>
+  <string name="edits_screen_what_is_title">Sửa đổi trong ứng dụng Infopedia</string>
+  <string name="edits_screen_what_is_body">Bạn chưa biết bắt đầu sửa đổi từ đâu? Hãy thử tính năng sửa đổi gợi ý, một tính năng tạo cơ hội cho những đóng góp nhỏ nhưng thiết thực cho Infopedia. Hoặc, bạn có thể truy cập trực tiếp vào bài viết mà bạn quan tâm và thực hiện thay đổi bằng mã wiki.</string>
   <string name="file_page_activity_title">Trang tập tin</string>
   <string name="file_page_add_image_caption_button">Thêm chú thích hình ảnh</string>
   <string name="file_page_add_image_tags_button">Thêm thẻ cho hình ảnh</string>
   <string name="file_page_edit_button_content_description">Sửa đổi %s</string>
-  <string name="description_edit_revert_subtitle">Cảm ơn bạn đã sửa đổi Wikipedia.</string>
+  <string name="description_edit_revert_subtitle">Cảm ơn bạn đã sửa đổi Infopedia.</string>
   <string name="description_edit_revert_intro">Rất tiếc, bạn đã cố gắng sửa đổi một cách chính xác, nhưng một người xem lại đã nhận thấy vấn đề. Họ đã lùi lại sửa đổi của bạn, có thể do một lý do sau:</string>
   <string name="description_edit_revert_reason1">đóng góp của bạn vi phạm một &lt;a href=\"%1$s\"&gt;quy định&lt;/a&gt;.</string>
   <string name="description_edit_revert_reason2">đóng góp của bạn nhìn giống thử nghiệm hoặc phá hoại.</string>
@@ -1223,9 +1223,9 @@
   <string name="onboarding_get_started">Bắt đầu</string>
   <string name="onboarding_maybe_later">Có lẽ để sau</string>
   <string name="onboarding_explore_title">Cách thám hiểm mới</string>
-  <string name="onboarding_explore_text" fuzzy="true">Khám phá Wikipedia với nguồn cấp dữ liệu được cập nhật liên tục. &lt;br/&gt;&lt;b&gt;Tùy chỉnh &lt;/b&gt; nguồn cấp dữ liệu theo sở thích của bạn &lt;b&gt; Ngày này năm xưa &lt;/b&gt; hay &lt;b&gt;ngẫu nhiên&lt;/b&gt;.</string>
+  <string name="onboarding_explore_text" fuzzy="true">Khám phá Infopedia với nguồn cấp dữ liệu được cập nhật liên tục. &lt;br/&gt;&lt;b&gt;Tùy chỉnh &lt;/b&gt; nguồn cấp dữ liệu theo sở thích của bạn &lt;b&gt; Ngày này năm xưa &lt;/b&gt; hay &lt;b&gt;ngẫu nhiên&lt;/b&gt;.</string>
   <string name="onboarding_reading_list_sync_title">Danh sách đọc có thể đồng bộ hóa</string>
-  <string name="onboarding_reading_list_sync_text_v2">Bạn có thể tạo danh sách đọc có các bài bạn muốn đọc sau, ngay cả khi bạn đang ngoại tuyến. &lt;br/&gt;Đăng nhập vào tài khoản Wikipedia của bạn để đồng bộ hóa các danh sách đọc của bạn. &lt;a href=\"#login\"&gt;Tham gia Wikipedia&lt;/a&gt;</string>
+  <string name="onboarding_reading_list_sync_text_v2">Bạn có thể tạo danh sách đọc có các bài bạn muốn đọc sau, ngay cả khi bạn đang ngoại tuyến. &lt;br/&gt;Đăng nhập vào tài khoản Infopedia của bạn để đồng bộ hóa các danh sách đọc của bạn. &lt;a href=\"#login\"&gt;Tham gia Infopedia&lt;/a&gt;</string>
   <string name="onboarding_data_privacy_title">Dữ liệu &amp; Quyền riêng tư</string>
   <string name="onboarding_data_privacy_text">Chúng tôi tin rằng bạn không cần phải cung cấp thông tin cá nhân để tham gia vào phong trào tri thức miễn phí. Dữ liệu sử dụng được thu thập cho ứng dụng này là ẩn danh.&lt;br/&gt;&lt;br/&gt;Tìm hiểu thêm về &lt;a href=\"#privacy\"&gt;chính sách bảo mật&lt;/a&gt; và &lt;a href=\"#termsOfUse\"&gt;điều khoản sử dụng&lt;/a&gt; của chúng tôi.</string>
   <string name="onboarding_analytics_switch_title">Gửi dữ liệu về cách dùng</string>
@@ -1234,7 +1234,7 @@
   <string name="onboarding_multilingual_add_language_text">Thêm và sửa ngôn ngữ</string>
   <string name="onboarding_welcome_title_v2">Bách khoa toàn thư mở\n…trong hơn 300 ngôn ngữ</string>
   <string name="onboarding_next">Tiếp</string>
-  <string name="onboarding_fresh_install_knowledge_learn_more">Tìm hiểu thêm về Wikipedia</string>
+  <string name="onboarding_fresh_install_knowledge_learn_more">Tìm hiểu thêm về Infopedia</string>
   <string name="onboarding_app_languages_add_button">Thêm hoặc chỉnh sửa ngôn ngữ của bạn</string>
   <string name="app_shortcuts_random">Ngẫu nhiên</string>
   <string name="app_shortcuts_continue_reading">Đọc tiếp</string>
@@ -1256,7 +1256,7 @@
   <string name="languages_list_activity_title">Thêm ngôn ngữ</string>
   <string name="languages_list_suggested_text">Được khuyến nghị</string>
   <string name="languages_list_all_text">Tất cả ngôn ngữ</string>
-  <string name="wikipedia_languages_title">Các ngôn ngữ của Wikipedia</string>
+  <string name="wikipedia_languages_title">Các ngôn ngữ của Infopedia</string>
   <string name="wikipedia_languages_your_languages_text">Ngôn ngữ của bạn</string>
   <string name="wikipedia_languages_add_language_text">Thêm ngôn ngữ</string>
   <string name="wikipedia_languages_remove_text">Xóa ngôn ngữ</string>
@@ -1267,9 +1267,9 @@
   </plurals>
   <string name="wikipedia_languages_remove_dialog_content" fuzzy="true">Từ bây giờ, những nội dung trên Bảng tin khám phá cũng như trong mục Tìm kiếm nhanh sẽ chỉ xuất hiện bằng các ngôn ngữ còn lại.</string>
   <string name="wikipedia_languages_remove_warning_dialog_title">Không thể xóa hết ngôn ngữ</string>
-  <string name="wikipedia_languages_remove_warning_dialog_content">Hãy giữ lại ít nhất một ngôn ngữ Wikipedia để tìm và đọc nội dung.</string>
+  <string name="wikipedia_languages_remove_warning_dialog_content">Hãy giữ lại ít nhất một ngôn ngữ Infopedia để tìm và đọc nội dung.</string>
   <string name="more_language_options">thêm</string>
-  <string name="add_wikipedia_languages_text">Thêm ngôn ngữ Wikipedia</string>
+  <string name="add_wikipedia_languages_text">Thêm ngôn ngữ Infopedia</string>
   <string name="remove_language_dialog_cancel_button_text">Hủy bỏ</string>
   <string name="remove_language_dialog_ok_button_text">OK</string>
   <string name="remove_all_language_warning_dialog_ok_button_text">OK</string>
@@ -1339,7 +1339,7 @@
   <string name="templates_description_empty">Bản mẫu \"%s\" vẫn chưa có mô tả.</string>
   <string name="templates_description_missing_data">Bản mẫu này bị thiếu &lt;a href=\"%1$s\"&gt;dữ liệu bản mẫu&lt;/a&gt; và các tham số của nó đã được &lt;a href=\"%2$s\"&gt;tự động tạo&lt;/a&gt;. Do đó, cả bản mẫu và các tham số của nó đều thiếu mô tả.</string>
   <string name="main_drawer_help">Trợ giúp</string>
-  <string name="main_drawer_login">Đăng nhập / Tham gia Wikipedia</string>
+  <string name="main_drawer_login">Đăng nhập / Tham gia Infopedia</string>
   <string name="main_tooltip_action_button">Bắt đầu</string>
   <string name="main_tooltip_watchlist_title">Danh sách theo dõi</string>
   <string name="main_tooltip_watchlist_text">Tìm các bài báo và trang bạn đã thêm trước đó vào danh sách theo dõi của mình trong bảng chọn Khác trong &lt;b&gt;Danh sách theo dõi&lt;/b&gt;.</string>
@@ -1365,7 +1365,7 @@
   <string name="talk_warn_saved_messages">Lời nhắn đã lưu</string>
   <string name="talk_page_empty">Trang thảo luận này hiện đang trống.</string>
   <string name="talk_page_empty_title">Cuộc thảo luận bắt đầu ở đây</string>
-  <string name="talk_page_empty_content">Trang thảo luận là nơi để mọi người cùng nhau thảo luận để giúp nội dung trên Wikipedia trở nên tốt nhất có thể. Hãy bắt đầu bằng cách thêm một chủ đề thảo luận mới để kết nối và cộng tác với cộng đồng thành viên Wikipedia.</string>
+  <string name="talk_page_empty_content">Trang thảo luận là nơi để mọi người cùng nhau thảo luận để giúp nội dung trên Infopedia trở nên tốt nhất có thể. Hãy bắt đầu bằng cách thêm một chủ đề thảo luận mới để kết nối và cộng tác với cộng đồng thành viên Infopedia.</string>
   <string name="talk_add_reply">Trả lời</string>
   <string name="talk_no_subject">(Không tiêu đề)</string>
   <string name="talk_reply_subject">Tiêu đề</string>
@@ -1379,9 +1379,9 @@
   <string name="talk_last_modified">&lt;b&gt;Sửa đổi lần cuối cùng vào %1$s&lt;/b&gt; bởi %2$s</string>
   <string name="talk_snackbar_survey_text">Cảm ơn vì đã sử dụng các trang thảo luận. Bạn có thể giúp chúng tôi cải thiện ứng dụng bằng cách tham gia một cuộc khảo sát không?</string>
   <string name="talk_snackbar_survey_action_text">Bắt đầu</string>
-  <string name="talk_share_discussion_subject">Wikipedia – thảo luận về chủ đề “%s” tại trang thảo luận</string>
-  <string name="talk_share_talk_page">Wikipedia – thảo luận tại trang thảo luận</string>
-  <string name="talk_edit_disclaimer">Đây là trang thảo luận. Vui lòng tôn trọng các quy định thảo luận và nhớ ký tên vào bài viết của bạn bằng cách nhập bốn dấu ngã: ~~~~ khi xuất bản bằng wikitext.&lt;br&gt;&lt;br&gt;&lt;a href=\"https://vi.wikipedia.org/wiki/Wikipedia:Trang_thảo_luận\"&gt;Wikipedia:Trang thảo luận&lt;/a&gt;</string>
+  <string name="talk_share_discussion_subject">Infopedia – thảo luận về chủ đề “%s” tại trang thảo luận</string>
+  <string name="talk_share_talk_page">Infopedia – thảo luận tại trang thảo luận</string>
+  <string name="talk_edit_disclaimer">Đây là trang thảo luận. Vui lòng tôn trọng các quy định thảo luận và nhớ ký tên vào bài viết của bạn bằng cách nhập bốn dấu ngã: ~~~~ khi xuất bản bằng wikitext.&lt;br&gt;&lt;br&gt;&lt;a href=\"https://vi.Infopedia.org/wiki/Infopedia:Trang_thảo_luận\"&gt;Infopedia:Trang thảo luận&lt;/a&gt;</string>
   <string name="talk_search_hint">Tìm kiếm lời nhắn</string>
   <string name="talk_search_topics_hint">Tìm kiếm chủ đề</string>
   <string name="talk_search_find_in_talk_topics_hint">Tìm trong chủ đề trang thảo luận</string>
@@ -1428,7 +1428,7 @@
   <string name="thank_label">Cảm ơn</string>
   <string name="view_user_page">Xem trang thành viên</string>
   <string name="thank_dialog_title_text">Gửi lời \'Cảm ơn\'</string>
-  <string name="thank_dialog_text">\'Cảm ơn\' là một cách dễ dàng để thể hiện sự đánh giá cao đối với công việc của một biên tập viên trên Wikipedia. Không thể hoàn tác \'Cảm ơn\' và có thể xem công khai</string>
+  <string name="thank_dialog_text">\'Cảm ơn\' là một cách dễ dàng để thể hiện sự đánh giá cao đối với công việc của một biên tập viên trên Infopedia. Không thể hoàn tác \'Cảm ơn\' và có thể xem công khai</string>
   <string name="thank_dialog_positive_button_text">Gửi lời cảm ơn</string>
   <string name="thank_dialog_negative_button_text">Hủy bỏ</string>
   <string name="thank_success_message">Lời \'Cảm ơn\' của bạn đã được gửi tới %s 👍</string>
@@ -1557,7 +1557,7 @@
   <string name="shareable_reading_lists_new_imported_snackbar">Đã xuất danh sách đọc</string>
   <string name="reading_list_share_menu_label">Chia sẻ…</string>
   <string name="reading_list_share_menu_tooltip">Chia sẻ danh sách đọc này với mọi người</string>
-  <string name="reading_list_share_message_v2">Xin chào! Tôi muốn chia sẻ danh sách đọc Wikipedia của tôi với bạn:</string>
+  <string name="reading_list_share_message_v2">Xin chào! Tôi muốn chia sẻ danh sách đọc Infopedia của tôi với bạn:</string>
   <string name="talk_templates_new_message_title">Thông điệp mới</string>
   <string name="talk_templates_new_message_subject_hint">Đề tài</string>
   <string name="talk_templates_new_message_compose_hint">Soạn thông điệp</string>
@@ -1638,7 +1638,7 @@
   <string name="patroller_tasks_patrol_edit_snackbar_view">Xem</string>
   <string name="patroller_tasks_overflow_report">Vấn đề với tính năng</string>
   <string name="patroller_tasks_overflow_learn">Tìm hiểu thêm</string>
-  <string name="patroller_onboarding_one_title">Góp phần giám sát và phê duyệt các sửa đổi trên Wikipedia.</string>
+  <string name="patroller_onboarding_one_title">Góp phần giám sát và phê duyệt các sửa đổi trên Infopedia.</string>
   <string name="patroller_onboarding_two_thank_title">Cảm ơn</string>
   <string name="patroller_onboarding_two_thank_content">Bạn thấy một sửa đổi hữu ích? Cảm ơn người dùng vì sự đóng góp của họ.</string>
   <string name="patroller_onboarding_two_watch_title">Theo dõi</string>
@@ -1659,17 +1659,17 @@
   <string name="patroller_saved_message_title_do_not_censor">Không kiểm duyệt</string>
   <string name="patroller_saved_message_title_art_imp">Gợi ý cải thiện bài viết</string>
   <string name="patroller_saved_message_body_vandalism">Xin chào {{{username}}}, tôi muốn thông báo cho bạn biết rằng một hoặc nhiều [{{{diffLink}}}|sửa đổi gần đây của bạn] không mang tính chất xây dựng và đã bị lùi lại. Nếu bạn nghĩ rằng tôi đã sai hay bạn có bất kỳ câu hỏi nào, bạn có thể để lại lời nhắn trên [[Thảo luận Thành viên:{{{senderUserName}}}|trang thảo luận của tôi]]. Hãy lưu ý rằng, việc liên tục sửa đổi gây hại có thể dẫn đến việc cấm sửa đổi. Cảm ơn bạn.</string>
-  <string name="patroller_saved_message_body_editing_tests">Xin chào {{{username}}}, tôi rất vui khi biết Wikipedia đã thu hút được sự chú ý của bạn và bạn đang quan tâm đến việc tìm hiểu cách sửa đổi tại đây. Thử nghiệm của bạn đã thực sự hoạt động. Tuy nhiên, bạn cần lưu ý rằng mục tiêu của dự án này là xây dựng một bách khoa toàn thư, nơi có đầy đủ thông tin và đáng tin cậy mà mọi người đều có thể tra cứu. Sửa đổi của bạn đã làm ảnh hưởng đến nội dung bài viết, vì vậy nó đã bị gỡ bỏ.\n\nNếu bạn muốn học cách sửa đổi tại Wikipedia, bạn có thể sử dụng [[Wikipedia:Chỗ thử|chỗ thử]]. Nếu bạn có ý kiến liên quan đến một bài viết cụ thể, thì nơi thích hợp nhất để đăng ý kiến của bạn là trang thảo luận của bài viết đó.</string>
-  <string name="patroller_saved_message_body_npov">Xin chào {{{username}}}, một số đóng góp của bạn chưa đáp ứng tính trung lập theo quy định [[Wikipedia:NPOV|quan điểm trung lập]] của Wikipedia. Vì lý do này, một số nội dung đã được sửa đổi hoặc gỡ bỏ. Vui lòng điều chỉnh lại các đoạn hoặc mục thể hiện quan điểm thiên lệch, thay thế chúng bằng văn bản trung lập và khách quan hơn, phù hợp với những gì được kỳ vọng trong một bách khoa toàn thư.</string>
-  <string name="patroller_saved_message_body_auto_trans">Xin chào {{{username}}}. Hoan nghênh bạn đã đóng góp cho Wikipedia nhưng những đóng góp gần đây của bạn cho thấy rằng bạn có thể đã lạm dụng công cụ dịch máy mà chưa được biên tập kỹ, nên những đóng góp này đã được sửa đổi hoặc đánh dấu bằng bản mẫu. Nếu như không có sự cải thiện nào được thực hiện đối với đoạn văn hoặc bài viết đó, chúng có thể bị lùi sửa hoặc bị xóa.\n\nNếu bạn vẫn còn thắc mắc, bạn có thể để lại lời nhắn trên [[User talk:{{{senderUserName}}}|trang thảo luận của tôi]]. Đừng nản lòng vì sự cố nhỏ này. Những đóng góp của bạn rất quan trọng đối với Wikipedia.</string>
-  <string name="patroller_saved_message_body_coi_rem">Xin chào {{{username}}}, chúng tôi trân trọng những đóng góp của bạn trên Wikipedia. Tuy nhiên, tôi nhận thấy bạn đang gặp phải tình huống [[Wikipedia:Xung đột lợi ích|xung đột lợi ích]]. Xung đột lợi ích là sự mâu thuẫn giữa mục tiêu về tính trung lập và độ tin cậy của Wikipedia với những mục tiêu riêng của một số biên tập viên, cá nhân, tổ chức hay doanh nghiệp thuộc bất kỳ loại hình nào.\n\nMọi đóng góp trong không gian bài viết chính đều phải tuân thủ các chính sách về tiêu chí nội dung của Wikipedia ([[Wikipedia:Những gì không phải là Wikipedia|Những gì không phải là Wikipedia]]), ([[Wikipedia:Thông tin kiểm chứng được|khả năng kiểm chứng]] thông tin và [[Wikipedia:Không đăng nghiên cứu chưa được công bố|nghiên cứu chưa được công bố]]), cách thức biên tập theo ([[Wikipedia:Thái độ trung lập|quan điểm trung lập]]) và tính hợp pháp của nội dung ([[Wikipedia:Quyền tác giả|bản quyền]]). Tất cả các biên tập viên đều được kỳ vọng tuân thủ những chính sách này khi tạo lập và đánh giá nội dung, đồng thời tôn trọng và hành xử thiện chí với những đóng góp của người khác để bảo đảm các chính sách được thực hiện.\n\nNếu bạn đang trong tình huống có thể xung đột lợi ích, bạn cần đặc biệt tuân thủ chính sách liên quan. Nếu không, tài khoản của bạn có thể bị coi là phục vụ cho mục đích cá nhân và sẽ bị cấm. Nếu bạn có thắc mắc, bạn có thể để lại lời nhắn trên trang thảo luận của tôi.</string>
-  <string name="patroller_saved_message_body_final_warning">Vì bạn đã thực hiện nhiều sửa đổi mang tính phá hoại, đây sẽ được coi là cảnh cáo cuối cùng dành cho bạn. Nếu bạn tiếp tục phá hoại Wikipedia, bạn sẽ bị cấm sửa đổi.</string>
-  <string name="patroller_saved_message_body_copy_vio">Sửa đổi gần đây của bạn dường như có chứa nội dung vi phạm bản quyền mà chưa được cho phép. Xin hãy đảm bảo mọi nội dung đều tuân thủ chính sách [[Wikipedia:Quyền tác giả|bản quyền]] của Wikipedia để tránh bị gỡ bỏ.</string>
-  <string name="patroller_saved_message_body_edit_summary">Xin chào {{{username}}}, có vẻ như bạn đã xóa bỏ nội dung khỏi Wikipedia mà không để lại tóm lược sửa đổi. Vui lòng ghi tóm lược sửa đổi mỗi khi bạn thêm hoặc xóa nội dung trên Wikipedia.</string>
-  <string name="patroller_saved_message_body_do_not_censor">Xin chào {{{username}}}, có vẻ như bạn đã xóa bỏ nội dung mà không thông qua thảo luận tại trang thảo luận của bài viết. Xin lưu ý rằng Wikipedia không bị kiểm duyệt, và nội dung không nên bị gỡ bỏ chỉ vì chúng gây tranh cãi. Nếu bạn cho rằng thông tin chưa chính xác, hãy trao đổi để đạt được đồng thuận trên trang thảo luận của bài viết.</string>
+  <string name="patroller_saved_message_body_editing_tests">Xin chào {{{username}}}, tôi rất vui khi biết Infopedia đã thu hút được sự chú ý của bạn và bạn đang quan tâm đến việc tìm hiểu cách sửa đổi tại đây. Thử nghiệm của bạn đã thực sự hoạt động. Tuy nhiên, bạn cần lưu ý rằng mục tiêu của dự án này là xây dựng một bách khoa toàn thư, nơi có đầy đủ thông tin và đáng tin cậy mà mọi người đều có thể tra cứu. Sửa đổi của bạn đã làm ảnh hưởng đến nội dung bài viết, vì vậy nó đã bị gỡ bỏ.\n\nNếu bạn muốn học cách sửa đổi tại Infopedia, bạn có thể sử dụng [[Infopedia:Chỗ thử|chỗ thử]]. Nếu bạn có ý kiến liên quan đến một bài viết cụ thể, thì nơi thích hợp nhất để đăng ý kiến của bạn là trang thảo luận của bài viết đó.</string>
+  <string name="patroller_saved_message_body_npov">Xin chào {{{username}}}, một số đóng góp của bạn chưa đáp ứng tính trung lập theo quy định [[Infopedia:NPOV|quan điểm trung lập]] của Infopedia. Vì lý do này, một số nội dung đã được sửa đổi hoặc gỡ bỏ. Vui lòng điều chỉnh lại các đoạn hoặc mục thể hiện quan điểm thiên lệch, thay thế chúng bằng văn bản trung lập và khách quan hơn, phù hợp với những gì được kỳ vọng trong một bách khoa toàn thư.</string>
+  <string name="patroller_saved_message_body_auto_trans">Xin chào {{{username}}}. Hoan nghênh bạn đã đóng góp cho Infopedia nhưng những đóng góp gần đây của bạn cho thấy rằng bạn có thể đã lạm dụng công cụ dịch máy mà chưa được biên tập kỹ, nên những đóng góp này đã được sửa đổi hoặc đánh dấu bằng bản mẫu. Nếu như không có sự cải thiện nào được thực hiện đối với đoạn văn hoặc bài viết đó, chúng có thể bị lùi sửa hoặc bị xóa.\n\nNếu bạn vẫn còn thắc mắc, bạn có thể để lại lời nhắn trên [[User talk:{{{senderUserName}}}|trang thảo luận của tôi]]. Đừng nản lòng vì sự cố nhỏ này. Những đóng góp của bạn rất quan trọng đối với Infopedia.</string>
+  <string name="patroller_saved_message_body_coi_rem">Xin chào {{{username}}}, chúng tôi trân trọng những đóng góp của bạn trên Infopedia. Tuy nhiên, tôi nhận thấy bạn đang gặp phải tình huống [[Infopedia:Xung đột lợi ích|xung đột lợi ích]]. Xung đột lợi ích là sự mâu thuẫn giữa mục tiêu về tính trung lập và độ tin cậy của Infopedia với những mục tiêu riêng của một số biên tập viên, cá nhân, tổ chức hay doanh nghiệp thuộc bất kỳ loại hình nào.\n\nMọi đóng góp trong không gian bài viết chính đều phải tuân thủ các chính sách về tiêu chí nội dung của Infopedia ([[Infopedia:Những gì không phải là Infopedia|Những gì không phải là Infopedia]]), ([[Infopedia:Thông tin kiểm chứng được|khả năng kiểm chứng]] thông tin và [[Infopedia:Không đăng nghiên cứu chưa được công bố|nghiên cứu chưa được công bố]]), cách thức biên tập theo ([[Infopedia:Thái độ trung lập|quan điểm trung lập]]) và tính hợp pháp của nội dung ([[Infopedia:Quyền tác giả|bản quyền]]). Tất cả các biên tập viên đều được kỳ vọng tuân thủ những chính sách này khi tạo lập và đánh giá nội dung, đồng thời tôn trọng và hành xử thiện chí với những đóng góp của người khác để bảo đảm các chính sách được thực hiện.\n\nNếu bạn đang trong tình huống có thể xung đột lợi ích, bạn cần đặc biệt tuân thủ chính sách liên quan. Nếu không, tài khoản của bạn có thể bị coi là phục vụ cho mục đích cá nhân và sẽ bị cấm. Nếu bạn có thắc mắc, bạn có thể để lại lời nhắn trên trang thảo luận của tôi.</string>
+  <string name="patroller_saved_message_body_final_warning">Vì bạn đã thực hiện nhiều sửa đổi mang tính phá hoại, đây sẽ được coi là cảnh cáo cuối cùng dành cho bạn. Nếu bạn tiếp tục phá hoại Infopedia, bạn sẽ bị cấm sửa đổi.</string>
+  <string name="patroller_saved_message_body_copy_vio">Sửa đổi gần đây của bạn dường như có chứa nội dung vi phạm bản quyền mà chưa được cho phép. Xin hãy đảm bảo mọi nội dung đều tuân thủ chính sách [[Infopedia:Quyền tác giả|bản quyền]] của Infopedia để tránh bị gỡ bỏ.</string>
+  <string name="patroller_saved_message_body_edit_summary">Xin chào {{{username}}}, có vẻ như bạn đã xóa bỏ nội dung khỏi Infopedia mà không để lại tóm lược sửa đổi. Vui lòng ghi tóm lược sửa đổi mỗi khi bạn thêm hoặc xóa nội dung trên Infopedia.</string>
+  <string name="patroller_saved_message_body_do_not_censor">Xin chào {{{username}}}, có vẻ như bạn đã xóa bỏ nội dung mà không thông qua thảo luận tại trang thảo luận của bài viết. Xin lưu ý rằng Infopedia không bị kiểm duyệt, và nội dung không nên bị gỡ bỏ chỉ vì chúng gây tranh cãi. Nếu bạn cho rằng thông tin chưa chính xác, hãy trao đổi để đạt được đồng thuận trên trang thảo luận của bài viết.</string>
   <string name="talk_warn_learn_more_label">Tìm hiểu thêm về các tham số trong thông điệp</string>
   <string name="talk_warn_saved_messages_usage_instruction">Hãy sử dụng một thông điệp mẫu dưới đây để tùy chỉnh, gửi và lưu vào mục thông điệp của bạn.</string>
-  <string name="patroller_saved_message_body_art_imp">Xin chào {{{username}}}. Bài viết của bạn là một khởi đầu tuyệt vời! Để làm cho nó hoàn thiện hơn, bạn nên bổ sung thêm các nguồn tham khảo đáng tin cậy. Điều này giúp xác minh thông tin và nâng cao chất lượng của bài viết. Bạn có thể tham khảo hướng dẫn của Wikipedia về [[ Wikipedia:Nguồn đáng tin cậy|nguồn đáng tin cậy]] để biết thêm chi tiết.</string>
+  <string name="patroller_saved_message_body_art_imp">Xin chào {{{username}}}. Bài viết của bạn là một khởi đầu tuyệt vời! Để làm cho nó hoàn thiện hơn, bạn nên bổ sung thêm các nguồn tham khảo đáng tin cậy. Điều này giúp xác minh thông tin và nâng cao chất lượng của bài viết. Bạn có thể tham khảo hướng dẫn của Infopedia về [[ Infopedia:Nguồn đáng tin cậy|nguồn đáng tin cậy]] để biết thêm chi tiết.</string>
   <string name="talk_templates_menu_edit_title">Sửa đổi</string>
   <string name="data_opt_in_accept">Chấp nhận</string>
   <string name="data_opt_in_reject">Từ chối</string>
@@ -1677,7 +1677,7 @@
   <string name="generic_release_notes">Sửa lỗi nhỏ và cải thiện</string>
   <string name="email_report_image_recommendations_subject">Báo cáo sự cố - Tính năng Đề xuất Hình ảnh</string>
   <string name="donation_campaign_maybe_later_snackbar">Chúng tôi sẽ nhắc lại với bạn vào ngày mai.</string>
-  <string name="donation_campaign_donated_snackbar" fuzzy="true">Cảm ơn người quyên góp! Sự hào phóng của bạn giúp Wikipedia và các dự án liên quan phát triển mạnh mẽ.</string>
+  <string name="donation_campaign_donated_snackbar" fuzzy="true">Cảm ơn người quyên góp! Sự hào phóng của bạn giúp Infopedia và các dự án liên quan phát triển mạnh mẽ.</string>
   <string name="donation_campaign_go_back_button">Quay lại</string>
   <string name="menu_single_webview_open_external">Mở trong trình duyệt hệ thống</string>
   <string name="donate_gpay_dialog_title">Quyên góp bằng Google Pay?</string>
@@ -1688,7 +1688,7 @@
   <string name="donate_gpay_activity_title_with_currency">Chọn số tiền (%s)</string>
   <string name="donate_gpay_check_recurring">Biến đây thành khoản quyên góp định kỳ hàng tháng.</string>
   <string name="donate_gpay_check_send_email">Vâng, Quỹ Wikimedia có thể gửi cho tôi email thường xuyên.</string>
-  <string name="donate_gpay_success_message">&lt;b&gt;Cảm ơn bạn!&lt;/b&gt; Sự hào phóng của bạn dành cho Wikipedia có ý nghĩa rất lớn đối với chúng tôi.</string>
+  <string name="donate_gpay_success_message">&lt;b&gt;Cảm ơn bạn!&lt;/b&gt; Sự hào phóng của bạn dành cho Infopedia có ý nghĩa rất lớn đối với chúng tôi.</string>
   <string name="donate_gpay_help_problems">Có trục trặc khi quyên góp?</string>
   <string name="donate_gpay_help_other_ways">Thêm cách để quyên góp</string>
   <string name="donate_gpay_help_faq">Câu hỏi thường gặp</string>
@@ -1722,11 +1722,11 @@
   <string name="survey_dialog_input_hint">Phản hồi bổ sung</string>
   <string name="survey_dialog_submitted_snackbar">Đã gửi phản hồi. Cảm ơn bạn!</string>
   <string name="games_hub_activity_title">Trò chơi</string>
-  <string name="games_hub_activity_games_unavailable_message">Hiện chưa có trò chơi nào có sẵn cho ngôn ngữ này! Các trò chơi sử dụng nội dung của những biên tập viên tình nguyện tạo ra cho Wikipedia của ngôn ngữ đó.</string>
+  <string name="games_hub_activity_games_unavailable_message">Hiện chưa có trò chơi nào có sẵn cho ngôn ngữ này! Các trò chơi sử dụng nội dung của những biên tập viên tình nguyện tạo ra cho Infopedia của ngôn ngữ đó.</string>
   <string name="games_hub_activity_games_unavailable_message_learn_more_action">Tìm hiểu thêm</string>
   <string name="games_hub_activity_overflow_learn_more">Tìm hiểu thêm</string>
   <string name="on_this_day_game_entry_dialog_title">Giới thiệu</string>
-  <string name="on_this_day_game_entry_dialog_subtitle">Trò chơi Wikipedia</string>
+  <string name="on_this_day_game_entry_dialog_subtitle">Trò chơi Infopedia</string>
   <string name="on_this_day_game_entry_dialog_button">Chơi</string>
   <string name="on_this_day_game_title">Sự kiện nào đến trước?</string>
   <string name="on_this_day_game_dialog_button">Chơi</string>
@@ -1739,7 +1739,7 @@
   <string name="on_this_day_game_next">Câu hỏi tiếp theo</string>
   <string name="on_this_day_game_finish">Kết quả cuối cùng</string>
   <string name="on_this_day_game_share_button">Chia sẻ điểm số</string>
-  <string name="on_this_day_game_feed_entry_card_heading">Trò chơi Wikipedia</string>
+  <string name="on_this_day_game_feed_entry_card_heading">Trò chơi Infopedia</string>
   <string name="on_this_day_game_feed_entry_card_title">Cái nào có trước?</string>
   <string name="on_this_day_game_result">Bạn trả lời đúng %1$d/%2$d.</string>
   <string name="on_this_day_game_next_in">Lần chơi kế tiếp bắt đầu trong %s</string>
@@ -1755,7 +1755,7 @@
   <string name="on_this_day_game_turn_off_notification_dialog_title">Tắt thông báo về trò chơi này?</string>
   <string name="on_this_day_game_turn_off_notification_dialog_subtitle">Nếu bạn tắt thông báo đẩy, bạn sẽ không còn nhận được lời nhắc mỗi ngày khi có trò chơi mới để chơi nữa.</string>
   <string name="on_this_day_game_turn_on_notification_dialog_title">Bật thông báo về trò chơi này?</string>
-  <string name="on_this_day_game_report_email_subject">Báo cáo sự cố - Trò chơi Wikipedia</string>
+  <string name="on_this_day_game_report_email_subject">Báo cáo sự cố - Trò chơi Infopedia</string>
   <string name="on_this_day_game_notification_undo">Lùi lại</string>
   <string name="on_this_day_game_play_today_btn_text">Chơi trò chơi hôm nay</string>
   <string name="on_this_day_game_continue_playing_btn_text">Tiếp tục chơi</string>
@@ -1764,10 +1764,10 @@
   <string name="on_this_day_game_more_label">Thêm</string>
   <string name="on_this_day_game_card_archive_label">Lưu trữ</string>
   <string name="on_this_day_game_stats_log_in_prompt_card_button">Đăng nhập</string>
-  <string name="wikipedia_games_subtitle">Trò chơi đố vui hàng ngày dựa trên nội dung của Wikipedia.</string>
+  <string name="wikipedia_games_subtitle">Trò chơi đố vui hàng ngày dựa trên nội dung của Infopedia.</string>
   <string name="year_in_review_learn_more">Tìm hiểu thêm</string>
   <string name="year_in_review_get_started">Bắt đầu</string>
-  <string name="year_in_review_topbar_w_icon">Biểu tượng W của Wikipedia</string>
+  <string name="year_in_review_topbar_w_icon">Biểu tượng W của Infopedia</string>
   <string name="year_in_review_close">Đóng</string>
   <string name="year_in_review_share_icon">Biểu tượng Chia sẻ</string>
   <string name="year_in_review_heart_icon">Biểu tượng trái tim</string>
@@ -1783,7 +1783,7 @@
   <string name="year_in_review_survey_submit">Gửi</string>
   <string name="year_in_review_disable_negative_button">Không, cảm ơn</string>
   <string name="settings_app_icon_title">Biểu tượng ứng dụng</string>
-  <string name="year_in_review_login_dialog_positive">Đăng nhập / Tham gia Wikipedia</string>
+  <string name="year_in_review_login_dialog_positive">Đăng nhập / Tham gia Infopedia</string>
   <string name="year_in_review_login_dialog_negative">Tiếp tục mà không cần đăng nhập</string>
   <string name="year_in_review_slide_reading_pattern_morning">Buổi sáng</string>
   <string name="year_in_review_slide_reading_pattern_midday">Giữa trưa</string>
@@ -1863,12 +1863,12 @@
   <string name="reading_challenge_onboarding_prompt_title">Đăng nhập để tham gia thử thách</string>
   <string name="reading_challenge_onboarding_prompt_message">Đăng nhập hoặc tạo tài khoản để theo dõi tiến độ hoàn thành thử thách đọc của bạn.</string>
   <string name="reading_challenge_onboarding_prompt_no_thanks">Không, cảm ơn</string>
-  <string name="reading_challenge_onboarding_prompt_login">Đăng nhập / Tham gia Wikipedia</string>
+  <string name="reading_challenge_onboarding_prompt_login">Đăng nhập / Tham gia Infopedia</string>
   <string name="reading_challenge_install_prompt_add">Thêm</string>
   <string name="search_widget_install_prompt_add">Thêm</string>
   <string name="search_widget_install_prompt_got_it">Đã hiểu</string>
   <string name="reading_challenge_widget_explore_button">Khám phá</string>
-  <string name="reading_challenge_widget_explore_wikipedia_button">Khám phá Wikipedia</string>
+  <string name="reading_challenge_widget_explore_wikipedia_button">Khám phá Infopedia</string>
   <string name="reading_challenge_widget_join_challenge_button">Tham gia thử thách</string>
   <string name="reading_challenge_widget_join_the_challenge_button">Tham gia thử thách</string>
   <string name="reading_challenge_widget_search_button">Tìm kiếm</string>
@@ -1892,7 +1892,7 @@
   <string name="explore_feed_from_reading_list">Từ danh sách đọc của bạn</string>
   <string name="explore_feed_because_of_interest">Vì bạn đã quan tâm đến: %s</string>
   <string name="explore_feed_potd_subtitle">Hình ảnh trong ngày trên Wikimedia Commons, do các tình nguyện viên lựa chọn</string>
-  <string name="explore_feed_featured_article_subtitle">Bài viết chọn lọc là những bài viết có chất lượng cao nhất trên Wikipedia, được chọn lọc thường xuyên bởi các biên tập viên</string>
+  <string name="explore_feed_featured_article_subtitle">Bài viết chọn lọc là những bài viết có chất lượng cao nhất trên Infopedia, được chọn lọc thường xuyên bởi các biên tập viên</string>
   <string name="explore_feed_in_the_news_subtitle">Các bài viết đã được cập nhật đáng kể để phản ánh những sự kiện mới hoặc đang diễn ra được nhiều người quan tâm</string>
   <string name="explore_feed_community_disclaimer">Nội dung và tài nguyên được lựa chọn bởi cộng đồng Wikimedia</string>
   <string name="explore_feed_community_load_more_label">Xem nội dung cộng đồng trước đây</string>

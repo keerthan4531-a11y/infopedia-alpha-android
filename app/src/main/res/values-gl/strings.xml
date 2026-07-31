@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Athena in Wonderland
 * Banjo
@@ -18,14 +18,14 @@
 * Xosecalvo
 -->
 <resources>
-  <string name="app_name_prod">Wikipedia</string>
-  <string name="app_name_beta">Wikipedia Beta</string>
-  <string name="app_name_alpha">Wikipedia Alfa</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Wikimedia</string>
   <string name="nav_item_back">Volver</string>
   <string name="page_tabs_back">Volver</string>
   <string name="nav_item_forward">Seguinte</string>
-  <string name="search_hint">Procurar na Wikipedia</string>
+  <string name="search_hint">Procurar na Infopedia</string>
   <string name="search_hint_voice_search">Procura con entrada por voz</string>
   <string name="search_hint_search_languages">Procurar unha lingua</string>
   <string name="filter_hint_filter_my_lists_and_articles">Filtra as miñas listas</string>
@@ -111,12 +111,12 @@
   <string name="edit_save_action_license_logged_in">Ao publicar, acepta os &lt;a href=\"%1$s\"&gt;termos de uso&lt;/a&gt; e acepta liberar irrevogablemente as súas contribucións baixo a licenza &lt;a href=\"%2$s\"&gt;CC BY-SA 4.0&lt;/a&gt;.</string>
   <string name="edit_save_action_license_anon">Ao publicar, acepta os &lt;a href=\"%1$s\"&gt;termos de uso&lt;/a&gt; e acepta liberar irrevogablemente as súas contribucións baixo a licenza &lt;a href=\"%2$s\"&gt;CC BY-SA 4.0&lt;/a&gt;. As edicións atribuiránselle ao enderezo IP do seu dispositivo. Se &lt;a href=\"https://#login\"&gt;accede ao sistema&lt;/a&gt; terá un maior anonimato.</string>
   <string name="edit_anon_warning">As edicións atribuíranse ao enderezo IP do teu dispositivo. Se &lt;a href=\"https://#login\"&gt;inicias sesión&lt;/a&gt;, terás máis privacidade.</string>
-  <string name="preference_title_language">Linguas de Wikipedia</string>
+  <string name="preference_title_language">Linguas de Infopedia</string>
   <string name="langlinks_filter_hint">Procurar</string>
   <string name="langlinks_empty">Esta páxina non está dispoñible noutras linguas</string>
   <string name="langlinks_no_match">Non se atopou ningunha lingua</string>
   <string name="langlinks_activity_title">Outras linguas</string>
-  <string name="langlinks_your_wikipedia_languages">As súas linguas de Wikipedia</string>
+  <string name="langlinks_your_wikipedia_languages">As súas linguas de Infopedia</string>
   <string name="menu_save_changes">Publicar os cambios</string>
   <string name="edit_saved_successfully">Publicouse a edición!</string>
   <string name="dialog_message_edit_failed">Fallou a edición!</string>
@@ -131,11 +131,11 @@
   <string name="search_reading_lists_no_results">Non se atoparon resultados nas listas de lectura</string>
   <string name="search_history_no_results">Non se atoparon resultados no histórico</string>
   <string name="edit_section_captcha_message">Para axudar na protección contra o spam automatizado, introduza as palabras que aparecen abaixo</string>
-  <string name="edit_section_captcha_request_an_account_message">Non pode ver a imaxe? &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;Solicite unha conta&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">Non pode ver a imaxe? &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;Solicite unha conta&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">Repita as palabras de arriba</string>
   <string name="title_captcha">Introducir o captcha</string>
   <string name="edit_section_captcha_reload">Toque o CAPTCHA para recargalo</string>
-  <string name="nav_item_login">Acceder a Wikipedia</string>
+  <string name="nav_item_login">Acceder a Infopedia</string>
   <string name="login_username_hint">Nome de usuario</string>
   <string name="login_password_hint">Contrasinal</string>
   <string name="account_creation_password_hint">Contrasinal</string>
@@ -158,19 +158,19 @@
   <string name="logout_prompt">Pecharanse as sesións de tódolos dispositivos nos que está conectado. Quere continuar?</string>
   <string name="logout_dialog_cancel_button_text">Cancelar</string>
   <string name="logged_out_in_background_title">Sesión pechada</string>
-  <string name="logged_out_in_background_dialog">Pechouse a súa sesión en Wikipedia. Quere comezar a sesión de novo?</string>
+  <string name="logged_out_in_background_dialog">Pechouse a súa sesión en Infopedia. Quere comezar a sesión de novo?</string>
   <string name="logged_out_in_background_login">Acceder ao sistema</string>
   <string name="logged_out_in_background_cancel">Cancelar</string>
   <string name="history_empty_title">Non hai artigos vistos recentemente</string>
   <string name="history_empty_message">Manter un rexistro do que fuches lendo aquí.</string>
   <string name="history_offline_articles_toast">Algúns artigos do historial poden non ser visualizables mentres non estea en liña.</string>
   <string name="search_empty_message">Procure e lea a enciclopedia libre na súa lingua</string>
-  <string name="search_empty_message_multilingual_upgrade">Procurar Wikipedia en máis linguas</string>
+  <string name="search_empty_message_multilingual_upgrade">Procurar Infopedia en máis linguas</string>
   <string name="delete_selected_items">Eliminar os elementos seleccionados</string>
   <string name="wp_stylized">&lt;big&gt;W&lt;/big&gt;IKIPEDI&lt;big&gt;A&lt;/big&gt;</string>
   <string name="create_account_username_hint">Nome de usuario</string>
   <string name="login_dont_have_account">Non tes unha conta?</string>
-  <string name="login_join_wikipedia">Unirse á Wikipedia</string>
+  <string name="login_join_wikipedia">Unirse á Infopedia</string>
   <string name="login_forgot_password">Esqueciches o contrasinal?</string>
   <string name="create_account_already_have">Xa tes unha conta?</string>
   <string name="create_account_activity_title">Crear unha conta</string>
@@ -192,11 +192,11 @@
   <string name="create_account_button">Crear unha conta</string>
   <string name="create_account_name_unavailable">O nome de usuario \"%s\" non está dispoñible. Por favor, escolla un nome diferente.</string>
   <string name="create_account_ip_block_message">Sentímolo, o seu enderezo IP está bloqueado actualmente para crear novas contas.</string>
-  <string name="create_account_ip_block_help_url">https://en.wikipedia.org/wiki/Help:I_have_been_blocked</string>
+  <string name="create_account_ip_block_help_url">https://en.Infopedia.org/wiki/Help:I_have_been_blocked</string>
   <string name="create_account_ip_block_details">Detalles</string>
   <string name="preferences_general_heading">Xeral</string>
   <string name="preferences_account_heading">Conta</string>
-  <string name="wikipedia_app_faq">Preguntas frecuentes sobre a aplicación da Wikipedia</string>
+  <string name="wikipedia_app_faq">Preguntas frecuentes sobre a aplicación da Infopedia</string>
   <string name="send_feedback">Enviar comentarios sobre a aplicación</string>
   <string name="create_account_account_created_toast">Conta creada!</string>
   <string name="preferences_heading_syncing">Sincronización</string>
@@ -204,7 +204,7 @@
   <string name="preferences_heading_experimental">Experimental</string>
   <string name="preference_title_sync_reading_lists_from_account">Sincronización das listas de lectura</string>
   <string name="preference_title_download_reading_list_articles">Descargar artigos da lista de lectura</string>
-  <string name="preference_summary_sync_reading_lists">Sincronice as listas de lectura en dispositivos diferentes gardándoas na súa conta de Wikipedia</string>
+  <string name="preference_summary_sync_reading_lists">Sincronice as listas de lectura en dispositivos diferentes gardándoas na súa conta de Infopedia</string>
   <string name="preference_summary_sync_reading_lists_from_account">Sincronice as listas de lectura en dispositivos diferentes gardándoas na súa conta de Wikikepdia \"%s\"</string>
   <string name="preference_dialog_of_turning_off_reading_list_sync_title">Borrar as listas de lectura sincronizadas da súa conta \"%s\"?</string>
   <string name="preference_dialog_of_turning_off_reading_list_sync_text">Isto eliminará completamente do almacenamento remoto tódalas listas de lectura sincronizadas anteriormente. Borrar tódalas listas sincronizadas da súa conta \"%s\"?</string>
@@ -223,22 +223,22 @@
   <string name="page_watchlist_overflow_menu_onboarding_tooltip_text">Fai un seguimento do que está a suceder cos artigos que che interesan. Toca o menú de desbordamento e selecciona &lt;b&gt;Engadir á lista de vixilancia&lt;/b&gt; para ver os cambios que se fan no artigo.</string>
   <string name="settings_item_preferences">Configuración</string>
   <string name="settings_activity_title">Configuración</string>
-  <string name="about_description">Acerca da aplicación da Wikipedia</string>
+  <string name="about_description">Acerca da aplicación da Infopedia</string>
   <string name="privacy_policy_description">Política de protección de datos</string>
   <string name="terms_of_use_description">Termos de uso</string>
-  <string name="about_wikipedia_url">https://gl.wikipedia.org/wiki/Wikipedia:Acerca_de</string>
-  <string name="privacy_policy_url">https://foundation.wikimedia.org/wiki/Special:MyLanguage/Privacy_policy/gl</string>
-  <string name="android_app_faq_url">https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ/gl</string>
-  <string name="terms_of_use_url">https://foundation.wikimedia.org/wiki/Special:MyLanguage/Terms_of_Use/gl</string>
+  <string name="about_wikipedia_url">https://gl.Infopedia.org/wiki/Infopedia:Acerca_de</string>
+  <string name="privacy_policy_url">https://foundation.infopedia.org/wiki/Special:MyLanguage/Privacy_policy/gl</string>
+  <string name="android_app_faq_url">https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ/gl</string>
+  <string name="terms_of_use_url">https://foundation.infopedia.org/wiki/Special:MyLanguage/Terms_of_Use/gl</string>
   <string name="cc_by_sa_4_url">https://creativecommons.org/licenses/by-sa/4.0/deed.gl</string>
   <string name="cc_0_url">https://creativecommons.org/publicdomain/zero/1.0/deed.gl</string>
   <string name="about_libraries_heading">Bibliotecas empregadas</string>
   <string name="about_contributors_heading">Colaboradores</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Páxina do equipo&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Páxina do equipo&lt;/a&gt;</string>
   <string name="about_translators_heading">Tradutores</string>
   <string name="about_translators_translatewiki">Esta aplicación foi traducida polos tradutores voluntarios de &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt;.</string>
   <string name="about_app_license_heading">Licenza</string>
-  <string name="about_app_license">O código fonte está dispoñible en &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;GitHub&lt;/a&gt; baixo a &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;licenza Apache 2.0&lt;/a&gt;. Agás que se especifique o contrario, o contido está dispoñible baixo a &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.gl\"&gt;licenza Creative Commons recoñecemento compartir igual&lt;/a&gt;.</string>
+  <string name="about_app_license">O código fonte está dispoñible en &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;GitHub&lt;/a&gt; baixo a &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;licenza Apache 2.0&lt;/a&gt;. Agás que se especifique o contrario, o contido está dispoñible baixo a &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.gl\"&gt;licenza Creative Commons recoñecemento compartir igual&lt;/a&gt;.</string>
   <string name="about_wmf">Un produto da &lt;a href=\"https://wikimediafoundation.org/\"&gt;Fundación Wikimedia&lt;/a&gt;</string>
   <string name="about_activity_title">Acerca de</string>
   <string name="edit_abandon_confirm">A páxina foi modificada. Quere saír sen gardar os cambios?</string>
@@ -270,7 +270,7 @@
   <string name="abusefilter_title_warn">Esta semella unha edición non construtiva. Está seguro de querer publicala?</string>
   <string name="abusefilter_title_disallow">Non pode publicar esta edición. Por favor, vaia á páxina anterior e modifíquea.</string>
   <string name="abusefilter_text_warn">Un filtro automático identificou esta edición como potencialmente non construtiva. Pode conter un ou varios dos seguintes problemas:&lt;br /&gt;&lt;br /&gt;· Está escrito todo en maiúsculas&lt;br /&gt;· É un artigo en branco ou que contén spam&lt;br /&gt;· Contén ligazóns externas ou imaxes irrelevantes&lt;br /&gt;· Contén caracteres repetidos</string>
-  <string name="abusefilter_text_disallow">Un filtro automático identificou esta edición como potencialmente non construtiva ou posible vandalismo.&lt;br /&gt;&lt;br /&gt;A Wikipedia é unha enciclopedía e nela unicamente son pertinentes os contidos neutrais e relevantes.</string>
+  <string name="abusefilter_text_disallow">Un filtro automático identificou esta edición como potencialmente non construtiva ou posible vandalismo.&lt;br /&gt;&lt;br /&gt;A Infopedia é unha enciclopedía e nela unicamente son pertinentes os contidos neutrais e relevantes.</string>
   <string name="page_similar_titles">Páxinas similares</string>
   <string name="search_did_you_mean">Quixo dicir \"%s\"?</string>
   <string name="search_recent_header">Procuras recentes:</string>
@@ -287,9 +287,9 @@
   <string name="table_infobox">Datos rápidos</string>
   <string name="table_other">Máis información</string>
   <string name="table_close">Pechar</string>
-  <string name="widget_name_featured_page">Páxina destacada da Wikipedia</string>
+  <string name="widget_name_featured_page">Páxina destacada da Infopedia</string>
   <string name="widget_title_featured_page">Páxina destacada do día:</string>
-  <string name="widget_name_search">Procurar na Wikipedia</string>
+  <string name="widget_name_search">Procurar na Infopedia</string>
   <string name="wiktionary_no_definitions_found">Non se atoparon definicións.</string>
   <string name="alpha_update_notification_title">Hai unha actualización alfa dispoñible</string>
   <string name="alpha_update_notification_text">Toque para descargar</string>
@@ -366,7 +366,7 @@
   <string name="view_link_preview_error_button_dismiss">Descartar</string>
   <string name="error_page_does_not_exist">Esta páxina non existe</string>
   <string name="view_wiki_error_message_offline">Non se puido conectar a Internet</string>
-  <string name="view_wiki_error_message_timeout">Non se pode conectar con Wikipedia. Comprobe a súa conexión de rede ou ténteo de novo máis tarde</string>
+  <string name="view_wiki_error_message_timeout">Non se pode conectar con Infopedia. Comprobe a súa conexión de rede ou ténteo de novo máis tarde</string>
   <string name="reference_title">Referencia %s</string>
   <string name="reference_list_title">Referencias</string>
   <string name="theme_chooser_dialog_image_dimming_switch_label">Atenuación de imaxe (no tema obscuro)</string>
@@ -377,7 +377,7 @@
   <string name="empty_tab_title">Nova lapela</string>
   <string name="menu_save_all_tabs">Gardar todas as lapelas</string>
   <string name="crash_report_activity_title">Erro da aplicación</string>
-  <string name="crash_report_relaunch_or_quit">Sentímolo, a aplicación de Wikipedia tivo un erro e pechouse.\n\nGustaríalle volver a comezar ou saír?</string>
+  <string name="crash_report_relaunch_or_quit">Sentímolo, a aplicación de Infopedia tivo un erro e pechouse.\n\nGustaríalle volver a comezar ou saír?</string>
   <string name="crash_report_relaunch">Comezar de novo</string>
   <string name="crash_report_quit">Saír</string>
   <string name="article_menu_bar_save_button">Gardar</string>
@@ -443,12 +443,12 @@
   <string name="reading_list_confirm_remove_article_from_offline_title">O artigo aparece en varias listas</string>
   <string name="reading_list_confirm_remove_article_from_offline_message">%s xa non estará dispoñible sen conexión en ningunha lista de lectura:</string>
   <string name="reading_lists_sync_reminder_title">Desexa activar a sincronización das listas de lectura?</string>
-  <string name="reading_lists_sync_reminder_text">Agora os artigos gardados nas listas de lectura poden sincronizarse coa súa conta da Wikipedia. &lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Máis información.&lt;/a&gt;</string>
-  <string name="reading_lists_login_reminder_text_with_link">Agora é posible sincronizar as listas de lectura en varios dispositivos. Acceda á súa conta da Wikipedia e permita que se garden as súas listas. &lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Máis información.&lt;/a&gt;</string>
+  <string name="reading_lists_sync_reminder_text">Agora os artigos gardados nas listas de lectura poden sincronizarse coa súa conta da Infopedia. &lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Máis información.&lt;/a&gt;</string>
+  <string name="reading_lists_login_reminder_text_with_link">Agora é posible sincronizar as listas de lectura en varios dispositivos. Acceda á súa conta da Infopedia e permita que se garden as súas listas. &lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Máis información.&lt;/a&gt;</string>
   <string name="reading_lists_sync_reminder_action">Activar sincronización</string>
   <string name="reading_list_login_reminder_title">Sincronizar as listas de lectura</string>
-  <string name="reading_lists_login_reminder_text">Agora é posible sincronizar as listas de lectura entre varios dispositivos. Acceda á súa conta de Wikipedia e permita que se garden as súas listas.</string>
-  <string name="reading_lists_login_button">Acceder / unirse á Wikipedia</string>
+  <string name="reading_lists_login_reminder_text">Agora é posible sincronizar as listas de lectura entre varios dispositivos. Acceda á súa conta de Infopedia e permita que se garden as súas listas.</string>
+  <string name="reading_lists_login_button">Acceder / unirse á Infopedia</string>
   <string name="reading_lists_ignore_button">Agora non</string>
   <string name="reading_lists_confirm_remote_delete_yes">Si</string>
   <string name="reading_lists_confirm_remote_delete_no">Non</string>
@@ -464,7 +464,7 @@
   <string name="reading_list_turned_sync_off_dialog_ok">Aceptar</string>
   <string name="reading_list_turned_sync_off_dialog_settings">Configuración</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_title">Activar a sincronización das listas de lectura?</string>
-  <string name="reading_list_prompt_turned_sync_on_dialog_text">Os artigos gardados nas listas de lectura agora poden ser sincronizados coa súa conta de Wikipedia. &lt;a href=\"#faq\"&gt;Saiba máis&lt;/a&gt;</string>
+  <string name="reading_list_prompt_turned_sync_on_dialog_text">Os artigos gardados nas listas de lectura agora poden ser sincronizados coa súa conta de Infopedia. &lt;a href=\"#faq\"&gt;Saiba máis&lt;/a&gt;</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_do_not_show">Non amosar de novo</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_enable_syncing">Activar a sincronización</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_no_thanks">Non, grazas</string>
@@ -529,7 +529,7 @@
     <item quantity="one">Queda %1$d lista</item>
     <item quantity="other">Quedan %1$d listas</item>
   </plurals>
-  <string name="notification_echo_channel_description">Notificacións de Wikipedia</string>
+  <string name="notification_echo_channel_description">Notificacións de Infopedia</string>
   <string name="notifications_activity_title">Notificacións</string>
   <string name="notifications_activity_title_archived">Notificacións (arquivadas)</string>
   <string name="notifications_search">Procurar notificacións</string>
@@ -572,7 +572,7 @@
   <string name="view_random_article_card_action">Máis artígos ao chou</string>
   <string name="view_top_read_card_title">Os artigos máis lidos</string>
   <string name="view_next_random_article">Cargar outro artigo ó chou</string>
-  <string name="view_main_page_card_title">Hoxe na Wikipedia</string>
+  <string name="view_main_page_card_title">Hoxe na Infopedia</string>
   <string name="view_main_page_card_action">Ver a páxina principal</string>
   <string name="view_featured_image_card_title">Imaxe do día</string>
   <string name="view_featured_image_card_download">Descargar</string>
@@ -600,16 +600,16 @@
   <string name="feed_configure_menu_reset">Restablecer a vista predeterminada</string>
   <string name="feed_configure_menu_select_all">Amosar todo</string>
   <string name="feed_configure_menu_deselect_all">Agochar todo</string>
-  <string name="feed_configure_language_warning">Decátese de que non tódolos tipos de tarxetas están dispoñibles en tódalas edicións de Wikipedia. Modifique as súas eleccións de linguas na Configuración.</string>
+  <string name="feed_configure_language_warning">Decátese de que non tódolos tipos de tarxetas están dispoñibles en tódalas edicións de Infopedia. Modifique as súas eleccións de linguas na Configuración.</string>
   <string name="feed_item_type_news">Artigos sobre eventos actuais</string>
   <string name="feed_item_type_on_this_day">Acontecementos históricos de hoxe</string>
   <string name="feed_item_type_because_you_read">Suxestións baseadas nun artigo recentemente lido do seu historial</string>
-  <string name="feed_item_type_featured_article">Artigo destacado do día na Wikipedia</string>
+  <string name="feed_item_type_featured_article">Artigo destacado do día na Infopedia</string>
   <string name="feed_item_type_trending">Artigos máis vistos do día</string>
   <string name="feed_item_type_featured_image">Imaxe destacada do día en Wikimedia Commons</string>
-  <string name="feed_item_type_main_page">Páxina principal de Wikipedia co contido destacado diario</string>
+  <string name="feed_item_type_main_page">Páxina principal de Infopedia co contido destacado diario</string>
   <string name="feed_item_type_randomizer">Xerar artigos aleatorios para ler</string>
-  <string name="feed_item_type_suggested_edits">Suxestións para engadir contido a Wikipedia</string>
+  <string name="feed_item_type_suggested_edits">Suxestións para engadir contido a Infopedia</string>
   <string name="feed_empty_message" fuzzy="true">Non hai nada na súa canle Explorar</string>
   <string name="feed_configure_onboarding_action">Personalizar</string>
   <string name="customize_lang_selection_dialog_ok_button_text">OK</string>
@@ -641,7 +641,7 @@
   <string name="description_edit_help_about_wikidata">Sobre Wikidata</string>
   <string name="description_edit_help_wikidata_guide">Guía de Wikidata para escribir as descricións</string>
   <string name="wikidata_description_guide_url">https://www.wikidata.org/wiki/Special:MyLanguage/Help:Description#Guidelines_for_descriptions_in_English</string>
-  <string name="description_edit_anon_limit">Grazas polo seu continuo interese en editar descricións de artigosǃ Para facer edicións adicionais, por favor, inicie sesión na súa conta da Wikipedia.</string>
+  <string name="description_edit_anon_limit">Grazas polo seu continuo interese en editar descricións de artigosǃ Para facer edicións adicionais, por favor, inicie sesión na súa conta da Infopedia.</string>
   <string name="description_edit_license_notice">Ao cambiar a descrición do artigo, acepto os &lt;a href=\"%1$s\"&gt;Termos de uso&lt;/a&gt; e a liberar irrevocablemente as miñas contribucións baixo os termos da licenza &lt;a href=\"%2$s\"&gt;Creative Commons CC0&lt;/a&gt;.</string>
   <string name="description_edit_helper_text_lowercase_warning">normalmente comeza cunha letra minúscula</string>
   <string name="description_edit_voice_input_description">Entrada de voz</string>
@@ -653,7 +653,7 @@
   <string name="description_edit_success_saved_in_lang_snackbar">Descrición do artigo publicadaǃ (%s)</string>
   <string name="description_edit_success_saved_image_caption_snackbar">Lenda da imaxe publicada!</string>
   <string name="description_edit_success_saved_image_caption_in_lang_snackbar">Lenda da imaxe publicada! (%s)</string>
-  <string name="description_edit_success_encouragement">Acaba de mellorar Wikipedia para todo o mundo</string>
+  <string name="description_edit_success_encouragement">Acaba de mellorar Infopedia para todo o mundo</string>
   <string name="description_edit_success_done">Feito</string>
   <string name="description_edit_success_did_you_know">Sabía que...?</string>
   <string name="description_edit_success_article_edit_hint">Tamén pode editar artigos dentro desta aplicación. A próxima vez intente amañar erros e pequenas frases premendo na icona ^1.</string>
@@ -683,7 +683,7 @@
   <string name="suggested_edits_task_translate_caption_title">Traducir pés de imaxe</string>
   <string name="suggested_edits_task_translate_caption_description">Traducir pés a outras linguas</string>
   <string name="suggested_edits_task_multilingual_title">Máis tarefas para editores multilingües</string>
-  <string name="suggested_edits_task_multilingual_description">Hai tarefas de tradución se vostede le e escribe en máis dunha lingua de Wikipedia.</string>
+  <string name="suggested_edits_task_multilingual_description">Hai tarefas de tradución se vostede le e escribe en máis dunha lingua de Infopedia.</string>
   <string name="suggested_edits_task_image_caption_edit_disable_text">Bloqueado ata que teña editado %d lendas de imaxes</string>
   <string name="suggested_edits_task_translate_description_edit_disable_text">Bloqueado ata que teña editado %d descricións de artigos (verificadas)</string>
   <string name="suggested_edits_task_multilingual_negative">Non é para min</string>
@@ -711,7 +711,7 @@
   <string name="suggested_edits_image_preview_dialog_licensing">Licenza</string>
   <string name="suggested_edits_image_preview_dialog_more_info">Máis información</string>
   <string name="suggested_edits_image_preview_dialog_file_page_link_text">Páxina do ficheiro en Wikimedia Commons</string>
-  <string name="suggested_edits_image_preview_dialog_file_page_wikipedia_link_text">Páxina de ficheiro en Wikipedia</string>
+  <string name="suggested_edits_image_preview_dialog_file_page_wikipedia_link_text">Páxina de ficheiro en Infopedia</string>
   <string name="suggested_edits_article_cta_image_tags">Engada etiquetas á imaxe</string>
   <string name="suggested_edits_article_cta_image_caption">Engadir un pé de foto</string>
   <string name="suggested_edits_article_cta_image_caption_in_language">Engadir lenda de imaxe (%s)</string>
@@ -726,8 +726,8 @@
   <string name="suggested_edits_image_tags_publishing">Publicando</string>
   <string name="suggested_edits_image_tags_published">Publicado</string>
   <string name="suggested_edits_image_tags_onboarding_title">Etiquetar as imaxes facilita a súa procura.</string>
-  <string name="suggested_edits_encouragement_message">%s, grazas polas súas edicións. Abaixo pode atopar máis formas de contribuír na Wikipedia.</string>
-  <string name="suggested_edits_onboarding_message">&lt;b&gt;Ola %s&lt;/b&gt;, abaixo pode atopar algunhas formas rápidas e sinxelas de axudar a mellorar a Wikipedia. Axiña verá a diferenza que está marcando en canto empece. Divírtase editando!</string>
+  <string name="suggested_edits_encouragement_message">%s, grazas polas súas edicións. Abaixo pode atopar máis formas de contribuír na Infopedia.</string>
+  <string name="suggested_edits_onboarding_message">&lt;b&gt;Ola %s&lt;/b&gt;, abaixo pode atopar algunhas formas rápidas e sinxelas de axudar a mellorar a Infopedia. Axiña verá a diferenza que está marcando en canto empece. Divírtase editando!</string>
   <string name="suggested_edits_views_label_text">Visitas</string>
   <string name="suggested_edits_quality_good_text">Boa</string>
   <string name="suggested_edits_quality_okay_text">Aceptar</string>
@@ -743,7 +743,7 @@
     <item quantity="one">Engadiches %d carácter</item>
     <item quantity="other">Engadiches %d caracteres</item>
   </plurals>
-  <string name="description_edit_revert_subtitle">Grazas por editar a Wikipediaǃ</string>
+  <string name="description_edit_revert_subtitle">Grazas por editar a Infopediaǃ</string>
   <string name="description_edit_revert_intro">Sabemos que intentou facelo o mellor posible, pero un dos nosos revisores atopou un problema. Posibles razóns polas que a súa edición foi revertida inclúenː</string>
   <string name="description_edit_revert_reason1">a súa contribución non segue unha das &lt;a href=\"%1$s\"&gt;directrices&lt;/a&gt;.</string>
   <string name="description_edit_revert_reason2">a súa contribución semella unha proba ou vandalismo.</string>
@@ -758,9 +758,9 @@
   <string name="onboarding_get_started">Comezar</string>
   <string name="onboarding_maybe_later">Quizais máis tarde</string>
   <string name="onboarding_explore_title">Novas formas de explorar</string>
-  <string name="onboarding_explore_text" fuzzy="true">Mergúllese no pozo sen fondo da Wikipedia cunha canle Explorar en constante actualización. &lt;br/&gt; &lt;b&gt;Personalice&lt;/b&gt; a canle coas súas preferencias – se quere aprender sobre acontecementos históricos &lt;b&gt;Neste dia&lt;/b&gt;, ou lanzar os dados con &lt;b&gt;Aleatorio&lt;/b&gt;.</string>
+  <string name="onboarding_explore_text" fuzzy="true">Mergúllese no pozo sen fondo da Infopedia cunha canle Explorar en constante actualización. &lt;br/&gt; &lt;b&gt;Personalice&lt;/b&gt; a canle coas súas preferencias – se quere aprender sobre acontecementos históricos &lt;b&gt;Neste dia&lt;/b&gt;, ou lanzar os dados con &lt;b&gt;Aleatorio&lt;/b&gt;.</string>
   <string name="onboarding_reading_list_sync_title">Listas de lectura con sincronización</string>
-  <string name="onboarding_reading_list_sync_text_v2">Pode crear listas de lectura dos artigos que quere ler máis tarde, incluso cando estea sen acceso a Internet. &lt;br/&gt;Conéctese á súa conta de Wikipedia para sincronizar as súas listas de lectura. &lt;a href=\"#login\"&gt;Acceder a Wikipedia&lt;/a&gt;</string>
+  <string name="onboarding_reading_list_sync_text_v2">Pode crear listas de lectura dos artigos que quere ler máis tarde, incluso cando estea sen acceso a Internet. &lt;br/&gt;Conéctese á súa conta de Infopedia para sincronizar as súas listas de lectura. &lt;a href=\"#login\"&gt;Acceder a Infopedia&lt;/a&gt;</string>
   <string name="onboarding_analytics_switch_title">Envíar datos de uso</string>
   <string name="onboarding_got_it">Entendido</string>
   <string name="onboarding_multilingual_secondary_text">Atopamos o seguinte no seu dispositivoː</string>
@@ -782,7 +782,7 @@
   <string name="languages_list_activity_title">Engadir unha lingua</string>
   <string name="languages_list_suggested_text">Recomendado</string>
   <string name="languages_list_all_text">Todas as linguas</string>
-  <string name="wikipedia_languages_title">Linguas de Wikipedia</string>
+  <string name="wikipedia_languages_title">Linguas de Infopedia</string>
   <string name="wikipedia_languages_your_languages_text">As súas linguas</string>
   <string name="wikipedia_languages_add_language_text">Engadir lingua</string>
   <string name="wikipedia_languages_remove_text">Eliminar lingua</string>
@@ -791,11 +791,11 @@
     <item quantity="one">¿Quere quitar a lingua seleccionada?</item>
     <item quantity="other">¿Quere quitar as linguas  seleccionadas?</item>
   </plurals>
-  <string name="wikipedia_languages_remove_dialog_content" fuzzy="true">Só verá contido nas linguas restantes de Wikipedia no fluxo de Explorar e nos filtros de procura rápida.</string>
+  <string name="wikipedia_languages_remove_dialog_content" fuzzy="true">Só verá contido nas linguas restantes de Infopedia no fluxo de Explorar e nos filtros de procura rápida.</string>
   <string name="wikipedia_languages_remove_warning_dialog_title">Non é posible eliminar tódalas linguas</string>
-  <string name="wikipedia_languages_remove_warning_dialog_content">Manteña polo menos unha lingua de Wikipedia na que procurar e ler contido.</string>
+  <string name="wikipedia_languages_remove_warning_dialog_content">Manteña polo menos unha lingua de Infopedia na que procurar e ler contido.</string>
   <string name="more_language_options">máis</string>
-  <string name="add_wikipedia_languages_text">Engadir linguas de Wikipedia</string>
+  <string name="add_wikipedia_languages_text">Engadir linguas de Infopedia</string>
   <string name="remove_language_dialog_cancel_button_text">Cancelar</string>
   <string name="remove_language_dialog_ok_button_text">OK</string>
   <string name="remove_all_language_warning_dialog_ok_button_text">OK</string>
@@ -814,7 +814,7 @@
   <string name="wikitext_reference">Referencia</string>
   <string name="wikitext_preview_link">Vista previa de ligazón</string>
   <string name="main_drawer_help">Axuda</string>
-  <string name="main_drawer_login">Acceder / unirse á Wikipedia</string>
+  <string name="main_drawer_login">Acceder / unirse á Infopedia</string>
   <string name="main_tooltip_action_button">Comezar</string>
   <string name="main_tooltip_watchlist_title">Lista de vixilancia</string>
   <string name="custom_date_picker_dialog_ok_button_text">OK</string>

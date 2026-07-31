@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * 3Johnny
 * 4shadoww
@@ -39,14 +39,14 @@
 * Yupik
 -->
 <resources>
-  <string name="app_name_prod">Wikipedia</string>
-  <string name="app_name_beta">Wikipedia Beeta</string>
-  <string name="app_name_alpha">Wikipedia Alfa</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Wikimedia</string>
   <string name="nav_item_back">Takaisin</string>
   <string name="page_tabs_back">Takaisin</string>
   <string name="nav_item_forward">Eteenpäin</string>
-  <string name="search_hint">Hae Wikipediasta</string>
+  <string name="search_hint">Hae Infopediasta</string>
   <string name="search_hint_voice_search">Äänihaku</string>
   <string name="search_hint_search_languages">Etsi kieltä</string>
   <string name="search_back_button_content_description">Takaisin</string>
@@ -149,12 +149,12 @@
   <string name="edit_save_action_license_logged_in">Julkaisemalla hyväksyt &lt;a href=\"%1$s\"&gt;käyttöehdot&lt;/a&gt; ja julkaiset muokkauksesi peruuttamattomasti &lt;a href=\"%2$s\"&gt;CC BY-SA 4.0&lt;/a&gt; -lisenssillä.</string>
   <string name="edit_save_action_license_anon">Julkaisemalla hyväksyt &lt;a href=\"%1$s\"&gt;käyttöehdot&lt;/a&gt; ja julkaiset muokkauksesi peruuttamattomasti &lt;a href=\"%2$s\"&gt;CC BY-SA 4.0&lt;/a&gt; -lisenssillä. Muokkauksesi yhdistetään laitteesi IP-osoitteeseen. Mikäli &lt;a href=\"https://#login\"&gt;kirjaudut sisään&lt;/a&gt;, tietosuojasi paranee.</string>
   <string name="edit_anon_warning">Laitteen IP-osoite tallentuu muutoshistoriaan. Suojaa yksityisyttäsi &lt;a href=\"https://#login\"&gt;kirjautumalla sisään&lt;/a&gt;.</string>
-  <string name="preference_title_language">Wikipedian kielet</string>
+  <string name="preference_title_language">Infopedian kielet</string>
   <string name="langlinks_filter_hint">Haku</string>
   <string name="langlinks_empty">Tämä sivu ei ole saatavilla muilla kielillä.</string>
   <string name="langlinks_no_match">Kieliä ei löytynyt</string>
   <string name="langlinks_activity_title">Muilla kielillä</string>
-  <string name="langlinks_your_wikipedia_languages">Omat Wikipedia-kielet</string>
+  <string name="langlinks_your_wikipedia_languages">Omat Infopedia-kielet</string>
   <string name="menu_save_changes">Julkaise muutokset</string>
   <string name="edit_saved_successfully">Muokkaus julkaistu!</string>
   <string name="stub_article_edit_saved_successfully">Muokkaus julkaistu! Muutosten näkymiseen voi mennä jonkin aikaa.</string>
@@ -174,11 +174,11 @@
   <string name="search_reading_lists_no_results">Lukulistasta ei löytynyt tuloksia</string>
   <string name="search_history_no_results">Hakuhistoriastasi ei löytynyt tuloksia tällä haulla</string>
   <string name="edit_section_captcha_message">Kirjoita alla olevat sanat roskapostin torjumiseksi</string>
-  <string name="edit_section_captcha_request_an_account_message">Etkö näe kuvaa? &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;Pyydä käyttäjätunnusta&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">Etkö näe kuvaa? &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;Pyydä käyttäjätunnusta&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">Toista edeltävät sanat</string>
   <string name="title_captcha">Kirjoita roskapostisuojauksen kirjaimet</string>
   <string name="edit_section_captcha_reload">Lataa uusi napauttamalla</string>
-  <string name="nav_item_login">Kirjaudu sisään Wikipediaan</string>
+  <string name="nav_item_login">Kirjaudu sisään Infopediaan</string>
   <string name="login_username_hint">Käyttäjänimi</string>
   <string name="login_password_hint">Salasana</string>
   <string name="account_creation_password_hint">Salasana</string>
@@ -204,22 +204,22 @@
   <string name="logout_prompt">Tämä kirjaa sinut ulos kaikista laitteista, joihin olet tällä hetkellä kirjautunut. Haluatko jatkaa?</string>
   <string name="logout_dialog_cancel_button_text">Peruuta</string>
   <string name="logged_out_in_background_title">Kirjauduttu ulos</string>
-  <string name="logged_out_in_background_dialog">Olet kirjautunut ulos Wikipediasta. Haluaisitko kirjautua takaisin sisään?</string>
+  <string name="logged_out_in_background_dialog">Olet kirjautunut ulos Infopediasta. Haluaisitko kirjautua takaisin sisään?</string>
   <string name="logged_out_in_background_login">Kirjaudu sisään</string>
   <string name="logged_out_in_background_cancel">Peruuta</string>
   <string name="account_vanish_request_title">Hävitä käyttäjätunnus</string>
   <string name="account_vanish_request_confirm_title">Varoitus hävittämisestä</string>
-  <string name="account_vanish_request_confirm">Hävittäminen on &lt;b&gt;viimeinen keino&lt;/b&gt; ja sitä tulee &lt;b&gt;käyttää vain, jos haluat lopettaa muokkaamisen lopullisesti&lt;/b&gt; ja samalla myös piilottaa mahdollisimman paljon aiemmista toimistasi.&lt;br/&gt;&lt;br/&gt;Käyttäjätunnuksen poistaminen Wikipediassa tapahtuu muuttamalla tunnuksesi nimeä niin, etteivät muut pysty tunnistamaan muokkauksiasi. Tätä toimea kutsutaan käyttäjätunnuksen hävittämiseksi. &lt;b&gt;Hävittäminen ei takaa täyttä anonyymiyttä, eikä se poista hankkeisiin tekemiäsi muokkauksia&lt;/b&gt;.</string>
+  <string name="account_vanish_request_confirm">Hävittäminen on &lt;b&gt;viimeinen keino&lt;/b&gt; ja sitä tulee &lt;b&gt;käyttää vain, jos haluat lopettaa muokkaamisen lopullisesti&lt;/b&gt; ja samalla myös piilottaa mahdollisimman paljon aiemmista toimistasi.&lt;br/&gt;&lt;br/&gt;Käyttäjätunnuksen poistaminen Infopediassa tapahtuu muuttamalla tunnuksesi nimeä niin, etteivät muut pysty tunnistamaan muokkauksiasi. Tätä toimea kutsutaan käyttäjätunnuksen hävittämiseksi. &lt;b&gt;Hävittäminen ei takaa täyttä anonyymiyttä, eikä se poista hankkeisiin tekemiäsi muokkauksia&lt;/b&gt;.</string>
   <string name="history_empty_title">Ei äskettäin tarkasteltuja artikkeleita</string>
   <string name="history_empty_message">Pidä kirjaa lukemastasi.</string>
   <string name="history_offline_articles_toast">Jotkut lukuhistorian artikkelit eivät ehkä ole nähtävissä ilman verkkoyhteyttä.</string>
   <string name="search_empty_message">Etsi ja lue vapaata tietosanakirjaa omalla kielelläsi</string>
-  <string name="search_empty_message_multilingual_upgrade">Hae Wikipediasta useammilla kielillä</string>
+  <string name="search_empty_message_multilingual_upgrade">Hae Infopediasta useammilla kielillä</string>
   <string name="delete_selected_items">Poista valitut kohteet</string>
   <string name="wp_stylized">&lt;big&gt;W&lt;/big&gt;IKIPEDI&lt;big&gt;A&lt;/big&gt;</string>
   <string name="create_account_username_hint">Käyttäjänimi</string>
   <string name="login_dont_have_account">Eikö sinulla vielä ole käyttäjätunnusta?</string>
-  <string name="login_join_wikipedia">Luo tunnus Wikipediaan</string>
+  <string name="login_join_wikipedia">Luo tunnus Infopediaan</string>
   <string name="login_forgot_password">Unohditko salasanasi?</string>
   <string name="create_account_already_have">Onko sinulla jo käyttäjätunnus?</string>
   <string name="create_account_activity_title">Luo uusi käyttäjätunnus</string>
@@ -241,11 +241,11 @@
   <string name="create_account_button">Luo käyttäjätunnus</string>
   <string name="create_account_name_unavailable">Käyttäjänimi ”%s” ei ole käytettävissä. Valitse toinen nimi.</string>
   <string name="create_account_ip_block_message">IP-osoitteesi on tällä hetkellä estetty luomasta uusia käyttäjätunnuksia.</string>
-  <string name="create_account_ip_block_help_url">https://fi.wikipedia.org/wiki/Wikipedia:Esto</string>
+  <string name="create_account_ip_block_help_url">https://fi.Infopedia.org/wiki/Infopedia:Esto</string>
   <string name="create_account_ip_block_details">Tiedot</string>
   <string name="preferences_general_heading">Yleiset</string>
   <string name="preferences_account_heading">Käyttäjätunnus</string>
-  <string name="wikipedia_app_faq">Wikipedia-sovelluksen UKK</string>
+  <string name="wikipedia_app_faq">Infopedia-sovelluksen UKK</string>
   <string name="send_feedback">Lähetä palautetta sovelluksesta</string>
   <string name="create_account_account_created_toast">Käyttäjätunnus luotu!</string>
   <string name="preferences_heading_syncing">Synkronointi</string>
@@ -253,8 +253,8 @@
   <string name="preferences_heading_experimental">Kokeellinen</string>
   <string name="preference_title_sync_reading_lists_from_account">Lukulistojen synkronointi</string>
   <string name="preference_title_download_reading_list_articles">Lataa lukulista-artikkelit</string>
-  <string name="preference_summary_sync_reading_lists">Synkronoi lukulistat eri laitteiden välillä tallentamalla ne Wikipedia-käytäjätunnuksellesi</string>
-  <string name="preference_summary_sync_reading_lists_from_account">Synkronoi lukulistat eri laitteiden välillä tallentamalla ne Wikipedia-käyttäjätunnuksellesi ”%s”</string>
+  <string name="preference_summary_sync_reading_lists">Synkronoi lukulistat eri laitteiden välillä tallentamalla ne Infopedia-käytäjätunnuksellesi</string>
+  <string name="preference_summary_sync_reading_lists_from_account">Synkronoi lukulistat eri laitteiden välillä tallentamalla ne Infopedia-käyttäjätunnuksellesi ”%s”</string>
   <string name="preference_dialog_of_turning_off_reading_list_sync_title">Poista synkronoidut lukulistat käytäjätunnukseltasi ”%s”?</string>
   <string name="preference_dialog_of_turning_off_reading_list_sync_text">Tämä tulee täysin poistamaan kaikki aiemmin synkronoimasi lukulistat etämuistiltasi. Poista kaikki synkronoinut listat käyttäjätunnukseltasi ”%s”?</string>
   <string name="preference_title_auto_upload_crash_reports">Lähetä kaatumisilmoituksia</string>
@@ -272,25 +272,25 @@
   <string name="page_watchlist_overflow_menu_onboarding_tooltip_text">Seuraa helposti artikkelien kehitystä. Lisää artikkeli seurattavien joukkoon napauttamalla valikkoa ja valitsemalla &lt;b&gt;Lisää tarkkailulistalle&lt;/b&gt;.</string>
   <string name="settings_item_preferences">Asetukset</string>
   <string name="settings_activity_title">Asetukset</string>
-  <string name="about_description">Tietoja Wikipedia-sovelluksesta</string>
+  <string name="about_description">Tietoja Infopedia-sovelluksesta</string>
   <string name="privacy_policy_description">Tietosuojakäytäntö</string>
   <string name="terms_of_use_description">Käyttöehdot</string>
   <string name="legal_safety_contacts_description">Laki- ja turvallisuusyhteystiedot</string>
-  <string name="about_wikipedia_url">https://fi.wikipedia.org/wiki/Wikipedia:Tietoja</string>
-  <string name="privacy_policy_url">https://foundation.wikimedia.org/wiki/Policy:Privacy_policy/fi</string>
-  <string name="terms_of_use_url">https://foundation.wikimedia.org/wiki/Terms_of_Use/fi</string>
+  <string name="about_wikipedia_url">https://fi.Infopedia.org/wiki/Infopedia:Tietoja</string>
+  <string name="privacy_policy_url">https://foundation.infopedia.org/wiki/Policy:Privacy_policy/fi</string>
+  <string name="terms_of_use_url">https://foundation.infopedia.org/wiki/Terms_of_Use/fi</string>
   <string name="cc_by_sa_4_url">https://creativecommons.org/licenses/by-sa/4.0/deed.fi</string>
   <string name="cc_0_url">https://creativecommons.org/publicdomain/zero/1.0/deed.fi</string>
   <string name="about_libraries_heading">Käytetyt kirjastot</string>
   <string name="about_contributors_heading">Tekijät</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Tiimin sivu&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Tiimin sivu&lt;/a&gt;</string>
   <string name="about_translators_heading">Kääntäjät</string>
   <string name="about_translators_translatewiki">Tämän sovelluksen ovat kääntäneet &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt;-sivuston vapaaehtoiset kääntäjät.</string>
   <string name="about_app_license_heading">Lisenssi</string>
-  <string name="about_app_license">Lähdekoodi löytyy &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;GitHubista&lt;/a&gt;, ja se on julkaistu &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0 -lisenssillä&lt;/a&gt;. Ellei toisin ole mainittu, sisältö on julkaistu &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.fi\"&gt;Creative Commons Nimeä–JaaSamoin -lisenssillä&lt;/a&gt;.</string>
+  <string name="about_app_license">Lähdekoodi löytyy &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;GitHubista&lt;/a&gt;, ja se on julkaistu &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0 -lisenssillä&lt;/a&gt;. Ellei toisin ole mainittu, sisältö on julkaistu &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.fi\"&gt;Creative Commons Nimeä–JaaSamoin -lisenssillä&lt;/a&gt;.</string>
   <string name="about_wmf">&lt;a href=\"https://wikimediafoundation.org/\"&gt;Wikimedia-säätiön&lt;/a&gt; tuote</string>
   <string name="about_activity_title">Tietoja</string>
-  <string name="about_logo_content_description">Wikipedian palapelipallon näköinen logo</string>
+  <string name="about_logo_content_description">Infopedian palapelipallon näköinen logo</string>
   <string name="edit_abandon_confirm">Sivua on muokattu. Haluatko varmasti poistua tallentamatta muutoksiasi?</string>
   <string name="edit_abandon_confirm_yes">Kyllä</string>
   <string name="edit_abandon_confirm_no">Ei</string>
@@ -334,7 +334,7 @@
   <string name="abusefilter_title_warn">Tämä muokkaus on tunnistettu mahdollisesti haitalliseksi. Haluatko varmasti julkaista sen?</string>
   <string name="abusefilter_title_disallow">Et voi julkaista tätä muokkausta. Palaa takaisin ja muuta sitä.</string>
   <string name="abusefilter_text_warn">Automaattinen suodatin on tunnistanut tämän muokkauksen mahdollisesti haitalliseksi. Se saattaa sisältää yhden tai useampia seuraavista asioista:&lt;br /&gt;&lt;br /&gt;· Kokonaan isoilla kirjaimilla kirjoitettu teksti&lt;br /&gt;· Artikkeleiden tyhjentäminen tai mainostaminen&lt;br /&gt;· Aiheeseen liittymättömät linkit tai kuvat&lt;br /&gt;· Toistuvat merkkijonot</string>
-  <string name="abusefilter_text_disallow">Automaattinen suodatin on tunnistanut tämän muokkauksen mahdollisesti haitalliseksi tai mahdolliseksi vandalismiksi.&lt;br /&gt;&lt;br /&gt;Wikipedia on tietosanakirja, jonne kuuluu vain neutraali ja merkittävä sisältö.</string>
+  <string name="abusefilter_text_disallow">Automaattinen suodatin on tunnistanut tämän muokkauksen mahdollisesti haitalliseksi tai mahdolliseksi vandalismiksi.&lt;br /&gt;&lt;br /&gt;Infopedia on tietosanakirja, jonne kuuluu vain neutraali ja merkittävä sisältö.</string>
   <string name="page_similar_titles">Samankaltaiset sivut</string>
   <string name="search_did_you_mean">Tarkoititko ”%s”?</string>
   <string name="search_recent_header">Viimeisimmät haut:</string>
@@ -351,11 +351,11 @@
   <string name="table_infobox">Pikafaktoja</string>
   <string name="table_other">Lisätietoja</string>
   <string name="table_close">Sulje</string>
-  <string name="widget_name_featured_page">Wikipedian suositeltu sivu</string>
+  <string name="widget_name_featured_page">Infopedian suositeltu sivu</string>
   <string name="widget_title_featured_page">Päivän suositeltu sivu:</string>
-  <string name="widget_name_search">Wikipedia-haku</string>
-  <string name="widget_description_search">Nopein tapa etsiä Wikipediasta</string>
-  <string name="widget_description_featured_page">Wikipedian parhaimmat artikkelit</string>
+  <string name="widget_name_search">Infopedia-haku</string>
+  <string name="widget_description_search">Nopein tapa etsiä Infopediasta</string>
+  <string name="widget_description_featured_page">Infopedian parhaimmat artikkelit</string>
   <string name="wiktionary_no_definitions_found">Määritelmiä ei löytynyt.</string>
   <string name="alpha_update_notification_title">Uusi alfaversio saatavilla</string>
   <string name="alpha_update_notification_text">Lataa napauttamalla</string>
@@ -431,7 +431,7 @@
   <string name="error_voice_search_not_available">Pahoittelut, puheentunnistus ei ole käytettävissä.</string>
   <string name="location_service_disabled">Sijaintipalvelut eivät ole käytössä.</string>
   <string name="enable_location_service">Ota käyttöön</string>
-  <string name="location_permissions_enable_prompt">Ota paikannus käyttöön ja anna Wikipedialle käyttöoikeudet sijaintiisi nähdäksesi sinua lähellä olevia paikkoja.</string>
+  <string name="location_permissions_enable_prompt">Ota paikannus käyttöön ja anna Infopedialle käyttöoikeudet sijaintiisi nähdäksesi sinua lähellä olevia paikkoja.</string>
   <string name="location_permissions_enable_action">Kytke päälle</string>
   <string name="error_webview_updating">Android-järjestelmän WebView-komponenttia päivitetään tällä hetkellä. Yritä uudelleen hetken kuluttua.</string>
   <plurals name="multi_items_selected">
@@ -447,9 +447,9 @@
   <string name="link_preview_dialog_share_button">Jaa</string>
   <string name="link_preview_stub_placeholder_text">Tämä artikkeli on tynkä, mikä tarkoittaa, että siinä ei ole tarpeeksi sisältöä esikatselun luomiseksi. Voit kuitenkin korjata asian.</string>
   <string name="error_page_does_not_exist">Tätä sivua ei ole olemassa</string>
-  <string name="error_user_page_does_not_exist">Wikipediassa ei ole tämän nimistä &lt;a href=\"%1$s\"&gt;käyttäjäsivua&lt;/a&gt;. Useimmiten vain käyttäjän &lt;b&gt;%2$s&lt;/b&gt; tulisi luoda tämä sivu ja muokata sitä. Mikäli et ole varma, varmista että käyttäjä \"%3$s\" on olemassa.</string>
+  <string name="error_user_page_does_not_exist">Infopediassa ei ole tämän nimistä &lt;a href=\"%1$s\"&gt;käyttäjäsivua&lt;/a&gt;. Useimmiten vain käyttäjän &lt;b&gt;%2$s&lt;/b&gt; tulisi luoda tämä sivu ja muokata sitä. Mikäli et ole varma, varmista että käyttäjä \"%3$s\" on olemassa.</string>
   <string name="view_wiki_error_message_offline">Ei voitu yhdistää internetiin</string>
-  <string name="view_wiki_error_message_timeout">Wikipediaan ei saada yhteyttä. Tarkista verkkoyhteytesi tai yritä myöhemmin uudelleen.</string>
+  <string name="view_wiki_error_message_timeout">Infopediaan ei saada yhteyttä. Tarkista verkkoyhteytesi tai yritä myöhemmin uudelleen.</string>
   <string name="reference_title">Viite %s</string>
   <string name="reference_list_title">Viitteet</string>
   <string name="theme_chooser_dialog_image_dimming_switch_label">Kuvien himmentäminen (tummassa teemassa)</string>
@@ -466,9 +466,9 @@
   <string name="error_blocked_start">Eston alku: %s</string>
   <string name="error_blocked_expiry">Esto päättyy: %s</string>
   <string name="error_blocked_id">Eston tunniste: %s</string>
-  <string name="error_blocked_footer">Voit olla yhteydessä käyttäjään &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; tai toiseen &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Administrators\"&gt;ylläpitäjään&lt;/a&gt; keskustellaksesi estosta.</string>
+  <string name="error_blocked_footer">Voit olla yhteydessä käyttäjään &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; tai toiseen &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Administrators\"&gt;ylläpitäjään&lt;/a&gt; keskustellaksesi estosta.</string>
   <string name="theme_chooser_menu_item_short_tooltip">Mukauta työkalupalkkia</string>
-  <string name="error_blocked_footer_no_blocker">Voit olla yhteydessä &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Administrators\"&gt;ylläpitäjään&lt;/a&gt; keskustellaksesi estosta.</string>
+  <string name="error_blocked_footer_no_blocker">Voit olla yhteydessä &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Administrators\"&gt;ylläpitäjään&lt;/a&gt; keskustellaksesi estosta.</string>
   <string name="temp_account_not_logged_in">Et ole kirjautunut sisään</string>
   <string name="temp_account_anon_ip_dialog_body">Kun teet muokkauksen, IP-osoitteesi liitetään muokkauksiisi.&lt;br /&gt;&lt;br /&gt;&lt;a href=\"https://#login\"&gt;Kirjaudu sisään&lt;/a&gt; tai &lt;a href=\"https://#createaccount\"&gt;Luo tunnus&lt;/a&gt; saadaksesi tulevat muokkauksesi oman tunnuksesi nimiin sekä päästäksesi käyttämään lisäominaisuuksia.</string>
   <string name="temp_account_anon_dialog_body">Kun teet muokkauksen, sinulle luodaan &lt;b&gt;tilapäinen tunnus&lt;/b&gt; yksityisyytesi suojelemiseksi. &lt;a href=\"%1$s\"&gt;Lisätietoja&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;&lt;a href=\"https://#login\"&gt;Kirjaudu sisään&lt;/a&gt; tai &lt;a href=\"https://#createaccount\"&gt;Luo tunnus&lt;/a&gt; saadaksesi tulevat muokkauksesi oman tunnuksesi nimiin sekä päästäksesi käyttämään lisäominaisuuksia.</string>
@@ -491,7 +491,7 @@
   <string name="temp_account_end_session">Lopeta istunto</string>
   <string name="temp_account_end_session_confirm">Tämä kirjaa sinut ulos tilapäiseltä tunnukseltasi. Haluatko jatkaa?</string>
   <string name="crash_report_activity_title">Sovellusvirhe</string>
-  <string name="crash_report_relaunch_or_quit">Wikipedia-sovellus lopetti toimintansa teknisen vian takia.\n\nKäynnistetäänkö sovellus uudelleen vai poistutaanko?</string>
+  <string name="crash_report_relaunch_or_quit">Infopedia-sovellus lopetti toimintansa teknisen vian takia.\n\nKäynnistetäänkö sovellus uudelleen vai poistutaanko?</string>
   <string name="crash_report_relaunch">Käynnistä uudelleen</string>
   <string name="crash_report_quit">Poistu</string>
   <string name="article_menu_bar_save_button">Tallenna</string>
@@ -588,8 +588,8 @@
   <string name="reading_lists_default_list_delete_message">Oletuslistaa ( %s ) ei voi poistaa</string>
   <string name="reading_lists_default_plus_one_list_delete_message">%1$s poistettu. Oletuslistaa ( %2$s ) ei voi poistaa.</string>
   <string name="reading_lists_default_plus_many_lists_delete_message">Listat poistettu. Oletuslistaa ( %s ) ei voi poistaa.</string>
-  <string name="single_list_json_file_name">%s (Wikipedia-lukulista).json</string>
-  <string name="multiple_lists_json_file_name">Wikipedia-lukulistat (%s ja enemmän).json</string>
+  <string name="single_list_json_file_name">%s (Infopedia-lukulista).json</string>
+  <string name="multiple_lists_json_file_name">Infopedia-lukulistat (%s ja enemmän).json</string>
   <string name="reading_list_items_deleted">%d artikkelia poistettu listasta</string>
   <string name="reading_lists_item_deleted">%s poistettu listoista</string>
   <string name="reading_list_item_delete_undo">Kumoa</string>
@@ -609,12 +609,12 @@
   <string name="reading_list_confirm_remove_article_from_offline_title">Artikkeli löytyy useammasta listasta</string>
   <string name="reading_list_confirm_remove_article_from_offline_message">%s ei enää ole käytettävissä offline-tilassa kaikille lukulistoille:</string>
   <string name="reading_lists_sync_reminder_title">Otetaanko lukulistan synkronointi käyttöön?</string>
-  <string name="reading_lists_sync_reminder_text">Lukulistoihisi tallennetut artikkelit voidaan nyt synkronoida Wikipedia-tunnuksellesi. &lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Lisätietoja&lt;/a&gt;</string>
-  <string name="reading_lists_login_reminder_text_with_link">Lukulistoja voi nyt synkronoida laitteiden välillä. Kirjaudu sisään Wikipedia-tunnuksellesi ja salli listojesi tallentaminen. &lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Lisätietoja&lt;/a&gt;</string>
+  <string name="reading_lists_sync_reminder_text">Lukulistoihisi tallennetut artikkelit voidaan nyt synkronoida Infopedia-tunnuksellesi. &lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Lisätietoja&lt;/a&gt;</string>
+  <string name="reading_lists_login_reminder_text_with_link">Lukulistoja voi nyt synkronoida laitteiden välillä. Kirjaudu sisään Infopedia-tunnuksellesi ja salli listojesi tallentaminen. &lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Lisätietoja&lt;/a&gt;</string>
   <string name="reading_lists_sync_reminder_action">Ota synkronointi käyttöön</string>
   <string name="reading_list_login_reminder_title">Synkronoi lukulistat</string>
-  <string name="reading_lists_login_reminder_text">Lukulistoja voi nyt synkronoida laitteiden välillä. Kirjaudu Wikipedia-tunnuksellesi ja ota listojen tallentaminen käyttöön.</string>
-  <string name="reading_lists_login_button">Kirjaudu sisään / liity Wikipediaan</string>
+  <string name="reading_lists_login_reminder_text">Lukulistoja voi nyt synkronoida laitteiden välillä. Kirjaudu Infopedia-tunnuksellesi ja ota listojen tallentaminen käyttöön.</string>
+  <string name="reading_lists_login_button">Kirjaudu sisään / liity Infopediaan</string>
   <string name="reading_lists_ignore_button">Ei nyt</string>
   <string name="reading_lists_confirm_remote_delete_yes">Kyllä</string>
   <string name="reading_lists_confirm_remote_delete_no">Ei</string>
@@ -636,7 +636,7 @@
   <string name="reading_list_turned_sync_off_dialog_ok">OK</string>
   <string name="reading_list_turned_sync_off_dialog_settings">Asetukset</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_title">Otetaanko lukulistan synkronointi käyttöön?</string>
-  <string name="reading_list_prompt_turned_sync_on_dialog_text">Artikkelit, jotka on tallennettu lukulistoihin, voidaan nyt synkronoida Wikipedia-käyttäjätunnuksellesi. &lt;a href=\"#faq\"&gt;Lisätietoja&lt;/a&gt;</string>
+  <string name="reading_list_prompt_turned_sync_on_dialog_text">Artikkelit, jotka on tallennettu lukulistoihin, voidaan nyt synkronoida Infopedia-käyttäjätunnuksellesi. &lt;a href=\"#faq\"&gt;Lisätietoja&lt;/a&gt;</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_do_not_show">Älä näytä tätä uudelleen</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_enable_syncing">Ota synkronointi käyttöön</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_no_thanks">Ei kiitos</string>
@@ -732,7 +732,7 @@
     <item quantity="one">%1$d lista jäljellä</item>
     <item quantity="other">%1$d listaa jäljellä</item>
   </plurals>
-  <string name="notification_echo_channel_description">Wikipedia-ilmoitukset</string>
+  <string name="notification_echo_channel_description">Infopedia-ilmoitukset</string>
   <string name="notifications_activity_title">Ilmoitukset</string>
   <string name="notifications_activity_title_archived">Ilmoitukset (arkistoidut)</string>
   <string name="notifications_search">Hae ilmoituksia</string>
@@ -794,8 +794,8 @@
   <string name="preference_title_customize_push_notifications">Mukauta push-ilmoituksia</string>
   <string name="preference_category_display_settings">Näyttöasetukset</string>
   <string name="preference_title_hide_read_notifications">Piilota luetut ilmoitukset</string>
-  <string name="notifications_channel_group_wikipedia_notifications_title">Wikipedia</string>
-  <string name="notifications_channel_group_wikipedia_notifications_description">Ilmoitukset Wikipediasta</string>
+  <string name="notifications_channel_group_wikipedia_notifications_title">Infopedia</string>
+  <string name="notifications_channel_group_wikipedia_notifications_description">Ilmoitukset Infopediasta</string>
   <string name="notifications_channel_group_other_title">Muu</string>
   <string name="notifications_channel_group_other_description">Muut ilmoitukset sovelluksesta</string>
   <string name="notifications_filter_label">Suodata ilmoituksia</string>
@@ -829,13 +829,13 @@
   <string name="view_random_article_card_title">Satunnainen artikkeli</string>
   <string name="view_random_article_card_action">Lisää satunnaisia artikkeleita</string>
   <string name="view_top_read_card_title">Luetuimmat</string>
-  <string name="view_top_read_card_description">Mikä Wikipediassa on suosittua tänään</string>
+  <string name="view_top_read_card_description">Mikä Infopediassa on suosittua tänään</string>
   <string name="view_top_read_card_action">Lisää luetuimpia</string>
   <string name="view_top_read_card_pageviews_k_suffix">%d tuhatta</string>
   <string name="view_top_read_card_pageviews_m_suffix">%d milj.</string>
   <string name="view_top_read_card_pageviews_views_suffix">näyttökertaa</string>
   <string name="view_next_random_article">Lataa toinen satunnainen artikkeli</string>
-  <string name="view_main_page_card_title">Tänään Wikipediassa</string>
+  <string name="view_main_page_card_title">Tänään Infopediassa</string>
   <string name="view_main_page_card_action">Näytä etusivu</string>
   <string name="view_featured_image_card_title">Päivän kuva</string>
   <string name="view_featured_image_card_download">Lataa</string>
@@ -863,16 +863,16 @@
   <string name="feed_configure_menu_reset">Palauta oletusnäkymä</string>
   <string name="feed_configure_menu_select_all">Näytä kaikki</string>
   <string name="feed_configure_menu_deselect_all">Piilota kaikki</string>
-  <string name="feed_configure_language_warning">Kaikki kortit eivät välttämättä ole saatavilla kaikilla Wikipedia-kielillä. Muokkaa kieliluetteloa sovelluksen asetuksista.</string>
+  <string name="feed_configure_language_warning">Kaikki kortit eivät välttämättä ole saatavilla kaikilla Infopedia-kielillä. Muokkaa kieliluetteloa sovelluksen asetuksista.</string>
   <string name="feed_item_type_news">Artikkelit ajankohtaisista tapahtumista</string>
   <string name="feed_item_type_on_this_day">Aiempina vuosina tälle päivämäärälle osuneita tapahtumia</string>
   <string name="feed_item_type_because_you_read">Aiemmin lukemiisi artikkeleihin perustuvia lukusuosituksia</string>
-  <string name="feed_item_type_featured_article">Suositeltu artikkeli Wikipediassa</string>
+  <string name="feed_item_type_featured_article">Suositeltu artikkeli Infopediassa</string>
   <string name="feed_item_type_trending">Päivittäin eniten katsotut artikkelit</string>
   <string name="feed_item_type_featured_image">Päivän kuva Wikimedia Commonsista</string>
-  <string name="feed_item_type_main_page">Wikipedian etusivu suositellulla artikkelilla</string>
+  <string name="feed_item_type_main_page">Infopedian etusivu suositellulla artikkelilla</string>
   <string name="feed_item_type_randomizer">Valitse satunnaisia ​​artikkeleita luettavaksi</string>
-  <string name="feed_item_type_suggested_edits">Ehdotuksia sisällön lisäämiseksi Wikipediaan</string>
+  <string name="feed_item_type_suggested_edits">Ehdotuksia sisällön lisäämiseksi Infopediaan</string>
   <string name="feed_item_type_places">Läheiset artikkelit nykyisen sijainnin perusteella</string>
   <string name="feed_empty_message">Etusivun syötteessäsi ei ole mitään</string>
   <string name="feed_configure_onboarding_action">Mukauta</string>
@@ -884,10 +884,10 @@
   <string name="feed_accessibility_card_text">Olet päässyt syötteen loppuun.</string>
   <string name="feed_accessibility_card_load_more_button">Lataa enemmän</string>
   <string name="feed_language_variants_removal_dialog_title">Valitse alueellinen kieliversio parantaaksesi lukukokemusta</string>
-  <string name="feed_language_variants_removal_dialog_message">Wikipedian ensisijaisena kielenäsi on geneerinen kiinan kielen versio, jota ei tueta</string>
+  <string name="feed_language_variants_removal_dialog_message">Infopedian ensisijaisena kielenäsi on geneerinen kiinan kielen versio, jota ei tueta</string>
   <string name="feed_language_variants_removal_dialog_save">Tallenna</string>
   <string name="feed_language_variants_removal_secondary_dialog_title">Päivitä toissijaiset kielesi</string>
-  <string name="feed_language_variants_removal_secondary_dialog_message">Wikipedian toissijaisena kielenäsi on geneerinen kiinan kielen versio, jota ei tueta. Valitse asetuksista uusi toissijainen kieli tai vahvista kieliluettelosi.</string>
+  <string name="feed_language_variants_removal_secondary_dialog_message">Infopedian toissijaisena kielenäsi on geneerinen kiinan kielen versio, jota ei tueta. Valitse asetuksista uusi toissijainen kieli tai vahvista kieliluettelosi.</string>
   <string name="feed_language_variants_removal_secondary_dialog_settings">Mene asetuksiin</string>
   <string name="top_read_activity_title">Luetuimmat %s</string>
   <string name="tabs_activity_title">Välilehdet</string>
@@ -912,7 +912,7 @@
   <string name="description_edit_help_about_wikidata">Tietoa Wikidatasta</string>
   <string name="description_edit_help_wikidata_guide">Opas Wikidata-kuvauksien kirjoittamiseen</string>
   <string name="wikidata_description_guide_url">https://www.wikidata.org/wiki/Help:Description/fi</string>
-  <string name="description_edit_anon_limit">Kiitos jatkuvasta mielenkiinnostasi artikkelin kuvausten muokkaamiseen! Tehdäksesi lisää muokkauksia, kirjaudu sisään Wikipedia-tunnuksellesi.</string>
+  <string name="description_edit_anon_limit">Kiitos jatkuvasta mielenkiinnostasi artikkelin kuvausten muokkaamiseen! Tehdäksesi lisää muokkauksia, kirjaudu sisään Infopedia-tunnuksellesi.</string>
   <string name="description_edit_license_notice">Muuttamalla artikkelin kuvausta, hyväksyn &lt;a href=\"%1$s\"&gt;käyttöehdot&lt;/a&gt; ja julkaisen muokkaukseni peruuttamattomasti &lt;a href=\"%2$s\"&gt;Creative Commons CC0&lt;/a&gt; -lisenssillä.</string>
   <string name="description_edit_helper_text_lowercase_warning">alkaa yleensä pienellä kirjaimella</string>
   <string name="description_edit_voice_input_description">Äänisyöte</string>
@@ -934,7 +934,7 @@
   <string name="description_edit_success_saved_image_caption_in_lang_snackbar">Kuvateksti julkaistu! (%s)</string>
   <string name="description_edit_success_saved_image_tags_snackbar">Kuvamerkintä/-merkinnät julkaistu!</string>
   <string name="description_edit_success_se_general_feed_link_snackbar">Nautitko siitä? Auta meitä lisäämään lisää.</string>
-  <string name="description_edit_success_encouragement">Teit juuri Wikipediasta kaikille paremman</string>
+  <string name="description_edit_success_encouragement">Teit juuri Infopediasta kaikille paremman</string>
   <string name="description_edit_success_done">Valmis</string>
   <string name="description_edit_success_did_you_know">Tiesitkö?</string>
   <string name="description_edit_success_article_edit_hint">Voit myös muokata artikkeleita tällä sovelluksella. Kokeile ensi kerralla kirjoitusvirheiden tai lyhyiden lauseiden korjaamista napauttamalla ^1-kuvaketta.</string>
@@ -981,7 +981,7 @@
   <string name="suggested_edits_task_translate_caption_title">Käännä kuvatekstit</string>
   <string name="suggested_edits_task_translate_caption_description">Käännä kuvatekstit muille kielille</string>
   <string name="suggested_edits_task_multilingual_title">Lisää tehtäviä monikielisille muokkaajille</string>
-  <string name="suggested_edits_task_multilingual_description">Käännöstehtäviä on saatavilla mikäli luet ja kirjoitat useampaa kuin yhtä Wikipedian kieltä.</string>
+  <string name="suggested_edits_task_multilingual_description">Käännöstehtäviä on saatavilla mikäli luet ja kirjoitat useampaa kuin yhtä Infopedian kieltä.</string>
   <string name="suggested_edits_task_image_caption_edit_disable_text">Lukittu, kunnes olet muokannut %d kuvatekstiä</string>
   <string name="suggested_edits_task_translate_description_edit_disable_text">Lukittu, kunnes olet tehnyt %d vahvistettua artikkelikuvausta</string>
   <string name="suggested_edits_task_multilingual_negative">Ei minulle</string>
@@ -1010,7 +1010,7 @@
   <string name="suggested_edits_image_preview_dialog_licensing">Lisensointi</string>
   <string name="suggested_edits_image_preview_dialog_more_info">Lisätietoja</string>
   <string name="suggested_edits_image_preview_dialog_file_page_link_text">Tiedostosivu Wikimedia Commonsissa</string>
-  <string name="suggested_edits_image_preview_dialog_file_page_wikipedia_link_text">Tiedostosivu Wikipediassa</string>
+  <string name="suggested_edits_image_preview_dialog_file_page_wikipedia_link_text">Tiedostosivu Infopediassa</string>
   <string name="suggested_edits_article_cta_image_tags">Lisää kuvamerkintöjä</string>
   <string name="suggested_edits_article_cta_image_caption">Lisää kuvateksti</string>
   <string name="suggested_edits_article_cta_image_caption_in_language">Lisää kuvateksti (%s)</string>
@@ -1025,7 +1025,7 @@
   <string name="suggested_edits_image_tags_publishing">Julkaistaan</string>
   <string name="suggested_edits_image_tags_published">Julkaistu</string>
   <string name="suggested_edits_image_tags_onboarding_title">Kuvien merkitseminen tekee niiden löytämisestä helpompaa.</string>
-  <string name="suggested_edits_image_tags_onboarding_text">Lisäämällä merkintöjä teet kuvien hakemisesta Commonsissa, Wikipedian artikkelien kuvitukseen käyttämässä vapaiden kuvien hakemistossa, helpompaa.</string>
+  <string name="suggested_edits_image_tags_onboarding_text">Lisäämällä merkintöjä teet kuvien hakemisesta Commonsissa, Infopedian artikkelien kuvitukseen käyttämässä vapaiden kuvien hakemistossa, helpompaa.</string>
   <string name="suggested_edits_image_tags_onboarding_note">Vain valitsemasi merkinnät lisätään kuviin.</string>
   <string name="suggested_edits_image_tags_task_detail">Lisää mukautettuja tunnisteita kuvaan, jotta se olisi helpompi löytää.</string>
   <string name="suggested_edits_image_tags_choose">Lisää tai valitse vastaavat tunnisteet</string>
@@ -1036,8 +1036,8 @@
   <string name="suggested_edits_image_tags_add_tag">Lisää merkintä</string>
   <string name="suggested_edits_image_tags_exit_dialog_message">Julkaisemattomia tunnisteita ei tallenneta</string>
   <string name="suggested_edits_image_zoom_tooltip">Lähennä tätä kuvaa nipistämällä.</string>
-  <string name="suggested_edits_encouragement_message">%s, kiitos muokkauksistasi. Alempaa löydät lisää tapoja parantaa Wikipediaa.</string>
-  <string name="suggested_edits_onboarding_message">&lt;b&gt;Hei %s&lt;/b&gt;, alempaa löydät nopeita ja helppoja tapoja parantaa Wikipediaa? Näet tekemäsi eron heti, kun aloitat. Hyviä muokkaushetkiä!</string>
+  <string name="suggested_edits_encouragement_message">%s, kiitos muokkauksistasi. Alempaa löydät lisää tapoja parantaa Infopediaa.</string>
+  <string name="suggested_edits_onboarding_message">&lt;b&gt;Hei %s&lt;/b&gt;, alempaa löydät nopeita ja helppoja tapoja parantaa Infopediaa? Näet tekemäsi eron heti, kun aloitat. Hyviä muokkaushetkiä!</string>
   <string name="suggested_edits_image_captions_task_detail">Kuvaile kuvan sisältöä auttaaksesi lukijoita ymmärtämään sen merkitys ja asiayhteys.</string>
   <string name="suggested_edits_add_descriptions_task_detail">Esittele artikkeli lyhyesti auttaaksesi lukijoita ymmärtämään aiheen yhdellä silmäyksellä.</string>
   <string name="suggested_edits_contributions_stat_tooltip">Muokkaustesi määrä tähän mennessä.</string>
@@ -1046,7 +1046,7 @@
   <string name="suggested_edits_edit_quality_stat_tooltip">Perustuu siihen, kuinka monta kertaa muokkauksiasi palautettiin (toinen muokkaaja kumosi). Kumottuja muokkauksia: %d.</string>
   <string name="suggested_edits_paused_message">Ehdotetut muokkaukset on keskeytetty %1$s asti. Anteeksi %2$s, osa viimeaikaisista muokkauksistasi on palautettu.</string>
   <string name="suggested_edits_disabled_message">Ehdotetut muokkaukset on poistettu käytöstä. Pahoittelut %s, liian moni viimeaikaisista muokkauksistasi on kumottu.</string>
-  <string name="suggested_edits_ip_blocked_message">Näyttää siltä, että IP-osoitteesi (tai IP-osoitealueesi) on tällä hetkellä estetty muokkaamasta Wikipediaa.</string>
+  <string name="suggested_edits_ip_blocked_message">Näyttää siltä, että IP-osoitteesi (tai IP-osoitealueesi) on tällä hetkellä estetty muokkaamasta Infopediaa.</string>
   <string name="suggested_edits_gate_message">Pahoittelut, %s, sinun tulee tehdä ainakin kolme muokkausta suoraan artikkeliin voidaksesi käyttää tätä ominaisuutta.</string>
   <string name="suggested_edits_editing_tips_link_text">Muokkausvinkkejä</string>
   <string name="suggested_edits_help_page_link_text">Ehdotettujen muokkausten ohjesivu</string>
@@ -1075,7 +1075,7 @@
     <item quantity="other">%d päivää</item>
   </plurals>
   <string name="suggested_edits_what_is_title">Mitä ovat ehdotetut muokkaukset?</string>
-  <string name="suggested_edits_what_is_text">Ehdotetut muokkaukset tarjoavat mahdollisuuksia pienille mutta tärkeille Wikipedian muokkauksille.</string>
+  <string name="suggested_edits_what_is_text">Ehdotetut muokkaukset tarjoavat mahdollisuuksia pienille mutta tärkeille Infopedian muokkauksille.</string>
   <string name="suggested_edits_learn_more">Lue lisää</string>
   <string name="suggested_edits_paused_title">Pysäytetty</string>
   <string name="suggested_edits_disabled_title">Poistettu käytöstä</string>
@@ -1085,8 +1085,8 @@
   <string name="suggested_edits_task_new">Uusi</string>
   <string name="suggested_edits_cc0_notice">Julkaisemalla hyväksyn &lt;a href=\"%1$s\"&gt;käyttöehdot&lt;/a&gt; ja julkaisen muokkaukseni peruuttamattomasti &lt;a href=\"%2$s\"&gt;CC0&lt;/a&gt; -lisenssillä.</string>
   <string name="suggested_edits_reactivation_notification_title">Ehdotetut muokkaukset</string>
-  <string name="suggested_edits_reactivation_notification_stage_one">Kiitos Wikipedian muokkaamisesta! Miksi et jatkaisi siitä mihin jäit?</string>
-  <string name="suggested_edits_reactivation_notification_stage_two">Olisiko sinulla hetki aikaa jatkaa Wikipedian parantamista? Tutustu näihin muokkausehdotuksiin.</string>
+  <string name="suggested_edits_reactivation_notification_stage_one">Kiitos Infopedian muokkaamisesta! Miksi et jatkaisi siitä mihin jäit?</string>
+  <string name="suggested_edits_reactivation_notification_stage_two">Olisiko sinulla hetki aikaa jatkaa Infopedian parantamista? Tutustu näihin muokkausehdotuksiin.</string>
   <string name="suggested_edits_contributions_screen_title">Käyttäjän %s muokkaukset</string>
   <string name="suggested_edits_contribution_language_label">Kieli</string>
   <string name="suggested_edits_contribution_date_time_label">Päiväys / Aika</string>
@@ -1104,11 +1104,11 @@
     <item quantity="other">Lisäsit %d kuvamerkintää</item>
   </plurals>
   <string name="suggested_edits_contribution_date_yesterday_text">Eilen</string>
-  <string name="suggested_edits_encourage_account_creation_title">Tiesitkö, että kuka tahansa voi muokata Wikipediaa?</string>
-  <string name="suggested_edits_encourage_account_creation_message">Uusi ehdotetut muokkaukset -toiminto helpottaa pienten mutta tärkeiden muokkausten tekemistä Android-laitteilla. Tavoitteenamme on tehdä artikkelien kehittämisestä yksinkertaisempaa ja  helpommin lähestyttävää. Aloita kirjautumalla sisään tai liittymällä Wikipediaan.</string>
-  <string name="suggested_edits_encourage_account_creation_login_button">Kirjaudu sisään / liity Wikipediaan</string>
+  <string name="suggested_edits_encourage_account_creation_title">Tiesitkö, että kuka tahansa voi muokata Infopediaa?</string>
+  <string name="suggested_edits_encourage_account_creation_message">Uusi ehdotetut muokkaukset -toiminto helpottaa pienten mutta tärkeiden muokkausten tekemistä Android-laitteilla. Tavoitteenamme on tehdä artikkelien kehittämisestä yksinkertaisempaa ja  helpommin lähestyttävää. Aloita kirjautumalla sisään tai liittymällä Infopediaan.</string>
+  <string name="suggested_edits_encourage_account_creation_login_button">Kirjaudu sisään / liity Infopediaan</string>
   <string name="suggested_edits_contribution_type_image_tag">Kuvamerkintä</string>
-  <string name="suggested_edits_contribution_current_revision_text">Muokkauksesi on nyt saatavana Wikipediassa</string>
+  <string name="suggested_edits_contribution_current_revision_text">Muokkauksesi on nyt saatavana Infopediassa</string>
   <string name="suggested_card_more_edits">Lisää ehdotettuja muokkauksia</string>
   <string name="suggested_edits_article_descriptions_dialog_title">Ehdotetut kuvaukset</string>
   <string name="suggested_edits_descriptions_report_dialog_title">Mistä tahtoisit tehdä ilmoituksen?</string>
@@ -1135,7 +1135,7 @@
     <item quantity="other">Lisäsit %d merkkiä</item>
   </plurals>
   <string name="suggested_edits_image_recommendations_task_title">Artikkelien kuvat</string>
-  <string name="suggested_edits_image_recommendations_task_detail">Lisää ehdotettuja kuvia Wikipedian artikkeleihin parantaaksesi niiden ymmärrettävyyttä.</string>
+  <string name="suggested_edits_image_recommendations_task_detail">Lisää ehdotettuja kuvia Infopedian artikkeleihin parantaaksesi niiden ymmärrettävyyttä.</string>
   <string name="image_recommendation_task_instruction">Lisäisitkö tämän kuvan artikkeliin?</string>
   <string name="image_recommendation_tutorial">Opas</string>
   <string name="image_recommendation_accept">Kyllä</string>
@@ -1152,9 +1152,9 @@
   <string name="image_recommendation_reject_submit">Lähetä</string>
   <string name="image_recommendation_tooltip_main">Lisää puuttuvia kuvia artikkeleihin Ehdotetuissa muokkauksissa</string>
   <string name="image_recommendation_onboarding_1">Kuvat auttavat ymmärtämään, mutta monessa artikkelissa ei ole yhtään kuvaa.</string>
-  <string name="image_recommendation_onboarding_2">Sinä päätät, tulisiko ehdotettu kuva lisätä Wikipedia-artikkeliin.</string>
+  <string name="image_recommendation_onboarding_2">Sinä päätät, tulisiko ehdotettu kuva lisätä Infopedia-artikkeliin.</string>
   <string name="image_recommendation_onboarding_3">Ehdotukset ovat koneen laatimia, ja sinun tulee käyttää omaa harkintaasi päättääksesi, hyväksytkö vai hylkäätkö ne.</string>
-  <string name="image_recommendation_onboarding_4">Kuvat ovat peräisin Wikimedia Commonsista, joka on kokoelma vapaasti lisensoituja kuvia Wikipediassa käytettäväksi.</string>
+  <string name="image_recommendation_onboarding_4">Kuvat ovat peräisin Wikimedia Commonsista, joka on kokoelma vapaasti lisensoituja kuvia Infopediassa käytettäväksi.</string>
   <string name="image_recommendation_tooltip_1">Tarkista tämä artikkeli ymmärtääksesi sen aiheen</string>
   <string name="image_recommendation_tooltip_2">Tarkista kuva ja siihen liittyvät tiedot</string>
   <string name="image_recommendation_tooltip_3">Päätä, auttaako kuva lukijoita ymmärtämään tätä aihetta paremmin</string>
@@ -1169,13 +1169,13 @@
   <string name="edit_published_view">Näytä</string>
   <string name="activity_tab_logged_out_title">Kirjaudu sisään tai luo tunnus nähdäksesi toimintasi Wikimedia-sovelluksessa</string>
   <string name="activity_tab_user_reading">Käyttäjän %s lukutilastot</string>
-  <string name="activity_tab_on_wikipedia_android">Wikipedia Android -sovelluksessa</string>
+  <string name="activity_tab_on_wikipedia_android">Infopedia Android -sovelluksessa</string>
   <string name="activity_tab_weekly_time_spent_hm">%1$dh %2$dmin</string>
   <string name="activity_tab_weekly_time_spent">Lukemiseen käytetty aika tällä viikolla</string>
   <string name="activity_tab_monthly_articles_read">Tässä kuussa luettuja artikkeleita</string>
   <string name="activity_tab_monthly_articles_saved">Tässä kuussa tallennettuja artikkeleita</string>
   <string name="activity_tab_monthly_top_categories">Luetuimmat luokat tässä kuussa</string>
-  <string name="activity_tab_explore_wikipedia">Tutki Wikipediaa</string>
+  <string name="activity_tab_explore_wikipedia">Tutki Infopediaa</string>
   <string name="activity_tab_discover_encourage">Etsitkö uutta luettavaa?</string>
   <string name="activity_tab_donation_unknown">Tuntematon</string>
   <string name="activity_tab_donation_last_donation">&lt;b&gt;Viimeisin lahjoitus&lt;/b&gt; sovelluksessa</string>
@@ -1248,17 +1248,17 @@
   <string name="activity_tab_onboarding_impact_title">Vaikutustilastot</string>
   <string name="activity_tab_onboarding_impact_message">Tutustu tilastoihin muokkauksistasi sekä jakamasi tiedon saavuttamista katselukerroista.</string>
   <string name="activity_tab_onboarding_engage_title">Lisää tapoja osallista</string>
-  <string name="activity_tab_onboarding_engage_message">Tutki tilastoja peleistä, tallennetusta artikkeleista ja muista toiminnoista, jotka yhdistävät sinut syvällisemmin Wikipediaan.</string>
+  <string name="activity_tab_onboarding_engage_message">Tutki tilastoja peleistä, tallennetusta artikkeleista ja muista toiminnoista, jotka yhdistävät sinut syvällisemmin Infopediaan.</string>
   <string name="activity_tab_onboarding_stay_in_control_title">Pidä ohjat käsissäsi</string>
   <string name="activity_tab_onboarding_stay_in_control_message">Valitse näytettävät moduulit. Kaikki henkilötiedot pysyvät yksityisinä laitteellasi, ja selaushistorian voi tyhjentää milloin tahansa.</string>
-  <string name="edits_screen_what_is_title">Muokkaaminen Wikipedia-sovelluksessa</string>
-  <string name="edits_screen_what_is_body">Oletko epävarma, miten aloittaa muokkaaminen? Kokeile ehdotettuja muokkauksia. Tämä ominaisuus luo mahdollisuuksia pienille mutta tärkeille Wikipedian muokkauksille. Vaihtoehtoisesti voit mennä suoraan sinua kiinnostavaan artikkeliin ja tehdä muokkauksen wikitekstin kautta.</string>
+  <string name="edits_screen_what_is_title">Muokkaaminen Infopedia-sovelluksessa</string>
+  <string name="edits_screen_what_is_body">Oletko epävarma, miten aloittaa muokkaaminen? Kokeile ehdotettuja muokkauksia. Tämä ominaisuus luo mahdollisuuksia pienille mutta tärkeille Infopedian muokkauksille. Vaihtoehtoisesti voit mennä suoraan sinua kiinnostavaan artikkeliin ja tehdä muokkauksen wikitekstin kautta.</string>
   <string name="activity_tab_snackbar_label">Pelitilastot näytetään ensisijaisella kielelläsi.</string>
   <string name="file_page_activity_title">Tiedostosivu</string>
   <string name="file_page_add_image_caption_button">Lisää kuvateksti</string>
   <string name="file_page_add_image_tags_button">Lisää kuvamerkintöjä</string>
   <string name="file_page_edit_button_content_description">Muokkaa %s</string>
-  <string name="description_edit_revert_subtitle">Kiitos Wikipedian muokkaamisesta!</string>
+  <string name="description_edit_revert_subtitle">Kiitos Infopedian muokkaamisesta!</string>
   <string name="description_edit_revert_intro">Tiedämme sinun yrittäneen parhaasi, mutta eräällä arvioijalla oli huolenaihe. Mahdolliset syyt muokkauksesi palauttamiselle ovat:</string>
   <string name="description_edit_revert_reason1">muokkauksesi ei noudattanut &lt;a href=\"%1$s\"&gt;käytäntöjä&lt;/a&gt;.</string>
   <string name="description_edit_revert_reason2">muokkauksesi vaikutti kokeilulta tai vandalismilta.</string>
@@ -1273,9 +1273,9 @@
   <string name="onboarding_get_started">Aloitetaan</string>
   <string name="onboarding_maybe_later">Ehkä myöhemmin</string>
   <string name="onboarding_explore_title">Tutki sisältöä uusin tavoin</string>
-  <string name="onboarding_explore_text">Sukella Wikipedian syövereihin aina ajan tasalla olevalla etusivun syötteellä. &lt;br/&gt; &lt;b&gt;Mukauta&lt;/b&gt; syötettä mielenkiinnon kohteidesi mukaan – vaikkapa tutustumalla &lt;b&gt;tämän päivämäärän&lt;/b&gt; historiallisiin tapahtumiin tai &lt;b&gt;satunnaisesti&lt;/b&gt; valittuun artikkeliin.</string>
+  <string name="onboarding_explore_text">Sukella Infopedian syövereihin aina ajan tasalla olevalla etusivun syötteellä. &lt;br/&gt; &lt;b&gt;Mukauta&lt;/b&gt; syötettä mielenkiinnon kohteidesi mukaan – vaikkapa tutustumalla &lt;b&gt;tämän päivämäärän&lt;/b&gt; historiallisiin tapahtumiin tai &lt;b&gt;satunnaisesti&lt;/b&gt; valittuun artikkeliin.</string>
   <string name="onboarding_reading_list_sync_title">Synkronoidut lukulistat</string>
-  <string name="onboarding_reading_list_sync_text_v2">Voit tehdä lukulistoja artikkeleista, joita haluat lukea myöhemmin, myös ilman verkkoyhteyttä. &lt;br/&gt;Lukulistojen käyttö edellyttää Wikipedia-tunnuksella kirjautumista. &lt;a href=\"#login\"&gt;Liity Wikipediaan&lt;/a&gt;</string>
+  <string name="onboarding_reading_list_sync_text_v2">Voit tehdä lukulistoja artikkeleista, joita haluat lukea myöhemmin, myös ilman verkkoyhteyttä. &lt;br/&gt;Lukulistojen käyttö edellyttää Infopedia-tunnuksella kirjautumista. &lt;a href=\"#login\"&gt;Liity Infopediaan&lt;/a&gt;</string>
   <string name="onboarding_data_privacy_title">Data ja yksityisyys</string>
   <string name="onboarding_data_privacy_text">Uskomme, ettei sinun tarvitse antaa henkilötietoja osallistuaksesi vapaan tiedon liikkeeseen. Tämän sovelluksen käytöstä kerätyt tiedot ovat anonyymejä.&lt;br/&gt;&lt;br/&gt;Lisätietoja löytyy &lt;a href=\"#privacy\"&gt;tietosuojakäytännöstämme&lt;/a&gt; ja &lt;a href=\"#termsOfUse\"&gt;käyttöehdoistamme&lt;/a&gt;.</string>
   <string name="onboarding_analytics_switch_title">Lähetä dataa tavasta, jolla käytät sovellusta</string>
@@ -1285,8 +1285,8 @@
   <string name="onboarding_welcome_title_v2">Vapaa tietosanakirja\n…yli 300 kielellä</string>
   <string name="onboarding_next">Seuraava</string>
   <string name="onboarding_fresh_install_knowledge_title">Kaikki maailman tietämys</string>
-  <string name="onboarding_fresh_install_knowledge_text">Wikipedia on vapaa verkkosanakirja, joka sisältää yli 65 miljoonaa artikkelia, joita vapaaehtoisten yhteisö kirjoittaa ja ylläpitää yli 300 kielellä.</string>
-  <string name="onboarding_fresh_install_knowledge_learn_more">Lisätietoja Wikipediasta</string>
+  <string name="onboarding_fresh_install_knowledge_text">Infopedia on vapaa verkkosanakirja, joka sisältää yli 65 miljoonaa artikkelia, joita vapaaehtoisten yhteisö kirjoittaa ja ylläpitää yli 300 kielellä.</string>
+  <string name="onboarding_fresh_install_knowledge_learn_more">Lisätietoja Infopediasta</string>
   <string name="onboarding_app_languages_title">Lue yli 300 kielellä</string>
   <string name="onboarding_app_languages_text">Laitteesta löytyneet kielet:</string>
   <string name="onboarding_app_languages_primary">Ensisijainen</string>
@@ -1311,7 +1311,7 @@
   <string name="languages_list_activity_title">Lisää kieli</string>
   <string name="languages_list_suggested_text">Ehdotettu</string>
   <string name="languages_list_all_text">Kaikki kielet</string>
-  <string name="wikipedia_languages_title">Wikipedia-kielet</string>
+  <string name="wikipedia_languages_title">Infopedia-kielet</string>
   <string name="wikipedia_languages_your_languages_text">Omat kielet</string>
   <string name="wikipedia_languages_add_language_text">Lisää kieli</string>
   <string name="wikipedia_languages_remove_text">Poista kieli</string>
@@ -1322,9 +1322,9 @@
   </plurals>
   <string name="wikipedia_languages_remove_dialog_content">Näet muunkielisten Wikipedioiden sisältöä vain etusivun syötteessä ja pikahakusuodattimilla.</string>
   <string name="wikipedia_languages_remove_warning_dialog_title">Ei voi poistaa kaikkia kieliä</string>
-  <string name="wikipedia_languages_remove_warning_dialog_content">Pidä vähintään yksi Wikipedian kieli jolla hakea ja lukea sisältöä.</string>
+  <string name="wikipedia_languages_remove_warning_dialog_content">Pidä vähintään yksi Infopedian kieli jolla hakea ja lukea sisältöä.</string>
   <string name="more_language_options">lisää</string>
-  <string name="add_wikipedia_languages_text">Lisää Wikipedia-kieliä</string>
+  <string name="add_wikipedia_languages_text">Lisää Infopedia-kieliä</string>
   <string name="remove_language_dialog_cancel_button_text">Peruuta</string>
   <string name="remove_language_dialog_ok_button_text">OK</string>
   <string name="remove_all_language_warning_dialog_ok_button_text">OK</string>
@@ -1394,7 +1394,7 @@
   <string name="templates_description_empty">Mallineella ”%s” ei ole vielä kuvausta.</string>
   <string name="templates_description_missing_data">Tästä mallineesta puuttuu &lt;a href=\"%1$s\"&gt;TemplateData&lt;/a&gt;, joten sen parametrit on &lt;a href=\"%2$s\"&gt;luotu automaattisesti&lt;/a&gt;. Tämän vuoksi mallineelta ja sen parametreilta puuttuvat kuvaukset.</string>
   <string name="main_drawer_help">Ohje</string>
-  <string name="main_drawer_login">Kirjaudu sisään / liity Wikipediaan</string>
+  <string name="main_drawer_login">Kirjaudu sisään / liity Infopediaan</string>
   <string name="main_tooltip_action_button">Aloittaminen</string>
   <string name="main_tooltip_watchlist_title">Tarkkailulista</string>
   <string name="main_tooltip_watchlist_text">Tutustu viimeksi tarkkailulistalle lisäämäsi artikkeleihin valitsemalla Lisää-valikko ja &lt;b&gt;Tarkkailulista&lt;/b&gt;.</string>
@@ -1420,7 +1420,7 @@
   <string name="talk_warn_saved_messages">Tallennetut viestit</string>
   <string name="talk_page_empty">Tämä keskustelusivu on tyhjä.</string>
   <string name="talk_page_empty_title">Keskustelu alkaa tästä</string>
-  <string name="talk_page_empty_content">Parhaat Wikipedia-artikkelit syntyvät yhteistyöllä. Näillä sivuilla käyttäjät voivat keskustella artikkelin sisällöstä ja kehittämisestä.</string>
+  <string name="talk_page_empty_content">Parhaat Infopedia-artikkelit syntyvät yhteistyöllä. Näillä sivuilla käyttäjät voivat keskustella artikkelin sisällöstä ja kehittämisestä.</string>
   <string name="talk_add_reply">Vastaa</string>
   <string name="talk_no_subject">(Ei aihetta)</string>
   <string name="talk_reply_subject">Aihe</string>
@@ -1434,9 +1434,9 @@
   <string name="talk_last_modified">&lt;b&gt;Sivua muokkasi viimeksi %1$s&lt;/b&gt; %2$s</string>
   <string name="talk_snackbar_survey_text">Kiitos keskustelusivujen käyttämisestä. Voitko auttaa meitä parantamaan sovellusta osallistumalla kyselyyn?</string>
   <string name="talk_snackbar_survey_action_text">Aloita</string>
-  <string name="talk_share_discussion_subject">Wikipedia - keskustelu aiheesta ”%s” keskustelusivulla</string>
-  <string name="talk_share_talk_page">Wikipedia - keskustelut keskustelusivulla</string>
-  <string name="talk_edit_disclaimer">Tämä on keskustelusivu. Kunnioitathan keskustelusivun ohjeistuksia ja muistathan allekirjoittaa viestisi neljällä aaltoviivalla: ~~~~ kun käytät wikitekstiä.&lt;br&gt;&lt;br&gt;&lt;a href=\"https://fi.wikipedia.org/wiki/Wikipedia:Keskustelusivu\"&gt;Wikipedian keskustelusivujen ohjeet ja käytännöt&lt;/a&gt;</string>
+  <string name="talk_share_discussion_subject">Infopedia - keskustelu aiheesta ”%s” keskustelusivulla</string>
+  <string name="talk_share_talk_page">Infopedia - keskustelut keskustelusivulla</string>
+  <string name="talk_edit_disclaimer">Tämä on keskustelusivu. Kunnioitathan keskustelusivun ohjeistuksia ja muistathan allekirjoittaa viestisi neljällä aaltoviivalla: ~~~~ kun käytät wikitekstiä.&lt;br&gt;&lt;br&gt;&lt;a href=\"https://fi.Infopedia.org/wiki/Infopedia:Keskustelusivu\"&gt;Infopedian keskustelusivujen ohjeet ja käytännöt&lt;/a&gt;</string>
   <string name="talk_search_hint">Hae viestejä</string>
   <string name="talk_search_topics_hint">Hae aiheista</string>
   <string name="talk_search_find_in_talk_topics_hint">Etsi keskustelusivun aiheista</string>
@@ -1467,7 +1467,7 @@
   <string name="talk_list_item_swipe_mark_as_read">Luettu</string>
   <string name="talk_list_item_swipe_mark_as_unread">Lukematon</string>
   <string name="talk_login_to_subscribe_dialog_title">Kirjaudu sisään tilataksesi aiheita</string>
-  <string name="talk_login_to_subscribe_dialog_content">Aihetilausten avulla voit saada ilmoituksia tämän aiheen uusista kommenteista. Luo tili tai kirjaudu sisään Wikipedia-tiliisi tilataksesi aiheen.</string>
+  <string name="talk_login_to_subscribe_dialog_content">Aihetilausten avulla voit saada ilmoituksia tämän aiheen uusista kommenteista. Luo tili tai kirjaudu sisään Infopedia-tiliisi tilataksesi aiheen.</string>
   <string name="talk_archived_title">Keskusteluarkisto: %s</string>
   <string name="menu_option_share_talk_discussion">Jaa keskustelu</string>
   <string name="menu_option_share_talk_page">Jaa keskustelusivu</string>
@@ -1487,7 +1487,7 @@
   <string name="thank_label">Kiitä</string>
   <string name="view_user_page">Näytä käyttäjäsivu</string>
   <string name="thank_dialog_title_text">Lähetä julkinen kiitos</string>
-  <string name="thank_dialog_text">Kiitoksen lähettäminen on helppo tapa arvostaa toisen käyttäjän panosta Wikipedian kehittämiseen. Kiitoksia ei voi perua, ja ne ovat julkisesti nähtävillä.</string>
+  <string name="thank_dialog_text">Kiitoksen lähettäminen on helppo tapa arvostaa toisen käyttäjän panosta Infopedian kehittämiseen. Kiitoksia ei voi perua, ja ne ovat julkisesti nähtävillä.</string>
   <string name="thank_dialog_positive_button_text">Lähetä kiitokset</string>
   <string name="thank_dialog_negative_button_text">Peruuta</string>
   <string name="thank_success_message">Kiitoksesi käyttäjälle %s lähetetty 👍</string>
@@ -1619,7 +1619,7 @@
   <string name="shareable_reading_lists_new_imported_snackbar">Lukulista tuotu</string>
   <string name="reading_list_share_menu_label">Jaa...</string>
   <string name="reading_list_share_menu_tooltip">Jaa tämä lukulista muiden kanssa</string>
-  <string name="reading_list_share_message_v2">Hei! Haluan jakaa Wikipedian lukulistani kanssasi:</string>
+  <string name="reading_list_share_message_v2">Hei! Haluan jakaa Infopedian lukulistani kanssasi:</string>
   <string name="talk_templates_empty_message">Luo omia viestejä tai käytä &lt;a href=\"#\"&gt;malliviestejä&lt;/a&gt; aloittaaksesi.</string>
   <string name="talk_templates_new_message_title">Uusi viesti</string>
   <string name="talk_templates_new_message_subject_hint">Aihe</string>
@@ -1714,8 +1714,8 @@
   <string name="patroller_tasks_patrol_edit_snackbar_view">Näytä</string>
   <string name="patroller_tasks_overflow_report">Ongelma ominaisuudessa</string>
   <string name="patroller_tasks_overflow_learn">Lisätietoja</string>
-  <string name="patroller_onboarding_one_title">Osallistu Wikipedian muokkausten tarkkailuun ja hyväksymiseen.</string>
-  <string name="patroller_onboarding_one_content">Paranna Wikipedia-sisällön laatua tarkastamalla tuoreiden muutosten syötettä sekä tarjoamalla opastusta, laadunvalvontaa ja rohkaisua muille muokkaajille.</string>
+  <string name="patroller_onboarding_one_title">Osallistu Infopedian muokkausten tarkkailuun ja hyväksymiseen.</string>
+  <string name="patroller_onboarding_one_content">Paranna Infopedia-sisällön laatua tarkastamalla tuoreiden muutosten syötettä sekä tarjoamalla opastusta, laadunvalvontaa ja rohkaisua muille muokkaajille.</string>
   <string name="patroller_onboarding_two_title">Tarjoa palautetta, tarkkaile muokkauksia ja ryhdy toimiin erosivulla</string>
   <string name="patroller_onboarding_two_thank_title">Kiitä</string>
   <string name="patroller_onboarding_two_thank_content">Näetkö hyvän muokkauksen? Kiitä käyttäjää.</string>
@@ -1742,10 +1742,10 @@
   <string name="patroller_saved_message_title_do_not_censor">Älä sensuroi</string>
   <string name="patroller_saved_message_title_art_imp">Artikkelin parannusehdotus</string>
   <string name="patroller_saved_message_body_vandalism">Hei, {{{username}}}, olen kumonnut yhden tai useamman [{{{diffLink}}}|viimeaikaisista muokkauksistasi], koska ne eivät vaikuttaneet kovin rakentavilta. Jos olen mielestäsi väärässä tai jos sinulla on jotakin kysyttävää, voit jättää viestin [[User talk:{{{senderUserName}}}|keskustelusivulleni]]. Muistathan, että toistuvasta vandalismista voi seurata käyttörajoituksia.</string>
-  <string name="patroller_saved_message_body_editing_tests">Hei, {{{username}}}, mukavaa, että olet kiinnostunut Wikipediasta ja haluat oppia muokkaamaan sitä. Tekemäsi muokkaustesti onnistui, mutta kannattaa silti muistaa, että tämän projektin tavoitteena on saada aikaan kattava ja luotettava tietosanakirja, jota kuka tahansa voi käyttää. Muokkauksesi vaikutti haitallisesti artikkelin sisältöön, joten se on poistettu.\nJos haluat oppia muokkaamaan Wikipediaa, voit käyttää [[Wikipedia:Sandbox|hiekkalaatikkoa]] milloin tahansa. Jos kommenttisi koskivat tiettyä artikkelia, oikea paikka niille on kyseisen artikkelin keskustelusivu.</string>
-  <string name="patroller_saved_message_body_npov">Hei {{{username}}}, jotkut tekemistäsi lisäyksistä eivät vastaa Wikipedian [[Wikipedia:NPOV|neutraali näkökulma]] -ehtoa. Tästä syystä jotain sisältöäsi on muokattu tai poistettu. Ole hyvä ja muokkaa kappaleita tai osioita, joissa ilmenee osittaista puolueellisuutta neutraalimmalla ja objektiivisemmalla tekstillä, jota voitaisiin olettaa tietosanakirjalta.</string>
-  <string name="patroller_saved_message_body_edit_summary">Hei {{{username}}}, vaikuttaa siltä, että poistit sisältöä jättämättä muokkauksen yhteenvetoa. Jätäthän muokkauksen yhteenvedon kun lisäät sisältöä Wikipediaan tai poistat sitä.</string>
-  <string name="patroller_saved_message_body_do_not_censor">Hei {{{username}}}, näyttää siltä, että poistit sisältöä keskustelematta asiasta artikkelin keskustelusivulla. Huomioithan, että Wikipedia ei ole sensuroitu ja sisältöä ei tulisi poistaa vain siksi, että se on kiistanalaista. Jos uskot tiedon olevan väärin, yritä saavuttaa yhteisymmärrys sen poistamisesta artikkelin keskustelusivulla.</string>
+  <string name="patroller_saved_message_body_editing_tests">Hei, {{{username}}}, mukavaa, että olet kiinnostunut Infopediasta ja haluat oppia muokkaamaan sitä. Tekemäsi muokkaustesti onnistui, mutta kannattaa silti muistaa, että tämän projektin tavoitteena on saada aikaan kattava ja luotettava tietosanakirja, jota kuka tahansa voi käyttää. Muokkauksesi vaikutti haitallisesti artikkelin sisältöön, joten se on poistettu.\nJos haluat oppia muokkaamaan Infopediaa, voit käyttää [[Infopedia:Sandbox|hiekkalaatikkoa]] milloin tahansa. Jos kommenttisi koskivat tiettyä artikkelia, oikea paikka niille on kyseisen artikkelin keskustelusivu.</string>
+  <string name="patroller_saved_message_body_npov">Hei {{{username}}}, jotkut tekemistäsi lisäyksistä eivät vastaa Infopedian [[Infopedia:NPOV|neutraali näkökulma]] -ehtoa. Tästä syystä jotain sisältöäsi on muokattu tai poistettu. Ole hyvä ja muokkaa kappaleita tai osioita, joissa ilmenee osittaista puolueellisuutta neutraalimmalla ja objektiivisemmalla tekstillä, jota voitaisiin olettaa tietosanakirjalta.</string>
+  <string name="patroller_saved_message_body_edit_summary">Hei {{{username}}}, vaikuttaa siltä, että poistit sisältöä jättämättä muokkauksen yhteenvetoa. Jätäthän muokkauksen yhteenvedon kun lisäät sisältöä Infopediaan tai poistat sitä.</string>
+  <string name="patroller_saved_message_body_do_not_censor">Hei {{{username}}}, näyttää siltä, että poistit sisältöä keskustelematta asiasta artikkelin keskustelusivulla. Huomioithan, että Infopedia ei ole sensuroitu ja sisältöä ei tulisi poistaa vain siksi, että se on kiistanalaista. Jos uskot tiedon olevan väärin, yritä saavuttaa yhteisymmärrys sen poistamisesta artikkelin keskustelusivulla.</string>
   <string name="talk_templates_menu_edit_title">Muokkaa</string>
   <string name="data_opt_in_accept">Hyväksy</string>
   <string name="data_opt_in_reject">Hylkää</string>
@@ -1756,7 +1756,7 @@
   <string name="email_report_patroller_tasks_subject">Ongelmailmoitus – Muokkausten tarkistaminen -ominaisuus</string>
   <string name="email_report_patroller_tasks_body">Olen huomannut ongelman Muokkausten tarkistaminen -ominaisuudessa:\n- [Kuvaile havaitsemasi ongelma]\n\nOminaisuuden tulisi toimia näin:\n- [Kuvaile mahdollinen ratkaisu]</string>
   <string name="donation_campaign_maybe_later_snackbar">Muistutamme sinua jälleen huomenna.</string>
-  <string name="donation_campaign_donated_snackbar">Kiitos, lahjoittaja! Anteliaisuutesi auttaa pitämään Wikipedian ja muut vapaan tiedon hankkeet menestyvinä.</string>
+  <string name="donation_campaign_donated_snackbar">Kiitos, lahjoittaja! Anteliaisuutesi auttaa pitämään Infopedian ja muut vapaan tiedon hankkeet menestyvinä.</string>
   <string name="donation_campaign_go_back_button">Takaisin</string>
   <string name="menu_single_webview_open_external">Avaa järjestelmäselaimessa</string>
   <string name="donate_gpay_dialog_title">Lahjoitetaanko Google Paylla?</string>
@@ -1769,8 +1769,8 @@
   <string name="donate_gpay_check_recurring">Tee tästä kuukausittainen toistuva lahjoitus.</string>
   <string name="donate_gpay_check_send_email">Kyllä, Wikimedia Foundation voi lähettää minulle satunnaisia sähköpostia.</string>
   <string name="donate_gpay_minimum_amount">Valitse summa (vähintään %s)</string>
-  <string name="donate_gpay_maximum_amount">Emme voi vastaanottaa sovelluksemme kautta yli %s suuruisia lahjoituksia. Ota yhteyttä suurista lahjoituksista vastaavaan henkilökuntaamme osoitteessa benefactors@wikimedia.org.</string>
-  <string name="donate_gpay_success_message">&lt;b&gt;Kiitos!&lt;/b&gt; Anteliaisuutesi Wikipediaa kohtaan merkitsee meille paljon.</string>
+  <string name="donate_gpay_maximum_amount">Emme voi vastaanottaa sovelluksemme kautta yli %s suuruisia lahjoituksia. Ota yhteyttä suurista lahjoituksista vastaavaan henkilökuntaamme osoitteessa benefactors@infopedia.org.</string>
+  <string name="donate_gpay_success_message">&lt;b&gt;Kiitos!&lt;/b&gt; Anteliaisuutesi Infopediaa kohtaan merkitsee meille paljon.</string>
   <string name="donate_gpay_help_problems">Ongelmia lahjoittamisessa?</string>
   <string name="donate_gpay_help_other_ways">Muut tavat antaa</string>
   <string name="donate_gpay_help_faq">Usein kysytyt kysymykset</string>
@@ -1786,7 +1786,7 @@
   <string name="places_empty_list">Tämä alue on tyhjä. Loitonna &lt;a href=\"#\"&gt;karttaa&lt;/a&gt;.</string>
   <string name="places_card_title">Paikkoja lähistöllä</string>
   <string name="places_card_action">Lisää paikkoja lähistöllä</string>
-  <string name="places_card_enable_location_card_message">Paikat on karttapohjainen tapa tutustua Wikipediaan</string>
+  <string name="places_card_enable_location_card_message">Paikat on karttapohjainen tapa tutustua Infopediaan</string>
   <string name="places_card_enable_location_card_button">Ota sijainti käyttöön</string>
   <string name="places_card_distance_suffix">%s päässä</string>
   <string name="places_card_distance_unknown">Tuntematon etäisyys</string>
@@ -1807,14 +1807,14 @@
   <string name="survey_dialog_input_hint">Lisää palautetta</string>
   <string name="survey_dialog_submitted_snackbar">Palaute lähetetty. Kiitos!</string>
   <string name="games_hub_activity_title">Pelit</string>
-  <string name="games_hub_activity_games_unavailable_message">Tällä kielellä ei ole vielä saatavilla pelejä! Pelit hyödyntävät kunkin Wikipedian kieliversion vapaaehtoisten muokkaajien luomaa sisältöä.</string>
+  <string name="games_hub_activity_games_unavailable_message">Tällä kielellä ei ole vielä saatavilla pelejä! Pelit hyödyntävät kunkin Infopedian kieliversion vapaaehtoisten muokkaajien luomaa sisältöä.</string>
   <string name="games_hub_activity_games_unavailable_message_learn_more_action">Lisätietoja</string>
   <string name="games_hub_activity_overflow_view_game_stats">Näytä pelitilastot</string>
   <string name="games_hub_activity_overflow_learn_more">Lisätietoja</string>
   <string name="on_this_day_game_entry_dialog_title">Esittelyssä</string>
-  <string name="on_this_day_game_entry_dialog_subtitle">Wikipedia-pelit</string>
+  <string name="on_this_day_game_entry_dialog_subtitle">Infopedia-pelit</string>
   <string name="on_this_day_game_entry_dialog_button">Pelaa</string>
-  <string name="on_this_day_game_entry_dialog_snackbar_message">Wikipediat-pelit ovat saatavilla Pelikeskuksessa, joka löytyy lisävalikosta.</string>
+  <string name="on_this_day_game_entry_dialog_snackbar_message">Infopediat-pelit ovat saatavilla Pelikeskuksessa, joka löytyy lisävalikosta.</string>
   <string name="on_this_day_game_title">Kumpi tuli ensin?</string>
   <string name="on_this_day_game_dialog_button">Pelaa</string>
   <string name="on_this_day_game_splash_message">Veikkaa, kumpi tapahtuma tuli ensin tällä päivämäärällä historiassa.</string>
@@ -1827,7 +1827,7 @@
   <string name="on_this_day_game_next">Seuraava kysymys</string>
   <string name="on_this_day_game_finish">Lopputulokset</string>
   <string name="on_this_day_game_share_button">Jaa tulos</string>
-  <string name="on_this_day_game_feed_entry_card_heading">Wikipedia-pelit</string>
+  <string name="on_this_day_game_feed_entry_card_heading">Infopedia-pelit</string>
   <string name="on_this_day_game_feed_entry_card_title">Kumpi tuli ensin?</string>
   <string name="on_this_day_game_result">Sait %1$d / %2$d pistettä.</string>
   <string name="on_this_day_game_next_in">Aikaa seuraavaan peliin: %s</string>
@@ -1858,10 +1858,10 @@
   <string name="on_this_day_game_notification_turned_off_snackbar_message">Peli-ilmoitukset pois päältä.</string>
   <string name="on_this_day_game_notification_turned_on_snackbar_message">Peli-ilmoitukset päällä.</string>
   <string name="on_this_day_game_notification_text">Tämän päivän ”Kumpi tuli ensin?” -peli on valmiina pelattavaksi.</string>
-  <string name="on_this_day_game_report_email_subject">Ongelmailmoitus – Wikipedia-pelit</string>
-  <string name="on_this_day_game_report_email_body">Olen huomannut seuraavan ongelman Wikipedia-peli-ominaisuudessa:\n- [Kuvaile havaitsemasi ongelma]\n\nOminaisuuden tulisi toimia näin:\n- [Kuvaile mahdollinen ratkaisu]</string>
+  <string name="on_this_day_game_report_email_subject">Ongelmailmoitus – Infopedia-pelit</string>
+  <string name="on_this_day_game_report_email_body">Olen huomannut seuraavan ongelman Infopedia-peli-ominaisuudessa:\n- [Kuvaile havaitsemasi ongelma]\n\nOminaisuuden tulisi toimia näin:\n- [Kuvaile mahdollinen ratkaisu]</string>
   <string name="on_this_day_game_notification_undo">Kumoa</string>
-  <string name="on_this_day_game_share_link_message">Pelaan päivittäistä ”Kumpi tuli ensin?” -tietovisaa Wikipedian Android-sovelluksessa %s</string>
+  <string name="on_this_day_game_share_link_message">Pelaan päivittäistä ”Kumpi tuli ensin?” -tietovisaa Infopedian Android-sovelluksessa %s</string>
   <string name="on_this_day_game_share_screen_title">Sain tänään %1$d/%2$d pistettä ”Kumpi tuli ensin?” -pelissä.</string>
   <string name="on_this_day_game_share_screen_subtitle">Mukana olleet aiheet:</string>
   <string name="on_this_day_game_archive_calendar_title">Valitse peli päivämäärän mukaan.</string>
@@ -1883,11 +1883,11 @@
   <string name="on_this_day_game_stats_log_in_prompt_card_button">Kirjaudu sisään</string>
   <string name="on_this_day_game_stats_log_in_prompt_card_title">Kirjaudu sisään nähdäksesi pelitilastosi</string>
   <string name="on_this_day_game_stats_log_in_prompt_card_description">Katso voittoputkesi, pisteesi ja paljon muuta</string>
-  <string name="wikipedia_games_title">Wikipedia-pelit</string>
-  <string name="wikipedia_games_subtitle">Wikipedian sisältöön pohjautua päivittäinen tietovisa.</string>
+  <string name="wikipedia_games_title">Infopedia-pelit</string>
+  <string name="wikipedia_games_subtitle">Infopedian sisältöön pohjautua päivittäinen tietovisa.</string>
   <string name="year_in_review_learn_more">Lisätietoja</string>
   <string name="year_in_review_get_started">Aloita</string>
-  <string name="year_in_review_topbar_w_icon">Wikipedian W-kuvake</string>
+  <string name="year_in_review_topbar_w_icon">Infopedian W-kuvake</string>
   <string name="year_in_review_navigate_left">Mene vasemmalle</string>
   <string name="year_in_review_close">Sulje</string>
   <string name="year_in_review_share_icon">Jaa-kuvake</string>
@@ -1895,8 +1895,8 @@
   <string name="year_in_review_navigate_right">Mene oikealle</string>
   <string name="year_in_review_donate">Lahjoita</string>
   <string name="year_in_review_information_icon">Tietoa-kuvake</string>
-  <string name="year_in_review_get_started_headline">Tutustu Wikipedia-vuoteesi</string>
-  <string name="year_in_review_get_started_bodytext">Tutustu kohokohtiin lukemastasi ja muokkaamastasi sisällöstä Wikipedia-sovelluksessa.</string>
+  <string name="year_in_review_get_started_headline">Tutustu Infopedia-vuoteesi</string>
+  <string name="year_in_review_get_started_bodytext">Tutustu kohokohtiin lukemastasi ja muokkaamastasi sisällöstä Infopedia-sovelluksessa.</string>
   <string name="year_in_review_get_started_info">Lukuhistoria säilytetään suojattuna. Kohokohdat muodostetaan laitteellesi tallennettujen tietojen perusteella.</string>
   <string name="year_in_review_get_started_later">Voit tarkastella vuosikatsaustasi myöhemmin Lisää-valikosta.</string>
   <string name="year_in_review_survey_title">Auta parantamaan vuosikatsausta</string>
@@ -1916,24 +1916,24 @@
   <string name="year_in_review_disable_negative_button">Ei kiitos</string>
   <string name="year_in_review_setting_subtitle">Vuosikatsauksen poistaminen käytöstä tyhjentää kaikki tallennetut henkilökohtaiset tiedot ja piilottaa vuosikatsauksen.</string>
   <string name="year_in_review_screenshot_error">Kuvakaappauksen luominen epäonnistui: %s</string>
-  <string name="year_in_review_share_subject">Minun Wikipedia-vuosikatsaukseni</string>
-  <string name="year_in_review_share_body">Tämä on Wikipedia-vuosikatsaukseni, joka on luotu Wikipedian Android-sovelluksella %1$s %2$s</string>
+  <string name="year_in_review_share_subject">Minun Infopedia-vuosikatsaukseni</string>
+  <string name="year_in_review_share_body">Tämä on Infopedia-vuosikatsaukseni, joka on luotu Infopedian Android-sovelluksella %1$s %2$s</string>
   <string name="year_in_review_globe_icon">Maapallo-kuvake</string>
   <string name="settings_app_icon_title">Sovelluskuvake</string>
   <string name="settings_app_icon_subtitle">Muokkaajaetu</string>
-  <string name="settings_app_icon_preference_subtitle">Sinun on mahdollista ottaa käyttöön mukautettu sovelluskuvake juhlistaaksesi vuonna %d sovelluksessa tekemiäsi muokkauksia Wikipediaan. Se pysyy käytössä seuraavaan vuosikatsaukseen saakka.</string>
+  <string name="settings_app_icon_preference_subtitle">Sinun on mahdollista ottaa käyttöön mukautettu sovelluskuvake juhlistaaksesi vuonna %d sovelluksessa tekemiäsi muokkauksia Infopediaan. Se pysyy käytössä seuraavaan vuosikatsaukseen saakka.</string>
   <string name="settings_app_icon_updated">Sovelluskuvakkeesi on päivitetty.</string>
   <string name="year_in_review_slide_app_icon_title_unlocked">Uusi sovelluskuvake mahdollista ottaa käyttöön aloitusnäytölläsi</string>
   <string name="year_in_review_slide_app_icon_title_unlock">Ota käyttöön muokkaajapalkintosi ensi vuodelle!</string>
-  <string name="year_in_review_slide_app_icon_body_unlocked">Aktivoi uusi sovelluskuvakkeesi asetusten Sovelluskuvake-osiossa. Kiitos, kun otit osaa vapaan tiedon tulevaisuuteen. Osallistumisesi %1$s vuonna %2$d auttoi tasoittamaan tietä kohti vapaan tiedon maailmaa. Tästä syystä sinun on mahdollista ottaa käyttöön erityinen sovelluskuvake Wikipedia-sovellukselle aloitusnäytölläsi.</string>
-  <string name="year_in_review_slide_app_icon_body_unlock">Olemme iloisia, että Wikipedia oli osa sinun vuottasi %1$d! Saat erityispalkinnon vuoden %2$d vuosikatsauksessasi ryhtymällä muokkaajaksi tai lahjoittajaksi – joko &lt;a href=\"%3$s\"&gt;muokkaamalla Wikipediaa&lt;/a&gt; tai lahjoittamalla sovelluksen kautta &lt;a href=\"%4$s\"&gt;Wikimedia-säätiölle&lt;/a&gt;, Wikipediaa ylläpitävälle säätiölle. Jos Wikipedia on sinulle hyödyllinen, harkitse lahjoittamista sen tulevaisuuden turvaamiseksi ja pitääksesi sen vapaana, mainoksettomana, luotettavana ja kaikien saavutettavana. Jos olet lahjoittanut muualla, arvostamme suuresti tukeasi.</string>
+  <string name="year_in_review_slide_app_icon_body_unlocked">Aktivoi uusi sovelluskuvakkeesi asetusten Sovelluskuvake-osiossa. Kiitos, kun otit osaa vapaan tiedon tulevaisuuteen. Osallistumisesi %1$s vuonna %2$d auttoi tasoittamaan tietä kohti vapaan tiedon maailmaa. Tästä syystä sinun on mahdollista ottaa käyttöön erityinen sovelluskuvake Infopedia-sovellukselle aloitusnäytölläsi.</string>
+  <string name="year_in_review_slide_app_icon_body_unlock">Olemme iloisia, että Infopedia oli osa sinun vuottasi %1$d! Saat erityispalkinnon vuoden %2$d vuosikatsauksessasi ryhtymällä muokkaajaksi tai lahjoittajaksi – joko &lt;a href=\"%3$s\"&gt;muokkaamalla Infopediaa&lt;/a&gt; tai lahjoittamalla sovelluksen kautta &lt;a href=\"%4$s\"&gt;Wikimedia-säätiölle&lt;/a&gt;, Infopediaa ylläpitävälle säätiölle. Jos Infopedia on sinulle hyödyllinen, harkitse lahjoittamista sen tulevaisuuden turvaamiseksi ja pitääksesi sen vapaana, mainoksettomana, luotettavana ja kaikien saavutettavana. Jos olet lahjoittanut muualla, arvostamme suuresti tukeasi.</string>
   <string name="year_in_review_slide_app_icon_donor">lahjoittajana</string>
   <string name="year_in_review_slide_app_icon_editor">muokkaajana</string>
   <string name="year_in_review_slide_app_icon_donor_and_editor">lahjoittajana ja muokkaajana</string>
   <string name="year_in_review_slide_geo_headline">Lukemasi artikkelit ovat lähimpänä maata %s</string>
   <string name="year_in_review_slide_geo_body">Maa, joka on lähimpänä useisiin lukemiisi artikkeleihin näyttäisi olevan: %1$s, perustuen artikkeleihin, kuten &lt;b&gt;%2$s&lt;/b&gt; ja &lt;b&gt;%3$s&lt;/b&gt;.</string>
   <string name="year_in_review_login_dialog_title">Kirjaudu sisään personointia varten?</string>
-  <string name="year_in_review_login_dialog_positive">Kirjaudu sisään / Liity Wikipediaan</string>
+  <string name="year_in_review_login_dialog_positive">Kirjaudu sisään / Liity Infopediaan</string>
   <string name="year_in_review_login_dialog_negative">Jatka kirjautumatta</string>
   <plurals name="year_in_review_slide_top_articles_headline">
     <item quantity="one">Suosituin artikkelisi</item>
@@ -1945,7 +1945,7 @@
   </plurals>
   <string name="year_in_review_slide_top_categories_headline">Mielenkiintoisimmat luokkasi</string>
   <string name="year_in_review_slide_top_categories_body">Luokat ryhmittelevät samankaltaisia aiheita käsitteleviä artikkeleita yhteen. Kävit näiden mielenkiintoisten luokkien artikkeleissa useita kertoja vuonna %1$d: %2$s</string>
-  <string name="year_in_review_slide_most_read_english_articles_headline">Englanninkielisen Wikipedian luetuimmat artikkelit</string>
+  <string name="year_in_review_slide_most_read_english_articles_headline">Englanninkielisen Infopedian luetuimmat artikkelit</string>
   <plurals name="year_in_review_slide_edits_viewed_times_headline">
     <item quantity="one">Muokkaustasi on katsottu viime aikoina %,d kertaa</item>
     <item quantity="other">Muokkauksiasi on katsottu viime aikoina %,d kertaa</item>
@@ -1964,12 +1964,12 @@
     <item quantity="other">Muokkaajat tekivät %,d muokkausta tänä vuonna</item>
   </plurals>
   <plurals name="year_in_review_slide_english_edited_times_body_first">
-    <item quantity="one">Vapaaehtoiset tekivät %,d muokkauksen yli 300 Wikipedian kieliversiolla.</item>
-    <item quantity="other">Vapaaehtoiset tekivät %,d muokkausta yli 300 Wikipedian kieliversiolla.</item>
+    <item quantity="one">Vapaaehtoiset tekivät %,d muokkauksen yli 300 Infopedian kieliversiolla.</item>
+    <item quantity="other">Vapaaehtoiset tekivät %,d muokkausta yli 300 Infopedian kieliversiolla.</item>
   </plurals>
   <plurals name="year_in_review_slide_english_edited_times_body_second">
-    <item quantity="one">Englanninkieliseen Wikipediaan tehtiin %,d muokkaus. Jokaisen päivän jokaisena tuntina vapaaehtoiset auttoivat parantamaan Wikipedia.</item>
-    <item quantity="other">Englanninkieliseen Wikipediaan tehtiin %,d muokkausta. Jokaisen päivän jokaisena tuntina vapaaehtoiset auttoivat parantamaan Wikipedia.</item>
+    <item quantity="one">Englanninkieliseen Infopediaan tehtiin %,d muokkaus. Jokaisen päivän jokaisena tuntina vapaaehtoiset auttoivat parantamaan Infopedia.</item>
+    <item quantity="other">Englanninkieliseen Infopediaan tehtiin %,d muokkausta. Jokaisen päivän jokaisena tuntina vapaaehtoiset auttoivat parantamaan Infopedia.</item>
   </plurals>
   <plurals name="year_in_review_slide_saved_articles_headline">
     <item quantity="one">Tallensit %,d artikkelin</item>
@@ -1995,12 +1995,12 @@
     <item quantity="other">Käytimme %,d tuntia lukemiseen</item>
   </plurals>
   <plurals name="year_in_review_slide_available_languages_headline">
-    <item quantity="one">Wikipedia oli saatavilla yli %,d kielellä</item>
-    <item quantity="other">Wikipedia oli saatavilla yli %,d kielellä</item>
+    <item quantity="one">Infopedia oli saatavilla yli %,d kielellä</item>
+    <item quantity="other">Infopedia oli saatavilla yli %,d kielellä</item>
   </plurals>
   <plurals name="year_in_review_slide_available_languages_body_first">
-    <item quantity="one">Wikipediassa oli %,d artikkeli</item>
-    <item quantity="other">Wikipediassa oli %,d artikkelia</item>
+    <item quantity="one">Infopediassa oli %,d artikkeli</item>
+    <item quantity="other">Infopediassa oli %,d artikkelia</item>
   </plurals>
   <plurals name="year_in_review_slide_available_languages_body_second">
     <item quantity="one">%,d aktiivisella kielellä tänä vuonna. Olit mukana miljoonien muiden kanssa kerryttämässä tietoa ja tutkimassa erilaisia aiheita.</item>
@@ -2015,29 +2015,29 @@
     <item quantity="other">lukiessasi %1$,d artikkelia vuonna %2$d</item>
   </plurals>
   <plurals name="year_in_review_slide_spent_minutes_reading_body_global_first">
-    <item quantity="one">Wikipediassa oli %,d artikkeli</item>
-    <item quantity="other">Wikipediassa oli %,d artikkelia</item>
+    <item quantity="one">Infopediassa oli %,d artikkeli</item>
+    <item quantity="other">Infopediassa oli %,d artikkelia</item>
   </plurals>
   <plurals name="year_in_review_slide_spent_minutes_reading_body_global_second">
     <item quantity="one">%,d aktiivisella kielellä tänä vuonna. Olit mukana miljoonien muiden kanssa kerryttämässä tietoa ja tutkimassa erilaisia aiheita.</item>
     <item quantity="other">yli %,d aktiivisella kielellä tänä vuonna. Olit mukana miljoonien muiden kanssa kerryttämässä tietoa ja tutkimassa erilaisia aiheita.</item>
   </plurals>
   <plurals name="year_in_review_slide_viewed_articles_times_headline">
-    <item quantity="one">Sovelluksen käyttäjät katsoivat Wikipedia-artikkeleita %,d kerran</item>
-    <item quantity="other">Sovelluksen käyttäjät katsoivat Wikipedia-artikkeleita %,d kertaa</item>
+    <item quantity="one">Sovelluksen käyttäjät katsoivat Infopedia-artikkeleita %,d kerran</item>
+    <item quantity="other">Sovelluksen käyttäjät katsoivat Infopedia-artikkeleita %,d kertaa</item>
   </plurals>
-  <string name="year_in_review_slide_viewed_articles_times_body">Wikipedia on ihmisille ympäri maailman ensimmäinen pysähdyspaikka, kun he etsivät vastauksia kysymyksiin, hakevat tietoa koulua tai työtä varten tai opettelevat uusia asioita.</string>
+  <string name="year_in_review_slide_viewed_articles_times_body">Infopedia on ihmisille ympäri maailman ensimmäinen pysähdyspaikka, kun he etsivät vastauksia kysymyksiin, hakevat tietoa koulua tai työtä varten tai opettelevat uusia asioita.</string>
   <string name="year_in_review_reading_list_dialog_title">Luo vuosikatsaus %d -lukulista?</string>
-  <string name="year_in_review_reading_list_dialog_message">Wikipedian vuosikatsaus luo sinulle lukulistan artikkeleista, joiden parissa käytit eniten aikaa vuonna %1$d. &lt;a href=\"%2$s\"&gt;Lisätietoja&lt;/a&gt;</string>
+  <string name="year_in_review_reading_list_dialog_message">Infopedian vuosikatsaus luo sinulle lukulistan artikkeleista, joiden parissa käytit eniten aikaa vuonna %1$d. &lt;a href=\"%2$s\"&gt;Lisätietoja&lt;/a&gt;</string>
   <string name="year_in_review_reading_list_dialog_positive_button_label">Luo</string>
   <string name="year_in_review_reading_list_dialog_negative_button_label">Ei kiitos</string>
   <string name="year_in_review_reading_list_title">Vuosikatsaus %d</string>
   <string name="year_in_review_reading_list_description">Tehty käyttäjälle %1$s. Artikkelit, joiden parissa käytit eniten aikaa vuonna %2$d.</string>
-  <string name="year_in_review_highlights_thank_you_message">Kiitos, että vietit vuottasi Wikipedian parissa.</string>
+  <string name="year_in_review_highlights_thank_you_message">Kiitos, että vietit vuottasi Infopedian parissa.</string>
   <string name="year_in_review_highlights_looking_forward_message">Odotamme innolla ensi vuotta!</string>
   <plurals name="year_in_review_highlights_logged_out_en_most_read_title">
-    <item quantity="one">Luetuin artikkeli englanninkielisessä Wikipediassa</item>
-    <item quantity="other">Luetuimmat artikkelit englanninkielisessä Wikipediassa</item>
+    <item quantity="one">Luetuin artikkeli englanninkielisessä Infopediassa</item>
+    <item quantity="other">Luetuimmat artikkelit englanninkielisessä Infopediassa</item>
   </plurals>
   <plurals name="year_in_review_highlights_logged_out_en_hours_spent_title">
     <item quantity="one">Lukemiseen käytetty tunti</item>
@@ -2055,7 +2055,7 @@
     <item quantity="one">Muokkaus sovelluksessa</item>
     <item quantity="other">Muokkauksia sovelluksessa</item>
   </plurals>
-  <string name="year_in_review_highlights_logged_out_non_en_wikipedia_edited_title">Kuinka usein Wikipediaa muokattiin</string>
+  <string name="year_in_review_highlights_logged_out_non_en_wikipedia_edited_title">Kuinka usein Infopediaa muokattiin</string>
   <plurals name="year_in_review_highlights_logged_out_non_en_wikipedia_per_minute_label">
     <item quantity="one">%d kerran minuutissa</item>
     <item quantity="other">%d kertaa minuutissa</item>
@@ -2082,10 +2082,10 @@
     <item quantity="other">Muokkausten määrä</item>
   </plurals>
   <string name="year_in_review_highlights_share_button_title">Jaa kohokohdat</string>
-  <string name="year_in_review_highlights_logo_description">Wikipedia-logo</string>
+  <string name="year_in_review_highlights_logo_description">Infopedia-logo</string>
   <string name="recommended_reading_list_title">Löydä artikkeleita</string>
   <string name="recommended_reading_list_onboarding_card_title">Löydä juuri sinulle valittuja artikkeleita</string>
-  <string name="recommended_reading_list_onboarding_card_message">Viikoittainen Wikipedia-artikkeleiden lukulistasi, kuratoitu juuri sinulle.</string>
+  <string name="recommended_reading_list_onboarding_card_message">Viikoittainen Infopedia-artikkeleiden lukulistasi, kuratoitu juuri sinulle.</string>
   <string name="recommended_reading_list_onboarding_card_new">Uutta!</string>
   <string name="recommended_reading_list_onboarding_card_positive_button">Aloita</string>
   <string name="recommended_reading_list_onboarding_card_negative_button">Ei kiitos</string>
@@ -2127,9 +2127,9 @@
   <string name="recommended_reading_list_settings_section_header">Suositukset</string>
   <string name="recommended_reading_list_settings_title">Löydä artikkeleita -asetukset</string>
   <string name="recommended_reading_list_settings_toggle">Löydä artikkeleita -lukulista</string>
-  <string name="recommended_reading_list_settings_toggle_disable_message">Löydä artikkeleita on poissa käytöstä. Wikipedia ei tule suosittelemaan sinulle artikkeleita luettavaksi.</string>
+  <string name="recommended_reading_list_settings_toggle_disable_message">Löydä artikkeleita on poissa käytöstä. Infopedia ei tule suosittelemaan sinulle artikkeleita luettavaksi.</string>
   <string name="recommended_reading_list_settings_turn_off_dialog_title">Poistetaanko Löydä artikkeleita käytöstä?</string>
-  <string name="recommended_reading_list_settings_turn_off_dialog_message">Jos poistat Löydä artikkeleita käytöstä, et enää saa %s lukusuosituksia Wikipediasta.</string>
+  <string name="recommended_reading_list_settings_turn_off_dialog_message">Jos poistat Löydä artikkeleita käytöstä, et enää saa %s lukusuosituksia Infopediasta.</string>
   <string name="recommended_reading_list_settings_turn_off_dialog_positive_button">Poista käytöstä</string>
   <string name="recommended_reading_list_settings_turn_off_dialog_negative_button">Ei, pidä se käytössä</string>
   <string name="recommended_reading_list_settings_turn_off_snackbar">Löydä artikkeleita on poistettu käytöstä. Voit ottaa sen takaisin käyttöön milloin tahansa asetuksissa.</string>
@@ -2155,7 +2155,7 @@
   <string name="recommended_reading_list_settings_updates_base_snackbar_action">Kumoa</string>
   <string name="recommended_reading_list_settings_interests">Kiinnostuksen kohteet</string>
   <string name="recommended_reading_list_settings_notifications_title">Ilmoitukset</string>
-  <string name="recommended_reading_list_settings_notifications_subtitle">Wikipedia ei lähetä sinulle ilmoitusta, kun Löydä artikkeleita -lista päivittyy.</string>
+  <string name="recommended_reading_list_settings_notifications_subtitle">Infopedia ei lähetä sinulle ilmoitusta, kun Löydä artikkeleita -lista päivittyy.</string>
   <string name="recommended_reading_list_settings_notifications_subtitle_disable">Löydä artikkeleita -lukulistan ilmoitukset on poistettu käytöstä. Et saa ilmoitusta, kun Löydä artikkeleita päivittyy.</string>
   <string name="recommended_reading_list_settings_notifications_dialog_title">Ota ilmoitukset käyttöön?</string>
   <string name="recommended_reading_list_settings_notifications_dialog_message">Jos poistat ilmoitukset käytöstä, et enää saa ilmoituksia Löydä artikkeleita -listan päivityksistä.</string>
@@ -2163,13 +2163,13 @@
   <string name="recommended_reading_list_settings_notifications_dialog_negative_button">Ei, pidä ne päällä</string>
   <string name="recommended_reading_list_notification_title">%s Löydä artikkeleita -lukulistasi on valmis.</string>
   <string name="recommended_reading_list_notification_subtitle">Napauta nähdäksesi uusimmat suosituksesi.</string>
-  <string name="recommended_reading_list_settings_notification_subtitle_enable">Kun Löydä artikkeleita -lukulistasi on päivitetty, Wikipedia lähettää sinulle ilmoituksen.</string>
-  <string name="recommended_reading_list_settings_toggle_enable_message">Löydä artikkeleita on käytöstä. Wikipedia tulee suosittelemaan sinulle artikkeleita luettavaksi.</string>
+  <string name="recommended_reading_list_settings_notification_subtitle_enable">Kun Löydä artikkeleita -lukulistasi on päivitetty, Infopedia lähettää sinulle ilmoituksen.</string>
+  <string name="recommended_reading_list_settings_toggle_enable_message">Löydä artikkeleita on käytöstä. Infopedia tulee suosittelemaan sinulle artikkeleita luettavaksi.</string>
   <string name="donation_reminders_prompt_dismiss_snackbar">Lahjoitusmuistutuksia voi muokata milloin tahansa asetuksissa.</string>
   <string name="donation_settings_section_header">Lahjoitukset</string>
   <string name="donation_reminders_settings_title">Miten meidän tulisi muistuttaa sinua?</string>
   <string name="donation_reminders_settings_option_title">Lahjoitusmuistutukset</string>
-  <string name="donation_reminders_settings_thank_you_message">Anteliaisuutesi auttaa pitämään Wikipedian kukoistavana. Aseta lahjoitusmuistutus lukemiesi artikkelien määrän perusteella.</string>
+  <string name="donation_reminders_settings_thank_you_message">Anteliaisuutesi auttaa pitämään Infopedian kukoistavana. Aseta lahjoitusmuistutus lukemiesi artikkelien määrän perusteella.</string>
   <string name="donation_reminders_settings_article_frequency_label">Kun luen</string>
   <string name="donation_reminders_settings_amount_label">Muistuta minua lahjoittamaan</string>
   <string name="donation_reminders_settings_confirm_btn_label">Vahvista muistutus</string>
@@ -2181,12 +2181,12 @@
   <string name="donation_reminders_snacbkbar_confirmation_label">Kiitos! Muistutamme sinua lahjoittamaan %1$s, kun luet %2$s tämän kokeilun aikana.</string>
   <string name="donation_reminders_first_milestone_reached_prompt_title">Olet lukenut %1$s sen jälkeen, kun lupasit lahjoittaa %2$s</string>
   <string name="donation_reminders_subsequent_milestone_reached_prompt_title">Olet lukenut %1$s artikkelia lisää</string>
-  <string name="donation_reminders_prompt_message">Asetit %1$s lahjoitusmuistutuksen antaaksesi %3$s jokaisesta %2$s lukemastasi artikkelista. Haluatko pitää kiinni lupauksestasi tukea Wikipediaa?</string>
+  <string name="donation_reminders_prompt_message">Asetit %1$s lahjoitusmuistutuksen antaaksesi %3$s jokaisesta %2$s lukemastasi artikkelista. Haluatko pitää kiinni lupauksestasi tukea Infopediaa?</string>
   <string name="donation_reminders_prompt_positive_button">Lahjoita nyt</string>
   <string name="donation_reminders_prompt_negative_button">Ei nyt</string>
   <string name="donation_reminders_gpay_text">Lahjoita %s Google Paylla</string>
   <string name="donation_reminders_gpay_different_amount_text">Lahjoita eri summa Google Paylla</string>
-  <string name="donation_reminders_settings_description_on">Lahjoitusmuistutukset ovat käytössä. Wikipedia muistuttaa sinua lahjoittamaan %1$s jokaista lukemaasi %2$s tämän kokeilun aikana.</string>
+  <string name="donation_reminders_settings_description_on">Lahjoitusmuistutukset ovat käytössä. Infopedia muistuttaa sinua lahjoittamaan %1$s jokaista lukemaasi %2$s tämän kokeilun aikana.</string>
   <string name="donation_reminders_settings_description_off">Lahjoitusmuistutukset ovat pois käytöstä.</string>
   <string name="donation_reminders_settings_tooltip_info_label">Artikkelimäärä tallennetaan paikallisesti laitteellesi</string>
   <plurals name="donation_reminders_text_articles">
@@ -2219,7 +2219,7 @@
   <string name="hybrid_search_onboarding_search_example_query_pineapple_pizza">Miksi jotkut laittavat pizzaan ananasta?</string>
   <string name="hybrid_search_onboarding_search_example_query_biggest_cities_europe">Mitkä ovat Euroopan suurimpia kaupunkeja?</string>
   <string name="hybrid_search_onboarding_screen_title">Uusi tapa hakea tietoja</string>
-  <string name="hybrid_search_results_header_description">Lähteinä on käytetty ihmisten kirjoittamia Wikipedian artikkeleita</string>
+  <string name="hybrid_search_results_header_description">Lähteinä on käytetty ihmisten kirjoittamia Infopedian artikkeleita</string>
   <string name="hybrid_search_results_rate_label">Arvioi tämä tulos</string>
   <string name="hybrid_search_results_rated_label">Arvioitu</string>
   <string name="hybrid_search_results_rate_thumb_up">Anna arvosanaksi yläpeukku</string>
@@ -2234,7 +2234,7 @@
   <string name="hybrid_search_who_is_prefix">Kuka %s on?</string>
   <string name="hybrid_search_turn_off_experiment_label">Poista tämä kokeilu käytöstä</string>
   <string name="reading_challenge_widget_name">Lukuhaaste</string>
-  <string name="reading_challenge_onboarding_header">Juhlista 25-vuotiasta Wikipediaa osallistumalla 25 päivän lukuhaasteeseen!</string>
+  <string name="reading_challenge_onboarding_header">Juhlista 25-vuotiasta Infopediaa osallistumalla 25 päivän lukuhaasteeseen!</string>
   <string name="reading_challenge_onboarding_read_title">Lue yksi artikkeli päivässä 25 päivän ajan</string>
   <string name="reading_challenge_onboarding_read_description">Voit osallistua haasteeseen milloin tahansa ajalla 1.–31. toukokuuta ja suorittaa 25 päivän haasteen aloituspäivästäsi alkaen.</string>
   <string name="reading_challenge_onboarding_win_title">Tarjolla palkintoja</string>
@@ -2246,14 +2246,14 @@
   <string name="reading_challenge_onboarding_prompt_title">Osallistu haasteeseen kirjautumalla sisään</string>
   <string name="reading_challenge_onboarding_prompt_message">Voit seurata edistymistäsi lukuhaasteessa kirjautumalla sisään tai luomalla käyttäjätilin.</string>
   <string name="reading_challenge_onboarding_prompt_no_thanks">Ei, kiitos</string>
-  <string name="reading_challenge_onboarding_prompt_login">Kirjaudu sisään / liity Wikipediaan</string>
+  <string name="reading_challenge_onboarding_prompt_login">Kirjaudu sisään / liity Infopediaan</string>
   <string name="reading_challenge_install_prompt_got_it">Selvä</string>
   <string name="reading_challenge_install_prompt_add">Lisää</string>
   <string name="search_widget_install_prompt_title">Nopeampi tapa hakea</string>
   <string name="search_widget_install_prompt_add">Lisää</string>
   <string name="search_widget_install_prompt_got_it">Selvä</string>
   <string name="reading_challenge_widget_explore_button">Tutustu</string>
-  <string name="reading_challenge_widget_explore_wikipedia_button">Tutustu Wikipediaan</string>
+  <string name="reading_challenge_widget_explore_wikipedia_button">Tutustu Infopediaan</string>
   <string name="reading_challenge_widget_join_challenge_button">Osallistu haasteeseen</string>
   <string name="reading_challenge_widget_join_the_challenge_button">Osallistu haasteeseen</string>
   <string name="reading_challenge_widget_search_button">Hae</string>
@@ -2296,13 +2296,13 @@
   <string name="reading_challenge_widget_concluded_incomplete">Haaste on päättynyt</string>
   <string name="reading_challenge_widget_concluded_complete">Teit sen!</string>
   <string name="reading_challenge_widget_reward_title">Uteliaisuus sopii sinulle! 🛍️</string>
-  <string name="reading_challenge_widget_reward_body">Juhlista haasteen suorittamista 15 %%:n alennuksella Wikipedia-kaupasta.</string>
+  <string name="reading_challenge_widget_reward_body">Juhlista haasteen suorittamista 15 %%:n alennuksella Infopedia-kaupasta.</string>
   <string name="reading_challenge_widget_reward_button_label">Saat 15 %% alennusta kaupasta</string>
   <string name="explore_feed_new_update_prompt_title">Tutki-syöte on nyt Etusivu, ja sillä on uusi ilme</string>
   <string name="explore_feed_new_update_prompt_new_name_title">Uusi nimi</string>
   <string name="explore_feed_new_update_prompt_new_name_description">Tutki-syöte on nyt Etusivu, samassa paikassa kuin ennenkin</string>
   <string name="explore_feed_new_update_prompt_two_ways_title">Syötteesi, kaksi tapaa</string>
-  <string name="explore_feed_new_update_prompt_two_ways_description">Löydä kiinnostuksen kohteidesi perusteella räätälöityjä artikkeleita Sinulle-syötteessä tai selaa Wikipedia-yhteisön kuratoimaa sisältöä Yhteisö-syötteessä.</string>
+  <string name="explore_feed_new_update_prompt_two_ways_description">Löydä kiinnostuksen kohteidesi perusteella räätälöityjä artikkeleita Sinulle-syötteessä tai selaa Infopedia-yhteisön kuratoimaa sisältöä Yhteisö-syötteessä.</string>
   <string name="explore_feed_new_update_prompt_control_title">Pidä ohjat käsissäsi</string>
   <string name="explore_feed_new_update_prompt_control_description">Jokainen ehdotus kertoo tarkalleen, miksi näet sen. Voit muuttaa syötteen asetuksia milloin tahansa sovelluksen asetuksissa.</string>
   <string name="explore_feed_new_update_prompt_language_title">Kaikille kielellä, täysin personoitu</string>
@@ -2321,7 +2321,7 @@
   <string name="explore_feed_onboarding_curiosity_description">Valitse sinua kiinnostavat aiheet, joiden perusteella personoimme syötteesi.\n\nKeräämme vain vähän dataa, ja se anonymisoidaan.</string>
   <string name="explore_feed_deselect_all_button_label">Poista kaikki valinnat</string>
   <string name="explore_feed_potd_subtitle">Päivittäisiä kuvia Wikimedia Commonsista, vapaaehtoisten muokkaajien valitsemina</string>
-  <string name="explore_feed_featured_article_subtitle">Suositellut artikkelit ovat Wikipedian korkealaatuisimpia artikkeleita, ja ne ovat muokkaajien valitsemia</string>
+  <string name="explore_feed_featured_article_subtitle">Suositellut artikkelit ovat Infopedian korkealaatuisimpia artikkeleita, ja ne ovat muokkaajien valitsemia</string>
   <string name="explore_feed_preference_selection_screen_title">Mitä haluaisit nähdä syötteessäsi ensimmäisenä?</string>
   <string name="explore_feed_preference_community_content_title">Yhteisöön liittyvää sisältöä</string>
   <string name="explore_feed_preference_personalized_content_title">Personoitua sisältöä</string>
@@ -2365,7 +2365,7 @@
   <string name="home_feed_for_you_screen_all_modules_disabled_description">Ota käyttöön &lt;b&gt;Sinulle&lt;/b&gt;-moduuleja, jotta alat nähdä kiinnostuksen kohteisiisi liittyvää sisältöä.</string>
   <string name="home_feed_screen_all_modules_disabled_btn_label">Hallitse moduuleita</string>
   <string name="home_feed_for_you_screen_empty_title">Syötteesi on tyhjä</string>
-  <string name="home_feed_for_you_screen_empty_description">Sinulle-syötteessäsi näytetään personoituja artikkeleita sitä mukaa, kun selaat Wikipediaa.</string>
+  <string name="home_feed_for_you_screen_empty_description">Sinulle-syötteessäsi näytetään personoituja artikkeleita sitä mukaa, kun selaat Infopediaa.</string>
   <string name="home_feed_for_you_screen_empty_ways_to_start">Aloitustavat:</string>
   <string name="home_feed_for_you_screen_empty_add_interests">Lisää &lt;a href=\"#add_interests\"&gt;kiinnostuksen kohteita&lt;/a&gt;</string>
   <string name="home_feed_for_you_screen_empty_see_community">Katso, mitä &lt;a href=\"#community_tab\"&gt;yhteisössä&lt;/a&gt; tapahtuu</string>
@@ -2389,7 +2389,7 @@
   <string name="home_feed_places_of_interest_cta_button">Siirry Paikkoihin</string>
   <string name="home_feed_settings_places_of_interest_title">Kiinnostavat paikat</string>
   <string name="home_feed_settings_games_title">Pelit</string>
-  <string name="home_feed_settings_games_subtitle">Wikipedian sisällön pohjalta valitut päivittäiset pelit</string>
+  <string name="home_feed_settings_games_subtitle">Infopedian sisällön pohjalta valitut päivittäiset pelit</string>
   <string name="home_feed_discover_see_all_button">Selaa suosituksia</string>
   <string name="home_feed_for_you_screen_end_of_feed_title">Siinä kaikki tältä päivältä!</string>
   <string name="home_feed_for_you_screen_end_of_feed_description">Tule takaisin huomenna löytääksesi uusia, sinulle räätälöityjä artikkeleita.</string>

@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Nemo bis
 * Niedzielski
 * Purodha
 -->
 <resources>
-  <string name="app_name_prod">Wikkipehdija</string>
-  <string name="app_name_beta">Wikkipehdija Bätta</string>
-  <string name="app_name_alpha">Wikkipehdija Allva</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Wikkimehdija</string>
   <string name="search_hint">En de Wikkipehdija söhke</string>
   <string name="error_network_error">Mer han kein Verbendong zom Internet opboue künne.</string>
@@ -89,8 +89,8 @@
   <string name="about_description">Övver de Wikkipehdija Äpp</string>
   <string name="privacy_policy_description">Rääjelle för der Daateschotz un de Jeheimhaldung</string>
   <string name="terms_of_use_description">Bedengonge för der Jebruch</string>
-  <string name="privacy_policy_url" fuzzy="true">https://foundation.m.wikimedia.org/wiki/Privacy_policy</string>
-  <string name="terms_of_use_url" fuzzy="true">https://foundation.m.wikimedia.org/wiki/Terms_of_Use</string>
+  <string name="privacy_policy_url" fuzzy="true">https://foundation.m.infopedia.org/wiki/Privacy_policy</string>
+  <string name="terms_of_use_url" fuzzy="true">https://foundation.m.infopedia.org/wiki/Terms_of_Use</string>
   <string name="about_libraries_heading">Jebruchte Projrammbibblijothke</string>
   <string name="about_contributors_heading">Schrihver</string>
   <string name="about_translators_heading">Övversäzer</string>

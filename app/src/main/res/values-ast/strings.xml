@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Enolp
 * Envlh
@@ -8,14 +8,14 @@
 * YoaR
 -->
 <resources>
-  <string name="app_name_prod">Wikipedia</string>
-  <string name="app_name_beta">Wikipedia Beta</string>
-  <string name="app_name_alpha">Wikipedia Alfa</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Wikimedia</string>
   <string name="nav_item_back">Anterior</string>
   <string name="page_tabs_back">Anterior</string>
   <string name="nav_item_forward">Siguiente</string>
-  <string name="search_hint">Guetar na Wikipedia</string>
+  <string name="search_hint">Guetar na Infopedia</string>
   <string name="search_hint_voice_search">Busca con entrada por voz</string>
   <string name="search_hint_search_languages">Buscar una llingua</string>
   <string name="nav_item_suggested_edits">Ediciones</string>
@@ -67,12 +67,12 @@
   <string name="language_count_link_text">Disponible en %d llingües más</string>
   <string name="edit_save_action_license_logged_in" fuzzy="true">Al publicar, aceutes les &lt;a href=\"%1$s\"&gt;Condiciones d\'usu&lt;/a&gt;, y lliberar ensin torgues les tos collaboraciones baxo los términos de la llicencia &lt;a href=\"%2$s\"&gt;CC BY-SA 3.0&lt;/a&gt;.</string>
   <string name="edit_save_action_license_anon" fuzzy="true">Al publicar, aceutes les &lt;a href=\"%1$s\"&gt;Condiciones d\'usu&lt;/a&gt;, y lliberar ensin torgues les tos collaboraciones baxo la llicencia &lt;a href=\"%2$s\"&gt;CC BY-SA 3.0&lt;/a&gt;. Les ediciones atribuiránse a la dirección IP del to preséu. Si &lt;a href=\"https://#login\"&gt;anicies sesión&lt;/a&gt;, tendrás más intimidá.</string>
-  <string name="preference_title_language">Llingües de Wikipedia</string>
+  <string name="preference_title_language">Llingües de Infopedia</string>
   <string name="langlinks_filter_hint">Guetar</string>
   <string name="langlinks_empty">Esta páxina nun ta disponible n\'otres llingües</string>
   <string name="langlinks_no_match">Nun s\'alcontró nenguna llingua</string>
   <string name="langlinks_activity_title">Otres llingües</string>
-  <string name="langlinks_your_wikipedia_languages">Les tos llingües de Wikipedia</string>
+  <string name="langlinks_your_wikipedia_languages">Les tos llingües de Infopedia</string>
   <string name="menu_save_changes">Publicar los cambios</string>
   <string name="edit_saved_successfully">Edición publicada</string>
   <string name="dialog_message_edit_failed">Falló la edición</string>
@@ -87,11 +87,11 @@
   <string name="search_reading_lists_no_results">Nun s\'alcontraron resultaos nes llistes de llectura</string>
   <string name="search_history_no_results">Nun s\'alcontraron resultaos nel historial</string>
   <string name="edit_section_captcha_message">P\'ayudar a protexenos del spam automatizáu, por favor, escribe les pallabres qu\'apaecen abaxo</string>
-  <string name="edit_section_captcha_request_an_account_message">¿Nun puedes ver la imaxe? &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;Pidir una cuenta&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">¿Nun puedes ver la imaxe? &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;Pidir una cuenta&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">Repite les pallabres d\'arriba</string>
   <string name="title_captcha">Escribe\'l CAPTCHA</string>
   <string name="edit_section_captcha_reload">Toca nel CAPTCHA pa recargar</string>
-  <string name="nav_item_login">Aniciar sesión en Wikipedia</string>
+  <string name="nav_item_login">Aniciar sesión en Infopedia</string>
   <string name="login_username_hint">Nome d\'usuariu</string>
   <string name="login_password_hint">Contraseña</string>
   <string name="account_creation_password_hint">Contraseña</string>
@@ -114,19 +114,19 @@
   <string name="logout_prompt">Esto zarrará les sesiones en tolos preseos que la tengan aniciada. ¿Quies siguir?</string>
   <string name="logout_dialog_cancel_button_text">Zarrar</string>
   <string name="logged_out_in_background_title">Sesión acabada</string>
-  <string name="logged_out_in_background_dialog">Finalizasti la sesión de Wikipedia. ¿Quiés volver a aniciar sesión nuevamente?</string>
+  <string name="logged_out_in_background_dialog">Finalizasti la sesión de Infopedia. ¿Quiés volver a aniciar sesión nuevamente?</string>
   <string name="logged_out_in_background_login">Aniciar sesión</string>
   <string name="logged_out_in_background_cancel">Zarrar</string>
   <string name="history_empty_title">Nun hai artículos vistos recien</string>
   <string name="history_empty_message">Siguir lo que tuvisti lleyendo equí.</string>
   <string name="history_offline_articles_toast">Ye posible que dellos artículos del historial nun apaezan al tar ensin conexón.</string>
   <string name="search_empty_message">Busca y llei la enciclopedia llibre na to llingua</string>
-  <string name="search_empty_message_multilingual_upgrade">Buscar en Wikipedia en más llingües</string>
+  <string name="search_empty_message_multilingual_upgrade">Buscar en Infopedia en más llingües</string>
   <string name="delete_selected_items">Desaniciar los elementos esbillaos</string>
   <string name="wp_stylized">&lt;big&gt;W&lt;/big&gt;IKIPEDI&lt;big&gt;A&lt;/big&gt;</string>
   <string name="create_account_username_hint">Nome d\'usuariu</string>
   <string name="login_dont_have_account">¿Nun tienes una cuenta?</string>
-  <string name="login_join_wikipedia">Xúnite a Wikipedia</string>
+  <string name="login_join_wikipedia">Xúnite a Infopedia</string>
   <string name="login_forgot_password">¿Escaecisti la contraseña?</string>
   <string name="create_account_already_have">¿Yá tienes una cuenta?</string>
   <string name="create_account_activity_title">Crear una cuenta</string>
@@ -147,10 +147,10 @@
   <string name="create_account_button">Crear una cuenta</string>
   <string name="create_account_name_unavailable">El nome d\'usuariu «%s» nun ta disponible. Escueyi un nome distintu.</string>
   <string name="create_account_ip_block_message">Sentímoslo, anguaño la to direición IP ta bloquiada pa crear cuentes nueves.</string>
-  <string name="create_account_ip_block_help_url">https://en.wikipedia.org/wiki/Help:I_have_been_blocked</string>
+  <string name="create_account_ip_block_help_url">https://en.Infopedia.org/wiki/Help:I_have_been_blocked</string>
   <string name="create_account_ip_block_details">Detalles</string>
   <string name="preferences_general_heading">Xeneral</string>
-  <string name="wikipedia_app_faq">EMF de la App Wikipedia</string>
+  <string name="wikipedia_app_faq">EMF de la App Infopedia</string>
   <string name="send_feedback">Unviar comentariu sobro la app</string>
   <string name="create_account_account_created_toast">¡Cuenta creada!</string>
   <string name="preferences_heading_syncing">Sincronización</string>
@@ -158,8 +158,8 @@
   <string name="preferences_heading_experimental">Esperimental</string>
   <string name="preference_title_sync_reading_lists_from_account">Sincronización de llistes de llectura</string>
   <string name="preference_title_download_reading_list_articles">Descargar los artículos de la llista de llectura</string>
-  <string name="preference_summary_sync_reading_lists">Sincronizar les llistes de llectura ente distintos preseos guardándoles na to cuenta de Wikipedia</string>
-  <string name="preference_summary_sync_reading_lists_from_account">Sincronizar les llistes de llectura ente distintos preseos guardándoles na to cuenta de Wikipedia «%s»</string>
+  <string name="preference_summary_sync_reading_lists">Sincronizar les llistes de llectura ente distintos preseos guardándoles na to cuenta de Infopedia</string>
+  <string name="preference_summary_sync_reading_lists_from_account">Sincronizar les llistes de llectura ente distintos preseos guardándoles na to cuenta de Infopedia «%s»</string>
   <string name="preference_dialog_of_turning_off_reading_list_sync_title">¿Desaniciar les llistes de llectura sincronizaes de «%s»?</string>
   <string name="preference_dialog_of_turning_off_reading_list_sync_text">Esto desaniciará dafechu del almacenamientu remotu toles llistes de llectura sincronizaes anteriormente. ¿Desaniciar toles llistes sincronizaes de la to cuenta «%s»?</string>
   <string name="preference_title_auto_upload_crash_reports">Unviar informes de cuelgues</string>
@@ -174,19 +174,19 @@
   <string name="page_protected_can_not_edit_title">Esta páxina ta protexida</string>
   <string name="settings_item_preferences">Axustes</string>
   <string name="settings_activity_title">Axustes</string>
-  <string name="about_description">Tocante a l\'aplicación Wikipedia</string>
+  <string name="about_description">Tocante a l\'aplicación Infopedia</string>
   <string name="privacy_policy_description">Política d\'intimidá</string>
   <string name="terms_of_use_description">Condiciones d\'usu</string>
-  <string name="about_wikipedia_url">https://ast.wikipedia.org/wiki/Wikipedia:Tocante_a</string>
-  <string name="privacy_policy_url" fuzzy="true">https://foundation.m.wikimedia.org/wiki/Privacy_policy</string>
-  <string name="terms_of_use_url" fuzzy="true">https://foundation.m.wikimedia.org/wiki/Terms_of_Use/ast</string>
+  <string name="about_wikipedia_url">https://ast.Infopedia.org/wiki/Infopedia:Tocante_a</string>
+  <string name="privacy_policy_url" fuzzy="true">https://foundation.m.infopedia.org/wiki/Privacy_policy</string>
+  <string name="terms_of_use_url" fuzzy="true">https://foundation.m.infopedia.org/wiki/Terms_of_Use/ast</string>
   <string name="about_libraries_heading">Bbiblioteques utilizaes</string>
   <string name="about_contributors_heading">Collaboradores</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Páxina del equipu&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Páxina del equipu&lt;/a&gt;</string>
   <string name="about_translators_heading">Traductores</string>
   <string name="about_translators_translatewiki">Esta aplicación traduxéronla traductores voluntarios en &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt;.</string>
   <string name="about_app_license_heading">Llicencia</string>
-  <string name="about_app_license" fuzzy="true">El códigu fonte ta disponible\'n &lt;a href=\"https://gerrit.wikimedia.org/r/#/admin/projects/apps/android/wikipedia\"&gt;Gerrit&lt;/a&gt; y &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;GitHub&lt;/a&gt; baxo la &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Llicencia Apache 2.0&lt;/a&gt;. Si nun s\'especifica lo contrario, el conteníu ta disponible baxo una &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License\"&gt;Llicencia Creative Commons Reconocimientu-CompartirIgual&lt;/a&gt;.</string>
+  <string name="about_app_license" fuzzy="true">El códigu fonte ta disponible\'n &lt;a href=\"https://gerrit.infopedia.org/r/#/admin/projects/apps/android/Infopedia\"&gt;Gerrit&lt;/a&gt; y &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;GitHub&lt;/a&gt; baxo la &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Llicencia Apache 2.0&lt;/a&gt;. Si nun s\'especifica lo contrario, el conteníu ta disponible baxo una &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License\"&gt;Llicencia Creative Commons Reconocimientu-CompartirIgual&lt;/a&gt;.</string>
   <string name="about_wmf">Un productu de la &lt;a href=\"https://wikimediafoundation.org/\"&gt;Fundación Wikimedia&lt;/a&gt;</string>
   <string name="about_activity_title">Tocante a</string>
   <string name="edit_abandon_confirm">Cambióse la páxina. ¿Seguro que quies salir ensin guardar los cambios?</string>
@@ -217,7 +217,7 @@
   <string name="abusefilter_title_warn">Esta nun paez una edición constructiva. ¿Tas seguru de que quies publicala?</string>
   <string name="abusefilter_title_disallow">Nun puedes espublizar esta edición. Por favor vuelve atrás y cámbiala.</string>
   <string name="abusefilter_text_warn">Un filtru automáticu identificó esta edición como posiblemente non constructiva. Puede contener una o más de les siguientes:&lt;br /&gt;&lt;br /&gt;· Escribir too en mayúscules&lt;br /&gt;· Dexar artículos en blancu o facer spam&lt;br /&gt;· Enllaces o imaxes esternos irrelevantes&lt;br /&gt;· Caráuteres repetíos</string>
-  <string name="abusefilter_text_disallow">Un filtru automáticu identificó esta edición como potencialmente non constructiva, o posible vandalismu.&lt;br /&gt;&lt;br /&gt;Wikipedia ye una enciclopedia y sólo puede ponese equí conteníu neutral y notable.</string>
+  <string name="abusefilter_text_disallow">Un filtru automáticu identificó esta edición como potencialmente non constructiva, o posible vandalismu.&lt;br /&gt;&lt;br /&gt;Infopedia ye una enciclopedia y sólo puede ponese equí conteníu neutral y notable.</string>
   <string name="page_similar_titles">Páxines asemeyaes</string>
   <string name="search_did_you_mean">¿Queríes dicir «%s»?</string>
   <string name="search_recent_header">Guetes recientes:</string>
@@ -229,9 +229,9 @@
   <string name="table_infobox">Datos rápidos</string>
   <string name="table_other">Más información</string>
   <string name="table_close">Zarrar</string>
-  <string name="widget_name_featured_page">Páxina destacada de Wikipedia</string>
+  <string name="widget_name_featured_page">Páxina destacada de Infopedia</string>
   <string name="widget_title_featured_page">Páxina destacada güei:</string>
-  <string name="widget_name_search">Gueta en Wikipedia</string>
+  <string name="widget_name_search">Gueta en Infopedia</string>
   <string name="wiktionary_no_definitions_found">Nun s\'alcontraron definiciones.</string>
   <string name="alpha_update_notification_title">Hai un anovamientu alfa disponible</string>
   <string name="alpha_update_notification_text">Toca pa descargar</string>
@@ -295,7 +295,7 @@
   <string name="preference_summary_show_link_previews">Amosar una vista previa rápida de los artículos al pulsiar nos enllaces.</string>
   <string name="preference_title_collapse_tables">Plegar les tables</string>
   <string name="preference_summary_collapse_tables">Plegar automáticamente les tables de los artículos, tales como fiches, referencies y notes</string>
-  <string name="nav_item_donate" fuzzy="true">Sofita a Wikipedia</string>
+  <string name="nav_item_donate" fuzzy="true">Sofita a Infopedia</string>
   <string name="error_voice_search_not_available">La reconocencia de voz nun ta disponible.</string>
   <string name="location_service_disabled">Los servicios de llocalización tan desactivaos.</string>
   <string name="enable_location_service">Activar</string>
@@ -307,7 +307,7 @@
   <string name="view_link_preview_error_button_dismiss">Descartar</string>
   <string name="error_page_does_not_exist">Esta páxina nun esiste</string>
   <string name="view_wiki_error_message_offline">Nun pudo coneutase a internet</string>
-  <string name="view_wiki_error_message_timeout">Nun se pue coneutar con Wikipedia. Comprueba la conexón de rede o téntalo sero nuevamente</string>
+  <string name="view_wiki_error_message_timeout">Nun se pue coneutar con Infopedia. Comprueba la conexón de rede o téntalo sero nuevamente</string>
   <string name="reference_title">Referencia %s</string>
   <string name="reference_list_title">Referencies</string>
   <string name="theme_chooser_dialog_image_dimming_switch_label">Amortecimientu d\'imaxes (na tema escura)</string>
@@ -318,7 +318,7 @@
   <string name="empty_tab_title">Llingüeta nueva</string>
   <string name="menu_save_all_tabs">Guardar toles llingüetes</string>
   <string name="crash_report_activity_title">Error de l\'aplicación:</string>
-  <string name="crash_report_relaunch_or_quit">Sentímoslo, la app de Wikipedia esperimentó un error y terminóse.\n\n¿Quies volver a arrancar o colar?</string>
+  <string name="crash_report_relaunch_or_quit">Sentímoslo, la app de Infopedia esperimentó un error y terminóse.\n\n¿Quies volver a arrancar o colar?</string>
   <string name="crash_report_relaunch">Volver a arrancar</string>
   <string name="crash_report_quit">Colar</string>
   <string name="article_header_edit_hint">Editar...</string>
@@ -379,12 +379,12 @@
   <string name="reading_list_confirm_remove_article_from_offline_title">L\'artículu apaez en delles llistes</string>
   <string name="reading_list_confirm_remove_article_from_offline_message">%s yá nun tará disponible sin conexón pa nenguna llista de llectura:</string>
   <string name="reading_lists_sync_reminder_title">¿Activar la sincronización de llistes de llectura?</string>
-  <string name="reading_lists_sync_reminder_text" fuzzy="true">Los artículos guardaos en llistes de llectura agora pueden sincronizase cola to cuenta de Wikipedia. &lt;a href=\"https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Saber más&lt;/a&gt;</string>
-  <string name="reading_lists_login_reminder_text_with_link" fuzzy="true">Agora ye posible sincronizar les llistes de llectura ente preseos. Anicia sesión na to cuenta de Wikipedia y permite guardar les tos llistes. &lt;a href=\"https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Más información&lt;/a&gt;</string>
+  <string name="reading_lists_sync_reminder_text" fuzzy="true">Los artículos guardaos en llistes de llectura agora pueden sincronizase cola to cuenta de Infopedia. &lt;a href=\"https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Saber más&lt;/a&gt;</string>
+  <string name="reading_lists_login_reminder_text_with_link" fuzzy="true">Agora ye posible sincronizar les llistes de llectura ente preseos. Anicia sesión na to cuenta de Infopedia y permite guardar les tos llistes. &lt;a href=\"https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Más información&lt;/a&gt;</string>
   <string name="reading_lists_sync_reminder_action">Activar sincronización</string>
   <string name="reading_list_login_reminder_title">Sincronizar llistes de llectura</string>
-  <string name="reading_lists_login_reminder_text">Agora pueden sincronizase les llistes de llectura ente preseos. Anicia sesión na to cuenta de Wikipedia y permite guardar les tos llistes.</string>
-  <string name="reading_lists_login_button">Aniciar sesión / xunise a Wikipedia</string>
+  <string name="reading_lists_login_reminder_text">Agora pueden sincronizase les llistes de llectura ente preseos. Anicia sesión na to cuenta de Infopedia y permite guardar les tos llistes.</string>
+  <string name="reading_lists_login_button">Aniciar sesión / xunise a Infopedia</string>
   <string name="reading_lists_confirm_remote_delete_yes">Sí</string>
   <string name="reading_lists_confirm_remote_delete_no">Non</string>
   <string name="reading_list_article_save_in_progress">L\'artículu ta descargándose, y tará disponible sin conexón cuando se complete.</string>
@@ -399,7 +399,7 @@
   <string name="reading_list_turned_sync_off_dialog_ok">Aceutar</string>
   <string name="reading_list_turned_sync_off_dialog_settings">Configuración</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_title">¿Activar la sincronización de llistes de llectura?</string>
-  <string name="reading_list_prompt_turned_sync_on_dialog_text">Los artículos guardaos en llistes de llectura agora pueden sincronizase cola to cuenta de Wikipedia. &lt;a href=\"#faq\"&gt;Saber más&lt;/a&gt;</string>
+  <string name="reading_list_prompt_turned_sync_on_dialog_text">Los artículos guardaos en llistes de llectura agora pueden sincronizase cola to cuenta de Infopedia. &lt;a href=\"#faq\"&gt;Saber más&lt;/a&gt;</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_do_not_show">Nun volver a amosame esto</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_enable_syncing">Activar sincronización</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_no_thanks">Non, gracies</string>
@@ -464,7 +464,7 @@
     <item quantity="one">Queda %1$d llista</item>
     <item quantity="other">Queden %1$d llistes</item>
   </plurals>
-  <string name="notification_echo_channel_description">Avisos de Wikipedia</string>
+  <string name="notification_echo_channel_description">Avisos de Infopedia</string>
   <string name="notifications_activity_title">Avisos</string>
   <string name="notifications_activity_title_archived">Avisos (archivaos)</string>
   <string name="notifications_search">Buscar nos avisos</string>
@@ -504,7 +504,7 @@
   <string name="view_random_card_title">Al debalu</string>
   <string name="view_random_article_card_title">Artículu al debalu</string>
   <string name="view_next_random_article">Cargar otru artículu al debalu</string>
-  <string name="view_main_page_card_title">Güei en Wikipedia</string>
+  <string name="view_main_page_card_title">Güei en Infopedia</string>
   <string name="view_main_page_card_action">Ver la portada</string>
   <string name="view_featured_image_card_title">Imaxen del día</string>
   <string name="view_featured_image_card_download">Descargar</string>
@@ -530,16 +530,16 @@
   <string name="feed_configure_menu_reset">Restaurar la vista predeterminada</string>
   <string name="feed_configure_menu_select_all">Amosar toes</string>
   <string name="feed_configure_menu_deselect_all">Anubriles toes</string>
-  <string name="feed_configure_language_warning">Repara que non tolos tipos de tarxeta tán disponibles en toles ediciones de Wikipedia. Edita los idiomes esbillaos na configuración.</string>
+  <string name="feed_configure_language_warning">Repara que non tolos tipos de tarxeta tán disponibles en toles ediciones de Infopedia. Edita los idiomes esbillaos na configuración.</string>
   <string name="feed_item_type_news">Artículos d\'acontecimientos actuales</string>
   <string name="feed_item_type_on_this_day">Acontecimientos históricos de güei</string>
   <string name="feed_item_type_because_you_read">Suxerencies basaes n\'unu de los artículos que lleísti apocayá</string>
-  <string name="feed_item_type_featured_article">Artículu destacáu del día na Wikipedia</string>
+  <string name="feed_item_type_featured_article">Artículu destacáu del día na Infopedia</string>
   <string name="feed_item_type_trending">Artículos más vistos del día</string>
   <string name="feed_item_type_featured_image">Imaxe destacada del día en Wikimedia Commons</string>
-  <string name="feed_item_type_main_page">Páxina principal de Wikipedia col conteníu destacáu del día</string>
+  <string name="feed_item_type_main_page">Páxina principal de Infopedia col conteníu destacáu del día</string>
   <string name="feed_item_type_randomizer">Xenerar artículos al debalu pa lleer</string>
-  <string name="feed_item_type_suggested_edits">Suxerencies p\'añadir conteníu a Wikipedia</string>
+  <string name="feed_item_type_suggested_edits">Suxerencies p\'añadir conteníu a Infopedia</string>
   <string name="feed_empty_message" fuzzy="true">Nun hai nada na canal Esplorar</string>
   <string name="feed_configure_onboarding_action">Personalizar</string>
   <string name="customize_lang_selection_dialog_ok_button_text">Aceutar</string>
@@ -570,7 +570,7 @@
   <string name="description_edit_help_about_wikidata">Tocante a Wikidata</string>
   <string name="description_edit_help_wikidata_guide">Guía de Wikidata pa escribir descripciones</string>
   <string name="wikidata_description_guide_url" fuzzy="true">https://www.wikidata.org/wiki/Help:Description#Guidelines_for_descriptions_in_English</string>
-  <string name="description_edit_anon_limit">¡Gracies pol to interés continuu n\'editar descripciones d\'artículos! Pa realizar más cambeos, anicia sesión na to cuenta de Wikipedia.</string>
+  <string name="description_edit_anon_limit">¡Gracies pol to interés continuu n\'editar descripciones d\'artículos! Pa realizar más cambeos, anicia sesión na to cuenta de Infopedia.</string>
   <string name="description_edit_license_notice">Al camudar la descripción del artículu, aceptes les &lt;a href=\"%1$s\"&gt;Condiciones d\'usu&lt;/a&gt; y a lliberar ensin torgues les tos contribuciones baxo los términos de la llicencia &lt;a href=\"%2$s\"&gt;Creative Commons CC0&lt;/a&gt;.</string>
   <string name="description_edit_helper_text_lowercase_warning">normalmente principia con una lletra en minúscula</string>
   <string name="description_edit_success_saved">Espublizóse la descripción d\'artículu</string>
@@ -579,7 +579,7 @@
   <string name="description_edit_success_saved_image_caption_snackbar">Espublizóse\'l pie d\'imaxe</string>
   <string name="description_edit_success_saved_image_caption_in_lang_snackbar">Espublizóse\'l pie d\'imaxe (%s)</string>
   <string name="description_edit_success_saved_image_tags_snackbar" fuzzy="true">Espublizaes les etiquetes d\'imaxe</string>
-  <string name="description_edit_success_encouragement">Acabes d\'ameyorar Wikipedia pa toos</string>
+  <string name="description_edit_success_encouragement">Acabes d\'ameyorar Infopedia pa toos</string>
   <string name="description_edit_success_done">Fecho</string>
   <string name="description_edit_success_did_you_know">¿Sabíeslo?</string>
   <string name="description_edit_success_article_edit_hint">Tamién puedes editar artículos dientro d\'esta aplicación. Tenta iguar la ortografía y frases pequeñes faciendo clic nel iconu ^1 la próxima vegada</string>
@@ -610,7 +610,7 @@
   <string name="suggested_edits_task_translate_caption_title">Traducir pies d\'imaxe</string>
   <string name="suggested_edits_task_translate_caption_description">Traducir los pies a otres llingües</string>
   <string name="suggested_edits_task_multilingual_title">Más xeres para editores plurillingües</string>
-  <string name="suggested_edits_task_multilingual_description">Les xeres de traducción tán disponibles si llees y escribes en más d\'un idioma de Wikipedia.</string>
+  <string name="suggested_edits_task_multilingual_description">Les xeres de traducción tán disponibles si llees y escribes en más d\'un idioma de Infopedia.</string>
   <string name="suggested_edits_task_image_caption_edit_disable_text">Bloquiao hasta que tengas editaos %d pies d\'imaxe</string>
   <string name="suggested_edits_task_translate_description_edit_disable_text">Bloquiao hasta que tengas editaes %d descripciones d\'artículos (comprobaes)</string>
   <string name="suggested_edits_task_multilingual_negative">Nun ye pa min</string>
@@ -651,7 +651,7 @@
   <string name="suggested_edits_image_tags_publishing">Espublizando</string>
   <string name="suggested_edits_image_tags_published">Espublizaes</string>
   <string name="suggested_edits_image_tags_onboarding_title">Etiquetar les imáxenes failes más fáciles d\'alcontrar.</string>
-  <string name="suggested_edits_image_tags_onboarding_text">Al amestar etiquetes d\'imaxe, ayudes a que sía más fácil buscales en Commons, el depósitu d\'imáxenes de llicencia llibre que Wikipedia usa pa les imáxenes de los artículos.</string>
+  <string name="suggested_edits_image_tags_onboarding_text">Al amestar etiquetes d\'imaxe, ayudes a que sía más fácil buscales en Commons, el depósitu d\'imáxenes de llicencia llibre que Infopedia usa pa les imáxenes de los artículos.</string>
   <string name="suggested_edits_image_tags_onboarding_note">Solo les etiquetes qu\'escueyas van añadise a les imáxenes.</string>
   <string name="suggested_edits_image_tags_task_detail" fuzzy="true">Etiqueta les imáxenes pa facilitar que les alcuentren. Seleiciona dende les etiquetes suxeríes o amiesta les tuyes propies.</string>
   <string name="suggested_edits_image_tags_choose">Añadir o escoyer etiquetes que casen</string>
@@ -661,17 +661,17 @@
   <string name="suggested_edits_image_tags_select_text">Solo les etiquetes qu\'escueyas van añadise a les imáxenes. Les etiquetes ensin escoyer van marcase como refugaes. ¿Tas seguro de que quies marcar toles etiquetes como refugaes?</string>
   <string name="suggested_edits_image_tags_add_tag">Añadir etiqueta</string>
   <string name="suggested_edits_image_zoom_tooltip">Plizca p\'ampliar esta imaxe.</string>
-  <string name="suggested_edits_encouragement_message">%s, gracies poles tos ediciones. Más abaxo pues alcontrar otres formes de collaborar con Wikipedia.</string>
-  <string name="suggested_edits_onboarding_message">&lt;b&gt;Bones, %s&lt;/b&gt;. Más abaxo pues alcontrar formes divertíes d\'ayudar a ameyorar la Wikipedia. Verás la diferencia namás qu\'entames. ¡Feliz edición!</string>
+  <string name="suggested_edits_encouragement_message">%s, gracies poles tos ediciones. Más abaxo pues alcontrar otres formes de collaborar con Infopedia.</string>
+  <string name="suggested_edits_onboarding_message">&lt;b&gt;Bones, %s&lt;/b&gt;. Más abaxo pues alcontrar formes divertíes d\'ayudar a ameyorar la Infopedia. Verás la diferencia namás qu\'entames. ¡Feliz edición!</string>
   <string name="suggested_edits_image_captions_task_detail">Describi una imaxe p\'ayudar los llectores a entender el so significáu y contestu.</string>
   <string name="suggested_edits_add_descriptions_task_detail">Resumi un artículu p\'ayudar a que los llectores puedan enterase de la tema del artículu d\'una güeyada.</string>
   <string name="suggested_edits_contributions_stat_tooltip">El númberu total de les tos contribuciones hasta agora.</string>
   <string name="suggested_edits_edit_streak_stat_tooltip">Cuántos díes siguíos contribuyisti a Ediciones suxeríes. Si va tiempu que nun contribuyes, apaecerá la fecha de la to última contribución.</string>
   <string name="suggested_edits_page_views_stat_tooltip">Total de páxines vistes d\'elementos a los que contribuyisti nos postreros 30 díes.</string>
   <string name="suggested_edits_edit_quality_stat_tooltip">Basándose na cantidá de vegaes qu\'una de les tos contribuciones revirtióse (foi anulada por otru editor). Ediciones revertíes: %d.</string>
-  <string name="suggested_edits_paused_message" fuzzy="true">&lt;b&gt;Les Ediciones suxeríes tán en posa hasta %1$s.&lt;/b&gt; Sentímoslo, %2$s: dalgunes de les tos contribuciones de recién revertiéronse.\n\nDeprende cómo ameyorar les tos habilidaes d\'edición na Wikipedia consultando l\'enllaz d\'abaxo.</string>
+  <string name="suggested_edits_paused_message" fuzzy="true">&lt;b&gt;Les Ediciones suxeríes tán en posa hasta %1$s.&lt;/b&gt; Sentímoslo, %2$s: dalgunes de les tos contribuciones de recién revertiéronse.\n\nDeprende cómo ameyorar les tos habilidaes d\'edición na Infopedia consultando l\'enllaz d\'abaxo.</string>
   <string name="suggested_edits_disabled_message">&lt;b&gt;Les ediciones suxeríes tán desactivaes&lt;/b&gt;. Sentímoslo, %s: munches de les tos contribuciones de recién revertiéronse.</string>
-  <string name="suggested_edits_ip_blocked_message">Paez que la to direición IP (o rangu de direiciones IP) anguaño ta bloquiada pa editar la Wikipedia.</string>
+  <string name="suggested_edits_ip_blocked_message">Paez que la to direición IP (o rangu de direiciones IP) anguaño ta bloquiada pa editar la Infopedia.</string>
   <string name="suggested_edits_editing_tips_link_text">Trucos y conseyos d\'edición</string>
   <string name="suggested_edits_help_page_link_text">Páxina d\'ayuda d\'ediciones suxeríes</string>
   <string name="suggested_edits_views_label_text">Visites</string>
@@ -698,8 +698,8 @@
   <string name="suggested_edits_task_new" fuzzy="true">nueva</string>
   <string name="suggested_edits_cc0_notice">Al publicar, aceutes les &lt;a href=\"%1$s\"&gt;Condiciones d\'usu&lt;/a&gt;, y lliberar ensin torgues les tos collaboraciones baxo los términos de la &lt;a href=\"%2$s\"&gt;llicencia CC0&lt;/a&gt;.</string>
   <string name="suggested_edits_reactivation_notification_title">Ediciones suxeríes</string>
-  <string name="suggested_edits_reactivation_notification_stage_one">¡Gracies por editar Wikipedia! ¿Cómo nun sigues onde lo dexasti?</string>
-  <string name="suggested_edits_reactivation_notification_stage_two">¿Tienes un minutu pa siguir ameyorando Wikipedia? Revisa estes suxerencies d\'edición.</string>
+  <string name="suggested_edits_reactivation_notification_stage_one">¡Gracies por editar Infopedia! ¿Cómo nun sigues onde lo dexasti?</string>
+  <string name="suggested_edits_reactivation_notification_stage_two">¿Tienes un minutu pa siguir ameyorando Infopedia? Revisa estes suxerencies d\'edición.</string>
   <string name="suggested_edits_contribution_image_label">Imaxe</string>
   <string name="suggested_edits_contribution_article_label">Artículu</string>
   <string name="suggested_edits_contribution_date_yesterday_text">Ayeri</string>
@@ -709,7 +709,7 @@
     <item quantity="one">%1$s etiqueta</item>
     <item quantity="other">%1$s etiquetes</item>
   </plurals>
-  <string name="description_edit_revert_subtitle">¡Gracies por editar Wikipedia!</string>
+  <string name="description_edit_revert_subtitle">¡Gracies por editar Infopedia!</string>
   <string name="description_edit_revert_intro">Sabemos que tentasti faelo lo meyor posible, pero unu de los revisores tuvo una esmolición. Les posibles razones poles que se revertió la edición incluyen:</string>
   <string name="description_edit_revert_reason1">la to contribución nun siguió dalgunes de les &lt;a href=\"%1$s\"&gt;directrices&lt;/a&gt;.</string>
   <string name="description_edit_revert_reason2">la to contribución paecía un esperimentu o vandalismu.</string>
@@ -724,9 +724,9 @@
   <string name="onboarding_get_started">Primeros pasos</string>
   <string name="onboarding_maybe_later">Quiciabes más tarde</string>
   <string name="onboarding_explore_title">Nueves maneres d\'esplorar</string>
-  <string name="onboarding_explore_text" fuzzy="true">Bucea nel universu de Wikipedia cola canal Esplorar, siempres anovándose.&lt;br&gt;&lt;b&gt;Personaliza&lt;/b&gt; la canal colo que t\'interese (por casu, conocer los acontecimientos históricos n\'&lt;b&gt;Un día como güei&lt;/b&gt;, o xugar a los daos con &lt;b&gt;Al debalu&lt;/b&gt;).</string>
+  <string name="onboarding_explore_text" fuzzy="true">Bucea nel universu de Infopedia cola canal Esplorar, siempres anovándose.&lt;br&gt;&lt;b&gt;Personaliza&lt;/b&gt; la canal colo que t\'interese (por casu, conocer los acontecimientos históricos n\'&lt;b&gt;Un día como güei&lt;/b&gt;, o xugar a los daos con &lt;b&gt;Al debalu&lt;/b&gt;).</string>
   <string name="onboarding_reading_list_sync_title">Llistes de llectura con sincronización</string>
-  <string name="onboarding_reading_list_sync_text_v2">Puedes facer llistes de llectura a partir d\'artículos que quies lleer sero, inclusive cuando teas ensin conexón. &lt;br/&gt;Anicia sesión cola to cuenta de Wikipedia pa sincronizar les llistes de llectura. &lt;a href=\"#login\"&gt;Xúnite a Wikipedia&lt;/a&gt;</string>
+  <string name="onboarding_reading_list_sync_text_v2">Puedes facer llistes de llectura a partir d\'artículos que quies lleer sero, inclusive cuando teas ensin conexón. &lt;br/&gt;Anicia sesión cola to cuenta de Infopedia pa sincronizar les llistes de llectura. &lt;a href=\"#login\"&gt;Xúnite a Infopedia&lt;/a&gt;</string>
   <string name="onboarding_data_privacy_title">Datos y privacidá</string>
   <string name="onboarding_analytics_switch_title">Unviar datos d\'usu</string>
   <string name="onboarding_got_it">Entendílo</string>
@@ -750,7 +750,7 @@
   <string name="languages_list_activity_title">Amestar una llingua</string>
   <string name="languages_list_suggested_text">Suxeríos</string>
   <string name="languages_list_all_text">Toles llingües</string>
-  <string name="wikipedia_languages_title">Llingües de Wikipedia</string>
+  <string name="wikipedia_languages_title">Llingües de Infopedia</string>
   <string name="wikipedia_languages_your_languages_text">Les tos llingües</string>
   <string name="wikipedia_languages_add_language_text">Amestar llingua</string>
   <string name="wikipedia_languages_remove_text">Desaniciar llingua</string>
@@ -759,11 +759,11 @@
     <item quantity="one">¿Desaniciar la llingua escoyida?</item>
     <item quantity="other">¿Desaniciar les llingües escoyíes?</item>
   </plurals>
-  <string name="wikipedia_languages_remove_dialog_content" fuzzy="true">Solo verás el conteníu de la canal Esquizar y de los filtros de busca rápida nel restu de llingües de Wikipedia.</string>
+  <string name="wikipedia_languages_remove_dialog_content" fuzzy="true">Solo verás el conteníu de la canal Esquizar y de los filtros de busca rápida nel restu de llingües de Infopedia.</string>
   <string name="wikipedia_languages_remove_warning_dialog_title">Nun pueden quitase toles llingües</string>
-  <string name="wikipedia_languages_remove_warning_dialog_content">Dexa polo menos una llingua de Wikipedia pa buscar y lleer el conteníu.</string>
+  <string name="wikipedia_languages_remove_warning_dialog_content">Dexa polo menos una llingua de Infopedia pa buscar y lleer el conteníu.</string>
   <string name="more_language_options">más</string>
-  <string name="add_wikipedia_languages_text">Añadir idiomes de Wikipedia</string>
+  <string name="add_wikipedia_languages_text">Añadir idiomes de Infopedia</string>
   <string name="remove_language_dialog_cancel_button_text">Zarrar</string>
   <string name="remove_language_dialog_ok_button_text">Aceutar</string>
   <string name="remove_all_language_warning_dialog_ok_button_text">Aceutar</string>
@@ -782,7 +782,7 @@
   <string name="wikitext_reference">Referencia</string>
   <string name="wikitext_preview_link">Entever enllaz</string>
   <string name="main_drawer_help">Ayuda</string>
-  <string name="main_drawer_login">Aniciar sesión / xunise a Wikipedia</string>
+  <string name="main_drawer_login">Aniciar sesión / xunise a Infopedia</string>
   <string name="main_tooltip_action_button">Primeros pasos</string>
   <string name="custom_date_picker_dialog_ok_button_text">Aceutar</string>
   <string name="text_input_dialog_ok_button_text">Aceutar</string>

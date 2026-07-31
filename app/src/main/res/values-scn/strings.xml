@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Ajeje Brazorf
 * Dbrant
@@ -7,13 +7,13 @@
 * Statix64
 -->
 <resources>
-  <string name="app_name_prod">Wikipedia</string>
-  <string name="app_name_beta">Wikipedia Beta</string>
-  <string name="app_name_alpha">Wikipedia Alfa</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Wikimedia</string>
   <string name="nav_item_back">N\'arreri</string>
   <string name="page_tabs_back">N\'arreri</string>
-  <string name="search_hint">Arricerca supra Wikipedia</string>
+  <string name="search_hint">Arricerca supra Infopedia</string>
   <string name="search_hint_voice_search">Arricerca vucali</string>
   <string name="search_hint_search_languages">Arricerca na lingua</string>
   <string name="filter_hint_filter_my_lists_and_articles">Arricerca nti l\'elenchi</string>
@@ -107,12 +107,12 @@
   <string name="edit_save_action_license_logged_in">Pubbricannu, accetti li nostri &lt;a href=\"%1$s\"&gt;cunnizzioni d\'usu&lt;/a&gt; e accetti di rilassari li tò cuntribbuti sutta la licenza &lt;a href=\"%2$s\"&gt;CC BY-SA 4.0&lt;/a&gt;.</string>
   <string name="edit_save_action_license_anon">Pubbricannu, accetti li nostri &lt;a href=\"%1$s\"&gt;cunnizzioni d\'usu&lt;/a&gt; e accetti di rilassari li tò cuntribbuti sutta la licenza &lt;a href=\"%2$s\"&gt;CC BY-SA 4.0&lt;/a&gt;. Li canciamenti vinirannu attribbuiti ô nnirizzu IP dû tò dispusitivu. Si &lt;a href=\"https://#login\"&gt;trasi&lt;/a&gt; avirrai majuri privacy.</string>
   <string name="edit_anon_warning">Li canciamenti vinirannu attribbuiti ô nnirizzu IP dû tò dispusitivu. Si &lt;a href=\"https://#login\"&gt;trasi&lt;/a&gt; avirrai majuri privacy.</string>
-  <string name="preference_title_language">Lingui di Wikipedia</string>
+  <string name="preference_title_language">Lingui di Infopedia</string>
   <string name="langlinks_filter_hint">Va\' cerca</string>
   <string name="langlinks_empty">Sta pàggina nun è dispunìbbili n àutri lingui.</string>
   <string name="langlinks_no_match">Nuḍḍa lingua attruvata</string>
   <string name="langlinks_activity_title">Àutri lingui</string>
-  <string name="langlinks_your_wikipedia_languages">Li tò lingui di Wikipedia</string>
+  <string name="langlinks_your_wikipedia_languages">Li tò lingui di Infopedia</string>
   <string name="menu_save_changes">Pùbbrica li canciamenti</string>
   <string name="edit_saved_successfully">Canciamentu pubbricatu!</string>
   <string name="dialog_message_edit_failed">Canciamentu nun arrinisciutu!</string>
@@ -127,11 +127,11 @@
   <string name="search_reading_lists_no_results">Nuḍḍu risurtatu attruvatu nti l\'elenchi di littura</string>
   <string name="search_history_no_results">Nuḍḍu risurtatu attruvatu ntâ crunuluggìa</string>
   <string name="edit_section_captcha_message">P\'aiutari a cummàttiri lu spam autumàticu, nzirisci pi favuri li palori chi cumpàrunu sutta</string>
-  <string name="edit_section_captcha_request_an_account_message">Nun arrinesci a taliari la mmàggini? &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;Richiedi nu cuntu&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">Nun arrinesci a taliari la mmàggini? &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;Richiedi nu cuntu&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">Arripeti li palori di supra</string>
   <string name="title_captcha">Nzirisci lu CAPTCHA</string>
   <string name="edit_section_captcha_reload">Tocca lu CAPTCHA p\'arricaricari</string>
-  <string name="nav_item_login">Trasi supra Wikipedia</string>
+  <string name="nav_item_login">Trasi supra Infopedia</string>
   <string name="login_username_hint">Nomu utenti</string>
   <string name="login_password_hint">Password</string>
   <string name="account_creation_password_hint">Password</string>
@@ -152,7 +152,7 @@
   <string name="logged_out_in_background_title">Nisciutu</string>
   <string name="logged_out_in_background_login">Trasi</string>
   <string name="logged_out_in_background_cancel">Annulla</string>
-  <string name="search_empty_message_multilingual_upgrade">Arricerca Wikipedia n cchiù lingui</string>
+  <string name="search_empty_message_multilingual_upgrade">Arricerca Infopedia n cchiù lingui</string>
   <string name="wp_stylized">&lt;big&gt;W&lt;/big&gt;IKIPEDI&lt;big&gt;A&lt;/big&gt;</string>
   <string name="create_account_username_hint">Nomu utenti</string>
   <string name="login_dont_have_account">Nun hai un cuntu?</string>
@@ -168,11 +168,11 @@
   <string name="email_recommendation_dialog_create_with_email_action">Agghiunci nu nnirizzu email</string>
   <string name="create_account_button">Criazzioni dûn cuntu</string>
   <string name="create_account_name_unavailable">Lu nomu utenti \"%s\" nun è dispunìbbili. Pi favuri, scegghi nu nomu diffirenti.</string>
-  <string name="create_account_ip_block_help_url">https://it.wikipedia.org/wiki/Wikipedia:Politiche_di_blocco_degli_utenti</string>
+  <string name="create_account_ip_block_help_url">https://it.Infopedia.org/wiki/Infopedia:Politiche_di_blocco_degli_utenti</string>
   <string name="create_account_ip_block_details">Dittagghî</string>
   <string name="preferences_general_heading">Ginirali</string>
   <string name="preferences_account_heading">Cuntu</string>
-  <string name="wikipedia_app_faq">Wikipedia App FAQ</string>
+  <string name="wikipedia_app_faq">Infopedia App FAQ</string>
   <string name="send_feedback">Manna cummentu supra l\'appricazzioni</string>
   <string name="create_account_account_created_toast">Cuntu criatu!</string>
   <string name="preferences_heading_syncing">Sincrunizzazzioni</string>
@@ -185,8 +185,8 @@
   <string name="settings_activity_title">Mpustazzioni</string>
   <string name="privacy_policy_description">Pulìtica supra la privacy</string>
   <string name="terms_of_use_description">Cunnizzioni d\'usu</string>
-  <string name="about_wikipedia_url">https://scn.wikipedia.org/wiki/Wikipedia:Àutri nfurmazzioni</string>
-  <string name="offline_reading_and_data_url" fuzzy="true">https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ#Offline_reading_and_data</string>
+  <string name="about_wikipedia_url">https://scn.Infopedia.org/wiki/Infopedia:Àutri nfurmazzioni</string>
+  <string name="offline_reading_and_data_url" fuzzy="true">https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ#Offline_reading_and_data</string>
   <string name="about_contributors_heading">Cuntribbutura</string>
   <string name="about_translators_heading">Traduttura</string>
   <string name="about_app_license_heading">Licenza</string>
@@ -262,7 +262,7 @@
   <string name="user_option_sync_label">Prifirenzi</string>
   <string name="notification_syncing_pause_button">Pàusa</string>
   <string name="notification_syncing_cancel_button">Annulla</string>
-  <string name="notification_echo_channel_description">Nutìfichi di Wikipedia</string>
+  <string name="notification_echo_channel_description">Nutìfichi di Infopedia</string>
   <string name="notifications_activity_title">Nutìfichi</string>
   <string name="notifications_poll_enable_negative">Nun ora</string>
   <string name="watchlist_title">Lista taliata</string>
@@ -271,7 +271,7 @@
   <string name="preference_title_notification_thanks">Grazzi</string>
   <string name="preference_title_notification_login_fail">Trasi</string>
   <string name="preference_title_notification_user_talk">Pàggina di discussioni</string>
-  <string name="notifications_channel_group_wikipedia_notifications_title">Wikipedia</string>
+  <string name="notifications_channel_group_wikipedia_notifications_title">Infopedia</string>
   <string name="notifications_channel_group_other_title">Àutru</string>
   <string name="notifications_filter_icon_content_description">Filtra li nutìfichi</string>
   <plurals name="notifications_number_of_filters">
@@ -282,7 +282,7 @@
   <string name="notifications_tab_filter_unread">(%s)</string>
   <string name="notifications_swipe_action_read">Leggi</string>
   <string name="notifications_menu_user_talk_page">Pàggina di discussioni di %s</string>
-  <string name="view_main_page_card_title">Oji supra a Wikipedia</string>
+  <string name="view_main_page_card_title">Oji supra a Infopedia</string>
   <string name="view_main_page_card_action">Talìa a pàggina mastra</string>
   <string name="view_featured_image_card_title">Mmàggini dû jornu</string>
   <string name="view_featured_image_card_download">Scàrrica</string>
@@ -338,7 +338,7 @@
   <string name="suggested_edits_image_preview_dialog_image">Mmàggini</string>
   <string name="suggested_edits_image_preview_dialog_more_info">Chiossai nfurmazzioni</string>
   <string name="suggested_edits_image_preview_dialog_file_page_link_text">Pàggina dû file supra Wikimedia Commons</string>
-  <string name="suggested_edits_image_preview_dialog_file_page_wikipedia_link_text">Pàggina dû file supra Wikipedia</string>
+  <string name="suggested_edits_image_preview_dialog_file_page_wikipedia_link_text">Pàggina dû file supra Infopedia</string>
   <string name="suggested_edits_article_cta_snackbar_action">Talìa</string>
   <string name="suggested_edits_task_action_text_add">Agghiunci</string>
   <string name="suggested_edits_task_action_text_translate">Traduci</string>
@@ -363,7 +363,7 @@
   <string name="suggested_edits_contribution_article_label">Vuci</string>
   <string name="suggested_edits_contribution_date_yesterday_text">Ajeri</string>
   <string name="file_page_edit_button_content_description">Cancia %s</string>
-  <string name="description_edit_revert_subtitle">Grazzi pi aviri canciatu Wikipedia!</string>
+  <string name="description_edit_revert_subtitle">Grazzi pi aviri canciatu Infopedia!</string>
   <string name="description_edit_login_cancel_button_text">Annulla</string>
   <string name="size_gb">%.2f GB</string>
   <string name="size_mb">%.2f MB</string>
@@ -380,11 +380,11 @@
   <string name="languages_list_activity_title">Agghiunci na lingua</string>
   <string name="languages_list_suggested_text">Cunzigghiatu</string>
   <string name="languages_list_all_text">Tutti li lingui</string>
-  <string name="wikipedia_languages_title">Lingui di Wikipedia</string>
+  <string name="wikipedia_languages_title">Lingui di Infopedia</string>
   <string name="wikipedia_languages_your_languages_text">Li tò lingui</string>
   <string name="wikipedia_languages_add_language_text">Agghiunci lingua</string>
   <string name="more_language_options">àutru</string>
-  <string name="add_wikipedia_languages_text">Agghiunci li lingui di Wikipedia</string>
+  <string name="add_wikipedia_languages_text">Agghiunci li lingui di Infopedia</string>
   <string name="remove_language_dialog_cancel_button_text">Annulla</string>
   <string name="remove_language_dialog_ok_button_text">OK</string>
   <string name="remove_all_language_warning_dialog_ok_button_text">OK</string>
@@ -413,8 +413,8 @@
   <string name="talk_page_empty">Sta pàggina di discussioni è vacanti.</string>
   <string name="talk_message_empty">Lu missaggiu nun pò èssiri vacanti.</string>
   <string name="talk_snackbar_undo">Annulla</string>
-  <string name="talk_share_discussion_subject">Wikipedia –  discussioni supra l\'argumentu \"%s\" dâ pàggina di discussioni</string>
-  <string name="talk_share_talk_page">Wikipedia – discussioni supra la pàggina di discussioni</string>
+  <string name="talk_share_discussion_subject">Infopedia –  discussioni supra l\'argumentu \"%s\" dâ pàggina di discussioni</string>
+  <string name="talk_share_talk_page">Infopedia – discussioni supra la pàggina di discussioni</string>
   <string name="talk_overflow_sort_topic_name">Nomu di l\'argumentu</string>
   <string name="menu_option_share_talk_discussion">Cunnividi discussioni</string>
   <string name="menu_option_share_talk_page">Cunnividi pàggina di discussioni</string>

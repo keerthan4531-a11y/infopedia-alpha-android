@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * ABPMAB
 * Aranka
@@ -47,14 +47,14 @@
 * Xbaked potatox
 -->
 <resources>
-  <string name="app_name_prod">Wikipedia</string>
-  <string name="app_name_beta">Wikipedia Beta</string>
-  <string name="app_name_alpha">Wikipedia Alpha</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Wikimedia</string>
   <string name="nav_item_back">Terug</string>
   <string name="page_tabs_back">Terug</string>
   <string name="nav_item_forward">Volgende</string>
-  <string name="search_hint">Zoeken in Wikipedia</string>
+  <string name="search_hint">Zoeken in Infopedia</string>
   <string name="search_hint_voice_search">Zoeken met steminvoer</string>
   <string name="search_hint_search_languages">Zoeken naar een taal</string>
   <string name="search_back_button_content_description">Terug</string>
@@ -158,12 +158,12 @@
   <string name="edit_save_action_license_logged_in">Door te publiceren gaat u akkoord met de &lt;a href=\"%1$s\"&gt;gebruiksvoorwaarden&lt;/a&gt; en geeft u onherroepelijk uw bijdragen vrij onder de licentie &lt;a href=\"%2$s\"&gt;CC BY-SA 4.0&lt;/a&gt;.</string>
   <string name="edit_save_action_license_anon">Door te publiceren gaat u akkoord met de &lt;a href=\"%1$s\"&gt;gebruiksvoorwaarden&lt;/a&gt; en geeft u onherroepelijk uw bijdragen vrij onder de licentie &lt;a href=\"%2$s\"&gt;CC BY-SA 4.0&lt;/a&gt;. Bewerkingen worden toegeschreven aan het IP-adres van uw apparaat. Als u zich &lt;a href=\"https://#login\"&gt;aanmeldt&lt;/a&gt; krijgt u meer privacy.</string>
   <string name="edit_anon_warning">Bewerkingen worden toegeschreven aan het IP-adres van uw apparaat. Als u zich &lt;a href=\"https://#login\"&gt;aanmeldt&lt;/a&gt; krijgt u meer privacy.</string>
-  <string name="preference_title_language">Wikipedia-talen</string>
+  <string name="preference_title_language">Infopedia-talen</string>
   <string name="langlinks_filter_hint">Zoeken</string>
   <string name="langlinks_empty">Deze pagina is niet beschikbaar in andere talen.</string>
   <string name="langlinks_no_match">Geen talen gevonden</string>
   <string name="langlinks_activity_title">Andere talen</string>
-  <string name="langlinks_your_wikipedia_languages">Uw Wikipedia-talen</string>
+  <string name="langlinks_your_wikipedia_languages">Uw Infopedia-talen</string>
   <string name="menu_save_changes">Wijzigingen publiceren</string>
   <string name="edit_saved_successfully">Bewerking gepubliceerd!</string>
   <string name="stub_article_edit_saved_successfully">Bewerking gepubliceerd! Het kan enige tijd duren voordat wijzigingen zichtbaar worden.</string>
@@ -183,11 +183,11 @@
   <string name="search_reading_lists_no_results">Geen resultaten in leeslijsten gevonden</string>
   <string name="search_history_no_results">Geen resultaten in geschiedenis gevonden</string>
   <string name="edit_section_captcha_message">Voer de onderstaande woorden in om te beschermen tegen geautomatiseerde spam</string>
-  <string name="edit_section_captcha_request_an_account_message">Ziet u de afbeelding niet? &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;Vraag een account aan&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">Ziet u de afbeelding niet? &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;Vraag een account aan&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">Herhaal de bovenstaande woorden</string>
   <string name="title_captcha">CAPTCHA invoeren</string>
   <string name="edit_section_captcha_reload">Tik op de CAPTCHA om opnieuw te laden</string>
-  <string name="nav_item_login">Aanmelden bij Wikipedia</string>
+  <string name="nav_item_login">Aanmelden bij Infopedia</string>
   <string name="login_username_hint">Gebruikersnaam</string>
   <string name="login_password_hint">Wachtwoord</string>
   <string name="account_creation_password_hint">Wachtwoord</string>
@@ -213,22 +213,22 @@
   <string name="logout_prompt">Hiermee meldt u zich af op alle apparaten waarop u momenteel bent aangemeld. Wilt u doorgaan?</string>
   <string name="logout_dialog_cancel_button_text">Annuleren</string>
   <string name="logged_out_in_background_title">Afgemeld</string>
-  <string name="logged_out_in_background_dialog">U bent afgemeld bij Wikipedia. Wilt u zich opnieuw aanmelden?</string>
+  <string name="logged_out_in_background_dialog">U bent afgemeld bij Infopedia. Wilt u zich opnieuw aanmelden?</string>
   <string name="logged_out_in_background_login">Aanmelden</string>
   <string name="logged_out_in_background_cancel">Annuleren</string>
   <string name="account_vanish_request_title">Account laten verdwijnen</string>
   <string name="account_vanish_request_confirm_title">Waarschuwing verdwijnen account</string>
-  <string name="account_vanish_request_confirm">Verdwijnen is een &lt;b&gt;laatste redmiddel&lt;/b&gt; en moet &lt;b&gt;alleen worden gebruikt als u voor altijd wilt stoppen met bewerken&lt;/b&gt; en ook om zoveel mogelijk van uw vroegere relaties te verbergen.&lt;br/&gt;&lt;br/&gt;Accountverwijdering op Wikipedia gebeurt door uw accountnaam te wijzigen zodat anderen uw bijdragen niet kunnen herkennen. Deze procedure wordt accountverdwijning genoemd. &lt;b&gt;Door het verdwijnen wordt geen volledige anonimiteit gegarandeerd en worden geen bijdragen aan de projecten verwijderd.&lt;/b&gt;</string>
+  <string name="account_vanish_request_confirm">Verdwijnen is een &lt;b&gt;laatste redmiddel&lt;/b&gt; en moet &lt;b&gt;alleen worden gebruikt als u voor altijd wilt stoppen met bewerken&lt;/b&gt; en ook om zoveel mogelijk van uw vroegere relaties te verbergen.&lt;br/&gt;&lt;br/&gt;Accountverwijdering op Infopedia gebeurt door uw accountnaam te wijzigen zodat anderen uw bijdragen niet kunnen herkennen. Deze procedure wordt accountverdwijning genoemd. &lt;b&gt;Door het verdwijnen wordt geen volledige anonimiteit gegarandeerd en worden geen bijdragen aan de projecten verwijderd.&lt;/b&gt;</string>
   <string name="history_empty_title">Geen recent bekeken pagina\'s</string>
   <string name="history_empty_message">Blijf hier op de hoogte van wat u hebt gelezen.</string>
   <string name="history_offline_articles_toast">Sommige pagina\'s in de geschiedenis zijn mogelijk niet offline zichtbaar.</string>
   <string name="search_empty_message">Doorzoek en lees de vrije encyclopedie in uw eigen taal</string>
-  <string name="search_empty_message_multilingual_upgrade">Doorzoek Wikipedia in meer talen</string>
+  <string name="search_empty_message_multilingual_upgrade">Doorzoek Infopedia in meer talen</string>
   <string name="delete_selected_items">Geselecteerde items verwijderen</string>
   <string name="wp_stylized">&lt;big&gt;W&lt;/big&gt;IKIPEDI&lt;big&gt;A&lt;/big&gt;</string>
   <string name="create_account_username_hint">Gebruikersnaam</string>
   <string name="login_dont_have_account">Hebt u geen account?</string>
-  <string name="login_join_wikipedia">Account aanmaken bij Wikipedia</string>
+  <string name="login_join_wikipedia">Account aanmaken bij Infopedia</string>
   <string name="login_forgot_password">Wachtwoord vergeten?</string>
   <string name="create_account_already_have">Hebt u al een account?</string>
   <string name="create_account_activity_title">Account aanmaken</string>
@@ -250,11 +250,11 @@
   <string name="create_account_button">Account aanmaken</string>
   <string name="create_account_name_unavailable">De gebruikersnaam \"%s\" is niet beschikbaar. Kies een andere naam.</string>
   <string name="create_account_ip_block_message">Sorry, uw IP-adres is op dit moment geblokkeerd voor het aanmaken van nieuwe accounts.</string>
-  <string name="create_account_ip_block_help_url">https://en.wikipedia.org/wiki/Help:I_have_been_blocked</string>
+  <string name="create_account_ip_block_help_url">https://en.Infopedia.org/wiki/Help:I_have_been_blocked</string>
   <string name="create_account_ip_block_details">Details</string>
   <string name="preferences_general_heading">Algemeen</string>
   <string name="preferences_account_heading">Account</string>
-  <string name="wikipedia_app_faq">Veelgestelde vragen over de Wikipedia-app</string>
+  <string name="wikipedia_app_faq">Veelgestelde vragen over de Infopedia-app</string>
   <string name="send_feedback">Terugkoppeling over app geven</string>
   <string name="create_account_account_created_toast">Account aangemaakt!</string>
   <string name="preferences_heading_syncing">Synchroniseren</string>
@@ -263,7 +263,7 @@
   <string name="preference_title_sync_reading_lists_from_account">Leeslijst synchronisatie</string>
   <string name="preference_title_download_reading_list_articles">Leeslijstpagina\'s downloaden</string>
   <string name="preference_summary_sync_reading_lists">Leeslijsten tussen verschillende apparaten synchroniseren door deze op uw account op te slaan</string>
-  <string name="preference_summary_sync_reading_lists_from_account">Leeslijsten synchroniseren met verschillende apparaten door ze te koppelen met uw Wikipedia-account \"%s\"</string>
+  <string name="preference_summary_sync_reading_lists_from_account">Leeslijsten synchroniseren met verschillende apparaten door ze te koppelen met uw Infopedia-account \"%s\"</string>
   <string name="preference_dialog_of_turning_off_reading_list_sync_title">Gesynchroniseerde leeslijsten van \"%s\" verwijderen&gt;?</string>
   <string name="preference_dialog_of_turning_off_reading_list_sync_text">Hiermee worden alle eerder gesynchroniseerde leeslijsten van de externe opslag verwijderd. Wilt u alle gesynchroniseerde lijsten uit uw account \"%s\" verwijderen?</string>
   <string name="preference_title_auto_upload_crash_reports">Crashrapporten verzenden</string>
@@ -281,25 +281,25 @@
   <string name="page_watchlist_overflow_menu_onboarding_tooltip_text">Blijf op de hoogte van pagina\'s waarin u geïnteresseerd bent. Tik op het overloopmenu en selecteer &lt;b&gt;Toevoegen aan volglijst&lt;/b&gt; om wijzigingen aan een pagina te volgen.</string>
   <string name="settings_item_preferences">Instellingen</string>
   <string name="settings_activity_title">Instellingen</string>
-  <string name="about_description">Over de Wikipedia-app</string>
+  <string name="about_description">Over de Infopedia-app</string>
   <string name="privacy_policy_description">Privacybeleid</string>
   <string name="terms_of_use_description">Gebruiksvoorwaarden</string>
   <string name="legal_safety_contacts_description">Juridische en veiligheidscontacten</string>
-  <string name="about_wikipedia_url">https://nl.wikipedia.org/wiki/Help:Unieke_van_Wikipedia</string>
-  <string name="privacy_policy_url">https://foundation.wikimedia.org/wiki/Special:MyLanguage/Privacy_policy</string>
-  <string name="terms_of_use_url">https://foundation.wikimedia.org/wiki/Special:MyLanguage/Terms_of_Use</string>
+  <string name="about_wikipedia_url">https://nl.Infopedia.org/wiki/Help:Unieke_van_Infopedia</string>
+  <string name="privacy_policy_url">https://foundation.infopedia.org/wiki/Special:MyLanguage/Privacy_policy</string>
+  <string name="terms_of_use_url">https://foundation.infopedia.org/wiki/Special:MyLanguage/Terms_of_Use</string>
   <string name="cc_by_sa_4_url">https://creativecommons.org/licenses/by-sa/4.0/deed.nl</string>
   <string name="cc_0_url">https://creativecommons.org/publicdomain/zero/1.0/deed.nl</string>
   <string name="about_libraries_heading">Gebruikte bibliotheken</string>
   <string name="about_contributors_heading">Bijdragers</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Teampagina&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Teampagina&lt;/a&gt;</string>
   <string name="about_translators_heading">Vertalers</string>
   <string name="about_translators_translatewiki">Deze app is vertaald door vrijwillige vertalers van &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt;.</string>
   <string name="about_app_license_heading">Licentie</string>
-  <string name="about_app_license">Broncode beschikbaar op &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;GitHub&lt;/a&gt; onder de &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0 Licentie&lt;/a&gt;. Tenzij anders vermeld, is de inhoud beschikbaar onder de licentie &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Creative Commons Naamsvermelding-GelijkDelen&lt;/a&gt;.</string>
+  <string name="about_app_license">Broncode beschikbaar op &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;GitHub&lt;/a&gt; onder de &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0 Licentie&lt;/a&gt;. Tenzij anders vermeld, is de inhoud beschikbaar onder de licentie &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Creative Commons Naamsvermelding-GelijkDelen&lt;/a&gt;.</string>
   <string name="about_wmf">Een product van de &lt;a href=\"https://wikimediafoundation.org/\"&gt;Wikimedia Foundation&lt;/a&gt;</string>
   <string name="about_activity_title">Over</string>
-  <string name="about_logo_content_description">Wikipedia-logo met puzzel en wereldbol</string>
+  <string name="about_logo_content_description">Infopedia-logo met puzzel en wereldbol</string>
   <string name="edit_abandon_confirm">Deze pagina is bewerkt. Weet u zeker dat u wilt afsluiten zonder de wijzigingen op te slaan?</string>
   <string name="edit_abandon_confirm_yes">Ja</string>
   <string name="edit_abandon_confirm_no">Nee</string>
@@ -343,7 +343,7 @@
   <string name="abusefilter_title_warn">Dit kan een niet-constructieve bewerking zijn. Weet u zeker dat u het wilt publiceren?</string>
   <string name="abusefilter_title_disallow">U kunt deze bewerking niet opslaan. Ga terug en wijzig de inhoud.</string>
   <string name="abusefilter_text_warn">Een geautomatiseerd filter heeft deze bewerking als mogelijk niet-constructief aangemerkt. De bewerking kan een of meer van het volgende bevatten:&lt;br /&gt;&lt;br /&gt;· Getypt in hoofdletters&lt;br /&gt;· Leeghalen van pagina\'s of spammen&lt;br /&gt;· Irrelevante externe koppelingen of afbeeldingen&lt;br /&gt;· Tekens herhalen</string>
-  <string name="abusefilter_text_disallow">Een geautomatiseerde filter heeft deze bewerking als niet-constructief of potentieel vandalisme geïdentificeerd.&lt;br /&gt;&lt;br /&gt;Wikipedia is een encyclopedie en alleen neutrale, relevante inhoud hoort hier thuis.</string>
+  <string name="abusefilter_text_disallow">Een geautomatiseerde filter heeft deze bewerking als niet-constructief of potentieel vandalisme geïdentificeerd.&lt;br /&gt;&lt;br /&gt;Infopedia is een encyclopedie en alleen neutrale, relevante inhoud hoort hier thuis.</string>
   <string name="page_similar_titles">Vergelijkbare pagina\'s</string>
   <string name="search_did_you_mean">Bedoelde u \"%s\"?</string>
   <string name="search_recent_header">Recente zoekopdrachten:</string>
@@ -360,11 +360,11 @@
   <string name="table_infobox">Snelle feiten</string>
   <string name="table_other">Meer informatie</string>
   <string name="table_close">Sluiten</string>
-  <string name="widget_name_featured_page">Uitgelichte pagina op Wikipedia</string>
+  <string name="widget_name_featured_page">Uitgelichte pagina op Infopedia</string>
   <string name="widget_title_featured_page">Vandaag uitgelicht:</string>
-  <string name="widget_name_search">Zoeken op Wikipedia</string>
-  <string name="widget_description_search">De snelste manier om op Wikipedia te zoeken</string>
-  <string name="widget_description_featured_page">De beste pagina\'s die Wikipedia te bieden heeft</string>
+  <string name="widget_name_search">Zoeken op Infopedia</string>
+  <string name="widget_description_search">De snelste manier om op Infopedia te zoeken</string>
+  <string name="widget_description_featured_page">De beste pagina\'s die Infopedia te bieden heeft</string>
   <string name="wiktionary_no_definitions_found">Geen definities gevonden.</string>
   <string name="alpha_update_notification_title">Nieuwe alpha-update beschikbaar</string>
   <string name="alpha_update_notification_text">Tik om te downloaden</string>
@@ -456,9 +456,9 @@
   <string name="link_preview_dialog_share_button">Delen</string>
   <string name="link_preview_stub_placeholder_text">Deze pagina is een beginnetje. Dat betekent dat de pagina niet lang genoeg is om een voorvertoning te genereren. U kunt daar echter verandering in brengen.</string>
   <string name="error_page_does_not_exist">Deze pagina bestaat niet</string>
-  <string name="error_user_page_does_not_exist">Wikipedia heeft geen &lt;a href=\"%1$s\"&gt;gebruikerspagina&lt;/a&gt; met deze exacte naam. Over het algemeen moet deze pagina worden gemaakt en bewerkt door &lt;b&gt;%2$s&lt;/b&gt;. Controleer bij twijfel of \"%3$s\" bestaat.</string>
+  <string name="error_user_page_does_not_exist">Infopedia heeft geen &lt;a href=\"%1$s\"&gt;gebruikerspagina&lt;/a&gt; met deze exacte naam. Over het algemeen moet deze pagina worden gemaakt en bewerkt door &lt;b&gt;%2$s&lt;/b&gt;. Controleer bij twijfel of \"%3$s\" bestaat.</string>
   <string name="view_wiki_error_message_offline">Er kan geen verbinding gemaakt worden met het internet</string>
-  <string name="view_wiki_error_message_timeout">Kan geen verbinding maken met Wikipedia. Controleer uw netwerkverbinding, of probeer het later opnieuw.</string>
+  <string name="view_wiki_error_message_timeout">Kan geen verbinding maken met Infopedia. Controleer uw netwerkverbinding, of probeer het later opnieuw.</string>
   <string name="reference_title">Referentie %s</string>
   <string name="reference_list_title">Referenties</string>
   <string name="theme_chooser_dialog_image_dimming_switch_label">Afbeeldingen dimmen (in donker thema)</string>
@@ -475,9 +475,9 @@
   <string name="error_blocked_start">Begindatum van blokkade: %s</string>
   <string name="error_blocked_expiry">Vervaldatum van blokkade: %s</string>
   <string name="error_blocked_id">Blokkade-ID: %s</string>
-  <string name="error_blocked_footer">U kunt contact opnemen met &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; of met een andere &lt;a href=\"https://nl.wikipedia.org/wiki/Wikipedia:Moderator\"&gt;moderator&lt;/a&gt; voor meer informatie over de blokkade.</string>
+  <string name="error_blocked_footer">U kunt contact opnemen met &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; of met een andere &lt;a href=\"https://nl.Infopedia.org/wiki/Infopedia:Moderator\"&gt;moderator&lt;/a&gt; voor meer informatie over de blokkade.</string>
   <string name="theme_chooser_menu_item_short_tooltip">Werkbalk aanpassen</string>
-  <string name="error_blocked_footer_no_blocker">U kunt contact opnemen met een &lt;a href=\"https://nl.wikipedia.org/wiki/Wikipedia:Moderator\"&gt;moderator&lt;/a&gt; voor meer informatie over de blokkade.</string>
+  <string name="error_blocked_footer_no_blocker">U kunt contact opnemen met een &lt;a href=\"https://nl.Infopedia.org/wiki/Infopedia:Moderator\"&gt;moderator&lt;/a&gt; voor meer informatie over de blokkade.</string>
   <string name="temp_account_not_logged_in">U bent niet aangemeld</string>
   <string name="temp_account_anon_ip_dialog_body">Zodra u een bewerking doorvoert, wordt uw IP-adres aan uw bewerkingen gekoppeld.&lt;br /&gt;&lt;br /&gt;&lt;a href=\"https://#login\"&gt;Meld u aan&lt;/a&gt; of &lt;a href=\"https://#createaccount\"&gt;maak een account aan&lt;/a&gt; om naamsvermelding te krijgen voor toekomstige bewerkingen en om toegang te krijgen tot andere functies.</string>
   <string name="temp_account_anon_dialog_body">Nadat u een wijziging hebt aangebracht, wordt er een &lt;b&gt;tijdelijk account&lt;/b&gt; aangemaakt om uw privacy te beschermen. &lt;a href=\"%1$s\"&gt;Meer informatie&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;&lt;a href=\"https://#login\"&gt;Meld u aan&lt;/a&gt; of &lt;a href=\"https://#createaccount\"&gt;maak een account aan&lt;/a&gt; om onder een zelfgekozen naam bij te dragen en om toegang te krijgen tot meer mogelijkheden.</string>
@@ -500,7 +500,7 @@
   <string name="temp_account_end_session">Sessie beëindigen</string>
   <string name="temp_account_end_session_confirm">Hiermee wordt u afgemeld van uw tijdelijke account. Wilt u doorgaan?</string>
   <string name="crash_report_activity_title">Programmafout</string>
-  <string name="crash_report_relaunch_or_quit">Er is helaas een fout opgetreden in de Wikipedia-app en de app is beëindigd.\n\nWilt u opnieuw beginnen of stoppen?</string>
+  <string name="crash_report_relaunch_or_quit">Er is helaas een fout opgetreden in de Infopedia-app en de app is beëindigd.\n\nWilt u opnieuw beginnen of stoppen?</string>
   <string name="crash_report_relaunch">Opnieuw beginnen</string>
   <string name="crash_report_quit">Afsluiten</string>
   <string name="article_menu_bar_save_button">Opslaan</string>
@@ -600,8 +600,8 @@
   <string name="reading_lists_default_list_delete_message">De standaardlijst (%s) kan niet worden verwijderd.</string>
   <string name="reading_lists_default_plus_one_list_delete_message">%1$s is verwijderd. De standaardlijst (%2$s) kan niet worden verwijderd.</string>
   <string name="reading_lists_default_plus_many_lists_delete_message">De lijsten zijn verwijderd. De standaardlijst (%s) kan niet worden verwijderd.</string>
-  <string name="single_list_json_file_name">%s (Wikipedia-leeslijst).json</string>
-  <string name="multiple_lists_json_file_name">Wikipedia-leeslijsten (%s en meer).json</string>
+  <string name="single_list_json_file_name">%s (Infopedia-leeslijst).json</string>
+  <string name="multiple_lists_json_file_name">Infopedia-leeslijsten (%s en meer).json</string>
   <string name="reading_list_items_deleted">%d pagina\'s uit lijst verwijderd</string>
   <string name="reading_lists_item_deleted">%s verwijderd uit lijsten</string>
   <string name="reading_list_item_delete_undo">Ongedaan maken</string>
@@ -621,12 +621,12 @@
   <string name="reading_list_confirm_remove_article_from_offline_title">De pagina komt in meerdere lijsten voor</string>
   <string name="reading_list_confirm_remove_article_from_offline_message">%s zal niet langer offline beschikbaar zijn voor alle leeslijsten:</string>
   <string name="reading_lists_sync_reminder_title">Leeslijstsynchronisatie inschakelen?</string>
-  <string name="reading_lists_sync_reminder_text">pagina\'s die in leeslijsten zijn opgeslagen kunnen nu met uw Wikipedia-account worden gesynchroniseerd. &lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Meer informatie&lt;/a&gt;</string>
-  <string name="reading_lists_login_reminder_text_with_link">Leeslijsten kunnen nu tussen verschillende apparaten worden gesynchroniseerd. Meld u aan bij uw Wikipedia-account en laat uw lijsten opslaan. &lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Meer informatie&lt;/a&gt;</string>
+  <string name="reading_lists_sync_reminder_text">pagina\'s die in leeslijsten zijn opgeslagen kunnen nu met uw Infopedia-account worden gesynchroniseerd. &lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Meer informatie&lt;/a&gt;</string>
+  <string name="reading_lists_login_reminder_text_with_link">Leeslijsten kunnen nu tussen verschillende apparaten worden gesynchroniseerd. Meld u aan bij uw Infopedia-account en laat uw lijsten opslaan. &lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Meer informatie&lt;/a&gt;</string>
   <string name="reading_lists_sync_reminder_action">Synchronisatie inschakelen</string>
   <string name="reading_list_login_reminder_title">Leeslijsten synchroniseren</string>
-  <string name="reading_lists_login_reminder_text">Leeslijsten kunnen nu gesynchroniseerd worden met verschillende apparaten. Meld u aan met uw Wikipedia-account en sta toe dat uw lijsten opgeslagen worden.</string>
-  <string name="reading_lists_login_button">Inloggen/inschrijven bij Wikipedia</string>
+  <string name="reading_lists_login_reminder_text">Leeslijsten kunnen nu gesynchroniseerd worden met verschillende apparaten. Meld u aan met uw Infopedia-account en sta toe dat uw lijsten opgeslagen worden.</string>
+  <string name="reading_lists_login_button">Inloggen/inschrijven bij Infopedia</string>
   <string name="reading_lists_ignore_button">Nu niet</string>
   <string name="reading_lists_confirm_remote_delete_yes">Ja</string>
   <string name="reading_lists_confirm_remote_delete_no">Nee</string>
@@ -648,7 +648,7 @@
   <string name="reading_list_turned_sync_off_dialog_ok">OK</string>
   <string name="reading_list_turned_sync_off_dialog_settings">Instellingen</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_title">Leeslijstsynchronisatie inschakelen?</string>
-  <string name="reading_list_prompt_turned_sync_on_dialog_text">Pagina\'s die zijn opgeslagen in leeslijsten, kunnen nu worden gesynchroniseerd met uw Wikipedia-account. &lt;a href=\"#faq\"&gt;Leer meer&lt;/a&gt;</string>
+  <string name="reading_list_prompt_turned_sync_on_dialog_text">Pagina\'s die zijn opgeslagen in leeslijsten, kunnen nu worden gesynchroniseerd met uw Infopedia-account. &lt;a href=\"#faq\"&gt;Leer meer&lt;/a&gt;</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_do_not_show">Niet opnieuw weergeven</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_enable_syncing">Synchronisatie inschakelen</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_no_thanks">Nee, bedankt</string>
@@ -744,7 +744,7 @@
     <item quantity="one">nog %1$d lijst</item>
     <item quantity="other">nog %1$d lijsten</item>
   </plurals>
-  <string name="notification_echo_channel_description">Wikipediameldingen</string>
+  <string name="notification_echo_channel_description">Infopediameldingen</string>
   <string name="notifications_activity_title">Meldingen</string>
   <string name="notifications_activity_title_archived">Meldingen (gearchiveerd)</string>
   <string name="notifications_search">Meldingen doorzoeken</string>
@@ -806,8 +806,8 @@
   <string name="preference_title_customize_push_notifications">Pushmeldingen aanpassen</string>
   <string name="preference_category_display_settings">Weergave-instellingen</string>
   <string name="preference_title_hide_read_notifications">Gelezen meldingen verbergen</string>
-  <string name="notifications_channel_group_wikipedia_notifications_title">Wikipedia</string>
-  <string name="notifications_channel_group_wikipedia_notifications_description">Meldingen van Wikipedia</string>
+  <string name="notifications_channel_group_wikipedia_notifications_title">Infopedia</string>
+  <string name="notifications_channel_group_wikipedia_notifications_description">Meldingen van Infopedia</string>
   <string name="notifications_channel_group_other_title">Overige</string>
   <string name="notifications_channel_group_other_description">Andere meldingen van de app</string>
   <string name="notifications_filter_label">Meldingen filteren</string>
@@ -841,13 +841,13 @@
   <string name="view_random_article_card_title">Willekeurige pagina</string>
   <string name="view_random_article_card_action">Meer willekeurige pagina\'s</string>
   <string name="view_top_read_card_title">Meest gelezen</string>
-  <string name="view_top_read_card_description">Wat is er vandaag trending op Wikipedia?</string>
+  <string name="view_top_read_card_description">Wat is er vandaag trending op Infopedia?</string>
   <string name="view_top_read_card_action">Meer meest gelezen</string>
   <string name="view_top_read_card_pageviews_k_suffix">%d k</string>
   <string name="view_top_read_card_pageviews_m_suffix">%d miljoen</string>
   <string name="view_top_read_card_pageviews_views_suffix">weergaven</string>
   <string name="view_next_random_article">Nog een willekeurige pagina laden</string>
-  <string name="view_main_page_card_title">Vandaag op Wikipedia</string>
+  <string name="view_main_page_card_title">Vandaag op Infopedia</string>
   <string name="view_main_page_card_action">Hoofdpagina bekijken</string>
   <string name="view_featured_image_card_title">Afbeelding van de dag</string>
   <string name="view_featured_image_card_download">Downloaden</string>
@@ -875,16 +875,16 @@
   <string name="feed_configure_menu_reset">Standaard rubriekoverzicht terugzetten</string>
   <string name="feed_configure_menu_select_all">Alles weergeven</string>
   <string name="feed_configure_menu_deselect_all">Alles verbergen</string>
-  <string name="feed_configure_language_warning">Merk op dat niet alle rubriektypes beschikbaar zijn in alle Wikipedia-talen. Bewerk de door u geselecteerde talen in Instellingen.</string>
+  <string name="feed_configure_language_warning">Merk op dat niet alle rubriektypes beschikbaar zijn in alle Infopedia-talen. Bewerk de door u geselecteerde talen in Instellingen.</string>
   <string name="feed_item_type_news">Pagina\'s over huidige gebeurtenissen</string>
   <string name="feed_item_type_on_this_day">Gebeurtenissen in de geschiedenis op deze dag</string>
   <string name="feed_item_type_because_you_read">Suggesties gebaseerd op een recent gelezen pagina vanuit uw geschiedenis</string>
-  <string name="feed_item_type_featured_article">Dagelijks uitgelichte pagina\'s op Wikipedia</string>
+  <string name="feed_item_type_featured_article">Dagelijks uitgelichte pagina\'s op Infopedia</string>
   <string name="feed_item_type_trending">Dagelijks meeste bekeken pagina\'s</string>
   <string name="feed_item_type_featured_image">Dagelijkse uitgelichte afbeelding van Wikimedia Commons</string>
-  <string name="feed_item_type_main_page">Hoofdpagina van Wikipedia met dagelijkse uitgelichte inhoud</string>
+  <string name="feed_item_type_main_page">Hoofdpagina van Infopedia met dagelijkse uitgelichte inhoud</string>
   <string name="feed_item_type_randomizer">Genereert willekeurige pagina\'s om te lezen</string>
-  <string name="feed_item_type_suggested_edits">Voorstellen om inhoud aan Wikipedia toe te voegen</string>
+  <string name="feed_item_type_suggested_edits">Voorstellen om inhoud aan Infopedia toe te voegen</string>
   <string name="feed_item_type_places">Nabijgelegen pagina\'s op basis van de huidige locatie</string>
   <string name="feed_empty_message">Er staat niets op uw startpagina.</string>
   <string name="feed_configure_onboarding_action">Aanpassen</string>
@@ -896,7 +896,7 @@
   <string name="feed_accessibility_card_text">U bent bij het einde aangekomen.</string>
   <string name="feed_accessibility_card_load_more_button">Meer laden</string>
   <string name="feed_language_variants_removal_dialog_title">Selecteer een regionale taalvariant voor een verbeterde leeservaring</string>
-  <string name="feed_language_variants_removal_dialog_message">U gebruikt momenteel een niet-ondersteunde generieke Chinese taalvariant als uw primaire Wikipedia-taal</string>
+  <string name="feed_language_variants_removal_dialog_message">U gebruikt momenteel een niet-ondersteunde generieke Chinese taalvariant als uw primaire Infopedia-taal</string>
   <string name="feed_language_variants_removal_dialog_save">Opslaan</string>
   <string name="feed_language_variants_removal_secondary_dialog_title">Werk uw secundaire talen bij</string>
   <string name="feed_language_variants_removal_secondary_dialog_message">U gebruikt momenteel een niet-ondersteunde generieke Chinese taalvariant als secundaire taal. Ga naar uw instellingen om een nieuwe secundaire taal te kiezen of om uw talenlijst te bevestigen.</string>
@@ -924,7 +924,7 @@
   <string name="description_edit_help_about_wikidata">Over Wikidata</string>
   <string name="description_edit_help_wikidata_guide">Wikidata-gids voor het schrijven van beschrijvingen</string>
   <string name="wikidata_description_guide_url">https://www.wikidata.org/wiki/Special:MyLanguage/Help:Description#Guidelines_for_descriptions_in_English</string>
-  <string name="description_edit_anon_limit">Bedankt voor uw belangstelling voor het bewerken van paginabeschrijvingen! Meld u aan op uw Wikipedia-account om nog meer te bewerken.</string>
+  <string name="description_edit_anon_limit">Bedankt voor uw belangstelling voor het bewerken van paginabeschrijvingen! Meld u aan op uw Infopedia-account om nog meer te bewerken.</string>
   <string name="description_edit_license_notice">Door de beschrijving van de pagina te wijzigen ga ik akkoord met de &lt;a href=\"%1$s\"&gt;gebruiksvoorwaarden&lt;/a&gt; en geef ik onherroepelijk mijn bijdragen vrij onder de licentie &lt;a href=\"%2$s\"&gt;Creative Commons CC0&lt;/a&gt;.</string>
   <string name="description_edit_helper_text_lowercase_warning">begint meestal met een kleine letter</string>
   <string name="description_edit_voice_input_description">Steminvoer</string>
@@ -947,7 +947,7 @@
   <string name="description_edit_success_saved_image_caption_in_lang_snackbar">Afbeeldingsbijschrift gepubliceerd! (%s)</string>
   <string name="description_edit_success_saved_image_tags_snackbar">Afbeeldingsbijschrift(en) gepubliceerd!</string>
   <string name="description_edit_success_se_general_feed_link_snackbar">Was het leuk? Help ons door meer toe te voegen.</string>
-  <string name="description_edit_success_encouragement">U hebt zojuist Wikipedia voor iedereen beter gemaakt</string>
+  <string name="description_edit_success_encouragement">U hebt zojuist Infopedia voor iedereen beter gemaakt</string>
   <string name="description_edit_success_done">Afgerond</string>
   <string name="description_edit_success_did_you_know">Wist u dat?</string>
   <string name="description_edit_success_article_edit_hint">In deze app kunt u ook pagina\'s bewerken. Corrigeer typefouten en voeg zinnen toe door volgende keer op het pictogram ^1 te klikken</string>
@@ -994,7 +994,7 @@
   <string name="suggested_edits_task_translate_caption_title">Afbeeldingsbijschriften vertalen</string>
   <string name="suggested_edits_task_translate_caption_description">Onderschriften vertalen in andere talen</string>
   <string name="suggested_edits_task_multilingual_title">Meer taken voor meertalige bewerkers</string>
-  <string name="suggested_edits_task_multilingual_description">Vertalingstaken zijn beschikbaar wanneer u kunt lezen en schrijven in meer dan een Wikipedia taal.</string>
+  <string name="suggested_edits_task_multilingual_description">Vertalingstaken zijn beschikbaar wanneer u kunt lezen en schrijven in meer dan een Infopedia taal.</string>
   <string name="suggested_edits_task_image_caption_edit_disable_text">Vergrendeld totdat u %d afbeeldingsbijschriften hebt bewerkt</string>
   <string name="suggested_edits_task_translate_description_edit_disable_text">Vergrendeld totdat u %d (geverifieerde) paginabijschrijvingen heeft bewerkt</string>
   <string name="suggested_edits_task_multilingual_negative">Niet voor mij</string>
@@ -1023,7 +1023,7 @@
   <string name="suggested_edits_image_preview_dialog_licensing">Licentie</string>
   <string name="suggested_edits_image_preview_dialog_more_info">Meer info</string>
   <string name="suggested_edits_image_preview_dialog_file_page_link_text">Bestandspagina op Wikimedia Commons</string>
-  <string name="suggested_edits_image_preview_dialog_file_page_wikipedia_link_text">Bestandspagina op Wikipedia</string>
+  <string name="suggested_edits_image_preview_dialog_file_page_wikipedia_link_text">Bestandspagina op Infopedia</string>
   <string name="suggested_edits_article_cta_image_tags">Afbeeldingslabels toevoegen</string>
   <string name="suggested_edits_article_cta_image_caption">Afbeeldingsbijschrift toevoegen</string>
   <string name="suggested_edits_article_cta_image_caption_in_language">Afbeeldingsbijschrift toevoegen (%s)</string>
@@ -1038,7 +1038,7 @@
   <string name="suggested_edits_image_tags_publishing">Publiceren</string>
   <string name="suggested_edits_image_tags_published">Gepubliceerd</string>
   <string name="suggested_edits_image_tags_onboarding_title">Voeg labels aan afbeeldingen toe om ze makkelijker vindbaar te maken.</string>
-  <string name="suggested_edits_image_tags_onboarding_text">Door afbeeldingslabels toe te voegen maakt u het makkelijker om afbeeldingen te zoeken op Commons, de opslagplaats voor afbeeldingen met een vrije licentie die Wikipedia gebruikt voor afbeeldingen in pagina\'s.</string>
+  <string name="suggested_edits_image_tags_onboarding_text">Door afbeeldingslabels toe te voegen maakt u het makkelijker om afbeeldingen te zoeken op Commons, de opslagplaats voor afbeeldingen met een vrije licentie die Infopedia gebruikt voor afbeeldingen in pagina\'s.</string>
   <string name="suggested_edits_image_tags_onboarding_note">Alleen labels die u kiest worden toegevoegd aan afbeeldingen.</string>
   <string name="suggested_edits_image_tags_task_detail">Voeg aangepaste labels toe aan een afbeelding om deze makkelijker vindbaar te maken.</string>
   <string name="suggested_edits_image_tags_choose">Voeg bijpassende labels toe</string>
@@ -1049,8 +1049,8 @@
   <string name="suggested_edits_image_tags_add_tag">Label toevoegen</string>
   <string name="suggested_edits_image_tags_exit_dialog_message">De ongepubliceerde labels worden niet opgeslagen</string>
   <string name="suggested_edits_image_zoom_tooltip">Duw twee vingers uiteen om in te zoomen op de afbeelding.</string>
-  <string name="suggested_edits_encouragement_message">%s, bedankt voor uw bewerkingen. Hieronder vindt u meer manieren om aan Wikipedia bij te dragen.</string>
-  <string name="suggested_edits_onboarding_message">&lt;b&gt;Hallo %s&lt;/b&gt;, hieronder kunt u manieren vinden om bij te dragen aan het verbeteren van Wikipedia. U ziet het verschil dat u maakt vanaf het moment dat u begint. Veel plezier met bewerken!</string>
+  <string name="suggested_edits_encouragement_message">%s, bedankt voor uw bewerkingen. Hieronder vindt u meer manieren om aan Infopedia bij te dragen.</string>
+  <string name="suggested_edits_onboarding_message">&lt;b&gt;Hallo %s&lt;/b&gt;, hieronder kunt u manieren vinden om bij te dragen aan het verbeteren van Infopedia. U ziet het verschil dat u maakt vanaf het moment dat u begint. Veel plezier met bewerken!</string>
   <string name="suggested_edits_image_captions_task_detail">Beschrijf een afbeelding om lezers te helpen de betekenis en context beter te begrijpen.</string>
   <string name="suggested_edits_add_descriptions_task_detail">Vat een pagina samen om lezers in een oogopslag het onderwerp beter te kunnen laten begrijpen.</string>
   <string name="suggested_edits_contributions_stat_tooltip">Uw totale aantal bijdragen tot nu toe.</string>
@@ -1059,7 +1059,7 @@
   <string name="suggested_edits_edit_quality_stat_tooltip">Gebaseerd op hoeveel van uw bijdragen ongedaan gemaakt zijn door iemand anders. Ongedaan gemaakte wijzigingen: %d.</string>
   <string name="suggested_edits_paused_message">Voorgestelde bewerkingen zijn gepauzeerd tot %1$s. Sorry %2$s, maar sommige van uw recente bijdragen zijn teruggedraaid.</string>
   <string name="suggested_edits_disabled_message">Voorgestelde bewerkingen is uitgeschakeld. Sorry %s, maar te veel van uw recente bijdragen zijn teruggedraaid.</string>
-  <string name="suggested_edits_ip_blocked_message">Het lijkt erop dat uw IP-adres (of assortiment van IP-adressen) momenteel geblokkeerd is voor het bewerken van Wikipedia.</string>
+  <string name="suggested_edits_ip_blocked_message">Het lijkt erop dat uw IP-adres (of assortiment van IP-adressen) momenteel geblokkeerd is voor het bewerken van Infopedia.</string>
   <string name="suggested_edits_gate_message">Sorry, %s, u moet ten minste drie bewerkingen rechtstreeks in een pagina maken om deze functie te gebruiken.</string>
   <string name="suggested_edits_editing_tips_link_text">Tips en trucs voor het bewerken</string>
   <string name="suggested_edits_help_page_link_text">Hulppagina voorgestelde bewerkingen</string>
@@ -1088,7 +1088,7 @@
     <item quantity="other">%d dagen</item>
   </plurals>
   <string name="suggested_edits_what_is_title">Wat zijn Voorgestelde bewerkingen?</string>
-  <string name="suggested_edits_what_is_text">Voorgestelde bewerkingen bieden kansen voor kleine maar essentiële bijdragen aan Wikipedia.</string>
+  <string name="suggested_edits_what_is_text">Voorgestelde bewerkingen bieden kansen voor kleine maar essentiële bijdragen aan Infopedia.</string>
   <string name="suggested_edits_learn_more">Meer lezen</string>
   <string name="suggested_edits_paused_title">Gepauzeerd</string>
   <string name="suggested_edits_disabled_title">Uitgeschakeld</string>
@@ -1098,8 +1098,8 @@
   <string name="suggested_edits_task_new">Nieuw</string>
   <string name="suggested_edits_cc0_notice">Door te publiceren gaat u akkoord met de &lt;a href=\"%1$s\"&gt;gebruiksvoorwaarden&lt;/a&gt; en geeft u onherroepelijk deze bijdrage vrij onder de &lt;a href=\"%2$s\"&gt;licentie CC0&lt;/a&gt;.</string>
   <string name="suggested_edits_reactivation_notification_title">Voorgestelde bewerkingen</string>
-  <string name="suggested_edits_reactivation_notification_stage_one">Bedankt voor het bewerken van Wikipedia! Wilt u verder gaan waar u gebleven was?</string>
-  <string name="suggested_edits_reactivation_notification_stage_two">Heeft u een minuut om Wikipedia verder te verbeteren? Bekijk deze suggesties voor bewerkingen.</string>
+  <string name="suggested_edits_reactivation_notification_stage_one">Bedankt voor het bewerken van Infopedia! Wilt u verder gaan waar u gebleven was?</string>
+  <string name="suggested_edits_reactivation_notification_stage_two">Heeft u een minuut om Infopedia verder te verbeteren? Bekijk deze suggesties voor bewerkingen.</string>
   <string name="suggested_edits_contributions_screen_title">Bijdragen van %s</string>
   <string name="suggested_edits_contribution_language_label">Taal</string>
   <string name="suggested_edits_contribution_date_time_label">Datum/tijd</string>
@@ -1117,11 +1117,11 @@
     <item quantity="other">U heeft %d labels toegevoegd</item>
   </plurals>
   <string name="suggested_edits_contribution_date_yesterday_text">Gisteren</string>
-  <string name="suggested_edits_encourage_account_creation_title">Wist u dat iedereen Wikipedia kan bewerken?</string>
-  <string name="suggested_edits_encourage_account_creation_message">“Voorgestelde bewerkingen” is een nieuwe manier om Wikipedia vanuit Android te bewerken. Hiermee kunt u een kleine maar belangrijke bijdrage leveren aan Wikipedia. Ons doel is het bewerken voor iedereen makkelijker en toegankelijker te maken! Meld u aan of schrijf u in bij Wikipedia om aan de slag te gaan.</string>
-  <string name="suggested_edits_encourage_account_creation_login_button">Aanmelden/inschrijven bij Wikipedia</string>
+  <string name="suggested_edits_encourage_account_creation_title">Wist u dat iedereen Infopedia kan bewerken?</string>
+  <string name="suggested_edits_encourage_account_creation_message">“Voorgestelde bewerkingen” is een nieuwe manier om Infopedia vanuit Android te bewerken. Hiermee kunt u een kleine maar belangrijke bijdrage leveren aan Infopedia. Ons doel is het bewerken voor iedereen makkelijker en toegankelijker te maken! Meld u aan of schrijf u in bij Infopedia om aan de slag te gaan.</string>
+  <string name="suggested_edits_encourage_account_creation_login_button">Aanmelden/inschrijven bij Infopedia</string>
   <string name="suggested_edits_contribution_type_image_tag">Afbeeldingslabel</string>
-  <string name="suggested_edits_contribution_current_revision_text">Uw bewerking staat nu op Wikipedia</string>
+  <string name="suggested_edits_contribution_current_revision_text">Uw bewerking staat nu op Infopedia</string>
   <string name="suggested_card_more_edits">Meer voorgestelde bewerkingen</string>
   <string name="suggested_edits_article_descriptions_dialog_title">Gesuggereerde beschrijvingen</string>
   <string name="suggested_edits_descriptions_report_dialog_title">Wat wilt u melden?</string>
@@ -1148,7 +1148,7 @@
     <item quantity="other">U heeft %d karakters toegevoegd</item>
   </plurals>
   <string name="suggested_edits_image_recommendations_task_title">Afbeeldingen voor pagina\'s</string>
-  <string name="suggested_edits_image_recommendations_task_detail">Voeg voorgestelde afbeeldingen toe aan Wikipedia-pagina\'s om het begrip te vergroten.</string>
+  <string name="suggested_edits_image_recommendations_task_detail">Voeg voorgestelde afbeeldingen toe aan Infopedia-pagina\'s om het begrip te vergroten.</string>
   <string name="image_recommendation_task_instruction">Bent u van mening dat deze afbeelding bij deze pagina past?</string>
   <string name="image_recommendation_tutorial">Zelfstudie</string>
   <string name="image_recommendation_accept">Ja</string>
@@ -1165,9 +1165,9 @@
   <string name="image_recommendation_reject_submit">Verzenden</string>
   <string name="image_recommendation_tooltip_main">Voeg ontbrekende afbeeldingen aan pagina\'s toe met Voorgestelde bewerkingen</string>
   <string name="image_recommendation_onboarding_1">Afbeeldingen maken pagina\'s begrijpelijk, maar veel pagina\'s hebben er geen.</string>
-  <string name="image_recommendation_onboarding_2">U beslist of een voorgestelde afbeelding in een Wikipedia-pagina moet worden geplaatst.</string>
+  <string name="image_recommendation_onboarding_2">U beslist of een voorgestelde afbeelding in een Infopedia-pagina moet worden geplaatst.</string>
   <string name="image_recommendation_onboarding_3">Suggesties worden automatisch gegenereerd en u beoordeelt of ze moeten worden geaccepteerd of afgewezen.</string>
-  <string name="image_recommendation_onboarding_4">De afbeeldingen zijn afkomstig van Wikimedia Commons, een collectie afbeeldingen met vrije licentie die door Wikipedia wordt gebruikt.</string>
+  <string name="image_recommendation_onboarding_4">De afbeeldingen zijn afkomstig van Wikimedia Commons, een collectie afbeeldingen met vrije licentie die door Infopedia wordt gebruikt.</string>
   <string name="image_recommendation_tooltip_1">Lees deze pagina om het onderwerp te begrijpen</string>
   <string name="image_recommendation_tooltip_2">Inspecteer de afbeelding en de bijbehorende informatie</string>
   <string name="image_recommendation_tooltip_3">Bepaal of de afbeelding lezers helpt dit onderwerp beter te begrijpen</string>
@@ -1180,15 +1180,15 @@
   <string name="edit_summary_added_caption">Toegevoegd bijschrift</string>
   <string name="edit_summary_added_image_and_caption">Afbeelding en bijschrift toegevoegd</string>
   <string name="edit_published_view">Bekijken</string>
-  <string name="activity_tab_logged_out_title">Meld u aan of maak een account aan om uw activiteit in de Wikipedia-app te bekijken</string>
+  <string name="activity_tab_logged_out_title">Meld u aan of maak een account aan om uw activiteit in de Infopedia-app te bekijken</string>
   <string name="activity_tab_user_reading">Wat %s leest</string>
-  <string name="activity_tab_on_wikipedia_android">Op Wikipedia Android</string>
+  <string name="activity_tab_on_wikipedia_android">Op Infopedia Android</string>
   <string name="activity_tab_weekly_time_spent_hm">%1$du %2$dm</string>
   <string name="activity_tab_weekly_time_spent">Tijd besteed aan lezen deze week</string>
   <string name="activity_tab_monthly_articles_read">Pagina\'s gelezen deze maand</string>
   <string name="activity_tab_monthly_articles_saved">Pagina\'s opgeslagen deze maand</string>
   <string name="activity_tab_monthly_top_categories">Meest gelezen categorieën deze maand</string>
-  <string name="activity_tab_explore_wikipedia">Ontdek via Wikipedia</string>
+  <string name="activity_tab_explore_wikipedia">Ontdek via Infopedia</string>
   <string name="activity_tab_discover_encourage">Op zoek naar iets nieuws om te lezen?</string>
   <string name="activity_tab_donation_unknown">Onbekend</string>
   <string name="activity_tab_donation_last_donation">&lt;b&gt;Laatste donatie&lt;/b&gt; in de app</string>
@@ -1261,17 +1261,17 @@
   <string name="activity_tab_onboarding_impact_title">Uw invloed</string>
   <string name="activity_tab_onboarding_impact_message">Bekijk een overzicht van uw bijdragen en ontdek hoe ver de kennis die u hebt gedeeld al reikt.</string>
   <string name="activity_tab_onboarding_engage_title">Meer manieren om mee te doen</string>
-  <string name="activity_tab_onboarding_engage_message">Bekijk statistieken over spellen, opgeslagen pagina\'s en andere activiteiten waarmee u uw verbinding met Wikipedia verdiept.</string>
+  <string name="activity_tab_onboarding_engage_message">Bekijk statistieken over spellen, opgeslagen pagina\'s en andere activiteiten waarmee u uw verbinding met Infopedia verdiept.</string>
   <string name="activity_tab_onboarding_stay_in_control_title">De touwtjes in handen houden</string>
   <string name="activity_tab_onboarding_stay_in_control_message">Kies welke modules u wilt weergeven. Alle persoonlijke gegevens blijven privé op uw apparaat staan. U kunt uw browsergeschiedenis op elk moment wissen.</string>
-  <string name="edits_screen_what_is_title">Bewerken in de Wikipedia-app</string>
-  <string name="edits_screen_what_is_body">Weet u niet waar u moet beginnen met bewerken? Probeer dan ‘Voorgestelde bewerkingen’, een functie waarmee u kleine maar essentiële bijdragen aan Wikipedia kunt doen. U kunt ook direct naar een interessante pagina gaan en een wijziging aanbrengen met behulp van wikitekst.</string>
+  <string name="edits_screen_what_is_title">Bewerken in de Infopedia-app</string>
+  <string name="edits_screen_what_is_body">Weet u niet waar u moet beginnen met bewerken? Probeer dan ‘Voorgestelde bewerkingen’, een functie waarmee u kleine maar essentiële bijdragen aan Infopedia kunt doen. U kunt ook direct naar een interessante pagina gaan en een wijziging aanbrengen met behulp van wikitekst.</string>
   <string name="activity_tab_snackbar_label">Spelstatistieken worden weergegeven voor uw voorkeurstaal.</string>
   <string name="file_page_activity_title">Bestandspagina</string>
   <string name="file_page_add_image_caption_button">Afbeeldingsbijschrift toevoegen</string>
   <string name="file_page_add_image_tags_button">Afbeeldingslabel toevoegen</string>
   <string name="file_page_edit_button_content_description">Bewerk %s</string>
-  <string name="description_edit_revert_subtitle">Bedankt voor het bewerken van Wikipedia!</string>
+  <string name="description_edit_revert_subtitle">Bedankt voor het bewerken van Infopedia!</string>
   <string name="description_edit_revert_intro">Wij weten dat u uw best gedaan hebt, maar een van de beoordelaars zag een punt van zorg. Mogelijke redenen waarom uw bewerking is teruggedraaid, zijn:</string>
   <string name="description_edit_revert_reason1">uw bijdrage valt niet onder één van de &lt;a href=\"%1$s\"&gt;richtlijnen&lt;/a&gt;.</string>
   <string name="description_edit_revert_reason2">uw bijdrage leek op een experiment of vandalisme.</string>
@@ -1286,9 +1286,9 @@
   <string name="onboarding_get_started">Aan de slag</string>
   <string name="onboarding_maybe_later">Misschien later</string>
   <string name="onboarding_explore_title">Nieuwe manieren om te ontdekken</string>
-  <string name="onboarding_explore_text">Stap in de wereld van Wikipedia met een continu bijgewerkte startpagina. &lt;br/&gt; Pas het overzicht aan &lt;b&gt;uw interesses&lt;/b&gt; aan – of u nu geïnteresseerd bent in historische gebeurtenissen &lt;b&gt;op deze dag&lt;/b&gt; of het gooien met de dobbelsteen voor een &lt;b&gt;willekeurige pagina&lt;/b&gt;.</string>
+  <string name="onboarding_explore_text">Stap in de wereld van Infopedia met een continu bijgewerkte startpagina. &lt;br/&gt; Pas het overzicht aan &lt;b&gt;uw interesses&lt;/b&gt; aan – of u nu geïnteresseerd bent in historische gebeurtenissen &lt;b&gt;op deze dag&lt;/b&gt; of het gooien met de dobbelsteen voor een &lt;b&gt;willekeurige pagina&lt;/b&gt;.</string>
   <string name="onboarding_reading_list_sync_title">Leeslijsten met synchronisatie</string>
-  <string name="onboarding_reading_list_sync_text_v2">U kunt leeslijsten maken van pagina\'s die u later wilt lezen, ook als u offline bent. &lt;br/&gt;Meld u aan bij uw Wikipedia-account om uw leeslijsten te synchroniseren. &lt;a href=\"#login\"&gt;Bij Wikipedia aanmelden&lt;/a&gt;</string>
+  <string name="onboarding_reading_list_sync_text_v2">U kunt leeslijsten maken van pagina\'s die u later wilt lezen, ook als u offline bent. &lt;br/&gt;Meld u aan bij uw Infopedia-account om uw leeslijsten te synchroniseren. &lt;a href=\"#login\"&gt;Bij Infopedia aanmelden&lt;/a&gt;</string>
   <string name="onboarding_data_privacy_title">Gegevens &amp; privacy</string>
   <string name="onboarding_data_privacy_text">Wij zijn van mening dat u geen persoonlijke informatie hoeft te verstrekken om deel te nemen aan de vrije kennisbeweging. De gebruiksgegevens die voor deze app worden verzameld, zijn anoniem. &lt;br/&gt;&lt;br/&gt;Lees meer over ons &lt;a href=\"#privacy\"&gt;privacybeleid&lt;/a&gt; en &lt;a href=\"#termsOfUse\"&gt;onze gebruiksvoorwaarden&lt;/a&gt; .</string>
   <string name="onboarding_analytics_switch_title">Uw gebruiksgegevens verzenden</string>
@@ -1298,8 +1298,8 @@
   <string name="onboarding_welcome_title_v2">De vrije encycopedie\n...in meer dan 300 talen</string>
   <string name="onboarding_next">Volgende</string>
   <string name="onboarding_fresh_install_knowledge_title">Alle kennis van de wereld</string>
-  <string name="onboarding_fresh_install_knowledge_text">Wikipedia is een vrije online encyclopedie met 65 miljoen pagina\'s die gezamenlijk zijn geschreven en onderhouden in meer dan 300 talen door een gemeenschap van vrijwilligers.</string>
-  <string name="onboarding_fresh_install_knowledge_learn_more">Lees meer over Wikipedia</string>
+  <string name="onboarding_fresh_install_knowledge_text">Infopedia is een vrije online encyclopedie met 65 miljoen pagina\'s die gezamenlijk zijn geschreven en onderhouden in meer dan 300 talen door een gemeenschap van vrijwilligers.</string>
+  <string name="onboarding_fresh_install_knowledge_learn_more">Lees meer over Infopedia</string>
   <string name="onboarding_app_languages_title">Te lezen in meer dan 300 talen</string>
   <string name="onboarding_app_languages_text">We hebben de volgende talen op uw apparaat gedetecteerd:</string>
   <string name="onboarding_app_languages_primary">Primair</string>
@@ -1324,7 +1324,7 @@
   <string name="languages_list_activity_title">Taal toevoegen</string>
   <string name="languages_list_suggested_text">Voorgesteld</string>
   <string name="languages_list_all_text">Alle talen</string>
-  <string name="wikipedia_languages_title">Wikipedia talen</string>
+  <string name="wikipedia_languages_title">Infopedia talen</string>
   <string name="wikipedia_languages_your_languages_text">Uw talen</string>
   <string name="wikipedia_languages_add_language_text">Taal toevoegen</string>
   <string name="wikipedia_languages_remove_text">Taal verwijderen</string>
@@ -1333,11 +1333,11 @@
     <item quantity="one">Geselecteerde taal verwijderen?</item>
     <item quantity="other">Geselecteerde talen verwijderen?</item>
   </plurals>
-  <string name="wikipedia_languages_remove_dialog_content">U ziet alleen inhoud op de startpagina en in de snelle zoekfilters voor de overige Wikipedia-talen.</string>
+  <string name="wikipedia_languages_remove_dialog_content">U ziet alleen inhoud op de startpagina en in de snelle zoekfilters voor de overige Infopedia-talen.</string>
   <string name="wikipedia_languages_remove_warning_dialog_title">Kan niet alle talen verwijderen</string>
-  <string name="wikipedia_languages_remove_warning_dialog_content">Houd ten minste één Wikipedia-taal waarin u inhoud kunt zoeken en lezen.</string>
+  <string name="wikipedia_languages_remove_warning_dialog_content">Houd ten minste één Infopedia-taal waarin u inhoud kunt zoeken en lezen.</string>
   <string name="more_language_options">meer</string>
-  <string name="add_wikipedia_languages_text">Voeg Wikipedia-talen toe</string>
+  <string name="add_wikipedia_languages_text">Voeg Infopedia-talen toe</string>
   <string name="remove_language_dialog_cancel_button_text">Annuleren</string>
   <string name="remove_language_dialog_ok_button_text">OK</string>
   <string name="remove_all_language_warning_dialog_ok_button_text">OK</string>
@@ -1407,7 +1407,7 @@
   <string name="templates_description_empty">De \"%s\"-sjabloon heeft nog geen beschrijving.</string>
   <string name="templates_description_missing_data">Dit sjabloon heeft geen &lt;a href=\"%1$s\"&gt;TemplateData&lt;/a&gt; en de parameters zijn &lt;a href=\"%2$s\"&gt;automatisch gegenereerd&lt;/a&gt;. Als gevolg hiervan ontbreekt het aan beschrijvingen van het sjabloon en zijn parameters.</string>
   <string name="main_drawer_help">Hulp</string>
-  <string name="main_drawer_login">Aanmelden/inschrijven bij Wikipedia</string>
+  <string name="main_drawer_login">Aanmelden/inschrijven bij Infopedia</string>
   <string name="main_tooltip_action_button">Aan de slag</string>
   <string name="main_tooltip_watchlist_title">Volglijst</string>
   <string name="main_tooltip_watchlist_text">Vind pagina\'s die u heeft toegevoegd aan uw leeslijst in het menu Meer onder &lt;b&gt;Volglijst&lt;/b&gt;.</string>
@@ -1433,7 +1433,7 @@
   <string name="talk_warn_saved_messages">Opgeslagen berichten</string>
   <string name="talk_page_empty">Deze overlegpagina is leeg.</string>
   <string name="talk_page_empty_title">Het overleg begint hier</string>
-  <string name="talk_page_empty_content">Op overlegpagina\'s wordt besproken hoe de inhoud van Wikipedia zo goed mogelijk kan worden gemaakt. Voeg een een nieuw gespreksonderwerp toe om in contact te komen en samen te werken met een gemeenschap van Wikipedianen.</string>
+  <string name="talk_page_empty_content">Op overlegpagina\'s wordt besproken hoe de inhoud van Infopedia zo goed mogelijk kan worden gemaakt. Voeg een een nieuw gespreksonderwerp toe om in contact te komen en samen te werken met een gemeenschap van Infopedianen.</string>
   <string name="talk_add_reply">Reageren</string>
   <string name="talk_no_subject">(Geen onderwerp)</string>
   <string name="talk_reply_subject">Onderwerp</string>
@@ -1447,9 +1447,9 @@
   <string name="talk_last_modified">&lt;b&gt;Laatst bewerkt %1$s&lt;/b&gt; door %2$s</string>
   <string name="talk_snackbar_survey_text">Bedankt voor het gebruiken van overlegpagina\'s. Zou u ons willen helpen de app te verbeteren, door een vragenlijst in te vullen?</string>
   <string name="talk_snackbar_survey_action_text">Aan de slag</string>
-  <string name="talk_share_discussion_subject">Wikipedia - discussie over overlegpagina-onderwerp \"%s\"</string>
-  <string name="talk_share_talk_page">Wikipedia - discussies op overlegpagina</string>
-  <string name="talk_edit_disclaimer">Dit is een overlegpagina. Respecteer de richtlijnen van de overlegpagina en vergeet niet om uw berichten te ondertekenen door vier tildes te typen: ~~~~ wanneer u een bericht plaatst met wikitekst.&lt;br&gt;&lt;br&gt;&lt;a href=\"https://en.wikipedia.org/wiki/ Wikipedia:Talk_page_guidelines\"&gt;Richtlijnen voor overlegpagina\'s&lt;/a&gt; op de Engelstalige Wikipedia</string>
+  <string name="talk_share_discussion_subject">Infopedia - discussie over overlegpagina-onderwerp \"%s\"</string>
+  <string name="talk_share_talk_page">Infopedia - discussies op overlegpagina</string>
+  <string name="talk_edit_disclaimer">Dit is een overlegpagina. Respecteer de richtlijnen van de overlegpagina en vergeet niet om uw berichten te ondertekenen door vier tildes te typen: ~~~~ wanneer u een bericht plaatst met wikitekst.&lt;br&gt;&lt;br&gt;&lt;a href=\"https://en.Infopedia.org/wiki/ Infopedia:Talk_page_guidelines\"&gt;Richtlijnen voor overlegpagina\'s&lt;/a&gt; op de Engelstalige Infopedia</string>
   <string name="talk_search_hint">Berichten zoeken</string>
   <string name="talk_search_topics_hint">Zoeken naar onderwerpen</string>
   <string name="talk_search_find_in_talk_topics_hint">Zoek in overlegpagina-onderwerp</string>
@@ -1480,7 +1480,7 @@
   <string name="talk_list_item_swipe_mark_as_read">Gelezen</string>
   <string name="talk_list_item_swipe_mark_as_unread">Ongelezen</string>
   <string name="talk_login_to_subscribe_dialog_title">Meld u aan om u op onderwerpen te abonneren</string>
-  <string name="talk_login_to_subscribe_dialog_content">Met onderwerpabonnementen kunt u meldingen ontvangen over nieuwe reacties in dit onderwerp. Maak een account aan of meld u aan bij uw Wikipedia-account om u te abonneren op een onderwerp.</string>
+  <string name="talk_login_to_subscribe_dialog_content">Met onderwerpabonnementen kunt u meldingen ontvangen over nieuwe reacties in dit onderwerp. Maak een account aan of meld u aan bij uw Infopedia-account om u te abonneren op een onderwerp.</string>
   <string name="talk_archived_title">Overlegarchief: %s</string>
   <string name="menu_option_share_talk_discussion">Deel overleg</string>
   <string name="menu_option_share_talk_page">Overlegpagina delen</string>
@@ -1500,7 +1500,7 @@
   <string name="thank_label">Bedanken</string>
   <string name="view_user_page">Gebruikerspagina bekijken</string>
   <string name="thank_dialog_title_text">Openbaar een bedankje sturen</string>
-  <string name="thank_dialog_text">\'Bedankjes\' zijn een gemakkelijke manier om waardering te tonen voor het werk van een bewerker op Wikipedia. \'Bedankjes\' kunnen niet ongedaan worden gemaakt en zijn openbaar zichtbaar</string>
+  <string name="thank_dialog_text">\'Bedankjes\' zijn een gemakkelijke manier om waardering te tonen voor het werk van een bewerker op Infopedia. \'Bedankjes\' kunnen niet ongedaan worden gemaakt en zijn openbaar zichtbaar</string>
   <string name="thank_dialog_positive_button_text">Bedankje sturen</string>
   <string name="thank_dialog_negative_button_text">Annuleren</string>
   <string name="thank_success_message">Uw bedankje is verstuurd naar %s 👍</string>
@@ -1632,7 +1632,7 @@
   <string name="shareable_reading_lists_new_imported_snackbar">Leeslijst geïmporteerd</string>
   <string name="reading_list_share_menu_label">Delen…</string>
   <string name="reading_list_share_menu_tooltip">Deel deze leeslijst met anderen</string>
-  <string name="reading_list_share_message_v2">Hallo! Ik wil graag mijn Wikipedia-leeslijst met u delen:</string>
+  <string name="reading_list_share_message_v2">Hallo! Ik wil graag mijn Infopedia-leeslijst met u delen:</string>
   <string name="talk_templates_empty_message">Maak uw eigen berichten of gebruik &lt;a href=\"#\"&gt;voorbeeldberichten&lt;/a&gt; om aan de slag te gaan.</string>
   <string name="talk_templates_new_message_title">Nieuw bericht</string>
   <string name="talk_templates_new_message_subject_hint">Onderwerp</string>
@@ -1727,8 +1727,8 @@
   <string name="patroller_tasks_patrol_edit_snackbar_view">Bekijken</string>
   <string name="patroller_tasks_overflow_report">Probleem met functie</string>
   <string name="patroller_tasks_overflow_learn">Meer lezen</string>
-  <string name="patroller_onboarding_one_title">Draag bij aan het toezicht op en de goedkeuring van Wikipedia-bewerkingen.</string>
-  <string name="patroller_onboarding_one_content">Verbeter de kwaliteit van Wikipedia-inhoud door een feed met recente bewerkingen actief te beoordelen en andere bewerkers begeleiding, kwaliteitscontrole en aanmoediging te bieden.</string>
+  <string name="patroller_onboarding_one_title">Draag bij aan het toezicht op en de goedkeuring van Infopedia-bewerkingen.</string>
+  <string name="patroller_onboarding_one_content">Verbeter de kwaliteit van Infopedia-inhoud door een feed met recente bewerkingen actief te beoordelen en andere bewerkers begeleiding, kwaliteitscontrole en aanmoediging te bieden.</string>
   <string name="patroller_onboarding_two_title">Geef terugkoppeling, controleer bewerkingen en voer handelingen uit op het wijzigingenscherm</string>
   <string name="patroller_onboarding_two_thank_title">Bedanken</string>
   <string name="patroller_onboarding_two_thank_content">Ziet u een productieve bewerking? Bedank een gebruiker voor diens bijdrage.</string>
@@ -1755,17 +1755,17 @@
   <string name="patroller_saved_message_title_do_not_censor">Niet censureren</string>
   <string name="patroller_saved_message_title_art_imp">Suggestie voor paginaverbetering</string>
   <string name="patroller_saved_message_body_vandalism">Hallo {{{username}}}, ik heb een of meer van uw [{{{diffLink}}}|recente bijdragen] teruggedraaid omdat ze er niet constructief uitzien. Als u vindt dat ik een fout heb gemaakt of als u vragen hebt, kunt u een bericht achterlaten op [[User talk:{{{senderUserName}}}|mijn overlegpagina]]. Houd er rekening mee dat aanhoudend vandalisme tot beperkingen kan leiden.</string>
-  <string name="patroller_saved_message_body_editing_tests">Hallo {{{username}}}, ik ben blij dat Wikipedia uw aandacht heeft getrokken en dat u hebt willen leren bewerken. Uw bewerkingstest is geslaagd. Maar vergeet niet dat het doel van dit project is om een betrouwbare en volledige encyclopedie te ontwikkelen die iedereen kan raadplegen. Uw bewerking heeft invloed gehad op de inhoud en is daarom verwijderd.\nAls u wilt leren hoe u Wikipedia moet bewerken, staat het [[Wikipedia:Zandbak|kladblok]] tot uw beschikking. Als uw opmerkingen specifiek betrekking hadden op een pagina, is de overlegpagina de juiste plaats.</string>
-  <string name="patroller_saved_message_body_npov">Hallo {{{username}}}, sommige bijdragen die u hebt geleverd voldoen niet aan de neutraliteit die vereist is door het beleid van deze Wikipedia omtrent het innemen van een [[Wikipedia:NPOV|neutraal standpunt]]. Daarom is bepaalde inhoud aangepast of verwijderd. Wijzig de alinea’s of secties die een eenzijdig standpunt weergeven en vervang ze door een meer neutrale en objectieve tekst, zoals van een encyclopedie kan worden verwacht.</string>
-  <string name="patroller_saved_message_body_auto_trans">Hallo {{{username}}}, sommige bijdragen die u hebt geleverd zijn mogelijk machinevertalingen. Daarom zijn ze aangepast of gemarkeerd met een sjabloon. Als er geen verbeteringen aan de pagina worden aangebracht, kunnen ze worden verwijderd.\n\nHebt u ondanks al deze informatie toch nog vragen, laat dan gerust een bericht achter op [[User talk:{{{senderUserName}}}|mijn overlegpagina]]. Laat u niet ontmoedigen door dit kleine voorval. Uw bijdragen zijn erg belangrijk voor Wikipedia.</string>
-  <string name="patroller_saved_message_body_coi_rem">Hallo {{{username}}}, ik waardeer uw medewerking aan Wikipedia. Ik heb echter gemerkt dat u te maken hebt met een [[Wikipedia:Belangenverstrengeling|belangenconflict]]. Een belangenconflict is de onverenigbaarheid tussen de doelstellingen van Wikipedia op het gebied van neutraliteit en betrouwbaarheid enerzijds en de specifieke doelstellingen van bepaalde bewerkers, individuen, entiteiten of bedrijven anderzijds.\n\nAlle bijdragen in de hoofdnaamruimte zijn onderworpen aan het beleid van inhoudscriteria van deze Wikipedia (zie [[Wikipedia:Wat Wikipedia niet is|Wat Wikipedia niet is]]), encyclopedische kwaliteit (zie [[Wikipedia:Verifieerbaarheid|Verifieerbaarheid]] en [[Wikipedia:Geen origineel onderzoek|Geen origineel onderzoek]]), redactionele methode (zie [[Wikipedia:NPOV|Neutraal standpunt]]) en legitimiteit van de inhoud (zie [[Wikipedia:Copyrights|Auteursrechten]]). Van alle bewerkers wordt verwacht dat zij zich aan dit beleid houden bij het maken en beoordelen van inhoud, en dat zij de handelingen van andere bewerkers om ervoor te zorgen dat dit beleid wordt nageleefd respecteren en daarbij uitgaan van goede wil.\n\nAls u met een belangenverstrengeling aan het bewerken bent, moet u het bijbehorende beleid met bijzondere zorg toepassen. Anders kan uw gebruikersaccount worden geblokkeerd. Als u vragen hebt, kunt u gerust contact met mij opnemen via mijn overlegpagina.</string>
-  <string name="patroller_saved_message_body_final_warning">Omdat u meerdere destructieve bewerkingen hebt aangebracht, is dit uw laatste waarschuwing. Als u Wikipedia opnieuw beschadigt, wordt u uitgesloten van het bewerken.</string>
-  <string name="patroller_saved_message_body_copy_vio">Het lijkt erop dat uw recente bewerking zonder toestemming auteursrechtelijk beschermd materiaal bevat. Zorg ervoor dat alle inhoud voldoet aan het [[Wikipedia:Copyrights|copyright]]-beleid van Wikipedia om verwijdering te voorkomen.</string>
-  <string name="patroller_saved_message_body_edit_summary">Hallo {{{username}}}, het lijkt erop dat u inhoud van Wikipedia hebt verwijderd zonder een bewerkingssamenvatting achter te laten. Laat een bewerkingssamenvatting achter wanneer u inhoud aan Wikipedia toevoegt of verwijdert.</string>
-  <string name="patroller_saved_message_body_do_not_censor">Hallo {{{username}}}, het lijkt erop dat u inhoud hebt verwijderd zonder dat eerst op de overlegpagina te bespreken. Houd er rekening mee dat Wikipedia niet wordt gecensureerd en dat inhoud niet mag worden verwijderd alleen omdat deze controversieel is. Als u vindt dat de informatie onjuist is, probeer dan overeenstemming te bereiken op de overlegpagina van de pagina.</string>
+  <string name="patroller_saved_message_body_editing_tests">Hallo {{{username}}}, ik ben blij dat Infopedia uw aandacht heeft getrokken en dat u hebt willen leren bewerken. Uw bewerkingstest is geslaagd. Maar vergeet niet dat het doel van dit project is om een betrouwbare en volledige encyclopedie te ontwikkelen die iedereen kan raadplegen. Uw bewerking heeft invloed gehad op de inhoud en is daarom verwijderd.\nAls u wilt leren hoe u Infopedia moet bewerken, staat het [[Infopedia:Zandbak|kladblok]] tot uw beschikking. Als uw opmerkingen specifiek betrekking hadden op een pagina, is de overlegpagina de juiste plaats.</string>
+  <string name="patroller_saved_message_body_npov">Hallo {{{username}}}, sommige bijdragen die u hebt geleverd voldoen niet aan de neutraliteit die vereist is door het beleid van deze Infopedia omtrent het innemen van een [[Infopedia:NPOV|neutraal standpunt]]. Daarom is bepaalde inhoud aangepast of verwijderd. Wijzig de alinea’s of secties die een eenzijdig standpunt weergeven en vervang ze door een meer neutrale en objectieve tekst, zoals van een encyclopedie kan worden verwacht.</string>
+  <string name="patroller_saved_message_body_auto_trans">Hallo {{{username}}}, sommige bijdragen die u hebt geleverd zijn mogelijk machinevertalingen. Daarom zijn ze aangepast of gemarkeerd met een sjabloon. Als er geen verbeteringen aan de pagina worden aangebracht, kunnen ze worden verwijderd.\n\nHebt u ondanks al deze informatie toch nog vragen, laat dan gerust een bericht achter op [[User talk:{{{senderUserName}}}|mijn overlegpagina]]. Laat u niet ontmoedigen door dit kleine voorval. Uw bijdragen zijn erg belangrijk voor Infopedia.</string>
+  <string name="patroller_saved_message_body_coi_rem">Hallo {{{username}}}, ik waardeer uw medewerking aan Infopedia. Ik heb echter gemerkt dat u te maken hebt met een [[Infopedia:Belangenverstrengeling|belangenconflict]]. Een belangenconflict is de onverenigbaarheid tussen de doelstellingen van Infopedia op het gebied van neutraliteit en betrouwbaarheid enerzijds en de specifieke doelstellingen van bepaalde bewerkers, individuen, entiteiten of bedrijven anderzijds.\n\nAlle bijdragen in de hoofdnaamruimte zijn onderworpen aan het beleid van inhoudscriteria van deze Infopedia (zie [[Infopedia:Wat Infopedia niet is|Wat Infopedia niet is]]), encyclopedische kwaliteit (zie [[Infopedia:Verifieerbaarheid|Verifieerbaarheid]] en [[Infopedia:Geen origineel onderzoek|Geen origineel onderzoek]]), redactionele methode (zie [[Infopedia:NPOV|Neutraal standpunt]]) en legitimiteit van de inhoud (zie [[Infopedia:Copyrights|Auteursrechten]]). Van alle bewerkers wordt verwacht dat zij zich aan dit beleid houden bij het maken en beoordelen van inhoud, en dat zij de handelingen van andere bewerkers om ervoor te zorgen dat dit beleid wordt nageleefd respecteren en daarbij uitgaan van goede wil.\n\nAls u met een belangenverstrengeling aan het bewerken bent, moet u het bijbehorende beleid met bijzondere zorg toepassen. Anders kan uw gebruikersaccount worden geblokkeerd. Als u vragen hebt, kunt u gerust contact met mij opnemen via mijn overlegpagina.</string>
+  <string name="patroller_saved_message_body_final_warning">Omdat u meerdere destructieve bewerkingen hebt aangebracht, is dit uw laatste waarschuwing. Als u Infopedia opnieuw beschadigt, wordt u uitgesloten van het bewerken.</string>
+  <string name="patroller_saved_message_body_copy_vio">Het lijkt erop dat uw recente bewerking zonder toestemming auteursrechtelijk beschermd materiaal bevat. Zorg ervoor dat alle inhoud voldoet aan het [[Infopedia:Copyrights|copyright]]-beleid van Infopedia om verwijdering te voorkomen.</string>
+  <string name="patroller_saved_message_body_edit_summary">Hallo {{{username}}}, het lijkt erop dat u inhoud van Infopedia hebt verwijderd zonder een bewerkingssamenvatting achter te laten. Laat een bewerkingssamenvatting achter wanneer u inhoud aan Infopedia toevoegt of verwijdert.</string>
+  <string name="patroller_saved_message_body_do_not_censor">Hallo {{{username}}}, het lijkt erop dat u inhoud hebt verwijderd zonder dat eerst op de overlegpagina te bespreken. Houd er rekening mee dat Infopedia niet wordt gecensureerd en dat inhoud niet mag worden verwijderd alleen omdat deze controversieel is. Als u vindt dat de informatie onjuist is, probeer dan overeenstemming te bereiken op de overlegpagina van de pagina.</string>
   <string name="talk_warn_learn_more_label">Meer informatie over tijdelijke aanduidingen voor berichten</string>
   <string name="talk_warn_saved_messages_usage_instruction">Gebruik een voorbeeldbericht hieronder om uw berichten aan te passen, te verzenden en op te slaan.</string>
-  <string name="patroller_saved_message_body_art_imp">Hallo {{{gebruikersnaam}}}. Uw pagina is een mooi begin! Om het nog beter te maken, kunt u overwegen om meer verwijzingen naar betrouwbare bronnen toe te voegen. Dit helpt de informatie te verifiëren en verbetert de kwaliteit van de pagina. Bekijk de richtlijnen van Wikipedia over [[Wikipedia:Betrouwbare_bronnen|betrouwbare bronnen]] voor meer details.</string>
+  <string name="patroller_saved_message_body_art_imp">Hallo {{{gebruikersnaam}}}. Uw pagina is een mooi begin! Om het nog beter te maken, kunt u overwegen om meer verwijzingen naar betrouwbare bronnen toe te voegen. Dit helpt de informatie te verifiëren en verbetert de kwaliteit van de pagina. Bekijk de richtlijnen van Infopedia over [[Infopedia:Betrouwbare_bronnen|betrouwbare bronnen]] voor meer details.</string>
   <string name="talk_templates_menu_edit_title">Bewerken</string>
   <string name="data_opt_in_accept">Aanvaarden</string>
   <string name="data_opt_in_reject">Afwijzen</string>
@@ -1776,7 +1776,7 @@
   <string name="email_report_patroller_tasks_subject">Probleemmelding: functie bewerkingscontrole</string>
   <string name="email_report_patroller_tasks_body">Ik ben een probleem tegengekomen met de functie bewerkingscontrole:\n- [Beschrijf precies het probleem]\n\nHet gedrag dat ik wil zien is:\n- [Beschrijf de voorgestelde oplossing]\n\n[Schermafbeeldingen of koppelingen]</string>
   <string name="donation_campaign_maybe_later_snackbar">Morgen herinneren wij u er nogmaals aan.</string>
-  <string name="donation_campaign_donated_snackbar">Bedankt, beste donateur! Dankzij uw bijdrage kunnen Wikipedia en andere projecten voor vrije kennis zich blijven ontwikkelen.</string>
+  <string name="donation_campaign_donated_snackbar">Bedankt, beste donateur! Dankzij uw bijdrage kunnen Infopedia en andere projecten voor vrije kennis zich blijven ontwikkelen.</string>
   <string name="donation_campaign_go_back_button">Terug</string>
   <string name="menu_single_webview_open_external">Openen in systeembrowser</string>
   <string name="donate_gpay_dialog_title">Doneren met Google Pay?</string>
@@ -1789,8 +1789,8 @@
   <string name="donate_gpay_check_recurring">Maak dit een maandelijks terugkerende donatie.</string>
   <string name="donate_gpay_check_send_email">Ja, de Wikimedia Foundation mag mij af en toe een e-mail sturen.</string>
   <string name="donate_gpay_minimum_amount">Selecteer een bedrag (minimaal %s)</string>
-  <string name="donate_gpay_maximum_amount">We kunnen via onze app geen donaties groter dan %s accepteren. Neem contact op met onze medewerkers voor grote donaties via benefactors@wikimedia.org.</string>
-  <string name="donate_gpay_success_message">&lt;b&gt;Bedankt!&lt;/b&gt; Uw vrijgevigheid voor Wikipedia betekent erg veel voor ons.</string>
+  <string name="donate_gpay_maximum_amount">We kunnen via onze app geen donaties groter dan %s accepteren. Neem contact op met onze medewerkers voor grote donaties via benefactors@infopedia.org.</string>
+  <string name="donate_gpay_success_message">&lt;b&gt;Bedankt!&lt;/b&gt; Uw vrijgevigheid voor Infopedia betekent erg veel voor ons.</string>
   <string name="donate_gpay_help_problems">Problemen bij het doneren?</string>
   <string name="donate_gpay_help_other_ways">Andere manieren om te geven</string>
   <string name="donate_gpay_help_faq">Veelgestelde vragen</string>
@@ -1806,7 +1806,7 @@
   <string name="places_empty_list">Dit gebied is leeg. Zoom uit &lt;a href=\"#\"&gt;op de kaart&lt;/a&gt;.</string>
   <string name="places_card_title">Plaatsen in de buurt</string>
   <string name="places_card_action">Meer plaatsen in de buurt</string>
-  <string name="places_card_enable_location_card_message">Plaatsen is een kaartgebaseerde manier om Wikipedia te verkennen</string>
+  <string name="places_card_enable_location_card_message">Plaatsen is een kaartgebaseerde manier om Infopedia te verkennen</string>
   <string name="places_card_enable_location_card_button">Locatie inschakelen</string>
   <string name="places_card_distance_suffix">%s verderop</string>
   <string name="places_card_distance_unknown">Onbekende afstand</string>
@@ -1829,14 +1829,14 @@
   <string name="survey_dialog_input_hint">Aanvullende terugkoppeling</string>
   <string name="survey_dialog_submitted_snackbar">Terugkoppeling ingediend. Dank u wel!</string>
   <string name="games_hub_activity_title">Spellen</string>
-  <string name="games_hub_activity_games_unavailable_message">Er zijn nog geen spellen beschikbaar in deze taal! De spellen maken gebruik van inhoud die door vrijwillige bewerkers voor de betreffende Wikipedia-pagina\'s is gemaakt.</string>
+  <string name="games_hub_activity_games_unavailable_message">Er zijn nog geen spellen beschikbaar in deze taal! De spellen maken gebruik van inhoud die door vrijwillige bewerkers voor de betreffende Infopedia-pagina\'s is gemaakt.</string>
   <string name="games_hub_activity_games_unavailable_message_learn_more_action">Meer lezen</string>
   <string name="games_hub_activity_overflow_view_game_stats">Spelstatistieken bekijken</string>
   <string name="games_hub_activity_overflow_learn_more">Meer lezen</string>
   <string name="on_this_day_game_entry_dialog_title">Welkom bij</string>
-  <string name="on_this_day_game_entry_dialog_subtitle">Wikipedia-spellen</string>
+  <string name="on_this_day_game_entry_dialog_subtitle">Infopedia-spellen</string>
   <string name="on_this_day_game_entry_dialog_button">Spelen</string>
-  <string name="on_this_day_game_entry_dialog_snackbar_message">Wikipedia-spellen zijn beschikbaar in de Spellenhub, te vinden in het menu MEER.</string>
+  <string name="on_this_day_game_entry_dialog_snackbar_message">Infopedia-spellen zijn beschikbaar in de Spellenhub, te vinden in het menu MEER.</string>
   <string name="on_this_day_game_title">Wat gebeurde er eerst?</string>
   <string name="on_this_day_game_dialog_button">Spelen</string>
   <string name="on_this_day_game_splash_message">Raad welke gebeurtenis op deze dag in de geschiedenis als eerste plaatsvond.</string>
@@ -1849,7 +1849,7 @@
   <string name="on_this_day_game_next">Volgende vraag</string>
   <string name="on_this_day_game_finish">Eindresultaten</string>
   <string name="on_this_day_game_share_button">Score delen</string>
-  <string name="on_this_day_game_feed_entry_card_heading">Wikipedia-spellen</string>
+  <string name="on_this_day_game_feed_entry_card_heading">Infopedia-spellen</string>
   <string name="on_this_day_game_feed_entry_card_title">Wat gebeurde er eerst?</string>
   <string name="on_this_day_game_result">U hebt %1$d/%2$d behaald.</string>
   <string name="on_this_day_game_next_in">Volgend spel over %s</string>
@@ -1880,10 +1880,10 @@
   <string name="on_this_day_game_notification_turned_off_snackbar_message">Spelmeldingen uit.</string>
   <string name="on_this_day_game_notification_turned_on_snackbar_message">Spelmeldingen aan.</string>
   <string name="on_this_day_game_notification_text">Het “Wat gebeurde er eerst?”-spel van vandaag is klaar om te spelen.</string>
-  <string name="on_this_day_game_report_email_subject">Probleemmelding – Wikipedia-spellen</string>
-  <string name="on_this_day_game_report_email_body">Ik ben een probleem tegengekomen met de functie Wikipedia-spellen:\n- [Beschrijf precies het probleem]\n\nHet gedrag dat ik wil zien is:\n- [Beschrijf de voorgestelde oplossing]</string>
+  <string name="on_this_day_game_report_email_subject">Probleemmelding – Infopedia-spellen</string>
+  <string name="on_this_day_game_report_email_body">Ik ben een probleem tegengekomen met de functie Infopedia-spellen:\n- [Beschrijf precies het probleem]\n\nHet gedrag dat ik wil zien is:\n- [Beschrijf de voorgestelde oplossing]</string>
   <string name="on_this_day_game_notification_undo">Ongedaan maken</string>
-  <string name="on_this_day_game_share_link_message">Ik speel “Wat gebeurde er eerst?”, een dagelijks trivia-spel op de Wikipedia Android-app %s</string>
+  <string name="on_this_day_game_share_link_message">Ik speel “Wat gebeurde er eerst?”, een dagelijks trivia-spel op de Infopedia Android-app %s</string>
   <string name="on_this_day_game_share_screen_title">Vandaag heb ik %1$d/%2$d\nop “Wat kwam er eerst?”\ngescoord.</string>
   <string name="on_this_day_game_share_screen_subtitle">Aangesneden onderwerpen:</string>
   <string name="on_this_day_game_archive_calendar_title">Kies een spel op speeldatum.</string>
@@ -1906,11 +1906,11 @@
   <string name="on_this_day_game_stats_log_in_prompt_card_button">Aanmelden</string>
   <string name="on_this_day_game_stats_log_in_prompt_card_title">Meld u aan om uw spelstatistieken te bekijken</string>
   <string name="on_this_day_game_stats_log_in_prompt_card_description">Bekijk uw reeksen, scores en meer</string>
-  <string name="wikipedia_games_title">Wikipedia-spellen</string>
-  <string name="wikipedia_games_subtitle">Dagelijkse spellen gebaseerd op Wikipedia-inhoud.</string>
+  <string name="wikipedia_games_title">Infopedia-spellen</string>
+  <string name="wikipedia_games_subtitle">Dagelijkse spellen gebaseerd op Infopedia-inhoud.</string>
   <string name="year_in_review_learn_more">Meer lezen</string>
   <string name="year_in_review_get_started">Aan de slag</string>
-  <string name="year_in_review_topbar_w_icon">Wikipedia W-pictogram</string>
+  <string name="year_in_review_topbar_w_icon">Infopedia W-pictogram</string>
   <string name="year_in_review_navigate_left">Naar links navigeren</string>
   <string name="year_in_review_close">Sluiten</string>
   <string name="year_in_review_share_icon">Delen-pictogram</string>
@@ -1918,8 +1918,8 @@
   <string name="year_in_review_navigate_right">Naar rechts navigeren</string>
   <string name="year_in_review_donate">Doneren</string>
   <string name="year_in_review_information_icon">Informatiepictogram</string>
-  <string name="year_in_review_get_started_headline">Verken uw jaaroverzicht van Wikipedia</string>
-  <string name="year_in_review_get_started_bodytext">Bekijk inzichten in welke pagina\'s u in de Wikipedia-app hebt gelezen en de bewerkingen die u hebt aangebracht.</string>
+  <string name="year_in_review_get_started_headline">Verken uw jaaroverzicht van Infopedia</string>
+  <string name="year_in_review_get_started_bodytext">Bekijk inzichten in welke pagina\'s u in de Infopedia-app hebt gelezen en de bewerkingen die u hebt aangebracht.</string>
   <string name="year_in_review_get_started_info">Uw leesgeschiedenis blijft beschermd. De leesinzichten worden berekend op basis van lokaal op uw apparaat opgeslagen gegevens.</string>
   <string name="year_in_review_get_started_later">U kunt uw Jaaroverzicht later via het menu Meer bekijken.</string>
   <string name="year_in_review_survey_title">Help het Jaaroverzicht te verbeteren</string>
@@ -1940,17 +1940,17 @@
   <string name="year_in_review_setting_subtitle">Als u het jaaroverzicht uitschakelt, worden alle opgeslagen gepersonaliseerde inzichten gewist en wordt het jaaroverzicht verborgen.</string>
   <string name="year_in_review_screendeck_image_content_description">Beeldbron voor het paneel op het hoofdscherm van het Jaaroverzicht</string>
   <string name="year_in_review_screenshot_error">Kon geen schermafbeelding genereren: %s</string>
-  <string name="year_in_review_share_subject">Mijn Wikipedia-jaaroverzicht</string>
-  <string name="year_in_review_share_body">Hier is mijn Wikipedia-jaaroverzicht. Gemaakt met de Wikipedia Android-app %1$s %2$s</string>
+  <string name="year_in_review_share_subject">Mijn Infopedia-jaaroverzicht</string>
+  <string name="year_in_review_share_body">Hier is mijn Infopedia-jaaroverzicht. Gemaakt met de Infopedia Android-app %1$s %2$s</string>
   <string name="year_in_review_globe_icon">Wereldbol-pictogram</string>
   <string name="settings_app_icon_title">Apppictogram</string>
   <string name="settings_app_icon_subtitle">Bijdragervoordeel</string>
-  <string name="settings_app_icon_preference_subtitle">U hebt toegang tot een aangepast pictogram waarmee uw %d via de app gemaakte bijdragen aan Wikipedia worden gevierd. Het blijft staan tot het volgende Jaaroverzicht.</string>
+  <string name="settings_app_icon_preference_subtitle">U hebt toegang tot een aangepast pictogram waarmee uw %d via de app gemaakte bijdragen aan Infopedia worden gevierd. Het blijft staan tot het volgende Jaaroverzicht.</string>
   <string name="settings_app_icon_updated">Uw apppictogram is bijgewerkt.</string>
   <string name="year_in_review_slide_app_icon_title_unlocked">Nieuw apppictogram ontgrendeld voor uw startscherm</string>
   <string name="year_in_review_slide_app_icon_title_unlock">Ontgrendel uw bijdragersbeloning voor volgend jaar!</string>
-  <string name="year_in_review_slide_app_icon_body_unlocked">Activeer uw nieuwe apppictogram in de Instellingen onder Apppictogram. Bedankt voor het investeren in de toekomst van de vrije kennis. Uw bijdragen als %1$s in %2$d helpen de weg vrij te maken naar een wereld van vrije informatie. Daarom is nu voor u een eigen bijdragerspictogram ontsloten voor Wikipedia op uw startscherm.</string>
-  <string name="year_in_review_slide_app_icon_body_unlock">Wat fijn dat Wikipedia deel uitmaakte van uw jaar %1$d! Ontgrendel met uw bijdragen een speciale beloning in uw Jaaroverzicht %2$d. Dat doet u door &lt;a href=\"%3$s\"&gt;Wikipedia te bewerken&lt;/a&gt; of door vanuit de app te doneren aan de &lt;a href=\"%4$s\"&gt;Wikimedia Foundation&lt;/a&gt;, de non-profitorganisatie erachter. Als Wikipedia dit jaar voor u behulpzaam is geweest, overweeg dan te doneren zodat Wikipedia ook in de toekomst voor iedereen gratis, advertentievrij, betrouwbaar en toegankelijk blijft. Als u ergens anders hebt gedoneerd, stellen we uw steun zeer op prijs.</string>
+  <string name="year_in_review_slide_app_icon_body_unlocked">Activeer uw nieuwe apppictogram in de Instellingen onder Apppictogram. Bedankt voor het investeren in de toekomst van de vrije kennis. Uw bijdragen als %1$s in %2$d helpen de weg vrij te maken naar een wereld van vrije informatie. Daarom is nu voor u een eigen bijdragerspictogram ontsloten voor Infopedia op uw startscherm.</string>
+  <string name="year_in_review_slide_app_icon_body_unlock">Wat fijn dat Infopedia deel uitmaakte van uw jaar %1$d! Ontgrendel met uw bijdragen een speciale beloning in uw Jaaroverzicht %2$d. Dat doet u door &lt;a href=\"%3$s\"&gt;Infopedia te bewerken&lt;/a&gt; of door vanuit de app te doneren aan de &lt;a href=\"%4$s\"&gt;Wikimedia Foundation&lt;/a&gt;, de non-profitorganisatie erachter. Als Infopedia dit jaar voor u behulpzaam is geweest, overweeg dan te doneren zodat Infopedia ook in de toekomst voor iedereen gratis, advertentievrij, betrouwbaar en toegankelijk blijft. Als u ergens anders hebt gedoneerd, stellen we uw steun zeer op prijs.</string>
   <string name="year_in_review_slide_app_icon_donor">donateur</string>
   <string name="year_in_review_slide_app_icon_editor">een bewerker</string>
   <string name="year_in_review_slide_app_icon_donor_and_editor">donateur en bewerker</string>
@@ -1958,7 +1958,7 @@
   <string name="year_in_review_slide_geo_body">Het land dat het dichtst bij veel pagina\'s die u hebt gelezen ligt, lijkt %1$s te zijn, gebaseerd op pagina\'s als &lt;b&gt;%2$s&lt;/b&gt; en &lt;b&gt;%3$s&lt;/b&gt;.</string>
   <string name="year_in_review_login_dialog_title">Aanmelden voor personalisering?</string>
   <string name="year_in_review_login_dialog_body">Door u aan te melden krijgt u toegang tot gepersonaliseerde inzichten. De collectieve inzichten kunt u ook bekijken zonder u aan te melden.</string>
-  <string name="year_in_review_login_dialog_positive">Aanmelden / Inschrijven bij Wikipedia</string>
+  <string name="year_in_review_login_dialog_positive">Aanmelden / Inschrijven bij Infopedia</string>
   <string name="year_in_review_login_dialog_negative">Doorgaan zonder aan te melden</string>
   <plurals name="year_in_review_slide_top_articles_headline">
     <item quantity="one">Uw toppagina</item>
@@ -1970,22 +1970,22 @@
   </plurals>
   <string name="year_in_review_slide_top_categories_headline">Uw interessantste categorieën</string>
   <string name="year_in_review_slide_top_categories_body">In categorieën worden pagina\'s over vergelijkbare onderwerpen gegroepeerd. In %1$d bezocht u meermaals pagina\'s in deze interessante categorieën: %2$s</string>
-  <string name="year_in_review_slide_most_read_english_articles_headline">De meest gelezen pagina\'s op de Engelstalige Wikipedia</string>
+  <string name="year_in_review_slide_most_read_english_articles_headline">De meest gelezen pagina\'s op de Engelstalige Infopedia</string>
   <plurals name="year_in_review_slide_most_read_english_articles_body">
-    <item quantity="one">Als mensen meer willen weten over onze wereld -goed, slecht en opmerkelijk - wenden ze zich tot Wikipedia. De meest bezochte pagina op de Engelstalige Wikipedia was: %2$s &lt;br /&gt;Lees er meer over in onze &lt;a href=\"%3$s\"&gt;blogpost&lt;/a&gt;.</item>
-    <item quantity="other">Als mensen meer willen weten over onze wereld - goed, slecht en opmerkelijk - wenden ze zich tot Wikipedia. De %1$d meest bezochte pagina\'s op de Engelstalige Wikipedia waren: %2$s &lt;br /&gt;Lees er meer over in onze &lt;a href=\"%3$s\"&gt;blogpost&lt;/a&gt;.</item>
+    <item quantity="one">Als mensen meer willen weten over onze wereld -goed, slecht en opmerkelijk - wenden ze zich tot Infopedia. De meest bezochte pagina op de Engelstalige Infopedia was: %2$s &lt;br /&gt;Lees er meer over in onze &lt;a href=\"%3$s\"&gt;blogpost&lt;/a&gt;.</item>
+    <item quantity="other">Als mensen meer willen weten over onze wereld - goed, slecht en opmerkelijk - wenden ze zich tot Infopedia. De %1$d meest bezochte pagina\'s op de Engelstalige Infopedia waren: %2$s &lt;br /&gt;Lees er meer over in onze &lt;a href=\"%3$s\"&gt;blogpost&lt;/a&gt;.</item>
   </plurals>
   <plurals name="year_in_review_slide_edits_viewed_times_headline">
     <item quantity="one">Uw bewerking is onlangs meer dan %,d keer bekeken</item>
     <item quantity="other">Uw bewerkingen zijn onlangs meer dan %,d keer bekeken</item>
   </plurals>
   <plurals name="year_in_review_slide_edits_viewed_times_body">
-    <item quantity="one">Lezers over de hele wereld waarderen uw bijdragen. In de afgelopen twee maanden zijn de pagina\'s die u hebt bewerkt in totaal %,d keer bekeken. Dankzij bewerkers zoals u is Wikipedia een gestaag verbeterende, op feiten gebaseerde en betrouwbare kennisbron voor de wereld.</item>
-    <item quantity="other">Lezers over de hele wereld waarderen uw bijdragen. In de afgelopen twee maanden zijn de pagina\'s die u hebt bewerkt in totaal %,d keer bekeken. Dankzij bewerkers zoals u is Wikipedia een gestaag verbeterende, op feiten gebaseerde en betrouwbare kennisbron voor de wereld.</item>
+    <item quantity="one">Lezers over de hele wereld waarderen uw bijdragen. In de afgelopen twee maanden zijn de pagina\'s die u hebt bewerkt in totaal %,d keer bekeken. Dankzij bewerkers zoals u is Infopedia een gestaag verbeterende, op feiten gebaseerde en betrouwbare kennisbron voor de wereld.</item>
+    <item quantity="other">Lezers over de hele wereld waarderen uw bijdragen. In de afgelopen twee maanden zijn de pagina\'s die u hebt bewerkt in totaal %,d keer bekeken. Dankzij bewerkers zoals u is Infopedia een gestaag verbeterende, op feiten gebaseerde en betrouwbare kennisbron voor de wereld.</item>
   </plurals>
   <plurals name="year_in_review_slide_edited_per_minute_headline">
-    <item quantity="one">Wikipedia werd %,d keer per minuut bewerkt</item>
-    <item quantity="other">Wikipedia werd %,d keer per minuut bewerkt</item>
+    <item quantity="one">Infopedia werd %,d keer per minuut bewerkt</item>
+    <item quantity="other">Infopedia werd %,d keer per minuut bewerkt</item>
   </plurals>
   <string name="year_in_review_slide_edited_per_minute_body">Pagina\'s worden gezamenlijk gemaakt en verbeterd met behulp van betrouwbare bronnen. We hebben allemaal kennis te delen. &lt;a href=\"%s\"&gt;Lees hier hoe u kunt deelnemen&lt;/a&gt;.</string>
   <plurals name="year_in_review_slide_bytes_added_headline">
@@ -1993,41 +1993,41 @@
     <item quantity="other">%,d bytes toegevoegd</item>
   </plurals>
   <plurals name="year_in_review_slide_bytes_added_body">
-    <item quantity="one">In %1$d voegden vrijwilligers %2$,d byte toe aan de Engelstalige Wikipedia. De som van al hun gezamenlijke werk leidt tot een gestaag verbeterende, op feiten gebaseerde en betrouwbare kennisbron die ze aan de wereld aanbieden. We hebben allemaal kennis om te delen. &lt;a href=\"%3$s\"&gt;Lees hier hoe u kunt deelnemen&lt;/a&gt;.</item>
-    <item quantity="other">In %1$d voegden vrijwilligers %2$,d byte toe aan de Engelstalige Wikipedia. De som van al hun gezamenlijke werk leidt tot een gestaag verbeterende, op feiten gebaseerde en betrouwbare kennisbron die ze aan de wereld aanbieden. We hebben allemaal kennis om te delen. &lt;a href=\"%3$s\"&gt;Lees hier hoe u kunt deelnemen&lt;/a&gt;.</item>
+    <item quantity="one">In %1$d voegden vrijwilligers %2$,d byte toe aan de Engelstalige Infopedia. De som van al hun gezamenlijke werk leidt tot een gestaag verbeterende, op feiten gebaseerde en betrouwbare kennisbron die ze aan de wereld aanbieden. We hebben allemaal kennis om te delen. &lt;a href=\"%3$s\"&gt;Lees hier hoe u kunt deelnemen&lt;/a&gt;.</item>
+    <item quantity="other">In %1$d voegden vrijwilligers %2$,d byte toe aan de Engelstalige Infopedia. De som van al hun gezamenlijke werk leidt tot een gestaag verbeterende, op feiten gebaseerde en betrouwbare kennisbron die ze aan de wereld aanbieden. We hebben allemaal kennis om te delen. &lt;a href=\"%3$s\"&gt;Lees hier hoe u kunt deelnemen&lt;/a&gt;.</item>
   </plurals>
   <plurals name="year_in_review_slide_edited_times_headline">
     <item quantity="one">U hebt één keer bewerkt</item>
     <item quantity="other">U hebt %s keer bewerkt</item>
   </plurals>
   <plurals name="year_in_review_slide_edited_times_body">
-    <item quantity="one">Bedankt dat u een van de vrijwillige bewerkers bent die het verschil maakt in Wikimedia-projecten over de hele wereld. Vrijwilligers zoals u hebben %,d wijziging aangebracht in meer dan 300 verschillende taaledities van Wikipedia.</item>
-    <item quantity="other">Bedankt dat u een van de vrijwillige bewerkers bent die het verschil maakt in Wikimedia-projecten over de hele wereld. Vrijwilligers zoals u hebben %,d wijzigingen aangebracht in meer dan 300 verschillende taaledities van Wikipedia.</item>
+    <item quantity="one">Bedankt dat u een van de vrijwillige bewerkers bent die het verschil maakt in Wikimedia-projecten over de hele wereld. Vrijwilligers zoals u hebben %,d wijziging aangebracht in meer dan 300 verschillende taaledities van Infopedia.</item>
+    <item quantity="other">Bedankt dat u een van de vrijwillige bewerkers bent die het verschil maakt in Wikimedia-projecten over de hele wereld. Vrijwilligers zoals u hebben %,d wijzigingen aangebracht in meer dan 300 verschillende taaledities van Infopedia.</item>
   </plurals>
   <plurals name="year_in_review_slide_app_edited_times_headline">
-    <item quantity="one">Bewerkers op de officiële Wikipedia-apps hebben %,d bewerking uitgevoerd</item>
-    <item quantity="other">Bewerkers op de officiële Wikipedia-apps hebben %,d bewerkingen uitgevoerd</item>
+    <item quantity="one">Bewerkers op de officiële Infopedia-apps hebben %,d bewerking uitgevoerd</item>
+    <item quantity="other">Bewerkers op de officiële Infopedia-apps hebben %,d bewerkingen uitgevoerd</item>
   </plurals>
-  <string name="year_in_review_slide_app_edited_times_body">Het hart en de ziel van Wikipedia zijn onze wereldwijde gemeenschap van vrijwillige bijdragers, donateurs en miljarden lezers zoals u – allemaal verenigd om onbeperkte toegang te delen tot betrouwbare informatie.</string>
+  <string name="year_in_review_slide_app_edited_times_body">Het hart en de ziel van Infopedia zijn onze wereldwijde gemeenschap van vrijwillige bijdragers, donateurs en miljarden lezers zoals u – allemaal verenigd om onbeperkte toegang te delen tot betrouwbare informatie.</string>
   <plurals name="year_in_review_slide_english_edited_times_headline">
     <item quantity="one">Bewerkers hebben dit jaar %,d wijziging aangebracht</item>
     <item quantity="other">Bewerkers hebben dit jaar %,d wijzigingen aangebracht</item>
   </plurals>
   <plurals name="year_in_review_slide_english_edited_times_body_first">
-    <item quantity="one">Vrijwilligers brachten %,d wijziging aan in meer dan 300 verschillende taaledities van Wikipedia.</item>
-    <item quantity="other">Vrijwilligers brachten %,d wijzigingen aan in meer dan 300 verschillende taaledities van Wikipedia.</item>
+    <item quantity="one">Vrijwilligers brachten %,d wijziging aan in meer dan 300 verschillende taaledities van Infopedia.</item>
+    <item quantity="other">Vrijwilligers brachten %,d wijzigingen aan in meer dan 300 verschillende taaledities van Infopedia.</item>
   </plurals>
   <plurals name="year_in_review_slide_english_edited_times_body_second">
-    <item quantity="one">Er is %,d wijziging aangebracht op de Engelstalige Wikipedia. Vrijwilligers werken elk uur van de dag aan het verbeteren van Wikipedia.</item>
-    <item quantity="other">Er zijn %,d wijzigingen aangebracht op de Engelstalige Wikipedia. Vrijwilligers werken elk uur van de dag aan het verbeteren van Wikipedia.</item>
+    <item quantity="one">Er is %,d wijziging aangebracht op de Engelstalige Infopedia. Vrijwilligers werken elk uur van de dag aan het verbeteren van Infopedia.</item>
+    <item quantity="other">Er zijn %,d wijzigingen aangebracht op de Engelstalige Infopedia. Vrijwilligers werken elk uur van de dag aan het verbeteren van Infopedia.</item>
   </plurals>
   <plurals name="year_in_review_slide_saved_articles_headline">
     <item quantity="one">U hebt %,d pagina opgeslagen</item>
     <item quantity="other">U hebt %,d pagina\'s opgeslagen</item>
   </plurals>
   <plurals name="year_in_review_slide_saved_articles_body">
-    <item quantity="one">Deze pagina\'s bevatten &lt;b&gt;%1$s&lt;/b&gt;, &lt;b&gt;%2$s&lt;/b&gt; en &lt;b&gt;%3$s&lt;/b&gt;. Elke opgeslagen pagina weerspiegelt uw interesses en helpt bij het opbouwen van een gepersonaliseerde kennisbank op Wikipedia.&lt;br /&gt;&lt;br /&gt;Actieve appgebruikers hebben dit jaar %4$,d pagina opgeslagen.</item>
-    <item quantity="other">Deze pagina\'s bevatten &lt;b&gt;%1$s&lt;/b&gt; , &lt;b&gt;%2$s&lt;/b&gt; en &lt;b&gt;%3$s&lt;/b&gt;. Elke opgeslagen pagina weerspiegelt uw interesses en helpt bij het opbouwen van een gepersonaliseerde kennisbank op Wikipedia.&lt;br /&gt;&lt;br /&gt; Actieve appgebruikers hebben dit jaar %4$,d pagina\'s opgeslagen.</item>
+    <item quantity="one">Deze pagina\'s bevatten &lt;b&gt;%1$s&lt;/b&gt;, &lt;b&gt;%2$s&lt;/b&gt; en &lt;b&gt;%3$s&lt;/b&gt;. Elke opgeslagen pagina weerspiegelt uw interesses en helpt bij het opbouwen van een gepersonaliseerde kennisbank op Infopedia.&lt;br /&gt;&lt;br /&gt;Actieve appgebruikers hebben dit jaar %4$,d pagina opgeslagen.</item>
+    <item quantity="other">Deze pagina\'s bevatten &lt;b&gt;%1$s&lt;/b&gt; , &lt;b&gt;%2$s&lt;/b&gt; en &lt;b&gt;%3$s&lt;/b&gt;. Elke opgeslagen pagina weerspiegelt uw interesses en helpt bij het opbouwen van een gepersonaliseerde kennisbank op Infopedia.&lt;br /&gt;&lt;br /&gt; Actieve appgebruikers hebben dit jaar %4$,d pagina\'s opgeslagen.</item>
   </plurals>
   <plurals name="year_in_review_slide_global_saved_articles_headline">
     <item quantity="one">Appgebruikers hebben %,d pagina opgeslagen</item>
@@ -2053,16 +2053,16 @@
     <item quantity="other">Mensen hebben naar schatting %,d uur besteed</item>
   </plurals>
   <plurals name="year_in_review_slide_english_reading_hours_body_second">
-    <item quantity="one">—ongeveer %1$,d jaar!—de Engelse Wikipedia lezen in %2$d . Wikipedia is er wanneer u meer wilt weten over onze veranderende wereld, een weddenschap met vrienden wilt winnen of de nieuwsgierige vraag van een kind wilt beantwoorden.</item>
-    <item quantity="other">—ongeveer %1$,d jaar!—de Engelse Wikipedia lezen in %2$d . Wikipedia is er wanneer u meer wilt weten over onze veranderende wereld, een weddenschap met vrienden wilt winnen of de nieuwsgierige vraag van een kind wilt beantwoorden.</item>
+    <item quantity="one">—ongeveer %1$,d jaar!—de Engelse Infopedia lezen in %2$d . Infopedia is er wanneer u meer wilt weten over onze veranderende wereld, een weddenschap met vrienden wilt winnen of de nieuwsgierige vraag van een kind wilt beantwoorden.</item>
+    <item quantity="other">—ongeveer %1$,d jaar!—de Engelse Infopedia lezen in %2$d . Infopedia is er wanneer u meer wilt weten over onze veranderende wereld, een weddenschap met vrienden wilt winnen of de nieuwsgierige vraag van een kind wilt beantwoorden.</item>
   </plurals>
   <plurals name="year_in_review_slide_available_languages_headline">
-    <item quantity="one">Wikipedia was beschikbaar in meer dan %,d taal</item>
-    <item quantity="other">Wikipedia was beschikbaar in meer dan %,d talen</item>
+    <item quantity="one">Infopedia was beschikbaar in meer dan %,d taal</item>
+    <item quantity="other">Infopedia was beschikbaar in meer dan %,d talen</item>
   </plurals>
   <plurals name="year_in_review_slide_available_languages_body_first">
-    <item quantity="one">Wikipedia had %,d pagina</item>
-    <item quantity="other">Wikipedia had %,d pagina\'s</item>
+    <item quantity="one">Infopedia had %,d pagina</item>
+    <item quantity="other">Infopedia had %,d pagina\'s</item>
   </plurals>
   <plurals name="year_in_review_slide_available_languages_body_second">
     <item quantity="one">in meer dan %,d actieve taal dit jaar. U hebt zich bij miljoenen anderen aangesloten die hun kennis hebben vergroot en diverse onderwerpen hebben verkend.</item>
@@ -2077,12 +2077,12 @@
     <item quantity="other">met het lezen van %1$,d pagina\'s in %2$d </item>
   </plurals>
   <plurals name="year_in_review_slide_spent_minutes_reading_body_top">
-    <item quantity="one">We schatten dat u hiermee tot de top %1$s%% van Wikipedia-lezers wereldwijd behoort. Gemiddeld leest iemand %2$,d pagina per jaar.</item>
-    <item quantity="other">We schatten dat u hiermee tot de top %1$s%% van Wikipedia-lezers wereldwijd behoort. Gemiddeld leest iemand %2$,d pagina\'s per jaar.</item>
+    <item quantity="one">We schatten dat u hiermee tot de top %1$s%% van Infopedia-lezers wereldwijd behoort. Gemiddeld leest iemand %2$,d pagina per jaar.</item>
+    <item quantity="other">We schatten dat u hiermee tot de top %1$s%% van Infopedia-lezers wereldwijd behoort. Gemiddeld leest iemand %2$,d pagina\'s per jaar.</item>
   </plurals>
   <plurals name="year_in_review_slide_spent_minutes_reading_body_global_first">
-    <item quantity="one">Wikipedia had %,d pagina</item>
-    <item quantity="other">Wikipedia had %,d pagina\'s</item>
+    <item quantity="one">Infopedia had %,d pagina</item>
+    <item quantity="other">Infopedia had %,d pagina\'s</item>
   </plurals>
   <plurals name="year_in_review_slide_spent_minutes_reading_body_global_second">
     <item quantity="one">in meer dan %,d actieve taal dit jaar. U hebt zich bij miljoenen anderen aangesloten die hun kennis hebben vergroot en diverse onderwerpen hebben verkend.</item>
@@ -2093,25 +2093,25 @@
     <item quantity="other">Mensen hebben naar schatting %,d uur besteed</item>
   </plurals>
   <plurals name="year_in_review_slide_spent_minutes_reading_body_english_second">
-    <item quantity="one">—ongeveer %1$,d jaar!—met het lezen van de Engelstalige Wikipedia in %2$d.</item>
-    <item quantity="other">—ongeveer %1$,d jaar!—met het lezen van de Engelstaige Wikipedia in %2$d.</item>
+    <item quantity="one">—ongeveer %1$,d jaar!—met het lezen van de Engelstalige Infopedia in %2$d.</item>
+    <item quantity="other">—ongeveer %1$,d jaar!—met het lezen van de Engelstaige Infopedia in %2$d.</item>
   </plurals>
   <plurals name="year_in_review_slide_viewed_articles_times_headline">
-    <item quantity="one">Appgebruikers bekeken Wikipedia-pagina\'s %,d keer</item>
-    <item quantity="other">Appgebruikers bekeken Wikipedia-pagina\'s %,d keer</item>
+    <item quantity="one">Appgebruikers bekeken Infopedia-pagina\'s %,d keer</item>
+    <item quantity="other">Appgebruikers bekeken Infopedia-pagina\'s %,d keer</item>
   </plurals>
-  <string name="year_in_review_slide_viewed_articles_times_body">Overal ter wereld gaan mensen eerst naar Wikipedia als ze het antwoord op een vraag zoeken, informatie voor school of werk nodig hebben, of gewoon iets nieuws willen leren.</string>
+  <string name="year_in_review_slide_viewed_articles_times_body">Overal ter wereld gaan mensen eerst naar Infopedia als ze het antwoord op een vraag zoeken, informatie voor school of werk nodig hebben, of gewoon iets nieuws willen leren.</string>
   <string name="year_in_review_reading_list_dialog_title">Uw leestlijst voor het Jaaroverzicht %d maken?</string>
-  <string name="year_in_review_reading_list_dialog_message">Wikipedia Jaaroverzicht maakt een leeslijst van de pagina\'s waar u de meeste tijd aan hebt besteed in %1$d. &lt;a href=\"%2$s\"&gt;Meer informatie&lt;/a&gt;.</string>
+  <string name="year_in_review_reading_list_dialog_message">Infopedia Jaaroverzicht maakt een leeslijst van de pagina\'s waar u de meeste tijd aan hebt besteed in %1$d. &lt;a href=\"%2$s\"&gt;Meer informatie&lt;/a&gt;.</string>
   <string name="year_in_review_reading_list_dialog_positive_button_label">Aanmaken</string>
   <string name="year_in_review_reading_list_dialog_negative_button_label">Nee, bedankt</string>
   <string name="year_in_review_reading_list_title">Jaaroverzicht %d</string>
   <string name="year_in_review_reading_list_description">Gemaakt voor %1$s. Pagina\'s waar u de meeste tijd aan hebt besteed in %2$d.</string>
-  <string name="year_in_review_highlights_thank_you_message">Bedankt dat u uw jaar met Wikipedia hebt doorgebracht.</string>
+  <string name="year_in_review_highlights_thank_you_message">Bedankt dat u uw jaar met Infopedia hebt doorgebracht.</string>
   <string name="year_in_review_highlights_looking_forward_message">Wij kijken uit naar volgend jaar!</string>
   <plurals name="year_in_review_highlights_logged_out_en_most_read_title">
-    <item quantity="one">Meest gelezen pagina op de Engelstalige Wikipedia</item>
-    <item quantity="other">Meest gelezen pagina\'s op de Engelstalige Wikipedia</item>
+    <item quantity="one">Meest gelezen pagina op de Engelstalige Infopedia</item>
+    <item quantity="other">Meest gelezen pagina\'s op de Engelstalige Infopedia</item>
   </plurals>
   <plurals name="year_in_review_highlights_logged_out_en_hours_spent_title">
     <item quantity="one">Uur besteed aan het lezen</item>
@@ -2129,7 +2129,7 @@
     <item quantity="one">Bewerking in de app</item>
     <item quantity="other">Bewerkingen in de app</item>
   </plurals>
-  <string name="year_in_review_highlights_logged_out_non_en_wikipedia_edited_title">Hoe vaak Wikipedia werd bewerkt</string>
+  <string name="year_in_review_highlights_logged_out_non_en_wikipedia_edited_title">Hoe vaak Infopedia werd bewerkt</string>
   <plurals name="year_in_review_highlights_logged_out_non_en_wikipedia_per_minute_label">
     <item quantity="one">%d keer per minuut</item>
     <item quantity="other">%d keer per minuut</item>
@@ -2156,10 +2156,10 @@
     <item quantity="other">Pagina\'s bewerkt</item>
   </plurals>
   <string name="year_in_review_highlights_share_button_title">Hoogtepunten delen</string>
-  <string name="year_in_review_highlights_logo_description">Wikipedia-logo</string>
+  <string name="year_in_review_highlights_logo_description">Infopedia-logo</string>
   <string name="recommended_reading_list_title">Ontdekken</string>
   <string name="recommended_reading_list_onboarding_card_title">Ontdek pagina\'s die speciaal voor u zijn uitgekozen</string>
-  <string name="recommended_reading_list_onboarding_card_message">Uw wekelijkse leeslijst met Wikipedia-pagina\'s, speciaal voor u samengesteld.</string>
+  <string name="recommended_reading_list_onboarding_card_message">Uw wekelijkse leeslijst met Infopedia-pagina\'s, speciaal voor u samengesteld.</string>
   <string name="recommended_reading_list_onboarding_card_new">Nieuw!</string>
   <string name="recommended_reading_list_onboarding_card_positive_button">Aan de slag</string>
   <string name="recommended_reading_list_onboarding_card_negative_button">Nee, bedankt</string>
@@ -2201,9 +2201,9 @@
   <string name="recommended_reading_list_settings_section_header">Aanbevelingen</string>
   <string name="recommended_reading_list_settings_title">Instellingen van Ontdekken</string>
   <string name="recommended_reading_list_settings_toggle">Leeslijst voor Ontdekken</string>
-  <string name="recommended_reading_list_settings_toggle_disable_message">Ontdekken staat uit. Wikipedia beveelt u geen pagina\'s aan om te lezen.</string>
+  <string name="recommended_reading_list_settings_toggle_disable_message">Ontdekken staat uit. Infopedia beveelt u geen pagina\'s aan om te lezen.</string>
   <string name="recommended_reading_list_settings_turn_off_dialog_title">Ontdekken uitschakelen?</string>
-  <string name="recommended_reading_list_settings_turn_off_dialog_message">Als u Ontdekken uitschakelt, ontvangt u geen %se leesaanbevelingen meer van Wikipedia.</string>
+  <string name="recommended_reading_list_settings_turn_off_dialog_message">Als u Ontdekken uitschakelt, ontvangt u geen %se leesaanbevelingen meer van Infopedia.</string>
   <string name="recommended_reading_list_settings_turn_off_dialog_positive_button">Uitzetten</string>
   <string name="recommended_reading_list_settings_turn_off_dialog_negative_button">Nee, aan laten</string>
   <string name="recommended_reading_list_settings_turn_off_snackbar">Ontdekken is uitgeschakeld. U kunt het altijd weer inschakelen via de instellingen.</string>
@@ -2229,7 +2229,7 @@
   <string name="recommended_reading_list_settings_updates_base_snackbar_action">Ongedaan maken</string>
   <string name="recommended_reading_list_settings_interests">Interesses</string>
   <string name="recommended_reading_list_settings_notifications_title">Meldingen</string>
-  <string name="recommended_reading_list_settings_notifications_subtitle">Wikipedia stuurt u geen melding wanneer Ontdekken wordt bijgewerkt.</string>
+  <string name="recommended_reading_list_settings_notifications_subtitle">Infopedia stuurt u geen melding wanneer Ontdekken wordt bijgewerkt.</string>
   <string name="recommended_reading_list_settings_notifications_subtitle_disable">Meldingen voor Ontdekken zijn uitgeschakeld. U ontvangt geen melding wanneer Ontdekken wordt bijgewerkt.</string>
   <string name="recommended_reading_list_settings_notifications_dialog_title">Meldingen uitschakelen?</string>
   <string name="recommended_reading_list_settings_notifications_dialog_message">Als u meldingen uitschakelt, ontvangt u geen herinneringen meer wanneer Ontdekken wordt bijgewerkt.</string>
@@ -2237,14 +2237,14 @@
   <string name="recommended_reading_list_settings_notifications_dialog_negative_button">Nee, aan laten</string>
   <string name="recommended_reading_list_notification_title">Uw %s Ontdekken-leeslijst is klaar.</string>
   <string name="recommended_reading_list_notification_subtitle">Tik om uw laatste aanbevelingen te bekijken.</string>
-  <string name="recommended_reading_list_settings_notification_subtitle_enable">Wanneer uw Ontdekken wordt bijgewerkt, stuurt Wikipedia u een melding.</string>
-  <string name="recommended_reading_list_settings_toggle_enable_message">Ontdekken staat aan. Wikipedia beveelt u pagina\'s aan om te lezen.</string>
+  <string name="recommended_reading_list_settings_notification_subtitle_enable">Wanneer uw Ontdekken wordt bijgewerkt, stuurt Infopedia u een melding.</string>
+  <string name="recommended_reading_list_settings_toggle_enable_message">Ontdekken staat aan. Infopedia beveelt u pagina\'s aan om te lezen.</string>
   <string name="donation_reminders_prompt_dismiss_snackbar">U kunt donatieherinneringen altijd wijzigen via Instellingen.</string>
   <string name="donation_settings_section_header">Donaties</string>
   <string name="donation_reminders_settings_title">Hoe moeten wij u hieraan herinneren?</string>
   <string name="donation_reminders_settings_option_title">Donatieherinneringen</string>
-  <string name="donation_reminders_settings_thank_you_message">Uw vrijgevigheid helpt Wikipedia te blijven bloeien. Stel een donatieherinnering in op basis van het aantal pagina\'s dat u leest.</string>
-  <string name="donation_reminders_settings_donation_info">Donaties gaan naar de Wikimedia Foundation en aangesloten organisaties, de trotse beheerders van Wikipedia en andere projecten voor vrije kennis.</string>
+  <string name="donation_reminders_settings_thank_you_message">Uw vrijgevigheid helpt Infopedia te blijven bloeien. Stel een donatieherinnering in op basis van het aantal pagina\'s dat u leest.</string>
+  <string name="donation_reminders_settings_donation_info">Donaties gaan naar de Wikimedia Foundation en aangesloten organisaties, de trotse beheerders van Infopedia en andere projecten voor vrije kennis.</string>
   <string name="donation_reminders_settings_article_frequency_label">Als ik lees</string>
   <string name="donation_reminders_settings_amount_label">Herinner mij eraan om te doneren</string>
   <string name="donation_reminders_settings_confirm_btn_label">Herinnering bevestigen</string>
@@ -2256,12 +2256,12 @@
   <string name="donation_reminders_snacbkbar_confirmation_label">Bedankt! We herinneren u eraan om %1$s te doneren wanneer u %2$s leest terwijl dit experiment loopt.</string>
   <string name="donation_reminders_first_milestone_reached_prompt_title">U hebt %1$s gelezen sinds u %2$s hebt toegezegd</string>
   <string name="donation_reminders_subsequent_milestone_reached_prompt_title">U hebt er nog %1$s gelezen</string>
-  <string name="donation_reminders_prompt_message">U hebt een donatieherinnering ingesteld op %1$s om %3$s te doneren voor elke %2$s die u leest. Klaar om uw belofte om Wikipedia te steunen na te komen?</string>
+  <string name="donation_reminders_prompt_message">U hebt een donatieherinnering ingesteld op %1$s om %3$s te doneren voor elke %2$s die u leest. Klaar om uw belofte om Infopedia te steunen na te komen?</string>
   <string name="donation_reminders_prompt_positive_button">Doneer nu</string>
   <string name="donation_reminders_prompt_negative_button">Nu niet</string>
   <string name="donation_reminders_gpay_text">Doneer %s met Google Pay</string>
   <string name="donation_reminders_gpay_different_amount_text">Doneer een ander bedrag met Google Pay</string>
-  <string name="donation_reminders_settings_description_on">Donatieherinneringen zijn ingeschakeld. Wikipedia zal u eraan herinneren om %1$s te doneren voor elke %2$s die u leest terwijl dit experiment loopt.</string>
+  <string name="donation_reminders_settings_description_on">Donatieherinneringen zijn ingeschakeld. Infopedia zal u eraan herinneren om %1$s te doneren voor elke %2$s die u leest terwijl dit experiment loopt.</string>
   <string name="donation_reminders_settings_description_off">Herinneringen voor donaties zijn uitgeschakeld.</string>
   <string name="donation_reminders_settings_tooltip_info_label">Het aantal pagina\'s wordt lokaal op uw apparaat opgeslagen</string>
   <plurals name="donation_reminders_text_articles">
@@ -2294,7 +2294,7 @@
   <string name="hybrid_search_onboarding_search_example_query_pineapple_pizza">Waarom doen mensen ananas op pizza?</string>
   <string name="hybrid_search_onboarding_search_example_query_biggest_cities_europe">Wat zijn de grootste steden van Europa?</string>
   <string name="hybrid_search_onboarding_screen_title">Een nieuwe manier om te zoeken</string>
-  <string name="hybrid_search_results_header_description">Afkomstig uit door mensen geschreven Wikipedia-pagina\'s</string>
+  <string name="hybrid_search_results_header_description">Afkomstig uit door mensen geschreven Infopedia-pagina\'s</string>
   <string name="hybrid_search_results_rate_label">Dit resultaat beoordelen</string>
   <string name="hybrid_search_results_rated_label">Beoordeeld</string>
   <string name="hybrid_search_results_rate_thumb_up">Geef een duim omhoog!</string>
@@ -2309,7 +2309,7 @@
   <string name="hybrid_search_who_is_prefix">Wie is %s?</string>
   <string name="hybrid_search_turn_off_experiment_label">Dit experiment uit uitschakelen</string>
   <string name="reading_challenge_widget_name">Leesuitdaging</string>
-  <string name="reading_challenge_onboarding_header">Vier de 25e verjaardag van Wikipedia door mee te doen aan de 25-daagse leesuitdaging!</string>
+  <string name="reading_challenge_onboarding_header">Vier de 25e verjaardag van Infopedia door mee te doen aan de 25-daagse leesuitdaging!</string>
   <string name="reading_challenge_onboarding_read_title">Lees één pagina per dag gedurende 25 dagen.</string>
   <string name="reading_challenge_onboarding_read_description">Doe mee aan de uitdaging tussen 1 mei en 31 mei en voltooi de 25 dagen in uw eigen tempo.</string>
   <string name="reading_challenge_onboarding_read_subtitle">Doe mee aan de uitdaging tussen %1$s en %2$s en voltooi de 25 dagen in uw eigen tempo.</string>
@@ -2323,17 +2323,17 @@
   <string name="reading_challenge_onboarding_prompt_title">Meld u aan om deel te nemen aan de uitdaging</string>
   <string name="reading_challenge_onboarding_prompt_message">Meld u aan of maak een account aan om uw voortgang voor de leesuitdaging bij te houden.</string>
   <string name="reading_challenge_onboarding_prompt_no_thanks">Nee, bedankt</string>
-  <string name="reading_challenge_onboarding_prompt_login">Aanmelden/Lid worden van Wikipedia</string>
+  <string name="reading_challenge_onboarding_prompt_login">Aanmelden/Lid worden van Infopedia</string>
   <string name="reading_challenge_install_prompt_title">Installeer de widget voor de 25-daagse leesuitdaging</string>
   <string name="reading_challenge_install_prompt_message">Baby Globe moedigt u aan. Voeg de widget \'Leesuitdaging\' toe om uw voortgang vanaf uw startscherm bij te houden.</string>
   <string name="reading_challenge_install_prompt_got_it">Begrepen</string>
   <string name="reading_challenge_install_prompt_add">Toevoegen</string>
   <string name="search_widget_install_prompt_title">Een manier om sneller te zoeken</string>
-  <string name="search_widget_install_prompt_message">Installeer het zoekwidget voor Wikipedia voor directe toegang tot kennis vanaf uw startscherm</string>
+  <string name="search_widget_install_prompt_message">Installeer het zoekwidget voor Infopedia voor directe toegang tot kennis vanaf uw startscherm</string>
   <string name="search_widget_install_prompt_add">Toevoegen</string>
   <string name="search_widget_install_prompt_got_it">Begrepen</string>
   <string name="reading_challenge_widget_explore_button">Verkennen</string>
-  <string name="reading_challenge_widget_explore_wikipedia_button">Wikipedia verkennen</string>
+  <string name="reading_challenge_widget_explore_wikipedia_button">Infopedia verkennen</string>
   <string name="reading_challenge_widget_join_challenge_button">Meedoen aan de uitdaging</string>
   <string name="reading_challenge_widget_join_the_challenge_button">Doe mee aan de uitdaging</string>
   <string name="reading_challenge_widget_search_button">Zoeken</string>
@@ -2376,13 +2376,13 @@
   <string name="reading_challenge_widget_concluded_incomplete">Uitdaging afgesloten</string>
   <string name="reading_challenge_widget_concluded_complete">U hebt het voor elkaar!</string>
   <string name="reading_challenge_widget_reward_title">Nieuwsgierigheid staat u goed! 🛍️</string>
-  <string name="reading_challenge_widget_reward_body">Vier het voltooien van de uitdaging met 15%% korting in de Wikipedia-winkel.</string>
+  <string name="reading_challenge_widget_reward_body">Vier het voltooien van de uitdaging met 15%% korting in de Infopedia-winkel.</string>
   <string name="reading_challenge_widget_reward_button_label">Ontvang 15%% korting in de winkel</string>
   <string name="explore_feed_new_update_prompt_title">Ontdekken heet nu Startpagina en heeft een nieuw uiterlijk</string>
   <string name="explore_feed_new_update_prompt_new_name_title">Een nieuwe naam</string>
   <string name="explore_feed_new_update_prompt_new_name_description">De Verkennen-feed heet nu Startpagina, op dezelfde plek als voorheen.</string>
   <string name="explore_feed_new_update_prompt_two_ways_title">Uw feed, op twee manieren</string>
-  <string name="explore_feed_new_update_prompt_two_ways_description">Ontdek pagina\'s die zijn afgestemd op uw interesses in \'Voor u\', of blader door de beste redactionele inhoud van Wikipedia in \'Gemeenschap\'.</string>
+  <string name="explore_feed_new_update_prompt_two_ways_description">Ontdek pagina\'s die zijn afgestemd op uw interesses in \'Voor u\', of blader door de beste redactionele inhoud van Infopedia in \'Gemeenschap\'.</string>
   <string name="explore_feed_new_update_prompt_control_title">De touwtjes in handen houden</string>
   <string name="explore_feed_new_update_prompt_control_description">Bij elke aanbeveling staat precies vermeld waarom deze er is. U kunt uw voorkeuren op elk moment bijwerken in de instellingen.</string>
   <string name="explore_feed_new_update_prompt_language_title">Elke taal, volledig gepersonaliseerd</string>
@@ -2402,7 +2402,7 @@
   <string name="explore_feed_onboarding_curiosity_description">Selecteer onderwerpen die u interesseren en wij personaliseren uw feed.\n\nWe verzamelen minimale, geanonimiseerde gegevens.</string>
   <string name="explore_feed_deselect_all_button_label">Alles deselecteren</string>
   <string name="explore_feed_potd_subtitle">Dagelijkse afbeeldingen op Wikimedia Commons, geselecteerd door vrijwillige bijdragers</string>
-  <string name="explore_feed_featured_article_subtitle">Uitgelichte pagina\'s behoren tot de beste pagina\'s op Wikipedia en worden dagelijks door de redactie geselecteerd</string>
+  <string name="explore_feed_featured_article_subtitle">Uitgelichte pagina\'s behoren tot de beste pagina\'s op Infopedia en worden dagelijks door de redactie geselecteerd</string>
   <string name="explore_feed_preference_selection_screen_title">Wat wilt u als eerste zien?</string>
   <string name="explore_feed_preference_community_content_title">Gemeenschapsgerelateerde inhoud</string>
   <string name="explore_feed_preference_personalized_content_title">Gepersonaliseerde inhoud</string>
@@ -2472,7 +2472,7 @@
   <string name="home_feed_settings_places_of_interest_title">Belangwekkende plaatsen</string>
   <string name="home_feed_settings_places_of_interest_subtitle">Pagina\'s in de buurt van uw laatste locatie in Plaatsen</string>
   <string name="home_feed_settings_games_title">Spellen</string>
-  <string name="home_feed_settings_games_subtitle">Dagelijkse spelletjes gebaseerd op Wikipedia-inhoud</string>
+  <string name="home_feed_settings_games_subtitle">Dagelijkse spelletjes gebaseerd op Infopedia-inhoud</string>
   <string name="home_feed_settings_discover_title">Ontdek aanbevelingen</string>
   <string name="home_feed_settings_discover_subtitle">Artikelen uit uw Ontdekken-leeslijst</string>
   <string name="home_feed_discover_cta_title">Uit Ontdekken</string>

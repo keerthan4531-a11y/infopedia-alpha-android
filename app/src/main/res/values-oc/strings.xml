@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * BrennodAloisi
 * COMISSIONTOPOC
@@ -13,9 +13,9 @@
 * Unuaiga
 -->
 <resources>
-  <string name="app_name_prod">Wikipèdia</string>
-  <string name="app_name_beta">Wikipèdia Bèta</string>
-  <string name="app_name_alpha">Wikipèdia Alfa</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Wikimèdia</string>
   <string name="nav_item_back">Retorn</string>
   <string name="page_tabs_back">Retorn</string>
@@ -136,7 +136,7 @@
   <string name="search_reading_lists_no_results">Ges de resultat trobat dins lei listas de lectura</string>
   <string name="search_history_no_results">Ges de resultat trobat dins l\'istoric</string>
   <string name="edit_section_captcha_message">Per ajudar a la proteccion contra lo spam, mercé d\'entrar los mots qu\'apareisson çaijós</string>
-  <string name="edit_section_captcha_request_an_account_message">Podètz pas veire aquel image ? &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">Podètz pas veire aquel image ? &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">Repetir los mots çaisús</string>
   <string name="title_captcha">Entrar lo captcha</string>
   <string name="edit_section_captcha_reload">Picar lo captcha per recargar</string>

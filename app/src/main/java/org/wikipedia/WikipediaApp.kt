@@ -55,7 +55,7 @@ class WikipediaApp : Application() {
     val userAgent by lazy {
         var channel = ReleaseUtil.getChannel(this)
         channel = if (channel.isBlank()) "" else " $channel"
-        String.format("WikipediaApp/%s (Android %s; %s; %s Build/%s)%s",
+        String.format("InfopediaApp/%s (Android %s; %s; %s Build/%s)%s",
             BuildConfig.VERSION_NAME,
             Build.VERSION.RELEASE,
             getString(R.string.device_type),

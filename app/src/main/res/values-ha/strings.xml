@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Bashir Gwanki
 * Bello Na'im
@@ -11,14 +11,14 @@
 * Yusuf Sa'adu
 -->
 <resources>
-  <string name="app_name_prod">Wikipedia</string>
-  <string name="app_name_beta">Wikipedia Beta</string>
-  <string name="app_name_alpha">Wikipedia Alpha</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Wikimedia</string>
   <string name="nav_item_back">Baya</string>
   <string name="page_tabs_back">Baya</string>
   <string name="nav_item_forward">Gaba</string>
-  <string name="search_hint">Bincika Wikipedia</string>
+  <string name="search_hint">Bincika Infopedia</string>
   <string name="search_hint_voice_search">Bincika saka murya</string>
   <string name="search_hint_search_languages">Bincika yare</string>
   <string name="filter_hint_filter_my_lists_and_articles">Tace jeri na</string>
@@ -115,12 +115,12 @@
   <string name="edit_save_action_license_logged_in">Wajen wallafaws, ka yarda da &lt;a href=\"%1$s\"&gt;Sharuɗɗan amfani&lt;/a&gt;, kuma don saki gudunmawar ku a ƙarƙashin lasisi ba tare da sokewa  &lt;a href=\"%2$s\"&gt;CC BY-SA 4.0&lt;/a&gt; ba.</string>
   <string name="edit_save_action_license_anon">Domin wallafawa, ka yarda da &lt;a href=\"%1$s\"&gt;Sharuɗɗa da ƙa\'idodi&lt;/a&gt;, kuma don saki gudunmawar ku a ƙarƙashin lasisi ba tare da sokewa &lt;a href=\"%2$s/\"&gt;CC BY-SA 4.0&lt;/a&gt; ba. Za a danganta gyara ga adireshin IP na na\'urarka. Idan ka &lt;a href=\"https://#login\"&gt;shiga&lt;/a&gt;, zaka samu ƙarin tsaro</string>
   <string name="edit_anon_warning">Za a danganta gyara ga adireshin IP na na\'urarka. Idan ka &lt;a href=\"https://#login\"&gt;shiga&lt;/a&gt;, zaka samu ƙarin tsaro.</string>
-  <string name="preference_title_language">Harsunan Wikipedia</string>
+  <string name="preference_title_language">Harsunan Infopedia</string>
   <string name="langlinks_filter_hint">Bincike</string>
   <string name="langlinks_empty">Babu wannan shafin a wasu harsunan</string>
   <string name="langlinks_no_match">Babu harsuna</string>
   <string name="langlinks_activity_title">Wasu harsunan</string>
-  <string name="langlinks_your_wikipedia_languages">Yarenka na Wikipedia</string>
+  <string name="langlinks_your_wikipedia_languages">Yarenka na Infopedia</string>
   <string name="menu_save_changes">Wallafa canje-canje</string>
   <string name="edit_saved_successfully">Gyara wallafaffe</string>
   <string name="dialog_message_edit_failed">Gyara bai yi ba!</string>
@@ -135,11 +135,11 @@
   <string name="search_reading_lists_no_results">Babu sakamako a jerin na karantawa</string>
   <string name="search_history_no_results">Babu sakamako a tarihi</string>
   <string name="edit_section_captcha_message">Domin taimakawa wajen kare spam, daure ka saka kalmomin da suka baiyana a ƙasa</string>
-  <string name="edit_section_captcha_request_an_account_message">Baka ga hoton ba?&lt;a href=\"https://ha.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;&lt;/a&gt;&lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;Nemi a buɗe asusu&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">Baka ga hoton ba?&lt;a href=\"https://ha.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;&lt;/a&gt;&lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;Nemi a buɗe asusu&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">Maimaita kalmomi daga sama</string>
   <string name="title_captcha">Sanya CAPTCHA</string>
   <string name="edit_section_captcha_reload">Danna CAPTCHA ɗora</string>
-  <string name="nav_item_login">Shiga Wikipedia</string>
+  <string name="nav_item_login">Shiga Infopedia</string>
   <string name="login_username_hint">Sunan amfani</string>
   <string name="login_password_hint">Lambar sirri</string>
   <string name="account_creation_password_hint">Lambar sirri</string>
@@ -162,19 +162,19 @@
   <string name="logout_prompt">Wannan zai fitar da kai daga dukkanin kafafen da kake a cikin su yanzu. Kana so ka ci gaba?</string>
   <string name="logout_dialog_cancel_button_text">Soke</string>
   <string name="logged_out_in_background_title">Fita</string>
-  <string name="logged_out_in_background_dialog">Ka fita daga Wikipedia. Kana so ka sake shiga?</string>
+  <string name="logged_out_in_background_dialog">Ka fita daga Infopedia. Kana so ka sake shiga?</string>
   <string name="logged_out_in_background_login">Shiga</string>
   <string name="logged_out_in_background_cancel">Soke</string>
   <string name="history_empty_title">Babu maƙalolin da aka duba baya-bayan nan</string>
   <string name="history_empty_message">Tattaro abinda kake karantawa yanzu.</string>
   <string name="history_offline_articles_toast">Wasu maƙalolin a tarihi ba za su ganu ba yayi da ba\'a kan layi.</string>
   <string name="search_empty_message">Bincika ka karanta insakulifidiya ta kyauta a harshen ka</string>
-  <string name="search_empty_message_multilingual_upgrade">Bincika Wikipedia a wasu harsunan</string>
+  <string name="search_empty_message_multilingual_upgrade">Bincika Infopedia a wasu harsunan</string>
   <string name="delete_selected_items">Goge abinda aka zaɓa</string>
   <string name="wp_stylized">&lt;big&gt;W&lt;/big&gt;IKIPEDI&lt;big&gt;A&lt;/big&gt;</string>
   <string name="create_account_username_hint">Sunan amfani</string>
   <string name="login_dont_have_account">Baka da asusu?</string>
-  <string name="login_join_wikipedia">Yi rujista da Wikipedia</string>
+  <string name="login_join_wikipedia">Yi rujista da Infopedia</string>
   <string name="login_forgot_password">Ka manta da lambar sirrinka?</string>
   <string name="create_account_already_have">Kana da asusu?</string>
   <string name="create_account_activity_title">Ƙirƙiri asusu</string>
@@ -196,11 +196,11 @@
   <string name="create_account_button">Ƙirƙiri asusu</string>
   <string name="create_account_name_unavailable">Sunan mai amfani \"%s\" bai yi daidai ba. Daure a zaɓi mabambancin sunan mai amfani.</string>
   <string name="create_account_ip_block_message">Yi haƙuri an kulle adireshin ka na IP daga ƙirƙirar asusu.</string>
-  <string name="create_account_ip_block_help_url">https://en.wikipedia.org/wiki/Help:I_have_been_blocked</string>
+  <string name="create_account_ip_block_help_url">https://en.Infopedia.org/wiki/Help:I_have_been_blocked</string>
   <string name="create_account_ip_block_details">Bayanai</string>
   <string name="preferences_general_heading">Gaba ɗaya</string>
   <string name="preferences_account_heading">Asusu</string>
-  <string name="wikipedia_app_faq">Wikipedia App FAQ</string>
+  <string name="wikipedia_app_faq">Infopedia App FAQ</string>
   <string name="send_feedback">Send app feedback</string>
   <string name="create_account_account_created_toast">An ƙirƙiri asusu</string>
   <string name="preferences_heading_syncing">Syncing</string>
@@ -208,8 +208,8 @@
   <string name="preferences_heading_experimental">Gwaje-gwajen kimiyya</string>
   <string name="preference_title_sync_reading_lists_from_account">Bincika jerin wanda ake karantawa</string>
   <string name="preference_title_download_reading_list_articles">Sauko da jerin maƙalolin dake kan wanda ake karantawa</string>
-  <string name="preference_summary_sync_reading_lists">Bincika jerin wanda ake karantawa daga mabanbantan na\'urori ta hanyar ajiye su a asusun ka na Wikipedia.</string>
-  <string name="preference_summary_sync_reading_lists_from_account">Bincika jerin wanda ake karantawa daga mabanbantan na\'urori ta hanyar ajiye su  asusun ka na Wikipedia \"%s\"</string>
+  <string name="preference_summary_sync_reading_lists">Bincika jerin wanda ake karantawa daga mabanbantan na\'urori ta hanyar ajiye su a asusun ka na Infopedia.</string>
+  <string name="preference_summary_sync_reading_lists_from_account">Bincika jerin wanda ake karantawa daga mabanbantan na\'urori ta hanyar ajiye su  asusun ka na Infopedia \"%s\"</string>
   <string name="preference_dialog_of_turning_off_reading_list_sync_title">A cire binciken jerin wanda ake karantawa daga \"%s\"?</string>
   <string name="preference_dialog_of_turning_off_reading_list_sync_text">Wannan zai goge gaba ɗayan binciken da aka yi a baya na jerin wanda ake karantawa daga ma\'ajiya. A share dukkan jerin binciken daga asusun ka \"%s\"?</string>
   <string name="preference_title_auto_upload_crash_reports">Aika rahoton cin karo</string>
@@ -227,17 +227,17 @@
   <string name="page_watchlist_overflow_menu_onboarding_tooltip_text">Ci gaba da bin diddigin abubuwan da ke faruwa ga labaran da kuke sha\'awarsu. Danna Zaɓuɓɓuka dai ka saɓi &lt;b&gt;Ƙara zuwa Lissafin Kallon&lt;/b&gt; don ganin canje-canje ga labarin.</string>
   <string name="settings_item_preferences">Saituttuka</string>
   <string name="settings_activity_title">Saituttuka</string>
-  <string name="about_description">Game da Wikipedia app</string>
+  <string name="about_description">Game da Infopedia app</string>
   <string name="privacy_policy_description">Manufofin kariya</string>
   <string name="terms_of_use_description">Sharuɗɗan amfani</string>
-  <string name="about_wikipedia_url">https://en.wikipedia.org/wiki/Wikipedia:About</string>
+  <string name="about_wikipedia_url">https://en.Infopedia.org/wiki/Infopedia:About</string>
   <string name="about_libraries_heading">Laburaren da aka yi amfani da su</string>
   <string name="about_contributors_heading">Gudummuwa</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Shafin tawaga&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Shafin tawaga&lt;/a&gt;</string>
   <string name="about_translators_heading">Mai fassara</string>
   <string name="about_translators_translatewiki">Lasisi</string>
   <string name="about_app_license_heading">Lasisi</string>
-  <string name="about_app_license" fuzzy="true">Akwai tushen alamu &lt;a href=\"https://gerrit.wikimedia.org/r/#/admin/projects/apps/android/wikipedia\"&gt;Gerrit&lt;/a&gt; da &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;GitHub&lt;/a&gt; ƙarƙashin &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0 License&lt;/a&gt;. Sai dai in an kayyade, akwai abun ciki a ƙarƙashin a &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Creative Commons Attribution-ShareAlike License&lt;/a&gt;.</string>
+  <string name="about_app_license" fuzzy="true">Akwai tushen alamu &lt;a href=\"https://gerrit.infopedia.org/r/#/admin/projects/apps/android/Infopedia\"&gt;Gerrit&lt;/a&gt; da &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;GitHub&lt;/a&gt; ƙarƙashin &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0 License&lt;/a&gt;. Sai dai in an kayyade, akwai abun ciki a ƙarƙashin a &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Creative Commons Attribution-ShareAlike License&lt;/a&gt;.</string>
   <string name="about_wmf">Sanarwar &lt;a href=\"https://wikimediafoundation.org/\"&gt;Gidauniyar Wikimedia&lt;/a&gt;</string>
   <string name="about_activity_title">Game da</string>
   <string name="edit_abandon_confirm">An gyara shafin. Shin ka tabbata kana son fita ba tare da adana canje-canjenku ba?</string>
@@ -281,7 +281,7 @@
   <string name="abusefilter_title_warn">Ta yiwu wannan gyaran wanda ba\'a gina ne ba. Ka tabbata kana so ka wallafa shi?</string>
   <string name="abusefilter_title_disallow">Ba zaka iya wallafa wannan gyaran ba. Daure koma baya ka sake shi.</string>
   <string name="abusefilter_text_warn">Tace mai sarrafa kansa ya gano wannan gyara a matsayin mai yuwuwar rashin inganci. Yana iya ƙunsar ɗaya ko fiye daga cikin masu zuwa:&lt;br /&gt;&lt;br /&gt;· Buga a duk iyakoki&lt;br /&gt;. Rubuce-rubucen da ba su dace ba ko batsa&lt;br /&gt;</string>
-  <string name="abusefilter_text_disallow">Tace mai sarrafa kansa ya gano wannan gyara a matsayin mai yuwuwar rashin ƙarfi, ko kuma ɓarna.&lt;br /&gt;&lt;br /&gt;Wikipedia encyclopedia ce kuma tsaka tsaki ce kawai, sanannen abun ciki yana nan.</string>
+  <string name="abusefilter_text_disallow">Tace mai sarrafa kansa ya gano wannan gyara a matsayin mai yuwuwar rashin ƙarfi, ko kuma ɓarna.&lt;br /&gt;&lt;br /&gt;Infopedia encyclopedia ce kuma tsaka tsaki ce kawai, sanannen abun ciki yana nan.</string>
   <string name="page_similar_titles">Shafuka masu kama</string>
   <string name="search_did_you_mean">Kana nufin \"%s\"?</string>
   <string name="search_recent_header">Bincike na baya-baya:</string>
@@ -298,9 +298,9 @@
   <string name="table_infobox">Gaskiya cikin hanzari</string>
   <string name="table_other">Ƙarin bayani</string>
   <string name="table_close">Kulle</string>
-  <string name="widget_name_featured_page">Shafukan nunawa na Wikipedia</string>
+  <string name="widget_name_featured_page">Shafukan nunawa na Infopedia</string>
   <string name="widget_title_featured_page">Shafin nunawa na yau:</string>
-  <string name="widget_name_search">Bincika Wikipedia</string>
+  <string name="widget_name_search">Bincika Infopedia</string>
   <string name="wiktionary_no_definitions_found">Babu Ma\'ana.</string>
   <string name="alpha_update_notification_title">Akwai sabunta sabuwar alpha.</string>
   <string name="alpha_update_notification_text">Danna domin saukewa</string>
@@ -388,9 +388,9 @@
   <string name="link_preview_dialog_saved_button">An ajiye</string>
   <string name="link_preview_dialog_share_button">Rarraba</string>
   <string name="error_page_does_not_exist">Babu wannan shafin</string>
-  <string name="error_user_page_does_not_exist">Wikipedia ba shi da &lt;a href=\"%1$s \"&gt;shafin mai amfani&lt;/a&gt; da wannan ainihin sunan. Gaba ɗaya, wannan shafin yakamata a ƙirƙira kuma a gyara shi ta &lt;b&gt;&lt;span class=\"notranslate\" translate=\"no\"&gt;%2$s&lt;/b&gt; %3$s</string>
+  <string name="error_user_page_does_not_exist">Infopedia ba shi da &lt;a href=\"%1$s \"&gt;shafin mai amfani&lt;/a&gt; da wannan ainihin sunan. Gaba ɗaya, wannan shafin yakamata a ƙirƙira kuma a gyara shi ta &lt;b&gt;&lt;span class=\"notranslate\" translate=\"no\"&gt;%2$s&lt;/b&gt; %3$s</string>
   <string name="view_wiki_error_message_offline">Ba za a iya haɗawa da intanet ba</string>
-  <string name="view_wiki_error_message_timeout">Ba za a iya haɗa shi da Wikipedia ba. Bincika haɗin yanar gizon ku, ko kuma ku sake gwadawa daga baya</string>
+  <string name="view_wiki_error_message_timeout">Ba za a iya haɗa shi da Infopedia ba. Bincika haɗin yanar gizon ku, ko kuma ku sake gwadawa daga baya</string>
   <string name="reference_title">Nassoshi %s</string>
   <string name="reference_list_title">Nassoshi</string>
   <string name="theme_chooser_dialog_image_dimming_switch_label">Rashin hoto (a cikin Dark theme)</string>
@@ -406,11 +406,11 @@
   <string name="error_blocked_start">Farawar toshewa: %s</string>
   <string name="error_blocked_expiry">Ƙarshen toshewa: %s</string>
   <string name="error_blocked_id">An kulle ID: %s</string>
-  <string name="error_blocked_footer">Kana iya tuntubar &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt;ko wani&lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Administrators\"&gt; mai gudanarwa&lt;/a&gt; domin a tattauna kullewar.</string>
+  <string name="error_blocked_footer">Kana iya tuntubar &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt;ko wani&lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Administrators\"&gt; mai gudanarwa&lt;/a&gt; domin a tattauna kullewar.</string>
   <string name="theme_chooser_menu_item_short_tooltip">Keɓance kayan aikin ka</string>
-  <string name="error_blocked_footer_no_blocker">Kana iya tuntuba a &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Administrators\"&gt;mai gudanarwa&lt;/a&gt; domin tattaunawa game da kullewar.</string>
+  <string name="error_blocked_footer_no_blocker">Kana iya tuntuba a &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Administrators\"&gt;mai gudanarwa&lt;/a&gt; domin tattaunawa game da kullewar.</string>
   <string name="crash_report_activity_title">Kuskuren aikace-aikace</string>
-  <string name="crash_report_relaunch_or_quit">Yi haƙuri, Manhajar Wikipedia ta sami matsala kuma an ƙare.\n\nKana so ka sake farawa ko dainawa?</string>
+  <string name="crash_report_relaunch_or_quit">Yi haƙuri, Manhajar Infopedia ta sami matsala kuma an ƙare.\n\nKana so ka sake farawa ko dainawa?</string>
   <string name="crash_report_relaunch">Fara sake</string>
   <string name="crash_report_quit">Dakata</string>
   <string name="article_menu_bar_save_button">Ajiye</string>
@@ -510,8 +510,8 @@
   <string name="reading_lists_default_list_delete_message">Ba za a iya share jerin abubuwan da suka faru ba (%s)</string>
   <string name="reading_lists_default_plus_one_list_delete_message">%1$s an goge. Ba za a iya share lissafin tsoho ( %2$s ) ba.</string>
   <string name="reading_lists_default_plus_many_lists_delete_message">An share jerin sunayen. Ba za a iya share jerin abubuwan da suka faru ba (%s).</string>
-  <string name="single_list_json_file_name">%s (Listunan karatun Wikipedia).json</string>
-  <string name="multiple_lists_json_file_name">Jerin karatun Wikipedia (%s da fiye).json</string>
+  <string name="single_list_json_file_name">%s (Listunan karatun Infopedia).json</string>
+  <string name="multiple_lists_json_file_name">Jerin karatun Infopedia (%s da fiye).json</string>
   <string name="reading_list_items_deleted">%d an cire maƙalolin daga jeri</string>
   <string name="reading_lists_item_deleted">%s an cire daga jerin</string>
   <string name="reading_list_item_delete_undo">Fasa</string>
@@ -531,12 +531,12 @@
   <string name="reading_list_confirm_remove_article_from_offline_title">Maƙala ta bayyana a cikin jerin sunayen da yawa</string>
   <string name="reading_list_confirm_remove_article_from_offline_message">%s ba za su kasance a kan layi ba don duk jerin karatu:</string>
   <string name="reading_lists_sync_reminder_title">Yi amfani da jerin karatun tare?</string>
-  <string name="reading_lists_sync_reminder_text" fuzzy="true">Labaran da aka adana zuwa jerin karatu yanzu za a iya haɗa su zuwa asusun Wikipedia. &lt;a href=\"https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Koyi ƙarin&lt;/a&gt;</string>
-  <string name="reading_lists_login_reminder_text_with_link" fuzzy="true">Ana iya haɗa jerin karatun yanzu a duk na\'urori. Shigar da asusun Wikipedia ka kuma bari a adana jerin ku. &lt;a href=\"https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Koyi ƙarin&lt;/a&gt;</string>
+  <string name="reading_lists_sync_reminder_text" fuzzy="true">Labaran da aka adana zuwa jerin karatu yanzu za a iya haɗa su zuwa asusun Infopedia. &lt;a href=\"https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Koyi ƙarin&lt;/a&gt;</string>
+  <string name="reading_lists_login_reminder_text_with_link" fuzzy="true">Ana iya haɗa jerin karatun yanzu a duk na\'urori. Shigar da asusun Infopedia ka kuma bari a adana jerin ku. &lt;a href=\"https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Koyi ƙarin&lt;/a&gt;</string>
   <string name="reading_lists_sync_reminder_action">Bayar da haɗin kai</string>
   <string name="reading_list_login_reminder_title">Daidaita lissafin karatun</string>
-  <string name="reading_lists_login_reminder_text">Ana iya haɗa jerin karatun yanzu a duk na\'urori. Shigar da asusun Wikipedia ka kuma bari a adana jerin ku.</string>
-  <string name="reading_lists_login_button">Shiga / shiga Wikipedia</string>
+  <string name="reading_lists_login_reminder_text">Ana iya haɗa jerin karatun yanzu a duk na\'urori. Shigar da asusun Infopedia ka kuma bari a adana jerin ku.</string>
+  <string name="reading_lists_login_button">Shiga / shiga Infopedia</string>
   <string name="reading_lists_ignore_button">Ba yanzu ba</string>
   <string name="reading_lists_confirm_remote_delete_yes">Eh</string>
   <string name="reading_lists_confirm_remote_delete_no">A\'a</string>
@@ -558,7 +558,7 @@
   <string name="reading_list_turned_sync_off_dialog_ok">Yayi</string>
   <string name="reading_list_turned_sync_off_dialog_settings">Saituttuka</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_title">Kunna daidaita lissafin karatun?</string>
-  <string name="reading_list_prompt_turned_sync_on_dialog_text">Maƙalolin da aka adana zuwa jerin karatu yanzu za a iya haɗa su zuwa asusun Wikipedia. &lt;a href=\"#faq\"&gt;Koyi ƙarin&lt;/a&gt;</string>
+  <string name="reading_list_prompt_turned_sync_on_dialog_text">Maƙalolin da aka adana zuwa jerin karatu yanzu za a iya haɗa su zuwa asusun Infopedia. &lt;a href=\"#faq\"&gt;Koyi ƙarin&lt;/a&gt;</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_do_not_show">Kada ka sake nuna mini wannan</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_enable_syncing">Kunna aiki tare</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_no_thanks">A\'a Nagode</string>
@@ -654,7 +654,7 @@
     <item quantity="one">%1$d jeri hagu</item>
     <item quantity="other"> %1$d lissafin hagu</item>
   </plurals>
-  <string name="notification_echo_channel_description">Sanarwar Wikipedia</string>
+  <string name="notification_echo_channel_description">Sanarwar Infopedia</string>
   <string name="notifications_activity_title">Sanarwa</string>
   <string name="notifications_activity_title_archived">Sanarwa (an adana shi)</string>
   <string name="notifications_search">Bincika sanarwar</string>
@@ -716,8 +716,8 @@
   <string name="preference_title_customize_push_notifications">Sanarwar turawa ta al\'ada</string>
   <string name="preference_category_display_settings">Nuna saituttuka</string>
   <string name="preference_title_hide_read_notifications">Ka ɓoye sanarwar karantawa</string>
-  <string name="notifications_channel_group_wikipedia_notifications_title">Wikipedia</string>
-  <string name="notifications_channel_group_wikipedia_notifications_description">Sanarwa daga Wikipedia</string>
+  <string name="notifications_channel_group_wikipedia_notifications_title">Infopedia</string>
+  <string name="notifications_channel_group_wikipedia_notifications_description">Sanarwa daga Infopedia</string>
   <string name="notifications_channel_group_other_title">Wasu</string>
   <string name="notifications_channel_group_other_description">Wasu sanarwar daga app</string>
   <string name="notifications_filter_label">Sanarwar tacewa</string>
@@ -754,7 +754,7 @@
   <string name="view_top_read_card_pageviews_k_suffix">%d k</string>
   <string name="view_top_read_card_pageviews_m_suffix">%d M</string>
   <string name="view_next_random_article">Ɗauki wata maƙalar ta kai tsaye</string>
-  <string name="view_main_page_card_title">Yau akan Wikipedia</string>
+  <string name="view_main_page_card_title">Yau akan Infopedia</string>
   <string name="view_main_page_card_action">Duba babban shafi</string>
   <string name="view_featured_image_card_title">Hoton yau</string>
   <string name="view_featured_image_card_download">Sauke</string>
@@ -782,16 +782,16 @@
   <string name="feed_configure_menu_reset">Maido da ra\'ayi na asali</string>
   <string name="feed_configure_menu_select_all">Nuna duka</string>
   <string name="feed_configure_menu_deselect_all">Boye duka</string>
-  <string name="feed_configure_language_warning">Lura cewa ba duk nau\'ikan katin ba ne a duk harsunan Wikipedia. Gyara yarukan da kuka zaɓa a cikin Saiti.</string>
+  <string name="feed_configure_language_warning">Lura cewa ba duk nau\'ikan katin ba ne a duk harsunan Infopedia. Gyara yarukan da kuka zaɓa a cikin Saiti.</string>
   <string name="feed_item_type_news">Labarai game da abubuwan da ke faruwa a yanzu</string>
   <string name="feed_item_type_on_this_day">Abubuwan da suka faru a tarihi a yau</string>
   <string name="feed_item_type_because_you_read">Shawarwari bisa ga wani labarin da aka karanta kwanan nan daga tarihinku</string>
-  <string name="feed_item_type_featured_article">Labarin yau da kullun a kan Wikipedia</string>
+  <string name="feed_item_type_featured_article">Labarin yau da kullun a kan Infopedia</string>
   <string name="feed_item_type_trending">Labaran da aka fi kallo a yau da kullun</string>
   <string name="feed_item_type_featured_image">Hoton yau da kullun daga Wikimedia Commons</string>
-  <string name="feed_item_type_main_page">Babban shafi na Wikipedia tare da abubuwan da ke cikin yau da kullun</string>
+  <string name="feed_item_type_main_page">Babban shafi na Infopedia tare da abubuwan da ke cikin yau da kullun</string>
   <string name="feed_item_type_randomizer">Samar da labarai na bazuwar don karantawa</string>
-  <string name="feed_item_type_suggested_edits">Shawarwari don ƙara abun ciki zuwa Wikipedia</string>
+  <string name="feed_item_type_suggested_edits">Shawarwari don ƙara abun ciki zuwa Infopedia</string>
   <string name="feed_empty_message" fuzzy="true">Babu wani abu a kan abincinku na Bincike</string>
   <string name="feed_configure_onboarding_action">Keɓance</string>
   <string name="customize_lang_selection_dialog_ok_button_text">Yayi</string>
@@ -823,7 +823,7 @@
   <string name="description_edit_help_title">Bayani: Bayanan labarin</string>
   <string name="description_edit_help_about_wikidata">Game da Wikidata</string>
   <string name="description_edit_help_wikidata_guide">Jagoran Wikidata don bayanin rubuce-rubuce</string>
-  <string name="description_edit_anon_limit">Godiya ga ci gaba da sha\'awarka wajen gyara bayanin labarin! Don yin ƙarin gyare-gyare, don Allah shigar da asusun Wikipedia.</string>
+  <string name="description_edit_anon_limit">Godiya ga ci gaba da sha\'awarka wajen gyara bayanin labarin! Don yin ƙarin gyare-gyare, don Allah shigar da asusun Infopedia.</string>
   <string name="description_edit_license_notice">Ta hanyar canza bayanin labarin, na yarda da &lt;a href=\"&lt;span class=\"notranslate\" translate=\"no\"&gt;%1$s \"&gt;Terms of Use&lt;/a&gt; da kuma fitar da gudunmawata a ƙarƙashin lasisin &lt;a href=\"&lt;span class=\"notranslate\" translate=\"no\"&gt;%2$s \"&gt;Creative Commons CC0&lt;/a&gt; .</string>
   <string name="description_edit_helper_text_lowercase_warning">yawanci farawa da ƙananan haruffa</string>
   <string name="description_edit_voice_input_description">Shigar da murya</string>
@@ -844,7 +844,7 @@
   <string name="description_edit_success_saved_image_caption_in_lang_snackbar">Hoton da aka buga!  (%s)</string>
   <string name="description_edit_success_saved_image_tags_snackbar">Hoton da aka buga!</string>
   <string name="description_edit_success_se_general_feed_link_snackbar">Ya ji daɗin hakan? Ka taimaka mana mu kara da yawa.</string>
-  <string name="description_edit_success_encouragement">Kawai ka sanya Wikipedia mafi kyau ga kowa</string>
+  <string name="description_edit_success_encouragement">Kawai ka sanya Infopedia mafi kyau ga kowa</string>
   <string name="description_edit_success_done">An gama</string>
   <string name="description_edit_success_did_you_know">Shin kun sani?</string>
   <string name="description_edit_success_article_edit_hint">Hakanan zaka iya gyara labarai a cikin wannan aikace-aikacen. Gwada gyara typos da ƙananan kalmomi ta danna alamar ^1 a lokaci mai zuwa</string>
@@ -890,7 +890,7 @@
   <string name="suggested_edits_task_translate_caption_title">Fassara rubutun hotuna</string>
   <string name="suggested_edits_task_translate_caption_description">Fassara rubutun zuwa wasu harsuna</string>
   <string name="suggested_edits_task_multilingual_title">Ƙarin ayyuka ga masu gyara na harsuna da yawa</string>
-  <string name="suggested_edits_task_multilingual_description">Ayyukan fassara suna samuwa idan ka karanta kuma ka rubuta a cikin harsunan Wikipedia fiye da ɗaya.</string>
+  <string name="suggested_edits_task_multilingual_description">Ayyukan fassara suna samuwa idan ka karanta kuma ka rubuta a cikin harsunan Infopedia fiye da ɗaya.</string>
   <string name="suggested_edits_task_image_caption_edit_disable_text">An kulle har sai an gyara hoton %d</string>
   <string name="suggested_edits_task_translate_description_edit_disable_text">An kulle har sai an gyara bayanin labarin %d (an tabbatar da shi)</string>
   <string name="suggested_edits_task_multilingual_negative">Ba domin Ni ba</string>
@@ -919,7 +919,7 @@
   <string name="suggested_edits_image_preview_dialog_licensing">Lasisi</string>
   <string name="suggested_edits_image_preview_dialog_more_info">Karin Bayani</string>
   <string name="suggested_edits_image_preview_dialog_file_page_link_text">Shafin fayil daga Wikimedia Commons</string>
-  <string name="suggested_edits_image_preview_dialog_file_page_wikipedia_link_text">Shafin fayil akan Wikipedia</string>
+  <string name="suggested_edits_image_preview_dialog_file_page_wikipedia_link_text">Shafin fayil akan Infopedia</string>
   <string name="suggested_edits_article_cta_image_tags">Ƙara alamun hoto</string>
   <string name="suggested_edits_article_cta_image_caption">Ƙara rubutun hoto</string>
   <string name="suggested_edits_article_cta_image_caption_in_language">Hoton hoto (%s)</string>
@@ -934,7 +934,7 @@
   <string name="suggested_edits_image_tags_publishing">Ana wallafawa</string>
   <string name="suggested_edits_image_tags_published">An wallafa</string>
   <string name="suggested_edits_image_tags_onboarding_title">Alamar hotuna yana sauƙaƙa neman su.</string>
-  <string name="suggested_edits_image_tags_onboarding_text">Ta hanyar ƙara alamun hoto, za ku taimaka wajen sauƙaƙa hotunan bincike a kan Commons, ajiyar hotunan lasisi kyauta wanda Wikipedia ke amfani da shi don hotuna a cikin labaransa.</string>
+  <string name="suggested_edits_image_tags_onboarding_text">Ta hanyar ƙara alamun hoto, za ku taimaka wajen sauƙaƙa hotunan bincike a kan Commons, ajiyar hotunan lasisi kyauta wanda Infopedia ke amfani da shi don hotuna a cikin labaransa.</string>
   <string name="suggested_edits_image_tags_onboarding_note">Alamun da kuka zaɓa kawai za a ƙara su a cikin hotuna.</string>
   <string name="suggested_edits_image_tags_task_detail">Ƙara alamun al\'ada ga hoto don sauƙaƙa samun.</string>
   <string name="suggested_edits_image_tags_choose">Ƙara ko zaɓar alamun daidaitawa</string>
@@ -945,8 +945,8 @@
   <string name="suggested_edits_image_tags_add_tag">Ƙara tag</string>
   <string name="suggested_edits_image_tags_exit_dialog_message">Ba za a adana alamun da ba a buga ba</string>
   <string name="suggested_edits_image_zoom_tooltip">Pinch don fadada wannan hoton.</string>
-  <string name="suggested_edits_encouragement_message">%s, godiya ga gyaran ku. Da ke ƙasa za ku iya samun ƙarin hanyoyin da za ku ba da gudummawa ga Wikipedia.</string>
-  <string name="suggested_edits_onboarding_message">&lt;b&gt;Hi %s&lt;/b&gt;, a ƙasa zaku iya samun wasu hanyoyi masu sauri da sauƙi don taimakawa inganta Wikipedia. Za ku ga bambancin da kuke yi da zaran ka fara. Gyara mai farin ciki!</string>
+  <string name="suggested_edits_encouragement_message">%s, godiya ga gyaran ku. Da ke ƙasa za ku iya samun ƙarin hanyoyin da za ku ba da gudummawa ga Infopedia.</string>
+  <string name="suggested_edits_onboarding_message">&lt;b&gt;Hi %s&lt;/b&gt;, a ƙasa zaku iya samun wasu hanyoyi masu sauri da sauƙi don taimakawa inganta Infopedia. Za ku ga bambancin da kuke yi da zaran ka fara. Gyara mai farin ciki!</string>
   <string name="suggested_edits_image_captions_task_detail">Bayyana hoto don taimakawa masu karatu su fahimci ma\'anarsa da mahallin sa.</string>
   <string name="suggested_edits_add_descriptions_task_detail">Taƙaita labarin don taimakawa masu karatu su fahimci batun da kallo.</string>
   <string name="suggested_edits_contributions_stat_tooltip">Adadin gudummawar da kuka bayar ya zuwa yanzu.</string>
@@ -955,7 +955,7 @@
   <string name="suggested_edits_edit_quality_stat_tooltip">Dangane da sau da yawa daya daga cikin gudummawarku ya koma baya (ba tare da wani edita ba). Gyaran da aka mayar da su: %d.</string>
   <string name="suggested_edits_paused_message">Ana dakatar da gyare-gyaren da aka ba da shawarar har zuwa %1$s. Ya yi nadama %2$s, an dawo da wasu gudummawar da kuka bayar kwanan nan.</string>
   <string name="suggested_edits_disabled_message">An kashe gyare-gyaren da aka ba da shawarar. Ya yi nadama %s, yawancin gudummawar da kuka bayar kwanan nan an dawo da su.</string>
-  <string name="suggested_edits_ip_blocked_message">Yana kama da adireshin IP ɗin ku (ko kewayon adiresoshin IP) a halin yanzu an toshe shi daga gyara Wikipedia.</string>
+  <string name="suggested_edits_ip_blocked_message">Yana kama da adireshin IP ɗin ku (ko kewayon adiresoshin IP) a halin yanzu an toshe shi daga gyara Infopedia.</string>
   <string name="suggested_edits_gate_message">Ya yi nadama, %s, dole ne ku yi akalla gyare-gyare uku kai tsaye a cikin labarin don amfani da wannan fasalin.</string>
   <string name="suggested_edits_editing_tips_link_text">Shawarwari da dabaru na gyara</string>
   <string name="suggested_edits_help_page_link_text">Shafin taimako na gyare-gyaren da aka ba da shawarar</string>
@@ -980,7 +980,7 @@
     <item quantity="other">%d kwanaki</item>
   </plurals>
   <string name="suggested_edits_what_is_title">Menene gyare-gyaren da aka ba da shawarar?</string>
-  <string name="suggested_edits_what_is_text">Gyaran da aka ba da shawarar suna ba da dama ga ƙananan gudummawa amma masu mahimmanci ga Wikipedia.</string>
+  <string name="suggested_edits_what_is_text">Gyaran da aka ba da shawarar suna ba da dama ga ƙananan gudummawa amma masu mahimmanci ga Infopedia.</string>
   <string name="suggested_edits_learn_more">Kara koya</string>
   <string name="suggested_edits_paused_title">Dakata</string>
   <string name="suggested_edits_disabled_title">An kashe</string>
@@ -990,8 +990,8 @@
   <string name="suggested_edits_task_new">Sabo</string>
   <string name="suggested_edits_cc0_notice">Ta hanyar bugawa, kun yarda da &lt;a href=\"&lt;span class=\"notranslate\" translate=\"no\"&gt;%1$s \"&gt;terms of use&lt;/a&gt; kuma don fitar da wannan gudummawar ba tare da sokewa ba ƙarƙashin &lt;a href=\"&lt;span class=\"notranslate\" translate=\"no\"&gt;%2$s \"&gt;CC0 license&lt;/a&gt; .</string>
   <string name="suggested_edits_reactivation_notification_title">Gyaran da aka ba da shawarar</string>
-  <string name="suggested_edits_reactivation_notification_stage_one">Godiya ga gyara Wikipedia! Me ya sa kada ka ci gaba inda ka tsaya?</string>
-  <string name="suggested_edits_reactivation_notification_stage_two">Shin kuna da minti daya don ci gaba da inganta Wikipedia? Bincika waɗannan shawarwarin gyara.</string>
+  <string name="suggested_edits_reactivation_notification_stage_one">Godiya ga gyara Infopedia! Me ya sa kada ka ci gaba inda ka tsaya?</string>
+  <string name="suggested_edits_reactivation_notification_stage_two">Shin kuna da minti daya don ci gaba da inganta Infopedia? Bincika waɗannan shawarwarin gyara.</string>
   <string name="suggested_edits_contributions_screen_title">%s\'s Gudunmuwar</string>
   <string name="suggested_edits_contribution_language_label">Yare</string>
   <string name="suggested_edits_contribution_date_time_label">Kwanan wata / Lokaci</string>
@@ -1009,11 +1009,11 @@
     <item quantity="other">Ka ƙara %d tags</item>
   </plurals>
   <string name="suggested_edits_contribution_date_yesterday_text">Jiya</string>
-  <string name="suggested_edits_encourage_account_creation_title">Shin kun san cewa kowa zai iya gyara Wikipedia?</string>
-  <string name="suggested_edits_encourage_account_creation_message">Gyaran da aka ba da shawarar sabuwar hanya ce don gyara Wikipedia akan Android. Yana taimaka maka ka ba da gudummawa kaɗan amma mai mahimmanci ga Wikipedia. Manufarmu ita ce ta sauƙaƙa gyare-gyare kuma ta fi sauƙi ga kowa! Shigar ko shiga Wikipedia don farawa.</string>
-  <string name="suggested_edits_encourage_account_creation_login_button">Shiga / shiga Wikipedia</string>
+  <string name="suggested_edits_encourage_account_creation_title">Shin kun san cewa kowa zai iya gyara Infopedia?</string>
+  <string name="suggested_edits_encourage_account_creation_message">Gyaran da aka ba da shawarar sabuwar hanya ce don gyara Infopedia akan Android. Yana taimaka maka ka ba da gudummawa kaɗan amma mai mahimmanci ga Infopedia. Manufarmu ita ce ta sauƙaƙa gyare-gyare kuma ta fi sauƙi ga kowa! Shigar ko shiga Infopedia don farawa.</string>
+  <string name="suggested_edits_encourage_account_creation_login_button">Shiga / shiga Infopedia</string>
   <string name="suggested_edits_contribution_type_image_tag">Alamar hoto</string>
-  <string name="suggested_edits_contribution_current_revision_text">Gyara ku a halin yanzu yana kan Wikipedia</string>
+  <string name="suggested_edits_contribution_current_revision_text">Gyara ku a halin yanzu yana kan Infopedia</string>
   <string name="suggested_card_more_edits">Ƙarin shawarwarin gyarawa</string>
   <string name="suggested_edits_article_descriptions_dialog_title">Bayanan da aka ba da shawarar</string>
   <string name="suggested_edits_descriptions_report_dialog_title">Me kuke so ku bayar da rahoto?</string>
@@ -1040,7 +1040,7 @@
     <item quantity="other">Kuna ƙara %d haruffa</item>
   </plurals>
   <string name="suggested_edits_image_recommendations_task_title">Hotunan maƙala</string>
-  <string name="suggested_edits_image_recommendations_task_detail">Ƙara hotuna masu ba da shawara ga labaran Wikipedia don haɓaka fahimta.</string>
+  <string name="suggested_edits_image_recommendations_task_detail">Ƙara hotuna masu ba da shawara ga labaran Infopedia don haɓaka fahimta.</string>
   <string name="image_recommendation_task_instruction">Shin za ku ƙara wannan hoton a cikin labarin?</string>
   <string name="image_recommendation_tutorial">Koyarwa</string>
   <string name="image_recommendation_accept">E</string>
@@ -1057,9 +1057,9 @@
   <string name="image_recommendation_reject_submit">Miƙa</string>
   <string name="image_recommendation_tooltip_main">Ƙara hotunan da suka ɓace a cikin Shawarwarin da aka ba da shawara</string>
   <string name="image_recommendation_onboarding_1">Hotuna suna taimaka wa mutane su fahimta, amma labarai da yawa ba su da su.</string>
-  <string name="image_recommendation_onboarding_2">Za ku yanke shawarar idan ya kamata a sanya hoton da aka ba da shawarar a cikin labarin Wikipedia.</string>
+  <string name="image_recommendation_onboarding_2">Za ku yanke shawarar idan ya kamata a sanya hoton da aka ba da shawarar a cikin labarin Infopedia.</string>
   <string name="image_recommendation_onboarding_3">Shawarwari na inji ne kuma za ku yi amfani da hukunci don yanke shawara ko karɓa ko ƙin yarda da su.</string>
-  <string name="image_recommendation_onboarding_4">Hotuna sun fito ne daga Wikimedia Commons, tarin hotunan da aka ba da lasisi kyauta da Wikipedia ta yi amfani da su.</string>
+  <string name="image_recommendation_onboarding_4">Hotuna sun fito ne daga Wikimedia Commons, tarin hotunan da aka ba da lasisi kyauta da Infopedia ta yi amfani da su.</string>
   <string name="image_recommendation_tooltip_1">Bincika wannan labarin don fahimtar batun</string>
   <string name="image_recommendation_tooltip_2">Bincika hoton da bayanan da ke tattare da shi</string>
   <string name="image_recommendation_tooltip_3">Yanke shawara idan hoton yana taimaka wa masu karatu su fahimci wannan batun da kyau</string>
@@ -1076,7 +1076,7 @@
   <string name="file_page_add_image_caption_button">Ƙara rubutun hoto</string>
   <string name="file_page_add_image_tags_button">Ƙara alamun hoto</string>
   <string name="file_page_edit_button_content_description">Gyara %s</string>
-  <string name="description_edit_revert_subtitle">Godiya ga gyara Wikipedia!</string>
+  <string name="description_edit_revert_subtitle">Godiya ga gyara Infopedia!</string>
   <string name="description_edit_revert_intro">Mun san kun yi iya ƙoƙarinku, amma ɗaya daga cikin masu bitar ya sami damuwa. Dalilan da za a iya dawo da gyaran ku sun haɗa da:</string>
   <string name="description_edit_revert_reason1">gudummawar ku ba ta bi ɗaya daga cikin &lt;a href=\"%1$s\"&gt;jagororin&lt;/a&gt; ba.</string>
   <string name="description_edit_revert_reason2">gudummawar ku ta yi kama da gwaji ko lalata.</string>
@@ -1091,9 +1091,9 @@
   <string name="onboarding_get_started">Fara</string>
   <string name="onboarding_maybe_later">Wataƙila daga baya</string>
   <string name="onboarding_explore_title">Sabbin hanyoyin bincike</string>
-  <string name="onboarding_explore_text" fuzzy="true">Nitsaye cikin rami na zomo na Wikipedia tare da sabuntawa akai-akai Bincike ciyarwa. Yi amfani da abinci don abubuwan da kuke so - ko yana koyo game da abubuwan da suka faru a tarihi &lt;b&gt;A wannan rana&lt;/b&gt;, ko kuma mirgine dice tare da Random.&lt;br/&gt;</string>
+  <string name="onboarding_explore_text" fuzzy="true">Nitsaye cikin rami na zomo na Infopedia tare da sabuntawa akai-akai Bincike ciyarwa. Yi amfani da abinci don abubuwan da kuke so - ko yana koyo game da abubuwan da suka faru a tarihi &lt;b&gt;A wannan rana&lt;/b&gt;, ko kuma mirgine dice tare da Random.&lt;br/&gt;</string>
   <string name="onboarding_reading_list_sync_title">Jerin karatu tare da daidaitawa</string>
-  <string name="onboarding_reading_list_sync_text_v2">Kuna iya yin jerin karatu daga labaran da kuke so ku karanta daga baya, koda kuwa kuna kan layi. Shigar da asusunku na Wikipedia don daidaita jerin karatun ku. &lt;a href=\"#login\"&gt;Shigar da Wikipedia&lt;/a&gt;&lt;br/&gt;</string>
+  <string name="onboarding_reading_list_sync_text_v2">Kuna iya yin jerin karatu daga labaran da kuke so ku karanta daga baya, koda kuwa kuna kan layi. Shigar da asusunku na Infopedia don daidaita jerin karatun ku. &lt;a href=\"#login\"&gt;Shigar da Infopedia&lt;/a&gt;&lt;br/&gt;</string>
   <string name="onboarding_analytics_switch_title">Sanya bayanai na amfani</string>
   <string name="onboarding_got_it">Ka samu</string>
   <string name="onboarding_multilingual_secondary_text">Mun sami wadannan a kan na\'urarku:</string>
@@ -1118,7 +1118,7 @@
   <string name="languages_list_activity_title">Ƙara harshe</string>
   <string name="languages_list_suggested_text">Wanda ake bukata</string>
   <string name="languages_list_all_text">Duka harsuna</string>
-  <string name="wikipedia_languages_title">Harsunan Wikipedia</string>
+  <string name="wikipedia_languages_title">Harsunan Infopedia</string>
   <string name="wikipedia_languages_your_languages_text">Yaran ka</string>
   <string name="wikipedia_languages_add_language_text">Ƙara harsunaq</string>
   <string name="wikipedia_languages_remove_text">Cire Yare</string>
@@ -1127,11 +1127,11 @@
     <item quantity="one">Cire zaɓaɓɓen harshe?</item>
     <item quantity="other">Cire zaɓaɓɓun harsuna?</item>
   </plurals>
-  <string name="wikipedia_languages_remove_dialog_content" fuzzy="true">Za ku ga abun ciki ne kawai a kan Binciken abinci da kuma saurin bincike don sauran harsunan Wikipedia.</string>
+  <string name="wikipedia_languages_remove_dialog_content" fuzzy="true">Za ku ga abun ciki ne kawai a kan Binciken abinci da kuma saurin bincike don sauran harsunan Infopedia.</string>
   <string name="wikipedia_languages_remove_warning_dialog_title">Ba za a iya cire dukkan harsuna ba</string>
-  <string name="wikipedia_languages_remove_warning_dialog_content">Ku ajiye akalla harshe ɗaya na Wikipedia daga abin da za a bincika da karanta abun ciki.</string>
+  <string name="wikipedia_languages_remove_warning_dialog_content">Ku ajiye akalla harshe ɗaya na Infopedia daga abin da za a bincika da karanta abun ciki.</string>
   <string name="more_language_options">ƙari</string>
-  <string name="add_wikipedia_languages_text">Ƙara harsunan Wikipedia</string>
+  <string name="add_wikipedia_languages_text">Ƙara harsunan Infopedia</string>
   <string name="remove_language_dialog_cancel_button_text">Soke</string>
   <string name="remove_language_dialog_ok_button_text">Yayi</string>
   <string name="remove_all_language_warning_dialog_ok_button_text">Yayi</string>
@@ -1192,7 +1192,7 @@
   <string name="insert_media_advanced_settings_image_size_custom_px">px</string>
   <string name="insert_media_insert_button">Saka</string>
   <string name="main_drawer_help">Taimako</string>
-  <string name="main_drawer_login">Shiga / shiga Wikipedia</string>
+  <string name="main_drawer_login">Shiga / shiga Infopedia</string>
   <string name="main_tooltip_action_button">Fara</string>
   <string name="main_tooltip_watchlist_title">Jerina na bin sawu</string>
   <string name="main_tooltip_watchlist_text">Neman labarai da shafuka da ka kara a baya a cikin jerin abubuwan kallo a cikin More menu a ƙarƙashin Watchlist.</string>
@@ -1216,7 +1216,7 @@
   <string name="talk_warn_submitted_and_saved">Saƙon da aka adana kuma aka buga zuwa shafin tattaunawa na mai amfani</string>
   <string name="talk_page_empty">Wannan shafin magana ba kome ba ne.</string>
   <string name="talk_page_empty_title">Tattaunawar ta fara a nan</string>
-  <string name="talk_page_empty_content">Shafukan tattaunawa sune inda mutane ke tattauna yadda za a sanya abun cikin Wikipedia mafi kyau. Farawa ta hanyar ƙara sabon batun tattaunawa don haɗi da haɗin gwiwa tare da al\'ummar Wikipedians.</string>
+  <string name="talk_page_empty_content">Shafukan tattaunawa sune inda mutane ke tattauna yadda za a sanya abun cikin Infopedia mafi kyau. Farawa ta hanyar ƙara sabon batun tattaunawa don haɗi da haɗin gwiwa tare da al\'ummar Infopedians.</string>
   <string name="talk_add_reply">Mai da</string>
   <string name="talk_no_subject">(Ba batun ba)</string>
   <string name="talk_reply_subject">Batu</string>
@@ -1229,9 +1229,9 @@
   <string name="talk_last_modified">&lt;b&gt;An shirya shi na ƙarshe %1$s&lt;/b&gt; da %2$s</string>
   <string name="talk_snackbar_survey_text">mun gode da amfani da shafikan magana. kuna iya taimakawa kara fadadawa domin yin bincike.</string>
   <string name="talk_snackbar_survey_action_text">fara yanzu</string>
-  <string name="talk_share_discussion_subject">Wikipedia - tattaunawa a kan batun shafin tattaunawa \"%s\"</string>
-  <string name="talk_share_talk_page">Wikipedia - tattaunawa a shafin tattaunawa</string>
-  <string name="talk_edit_disclaimer">Wannan shafin magana ne. Da fatan Allah ku girmama jagororin shafin magana, kuma ku tuna ku sanya hannu kan sakonni ta hanyar buga takardu huɗu: ~~~~ lokacin da aka aika ta amfani da wikitext. &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Talk_page_guidelines\"&gt;Wikipedia: Jagororin shafi na magana&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;</string>
+  <string name="talk_share_discussion_subject">Infopedia - tattaunawa a kan batun shafin tattaunawa \"%s\"</string>
+  <string name="talk_share_talk_page">Infopedia - tattaunawa a shafin tattaunawa</string>
+  <string name="talk_edit_disclaimer">Wannan shafin magana ne. Da fatan Allah ku girmama jagororin shafin magana, kuma ku tuna ku sanya hannu kan sakonni ta hanyar buga takardu huɗu: ~~~~ lokacin da aka aika ta amfani da wikitext. &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Talk_page_guidelines\"&gt;Infopedia: Jagororin shafi na magana&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;</string>
   <string name="talk_search_hint">Saƙonnin bincike</string>
   <string name="talk_search_topics_hint">Bincika batutuwa</string>
   <string name="talk_search_find_in_talk_topics_hint">Bincika a cikin batun tattaunawa</string>
@@ -1262,7 +1262,7 @@
   <string name="talk_list_item_swipe_mark_as_read">Karanta</string>
   <string name="talk_list_item_swipe_mark_as_unread">Ba a karanta ba</string>
   <string name="talk_login_to_subscribe_dialog_title">Shiga don biyan kuɗi zuwa batutuwa</string>
-  <string name="talk_login_to_subscribe_dialog_content">Biyan kuɗi na jigogi zai ba ka damar karɓar sanarwa game da sabbin sharhi a cikin wannan batu. Da fatan za a ƙirƙiri asusun ko shiga cikin asusun Wikipedia don biyan kuɗi ga batun.</string>
+  <string name="talk_login_to_subscribe_dialog_content">Biyan kuɗi na jigogi zai ba ka damar karɓar sanarwa game da sabbin sharhi a cikin wannan batu. Da fatan za a ƙirƙiri asusun ko shiga cikin asusun Infopedia don biyan kuɗi ga batun.</string>
   <string name="talk_archived_title">Tarihin Magana: %s</string>
   <string name="menu_option_share_talk_discussion">Raba tattaunawa</string>
   <string name="menu_option_share_talk_page">Shafin tattaunawa na raba</string>
@@ -1282,7 +1282,7 @@
   <string name="thank_label">Na gode</string>
   <string name="view_user_page">Duba shafin ma\'aikaci</string>
   <string name="thank_dialog_title_text">A aika \'Na gode\' a fili</string>
-  <string name="thank_dialog_text">\'Godiya\' hanya ce mai sauƙi don nuna godiya ga aikin edita a Wikipedia. \'Godiya\' ba za a iya cirewa ba kuma ana iya kallon su a fili</string>
+  <string name="thank_dialog_text">\'Godiya\' hanya ce mai sauƙi don nuna godiya ga aikin edita a Infopedia. \'Godiya\' ba za a iya cirewa ba kuma ana iya kallon su a fili</string>
   <string name="thank_dialog_positive_button_text">Aika godiya</string>
   <string name="thank_dialog_negative_button_text">Soke</string>
   <string name="thank_success_message">An aika da \'Na gode\' zuwa %s 👍</string>
@@ -1414,7 +1414,7 @@
   <string name="shareable_reading_lists_new_imported_snackbar">Jerin karatun da aka shigo da su</string>
   <string name="reading_list_share_menu_label">Rabawa...</string>
   <string name="reading_list_share_menu_tooltip">Raba wannan jerin karatun tare da wasu</string>
-  <string name="reading_list_share_message_v2">Ya kasance! Ina so in raba jerin karatun Wikipedia tare da ku:</string>
+  <string name="reading_list_share_message_v2">Ya kasance! Ina so in raba jerin karatun Infopedia tare da ku:</string>
   <string name="talk_templates_empty_message" fuzzy="true">Ba ku da saƙonnin gargadi da aka adana.</string>
   <string name="talk_templates_new_message_title">Sabon saƙo</string>
   <string name="talk_templates_new_message_subject_hint">Batu</string>
@@ -1507,8 +1507,8 @@
   <string name="patroller_tasks_patrol_edit_snackbar_view">Duba</string>
   <string name="patroller_tasks_overflow_report">Matsala tare da fasalin</string>
   <string name="patroller_tasks_overflow_learn">Ƙara koyo</string>
-  <string name="patroller_onboarding_one_title">Ka ba da gudummawa ga sa ido da amincewa da gyaran Wikipedia.</string>
-  <string name="patroller_onboarding_one_content">Inganta ingancin abun ciki na Wikipedia ta hanyar sake duba abubuwan da aka yi kwanan nan da kuma samar da jagora, kula da inganci, da ƙarfafawa ga sauran masu gyara.</string>
+  <string name="patroller_onboarding_one_title">Ka ba da gudummawa ga sa ido da amincewa da gyaran Infopedia.</string>
+  <string name="patroller_onboarding_one_content">Inganta ingancin abun ciki na Infopedia ta hanyar sake duba abubuwan da aka yi kwanan nan da kuma samar da jagora, kula da inganci, da ƙarfafawa ga sauran masu gyara.</string>
   <string name="patroller_onboarding_two_title">Bayar da ra\'ayoyi, saka idanu, da kuma daukar matakai a allon diff</string>
   <string name="patroller_onboarding_two_thank_title">Godiya</string>
   <string name="patroller_onboarding_two_thank_content">Dubi gyare-gyare mai amfani? Na gode wa mai amfani saboda gudummawar da suka bayar.</string>
@@ -1530,7 +1530,7 @@
   <string name="email_report_patroller_tasks_subject">Rahoton fitowa- Gyara Patrol Feature</string>
   <string name="email_report_patroller_tasks_body">Na gamu da matsala tare da Gyara Patrol Feature: - [Bayyana takamaiman matsala] __hau____hau____hau__ Halin da nake so in gani shine: - [Bayyana mafita da aka tsara] __hau____hau____hau__ [Screenshots ko Links]</string>
   <string name="donation_campaign_maybe_later_snackbar">Za mu sake tunatar da ku gobe.</string>
-  <string name="donation_campaign_donated_snackbar" fuzzy="true">Na gode, ƙaunataccen mai ba da gudummawa! karimcinku yana taimakawa wajen ci gaba da Wikipedia da shafukan \'yan uwanta.</string>
+  <string name="donation_campaign_donated_snackbar" fuzzy="true">Na gode, ƙaunataccen mai ba da gudummawa! karimcinku yana taimakawa wajen ci gaba da Infopedia da shafukan \'yan uwanta.</string>
   <string name="donation_campaign_go_back_button">Koma baya</string>
   <string name="menu_single_webview_open_external">Bude a cikin tsarin mai lilo</string>
   <string name="places_title">Wajaje</string>

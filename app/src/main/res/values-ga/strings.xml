@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Aindriu80
 * Dbrant
@@ -9,9 +9,9 @@
 * Tem
 -->
 <resources>
-  <string name="app_name_prod">Vicipéid</string>
-  <string name="app_name_beta">Vicipéid Béite</string>
-  <string name="app_name_alpha">Vicipéid Alfa</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Wikimedia</string>
   <string name="nav_item_back">Siar</string>
   <string name="page_tabs_back">Siar</string>
@@ -151,7 +151,7 @@
   <string name="search_reading_lists_no_results">Níor aimsíodh torthaí i liostaí léitheoireachta</string>
   <string name="search_history_no_results">Níor aimsíodh torthaí i stair</string>
   <string name="edit_section_captcha_message">Mar chosaint i gcoinne turscair uathoibrithe, iontráil na focail atá le feiceáil thíos</string>
-  <string name="edit_section_captcha_request_an_account_message">Nach féidir leat an íomhá a fhéachaint? &lt;a href=\"https://ga.wikipedia.org/wiki/Vicipéid:Déan iarratas ar cuntas\"&gt;Déan iarratas ar cuntas&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">Nach féidir leat an íomhá a fhéachaint? &lt;a href=\"https://ga.Infopedia.org/wiki/Vicipéid:Déan iarratas ar cuntas\"&gt;Déan iarratas ar cuntas&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">Athiontráil na focail a chonaic tú thuas</string>
   <string name="title_captcha">Iontráil CAPTCHA</string>
   <string name="edit_section_captcha_reload">Tapáil ar CAPTCHA le athlódáil</string>
@@ -218,7 +218,7 @@
   <string name="create_account_button">Cruthaigh cuntas</string>
   <string name="create_account_name_unavailable">Níl an t-ainm úsáideora \"%s\" ar fáil. Déan rogha d\'ainm eile.</string>
   <string name="create_account_ip_block_message">Tá brón orainn, bactar ar do sheoladh IP cuntais nua a chruthú faoi láthair.</string>
-  <string name="create_account_ip_block_help_url">\nhttps://ga.wikipedia.org/wiki/Cabhair:Bacadh mé</string>
+  <string name="create_account_ip_block_help_url">\nhttps://ga.Infopedia.org/wiki/Cabhair:Bacadh mé</string>
   <string name="create_account_ip_block_details">Sonraí</string>
   <string name="preferences_general_heading">Ginearálta</string>
   <string name="preferences_account_heading">Cuntas</string>
@@ -253,21 +253,21 @@
   <string name="privacy_policy_description">Polasaí príobháideachais</string>
   <string name="terms_of_use_description">Coinníollacha úsáide</string>
   <string name="legal_safety_contacts_description">Teagmhálaithe dlí agus sábháilteachta</string>
-  <string name="about_wikipedia_url">https://en.wikipedia.org/wiki/Wikipedia:About</string>
-  <string name="privacy_policy_url">https://foundation.wikimedia.org/wiki/Special:MyLanguage/Privacy_policy</string>
-  <string name="offline_reading_and_data_url">https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Offline_reading_and_data</string>
-  <string name="android_app_faq_url">https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ</string>
-  <string name="terms_of_use_url">https://foundation.wikimedia.org/wiki/Special:MyLanguage/Terms_of_Use</string>
-  <string name="android_app_request_an_account_url">https://ga.wikipedia.org/wiki/Vicipéid:Dean_iarratas_ar_cuntas</string>
+  <string name="about_wikipedia_url">https://en.Infopedia.org/wiki/Infopedia:About</string>
+  <string name="privacy_policy_url">https://foundation.infopedia.org/wiki/Special:MyLanguage/Privacy_policy</string>
+  <string name="offline_reading_and_data_url">https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Offline_reading_and_data</string>
+  <string name="android_app_faq_url">https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ</string>
+  <string name="terms_of_use_url">https://foundation.infopedia.org/wiki/Special:MyLanguage/Terms_of_Use</string>
+  <string name="android_app_request_an_account_url">https://ga.Infopedia.org/wiki/Vicipéid:Dean_iarratas_ar_cuntas</string>
   <string name="cc_by_sa_4_url">https://creativecommons.org/licenses/by-sa/4.0/</string>
   <string name="cc_0_url">https://creativecommons.org/publicdomain/zero/1.0/</string>
   <string name="about_libraries_heading">Leabharlanna a úsáidtear</string>
   <string name="about_contributors_heading">Rannchuiditheoirí</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Leathanach foirne&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Leathanach foirne&lt;/a&gt;</string>
   <string name="about_translators_heading">Aistritheoirí</string>
   <string name="about_translators_translatewiki">Tá an aip seo arna aistriú ag na haistritheoirí deonacha de chuid &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt;.</string>
   <string name="about_app_license_heading">Ceadúnas</string>
-  <string name="about_app_license">Cód foinseach ar fáil ar &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;GitHub&lt;/a&gt; de réir an &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Cheadúnais Apache 2.0&lt;/a&gt;. Mura sonraítear a mhalairt, tá an t-inneachar ar fáil de réir &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Ceadúnais Creative Commons Attribution-ShareAlike&lt;/a&gt;.</string>
+  <string name="about_app_license">Cód foinseach ar fáil ar &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;GitHub&lt;/a&gt; de réir an &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Cheadúnais Apache 2.0&lt;/a&gt;. Mura sonraítear a mhalairt, tá an t-inneachar ar fáil de réir &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Ceadúnais Creative Commons Attribution-ShareAlike&lt;/a&gt;.</string>
   <string name="about_wmf">Táirge de chuid na &lt;a href=\"https://wikimediafoundation.org/\"&gt;Fondúireachta Wikimedia&lt;/a&gt;</string>
   <string name="about_activity_title">Maidir leis</string>
   <string name="about_logo_content_description">Lógó cruinne puzail Vicipéid</string>
@@ -455,9 +455,9 @@
   <string name="error_blocked_start">Tús an bhloic: %s</string>
   <string name="error_blocked_expiry">Dáta éaga an bhloic: %s</string>
   <string name="error_blocked_id">ID an bhloic: %s</string>
-  <string name="error_blocked_footer">Is féidir leat teagmháil a dhéanamh le &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; nó le &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Administrators\"&gt;riarthóir&lt;/a&gt; eile chun an bac a phlé.</string>
+  <string name="error_blocked_footer">Is féidir leat teagmháil a dhéanamh le &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; nó le &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Administrators\"&gt;riarthóir&lt;/a&gt; eile chun an bac a phlé.</string>
   <string name="theme_chooser_menu_item_short_tooltip">Saincheap do bharra uirlisí</string>
-  <string name="error_blocked_footer_no_blocker">Is féidir leat teagmháil a dhéanamh &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Administrators\"&gt;le riarthóir&lt;/a&gt; chun an blocáil a phlé.</string>
+  <string name="error_blocked_footer_no_blocker">Is féidir leat teagmháil a dhéanamh &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Administrators\"&gt;le riarthóir&lt;/a&gt; chun an blocáil a phlé.</string>
   <string name="temp_account_not_logged_in">Níl tú logáilte isteach</string>
   <string name="temp_account_anon_ip_dialog_body">Nuair a dhéanfaidh tú eagarthóireacht, beidh do sheoladh IP ceangailte le d’eagarthóireacht.&lt;br /&gt;&lt;br /&gt;&lt;a href=\"https://#login\"&gt;Logáil isteach&lt;/a&gt; nó &lt;a href=\"https://#createaccount\"&gt;cruthaigh cuntas&lt;/a&gt; chun creidiúint a fháil as eagarthóireachtaí amach anseo agus chun rochtain a fháil ar ghnéithe eile.</string>
   <string name="temp_account_anon_dialog_body">Nuair a dhéanfaidh tú eagarthóireacht, cruthófar &lt;b&gt;cuntas sealadach&lt;/b&gt; duit chun do phríobháideacht a chosaint. &lt;a href=\"%1$s\"&gt;Foghlaim tuilleadh&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;&lt;a href=\"https://#login\"&gt;Logáil isteach&lt;/a&gt; nó &lt;a href=\"https://#createaccount\"&gt;cruthaigh cuntas&lt;/a&gt; chun creidiúint a fháil as eagarthóireachtaí amach anseo agus chun rochtain a fháil ar ghnéithe eile.</string>
@@ -628,8 +628,8 @@
   <string name="reading_list_confirm_remove_article_from_offline_title">Tá an t-alt le feiceáil i liostaí éagsúla</string>
   <string name="reading_list_confirm_remove_article_from_offline_message">Ní bheidh %s ar fáil as líne a thuilleadh do gach liosta léitheoireachta:</string>
   <string name="reading_lists_sync_reminder_title">Cas air sioncronú liostaí léitheoireachta?</string>
-  <string name="reading_lists_sync_reminder_text">Is féidir ailt atá sábháilte chuig liostaí léitheoireachta a shioncronú le do chuntas Vicipéid anois. &lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Foghlaim tuilleadh&lt;/a&gt;</string>
-  <string name="reading_lists_login_reminder_text_with_link">Is féidir liostaí léitheoireachta a shioncronú anois ar fud gléasanna. Logáil isteach i do chuntas Vicipéid agus lig do liostaí a bheith sábháilte. &lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Foghlaim tuilleadh&lt;/a&gt;</string>
+  <string name="reading_lists_sync_reminder_text">Is féidir ailt atá sábháilte chuig liostaí léitheoireachta a shioncronú le do chuntas Vicipéid anois. &lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Foghlaim tuilleadh&lt;/a&gt;</string>
+  <string name="reading_lists_login_reminder_text_with_link">Is féidir liostaí léitheoireachta a shioncronú anois ar fud gléasanna. Logáil isteach i do chuntas Vicipéid agus lig do liostaí a bheith sábháilte. &lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Foghlaim tuilleadh&lt;/a&gt;</string>
   <string name="reading_lists_sync_reminder_action">Cumasaigh sioncronú</string>
   <string name="reading_list_login_reminder_title">Sioncronaigh liostaí léitheoireachta</string>
   <string name="reading_lists_login_reminder_text">Anois is féidir liostaí léitheoireachta a shioncrónú thar gléasanna. Logáil isteach chuig do chuntas Vicipéide agus ceadaigh é go sábhálfar do chuid liostaí.</string>
@@ -1562,7 +1562,7 @@
   <string name="talk_snackbar_survey_action_text">Tosaigh</string>
   <string name="talk_share_discussion_subject">Vicipéid - plé ar an topaic leathanach plé \"%s\"</string>
   <string name="talk_share_talk_page">Vicipéid - plé ar an leathanach plé</string>
-  <string name="talk_edit_disclaimer">Is leathanach plé é seo. Tabhair aird ar threoirlínte an leathanaigh phlé, agus cuimhnigh do phoist a shíniú trí cheithre thildé a chlóscríobh: ~~~~ agus tú ag postáil ag baint úsáide as vicíthéacs.&lt;br&gt;&lt;br&gt;&lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Talk_page_guidelines\"&gt;Vicipéid:Treoirlínte an leathanaigh phlé&lt;/a&gt;</string>
+  <string name="talk_edit_disclaimer">Is leathanach plé é seo. Tabhair aird ar threoirlínte an leathanaigh phlé, agus cuimhnigh do phoist a shíniú trí cheithre thildé a chlóscríobh: ~~~~ agus tú ag postáil ag baint úsáide as vicíthéacs.&lt;br&gt;&lt;br&gt;&lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Talk_page_guidelines\"&gt;Vicipéid:Treoirlínte an leathanaigh phlé&lt;/a&gt;</string>
   <string name="talk_search_hint">Cuardaigh teachtaireachtaí</string>
   <string name="talk_search_topics_hint">Cuardaigh topaicí</string>
   <string name="talk_search_find_in_talk_topics_hint">Aimsigh sa topaic ar an leathanach plé</string>
@@ -1895,7 +1895,7 @@
   <string name="patroller_saved_message_body_edit_summary">Haigh {{{username}}}, is cosúil gur bhain tú ábhar de Vicipéid gan achoimre eagarthóireachta a fhágáil. Fág achoimre eagarthóireachta le do thoil aon uair a chuireann tú ábhar leis an Vicipéid nó a bhaineann tú é.</string>
   <string name="patroller_saved_message_body_do_not_censor">Haigh {{{username}}}, is cosúil gur bhain tú ábhar gan é a phlé ar leathanach plé an ailt. Tabhair faoi deara nach bhfuil cinsireacht ar Vicipéid, agus níor cheart ábhar a bhaint mar gheall ar a chonspóid. Má chreideann tú go bhfuil an fhaisnéis mícheart, déan comhaontú ar leathanach plé an ailt.</string>
   <string name="talk_warn_learn_more_label">Foghlaim faoi áitchoinneoirí teachtaireachtaí</string>
-  <string name="talk_warn_learn_more_url">https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_Suggested_edits#Message_placeholders</string>
+  <string name="talk_warn_learn_more_url">https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_Suggested_edits#Message_placeholders</string>
   <string name="talk_warn_saved_messages_usage_instruction">Bain úsáid as teachtaireacht shamplach thíos chun do theachtaireachtaí a shaincheapadh, a sheoladh agus a shábháil.</string>
   <string name="patroller_saved_message_body_art_imp">Haigh {{{username}}}. Is tús iontach é d\'alt! Chun é a dhéanamh níos fearr fós, smaoinigh ar níos mó tagairtí do fhoinsí iontaofa a chur leis. Cuidíonn sé seo leis an bhfaisnéis a fhíorú agus feabhsaíonn sé cáilíocht an ailt. Féach ar threoirlínte na Vicipéide seo ar [[Vicipéid:Foinsí_iontaofa|foinsí iontaofa]] le haghaidh tuilleadh sonraí.</string>
   <string name="talk_templates_menu_edit_title">Cuir in Eagar</string>
@@ -1921,7 +1921,7 @@
   <string name="donate_gpay_check_recurring">Déan síntiús míosúil athfhillteach de seo.</string>
   <string name="donate_gpay_check_send_email">Sea, is féidir le Fondúireacht Wikimedia ríomhphost a sheoladh chugam ó am go ham.</string>
   <string name="donate_gpay_minimum_amount">Roghnaigh méid le do thoil (%s ar a laghad)</string>
-  <string name="donate_gpay_maximum_amount">Ní féidir linn glacadh le síntiúis níos mó ná %s tríd ár n-aip. Téigh i dteagmháil lenár bhfoireann bronntanas mór ag benefactors@wikimedia.org.</string>
+  <string name="donate_gpay_maximum_amount">Ní féidir linn glacadh le síntiúis níos mó ná %s tríd ár n-aip. Téigh i dteagmháil lenár bhfoireann bronntanas mór ag benefactors@infopedia.org.</string>
   <string name="donate_gpay_success_message">&lt;b&gt;Go raibh maith agat!&lt;/b&gt; Tá an-tábhacht ag baint le do fhlaithiúlacht i leith Vicipéid dúinn.</string>
   <string name="donate_gpay_help_problems">Fadhbanna ag síntiús?</string>
   <string name="donate_gpay_help_other_ways">Bealaí eile le tabhairt</string>
@@ -2328,7 +2328,7 @@
   </plurals>
   <string name="year_in_review_slide_viewed_articles_times_body">Do dhaoine ar fud an domhain, is í Vicipéid an chéad stad agus ceist á freagairt acu, eolas á chuardach acu don scoil nó don obair, nó fíric nua á foghlaim acu.</string>
   <string name="year_in_review_reading_list_dialog_title">Cruthaigh do liosta léitheoireachta %d Athbhreithniú ar an mBliain?</string>
-  <string name="year_in_review_reading_list_dialog_message">Cruthóidh Wikipedia Year in Review liosta léitheoireachta de na hailt ar chaith tú an t-am is mó leo i %1$d. &lt;a href=\"%2$s\"&gt;Foghlaim tuilleadh&lt;/a&gt;</string>
+  <string name="year_in_review_reading_list_dialog_message">Cruthóidh Infopedia Year in Review liosta léitheoireachta de na hailt ar chaith tú an t-am is mó leo i %1$d. &lt;a href=\"%2$s\"&gt;Foghlaim tuilleadh&lt;/a&gt;</string>
   <string name="year_in_review_reading_list_dialog_positive_button_label">Cruthaigh</string>
   <string name="year_in_review_reading_list_dialog_negative_button_label">Ní raibh maith agat</string>
   <string name="year_in_review_reading_list_title">Athbhreithniú na Bliana %d</string>

@@ -57,10 +57,10 @@
     <color name="pink300">#D9B4CD</color>
     <color name="pink800">#82456A</color>
 
-    <color name="launcher_background_color">#F3F4F5</color>
-    <color name="splash_background_color">#F8F9FA</color>
-    <color name="splash_foreground_color">#27292D</color>
-    <color name="splash_star_color">@android:color/transparent</color>
+    <color name="launcher_background_color">#1A1D23</color>
+    <color name="splash_background_color">#0F1117</color>
+    <color name="splash_foreground_color">#C0C8D8</color>
+    <color name="splash_star_color">#4A90D9</color>
 
     <color name="widget_background">#F8F9FA</color>
     <color name="widget_paper">#FFFFFF</color>

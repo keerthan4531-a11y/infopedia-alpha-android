@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Joanmp17
 -->
 <resources>
-  <string name="app_name_prod">ዊኪፐድያ</string>
-  <string name="app_name_beta">ዊኪፐድያ ቤታ</string>
-  <string name="app_name_alpha">ዊኪፐድያ ኣልፋ</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">ዊኪሜድያ</string>
   <string name="nav_item_back">ተመለስ</string>
   <string name="page_tabs_back">ተመለስ</string>
@@ -159,8 +159,8 @@
   <string name="about_description">ብዛዕባ መተግበሪ ዊኪፐድያ</string>
   <string name="privacy_policy_description">ሕጊ ስትረት</string>
   <string name="terms_of_use_description">ውዕላት ኣጠቓቕማ</string>
-  <string name="about_wikipedia_url">https://ti.wikipedia.org/wiki/ዊኪፔዲያ:ብዛዕባ</string>
-  <string name="android_app_request_an_account_url">https://ti.wikipedia.org/wiki/Wikipedia:Request_an_account</string>
+  <string name="about_wikipedia_url">https://ti.Infopedia.org/wiki/ዊኪፔዲያ:ብዛዕባ</string>
+  <string name="android_app_request_an_account_url">https://ti.Infopedia.org/wiki/Infopedia:Request_an_account</string>
   <string name="about_libraries_heading">ዝተጠቕሙ ቤተ-መጻሕፍቲ</string>
   <string name="about_contributors_heading">ኣበርከትቲ</string>
   <string name="about_translators_heading">ተርጐምቲ</string>

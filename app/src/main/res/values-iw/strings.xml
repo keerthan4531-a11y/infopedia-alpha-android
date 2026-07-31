@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * A100Star
 * Amire80
@@ -30,9 +30,9 @@
 * נדב ס
 -->
 <resources>
-  <string name="app_name_prod">ויקיפדיה</string>
-  <string name="app_name_beta">ויקיפדיה בטא</string>
-  <string name="app_name_alpha">ויקיפדיה אלפא</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">ויקימדיה</string>
   <string name="nav_item_back">חזרה</string>
   <string name="page_tabs_back">חזרה</string>
@@ -169,7 +169,7 @@
   <string name="search_reading_lists_no_results">לא נמצאו תוצאות ברשימות קריאה</string>
   <string name="search_history_no_results">לא נמצאו תוצאות בהיסטוריה</string>
   <string name="edit_section_captcha_message">כדי לסייע בהגנה מפני ספאם, הזינו את המילים המופיעות להלן</string>
-  <string name="edit_section_captcha_request_an_account_message">לא רואים את התמונה? &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;בקשו חשבון&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">לא רואים את התמונה? &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;בקשו חשבון&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">נא לחזור על המילים לעיל</string>
   <string name="title_captcha">נא להזין קוד אימות אנוש</string>
   <string name="edit_section_captcha_reload">יש ללחוץ על תמונת האימות לשם רענון</string>
@@ -236,7 +236,7 @@
   <string name="create_account_button">יצירת חשבון</string>
   <string name="create_account_name_unavailable">שם המשתמש \"%s\" אינו זמין. נא לבחור שם משתמש אחר.</string>
   <string name="create_account_ip_block_message">מצטערים, כתובת ה־IP שלך חסומה כרגע מיצירת חשבונות חדשים.</string>
-  <string name="create_account_ip_block_help_url">https://he.wikipedia.org/wiki/WP:BLOCK</string>
+  <string name="create_account_ip_block_help_url">https://he.Infopedia.org/wiki/WP:BLOCK</string>
   <string name="create_account_ip_block_details">פרטים</string>
   <string name="preferences_general_heading">כללי</string>
   <string name="preferences_account_heading">חשבון</string>
@@ -271,18 +271,18 @@
   <string name="privacy_policy_description">מדיניות פרטיות</string>
   <string name="terms_of_use_description">תנאי שימוש</string>
   <string name="legal_safety_contacts_description">פרטי קשר לענייני משפט ובטיחות</string>
-  <string name="about_wikipedia_url">https://he.wikipedia.org/wiki/WP:ABOUT</string>
-  <string name="privacy_policy_url" fuzzy="true">https://foundation.wikimedia.org/wiki/Privacy_policy</string>
-  <string name="terms_of_use_url" fuzzy="true">https://foundation.wikimedia.org/wiki/Terms_of_Use/he</string>
+  <string name="about_wikipedia_url">https://he.Infopedia.org/wiki/WP:ABOUT</string>
+  <string name="privacy_policy_url" fuzzy="true">https://foundation.infopedia.org/wiki/Privacy_policy</string>
+  <string name="terms_of_use_url" fuzzy="true">https://foundation.infopedia.org/wiki/Terms_of_Use/he</string>
   <string name="cc_by_sa_4_url">https://creativecommons.org/licenses/by-sa/4.0/deed.he</string>
   <string name="cc_0_url">https://creativecommons.org/publicdomain/zero/1.0/deed.he</string>
   <string name="about_libraries_heading">ספריות בשימוש</string>
   <string name="about_contributors_heading">תורמים</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;דף הצוות&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;דף הצוות&lt;/a&gt;</string>
   <string name="about_translators_heading">מתרגמים</string>
   <string name="about_translators_translatewiki">היישום הזה תורגם על־ידי מתרגמים מתנדבים באתר &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt;.</string>
   <string name="about_app_license_heading">רישיון</string>
-  <string name="about_app_license">קוד המקור זמין ב־&lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;גיטהאב&lt;/a&gt; לפי תנאי &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;רישיון Apache 2.0&lt;/a&gt;. אלא אם נאמר אחרת, התוכן זמין לפי &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License\"&gt;רישיון קריאייטיב קומונז–ייחוס–שיתוף זהה&lt;/a&gt;.</string>
+  <string name="about_app_license">קוד המקור זמין ב־&lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;גיטהאב&lt;/a&gt; לפי תנאי &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;רישיון Apache 2.0&lt;/a&gt;. אלא אם נאמר אחרת, התוכן זמין לפי &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License\"&gt;רישיון קריאייטיב קומונז–ייחוס–שיתוף זהה&lt;/a&gt;.</string>
   <string name="about_wmf">מוצר של &lt;a href=\"https://wikimediafoundation.org/\"&gt;קרן ויקימדיה&lt;/a&gt;</string>
   <string name="about_activity_title">אודות</string>
   <string name="about_logo_content_description">סמול גלובוס הפאזל של ויקיפדיה</string>
@@ -465,9 +465,9 @@
   <string name="error_blocked_start">תחילת החסימה: %s</string>
   <string name="error_blocked_expiry">פקיעת החסימה: %s</string>
   <string name="error_blocked_id">מזהה החסימה: %s</string>
-  <string name="error_blocked_footer">באפשרותך ליצור קשר עם &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; או עם &lt;a href=\"https://he.wikipedia.org/wiki/WP:SYSOP\"&gt;מפעיל&lt;/a&gt;</string>
+  <string name="error_blocked_footer">באפשרותך ליצור קשר עם &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; או עם &lt;a href=\"https://he.Infopedia.org/wiki/WP:SYSOP\"&gt;מפעיל&lt;/a&gt;</string>
   <string name="theme_chooser_menu_item_short_tooltip">התאמת סרגל הכלים שלך</string>
-  <string name="error_blocked_footer_no_blocker">באפשרותך ליצור קשר עם &lt;a href=\"https://he.wikipedia.org/wiki/WP:SYSOP\"&gt;מפעיל&lt;/a&gt; כדי לדון בחסימה.</string>
+  <string name="error_blocked_footer_no_blocker">באפשרותך ליצור קשר עם &lt;a href=\"https://he.Infopedia.org/wiki/WP:SYSOP\"&gt;מפעיל&lt;/a&gt; כדי לדון בחסימה.</string>
   <string name="temp_account_not_logged_in">לא נכנסת לחשבון</string>
   <string name="temp_account_anon_ip_dialog_body">לאחר עריכה, כתובת ה־IP שלך תשויך לעריכות שלך.&lt;br /&gt;&lt;br /&gt;יש &lt;a href=\"https://#login\"&gt;היכנס&lt;/a&gt; או &lt;a href=\"https://#createaccount\"&gt;ליצור חשבון&lt;/a&gt; כדי לקבל קרדיט עבור עריכות עתידיות וכדי לגשת לתכונות אחרות.</string>
   <string name="temp_account_anon_dialog_body">לאחר ביצוע עריכה, ייווצר בשבילך חשבון חולף כדי להגן על פרטיותך. &lt;a href=\"%1$s\"&gt;מידע נוסף&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;&lt;a href=\"https://#login\"&gt;כניסה&lt;/a&gt; או &lt;a href=\"https://#createaccount\"&gt;יצירת חשבון&lt;/a&gt; תאפשר לך לקבל קרדיט על עריכות עתידיות ולגשת לאפשרויות אחרות.</string>
@@ -629,8 +629,8 @@
   <string name="reading_list_confirm_remove_article_from_offline_title">הערך מופיע בכמה רשימות</string>
   <string name="reading_list_confirm_remove_article_from_offline_message">הערך %s לא יהיה זמין מחוץ לרשת בכל רשימות הקריאה:</string>
   <string name="reading_lists_sync_reminder_title">להפעיל סנכרון רשימות קריאה?</string>
-  <string name="reading_lists_sync_reminder_text">עכשיו אפשר לסנכרן ערכים שנשמרו לרשימות קריאה לחשבון הוויקיפדיה שלך. &lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;מידע נוסף&lt;/a&gt;</string>
-  <string name="reading_lists_login_reminder_text_with_link">אפשר לסנכרן רשימות קריאה במכשירים שונים. יש להיכנס לחשבון הוויקיפדיה שלך ולאפשר לרשימת להישמר. &lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;מידע נוסף&lt;/a&gt;</string>
+  <string name="reading_lists_sync_reminder_text">עכשיו אפשר לסנכרן ערכים שנשמרו לרשימות קריאה לחשבון הוויקיפדיה שלך. &lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;מידע נוסף&lt;/a&gt;</string>
+  <string name="reading_lists_login_reminder_text_with_link">אפשר לסנכרן רשימות קריאה במכשירים שונים. יש להיכנס לחשבון הוויקיפדיה שלך ולאפשר לרשימת להישמר. &lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;מידע נוסף&lt;/a&gt;</string>
   <string name="reading_lists_sync_reminder_action">הפעלת סנכרון</string>
   <string name="reading_list_login_reminder_title">סנכרון רשימות קריאה</string>
   <string name="reading_lists_login_reminder_text">עכשיו אפשר לסנכרן רשימות קריאה במכשירים שונים. נא להיכנס לחשבון הוויקיפדיה שלך ולאפשר את שמירת רשימות הקריאה שלך.</string>
@@ -1517,7 +1517,7 @@
   <string name="talk_snackbar_survey_action_text">להתחיל</string>
   <string name="talk_share_discussion_subject">ויקיפדיה – דיון בדף שיחה בנושא \"%s\"</string>
   <string name="talk_share_talk_page">ויקיפדיה – דיונים בדף שיחה</string>
-  <string name="talk_edit_disclaimer">זהו דף שיחה. נא לכבד את ההנחיות לשימוש בדפי שיחה, ולזכור לחתום על ההודעות שלך בארבע טילדות בעת שימוש בקוד ויקי.&lt;br&gt;&lt;br&gt;&lt;a href=\"https://he.wikipedia.org/wiki/ויקיפדיה:דף_שיחה\"&gt;ויקיפדיה:דף_שיחה&lt;/a&gt;</string>
+  <string name="talk_edit_disclaimer">זהו דף שיחה. נא לכבד את ההנחיות לשימוש בדפי שיחה, ולזכור לחתום על ההודעות שלך בארבע טילדות בעת שימוש בקוד ויקי.&lt;br&gt;&lt;br&gt;&lt;a href=\"https://he.Infopedia.org/wiki/ויקיפדיה:דף_שיחה\"&gt;ויקיפדיה:דף_שיחה&lt;/a&gt;</string>
   <string name="talk_search_hint">חיפוש הודעות</string>
   <string name="talk_search_topics_hint">חיפוש נושאים</string>
   <string name="talk_search_find_in_talk_topics_hint">חיפוש בנושא דף שיחה</string>
@@ -1836,7 +1836,7 @@
   <string name="patroller_saved_message_title_art_imp">הצעה לשיפור הערך</string>
   <string name="patroller_saved_message_body_vandalism">שלום {{{username}}}, אני רוצה להודיע לך ששחזרתי אחת או יותר מ[{{{diffLink}}}|התרומות שלך] כי הן לא נראות בונות. אם נראה לך שטעיתי או שיש לך שאלות, באפשרותך להשאיר הודעה ב[[User talk:{{{senderUserName}}}|דף השיחה שלי]]. נא לשים לב לכך שהמשך ההשחתה עלול להוביל להגבלות.</string>
   <string name="patroller_saved_message_body_editing_tests">שלום {{{username}}}, משמח אותי שוויקיפדיה משכה את תשומת לבך ושמעניין אותך ללמוד איך לערוך בה. בדיקת העריכה שעשית עבדה; עם זאת, כדאי לזכור שהמטרה של המיזם הזה היא לפתח אנציקלופדיה אמינה ושלמה שכולם יכולים לקבל ממנה מידע. העריכה שלך השפיעה על התוכן, ולכן הוא הוסר.\nאם ברצונך ללמוד איך לערוך את ויקיפדיה, לרשותך עומד [[ויקיפדיה:ארגז חול|ארגז]]. אם היו לך הערות מסוימיות על ערך, המקום הנכון הוא דף השיחה של אותו הערך.</string>
-  <string name="patroller_saved_message_body_npov">שלום {{{username}}}, חלק מהתרומות שעשית אינן עומדות בניטרליות הנדרשת כדי לציית ל[[Wikipedia:NPOV|מדיניות נקודת המבט הניטרלית]] של הוויקיפדיה הזאת. מהסיבה הזאת, חלק מהתוכן שוּנה או הוסר. נא לשנות את הפסקאות או הסעיפים המציגים נקודת מבט מוטה, ולהחליף אותם בטקסט ניטרלי ואובייקטיבי יותר בהתאם למצופה באנציקלופדיה.</string>
+  <string name="patroller_saved_message_body_npov">שלום {{{username}}}, חלק מהתרומות שעשית אינן עומדות בניטרליות הנדרשת כדי לציית ל[[Infopedia:NPOV|מדיניות נקודת המבט הניטרלית]] של הוויקיפדיה הזאת. מהסיבה הזאת, חלק מהתוכן שוּנה או הוסר. נא לשנות את הפסקאות או הסעיפים המציגים נקודת מבט מוטה, ולהחליף אותם בטקסט ניטרלי ואובייקטיבי יותר בהתאם למצופה באנציקלופדיה.</string>
   <string name="patroller_saved_message_body_auto_trans">שלום {{{username}}}, חלק מהתרומות שעשית יכולות להיות תרגומי מכונה, וזאת הסיבה שהן שונו או סומנו בתבנית. אם לא ייעשו שיפורים בערך, הוא עלול להימחק.\n\nאם, למרות כל המידע הזה, עדיין יש לך שאלות, נא לא להסס להשאיר הודעה בכתובת [[User talk:{{{senderUserName}}}|דף השיחה שלי]]. לא תריך להתייאש מהאירוע הקטן הזה. התרומות שלך חשובות מאוד לוויקיפדיה.</string>
   <string name="patroller_saved_message_body_coi_rem">שלום {{{username}}}, אני מודה לך על עבודתך בוויקיפדיה; עם זאת, שמתי לב שיש לך ב[[ויקיפדיה:אוטוביוגרפיה|ניגוד עניינים]]. ניגוד עניינים הוא חוסר ההתאמה בין יעדי הניטרליות והאמינות של ויקיפדיה לבין מטרות מסוימות של עורכים, אנשים, ישויות או חברות מכל סוג.\n\nכל התרומות במרחב הראשי כפופות למדיניות התוכן של הוויקיפדיה הזאת ([[ויקיפדיה:מה ויקיפדיה איננה|מה ויקיפדיה איננה]]), איכות אנציקלופדית (תוכן בר־אימות ואיסור על מחקר מקורי), שיטת עריכה ([[ויקיפדיה:נקודת מבט נייטרלית|נקודת מבט נייטרלית]]), ומעמד חוקי של תוכן ([[ויקיפדיה:זכויות יוצרים|זכויות יוצרים]]). מצופה מכל מי שמפרסם תוכן לציית למדיניות הזאת בעת יצירה והערכה של תוכן ולכבד ולהניח כוונה טובה בפעולותיהם של מפרסמים אחרים כדי להבטיח שכל כללי המדיניות הזאת מיושמים.\n\nאם נעשות מחשבון עריכות בעת ניגוד עניינים, יש ליישם את המדיניות המתאימה בזהירות יתרה; אחרת, חשבון המשתמש שלך יכול להיחשב לבעל מטרה פרטית ולהיחסם. נא לא להסס לפנות אליי בדף השיחה שלי אם יש לך שאלות.</string>
   <string name="patroller_saved_message_body_final_warning">מכיוון שעשית עריכות הרסניות רבות, זאת האזהרה האחרונה שלך. אם תשחית שוב את ויקיפדיה, ייאסר עליך לערוך.</string>
@@ -1869,7 +1869,7 @@
   <string name="donate_gpay_check_recurring">להפוך את זה לתרומה חוזרת חודשית.</string>
   <string name="donate_gpay_check_send_email">כן, קרן ויקימדיה יכולה לשלוח לי דואר אלקטרוני מדי פעם.</string>
   <string name="donate_gpay_minimum_amount">נא לבחור סכום (לפחות %s)</string>
-  <string name="donate_gpay_maximum_amount">אנחנו לא יכולים לקבל תרומות מעבר ל־%s דרך היישום שלנו. נא ליצור קשר עם צוות המתנות הגדולות שלנו דרך benefactors@wikimedia.org.</string>
+  <string name="donate_gpay_maximum_amount">אנחנו לא יכולים לקבל תרומות מעבר ל־%s דרך היישום שלנו. נא ליצור קשר עם צוות המתנות הגדולות שלנו דרך benefactors@infopedia.org.</string>
   <string name="donate_gpay_success_message">&lt;b&gt;תודה רבה!&lt;/b&gt; רוחב הלב שלך למען ויקיפדיה הוא מאוד משמעותי עבורנו.</string>
   <string name="donate_gpay_help_problems">בעיות בתרומה?</string>
   <string name="donate_gpay_help_other_ways">דרכים אחרות לתת</string>

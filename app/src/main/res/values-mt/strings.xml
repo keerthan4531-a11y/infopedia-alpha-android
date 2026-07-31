@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Chrisportelli
 * Fenakhay
@@ -6,9 +6,9 @@
 * Macofe
 -->
 <resources>
-  <string name="app_name_prod">Wikipedija</string>
-  <string name="app_name_beta">Wikipedija Beta</string>
-  <string name="app_name_alpha">Wikipedija Alpha</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="nav_item_back">Lura</string>
   <string name="page_tabs_back">Lura</string>
   <string name="nav_item_forward">Quddiem</string>

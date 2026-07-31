@@ -147,7 +147,7 @@ object WikipediaContextProvider {
 
             emit(WikipediaSearchStatus.Done(finalContext))
         } catch (e: Exception) {
-            emit(WikipediaSearchStatus.Error(e.message ?: "Failed to fetch Wikipedia context"))
+            emit(WikipediaSearchStatus.Error(e.message ?: "Failed to fetch Infopedia context"))
         }
     }
 

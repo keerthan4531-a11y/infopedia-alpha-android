@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * 1233qwer1234qwer4
 * 4elovek12345
@@ -92,9 +92,9 @@
 * Умар
 -->
 <resources>
-  <string name="app_name_prod">Википедия</string>
-  <string name="app_name_beta">Википедия (бета)</string>
-  <string name="app_name_alpha">Википедия (альфа)</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Викимедиа</string>
   <string name="nav_item_back">Назад</string>
   <string name="page_tabs_back">Назад</string>
@@ -232,7 +232,7 @@
   <string name="search_reading_lists_no_results">Не найдено результатов в списках для чтения</string>
   <string name="search_history_no_results">Не найдено результатов в истории</string>
   <string name="edit_section_captcha_message">Для того, чтобы помочь нам защититься от автоматизированного спама, пожалуйста, введите символы, показанные ниже</string>
-  <string name="edit_section_captcha_request_an_account_message">Не видите изображений капчи? &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;Попросите создать вам учётную запись&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">Не видите изображений капчи? &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;Попросите создать вам учётную запись&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">Введите символы, показанные выше</string>
   <string name="title_captcha">Введите CAPTCHA</string>
   <string name="edit_section_captcha_reload">Нажмите на CAPTCHA для её изменения</string>
@@ -299,7 +299,7 @@
   <string name="create_account_button">Создать учётную запись</string>
   <string name="create_account_name_unavailable">Имя участника \"%s\" недоступно. Пожалуйста, укажите иное имя.</string>
   <string name="create_account_ip_block_message">Извините, ваш IP-адрес заблокирован от создания новых учётных записей.</string>
-  <string name="create_account_ip_block_help_url">https://ru.wikipedia.org/wiki/Википедия:Блокировки</string>
+  <string name="create_account_ip_block_help_url">https://ru.Infopedia.org/wiki/Википедия:Блокировки</string>
   <string name="create_account_ip_block_details">Подробности</string>
   <string name="preferences_general_heading">Общие</string>
   <string name="preferences_account_heading">Учётная запись</string>
@@ -334,18 +334,18 @@
   <string name="privacy_policy_description">Политика конфиденциальности</string>
   <string name="terms_of_use_description">Условия использования</string>
   <string name="legal_safety_contacts_description">Контакты по юридическим вопросам и вопросам безопасности</string>
-  <string name="about_wikipedia_url">https://ru.wikipedia.org/wiki/Википедия:Описание</string>
-  <string name="privacy_policy_url">https://foundation.wikimedia.org/wiki/Special:MyLanguage/Privacy_policy</string>
-  <string name="terms_of_use_url">https://foundation.wikimedia.org/wiki/Special:MyLanguage/Terms_of_Use</string>
+  <string name="about_wikipedia_url">https://ru.Infopedia.org/wiki/Википедия:Описание</string>
+  <string name="privacy_policy_url">https://foundation.infopedia.org/wiki/Special:MyLanguage/Privacy_policy</string>
+  <string name="terms_of_use_url">https://foundation.infopedia.org/wiki/Special:MyLanguage/Terms_of_Use</string>
   <string name="cc_by_sa_4_url">https://creativecommons.org/licenses/by-sa/4.0/deed.ru</string>
   <string name="cc_0_url">https://creativecommons.org/publicdomain/zero/1.0/deed.ru</string>
   <string name="about_libraries_heading">Используемые библиотеки</string>
   <string name="about_contributors_heading">Авторы</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Страница команды разработки&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Страница команды разработки&lt;/a&gt;</string>
   <string name="about_translators_heading">Переводчики</string>
   <string name="about_translators_translatewiki">Это приложение было переведено добровольцами на &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt;.</string>
   <string name="about_app_license_heading">Лицензия</string>
-  <string name="about_app_license">Исходный код доступен на &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;Github&lt;/a&gt; под лицензией &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0&lt;/a&gt;. Если не указано иное, содержимое доступно в соответствии с лицензией &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.ru\"&gt;Creative Commons Attribution-ShareAlike&lt;/a&gt;.</string>
+  <string name="about_app_license">Исходный код доступен на &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;Github&lt;/a&gt; под лицензией &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0&lt;/a&gt;. Если не указано иное, содержимое доступно в соответствии с лицензией &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.ru\"&gt;Creative Commons Attribution-ShareAlike&lt;/a&gt;.</string>
   <string name="about_wmf">Продукт &lt;a href=\"https://wikimediafoundation.org/\"&gt;Фонда Викимедиа&lt;/a&gt;</string>
   <string name="about_activity_title">О приложении</string>
   <string name="about_logo_content_description">Логотип Википедии в виде глобуса-пазла</string>
@@ -530,9 +530,9 @@
   <string name="error_blocked_start">Начало блокировки: %s</string>
   <string name="error_blocked_expiry">Окончание блокировки: %s</string>
   <string name="error_blocked_id">Идентификатор блокировки: %s</string>
-  <string name="error_blocked_footer">Вы можете связаться с &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; или другим &lt;a href=\"https://ru.wikipedia.org/wiki/Википедия:Администраторы\"&gt;администратором&lt;/a&gt; для обсуждения блокировки.</string>
+  <string name="error_blocked_footer">Вы можете связаться с &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; или другим &lt;a href=\"https://ru.Infopedia.org/wiki/Википедия:Администраторы\"&gt;администратором&lt;/a&gt; для обсуждения блокировки.</string>
   <string name="theme_chooser_menu_item_short_tooltip">Настройте свою панель инструментов</string>
-  <string name="error_blocked_footer_no_blocker">Вы можете связаться с &lt;a href=\"https://ru.wikipedia.org/wiki/Википедия:Администраторы\"&gt;администратором&lt;/a&gt; для обсуждения блокировки.</string>
+  <string name="error_blocked_footer_no_blocker">Вы можете связаться с &lt;a href=\"https://ru.Infopedia.org/wiki/Википедия:Администраторы\"&gt;администратором&lt;/a&gt; для обсуждения блокировки.</string>
   <string name="temp_account_not_logged_in">Вы не вошли в систему</string>
   <string name="temp_account_anon_ip_dialog_body">После сохранения правки ваш IP-адрес будет виден всем в истории изменений страницы.&lt;br /&gt;&lt;br /&gt; &lt;a href=\"https://#login\"&gt;Войдите в систему&lt;/a&gt; или &lt;a href=\"https://#createaccount\"&gt;создайте учётную запись&lt;/a&gt;, чтобы сохранять историю будущих правок и получить доступ к другим функциям.</string>
   <string name="temp_account_anon_dialog_body">После внесения правки для вас будет создана &lt;b&gt;временная учётная запись&lt;/b&gt; для защиты вашей конфиденциальности. &lt;a href=\"%1$s\"&gt;Узнайте об этом подробнее&lt;/a&gt; .&lt;br /&gt;&lt;br /&gt; &lt;a href=\"https://#login\"&gt;Войдите в систему&lt;/a&gt; или &lt;a href=\"https://#createaccount\"&gt;создайте учётную запись&lt;/a&gt;, чтобы получить признание за будущие правки и получить доступ к другим функциям.</string>
@@ -694,8 +694,8 @@
   <string name="reading_list_confirm_remove_article_from_offline_title">статья появляется в многочисленных списках</string>
   <string name="reading_list_confirm_remove_article_from_offline_message">%s больше не будет доступна в офлайн-режиме во всех списках для чтения:</string>
   <string name="reading_lists_sync_reminder_title">Включить синхронизацию списков для чтения?</string>
-  <string name="reading_lists_sync_reminder_text">Статьи, сохранённые в списках для чтения, теперь можно синхронизировать с вашей учётной записью Википедии. &lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Узнать больше&lt;/a&gt;</string>
-  <string name="reading_lists_login_reminder_text_with_link">Списки для чтения теперь можно синхронизировать между устройствами. Войдите в свою учетную запись Wikipedia и разрешите сохранение ваших списков. &lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Узнать больше&lt;/a&gt;</string>
+  <string name="reading_lists_sync_reminder_text">Статьи, сохранённые в списках для чтения, теперь можно синхронизировать с вашей учётной записью Википедии. &lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Узнать больше&lt;/a&gt;</string>
+  <string name="reading_lists_login_reminder_text_with_link">Списки для чтения теперь можно синхронизировать между устройствами. Войдите в свою учетную запись Infopedia и разрешите сохранение ваших списков. &lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Узнать больше&lt;/a&gt;</string>
   <string name="reading_lists_sync_reminder_action">Включить синхронизацию</string>
   <string name="reading_list_login_reminder_title">Синхронизировать список для чтения</string>
   <string name="reading_lists_login_reminder_text">Списки для чтения теперь могут быть синхронизированы между устройствами. Войдите в свою учётную запись в Википедии и разрешите сохранять списки.</string>
@@ -1592,7 +1592,7 @@
   <string name="talk_snackbar_survey_action_text">Начать</string>
   <string name="talk_share_discussion_subject">Википедия — обсуждение в теме «%s»</string>
   <string name="talk_share_talk_page">Википедия — страница обсуждения</string>
-  <string name="talk_edit_disclaimer">Это страница обсуждения. Пожалуйста, соблюдайте правила ведения обсуждений и не забывайте подписывать свои сообщения, набирая четыре тильды: ~~~~ при публикации с использованием вики-текста.&lt;br&gt;&lt;br&gt; &lt;a href=\"https://ru.wikipedia.org/wiki/Википедия:Правила обсуждений\"&gt;Википедия:Правила обсуждений&lt;/a&gt;</string>
+  <string name="talk_edit_disclaimer">Это страница обсуждения. Пожалуйста, соблюдайте правила ведения обсуждений и не забывайте подписывать свои сообщения, набирая четыре тильды: ~~~~ при публикации с использованием вики-текста.&lt;br&gt;&lt;br&gt; &lt;a href=\"https://ru.Infopedia.org/wiki/Википедия:Правила обсуждений\"&gt;Википедия:Правила обсуждений&lt;/a&gt;</string>
   <string name="talk_search_hint">Искать сообщения</string>
   <string name="talk_search_topics_hint">Искать в темах</string>
   <string name="talk_search_find_in_talk_topics_hint">Поиск темы на странице обсуждения</string>
@@ -1915,11 +1915,11 @@
   <string name="patroller_saved_message_body_auto_trans">Здравствуйте, {{{username}}}. Некоторые из ваших правок, вероятно, являются машинным переводом, по этой причине они были изменены или помечены соответствующим шаблоном. Если в статью не будут внесены улучшения, она может быть удалена.\n\nЕсли, несмотря на всю эту информацию, у вас остались вопросы, не стесняйтесь оставить сообщение на [[Обсуждение_участника:{{{senderUserName}}}|моей странице обсуждения]]. Не расстраивайтесь из-за этого инцидента. Ваш вклад очень важен для Википедии.</string>
   <string name="patroller_saved_message_body_coi_rem">Здравствуйте, {{{username}}}. Я ценю ваш вклад в Википедию; однако мною было замечено, что вы находитесь в [[Википедия:Конфликт_интересов|конфликте интересов]]. Конфликт интересов — это несоответствие между целями Википедии в отношении нейтральности и достоверности и конкретными целями отдельных редакторов, лиц, организаций или компаний.\n\nВсе правки в основном пространстве подчиняются политикам и критериям содержания данной Википедии ([[Википедия:Чем_не_является_Википедия|чем не является Википедия]]), энциклопедическому качеству ([[Википедия:Проверяемость|проверяемость]] и [[Википедия:Недопустимость_оригинальных_исследований|недопустимость оригинальных исследований]]), редакционному методу ([[Википедия:Нейтральная_точка_зрения|нейтральная точка зрения]]) и законности содержания ([[Википедия:Авторские_права|авторские права]]). Все редакторы обязаны следовать этим политикам при создании и оценке содержимого статей и уважать действия других редакторов, предполагая добросовестность.\n\nЕсли вы редактируете, находясь в конфликте интересов, вам следует применять соответствующую политику с особой тщательностью; в противном случае ваш аккаунт может быть признан использующимся в личных целях и заблокирован. Если у вас есть вопросы, не стесняйтесь обратиться ко мне на странице обсуждения.</string>
   <string name="patroller_saved_message_body_final_warning">Поскольку вы совершили несколько деструктивных правок, это будет для вас последним предупреждением. Если вы вновь внесёте вандальные изменения, ваша возможность править Википедию будет заблокирована.</string>
-  <string name="patroller_saved_message_body_copy_vio">Судя по всему, ваша недавняя правка без разрешения содержит материалы, защищенные авторским правом. Пожалуйста, убедитесь, что весь контент соответствует политике [[Wikipedia:Авторские права|авторское право]] этой Википедии, чтобы избежать удаления.</string>
+  <string name="patroller_saved_message_body_copy_vio">Судя по всему, ваша недавняя правка без разрешения содержит материалы, защищенные авторским правом. Пожалуйста, убедитесь, что весь контент соответствует политике [[Infopedia:Авторские права|авторское право]] этой Википедии, чтобы избежать удаления.</string>
   <string name="patroller_saved_message_body_edit_summary">Здравствуйте, {{{username}}}. Похоже, вы удалили содержимое статьи из Википедии, не оставив краткое описание правки. Пожалуйста, оставляйте описание правки каждый раз, когда добавляете или удаляете информацию из Википедии.</string>
   <string name="patroller_saved_message_body_do_not_censor">Здравствуйте, {{{username}}}. Похоже, вы удалили часть содержимого статьи, не обсудив это на её странице обсуждения. Обратите внимание, что Википедия не подвергается цензуре, и её содержимое не должно удаляться только потому, что оно является спорным. Если вы считаете информацию недостоверной, пожалуйста, обсудите это и добейтесь консенсуса на странице обсуждения статьи.</string>
   <string name="talk_warn_learn_more_label">Узнать о заполнителях сообщений</string>
-  <string name="talk_warn_learn_more_url">https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_Suggested_edits#Message_placeholders</string>
+  <string name="talk_warn_learn_more_url">https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_Suggested_edits#Message_placeholders</string>
   <string name="talk_warn_saved_messages_usage_instruction">Используйте примеры сообщения ниже для настройки, отправки и сохранения его в своих сообщениях.</string>
   <string name="patroller_saved_message_body_art_imp">Здравствуйте, {{{username}}}. Ваша статья — это хороший старт, однако для повышения её качества стоит добавить ссылки на надёжные источники. Это поможет подтвердить информацию и повысит качество статьи. Рекомендуем ознакомиться с руководством Википедии по [[Википедия:Авторитетные_источники|авторитетным источникам]] для более детальной информации.</string>
   <string name="talk_templates_menu_edit_title">Править</string>
@@ -1945,7 +1945,7 @@
   <string name="donate_gpay_check_recurring">Сделать это ежемесячным пожертвованием.</string>
   <string name="donate_gpay_check_send_email">Да, Фонд Викимедиа может время от времени присылать мне электронные письма.</string>
   <string name="donate_gpay_minimum_amount">Пожалуйста, выберите сумму (минимально %s)</string>
-  <string name="donate_gpay_maximum_amount">Мы не можем принимать пожертвования свыше %s через наше приложение. Пожалуйста, свяжитесь с нашими специалистами по работе с крупными пожертвованиями по адресу benefactors@wikimedia.org.</string>
+  <string name="donate_gpay_maximum_amount">Мы не можем принимать пожертвования свыше %s через наше приложение. Пожалуйста, свяжитесь с нашими специалистами по работе с крупными пожертвованиями по адресу benefactors@infopedia.org.</string>
   <string name="donate_gpay_success_message">&lt;b&gt;Спасибо!&lt;/b&gt; Ваша щедрость к Википедии очень много значит для нас.</string>
   <string name="donate_gpay_help_problems">Возникла проблема с пожертвованием?</string>
   <string name="donate_gpay_help_other_ways">Другие способы сделать пожертвование</string>
@@ -2039,7 +2039,7 @@
   <string name="on_this_day_game_notification_turned_on_snackbar_message">Уведомления об игре включены.</string>
   <string name="on_this_day_game_notification_text">Сегодняшняя игра «Что произошло раньше?» готова к запуску.</string>
   <string name="on_this_day_game_report_email_subject">Сообщить о проблеме — Игры Википедии</string>
-  <string name="on_this_day_game_report_email_body">I have encountered a problem with the Wikipedia games feature:\n- [Опишите конкретную проблему]\n\nThe behavior I would like to see is:\n- [Опишите предполагаемое решение]</string>
+  <string name="on_this_day_game_report_email_body">I have encountered a problem with the Infopedia games feature:\n- [Опишите конкретную проблему]\n\nThe behavior I would like to see is:\n- [Опишите предполагаемое решение]</string>
   <string name="on_this_day_game_notification_undo">Отменить</string>
   <string name="on_this_day_game_share_link_message">Я играю в «Что произошло раньше?» — ежедневную викторину в приложении Википедии для Android %s</string>
   <string name="on_this_day_game_share_screen_title">Сегодня мой результат в «Что произошло раньше?»: %1$d/%2$d.</string>
@@ -2630,7 +2630,7 @@
   <string name="reading_challenge_widget_concluded_incomplete">Челлендж завершён</string>
   <string name="reading_challenge_widget_concluded_complete">Вы справились!</string>
   <string name="reading_challenge_widget_reward_title">Любопытство вам идёт! 🛍️</string>
-  <string name="reading_challenge_widget_reward_body">Отметьте успешное прохождение челленджа со скидкой 15%% в Wikipedia Store.</string>
+  <string name="reading_challenge_widget_reward_body">Отметьте успешное прохождение челленджа со скидкой 15%% в Infopedia Store.</string>
   <string name="reading_challenge_widget_reward_button_label">Получите скидку 15%% в магазине</string>
   <string name="explore_feed_new_update_prompt_title">Лента теперь называется Главная и получила новый дизайн.</string>
   <string name="explore_feed_new_update_prompt_new_name_title">Новое название</string>

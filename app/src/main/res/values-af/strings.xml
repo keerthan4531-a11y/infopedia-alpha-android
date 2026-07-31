@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Arnobarnard
 * Biggs ZA
@@ -11,11 +11,11 @@
 * Winstonza
 -->
 <resources>
-  <string name="app_name_prod">Wikipedia</string>
-  <string name="app_name_beta">Wikipedia Beta</string>
-  <string name="app_name_alpha">Wikipedia Alfa</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Wikimedia</string>
-  <string name="search_hint">Soek in Wikipedia</string>
+  <string name="search_hint">Soek in Infopedia</string>
   <string name="search_hint_search_languages">Soek na ’n taal</string>
   <string name="error_network_error">Kan nie aan die internet koppel nie.</string>
   <string name="page_error_retry">Probeer weer</string>
@@ -50,12 +50,12 @@
   <string name="language_count_link_text">Beskikbaar in nog %d tale</string>
   <string name="edit_save_action_license_logged_in" fuzzy="true">Deur te stoor, stem u in tot die &lt;a href=\"%1$s\"&gt;Gebruiksvoorwaardes&lt;/a&gt;, en stel u die bydra onherroeplik vry onder die &lt;a href=\"%2$s\"&gt;CC BY-SA 3.0&lt;/a&gt; lisensie.</string>
   <string name="edit_save_action_license_anon" fuzzy="true">Deur te stoor, stem u in tot die &lt;a href=\"%1$s\"&gt;Gebruiksvoorwaardes&lt;/a&gt;, en stel u die bydra onherroeplik vry onder die &lt;a href=\"%2$s\"&gt;CC BY-SA 3.0&lt;/a&gt; lisensie. Wysigings sal aan u toestel se IP-adres toegeskryf word. Indien u &lt;a href=\"https://#login\"&gt;aanmeld&lt;/a&gt;, sal u meer privaatheid geniet.</string>
-  <string name="preference_title_language">Wikipedia-tale</string>
+  <string name="preference_title_language">Infopedia-tale</string>
   <string name="langlinks_filter_hint">Soek</string>
   <string name="langlinks_empty">Hierdie bladsy is nie beskikbaar in ander tale nie.</string>
   <string name="langlinks_no_match">Geen tale gevind nie</string>
   <string name="langlinks_activity_title">Ander tale</string>
-  <string name="langlinks_your_wikipedia_languages">U Wikipedia-tale</string>
+  <string name="langlinks_your_wikipedia_languages">U Infopedia-tale</string>
   <string name="menu_save_changes">Publiseer wysigings</string>
   <string name="edit_saved_successfully">Wysiging gepubliseer!</string>
   <string name="dialog_message_edit_failed">Wysiging het misluk!</string>
@@ -73,11 +73,11 @@
   <string name="edit_section_captcha_hint">Herhaal woorde van hierbo</string>
   <string name="title_captcha">Voer CAPTCHA in</string>
   <string name="edit_section_captcha_reload">Kliek CAPTCHA om te herlaai</string>
-  <string name="nav_item_login">Meld aan by Wikipedia</string>
+  <string name="nav_item_login">Meld aan by Infopedia</string>
   <string name="login_username_hint">Gebruikersnaam</string>
   <string name="login_password_hint">Wagwoord</string>
   <string name="menu_login">Meld aan</string>
-  <string name="login_activity_title" fuzzy="true">Meld aan by Wikipedia</string>
+  <string name="login_activity_title" fuzzy="true">Meld aan by Infopedia</string>
   <string name="login_in_progress_dialog_message">Meld u aan…</string>
   <string name="login_success_toast" fuzzy="true">Suksesvolle Aanmelding!</string>
   <string name="reset_password_title">Stel u wagwoord</string>
@@ -89,12 +89,12 @@
   <string name="history_empty_title">Geen onlangs gekykte artikels</string>
   <string name="history_empty_message">Onthou wat hier gelees word.</string>
   <string name="search_empty_message">Soek en lees die vry ensiklopedie in jou taal</string>
-  <string name="search_empty_message_multilingual_upgrade">Deursoek Wikipedia in meer tale</string>
+  <string name="search_empty_message_multilingual_upgrade">Deursoek Infopedia in meer tale</string>
   <string name="delete_selected_items">Skrap gekose items</string>
   <string name="wp_stylized">&lt;big&gt;W&lt;/big&gt;IKIPEDI&lt;big&gt;A&lt;/big&gt;</string>
   <string name="create_account_username_hint">Gebruikersnaam</string>
   <string name="login_dont_have_account">Nog nie geregistreer nie?</string>
-  <string name="login_join_wikipedia">Sluit aan by Wikipedia</string>
+  <string name="login_join_wikipedia">Sluit aan by Infopedia</string>
   <string name="login_forgot_password">Wagwoord vergeet?</string>
   <string name="create_account_already_have">Het u reeds ’n rekening?</string>
   <string name="create_account_activity_title">Skep \'n gebruiker</string>
@@ -117,7 +117,7 @@
   <string name="create_account_ip_block_message">Jammer, u IP-adres is tans geblokkeer vir die skep van nuwe rekeninge.</string>
   <string name="create_account_ip_block_details">Detail</string>
   <string name="preferences_general_heading">Algemeen</string>
-  <string name="wikipedia_app_faq">Gewilde vrae oor Wikipedia Toep</string>
+  <string name="wikipedia_app_faq">Gewilde vrae oor Infopedia Toep</string>
   <string name="send_feedback">Stuur toep terugvoer</string>
   <string name="create_account_account_created_toast">Gebruiker geskep!</string>
   <string name="preferences_heading_syncing">Sinkronisasie</string>
@@ -133,17 +133,17 @@
   <string name="page_protected_can_not_edit_title">Hierdie blad is beskerm</string>
   <string name="settings_item_preferences">Instellings</string>
   <string name="settings_activity_title">Instellings</string>
-  <string name="about_description">Aangaande Wikipedia toep</string>
+  <string name="about_description">Aangaande Infopedia toep</string>
   <string name="privacy_policy_description">Privaatheidsbeleid</string>
   <string name="terms_of_use_description">Gebruiksvoorwaardes</string>
-  <string name="about_wikipedia_url">https://af.wikipedia.org/wiki/Wikipedia:Omtrent</string>
+  <string name="about_wikipedia_url">https://af.Infopedia.org/wiki/Infopedia:Omtrent</string>
   <string name="cc_by_sa_4_url">https://creativecommons.org/licenses/by-sa/4.0/deed.af</string>
   <string name="about_libraries_heading">Biblioteke gebruik</string>
   <string name="about_contributors_heading">Bydraers</string>
   <string name="about_translators_heading">Vertalers</string>
   <string name="about_translators_translatewiki">Hierdie toep is vertaal deur vrywillge vertalers van &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt;.</string>
   <string name="about_app_license_heading">Lisensie</string>
-  <string name="about_app_license" fuzzy="true">Bronkode beskikbaar op &lt;a href=\"https://gerrit.wikimedia.org/r/#/admin/projects/apps/android/wikipedia\"&gt;Gerrit&lt;/a&gt; en &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;GitHub&lt;/a&gt; onder die &lt;a href=\"https://phabricator.wikimedia.org/diffusion/APAW/browse/master/COPYING?view=raw\"&gt;Apache 2.0-lisensie&lt;/a&gt;. Inhoud is beskikbaar onder ’n &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License\"&gt;Creative Commons Attribution-ShareAlike-lisensie&lt;/a&gt; tensy anders aangedui.</string>
+  <string name="about_app_license" fuzzy="true">Bronkode beskikbaar op &lt;a href=\"https://gerrit.infopedia.org/r/#/admin/projects/apps/android/Infopedia\"&gt;Gerrit&lt;/a&gt; en &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;GitHub&lt;/a&gt; onder die &lt;a href=\"https://phabricator.infopedia.org/diffusion/APAW/browse/master/COPYING?view=raw\"&gt;Apache 2.0-lisensie&lt;/a&gt;. Inhoud is beskikbaar onder ’n &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License\"&gt;Creative Commons Attribution-ShareAlike-lisensie&lt;/a&gt; tensy anders aangedui.</string>
   <string name="about_wmf">’n Produk van die &lt;a href=\"https://wikimediafoundation.org/\"&gt;Wikimedia-stigting&lt;/a&gt;</string>
   <string name="about_activity_title">Aangaande</string>
   <string name="edit_abandon_confirm">Hierdie bladsy is gewysig. Is u seker u wil afsluit sonder om u wysigings te stoor?</string>
@@ -169,7 +169,7 @@
   <string name="abusefilter_title_warn">Hierdie mag ’n onkonstruktiewe wysiging wees. Is u seker u wil dit publiseer?</string>
   <string name="abusefilter_title_disallow">U kan nie hierdie wysiging publiseer nie. Gaan asseblief terug en verander dit.</string>
   <string name="abusefilter_text_warn">\'n Outomatiese filter het hierdie wysiging as potensiëel onkonstruktief geïdentifiseer. Dit mag een of meer van die volgende bevat:&lt;br /&gt;&lt;br /&gt;· Tik van alles in hoofletters&lt;br /&gt;· Leegmaak van artikels of pespos&lt;br /&gt;· Irrelevante eksterne skakels&lt;br /&gt;· Herhalende karakter</string>
-  <string name="abusefilter_text_disallow">\'n Outomatiese filter het hierdie wysiging as potensiëel onkonstruktief, of potensiële vandalisme geïdentifiseer.&lt;br /&gt;&lt;br /&gt;Wikipedia is \'n ensiklopedie en slegs neutrale, noemenswaardige inhoud behoort hier.</string>
+  <string name="abusefilter_text_disallow">\'n Outomatiese filter het hierdie wysiging as potensiëel onkonstruktief, of potensiële vandalisme geïdentifiseer.&lt;br /&gt;&lt;br /&gt;Infopedia is \'n ensiklopedie en slegs neutrale, noemenswaardige inhoud behoort hier.</string>
   <string name="page_similar_titles">Soortgelyke bladsye</string>
   <string name="search_did_you_mean">Bedoel u \"%s\"?</string>
   <string name="search_recent_header">Onlangse soektogte</string>
@@ -181,9 +181,9 @@
   <string name="table_infobox">Vinnige feite</string>
   <string name="table_other">Meer inligting</string>
   <string name="table_close">Sluit</string>
-  <string name="widget_name_featured_page">Wikipedia voorbladartikel</string>
+  <string name="widget_name_featured_page">Infopedia voorbladartikel</string>
   <string name="widget_title_featured_page">Vandag se voorbladartikel</string>
-  <string name="widget_name_search">Soek op Wikipedia</string>
+  <string name="widget_name_search">Soek op Infopedia</string>
   <string name="wiktionary_no_definitions_found">Geen definisies gevind.</string>
   <string name="alpha_update_notification_title">Nuwe alfa opdatering beskikbaar</string>
   <string name="alpha_update_notification_text">Kliek om af te laai</string>
@@ -225,7 +225,7 @@
   <string name="button_add_to_reading_list">Voeg toe tot leeslys</string>
   <string name="button_get_directions">Kry aanwysings</string>
   <string name="preference_title_show_link_previews">Toon skakelvoorskoue</string>
-  <string name="nav_item_donate" fuzzy="true">Ondersteun Wikipedia</string>
+  <string name="nav_item_donate" fuzzy="true">Ondersteun Infopedia</string>
   <string name="error_voice_search_not_available">Jammer, stemherkenning is onbeskikbaar.</string>
   <string name="location_service_disabled">Liggingdienste is gedeaktiveer.</string>
   <string name="enable_location_service">Aktiveer</string>
@@ -284,7 +284,7 @@
   <string name="reading_list_turned_sync_off_dialog_settings">Instellings</string>
   <string name="user_option_sync_label">Voorkeure</string>
   <string name="notification_reverted_title">Wysiging teruggestel</string>
-  <string name="view_main_page_card_title">Vandag op Wikipedia</string>
+  <string name="view_main_page_card_title">Vandag op Infopedia</string>
   <string name="view_featured_image_card_title">Prent van die dag</string>
   <string name="view_featured_image_card_download">Laai af</string>
   <string name="feed">Verken</string>
@@ -317,11 +317,11 @@
   <string name="suggested_edits_image_tags_select_text">Slegs merkers wat u kies, sal by prente gevoeg word. Merkers wat nie gekies is nie, sal as verwerp gemerk word. Is u seker dat u alle merkers as verwerp wil merk?</string>
   <string name="suggested_edits_task_new" fuzzy="true">nuwe</string>
   <string name="suggested_edits_cc0_notice">Deur te publiseer, stem u in tot die &lt;a href=\"%1$s\"&gt;gebruiksvoorwaardes&lt;/a&gt; en om hierdie bydrae onherroeplik vry te stel onder die &lt;a href=\"%2$s\"&gt;CC0-lisensie&lt;/a&gt;.</string>
-  <string name="description_edit_revert_subtitle">Dankie dat u bydra tot Wikipedia!</string>
+  <string name="description_edit_revert_subtitle">Dankie dat u bydra tot Infopedia!</string>
   <string name="size_gb">%.2f GG</string>
   <string name="size_mb">%.2f MG</string>
   <string name="languages_list_all_text">Alle tale</string>
-  <string name="wikipedia_languages_title">Wikipedia-tale</string>
+  <string name="wikipedia_languages_title">Infopedia-tale</string>
   <string name="wikipedia_languages_your_languages_text">U tale</string>
   <string name="wikipedia_languages_add_language_text">Voeg taal by</string>
   <string name="wikipedia_languages_remove_text">Verwyder taal</string>

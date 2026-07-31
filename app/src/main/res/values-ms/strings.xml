@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Anakmalaysia
 * Arifin.wijaya
@@ -21,14 +21,14 @@
 * Wrai
 -->
 <resources>
-  <string name="app_name_prod">Wikipedia</string>
-  <string name="app_name_beta">Wikipedia Beta</string>
-  <string name="app_name_alpha">Wikipedia Alfa</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Wikimedia</string>
   <string name="nav_item_back">Kembali</string>
   <string name="page_tabs_back">Kembali</string>
   <string name="nav_item_forward">Maju</string>
-  <string name="search_hint">Cari dalam Wikipedia</string>
+  <string name="search_hint">Cari dalam Infopedia</string>
   <string name="search_hint_voice_search">Carian input suara</string>
   <string name="search_hint_search_languages">Cari bahasa</string>
   <string name="search_icon_content_description">Cari</string>
@@ -126,12 +126,12 @@
   <string name="edit_save_action_license_logged_in">Dengan menerbitkan, anda menyetujui &lt;a href=\"%1$s\"&gt;Syarat-Syarat Penggunaan&lt;/a&gt; serta melepaskan kesemua sumbangan anda tanpa tertarik balik dengan lesen &lt;a href=\"%2$s\"&gt;CC BY-SA 4.0&lt;/a&gt;.</string>
   <string name="edit_save_action_license_anon">Dengan menerbitkan, anda menyetujui &lt;a href=\"%1$s\"&gt;Syarat-Syarat Penggunaan&lt;/a&gt; serta melepaskan kesemua sumbangan anda tanpa tertarik balik dengan lesen &lt;a href=\"%2$s\"&gt;CC BY-SA 4.0&lt;/a&gt;. Suntingan akan diatribusikan kepada alamat IP peranti anda. Jika anda &lt;a href=\"https://#login\"&gt;log masuk&lt;/a&gt;, maka privasi anda bertambah baik.</string>
   <string name="edit_anon_warning">Suntingan akan dihubungkan kepada alamat IP peranti anda. Jika anda &lt;a href=\"https://#login\"&gt;log masuk&lt;/a&gt;, anda akan mendapat lebih privasi.</string>
-  <string name="preference_title_language">Bahasa Wikipedia</string>
+  <string name="preference_title_language">Bahasa Infopedia</string>
   <string name="langlinks_filter_hint">Cari</string>
   <string name="langlinks_empty">Laman ini tidak terdapat dalam bahasa lain</string>
   <string name="langlinks_no_match">Tiada bahasa dijumpai</string>
   <string name="langlinks_activity_title">Bahasa lain:</string>
-  <string name="langlinks_your_wikipedia_languages">Bahasa Wikipedia anda</string>
+  <string name="langlinks_your_wikipedia_languages">Bahasa Infopedia anda</string>
   <string name="menu_save_changes">Terbit perubahan</string>
   <string name="edit_saved_successfully">Suntingan diterbitkan!</string>
   <string name="stub_article_edit_saved_successfully">Suntingan diterbitkan! Perubahan mungkin mengambil masa untuk disiarkan.</string>
@@ -147,11 +147,11 @@
   <string name="search_reading_lists_no_results">Tiada hasil ditemui dalam senarai bacaan</string>
   <string name="search_history_no_results">Tiada hasil ditemui dalam sejarah</string>
   <string name="edit_section_captcha_message">Sebagai perlindungan daripada spam automatik, sila taipkan kata-kata yang tertera di bawah</string>
-  <string name="edit_section_captcha_request_an_account_message">Tidak dapat melihat imej itu? &lt;a href=\"https://ms.wikipedia.org/wiki/Wikipedia:Permohonan_akaun\"&gt;Permohonan akaun&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">Tidak dapat melihat imej itu? &lt;a href=\"https://ms.Infopedia.org/wiki/Infopedia:Permohonan_akaun\"&gt;Permohonan akaun&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">Ulangi kata-kata dari atas</string>
   <string name="title_captcha">Taipkan captcha</string>
   <string name="edit_section_captcha_reload">Ketik CAPTCHA untuk muat semula</string>
-  <string name="nav_item_login">Log masuk ke dalam Wikipedia</string>
+  <string name="nav_item_login">Log masuk ke dalam Infopedia</string>
   <string name="login_username_hint">Nama pengguna</string>
   <string name="login_password_hint">Kata laluan</string>
   <string name="account_creation_password_hint">Kata laluan</string>
@@ -174,22 +174,22 @@
   <string name="logout_prompt">Tindakan ini akan mengeluarkan anda dari semua peranti yang telah anda log masuk. Adakah anda yakin ingin log keluar?</string>
   <string name="logout_dialog_cancel_button_text">Batalkan</string>
   <string name="logged_out_in_background_title">Telah dilog keluar</string>
-  <string name="logged_out_in_background_dialog">Anda telah dilog keluar dari Wikipedia. Adakah anda ingin log masuk semula?</string>
+  <string name="logged_out_in_background_dialog">Anda telah dilog keluar dari Infopedia. Adakah anda ingin log masuk semula?</string>
   <string name="logged_out_in_background_login">Log masuk</string>
   <string name="logged_out_in_background_cancel">Batalkan</string>
   <string name="account_vanish_request_title">Lenyapkan akaun</string>
   <string name="account_vanish_request_confirm_title">Amaran pelenyapan akaun</string>
-  <string name="account_vanish_request_confirm">Pelenyapan ialah &lt;b&gt;pilihan terakhir&lt;/b&gt; dan sepatutnya &lt;b&gt;hanya digunakan jika anda tidak lagi meneruskan penyuntingan buat selamanya&lt;/b&gt; dan juga menyembunyikan seberapa banyak sumbangan anda yang lalu.&lt;br/&gt;&lt;br/&gt;Penghapusan akaun di Wikipedia dilakukan dengan menukar nama akaun anda supaya pengguna lain tidak dapat mengenalpasti sumbangan anda menerusi proses dipanggil pelenyapan akaun.&lt;b&gt;Pelenyapan tidak menjamin kerahsiaan atau menghilangkan sumbangan kepada projek.&lt;/b&gt;</string>
+  <string name="account_vanish_request_confirm">Pelenyapan ialah &lt;b&gt;pilihan terakhir&lt;/b&gt; dan sepatutnya &lt;b&gt;hanya digunakan jika anda tidak lagi meneruskan penyuntingan buat selamanya&lt;/b&gt; dan juga menyembunyikan seberapa banyak sumbangan anda yang lalu.&lt;br/&gt;&lt;br/&gt;Penghapusan akaun di Infopedia dilakukan dengan menukar nama akaun anda supaya pengguna lain tidak dapat mengenalpasti sumbangan anda menerusi proses dipanggil pelenyapan akaun.&lt;b&gt;Pelenyapan tidak menjamin kerahsiaan atau menghilangkan sumbangan kepada projek.&lt;/b&gt;</string>
   <string name="history_empty_title">Tiada rencana baru dilihat</string>
   <string name="history_empty_message">Menjejaki apa yang anda telah membaca di sini.</string>
   <string name="history_offline_articles_toast">Beberapa rencana dalam sejarah mungkin tidak boleh dilihat semasa di luar talian.</string>
   <string name="search_empty_message">Cari dan baca ensiklopedia bebas dalam bahasa anda</string>
-  <string name="search_empty_message_multilingual_upgrade">Cari Wikipedia dalam banyak bahasa</string>
+  <string name="search_empty_message_multilingual_upgrade">Cari Infopedia dalam banyak bahasa</string>
   <string name="delete_selected_items">Padam item yang dipilih</string>
   <string name="wp_stylized">&lt;big&gt;W&lt;/big&gt;IKIPEDI&lt;big&gt;A&lt;/big&gt;</string>
   <string name="create_account_username_hint">Nama pengguna</string>
   <string name="login_dont_have_account">Belum buka akaun?</string>
-  <string name="login_join_wikipedia">Sertai Wikipedia</string>
+  <string name="login_join_wikipedia">Sertai Infopedia</string>
   <string name="login_forgot_password">Lupa kata laluan anda?</string>
   <string name="create_account_already_have">Sudah mempunyai akaun?</string>
   <string name="create_account_activity_title">Buka akaun</string>
@@ -211,11 +211,11 @@
   <string name="create_account_button">Buka akaun</string>
   <string name="create_account_name_unavailable">Nama pengguna \"%s\" tidak tersedia. Sila pilih nama lain.</string>
   <string name="create_account_ip_block_message">Maaf, alamat IP anda kini disekat daripada membuat akaun baharu.</string>
-  <string name="create_account_ip_block_help_url">https://en.wikipedia.org/wiki/Help:I_have_been_blocked</string>
+  <string name="create_account_ip_block_help_url">https://en.Infopedia.org/wiki/Help:I_have_been_blocked</string>
   <string name="create_account_ip_block_details">Butiran</string>
   <string name="preferences_general_heading">Umum</string>
   <string name="preferences_account_heading">Akaun</string>
-  <string name="wikipedia_app_faq">Soalan Lazim Aplikasi Wikipedia</string>
+  <string name="wikipedia_app_faq">Soalan Lazim Aplikasi Infopedia</string>
   <string name="send_feedback">Hantar maklum balas aplikasi</string>
   <string name="create_account_account_created_toast">Akaun dicipta!</string>
   <string name="preferences_heading_syncing">Penyegerakan</string>
@@ -223,8 +223,8 @@
   <string name="preferences_heading_experimental">Percubaan</string>
   <string name="preference_title_sync_reading_lists_from_account">Penyegerakan senarai bacaan</string>
   <string name="preference_title_download_reading_list_articles">Muat turun rencana senarai bacaan</string>
-  <string name="preference_summary_sync_reading_lists">Segerakkan senarai bacaan merentas peranti yang berbeza dengan menyimpannya ke akaun Wikipedia anda</string>
-  <string name="preference_summary_sync_reading_lists_from_account">Segerakkan senarai bacaan merentas peranti yang berbeza dengan menyimpannya ke akaun Wikipedia anda \"%s\"</string>
+  <string name="preference_summary_sync_reading_lists">Segerakkan senarai bacaan merentas peranti yang berbeza dengan menyimpannya ke akaun Infopedia anda</string>
+  <string name="preference_summary_sync_reading_lists_from_account">Segerakkan senarai bacaan merentas peranti yang berbeza dengan menyimpannya ke akaun Infopedia anda \"%s\"</string>
   <string name="preference_dialog_of_turning_off_reading_list_sync_title">Buang senarai bacaan yang diselaraskan dari \"%s\"?</string>
   <string name="preference_dialog_of_turning_off_reading_list_sync_text">Ini akan memadam semua senarai bacaan yang diselaraskan sebelum ini dari storan jauh. Buang semua senarai yang disegerakkan dari akaun anda \"%s\"?</string>
   <string name="preference_title_auto_upload_crash_reports">Hantar laporan keruntuhan</string>
@@ -241,22 +241,22 @@
   <string name="page_watchlist_overflow_menu_onboarding_tooltip_title">Tambah ke Senarai Pantau</string>
   <string name="settings_item_preferences">Tetapan</string>
   <string name="settings_activity_title">Tetapan</string>
-  <string name="about_description">Tentang aplikasi Wikipedia</string>
+  <string name="about_description">Tentang aplikasi Infopedia</string>
   <string name="privacy_policy_description">Dasar privasi</string>
   <string name="terms_of_use_description">Syarat-syarat penggunaan</string>
   <string name="legal_safety_contacts_description">Maklumat hubungan Perundangan &amp; Keselamatan</string>
-  <string name="about_wikipedia_url">https://ms.wikipedia.org/wiki/Wikipedia:Perihal</string>
-  <string name="privacy_policy_url" fuzzy="true">https://foundation.m.wikimedia.org/wiki/Privacy_policy</string>
-  <string name="terms_of_use_url" fuzzy="true">https://foundation.m.wikimedia.org/wiki/Terms_of_Use</string>
-  <string name="android_app_request_an_account_url">https://ms.wikipedia.org/wiki/Wikipedia:Permohonan_akaun</string>
+  <string name="about_wikipedia_url">https://ms.Infopedia.org/wiki/Infopedia:Perihal</string>
+  <string name="privacy_policy_url" fuzzy="true">https://foundation.m.infopedia.org/wiki/Privacy_policy</string>
+  <string name="terms_of_use_url" fuzzy="true">https://foundation.m.infopedia.org/wiki/Terms_of_Use</string>
+  <string name="android_app_request_an_account_url">https://ms.Infopedia.org/wiki/Infopedia:Permohonan_akaun</string>
   <string name="cc_0_url">https://creativecommons.org/publicdomain/zero/1.0/deed.ms</string>
   <string name="about_libraries_heading">Perpustakaan yang digunakan</string>
   <string name="about_contributors_heading">Penyumbang</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Laman pasukan&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Laman pasukan&lt;/a&gt;</string>
   <string name="about_translators_heading">Penterjemah</string>
   <string name="about_translators_translatewiki">Aplikasi ini diterjemah oleh para penterjemah sukarela di &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt;.</string>
   <string name="about_app_license_heading">Lesen</string>
-  <string name="about_app_license">Kod sumber tersedia di &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;GitHub&lt;/a&gt; di bawah &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Lesen Apache 2.0&lt;/a&gt; . Melainkan dinyatakan sebaliknya, kandungan tersedia di bawah &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Lesen Atribusi-PerkongsianSerupa Creative Commons&lt;/a&gt; .</string>
+  <string name="about_app_license">Kod sumber tersedia di &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;GitHub&lt;/a&gt; di bawah &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Lesen Apache 2.0&lt;/a&gt; . Melainkan dinyatakan sebaliknya, kandungan tersedia di bawah &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Lesen Atribusi-PerkongsianSerupa Creative Commons&lt;/a&gt; .</string>
   <string name="about_wmf">Keluaran &lt;a href=\"https://wikimediafoundation.org/\"&gt;Yayasan Wikimedia&lt;/a&gt;</string>
   <string name="about_activity_title">Perihal</string>
   <string name="edit_abandon_confirm">Laman ini telah disunting. Adakah anda pasti ingin keluar tanpa menyimpan suntingan?</string>
@@ -291,7 +291,7 @@
   <string name="abusefilter_title_warn">Suntingan ini mungkin tidak membina. Adakah anda betul-betul mahu menerbitkannya?</string>
   <string name="abusefilter_title_disallow">Suntingan ini tidak boleh diterbitkan. Sila kembali dan suntingnya semula.</string>
   <string name="abusefilter_text_warn">Penapis automatik mendapati suntingan ini berkemungkinan adalah tidak membina. Mungkin ia ada antara yang berikut:&lt;br /&gt;&lt;br /&gt;. Menaip dalam huruf besar&lt;br /&gt;. Mengosongkan rencana atau menspam&lt;br /&gt;. Pautan luar atau imej-imej tidak berkaitan&lt;br /&gt;. Aksara berulang</string>
-  <string name="abusefilter_text_disallow">Penapis automatik mendapati suntingan ini berkemungkinan tidak membina, atau laku musnah.&lt;br /&gt;&lt;br /&gt;Wikipedia ialah ensiklopedia dan hanya kandungan neutral, penting yang perlu di sini.</string>
+  <string name="abusefilter_text_disallow">Penapis automatik mendapati suntingan ini berkemungkinan tidak membina, atau laku musnah.&lt;br /&gt;&lt;br /&gt;Infopedia ialah ensiklopedia dan hanya kandungan neutral, penting yang perlu di sini.</string>
   <string name="page_similar_titles">Laman-laman serupa</string>
   <string name="search_did_you_mean">Adakah maksud anda, \"%s\"?</string>
   <string name="search_recent_header">Carian terkini:</string>
@@ -308,10 +308,10 @@
   <string name="table_infobox">Fakta segera</string>
   <string name="table_other">Maklumat lanjut</string>
   <string name="table_close">Tutup</string>
-  <string name="widget_name_featured_page">Laman pilihan Wikipedia</string>
+  <string name="widget_name_featured_page">Laman pilihan Infopedia</string>
   <string name="widget_title_featured_page">Laman pilihan hari ini:</string>
-  <string name="widget_name_search">Pencarian Wikipedia</string>
-  <string name="widget_description_search">Cara terpantas untuk mencari Wikipedia</string>
+  <string name="widget_name_search">Pencarian Infopedia</string>
+  <string name="widget_description_search">Cara terpantas untuk mencari Infopedia</string>
   <string name="wiktionary_no_definitions_found">Tiada takrifan dijumpai.</string>
   <string name="alpha_update_notification_title">Terdapat kemaskinian alfa baru</string>
   <string name="alpha_update_notification_text">Ketik untuk muat turun</string>
@@ -400,7 +400,7 @@
   <string name="link_preview_dialog_share_button">Kongsi</string>
   <string name="error_page_does_not_exist">Laman ini tidak wujud</string>
   <string name="view_wiki_error_message_offline">Tidak dapat menyambung ke internet</string>
-  <string name="view_wiki_error_message_timeout">Tidak dapat menyambung ke Wikipedia. Semak sambungan rangkaian anda, atau cuba lagi kemudian</string>
+  <string name="view_wiki_error_message_timeout">Tidak dapat menyambung ke Infopedia. Semak sambungan rangkaian anda, atau cuba lagi kemudian</string>
   <string name="reference_title">Rujukan %s</string>
   <string name="reference_list_title">Rujukan</string>
   <string name="theme_chooser_dialog_image_dimming_switch_label">Pemalapan imej (dalam tema Gelap)</string>
@@ -416,15 +416,15 @@
   <string name="error_blocked_start">Sekatan bermula: %s</string>
   <string name="error_blocked_expiry">Sekatan tamat: %s</string>
   <string name="error_blocked_id">ID Sekat: %s</string>
-  <string name="error_blocked_footer">Anda boleh menghubungi &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; atau mana-mana &lt;a href=\"https://ms.wikipedia.org/wiki/Wikipedia:Penyelia\n\"&gt;penyelia&lt;/a&gt; lain untuk membincangkan sekatan anda.</string>
+  <string name="error_blocked_footer">Anda boleh menghubungi &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; atau mana-mana &lt;a href=\"https://ms.Infopedia.org/wiki/Infopedia:Penyelia\n\"&gt;penyelia&lt;/a&gt; lain untuk membincangkan sekatan anda.</string>
   <string name="theme_chooser_menu_item_short_tooltip">Sesuaikan bar alat anda</string>
-  <string name="error_blocked_footer_no_blocker">Anda boleh menghubungi &lt;a href=\"https://ms.wikipedia.org/wiki/Wikipedia:Penyelia\"&gt;penyelia&lt;/a&gt; untuk membincangkan sekatan anda.</string>
+  <string name="error_blocked_footer_no_blocker">Anda boleh menghubungi &lt;a href=\"https://ms.Infopedia.org/wiki/Infopedia:Penyelia\"&gt;penyelia&lt;/a&gt; untuk membincangkan sekatan anda.</string>
   <string name="temp_account_not_logged_in">Anda belum log masuk</string>
   <string name="temp_account_dialog_ok">Faham</string>
   <string name="temp_account_using_title">Anda menggunakan akaun sementara</string>
   <string name="temp_account_dialog_discard">Buang perubahan dan log masuk</string>
   <string name="crash_report_activity_title">Ralat aplikasi</string>
-  <string name="crash_report_relaunch_or_quit">Maaf, aplikasi Wikipedia telah mengalami ralat dan terpaksa ditutup</string>
+  <string name="crash_report_relaunch_or_quit">Maaf, aplikasi Infopedia telah mengalami ralat dan terpaksa ditutup</string>
   <string name="crash_report_relaunch">Mula balik</string>
   <string name="crash_report_quit">Keluar</string>
   <string name="article_menu_bar_save_button">Simpan</string>
@@ -512,12 +512,12 @@
   <string name="reading_list_confirm_remove_article_from_offline_title">Rencana muncul dalam beberapa senarai</string>
   <string name="reading_list_confirm_remove_article_from_offline_message">%s tidak lagi akan tersedia di luar talian untuk semua senarai baca:</string>
   <string name="reading_lists_sync_reminder_title">Hidupkan penyegerakan senarai bacaan?</string>
-  <string name="reading_lists_sync_reminder_text">Rencana yang disimpan pada senarai bacaan kini boleh disegerakkan ke akaun Wikipedia anda. &lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Ketahui lebih lanjut&lt;/a&gt;</string>
-  <string name="reading_lists_login_reminder_text_with_link">Senarai bacaan kini boleh disegerakkan merentas peranti. Log masuk ke akaun Wikipedia anda dan benarkan senarai anda disimpan. &lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Ketahui lebih lanjut&lt;/a&gt;</string>
+  <string name="reading_lists_sync_reminder_text">Rencana yang disimpan pada senarai bacaan kini boleh disegerakkan ke akaun Infopedia anda. &lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Ketahui lebih lanjut&lt;/a&gt;</string>
+  <string name="reading_lists_login_reminder_text_with_link">Senarai bacaan kini boleh disegerakkan merentas peranti. Log masuk ke akaun Infopedia anda dan benarkan senarai anda disimpan. &lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Ketahui lebih lanjut&lt;/a&gt;</string>
   <string name="reading_lists_sync_reminder_action">Dayakan penyegerakan</string>
   <string name="reading_list_login_reminder_title">Menyegerakkan senarai bacaan</string>
-  <string name="reading_lists_login_reminder_text">Senarai bacaan kini boleh disegerakkan merentas peranti. Masuk ke akaun Wikipedia anda dan izinkan senarai anda disimpan.</string>
-  <string name="reading_lists_login_button">Log masuk / sertai Wikipedia</string>
+  <string name="reading_lists_login_reminder_text">Senarai bacaan kini boleh disegerakkan merentas peranti. Masuk ke akaun Infopedia anda dan izinkan senarai anda disimpan.</string>
+  <string name="reading_lists_login_button">Log masuk / sertai Infopedia</string>
   <string name="reading_lists_ignore_button">Bukan sekarang</string>
   <string name="reading_lists_confirm_remote_delete_yes">Ya</string>
   <string name="reading_lists_confirm_remote_delete_no">Tidak</string>
@@ -534,7 +534,7 @@
   <string name="reading_list_turned_sync_off_dialog_ok">OK</string>
   <string name="reading_list_turned_sync_off_dialog_settings">Tetapan</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_title">Hidupkan penyegerakan senarai bacaan?</string>
-  <string name="reading_list_prompt_turned_sync_on_dialog_text">Rencana yang disimpan untuk membaca senarai kini boleh diselaraskan ke akaun Wikipedia anda. &lt;a href=\"#faq\"&gt;Ketahui lebih lanjut&lt;/a&gt;</string>
+  <string name="reading_list_prompt_turned_sync_on_dialog_text">Rencana yang disimpan untuk membaca senarai kini boleh diselaraskan ke akaun Infopedia anda. &lt;a href=\"#faq\"&gt;Ketahui lebih lanjut&lt;/a&gt;</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_do_not_show">Jangan tunjukkan saya lagi ini</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_enable_syncing">Dayakan penyegerakan</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_no_thanks">Tak apalah</string>
@@ -613,7 +613,7 @@
     <item quantity="one">%1$d senarai yang tersisa</item>
     <item quantity="other">%1$d senarai yang tersisa</item>
   </plurals>
-  <string name="notification_echo_channel_description">Pemberitahuan Wikipedia</string>
+  <string name="notification_echo_channel_description">Pemberitahuan Infopedia</string>
   <string name="notifications_activity_title">Pemberitahuan</string>
   <string name="notifications_activity_title_archived">Pemberitahuan (diarkibkan)</string>
   <string name="notifications_search">Cari pemberitahuan</string>
@@ -656,8 +656,8 @@
   <string name="preference_summary_notification_email_user">Seseorang menghantar anda e-mel melalui wiki</string>
   <string name="preference_title_notification_user_rights">Perubahan hak pengguna</string>
   <string name="preference_category_display_settings">Tetapan paparan</string>
-  <string name="notifications_channel_group_wikipedia_notifications_title">Wikipedia</string>
-  <string name="notifications_channel_group_wikipedia_notifications_description">Pemberitahuan daripada Wikipedia</string>
+  <string name="notifications_channel_group_wikipedia_notifications_title">Infopedia</string>
+  <string name="notifications_channel_group_wikipedia_notifications_description">Pemberitahuan daripada Infopedia</string>
   <string name="notifications_filter_label">Tapis pemberitahuan</string>
   <string name="notifications_filter_icon_content_description">Tapis pemberitahuan</string>
   <string name="notifications_filter_update_app_languages">Kemas kini bahasa aplikasi</string>
@@ -679,7 +679,7 @@
   <string name="view_top_read_card_pageviews_k_suffix">%d rb</string>
   <string name="view_top_read_card_pageviews_m_suffix">%d jt</string>
   <string name="view_next_random_article">Muatkan satu lagi artikel rawak</string>
-  <string name="view_main_page_card_title">Hari ini di Wikipedia</string>
+  <string name="view_main_page_card_title">Hari ini di Infopedia</string>
   <string name="view_main_page_card_action">Lihat laman utama</string>
   <string name="view_featured_image_card_title">Gambar pilihan</string>
   <string name="view_featured_image_card_download">Muat turun</string>
@@ -707,16 +707,16 @@
   <string name="feed_configure_menu_reset">Pulihkan pandangan lalai</string>
   <string name="feed_configure_menu_select_all">Paparkan semua</string>
   <string name="feed_configure_menu_deselect_all">Sorokkan semuanya</string>
-  <string name="feed_configure_language_warning">Perhatikan bahawa tidak semua jenis kad tersedia dalam semua bahasa Wikipedia. Sunting bahasa pilihan anda dalam Tetapan.</string>
+  <string name="feed_configure_language_warning">Perhatikan bahawa tidak semua jenis kad tersedia dalam semua bahasa Infopedia. Sunting bahasa pilihan anda dalam Tetapan.</string>
   <string name="feed_item_type_news">Rencana mengenai peristiwa semasa</string>
   <string name="feed_item_type_on_this_day">Peristiwa dalam sejarah pada hari ini</string>
   <string name="feed_item_type_because_you_read">Cadangan berdasarkan rencana yang baru dibaca dari sejarah anda</string>
-  <string name="feed_item_type_featured_article">Rencana pilihan harian di Wikipedia</string>
+  <string name="feed_item_type_featured_article">Rencana pilihan harian di Infopedia</string>
   <string name="feed_item_type_trending">Rencana harian yang paling banyak dilihat</string>
   <string name="feed_item_type_featured_image">Imej pilihan harian dari Wikimedia Commons</string>
-  <string name="feed_item_type_main_page">Halaman utama Wikipedia dengan kandungan pilihan harian</string>
+  <string name="feed_item_type_main_page">Halaman utama Infopedia dengan kandungan pilihan harian</string>
   <string name="feed_item_type_randomizer">Menjana rencana rawak untuk dibaca</string>
-  <string name="feed_item_type_suggested_edits">Cadangan untuk menambah kandungan ke Wikipedia</string>
+  <string name="feed_item_type_suggested_edits">Cadangan untuk menambah kandungan ke Infopedia</string>
   <string name="feed_empty_message" fuzzy="true">Tiada apa-apa pada suapan Jelajah anda</string>
   <string name="feed_configure_onboarding_action">Ubah suai</string>
   <string name="customize_lang_selection_dialog_ok_button_text">OK</string>
@@ -749,7 +749,7 @@
   <string name="description_edit_help_about_wikidata">Perihal Wikidata</string>
   <string name="description_edit_help_wikidata_guide">Bimbingan Wikidata untuk menulis penerangan</string>
   <string name="wikidata_description_guide_url" fuzzy="true">https://www.wikidata.org/wiki/Help:Description#Guidelines_for_descriptions_in_English</string>
-  <string name="description_edit_anon_limit">Terima kasih kerana minat anda yang berterusan dalam menyunting huraian rencana! Untuk membuat suntingan tambahan, sila log masuk ke akaun Wikipedia anda.</string>
+  <string name="description_edit_anon_limit">Terima kasih kerana minat anda yang berterusan dalam menyunting huraian rencana! Untuk membuat suntingan tambahan, sila log masuk ke akaun Infopedia anda.</string>
   <string name="description_edit_license_notice">Dengan menukar huraian rencana, saya bersetuju menerima &lt;a href=\"%1$s\"&gt;Dasar Penggunaan&lt;/a&gt; dan melepaskan sumbangan saya tanpa boleh ditarik balik di bawah lesen &lt;a href=\"%2$s\"&gt;Creative Commons CC0&lt;/a&gt;.</string>
   <string name="description_edit_helper_text_lowercase_warning">biasanya bermula dengan huruf kecil</string>
   <string name="description_edit_voice_input_description">Input suara</string>
@@ -764,7 +764,7 @@
   <string name="description_edit_success_saved_snackbar">Keterangan rencana diterbitkan!</string>
   <string name="description_edit_success_saved_in_lang_snackbar">Huraian rencana diterbitkan! (%s)</string>
   <string name="description_edit_success_saved_image_caption_snackbar">Kapsyen imej diterbitkan!</string>
-  <string name="description_edit_success_encouragement">Anda baru sahaja menciptakan Wikipedia lebih baik untuk semua orang</string>
+  <string name="description_edit_success_encouragement">Anda baru sahaja menciptakan Infopedia lebih baik untuk semua orang</string>
   <string name="description_edit_success_done">Siap</string>
   <string name="description_edit_success_did_you_know">Tahukah anda?</string>
   <string name="description_edit_success_article_edit_hint">Anda juga boleh menyunting rencana dalam aplikasi ini. Cuba betulkan kesilapan menaip dan ayat kecil dengan klik pada ikon ^1 lain kali</string>
@@ -797,7 +797,7 @@
   <string name="suggested_edits_task_translate_caption_title">Terjemahkan kapsyen imej</string>
   <string name="suggested_edits_task_translate_caption_description">Terjemahkan kapsyen ke bahasa lain</string>
   <string name="suggested_edits_task_multilingual_title">Lebih banyak tugas untuk penyunting berbilang bahasa</string>
-  <string name="suggested_edits_task_multilingual_description">Tugas penterjemahan tersedia jika anda membaca dan menulis dalam lebih dari satu bahasa Wikipedia.</string>
+  <string name="suggested_edits_task_multilingual_description">Tugas penterjemahan tersedia jika anda membaca dan menulis dalam lebih dari satu bahasa Infopedia.</string>
   <string name="suggested_edits_task_image_caption_edit_disable_text">Dikunci sehingga anda telah menyunting %d kapsyen imej</string>
   <string name="suggested_edits_task_translate_description_edit_disable_text">Dikunci sehingga anda telah menyunting %d penerangan rencana (disahkan)</string>
   <string name="suggested_edits_task_multilingual_negative">Bukan untuk saya</string>
@@ -822,7 +822,7 @@
   <string name="suggested_edits_image_preview_dialog_licensing">Perlesenan</string>
   <string name="suggested_edits_image_preview_dialog_more_info">Maklumat lanjut</string>
   <string name="suggested_edits_image_preview_dialog_file_page_link_text">Laman fail di Wikimedia Commons</string>
-  <string name="suggested_edits_image_preview_dialog_file_page_wikipedia_link_text">Laman fail di Wikipedia</string>
+  <string name="suggested_edits_image_preview_dialog_file_page_wikipedia_link_text">Laman fail di Infopedia</string>
   <string name="suggested_edits_article_cta_image_tags">Tambah tag imej</string>
   <string name="suggested_edits_article_cta_snackbar_action">Papar</string>
   <string name="suggested_edits_feed_card_add_image_tags">Tambah tag imej</string>
@@ -853,8 +853,8 @@
   <string name="suggested_edits_contribution_image_label">Imej</string>
   <string name="suggested_edits_contribution_article_label">Rencana</string>
   <string name="suggested_edits_contribution_date_yesterday_text">Kelmarin</string>
-  <string name="suggested_edits_encourage_account_creation_title">Tahukah anda bahawa semua orang boleh menyunting Wikipedia?</string>
-  <string name="suggested_edits_encourage_account_creation_login_button">Log masuk / sertai Wikipedia</string>
+  <string name="suggested_edits_encourage_account_creation_title">Tahukah anda bahawa semua orang boleh menyunting Infopedia?</string>
+  <string name="suggested_edits_encourage_account_creation_login_button">Log masuk / sertai Infopedia</string>
   <string name="suggested_edits_article_descriptions_dialog_title">Saranan penerangan</string>
   <string name="suggested_edits_descriptions_report_dialog_title">Apa yang ingin anda laporkan?</string>
   <string name="suggested_edits_descriptions_not_enough_info_suggestion">Tidak cukup maklumat</string>
@@ -869,7 +869,7 @@
   <string name="image_recommendation_notsure">Tidak pasti</string>
   <string name="file_page_activity_title">Laman fail</string>
   <string name="file_page_edit_button_content_description">Sunting %s</string>
-  <string name="description_edit_revert_subtitle">Terima kasih kerana menyunting di Wikipedia!</string>
+  <string name="description_edit_revert_subtitle">Terima kasih kerana menyunting di Infopedia!</string>
   <string name="description_edit_revert_intro">Kami tahu anda mencuba yang terbaik, tetapi salah satu pengulas mempunyai kebimbangan. Sebab yang mungkin suntingan anda ditukar semula termasuk:</string>
   <string name="description_edit_revert_reason1">sumbangan anda tidak mengikuti salah satu daripada &lt;a href=\"%1$s\"&gt;garis panduan&lt;/a&gt;.</string>
   <string name="description_edit_revert_reason2">sumbangan anda kelihatan seperti eksperimen atau vandalisme.</string>
@@ -884,9 +884,9 @@
   <string name="onboarding_get_started">Memulakan</string>
   <string name="onboarding_maybe_later">Lain kalilah</string>
   <string name="onboarding_explore_title">Cara baru untuk diterokai</string>
-  <string name="onboarding_explore_text" fuzzy="true">Dengarkan lubang kelinci Wikipedia dengan mengemas kini suapan Jelajah secara berterusan. &lt;br/&gt; &lt;b&gt;Ubahsuai&lt;/b&gt; suapan untuk minat anda – sama ada pembelajaran tentang peristiwa sejarah &lt;b&gt;Pada hari ini&lt;/b&gt;, atau membaling dadu dengan &lt;b&gt;Rawak&lt;/b&gt;.</string>
+  <string name="onboarding_explore_text" fuzzy="true">Dengarkan lubang kelinci Infopedia dengan mengemas kini suapan Jelajah secara berterusan. &lt;br/&gt; &lt;b&gt;Ubahsuai&lt;/b&gt; suapan untuk minat anda – sama ada pembelajaran tentang peristiwa sejarah &lt;b&gt;Pada hari ini&lt;/b&gt;, atau membaling dadu dengan &lt;b&gt;Rawak&lt;/b&gt;.</string>
   <string name="onboarding_reading_list_sync_title">Senarai bacaan dengan penyegerakan</string>
-  <string name="onboarding_reading_list_sync_text_v2">Anda boleh membuat senarai bacaan dari artikel yang ingin dibaca kemudian, walaupun semasa anda berada di luar talian. &lt;br/&gt;Log masuk ke akaun Wikipedia anda untuk menyegerakkan senarai bacaan anda. &lt;a href=\"#login\"&gt;Sertai Wikipedia&lt;/a&gt;</string>
+  <string name="onboarding_reading_list_sync_text_v2">Anda boleh membuat senarai bacaan dari artikel yang ingin dibaca kemudian, walaupun semasa anda berada di luar talian. &lt;br/&gt;Log masuk ke akaun Infopedia anda untuk menyegerakkan senarai bacaan anda. &lt;a href=\"#login\"&gt;Sertai Infopedia&lt;/a&gt;</string>
   <string name="onboarding_analytics_switch_title">Hantar data penggunaan</string>
   <string name="onboarding_got_it">Faham</string>
   <string name="onboarding_multilingual_secondary_text">Kami telah menemui bahasa berikut pada peranti anda:</string>
@@ -910,7 +910,7 @@
   <string name="languages_list_activity_title">Tambah bahasa</string>
   <string name="languages_list_suggested_text">Disyorkan</string>
   <string name="languages_list_all_text">Semua bahasa</string>
-  <string name="wikipedia_languages_title">Bahasa Wikipedia</string>
+  <string name="wikipedia_languages_title">Bahasa Infopedia</string>
   <string name="wikipedia_languages_your_languages_text">Bahasa anda</string>
   <string name="wikipedia_languages_add_language_text">Tambah bahasa</string>
   <string name="wikipedia_languages_remove_text">Buang bahasa</string>
@@ -919,11 +919,11 @@
     <item quantity="one">Buang bahasa yang dipilih?</item>
     <item quantity="other">Buang bahasa yang dipilih?</item>
   </plurals>
-  <string name="wikipedia_languages_remove_dialog_content" fuzzy="true">Anda hanya akan melihat kandungan pada suapan Teroka dan penapis carian pantas untuk bahasa Wikipedia yang masih ada.</string>
+  <string name="wikipedia_languages_remove_dialog_content" fuzzy="true">Anda hanya akan melihat kandungan pada suapan Teroka dan penapis carian pantas untuk bahasa Infopedia yang masih ada.</string>
   <string name="wikipedia_languages_remove_warning_dialog_title">Tidak dapat membuang semua bahasa</string>
-  <string name="wikipedia_languages_remove_warning_dialog_content">Pastikan sekurang-kurangnya satu bahasa Wikipedia yang boleh digunakan untuk mencari dan membaca kandungan.</string>
+  <string name="wikipedia_languages_remove_warning_dialog_content">Pastikan sekurang-kurangnya satu bahasa Infopedia yang boleh digunakan untuk mencari dan membaca kandungan.</string>
   <string name="more_language_options">lagi</string>
-  <string name="add_wikipedia_languages_text">Tambah bahasa Wikipedia</string>
+  <string name="add_wikipedia_languages_text">Tambah bahasa Infopedia</string>
   <string name="remove_language_dialog_cancel_button_text">Batalkan</string>
   <string name="remove_language_dialog_ok_button_text">OK</string>
   <string name="remove_all_language_warning_dialog_ok_button_text">OK</string>
@@ -961,7 +961,7 @@
   <string name="insert_media_advanced_settings_image_size_custom_height">Tinggi</string>
   <string name="templates_description_incomplete">Templat tersebut dijana oleh pengguna dan mungkin kekurangan penerangan yang lengkap.</string>
   <string name="main_drawer_help">Bantuan</string>
-  <string name="main_drawer_login">Log masuk / gabung Wikipedia</string>
+  <string name="main_drawer_login">Log masuk / gabung Infopedia</string>
   <string name="main_tooltip_action_button">Mulakan</string>
   <string name="main_tooltip_watchlist_title">Senarai pantau</string>
   <string name="custom_date_picker_dialog_ok_button_text">OK</string>
@@ -1088,7 +1088,7 @@
   <string name="survey_dialog_general_no">Tidak</string>
   <string name="survey_dialog_input_hint">Maklum balas tambahan</string>
   <string name="on_this_day_game_point">+1 mata</string>
-  <string name="on_this_day_game_feed_entry_card_heading">Permainan Wikipedia</string>
+  <string name="on_this_day_game_feed_entry_card_heading">Permainan Infopedia</string>
   <string name="year_in_review_donate">Derma</string>
   <string name="recommended_reading_list_page_snackbar_day">Hari</string>
   <string name="recommended_reading_list_page_snackbar_week">Minggu</string>
@@ -1102,7 +1102,7 @@
   <string name="recommended_reading_list_settings_updates_frequency_dialog_monthly">Setiap bulan</string>
   <string name="recommended_reading_list_settings_notifications_title">Pemberitahuan</string>
   <string name="reading_challenge_widget_name">Cabaran Membaca</string>
-  <string name="reading_challenge_onboarding_header">Raikan hari jadi ke-25 Wikipedia dengan menyertai cabaran membaca selama 25 hari!</string>
+  <string name="reading_challenge_onboarding_header">Raikan hari jadi ke-25 Infopedia dengan menyertai cabaran membaca selama 25 hari!</string>
   <string name="reading_challenge_onboarding_read_title">Baca 1 laman rencana setiap hari selama 25 hari</string>
   <string name="reading_challenge_onboarding_read_subtitle">Sertai cabaran ini pada bila-bila masa antara %1$s hingga %2$s, dan lengkapkan 25 hari mengikut jadual anda sendiri.</string>
   <string name="reading_challenge_onboarding_win_title">Menangkan hadiahnya</string>
@@ -1115,13 +1115,13 @@
   <string name="reading_challenge_onboarding_prompt_title">Log masuk untuk menyertai cabaran</string>
   <string name="reading_challenge_onboarding_prompt_message">Log masuk atau cipta akaun untuk menjejaki kemajuan anda dalam cabaran membaca.</string>
   <string name="reading_challenge_onboarding_prompt_no_thanks">Tidak, terima kasih</string>
-  <string name="reading_challenge_onboarding_prompt_login">Log masuk / Sertai Wikipedia</string>
+  <string name="reading_challenge_onboarding_prompt_login">Log masuk / Sertai Infopedia</string>
   <string name="reading_challenge_install_prompt_title">Pasang widget Cabaran Membaca 25 Hari</string>
   <string name="reading_challenge_install_prompt_message">Baby Globe menyokong anda. Tambahkan widget Cabaran Membaca untuk menjejaki kemajuan terus dari skrin utama.</string>
   <string name="reading_challenge_install_prompt_got_it">Faham</string>
   <string name="reading_challenge_install_prompt_add">Tambah</string>
   <string name="reading_challenge_widget_explore_button">Terokai</string>
-  <string name="reading_challenge_widget_explore_wikipedia_button">Terokai Wikipedia</string>
+  <string name="reading_challenge_widget_explore_wikipedia_button">Terokai Infopedia</string>
   <string name="reading_challenge_widget_join_challenge_button">Sertai cabaran</string>
   <string name="reading_challenge_widget_join_the_challenge_button">Sertai cabaran ini</string>
   <string name="reading_challenge_widget_search_button">Cari</string>
@@ -1161,6 +1161,6 @@
   <string name="reading_challenge_widget_concluded_incomplete">Cabaran Tamat</string>
   <string name="reading_challenge_widget_concluded_complete">Anda berjaya!</string>
   <string name="reading_challenge_widget_reward_title">Rasa ingin tahu memang sesuai dengan anda! 🛍️</string>
-  <string name="reading_challenge_widget_reward_body">Raikan kejayaan menamatkan cabaran dengan diskaun 15%% di Kedai Wikipedia.</string>
+  <string name="reading_challenge_widget_reward_body">Raikan kejayaan menamatkan cabaran dengan diskaun 15%% di Kedai Infopedia.</string>
   <string name="reading_challenge_widget_reward_button_label">Dapatkan diskaun 15%% di kedai</string>
 </resources>

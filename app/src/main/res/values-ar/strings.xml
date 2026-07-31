@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * ASHmed
 * Aboulouei1
@@ -62,9 +62,9 @@
 * مصعب
 -->
 <resources>
-  <string name="app_name_prod">ويكيبيديا</string>
-  <string name="app_name_beta">ويكيبيديا بيتا</string>
-  <string name="app_name_alpha">ويكيبيديا ألفا</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">ويكيميديا</string>
   <string name="nav_item_back">رجوع</string>
   <string name="page_tabs_back">رجوع</string>
@@ -206,7 +206,7 @@
   <string name="search_reading_lists_no_results">لا نتائج في قوائم القراءة</string>
   <string name="search_history_no_results">لا نتائج في التاريخ</string>
   <string name="edit_section_captcha_message">للمساعدة في الحماية من السبام الآلي، يُرجى إدخال الكلمات التي تظهر أدناه</string>
-  <string name="edit_section_captcha_request_an_account_message">ألا ترى الصورة؟ &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;اطلب حسابًا&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">ألا ترى الصورة؟ &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;اطلب حسابًا&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">كرّر الكلمات من فوق</string>
   <string name="title_captcha">أدخِل رمز التحقُّق (CAPTCHA)</string>
   <string name="edit_section_captcha_reload">انقر على رمز التحقُّق لإعادة التحميل</string>
@@ -273,7 +273,7 @@
   <string name="create_account_button">أنشئ حسابًا</string>
   <string name="create_account_name_unavailable">اسم المستخدم \"%s\" غير متوفر; يُرجَى اختيار اسم مختلف.</string>
   <string name="create_account_ip_block_message">عذرًا، تم منع عنوان الآيبي الخاص بك حاليًا من إنشاء حسابات جديدة.</string>
-  <string name="create_account_ip_block_help_url">https://en.wikipedia.org/wiki/Help:I_have_been_blocked</string>
+  <string name="create_account_ip_block_help_url">https://en.Infopedia.org/wiki/Help:I_have_been_blocked</string>
   <string name="create_account_ip_block_details">التفاصيل</string>
   <string name="preferences_general_heading">عام</string>
   <string name="preferences_account_heading">الحساب</string>
@@ -308,18 +308,18 @@
   <string name="privacy_policy_description">سياسة الخصوصية</string>
   <string name="terms_of_use_description">شروط الاستخدام</string>
   <string name="legal_safety_contacts_description">جهات الاتصال القانونية والأمنية</string>
-  <string name="about_wikipedia_url">https://ar.wikipedia.org/wiki/ويكيبيديا:عن</string>
-  <string name="privacy_policy_url">https://foundation.wikimedia.org/wiki/Special:MyLanguage/Privacy_policy/ar</string>
-  <string name="terms_of_use_url">https://foundation.wikimedia.org/wiki/Special:MyLanguage/Terms_of_Use/ar</string>
+  <string name="about_wikipedia_url">https://ar.Infopedia.org/wiki/ويكيبيديا:عن</string>
+  <string name="privacy_policy_url">https://foundation.infopedia.org/wiki/Special:MyLanguage/Privacy_policy/ar</string>
+  <string name="terms_of_use_url">https://foundation.infopedia.org/wiki/Special:MyLanguage/Terms_of_Use/ar</string>
   <string name="cc_by_sa_4_url">https://creativecommons.org/licenses/by-sa/4.0/deed.ar</string>
   <string name="cc_0_url">https://creativecommons.org/publicdomain/zero/1.0/deed.ar</string>
   <string name="about_libraries_heading">المكتبات المستخدمة</string>
   <string name="about_contributors_heading">المساهمون</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;صفحة الفريق&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;صفحة الفريق&lt;/a&gt;</string>
   <string name="about_translators_heading">المترجمون</string>
   <string name="about_translators_translatewiki">قام بترجمة هذا التطبيق مترجمون متطوعون في &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt;.</string>
   <string name="about_app_license_heading">الترخيص</string>
-  <string name="about_app_license">النص المصدري متاحٌ على &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;جيت هاب&lt;/a&gt; تحت &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;رخصة أباتشي 2.0&lt;/a&gt;. مالم يُصرّح بغير ذلك، المحتوى متاح تحت &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;رخصة المشاع الإبداعي الملزمة بنسبة العمل لمؤلفه وبترخيص الأعمال المشتقة بالمثل&lt;/a&gt;.</string>
+  <string name="about_app_license">النص المصدري متاحٌ على &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;جيت هاب&lt;/a&gt; تحت &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;رخصة أباتشي 2.0&lt;/a&gt;. مالم يُصرّح بغير ذلك، المحتوى متاح تحت &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;رخصة المشاع الإبداعي الملزمة بنسبة العمل لمؤلفه وبترخيص الأعمال المشتقة بالمثل&lt;/a&gt;.</string>
   <string name="about_wmf">منتج من &lt;a href=\"https://wikimediafoundation.org/\"&gt;مؤسسة ويكيميديا&lt;/a&gt;</string>
   <string name="about_activity_title">حول</string>
   <string name="about_logo_content_description">شعار لغز ويكيبيديا</string>
@@ -510,9 +510,9 @@
   <string name="error_blocked_start">بداية المنع: %s</string>
   <string name="error_blocked_expiry">انتهاء صلاحية المنع: %s</string>
   <string name="error_blocked_id">معرف المنع: %s</string>
-  <string name="error_blocked_footer">يمكنك الاتصال بـ&lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; أو أي &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Administrators\"&gt;إداري&lt;/a&gt; آخر لمناقشة المنع.</string>
+  <string name="error_blocked_footer">يمكنك الاتصال بـ&lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; أو أي &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Administrators\"&gt;إداري&lt;/a&gt; آخر لمناقشة المنع.</string>
   <string name="theme_chooser_menu_item_short_tooltip">تخصيص شريط الأدوات الخاص بك</string>
-  <string name="error_blocked_footer_no_blocker">يمكنك التواصل مع أحد &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Administrators\"&gt;الإداريين&lt;/a&gt; لمناقشة المنع.</string>
+  <string name="error_blocked_footer_no_blocker">يمكنك التواصل مع أحد &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Administrators\"&gt;الإداريين&lt;/a&gt; لمناقشة المنع.</string>
   <string name="temp_account_not_logged_in">أنت غير مسجل الدخول</string>
   <string name="temp_account_anon_ip_dialog_body">بمجرد إجراء تعديل، سيتم ربط عنوان IP الخاص بك بتعديلاتك.&lt;br /&gt;&lt;br /&gt; &lt;a href=\"https://#login\"&gt;قم بتسجيل الدخول&lt;/a&gt; أو &lt;a href=\"https://#createaccount\"&gt;إنشاء حساب&lt;/a&gt; للحصول على رصيد للتعديلات المستقبلية وللوصول إلى ميزات أخرى.</string>
   <string name="temp_account_anon_dialog_body">بمجرد إجراء تعديل، سيتم إنشاء &lt;b&gt;حساب مؤقت&lt;/b&gt; لك لحماية خصوصيتك. &lt;&lt;a href=\"%1$s\"&gt;Learn more&lt;/a&gt; .&lt;br /&gt;&lt;br /&gt; &lt;a href=\"https://#login\"&gt;. قم بتسجيل الدخول&lt;/a&gt; أو &lt;a href=\"https://#createaccount\"&gt;إنشاء حساب&lt;/a&gt; للحصول على رصيد للتعديلات المستقبلية وللوصول إلى ميزات أخرى.</string>
@@ -692,8 +692,8 @@
   <string name="reading_list_confirm_remove_article_from_offline_title">المقالة تظهر في عدة قوائم</string>
   <string name="reading_list_confirm_remove_article_from_offline_message">%s لن تكون متاحة بدون اتصال في جميع قوائم القراءة:</string>
   <string name="reading_lists_sync_reminder_title">تشغيل مزامنة قائمة القراءة؟</string>
-  <string name="reading_lists_sync_reminder_text">يمكنك الآن مزامنة المقالات المحفوظة في قوائم القراءة مع حسابك على ويكيبيديا. &lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;تعرّف على المزيد&lt;/a&gt;</string>
-  <string name="reading_lists_login_reminder_text_with_link">يمكنك الآن مزامنة قوائم القراءة عبر الأجهزة. سجّل دخولك إلى حسابك على ويكيبيديا واحفظ قوائمك. &lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;تعرّف على المزيد&lt;/a&gt;</string>
+  <string name="reading_lists_sync_reminder_text">يمكنك الآن مزامنة المقالات المحفوظة في قوائم القراءة مع حسابك على ويكيبيديا. &lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;تعرّف على المزيد&lt;/a&gt;</string>
+  <string name="reading_lists_login_reminder_text_with_link">يمكنك الآن مزامنة قوائم القراءة عبر الأجهزة. سجّل دخولك إلى حسابك على ويكيبيديا واحفظ قوائمك. &lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;تعرّف على المزيد&lt;/a&gt;</string>
   <string name="reading_lists_sync_reminder_action">تمكين المزامنة</string>
   <string name="reading_list_login_reminder_title">مزامنة قوائم القراءة</string>
   <string name="reading_lists_login_reminder_text">يمكن الآن مزامنة قوائم القراءة عبر الأجهزة، سجل الدخول إلى حسابك في ويكيبيديا واسمح بحفظ قوائمك.</string>
@@ -1636,7 +1636,7 @@
   <string name="talk_warn_saved_messages">رسائل محفوظة</string>
   <string name="talk_page_empty">صفحة النقاش هذه فارغة.</string>
   <string name="talk_page_empty_title">تبدأ المحادثة هنا</string>
-  <string name="talk_page_empty_content">صفحات النقاش هي حيث يناقش الناس كيفية جعل المحتوى على ويكيبيديا أفضل ما يمكن أن يكون. ابدأ بإضافة موضوع مناقشة جديد للتواصل والتعاون مع مجتمع Wikipedians.</string>
+  <string name="talk_page_empty_content">صفحات النقاش هي حيث يناقش الناس كيفية جعل المحتوى على ويكيبيديا أفضل ما يمكن أن يكون. ابدأ بإضافة موضوع مناقشة جديد للتواصل والتعاون مع مجتمع Infopedians.</string>
   <string name="talk_add_reply">رد</string>
   <string name="talk_no_subject">(بدون موضوع)</string>
   <string name="talk_reply_subject">الموضوع</string>
@@ -1652,7 +1652,7 @@
   <string name="talk_snackbar_survey_action_text">ابدأ</string>
   <string name="talk_share_discussion_subject">ويكيبيديا - نقاش في صفحة نقاش موضوع %s</string>
   <string name="talk_share_talk_page">ويكيبيديا - نقاشات في صفحة نقاش</string>
-  <string name="talk_edit_disclaimer">هذه صفحة نقاش. فضلًا التزم بإرشادات صفحات النقاش، وتذكر أن توقّع مشاركاتك بكتابة أربع علامات مدّة: ~~~~ عند النشر باستخدام نص ويكي.&lt;br&gt;&lt;br&gt;&lt;a href=\"https://ar.wikipedia.org/wiki/ويكيبيديا:إرشادات_صفحة_النقاش\"&gt;ويكيبيديا:إرشادات صفحة النقاش&lt;/a&gt;</string>
+  <string name="talk_edit_disclaimer">هذه صفحة نقاش. فضلًا التزم بإرشادات صفحات النقاش، وتذكر أن توقّع مشاركاتك بكتابة أربع علامات مدّة: ~~~~ عند النشر باستخدام نص ويكي.&lt;br&gt;&lt;br&gt;&lt;a href=\"https://ar.Infopedia.org/wiki/ويكيبيديا:إرشادات_صفحة_النقاش\"&gt;ويكيبيديا:إرشادات صفحة النقاش&lt;/a&gt;</string>
   <string name="talk_search_hint">ابحث في الرسائل</string>
   <string name="talk_search_topics_hint">البحث عن المواضيع</string>
   <string name="talk_search_find_in_talk_topics_hint">تجد في موضوع صفحة الحديث</string>
@@ -1982,18 +1982,18 @@
   <string name="patroller_saved_message_title_do_not_censor">لا تقم بالرقابة</string>
   <string name="patroller_saved_message_title_art_imp">اقتراح تحسين المقال</string>
   <string name="patroller_saved_message_body_vandalism">مرحبًا {{{username}}}، أود أن أعلمك أنني تراجعت عن واحدة أو أكثر من [{{{diffLink}}}|مساهماتك الأخيرة] لأنها لا تبدو بناءة. إذا كنت تعتقد أنني ارتكبت خطأ أو لديك أسئلة، يمكنك ترك رسالة على [[User talk:{{{senderUserName}}}|صفحة نقاشي]]. يرجى ملاحظة أن التخريب المستمر قد يؤدي إلى فرض قيود.</string>
-  <string name="patroller_saved_message_body_editing_tests">مرحبًا {{{username}}}، يسعدني أن ويكيبيديا لفتت انتباهك وأنك مهتم بتعلم كيفية التحرير فيها. لقد نجح اختبار التحرير الذي أجريته؛ ومع ذلك، يجب أن تضع في اعتبارك أن هدف هذا المشروع هو تطوير موسوعة موثوقة وكاملة يمكن للجميع الرجوع إليها. لقد أثر تعديلك على المحتوى، لذا فقد تمت إزالته.\nإذا كنت تريد معرفة كيفية تحرير ويكيبيديا، فإن [[Wikipedia:Sandbox|sandbox]] تحت تصرفك. إذا كانت تعليقاتك خاصة بمقالة ما، فإن المكان الصحيح هو صفحة نقاش تلك المقالة.</string>
-  <string name="patroller_saved_message_body_npov">مرحبًا {{{username}}}، بعض المساهمات التي قدمتها لا تفي بالحياد المطلوب للامتثال لسياسة [[Wikipedia:NPOV|وجهة نظر محايدة]] الخاصة بويكيبيديا. ولهذا السبب، تم تعديل بعض المحتوى أو إزالته. يُرجى تعديل الفقرات أو الأقسام التي تعرض وجهة نظر جزئية، واستبدالها بنص أكثر حيادية وموضوعية بما يتماشى مع ما هو متوقع في الموسوعة.</string>
+  <string name="patroller_saved_message_body_editing_tests">مرحبًا {{{username}}}، يسعدني أن ويكيبيديا لفتت انتباهك وأنك مهتم بتعلم كيفية التحرير فيها. لقد نجح اختبار التحرير الذي أجريته؛ ومع ذلك، يجب أن تضع في اعتبارك أن هدف هذا المشروع هو تطوير موسوعة موثوقة وكاملة يمكن للجميع الرجوع إليها. لقد أثر تعديلك على المحتوى، لذا فقد تمت إزالته.\nإذا كنت تريد معرفة كيفية تحرير ويكيبيديا، فإن [[Infopedia:Sandbox|sandbox]] تحت تصرفك. إذا كانت تعليقاتك خاصة بمقالة ما، فإن المكان الصحيح هو صفحة نقاش تلك المقالة.</string>
+  <string name="patroller_saved_message_body_npov">مرحبًا {{{username}}}، بعض المساهمات التي قدمتها لا تفي بالحياد المطلوب للامتثال لسياسة [[Infopedia:NPOV|وجهة نظر محايدة]] الخاصة بويكيبيديا. ولهذا السبب، تم تعديل بعض المحتوى أو إزالته. يُرجى تعديل الفقرات أو الأقسام التي تعرض وجهة نظر جزئية، واستبدالها بنص أكثر حيادية وموضوعية بما يتماشى مع ما هو متوقع في الموسوعة.</string>
   <string name="patroller_saved_message_body_auto_trans">مرحبًا {{{username}}}، ربما تكون بعض المساهمات التي قدمتها عبارة عن ترجمات آلية، ولهذا السبب تم تعديلها أو تمييزها باستخدام القالب. إذا لم يتم إجراء أي تحسينات على المقالة، فقد يتم حذفها.\n\nإذا كان لديك أي أسئلة على الرغم من كل هذه المعلومات، فلا تتردد في ترك رسالة على [[User talk:{{{senderUserName}}}|my talk page]]. لا تيأس من هذه الحادثة الصغيرة. مساهماتك مهمة جدًا لويكيبيديا.</string>
-  <string name="patroller_saved_message_body_coi_rem">مرحبًا {{{username}}}، أقدر تعاونك على ويكيبيديا؛ ومع ذلك، لاحظت أنك في [[Wikipedia:Conflict_of_interest|تضارب المصالح]]. تضارب المصالح هو عدم التوافق بين أهداف ويكيبيديا المتمثلة في الحياد والموثوقية والأهداف الخاصة لبعض المحررين أو الأفراد أو الكيانات أو الشركات من أي نوع.\n\nتخضع جميع المساهمات في المساحة الرئيسية لسياسات معايير المحتوى الخاصة بهذه ويكيبيديا ([[Wikipedia:What_Wikipedia_is_not|ما لا تمثله ويكيبيديا]])، والجودة الموسوعية ([[Wikipedia:Verifiability|قابلية التحقق]] و[[Wikipedia:No_original_research|عدم وجود بحث أصلي]])، وطريقة التحرير ([[Wikipedia:Neutral_point_of_view|وجهة نظر محايدة]])، وشرعية المحتوى ([[Wikipedia:Copyrights|حقوق الطبع والنشر]]). من المتوقع أن يلتزم جميع الناشرين بهذه السياسات عند إنشاء المحتوى وتقييمه واحترام تصرفات الناشرين الآخرين وتحمل حسن النية لضمان اتباع هذه السياسات.\n\nإذا قمت بالتحرير بموجب تضارب المصالح، فيجب عليك تطبيق السياسة المقابلة بعناية خاصة؛ وإلا، فقد يتم اعتبار حساب المستخدم الخاص بك لأغراض خاصة ويتم حظره. لا تتردد في التواصل معي على صفحة نقاشي إذا كان لديك أي أسئلة.</string>
+  <string name="patroller_saved_message_body_coi_rem">مرحبًا {{{username}}}، أقدر تعاونك على ويكيبيديا؛ ومع ذلك، لاحظت أنك في [[Infopedia:Conflict_of_interest|تضارب المصالح]]. تضارب المصالح هو عدم التوافق بين أهداف ويكيبيديا المتمثلة في الحياد والموثوقية والأهداف الخاصة لبعض المحررين أو الأفراد أو الكيانات أو الشركات من أي نوع.\n\nتخضع جميع المساهمات في المساحة الرئيسية لسياسات معايير المحتوى الخاصة بهذه ويكيبيديا ([[Infopedia:What_Infopedia_is_not|ما لا تمثله ويكيبيديا]])، والجودة الموسوعية ([[Infopedia:Verifiability|قابلية التحقق]] و[[Infopedia:No_original_research|عدم وجود بحث أصلي]])، وطريقة التحرير ([[Infopedia:Neutral_point_of_view|وجهة نظر محايدة]])، وشرعية المحتوى ([[Infopedia:Copyrights|حقوق الطبع والنشر]]). من المتوقع أن يلتزم جميع الناشرين بهذه السياسات عند إنشاء المحتوى وتقييمه واحترام تصرفات الناشرين الآخرين وتحمل حسن النية لضمان اتباع هذه السياسات.\n\nإذا قمت بالتحرير بموجب تضارب المصالح، فيجب عليك تطبيق السياسة المقابلة بعناية خاصة؛ وإلا، فقد يتم اعتبار حساب المستخدم الخاص بك لأغراض خاصة ويتم حظره. لا تتردد في التواصل معي على صفحة نقاشي إذا كان لديك أي أسئلة.</string>
   <string name="patroller_saved_message_body_final_warning">نظرًا لأنك قمت بإجراء تعديلات مدمرة متعددة، فإن هذا سيكون بمثابة تحذيرك الأخير. إذا قمت بتخريب ويكيبيديا مرة أخرى، فسيتم منعك من التحرير.</string>
   <string name="patroller_saved_message_body_copy_vio">يبدو أن تعديلك الأخير يتضمن مواد محمية بحقوق الطبع والنشر دون إذن. يرجى التأكد من أن كل المحتوى يتوافق مع سياسات حقوق الطبع والنشر الخاصة بويكيبيديا لتجنب الإزالة.</string>
   <string name="patroller_saved_message_body_edit_summary">مرحبًا {{{username}}}، يبدو أنك قمت بإزالة محتوى من ويكيبيديا دون ترك ملخص التحرير. يُرجى ترك ملخص التحرير كلما قمت بإضافة أو إزالة محتوى إلى ويكيبيديا.</string>
   <string name="patroller_saved_message_body_do_not_censor">مرحبًا {{{username}}}، يبدو أنك قمت بإزالة المحتوى دون مناقشته على صفحة نقاش المقال. يرجى ملاحظة أن ويكيبيديا ليست خاضعة للرقابة، ولا ينبغي إزالة المحتوى لأنه مثير للجدل. إذا كنت تعتقد أن المعلومات غير دقيقة، فيرجى التوصل إلى إجماع على صفحة نقاش المقال.</string>
   <string name="talk_warn_learn_more_label">تعرف على عناصر نائبة الرسائل</string>
-  <string name="talk_warn_learn_more_url">https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_Suggested_edits#Message_placeholders</string>
+  <string name="talk_warn_learn_more_url">https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Android_Suggested_edits#Message_placeholders</string>
   <string name="talk_warn_saved_messages_usage_instruction">استخدم رسالة المثال أدناه لتخصيصها وإرسالها وحفظها في رسائلك.</string>
-  <string name="patroller_saved_message_body_art_imp">مرحبًا {{{username}}}. مقالتك بداية رائعة! ولجعلها أفضل، فكر في إضافة المزيد من المراجع إلى مصادر موثوقة. يساعد هذا في التحقق من المعلومات وتحسين جودة المقالة. راجع إرشادات ويكيبيديا هذه حول [[Wikipedia:Reliable_sources|مصادر موثوقة]] لمزيد من التفاصيل.</string>
+  <string name="patroller_saved_message_body_art_imp">مرحبًا {{{username}}}. مقالتك بداية رائعة! ولجعلها أفضل، فكر في إضافة المزيد من المراجع إلى مصادر موثوقة. يساعد هذا في التحقق من المعلومات وتحسين جودة المقالة. راجع إرشادات ويكيبيديا هذه حول [[Infopedia:Reliable_sources|مصادر موثوقة]] لمزيد من التفاصيل.</string>
   <string name="talk_templates_menu_edit_title">عدل</string>
   <string name="data_opt_in_accept">قبول</string>
   <string name="data_opt_in_reject">رفض</string>
@@ -2017,7 +2017,7 @@
   <string name="donate_gpay_check_recurring">اجعل هذا تبرعًا متكررًا شهريًا.</string>
   <string name="donate_gpay_check_send_email">نعم، يمكن لمؤسسة ويكيميديا أن ترسل لي بريدًا إلكترونيًا من حين لآخر.</string>
   <string name="donate_gpay_minimum_amount">الرجاء تحديد المبلغ (الحد الأدنى %s)</string>
-  <string name="donate_gpay_maximum_amount">لا يمكننا قبول تبرعات تزيد عن %s من خلال تطبيقنا. يرجى الاتصال بفريق التبرعات الكبرى لدينا على benefactors@wikimedia.org.</string>
+  <string name="donate_gpay_maximum_amount">لا يمكننا قبول تبرعات تزيد عن %s من خلال تطبيقنا. يرجى الاتصال بفريق التبرعات الكبرى لدينا على benefactors@infopedia.org.</string>
   <string name="donate_gpay_success_message">&lt;b&gt;شكرا لك!&lt;/b&gt; كرمك تجاه ويكيبيديا يعني الكثير بالنسبة لنا.</string>
   <string name="donate_gpay_help_problems">مشاكل في التبرع؟</string>
   <string name="donate_gpay_help_other_ways">طرق أخرى للعطاء</string>
@@ -2113,7 +2113,7 @@
   <string name="on_this_day_game_report_email_subject">تقرير المشكلة - ألعاب ويكيبيديا</string>
   <string name="on_this_day_game_report_email_body">لقد واجهت مشكلة مع ميزة ألعاب ويكيبيديا:\n- [وصف المشكلة المحددة]\n\nالسلوك الذي أرغب في رؤيته هو:\n- [وصف الحل المقترح]</string>
   <string name="on_this_day_game_notification_undo">رجوع</string>
-  <string name="on_this_day_game_share_link_message">ألعب لعبة \"أيهما جاء أولاً؟\" وهي لعبة تفاهات يومية على تطبيق Wikipedia Android %s</string>
+  <string name="on_this_day_game_share_link_message">ألعب لعبة \"أيهما جاء أولاً؟\" وهي لعبة تفاهات يومية على تطبيق Infopedia Android %s</string>
   <string name="on_this_day_game_share_screen_title">لقد حصلت على %1$d/%2$d في \n\"أيهما جاء أولاً؟\" \nاليوم.</string>
   <string name="on_this_day_game_share_screen_subtitle">المواضيع المتضمنة:</string>
   <string name="on_this_day_game_archive_calendar_title">اختر لعبة حسب التاريخ للعب.</string>
@@ -2385,7 +2385,7 @@
   <string name="recommended_reading_list_settings_toggle">اكتشف قائمة القراءة</string>
   <string name="recommended_reading_list_settings_toggle_disable_message">خاصية \"اكتشف\" مُعطّلة. لن تُوصي ويكيبيديا بقراءة مقالاتك.</string>
   <string name="recommended_reading_list_settings_turn_off_dialog_title">إيقاف تشغيل Discover؟</string>
-  <string name="recommended_reading_list_settings_turn_off_dialog_message">إذا قمت بإيقاف تشغيل Discover، فسوف تتوقف عن تلقي %s من توصيات القراءة من Wikipedia.</string>
+  <string name="recommended_reading_list_settings_turn_off_dialog_message">إذا قمت بإيقاف تشغيل Discover، فسوف تتوقف عن تلقي %s من توصيات القراءة من Infopedia.</string>
   <string name="recommended_reading_list_settings_turn_off_dialog_positive_button">أطفئه</string>
   <string name="recommended_reading_list_settings_turn_off_dialog_negative_button">لا، استمر في ذلك</string>
   <string name="recommended_reading_list_settings_turn_off_snackbar">تم إيقاف ميزة \"اكتشف\". يمكنك إعادة تفعيلها في أي وقت من الإعدادات.</string>
@@ -2419,7 +2419,7 @@
   <string name="recommended_reading_list_settings_notifications_dialog_negative_button">لا، ابقهم على حالهم</string>
   <string name="recommended_reading_list_notification_title">قائمة القراءة %s Discover الخاصة بك جاهزة.</string>
   <string name="recommended_reading_list_notification_subtitle">انقر هنا لرؤية أحدث توصياتك.</string>
-  <string name="recommended_reading_list_settings_notification_subtitle_enable">عندما يتم تحديث Discover الخاص بك، سوف ترسل لك Wikipedia إشعارًا.</string>
+  <string name="recommended_reading_list_settings_notification_subtitle_enable">عندما يتم تحديث Discover الخاص بك، سوف ترسل لك Infopedia إشعارًا.</string>
   <string name="recommended_reading_list_settings_toggle_enable_message">اكتشف الآن. ستقترح عليك ويكيبيديا مقالات للقراءة.</string>
   <string name="donation_reminders_prompt_dismiss_snackbar">يمكن تعديل تذكيرات التبرع في أي وقت من خلال الإعدادات.</string>
   <string name="donation_settings_section_header">التبرعات</string>

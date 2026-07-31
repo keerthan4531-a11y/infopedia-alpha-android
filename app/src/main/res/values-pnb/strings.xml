@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Bgo eiu
 * Sohaib
 -->
 <resources>
-  <string name="app_name_prod">وِکیپیڈیا</string>
-  <string name="app_name_beta">وِکیپیڈیا بیٹا</string>
-  <string name="app_name_alpha">وِکیپیڈیا الفا</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">ویکیمیڈیا</string>
   <string name="nav_item_back">پچھے</string>
   <string name="page_tabs_back">پچھے</string>

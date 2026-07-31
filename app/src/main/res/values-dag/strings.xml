@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * AFAIBRAHIM
 * Alhassan Peter
@@ -9,14 +9,14 @@
 * Kalakpagh
 -->
 <resources>
-  <string name="app_name_prod">Wikipedia</string>
-  <string name="app_name_beta">Wikipedia Bɛta</string>
-  <string name="app_name_alpha">Wikipedia Alpha</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Wikimedia</string>
   <string name="nav_item_back">Nyaanga</string>
   <string name="page_tabs_back">nyaanga</string>
   <string name="nav_item_forward">Tooni</string>
-  <string name="search_hint">vihimi Wikipedia zuɣu</string>
+  <string name="search_hint">vihimi Infopedia zuɣu</string>
   <string name="search_hint_voice_search">kukɔli zaŋ niŋ vihigu</string>
   <string name="search_hint_search_languages">vihi bo balli shee</string>
   <string name="filter_hint_filter_my_lists_and_articles">jɛhimi dinyina n vihigu ni</string>
@@ -114,12 +114,12 @@
   <string name="edit_save_action_license_logged_in">ayizaŋ li du pohim zuɣu, di wuhiya ni asaɣi ti di &lt;a href=\"%1$s\"&gt; soya ni zaliisi &lt;/a&gt;, ka lan dihinuu ka pa ni firimiisi ni bɛ ni tooi yihi atɔhibu poloni zaŋjɛndi &lt;a href=\"%2$s\"&gt;CC BY-SA 4.0&lt;/a&gt; nuu dihibu shɛhira gbaŋ.</string>
   <string name="edit_save_action_license_anon">ayi zaŋ asabbu duhi pɔhim zuɣu wuhiya ni asaɣi n-ti, &lt;a href=\"%1$s\"&gt;sɔya ni zalisi&lt;/a&gt;, yaha ka lan saɣi ka pa ni firimiinsi ni azaŋ atɔhibu yihi polo ni n-ti salo ka di jɛndi &lt;a href=\"%2$s/\"&gt;CC BY-SA 4.0&lt;/a&gt; license. Lala mali niŋ nima ŋɔ nyɛla din yɛn kpuɣu daliŋ ani zaŋ maʒini shɛli niŋ li maa IP adreesi. Di yi niŋ ka ayi niŋ &lt;a href=\"https://#login\"&gt;log in&lt;/a&gt;, ani tooi mali ashili din galisi zaŋ kpa atuma polo.</string>
   <string name="edit_anon_warning">mali niŋ nima ŋɔ nyɛla din yɛn kpuɣu daliŋ ani zaŋ maʒini shɛli niŋ li maa IP adreesi. Di yi niŋ ka ayi niŋ &lt;a href=\"https://#login\"&gt;log in&lt;/a&gt;, ani tooi mali ashili din galisi zaŋ kpa atuma polo.</string>
-  <string name="preference_title_language">Wikipedia zuɣu bala</string>
+  <string name="preference_title_language">Infopedia zuɣu bala</string>
   <string name="langlinks_filter_hint">vihima</string>
   <string name="langlinks_empty">yaɣili ŋɔ bi niŋ bayana balishɛŋa din pahi puuni</string>
   <string name="langlinks_no_match">zuliya shɛŋa kani</string>
   <string name="langlinks_activity_title">zuliyashɛŋa din pahi</string>
-  <string name="langlinks_your_wikipedia_languages">Wikipedia zuɣu zuliyanima</string>
+  <string name="langlinks_your_wikipedia_languages">Infopedia zuɣu zuliyanima</string>
   <string name="menu_save_changes">Zaŋ wuhi salo taɣibu nima</string>
   <string name="edit_saved_successfully">amali sabbu du pɔhim ʒuɣu!</string>
   <string name="stub_article_edit_saved_successfully">Maliniŋ du pohim zuɣu! Taɣibu ni tooi di saha pɔi ka naayi yina.</string>
@@ -135,11 +135,11 @@
   <string name="search_reading_lists_no_results">shɛhira shɛli kani karimbu yaɣili maa puuni</string>
   <string name="search_history_no_results">shehira shɛli laŋ ka dinpungari maa puuni</string>
   <string name="edit_section_captcha_message">din yɛn sɔŋ taɣi ka chɛ pɔhim zuɣu gabbu, dimi suɣulo ka kpɛhi bachinima din do gbunni ŋɔ</string>
-  <string name="edit_section_captcha_request_an_account_message">anfooni maa ku tooi nya? &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;Request an account&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">anfooni maa ku tooi nya? &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;Request an account&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">labi kpɛhi bachinima din do zuɣusaa ŋɔ</string>
   <string name="title_captcha">kpɛhimi CAPTCHA</string>
   <string name="edit_section_captcha_reload">dihimi CAPTCHA maa zuɣu n-labi niŋ</string>
-  <string name="nav_item_login">kpɛmi Wikipedia puuni</string>
+  <string name="nav_item_login">kpɛmi Infopedia puuni</string>
   <string name="login_username_hint">ŋun su yuli</string>
   <string name="login_password_hint">Paswɛdi</string>
   <string name="account_creation_password_hint">Paswɛdi</string>
@@ -162,7 +162,7 @@
   <string name="logout_prompt">ŋɔ nyɛla din yɛn yihi a anipun be tabibi maʒini shɛŋa zaa puuni. Ana kuli bori ni atirisi tooni?</string>
   <string name="logout_dialog_cancel_button_text">Nyahima</string>
   <string name="logged_out_in_background_title">ayiya</string>
-  <string name="logged_out_in_background_dialog">A yi Wikipedia dundɔŋ puuni. Abori ni a kpɛ yaha?</string>
+  <string name="logged_out_in_background_dialog">A yi Infopedia dundɔŋ puuni. Abori ni a kpɛ yaha?</string>
   <string name="logged_out_in_background_login">kpɛma</string>
   <string name="logged_out_in_background_cancel">Nyahima</string>
   <string name="account_vanish_request_title">Bɔrigibu akaunt</string>
@@ -171,12 +171,12 @@
   <string name="history_empty_message">doli ankarindi shɛli kpɛ vulo</string>
   <string name="history_offline_articles_toast">lahabali shɛŋa din be dinpun niŋ gari puuni nyɛla ani ku tooi karim shɛli ayi na ka pɔhim zuɣu.</string>
   <string name="search_empty_message">vihimi karim azuliya lahabali kundi shɛli din nyɛ yoli</string>
-  <string name="search_empty_message_multilingual_upgrade">vihimi Wikipedia puuni ni zuliya nima pam</string>
+  <string name="search_empty_message_multilingual_upgrade">vihimi Infopedia puuni ni zuliya nima pam</string>
   <string name="delete_selected_items">nyahimi ani dihi lahabali shɛŋa maa zaa</string>
   <string name="wp_stylized">&lt;big&gt;W&lt;/big&gt;IKIPEDI&lt;big&gt;A&lt;/big&gt;</string>
   <string name="create_account_username_hint">ŋun su yuli</string>
   <string name="login_dont_have_account">A na ka akawnt?</string>
-  <string name="login_join_wikipedia">pahimi Wikipedia ni</string>
+  <string name="login_join_wikipedia">pahimi Infopedia ni</string>
   <string name="login_forgot_password">A tam la a paswɛd?</string>
   <string name="create_account_already_have">a pun malila akawnt?</string>
   <string name="create_account_activity_title">Yoomi adaa akawnt.</string>
@@ -198,11 +198,11 @@
   <string name="create_account_button">Yoomi akawnti.</string>
   <string name="create_account_name_unavailable">lala yuli ŋɔ \"%s\" pala dinni tooi niŋ. Taɣimi yu\'shɛli.</string>
   <string name="create_account_ip_block_message">mbaya, a IP adrɛɛs maa na nyɛla bɛ ni zaŋ bɛ nuu pa sheli zuɣu ka di ku tooi yoogi akawnt</string>
-  <string name="create_account_ip_block_help_url">https://en.wikipedia.org/wiki/Help:I_have_been_blocked</string>
+  <string name="create_account_ip_block_help_url">https://en.Infopedia.org/wiki/Help:I_have_been_blocked</string>
   <string name="create_account_ip_block_details">di bayana</string>
   <string name="preferences_general_heading">zaɣyalinli</string>
   <string name="preferences_account_heading">Akawnt</string>
-  <string name="wikipedia_app_faq">Wikipedia App zuɣu bɛ ni tooi bohiri bohishɛŋa</string>
+  <string name="wikipedia_app_faq">Infopedia App zuɣu bɛ ni tooi bohiri bohishɛŋa</string>
   <string name="send_feedback">sabimi ani mali labsirishɛli nti app maa</string>
   <string name="create_account_account_created_toast">Akawnti yooya</string>
   <string name="preferences_heading_syncing">Zaŋkpɛhi tabini</string>
@@ -210,8 +210,8 @@
   <string name="preferences_heading_experimental">Kpahimbaŋ</string>
   <string name="preference_title_sync_reading_lists_from_account">bini karinda yooira</string>
   <string name="preference_title_download_reading_list_articles">vooimi alahabali karinda</string>
-  <string name="preference_summary_sync_reading_lists">malimi alahabali karinda ka dini tooi niŋ bayana ngu zali niŋ a Wikipedia akawnt ni</string>
-  <string name="preference_summary_sync_reading_lists_from_account">malimi alahabali karinda ka dini tooi niŋ bayana ngu zali niŋ a Wikipedia akawnt ni %s</string>
+  <string name="preference_summary_sync_reading_lists">malimi alahabali karinda ka dini tooi niŋ bayana ngu zali niŋ a Infopedia akawnt ni</string>
+  <string name="preference_summary_sync_reading_lists_from_account">malimi alahabali karinda ka dini tooi niŋ bayana ngu zali niŋ a Infopedia akawnt ni %s</string>
   <string name="preference_dialog_of_turning_off_reading_list_sync_title">yihimi ani laɣim lahabali karinda shɛŋa \"%s\"?</string>
   <string name="preference_dialog_of_turning_off_reading_list_sync_text">ŋɔ nyɛla din yen nyɛhi a ni pun mali lahabali karinda shɛli zali yoma. Yihimi a lahabali karinda zaa sa a daa akawnt ni \"%s\"?</string>
   <string name="preference_title_auto_upload_crash_reports">zaŋmi di yelmuɣisirili ni nyɛ shɛm lahabali n-ti</string>
@@ -229,16 +229,16 @@
   <string name="page_watchlist_overflow_menu_onboarding_tooltip_text">niŋmi zaɣa ni niŋsim din niŋda a suhu ni yu lahabali shɛŋa ni. Dihimi kpaai pahi bia zuɣu ka piigi &lt;b&gt;zaŋ pahi n-nini ni pa shɛli ʒuɣu&lt;/b&gt; a ni nya taɣibu dinniŋ lahabali maa puuni.</string>
   <string name="settings_item_preferences">Kpatuɣa mali niŋ</string>
   <string name="settings_activity_title">Kpatuɣa mali niŋ</string>
-  <string name="about_description">dinjɛndi zaŋkpa Wikipedia app polo</string>
+  <string name="about_description">dinjɛndi zaŋkpa Infopedia app polo</string>
   <string name="privacy_policy_description">Ashili zalikpana</string>
   <string name="terms_of_use_description">Zaŋ tum tuma zalisi</string>
-  <string name="about_wikipedia_url">https://en.wikipedia.org/wiki/Wikipedia:About</string>
+  <string name="about_wikipedia_url">https://en.Infopedia.org/wiki/Infopedia:About</string>
   <string name="about_libraries_heading">bachinima kahigibu kundinima din zaŋ tum tuma</string>
   <string name="about_contributors_heading">tohiriba</string>
   <string name="about_translators_heading">lɛbigiriba</string>
   <string name="about_translators_translatewiki">Ninvuɣ\'shɛb ban paɣi bɛ suhiri n daa sɔŋ lɛbigi App ŋɔ zuliya maa &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt;. puuni</string>
   <string name="about_app_license_heading">Shɛhira gbaŋ din dihi nua</string>
-  <string name="about_app_license">di yibu shɛɛ kɔɔd nyɛla din beni &lt;a href=\"https://gerrit.wikimedia.org/r/#/admin/projects/apps/android/wikipedia\"&gt;Gerrit&lt;/a&gt; and &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;GitHub&lt;/a&gt; under the &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0 License&lt;/a&gt;. Naɣila nyini n zalili laa, din be di puuni gba beni kpɛ &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Creative Commons Attribution-ShareAlike License&lt;/a&gt;.</string>
+  <string name="about_app_license">di yibu shɛɛ kɔɔd nyɛla din beni &lt;a href=\"https://gerrit.infopedia.org/r/#/admin/projects/apps/android/Infopedia\"&gt;Gerrit&lt;/a&gt; and &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;GitHub&lt;/a&gt; under the &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0 License&lt;/a&gt;. Naɣila nyini n zalili laa, din be di puuni gba beni kpɛ &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Creative Commons Attribution-ShareAlike License&lt;/a&gt;.</string>
   <string name="about_wmf">A product of the &lt;a href=\"https://wikimediafoundation.org/\"&gt;Wikimedia Foundation&lt;/a&gt;</string>
   <string name="about_activity_title">Dini nye shem</string>
   <string name="edit_abandon_confirm">taɣibu niŋla yaɣili ŋɔ. A dihitabili ni a bori ni a yi ka bi gu lala taɣibu maa?</string>
@@ -284,7 +284,7 @@
   <string name="abusefilter_title_warn">ŋɔ ni tooi nyɛ maliniŋ dim bi tam kalinli zuɣu. A dihi tabili ni a zaŋ li wuhi salɔ?</string>
   <string name="abusefilter_title_disallow">A ku tooi zaŋ a maliniŋ ŋɔ wuhi salɔ. Dim suɣulo labimi nyaanga n-ti taɣi li.</string>
   <string name="abusefilter_text_warn">Jɛhiri n-toli maʒini nyɛla din dihi a maliniŋ maa zuɣu ni di bi tam kalinli zuɣu. Dini tooi nyɛ daliri shɛŋa din do gbunni ŋɔ shɛli n-tahili:&lt;br /&gt;&lt;br /&gt;. A sabi la di zaa ni bachikara&lt;b /&gt;. A yihi la lahabali maa yaɣashɛli din timsa bee a pahila lahabali shɛli din yɛn gabi niriba&lt;br /&gt;. A pahila sambanni linkinima bee anfooninima din ka nini&lt;br /&gt;.\nA ku labirimi sabiri binyinsi</string>
-  <string name="abusefilter_text_disallow">Jɛhiri n-toli maʒini nyɛla din dihi a maliniŋ maa zuɣu ni di bi tam kalinli zuɣu bee dinni tooi wurim lahabali maa.&lt;br /&gt;&lt;br /&gt;Wikipedia nyɛla tohisabi dundɔŋ din bi gaŋda, ansanzali lahabaya biɛla kpɛ.</string>
+  <string name="abusefilter_text_disallow">Jɛhiri n-toli maʒini nyɛla din dihi a maliniŋ maa zuɣu ni di bi tam kalinli zuɣu bee dinni tooi wurim lahabali maa.&lt;br /&gt;&lt;br /&gt;Infopedia nyɛla tohisabi dundɔŋ din bi gaŋda, ansanzali lahabaya biɛla kpɛ.</string>
   <string name="page_similar_titles">Paajinima din ŋmani taba</string>
   <string name="search_did_you_mean">ŋɔ \"%s\" ka awuhiri maa?</string>
   <string name="search_recent_header">punpɔŋɔ na vihigu</string>
@@ -301,9 +301,9 @@
   <string name="table_infobox">Yomyom shɛhira</string>
   <string name="table_other">Lahabali din pahi</string>
   <string name="table_close">Kparima</string>
-  <string name="widget_name_featured_page">Wikipedia ni tohi pahi yaɣashɛli</string>
+  <string name="widget_name_featured_page">Infopedia ni tohi pahi yaɣashɛli</string>
   <string name="widget_title_featured_page">Zuŋɔ nambu yaɣili</string>
-  <string name="widget_name_search">Wikipedia Vihigu</string>
+  <string name="widget_name_search">Infopedia Vihigu</string>
   <string name="widget_description_search">Yomyom soli din vihiri Wikipidia</string>
   <string name="widget_description_featured_page">Gbanbiɛlima din gaŋdu shɛŋa Wikipidia ni to ni di mali</string>
   <string name="wiktionary_no_definitions_found">Kahigiri shɛli bi nya</string>
@@ -394,9 +394,9 @@
   <string name="link_preview_dialog_share_button">tari</string>
   <string name="link_preview_stub_placeholder_text">Gbanbiɛlinli ŋɔ nyɛla zaɣa ŋmaa, di gbunni nyɛla lahabali pam kani zaŋ n-ti gbanbiɛlinli ŋɔ ka niri ni tooi daŋ yuli. Amaa, a ni tooi taɣi li</string>
   <string name="error_page_does_not_exist">yaɣili ŋɔ maa kani</string>
-  <string name="error_user_page_does_not_exist">Wikipedia zuɣu ka &lt;a href=\"%1$s\"&gt;ŋun su yaɣili&lt;/a&gt; ka mali lala yuli. Ti ni ku yɛn kpuɣili shɛm, yaɣili ŋɔ maa tu ni di nam ka &lt;b&gt;%2$s&lt;/b&gt; maliniŋ. A yi na ku mali zilisigu nyin vihibaŋ kadama \"%3$s\" nyɛla din beni.</string>
+  <string name="error_user_page_does_not_exist">Infopedia zuɣu ka &lt;a href=\"%1$s\"&gt;ŋun su yaɣili&lt;/a&gt; ka mali lala yuli. Ti ni ku yɛn kpuɣili shɛm, yaɣili ŋɔ maa tu ni di nam ka &lt;b&gt;%2$s&lt;/b&gt; maliniŋ. A yi na ku mali zilisigu nyin vihibaŋ kadama \"%3$s\" nyɛla din beni.</string>
   <string name="view_wiki_error_message_offline">di ku tooi gohi pohim zuɣu</string>
-  <string name="view_wiki_error_message_timeout">Di bi tooi gbaai Wikipedia. Mali lihi a pɔhim zuɣu mihi bee ka a labimɔ sahabiɛla</string>
+  <string name="view_wiki_error_message_timeout">Di bi tooi gbaai Infopedia. Mali lihi a pɔhim zuɣu mihi bee ka a labimɔ sahabiɛla</string>
   <string name="reference_title">%s Kundivihira</string>
   <string name="reference_list_title">Kundivihira</string>
   <string name="theme_chooser_dialog_image_dimming_switch_label">Anfooni neesim vuuira (A yi piigi ko zimsili)</string>
@@ -412,9 +412,9 @@
   <string name="error_blocked_start">Kparibu piligu: %s</string>
   <string name="error_blocked_expiry">Kparibu naabu: %s</string>
   <string name="error_blocked_id">kparibu maa namba: %s</string>
-  <string name="error_blocked_footer">A ni tooi nya &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; bee ŋun bɔŋɔ &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Administrators\"&gt;administrator&lt;/a&gt; ka yi tɔɣisi a kparibu maa yɛltɔɣa.</string>
+  <string name="error_blocked_footer">A ni tooi nya &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; bee ŋun bɔŋɔ &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Administrators\"&gt;administrator&lt;/a&gt; ka yi tɔɣisi a kparibu maa yɛltɔɣa.</string>
   <string name="theme_chooser_menu_item_short_tooltip">Malimi a tuulbaa zali a ni borili shɛm</string>
-  <string name="error_blocked_footer_no_blocker">A ni tooi nya &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Administrators\"&gt;administrator&lt;/a&gt; ka yi tɔɣisi a kparibu maa yɛltɔɣa.</string>
+  <string name="error_blocked_footer_no_blocker">A ni tooi nya &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Administrators\"&gt;administrator&lt;/a&gt; ka yi tɔɣisi a kparibu maa yɛltɔɣa.</string>
   <string name="temp_account_not_logged_in">A bi kpɛ</string>
   <string name="temp_account_anon_dialog_body" fuzzy="true">Di yi niŋ ka a niŋ maliniŋ, &lt;b&gt;saha bela akaunti&lt;/b&gt; nyɛla din yɛn nam n zaŋ ti a ka di gbubi a daashili. &lt;a href=\"%1$s\"&gt;Bɔhimi m pahi&lt;/a&gt;. &lt;br /&gt;&lt;br /&gt;&lt;a href=\"https://#login\"&gt;Log in&lt;/a&gt; or &lt;a href=\"https://#login\"&gt;Nammi akaunti&lt;/a&gt; zaŋ n-ti sɔhi biɛɣu ni mali niŋ ni din yɛn che ka a tooi nya nahingbaŋ shɛŋa.</string>
   <string name="temp_account_dialog_ok">Nya li</string>
@@ -434,7 +434,7 @@
   <string name="temp_account_end_session">Naami yaɣili</string>
   <string name="temp_account_end_session_confirm">Din bɔŋɔ nyɛla din yɛn yihi a saha bela akaunt ni. A bori ni a tuɣi?</string>
   <string name="crash_report_activity_title">Binshɛli bi chaŋ dede</string>
-  <string name="crash_report_relaunch_or_quit">Ti tum taali, Wikipedia app maa nyɛla muɣusigu ni di gbaai shɛli ka di kpihim</string>
+  <string name="crash_report_relaunch_or_quit">Ti tum taali, Infopedia app maa nyɛla muɣusigu ni di gbaai shɛli ka di kpihim</string>
   <string name="crash_report_relaunch">Labi pili yaha</string>
   <string name="crash_report_quit">yima</string>
   <string name="article_menu_bar_save_button">Zaŋpkɛhi</string>
@@ -534,8 +534,8 @@
   <string name="reading_lists_default_list_delete_message">totoli yuya ŋɔ (%s) ku tooi nyahi</string>
   <string name="reading_lists_default_plus_one_list_delete_message">%1$s nyahiya. Tolitoli yuli ŋɔ (%2$s) ku tooi nyahi.</string>
   <string name="reading_lists_default_plus_many_lists_delete_message">Yuya maa nyahiya. Tolitoli yuya ŋɔ (%s) ku tooi nyahi.</string>
-  <string name="single_list_json_file_name">%s (Wikipedia zuɣu karimbu yuya).json</string>
-  <string name="multiple_lists_json_file_name">Wikipedia zuɣu karimbu yuya (%s ni dinpahi).json</string>
+  <string name="single_list_json_file_name">%s (Infopedia zuɣu karimbu yuya).json</string>
+  <string name="multiple_lists_json_file_name">Infopedia zuɣu karimbu yuya (%s ni dinpahi).json</string>
   <string name="reading_list_items_deleted">%d lahabaya yihiya yihiya yuya kalinli maa puuni</string>
   <string name="reading_lists_item_deleted">%s yihiya yuya maa ni</string>
   <string name="reading_list_item_delete_undo">M bi lahi niŋ</string>
@@ -555,12 +555,12 @@
   <string name="reading_list_confirm_remove_article_from_offline_title">Lahabaya maa bela yaɣ\'bobigu</string>
   <string name="reading_list_confirm_remove_article_from_offline_message">%s lahi pala dinni tooi nya karim yaɣa maa zaa a yi ka pɔhim zuɣu:</string>
   <string name="reading_lists_sync_reminder_title">Nyom karim yaɣa zaŋkpɛhi tabi ni?</string>
-  <string name="reading_lists_sync_reminder_text" fuzzy="true">Lahabali shɛŋa din gu n be karim yaɣa maa ni pa ni tooi vooi kpehi A Wikipedia akawnti maa ni. &lt;a href=\"https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;bohimmi pahi&lt;/a&gt;</string>
-  <string name="reading_lists_login_reminder_text_with_link" fuzzy="true">Karimbu yuya pa ni tooi zaŋ gohi taba tabibi-maʒini dabam dabam puuni. Kpɛm a Wikipedia akawnti ni nti ti soli ka a karim yuya maa gu n-zali. &lt;a href=\"https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;bohimmi pahi&lt;/a&gt;</string>
+  <string name="reading_lists_sync_reminder_text" fuzzy="true">Lahabali shɛŋa din gu n be karim yaɣa maa ni pa ni tooi vooi kpehi A Infopedia akawnti maa ni. &lt;a href=\"https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;bohimmi pahi&lt;/a&gt;</string>
+  <string name="reading_lists_login_reminder_text_with_link" fuzzy="true">Karimbu yuya pa ni tooi zaŋ gohi taba tabibi-maʒini dabam dabam puuni. Kpɛm a Infopedia akawnti ni nti ti soli ka a karim yuya maa gu n-zali. &lt;a href=\"https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;bohimmi pahi&lt;/a&gt;</string>
   <string name="reading_lists_sync_reminder_action">Saɣiti zaŋgohi taba</string>
   <string name="reading_list_login_reminder_title">zaŋmi a yu-karimda n-gohi taba</string>
-  <string name="reading_lists_login_reminder_text">A yu-Karimda pa ni tooi zaŋ gohi taba tabibi-maʒini dabam dabam zuɣu. Kpɛm a Wikipedia akawnti ni nti ti soli ka a yu-karimda maa gu n-zali.</string>
-  <string name="reading_lists_login_button">kpɛmi Wikipedia puuni/pahimi Wikipedia nim\' zuɣu</string>
+  <string name="reading_lists_login_reminder_text">A yu-Karimda pa ni tooi zaŋ gohi taba tabibi-maʒini dabam dabam zuɣu. Kpɛm a Infopedia akawnti ni nti ti soli ka a yu-karimda maa gu n-zali.</string>
+  <string name="reading_lists_login_button">kpɛmi Infopedia puuni/pahimi Infopedia nim\' zuɣu</string>
   <string name="reading_lists_ignore_button">Pa pumpɔŋɔ</string>
   <string name="reading_lists_confirm_remote_delete_yes">iin</string>
   <string name="reading_lists_confirm_remote_delete_no">Aayi</string>
@@ -582,7 +582,7 @@
   <string name="reading_list_turned_sync_off_dialog_ok">Tɔ</string>
   <string name="reading_list_turned_sync_off_dialog_settings">Kpatuɣa mali niŋ</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_title">Dihi nyo karim yaɣa zaŋkpɛhi tabi ni?</string>
-  <string name="reading_list_prompt_turned_sync_on_dialog_text">Lahabali shɛŋa din gu n-pahi a yu-karinda ni pa ni tooi zaŋ kpɛhi a Wikipedia akawnti ni. &lt;a href=\"#faq\"&gt;bohimmi pahi&lt;/a&gt;</string>
+  <string name="reading_list_prompt_turned_sync_on_dialog_text">Lahabali shɛŋa din gu n-pahi a yu-karinda ni pa ni tooi zaŋ kpɛhi a Infopedia akawnti ni. &lt;a href=\"#faq\"&gt;bohimmi pahi&lt;/a&gt;</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_do_not_show">Di lan zaŋ ŋɔ n-wuhima yaha</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_enable_syncing">Saɣiti zaŋgohi taba</string>
   <string name="reading_list_prompt_turned_sync_on_dialog_no_thanks">Aayi, mbo</string>
@@ -678,7 +678,7 @@
     <item quantity="one">%1$d yuli dinguui</item>
     <item quantity="other">%1$d yuya dinguui</item>
   </plurals>
-  <string name="notification_echo_channel_description">Wikipedia tibili dimsibu lahabaya</string>
+  <string name="notification_echo_channel_description">Infopedia tibili dimsibu lahabaya</string>
   <string name="notifications_activity_title">Tibili dimsibu lahabaya</string>
   <string name="notifications_activity_title_archived">Tibili dimsibu lahabaya (Din gu n-soɣi)</string>
   <string name="notifications_search">Vihimi tikum lahabaya ni</string>
@@ -740,8 +740,8 @@
   <string name="preference_title_customize_push_notifications">Malimi tikum shɛŋa ani bori ni di nyihira</string>
   <string name="preference_category_display_settings">Zaŋ zali polo ni Malizali</string>
   <string name="preference_title_hide_read_notifications">Sɔɣimi tikum shɛŋa ni yuli</string>
-  <string name="notifications_channel_group_wikipedia_notifications_title">Wikipedia</string>
-  <string name="notifications_channel_group_wikipedia_notifications_description">Wikipedia zuɣu teebu lahabaya</string>
+  <string name="notifications_channel_group_wikipedia_notifications_title">Infopedia</string>
+  <string name="notifications_channel_group_wikipedia_notifications_description">Infopedia zuɣu teebu lahabaya</string>
   <string name="notifications_channel_group_other_title">Dinpahi</string>
   <string name="notifications_channel_group_other_description">Tikum shɛŋa din pahi yi app maa puuni na</string>
   <string name="notifications_filter_label">Jɛhimi din be tikuma puuni</string>
@@ -777,7 +777,7 @@
   <string name="view_top_read_card_pageviews_k_suffix">%d k</string>
   <string name="view_top_read_card_pageviews_m_suffix">%d M</string>
   <string name="view_next_random_article">Lan yooimi sahasaha lahabali shɛli</string>
-  <string name="view_main_page_card_title">Zuŋɔ Wikipedia zuɣu</string>
+  <string name="view_main_page_card_title">Zuŋɔ Infopedia zuɣu</string>
   <string name="view_main_page_card_action">Yulimi solɔɣu</string>
   <string name="view_featured_image_card_title">Zuŋɔ anfooni gahindili</string>
   <string name="view_featured_image_card_download">Vooima</string>
@@ -805,16 +805,16 @@
   <string name="feed_configure_menu_reset">Labisim di yulibu zali dini di pun be shɛm</string>
   <string name="feed_configure_menu_select_all">Zaŋmi di zaa wuhi</string>
   <string name="feed_configure_menu_deselect_all">Sɔɣimi di zaa</string>
-  <string name="feed_configure_language_warning">Baŋmi ka dama ka gbaŋ pubu balibu zaa n-nyɛ din be Wikipedia zuɣu bala zaa ni. Malimi a ni bori balishɛli n-niŋ kpatuɣa malizali shee.</string>
+  <string name="feed_configure_language_warning">Baŋmi ka dama ka gbaŋ pubu balibu zaa n-nyɛ din be Infopedia zuɣu bala zaa ni. Malimi a ni bori balishɛli n-niŋ kpatuɣa malizali shee.</string>
   <string name="feed_item_type_news">Lahabaya din jendi binshɛŋa dinnaniŋda</string>
   <string name="feed_item_type_on_this_day">Niŋsim nima dinpungari zaŋkpa dabisili ŋɔ polo</string>
   <string name="feed_item_type_because_you_read">Soŋsim lahabaya dinjendi a ni yoli karim lahabali shɛŋa dinpungari puuni</string>
-  <string name="feed_item_type_featured_article">Dabisilikam lahabaligahindili dinbe Wikipedia zuɣu</string>
+  <string name="feed_item_type_featured_article">Dabisilikam lahabaligahindili dinbe Infopedia zuɣu</string>
   <string name="feed_item_type_trending">Dabisilikam lahabali dinnya yulibu pam</string>
-  <string name="feed_item_type_featured_image">Dabilikam anfooni gahindili dinyi Wikipedia Commons puuni na</string>
-  <string name="feed_item_type_main_page">Wikipedia solɔɣu zuɣu dabisilikam ni dinbe di puuni</string>
+  <string name="feed_item_type_featured_image">Dabilikam anfooni gahindili dinyi Infopedia Commons puuni na</string>
+  <string name="feed_item_type_main_page">Infopedia solɔɣu zuɣu dabisilikam ni dinbe di puuni</string>
   <string name="feed_item_type_randomizer">Yihimi sahasaha lahabali karinda timma</string>
-  <string name="feed_item_type_suggested_edits">Sɔŋsim lahabali ni di bo pahigu n-ti din be Wikipedia puuni</string>
+  <string name="feed_item_type_suggested_edits">Sɔŋsim lahabali ni di bo pahigu n-ti din be Infopedia puuni</string>
   <string name="feed_item_type_places">Gbanbiɛlima din miri na ka di doli di saha ŋɔ dooshee</string>
   <string name="feed_empty_message" fuzzy="true">Shɛli na ka lala anfooni lahabaya ŋɔ yaɣili</string>
   <string name="feed_configure_onboarding_action">Maliniŋ a ni borili shɛm</string>
@@ -846,9 +846,9 @@
   <string name="description_edit_translate_image_caption">Lɛbigim lahabali anfooni</string>
   <string name="description_edit_cancel_hint">Nyahima</string>
   <string name="description_edit_help_title">Lahabali: Atikil buɣisibu lahabaya</string>
-  <string name="description_edit_help_about_wikidata">Din jendi Wikipedia</string>
+  <string name="description_edit_help_about_wikidata">Din jendi Infopedia</string>
   <string name="description_edit_help_wikidata_guide">Wikidata sɔŋsim sodoligu n-ti buɣisibu lahabali sabbu</string>
-  <string name="description_edit_anon_limit">Mbo ni a kpaŋmaŋa zaŋ chaŋ a ni kuli bi chɛ ka mali niŋnyambo sahakam ni atikilnima lahabaya buɣisibu maliniŋ puuni! A yi bori ni a niŋ maliniŋ nim m-pahi, dim suɣulo nyin kpɛmi a Wikipedia akawnti ni.</string>
+  <string name="description_edit_anon_limit">Mbo ni a kpaŋmaŋa zaŋ chaŋ a ni kuli bi chɛ ka mali niŋnyambo sahakam ni atikilnima lahabaya buɣisibu maliniŋ puuni! A yi bori ni a niŋ maliniŋ nim m-pahi, dim suɣulo nyin kpɛmi a Infopedia akawnti ni.</string>
   <string name="description_edit_license_notice">Di yi niŋ ka a taɣi atikil maa buɣisibu lahabali maa, di wuhiya ni n saɣiya n-ti &lt;a href=\"%1$s\"&gt;zaŋ tumtuma ti zalisi&lt;/a&gt; ka lan saɣi n-ti ka nyaangi labbu kani ni yihi tohibu m-pahi din jendi &lt;a href=\"%2$s\"&gt;Creative Commons CC0&lt;/a&gt; nuu dihibu shɛhira gbaŋ.</string>
   <string name="description_edit_helper_text_lowercase_warning">di tooi zooiya ka di piini ni bachikob\'bila</string>
   <string name="description_edit_voice_input_description">Kukɔli lahabali kpɛhibu</string>
@@ -869,7 +869,7 @@
   <string name="description_edit_success_saved_image_caption_in_lang_snackbar">Anfooni yuli buɣisibu lahabali zaŋya wuhi salo! (%s)</string>
   <string name="description_edit_success_saved_image_tags_snackbar">Buɣisibu lahabali din tabi anfooni zaŋya wuhi salo!</string>
   <string name="description_edit_success_se_general_feed_link_snackbar">A wum di nyaɣisim bɛbo? Soŋma ka ti pahi din gari laa.</string>
-  <string name="description_edit_success_encouragement">A bo bɛrisuŋ zaŋti Wikipedia ni sokam di anfaani</string>
+  <string name="description_edit_success_encouragement">A bo bɛrisuŋ zaŋti Infopedia ni sokam di anfaani</string>
   <string name="description_edit_success_done">Di niŋ ya</string>
   <string name="description_edit_success_did_you_know">A mii a mi bee?</string>
   <string name="description_edit_success_article_edit_hint">A ni too lan mali atikilnima niŋ app ŋɔ puuni. Mɔma m-mali sab\'chiriŋnima niŋ ni yɛltɔɣa din bi pɔra niŋ a yi dihi ^1 bii zuɣu saha dinkanna</string>
@@ -880,7 +880,7 @@
   <string name="description_edit_tutorial_button_label_start_editing">Pilimi maaliniŋ</string>
   <string name="description_edit_tutorial_promise">Di yi niŋ ka a piligi, a kpuɣi alikawli ni a ku zaŋli niŋ. yɛreyɛre</string>
   <string name="description_edit_tutorial_machine_suggestions_title">Maʒini sɔŋsim lahabaya</string>
-  <string name="description_edit_tutorial_machine_suggestions_description">Lala sɔŋsim lahabaya ŋɔ nyɛla maʒini ni namdi shɛli, pa ban paɣi bɛ suhuri tohiri niŋdi di puuni bee Wikipedia Foundation lahabaya n-nyɛli</string>
+  <string name="description_edit_tutorial_machine_suggestions_description">Lala sɔŋsim lahabaya ŋɔ nyɛla maʒini ni namdi shɛli, pa ban paɣi bɛ suhuri tohiri niŋdi di puuni bee Infopedia Foundation lahabaya n-nyɛli</string>
   <string name="customize_toolbar_title">Malimi a tuulbaa zali a ni borili shɛm</string>
   <string name="customize_toolbar_shortcut_description_text">Malimi tuulbaa shɛli din do gbunni maa niŋ a ni borili shɛm ni soŋmahi anu a ni nya ka shɛli mali sɔŋsim pam</string>
   <string name="customize_toolbar_category_toolbar">Tuulbaa</string>
@@ -915,7 +915,7 @@
   <string name="suggested_edits_task_translate_caption_title">Lɛbigim anfooni yuli lahabali</string>
   <string name="suggested_edits_task_translate_caption_description">Lɛbigim yuli lahabaya zuliya shɛŋa ni</string>
   <string name="suggested_edits_task_multilingual_title">Tuma pam beni zaŋti ninvuɣ\'shɛba ban niŋdi zuliya bobigu maliniŋ</string>
-  <string name="suggested_edits_task_multilingual_description">Lɛbigibu-lɛbigibu tuma nyɛla dimbeni a yi ni tooi karim ka sabi zuliya nima din gari zaɣyini ka be Wikipedia zuɣu</string>
+  <string name="suggested_edits_task_multilingual_description">Lɛbigibu-lɛbigibu tuma nyɛla dimbeni a yi ni tooi karim ka sabi zuliya nima din gari zaɣyini ka be Infopedia zuɣu</string>
   <string name="suggested_edits_task_image_caption_edit_disable_text">Di kparimi naɣila a ti niŋ maliniŋ %d zaŋ chaŋ anfooni yuli lahabaya</string>
   <string name="suggested_edits_task_translate_description_edit_disable_text">Di kparimi naɣila a ti niŋ maliniŋ %d zaŋkpa atikil buɣisibu lahabaya (Ka di vihi ka dihitabili)</string>
   <string name="suggested_edits_task_multilingual_negative">Di pa n-dini</string>
@@ -944,7 +944,7 @@
   <string name="suggested_edits_image_preview_dialog_licensing">Fukumisi shahira niŋbu</string>
   <string name="suggested_edits_image_preview_dialog_more_info">Lahabali dinpahi</string>
   <string name="suggested_edits_image_preview_dialog_file_page_link_text">Di lahabali kɔligu din be Wikimedia Commons zuɣu</string>
-  <string name="suggested_edits_image_preview_dialog_file_page_wikipedia_link_text">Di lahabali kɔligu din be Wikipedia zuɣu</string>
+  <string name="suggested_edits_image_preview_dialog_file_page_wikipedia_link_text">Di lahabali kɔligu din be Infopedia zuɣu</string>
   <string name="suggested_edits_article_cta_image_tags">Pahami di lobu lahabali</string>
   <string name="suggested_edits_article_cta_image_caption">Pahami anfooni yuli lahabali</string>
   <string name="suggested_edits_article_cta_image_caption_in_language">pahami anfooni yuli lahabali (%s)</string>
@@ -959,7 +959,7 @@
   <string name="suggested_edits_image_tags_publishing">Di zaŋdi ni di wuhi salo</string>
   <string name="suggested_edits_image_tags_published">Di zaŋ wuhi salo</string>
   <string name="suggested_edits_image_tags_onboarding_title">A yi bo lahabaya lo anfooninima di che ka di shɛɛ bobu bi to</string>
-  <string name="suggested_edits_image_tags_onboarding_text">A yi bo lahabaya lo anfooninima, a ni sɔŋ che ka di vihibo niŋ asama Commons zuɣu, luɣishɛli nuu ni dihi ka di daanfooni nima nyɛ yoli ka Wikipedia tooi zaŋdili kuri bukaa bɛ lahabaya puuni.</string>
+  <string name="suggested_edits_image_tags_onboarding_text">A yi bo lahabaya lo anfooninima, a ni sɔŋ che ka di vihibo niŋ asama Commons zuɣu, luɣishɛli nuu ni dihi ka di daanfooni nima nyɛ yoli ka Infopedia tooi zaŋdili kuri bukaa bɛ lahabaya puuni.</string>
   <string name="suggested_edits_image_tags_onboarding_note">Lahabalilora shɛŋa a ni piigi ko n-yɛn zaŋpahi anfooninima zuɣu.</string>
   <string name="suggested_edits_image_tags_task_detail">Pahami lahabali lora din yi di ko zaŋti anfooni dinni che ka di shɛɛ bobu niŋ asama</string>
   <string name="suggested_edits_image_tags_choose">Pahami bee ka a piigi anfooni lahabalilora din lu n-zahim</string>
@@ -970,8 +970,8 @@
   <string name="suggested_edits_image_tags_add_tag">Pahami anfooni lobu lahabali</string>
   <string name="suggested_edits_image_tags_exit_dialog_message">Anfooni lobu lahabali shɛŋa a ni bi zaŋ wuhi salo pala din yɛn gu n-zali</string>
   <string name="suggested_edits_image_zoom_tooltip">Mirisim anfooni ŋɔ zuɣu ka di yɛligi</string>
-  <string name="suggested_edits_encouragement_message">%s, Mbo nfaan ni a maliniŋ. Sɔya pam n-do gbunni ŋɔ anni tooi doli shɛli tohi n-niŋ Wikipedia puuni.</string>
-  <string name="suggested_edits_onboarding_message">&lt;b&gt;Mma bia! %s&lt;/b&gt;, yulimi gbunni ŋɔ a ni nya soya dinnye kaliŋ ni asama ka a ni tooi doli n-sɔŋ kpaŋsi Wikipedia. A ni nya kpaŋmaŋa shɛli a ni niŋdi maa nyindee yi piligi. A suhupiɛlli m-bɔŋɔ maliniŋ puuni!</string>
+  <string name="suggested_edits_encouragement_message">%s, Mbo nfaan ni a maliniŋ. Sɔya pam n-do gbunni ŋɔ anni tooi doli shɛli tohi n-niŋ Infopedia puuni.</string>
+  <string name="suggested_edits_onboarding_message">&lt;b&gt;Mma bia! %s&lt;/b&gt;, yulimi gbunni ŋɔ a ni nya soya dinnye kaliŋ ni asama ka a ni tooi doli n-sɔŋ kpaŋsi Infopedia. A ni nya kpaŋmaŋa shɛli a ni niŋdi maa nyindee yi piligi. A suhupiɛlli m-bɔŋɔ maliniŋ puuni!</string>
   <string name="suggested_edits_image_captions_task_detail">Buɣisim anfooni ka di sɔŋ lahabali karindiba ka bɛ tooi gbaai anfooni maa daliri ni din tiri lahabali shɛli.</string>
   <string name="suggested_edits_add_descriptions_task_detail">Che ka atikil lahabali be kɔlimbu ka di sɔŋ lahabali karindiba ka bɛ tooi gbaai di yɛltɔɣikpani yim lihibu zuɣu.</string>
   <string name="suggested_edits_contributions_stat_tooltip">A  tohibu  kalinli ni na shɛli.</string>
@@ -980,7 +980,7 @@
   <string name="suggested_edits_edit_quality_stat_tooltip">Din jendi kalinli shɛli a tohibu puuni zaɣiyini shɛli di daa labisi (tohitohiri so ni daa labisi shɛli). Tohibu din labisi: %d.</string>
   <string name="suggested_edits_paused_message">Malinin sɔŋsim lahabaya yibuna na gbaaimi zani naɣila zaŋ chaŋ %1$s. Dimsuɣulo %2$s, a ni yoli tohi shɛŋa puuni shɛli nyɛla bɛ ni labisi shɛli.</string>
   <string name="suggested_edits_disabled_message">Malinin sɔŋsim lahabaya kpihimya. Dimsuɣulo %s, a ni yoli tohi shɛŋa maa pam nyɛla bɛ ni labisi shɛli.</string>
-  <string name="suggested_edits_ip_blocked_message">Di ŋmanila a IP adrɛɛs maa (bee dipahila IP adrɛɛsinima laasabu) din na kpari ka ku tooi niŋ maliniŋ Wikipedia zuɣu.</string>
+  <string name="suggested_edits_ip_blocked_message">Di ŋmanila a IP adrɛɛs maa (bee dipahila IP adrɛɛsinima laasabu) din na kpari ka ku tooi niŋ maliniŋ Infopedia zuɣu.</string>
   <string name="suggested_edits_gate_message">Dimsuɣulo, %s, di kpala talahi ni a niŋ maliniŋ kamani dibaata zuɣu pɔi ka ni tooi nya soli zaŋ ŋɔ n-tum tuma</string>
   <string name="suggested_edits_editing_tips_link_text">Maliniŋ so\'ŋmahi ni di yɛmgɔlinsi</string>
   <string name="suggested_edits_help_page_link_text">Maliniŋ sɔŋsim lahabaya yaɣili</string>
@@ -1003,7 +1003,7 @@
     <item quantity="other">yini=%d dabisili</item>
   </plurals>
   <string name="suggested_edits_what_is_title">Bo lee nyɛ maliniŋ sɔŋsim lahabaya?</string>
-  <string name="suggested_edits_what_is_text">Maliniŋ sɔŋsim lahabaya nyɛla so\'shɛŋa dinsɔŋdi ka nira tooi tohira n-niŋdi maliniŋnima dim bi galisi ka lee mali anfaani  zaŋti Wikipedia.</string>
+  <string name="suggested_edits_what_is_text">Maliniŋ sɔŋsim lahabaya nyɛla so\'shɛŋa dinsɔŋdi ka nira tooi tohira n-niŋdi maliniŋnima dim bi galisi ka lee mali anfaani  zaŋti Infopedia.</string>
   <string name="suggested_edits_learn_more">Bɔhimmi pahi</string>
   <string name="suggested_edits_paused_title">na gbaaimi zani</string>
   <string name="suggested_edits_disabled_title">Di bi nyo</string>
@@ -1013,8 +1013,8 @@
   <string name="suggested_edits_task_new">Zaɣ\'palli</string>
   <string name="suggested_edits_cc0_notice">a yi zaŋ wuhi salo, di wuhiya ni a saɣiya n-ti &lt;a href=\"%1$s\"&gt;zaŋ tumtuma soya ni zalisi&lt;/a&gt;, ka lan dihi nuu ka pa ni firimiisi ni bɛ ni tooi yihi atɔhibu poloni zaŋjɛndi &lt;a href=\"%2$s\"&gt;CC0 nuu dihibu shɛhira gbaŋ &lt;/a&gt;.</string>
   <string name="suggested_edits_reactivation_notification_title">Maliniŋ sɔŋsim lahabaya</string>
-  <string name="suggested_edits_reactivation_notification_stage_one">Mbo ni a maliniŋ Wikipedia zuɣu! Ka a ku tuɣi a ni daa zani shɛli?</string>
-  <string name="suggested_edits_reactivation_notification_stage_two">A ku zaŋ minti pirigili n tuɣi toontibo bo n-ti Wikipedia? Yulimi maliniŋ sɔŋsim lahabaya ŋɔ.</string>
+  <string name="suggested_edits_reactivation_notification_stage_one">Mbo ni a maliniŋ Infopedia zuɣu! Ka a ku tuɣi a ni daa zani shɛli?</string>
+  <string name="suggested_edits_reactivation_notification_stage_two">A ku zaŋ minti pirigili n tuɣi toontibo bo n-ti Infopedia? Yulimi maliniŋ sɔŋsim lahabaya ŋɔ.</string>
   <string name="suggested_edits_contributions_screen_title">%s\'s tohibu</string>
   <string name="suggested_edits_contribution_language_label">Balli</string>
   <string name="suggested_edits_contribution_date_time_label">Dabisili/Saha</string>
@@ -1031,11 +1031,11 @@
     <item quantity="other">yini=a pahila %d anfooni lobu lahabaya</item>
   </plurals>
   <string name="suggested_edits_contribution_date_yesterday_text">Sohila</string>
-  <string name="suggested_edits_encourage_account_creation_title">Amii ami ni sokam ni too niŋ maliniŋ Wikipedia zuɣu?</string>
-  <string name="suggested_edits_encourage_account_creation_message">Maliniŋ sɔŋsim lahabaya yibuna nyɛla Wikipedia maliniŋ so\'palli Android nuchɛ\'baŋ puuni. Di sɔŋdi ka a tooi tohira n-niŋdi maliniŋnima dim bi galisi ka lee mali anfaani zaŋti Wikipedia.\n\nTi niya nyɛla ti chɛ ka maliniŋ niŋ asama ka sokam ni tooi paaili niŋ! Kpɛma n-pahi Wikipedia nim\' zuɣu n-piligi.</string>
-  <string name="suggested_edits_encourage_account_creation_login_button">kpɛmi Wikipedia puuni/pahimi Wikipedia nim\' zuɣu</string>
+  <string name="suggested_edits_encourage_account_creation_title">Amii ami ni sokam ni too niŋ maliniŋ Infopedia zuɣu?</string>
+  <string name="suggested_edits_encourage_account_creation_message">Maliniŋ sɔŋsim lahabaya yibuna nyɛla Infopedia maliniŋ so\'palli Android nuchɛ\'baŋ puuni. Di sɔŋdi ka a tooi tohira n-niŋdi maliniŋnima dim bi galisi ka lee mali anfaani zaŋti Infopedia.\n\nTi niya nyɛla ti chɛ ka maliniŋ niŋ asama ka sokam ni tooi paaili niŋ! Kpɛma n-pahi Infopedia nim\' zuɣu n-piligi.</string>
+  <string name="suggested_edits_encourage_account_creation_login_button">kpɛmi Infopedia puuni/pahimi Infopedia nim\' zuɣu</string>
   <string name="suggested_edits_contribution_type_image_tag">Anfooni lobu lahabali</string>
-  <string name="suggested_edits_contribution_current_revision_text">A maliniŋ maa nyɛla din pahi Wikipedia puuni saha ŋɔ</string>
+  <string name="suggested_edits_contribution_current_revision_text">A maliniŋ maa nyɛla din pahi Infopedia puuni saha ŋɔ</string>
   <string name="suggested_card_more_edits">Maliniŋ sɔŋsim lahabaya dinpahi</string>
   <string name="suggested_edits_article_descriptions_dialog_title">Buɣisibu lahabaya sɔŋda</string>
   <string name="suggested_edits_descriptions_report_dialog_title">Bo ka a bori ni a zaŋ di lahabali ti?</string>
@@ -1058,7 +1058,7 @@
     <item quantity="other">yini=a pahi bachi %d</item>
   </plurals>
   <string name="suggested_edits_image_recommendations_task_title">Lahabali anfooninima</string>
-  <string name="suggested_edits_image_recommendations_task_detail">Zaŋmi sɔŋsim anfooninima n-pahi Wikipedia lahabaya puuni ka di kpaŋsi di gbaaibu</string>
+  <string name="suggested_edits_image_recommendations_task_detail">Zaŋmi sɔŋsim anfooninima n-pahi Infopedia lahabaya puuni ka di kpaŋsi di gbaaibu</string>
   <string name="image_recommendation_task_instruction">Abori ni a zaŋ anfooni ŋɔ pahi lahabali maa puuni?</string>
   <string name="image_recommendation_tutorial">Bohambu sodɔligu</string>
   <string name="image_recommendation_accept">iin</string>
@@ -1075,9 +1075,9 @@
   <string name="image_recommendation_reject_submit">Zaŋ ti</string>
   <string name="image_recommendation_tooltip_main">Zaŋmi anfooninima ŋɔ pahi atikilnima din ka li maliniŋ sɔŋsim lahabaya puuni.</string>
   <string name="image_recommendation_onboarding_1">Anfooninima nyɛla din sɔŋdi niriba ni gbaaibu, amaa atikilnima pam ka li.</string>
-  <string name="image_recommendation_onboarding_2">Di nyɛla nyini piibu di yi niŋ ka a yi bori ni azaŋ sɔŋsim anfooni din yina pahi Wikipedia atikil zuɣu</string>
+  <string name="image_recommendation_onboarding_2">Di nyɛla nyini piibu di yi niŋ ka a yi bori ni azaŋ sɔŋsim anfooni din yina pahi Infopedia atikil zuɣu</string>
   <string name="image_recommendation_onboarding_3">Sɔŋsim anfooni lahabali yibuna nyɛla maʒini ni namdi shɛli ka nyini mi n yɛn zaŋ a hankali piigi a saɣi n-ti li bee a bi saɣi</string>
-  <string name="image_recommendation_onboarding_4">Anfooninima maa yirila Commons ni na, luɣishɛli nuu di dihi ka di daafooninima nyɛ yoli ka Wikipedia malili tumdi tuma.</string>
+  <string name="image_recommendation_onboarding_4">Anfooninima maa yirila Commons ni na, luɣishɛli nuu di dihi ka di daafooninima nyɛ yoli ka Infopedia malili tumdi tuma.</string>
   <string name="image_recommendation_tooltip_1">Labiyuli atikil shɛli dimbɔŋɔ a ni gbaai di yɛltɔɣikpani ni nyɛ shɛli</string>
   <string name="image_recommendation_tooltip_2">Vihimi anfooni maa ni di ni ʒiri lahabali shɛli viɛnyelinga</string>
   <string name="image_recommendation_tooltip_3">Piima ka dama anfooni maa tooi sɔŋdi ban karinda ka bɛ gbaairi lahabali maa yɛltɔɣikpani ni nyɛ shɛli viɛnyela</string>
@@ -1094,7 +1094,7 @@
   <string name="file_page_add_image_caption_button">Pahami anfooni yuli lahabali</string>
   <string name="file_page_add_image_tags_button">Pahami di lobu lahabali</string>
   <string name="file_page_edit_button_content_description">Maliniŋ %s</string>
-  <string name="description_edit_revert_subtitle">M-bo ni a maliniŋ Wikipedia zuɣu!</string>
+  <string name="description_edit_revert_subtitle">M-bo ni a maliniŋ Infopedia zuɣu!</string>
   <string name="description_edit_revert_intro">Ti baŋya ni a mɔ a mɔbu zaa, a maa ti labiyuli puuni yɛlmuɣisirili beni. Daliri din chɛ ka a maliniŋ maa labisi maa ni tooi nyɛ dimbɔŋɔ puuni shɛli:</string>
   <string name="description_edit_revert_reason1">A tohibu maa birigiya ka chɛ &lt;a href=\"%1$s\"&gt; ti zalisi maa puuni shɛli&lt;/a&gt;.</string>
   <string name="description_edit_revert_reason2">a tohibu maa ŋmanila a na ku buɣisimi bee dini tooi wurim lahabali maa.</string>
@@ -1109,9 +1109,9 @@
   <string name="onboarding_get_started">Piligima</string>
   <string name="onboarding_maybe_later">Dii pa shɛli saha shɛli yaha</string>
   <string name="onboarding_explore_title">So\'pala shɛŋa anni tooi doli yuli</string>
-  <string name="onboarding_explore_text" fuzzy="true">Sirigim n-kpɛ Wikipedia sooŋa laasabu vali ŋɔ ni n-nya anfooni lahabaya din doli taba. &lt;br/&gt; &lt;b&gt;taɣi doli a suhuyurilim&lt;/b&gt; anfooninima lahabaya a ni borili shɛm - di lee nyɛla bohambu zaŋ chaŋ kurumbuna ni niŋsim &lt;b&gt;din jɛndi dabisili ŋɔ&lt;/b&gt;, bee ka a biligi ludu bia laasabu maa buyi &lt;b&gt;Sahasaha&lt;/b&gt;.</string>
+  <string name="onboarding_explore_text" fuzzy="true">Sirigim n-kpɛ Infopedia sooŋa laasabu vali ŋɔ ni n-nya anfooni lahabaya din doli taba. &lt;br/&gt; &lt;b&gt;taɣi doli a suhuyurilim&lt;/b&gt; anfooninima lahabaya a ni borili shɛm - di lee nyɛla bohambu zaŋ chaŋ kurumbuna ni niŋsim &lt;b&gt;din jɛndi dabisili ŋɔ&lt;/b&gt;, bee ka a biligi ludu bia laasabu maa buyi &lt;b&gt;Sahasaha&lt;/b&gt;.</string>
   <string name="onboarding_reading_list_sync_title">Yu-karinda din goli taba</string>
-  <string name="onboarding_reading_list_sync_text_v2">A ni tooi mɛ yu-karinda n-ti hali atikil shɛna a ni yɛn karim saha sheli ha, hali a yi na ka pɔhim zuɣu gba. &lt;br/&gt;Kpɛmi a Wikipedia akawnti ni n-ti zaŋ a yu-karinda gohi taba. &lt;a href=\"#login\"&gt;Pahami Wikipedia nim\' zuɣu&lt;/a&gt;</string>
+  <string name="onboarding_reading_list_sync_text_v2">A ni tooi mɛ yu-karinda n-ti hali atikil shɛna a ni yɛn karim saha sheli ha, hali a yi na ka pɔhim zuɣu gba. &lt;br/&gt;Kpɛmi a Infopedia akawnti ni n-ti zaŋ a yu-karinda gohi taba. &lt;a href=\"#login\"&gt;Pahami Infopedia nim\' zuɣu&lt;/a&gt;</string>
   <string name="onboarding_data_privacy_title">Lahabali mini ashili</string>
   <string name="onboarding_analytics_switch_title">Zaŋmi a ni mali app maa tumdi tuma shɛm lahabali ti ha</string>
   <string name="onboarding_got_it">N nyɛli</string>
@@ -1137,7 +1137,7 @@
   <string name="languages_list_activity_title">Pahimi balli</string>
   <string name="languages_list_suggested_text">Buɣisi ti</string>
   <string name="languages_list_all_text">Bala zaa</string>
-  <string name="wikipedia_languages_title">Wikipedia zuɣu bala</string>
+  <string name="wikipedia_languages_title">Infopedia zuɣu bala</string>
   <string name="wikipedia_languages_your_languages_text">A bala</string>
   <string name="wikipedia_languages_add_language_text">Pahimi balli</string>
   <string name="wikipedia_languages_remove_text">Yihimi balli</string>
@@ -1145,11 +1145,11 @@
   <plurals name="wikipedia_languages_remove_dialog_title">
     <item quantity="other">yini=Yihimi a ni dihi balishɛli zuɣu?</item>
   </plurals>
-  <string name="wikipedia_languages_remove_dialog_content" fuzzy="true">A pa ku yɛn yuunila anfooni lahabaya zaŋ jɛndi zuliya shɛŋa din kpalim Wikipedia zuɣu vihigu puuni</string>
+  <string name="wikipedia_languages_remove_dialog_content" fuzzy="true">A pa ku yɛn yuunila anfooni lahabaya zaŋ jɛndi zuliya shɛŋa din kpalim Infopedia zuɣu vihigu puuni</string>
   <string name="wikipedia_languages_remove_warning_dialog_title">A ku tooi yihi bala maa zaa</string>
-  <string name="wikipedia_languages_remove_warning_dialog_content">Chɛli kamani zuliya yini ani tooi mali shɛli vihiri karindi lahabaya Wikipedia zuɣu</string>
+  <string name="wikipedia_languages_remove_warning_dialog_content">Chɛli kamani zuliya yini ani tooi mali shɛli vihiri karindi lahabaya Infopedia zuɣu</string>
   <string name="more_language_options">Pahima</string>
-  <string name="add_wikipedia_languages_text">Pahami Wikipedia zuɣu bala</string>
+  <string name="add_wikipedia_languages_text">Pahami Infopedia zuɣu bala</string>
   <string name="remove_language_dialog_cancel_button_text">Nyahima</string>
   <string name="remove_language_dialog_ok_button_text">Tɔ</string>
   <string name="remove_all_language_warning_dialog_ok_button_text">Tɔ</string>
@@ -1210,7 +1210,7 @@
   <string name="insert_media_advanced_settings_image_size_custom_px">px</string>
   <string name="insert_media_insert_button">Zaŋ kpɛhi</string>
   <string name="main_drawer_help">Bɔmi sɔŋsim</string>
-  <string name="main_drawer_login">kpɛmi Wikipedia puuni/pahimi Wikipedia nim\' zuɣu</string>
+  <string name="main_drawer_login">kpɛmi Infopedia puuni/pahimi Infopedia nim\' zuɣu</string>
   <string name="main_tooltip_action_button">Piligima</string>
   <string name="main_tooltip_watchlist_title">Anilihiri shɛli</string>
   <string name="main_tooltip_watchlist_text">Bomi atikilnima ni paaginima shɛŋa a ni min pun zaŋ pahi a nini ni pa yu-shɛŋa zuɣu din pahi bii zuɣu din jɛndi &lt;b&gt;A nini ni pa shɛli zuɣu&lt;/b&gt;</string>
@@ -1234,7 +1234,7 @@
   <string name="talk_warn_submitted_and_saved">Lahabali nyɛla din gu n-zali ka zaŋ wuhi maliniŋlana yɛltɔɣa paagi zuɣu</string>
   <string name="talk_page_empty">Shɛli ka yɛltɔɣa paagi ŋɔ ni</string>
   <string name="talk_page_empty_title">Fiila maa dibu piini la kpɛ</string>
-  <string name="talk_page_empty_content">Yɛltɔɣa paaginima nyɛla luɣisheli niriba ni gbaairi saawara zaŋchaŋ bɛ ni yɛn niŋ shɛm viɛligi din be wikipedia puuni. Piligima ni alizama din jɛndi yɛltɔɣikpani shɛli din ni chɛ ka a mini a mabihi Wikimedianima laɣim gbaai maligu saawara ka niŋ niŋgbuna ni taba.</string>
+  <string name="talk_page_empty_content">Yɛltɔɣa paaginima nyɛla luɣisheli niriba ni gbaairi saawara zaŋchaŋ bɛ ni yɛn niŋ shɛm viɛligi din be Infopedia puuni. Piligima ni alizama din jɛndi yɛltɔɣikpani shɛli din ni chɛ ka a mini a mabihi Wikimedianima laɣim gbaai maligu saawara ka niŋ niŋgbuna ni taba.</string>
   <string name="talk_add_reply">Labisigu</string>
   <string name="talk_no_subject">(Yɛltɔɣishɛli kani)</string>
   <string name="talk_reply_subject">Yɛltɔɣikpani</string>
@@ -1247,9 +1247,9 @@
   <string name="talk_last_modified">&lt;b&gt;Di bahigu maliniŋ  %1$s&lt;/b&gt; ŋun niŋli n-nyɛ %2$s</string>
   <string name="talk_snackbar_survey_text">M bo ni a ni mali saawara gbaai shɛɛ maa tumdi tuma maa. Ka a ku sɔŋ ka ti bɔ bɛrisuŋ n-ti app ŋɔ, a yi labisi vihigu bɔhisi ŋɔ?</string>
   <string name="talk_snackbar_survey_action_text">Piligima</string>
-  <string name="talk_share_discussion_subject">Wikipedia - saawara zaŋ chaŋ yɛltɔɣikpani din be yɛltɔɣa paagi ni \"%s\"</string>
-  <string name="talk_share_talk_page">Wikipedia - alizama saawara gbaabu dundɔŋni</string>
-  <string name="talk_edit_disclaimer">Dimbɔŋɔ nyɛla yɛltɔɣa dundɔŋ. Dimsuɣulo di tuya ni a ti yɛltɔɣa paagi ŋɔ zuɣu zalisi jilima ka dolli, tɛɛmi n-gori a lahabali gbunni ni tildinima dibaanahi ~~~~ a yi yɛn zaŋ wikitext n zaŋ a lahabali ti &lt;br&gt;&lt;br&gt;&lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Talk_page_guidelines\"&gt;Wikipedia:Talk page guidelines&lt;/a&gt;</string>
+  <string name="talk_share_discussion_subject">Infopedia - saawara zaŋ chaŋ yɛltɔɣikpani din be yɛltɔɣa paagi ni \"%s\"</string>
+  <string name="talk_share_talk_page">Infopedia - alizama saawara gbaabu dundɔŋni</string>
+  <string name="talk_edit_disclaimer">Dimbɔŋɔ nyɛla yɛltɔɣa dundɔŋ. Dimsuɣulo di tuya ni a ti yɛltɔɣa paagi ŋɔ zuɣu zalisi jilima ka dolli, tɛɛmi n-gori a lahabali gbunni ni tildinima dibaanahi ~~~~ a yi yɛn zaŋ wikitext n zaŋ a lahabali ti &lt;br&gt;&lt;br&gt;&lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Talk_page_guidelines\"&gt;Infopedia:Talk page guidelines&lt;/a&gt;</string>
   <string name="talk_search_hint">vihimi lahabaya puuni</string>
   <string name="talk_search_topics_hint">vihimi yɛltɔɣikpana</string>
   <string name="talk_search_find_in_talk_topics_hint">Vihibo yɛltɔɣikpani saawara dundɔŋni</string>
@@ -1280,7 +1280,7 @@
   <string name="talk_list_item_swipe_mark_as_read">Karimma</string>
   <string name="talk_list_item_swipe_mark_as_unread">Dina bi karim</string>
   <string name="talk_login_to_subscribe_dialog_title">Kpɛma n-zaŋ amaŋa m-pahi a ni bori yɛtɔɣikpana shɛŋa lahabaya puuni</string>
-  <string name="talk_login_to_subscribe_dialog_content">Yɛltɔɣikpana piigi zaŋ amaŋa m-pahi nyɛla din ni ti a soli ka a nya tɔɣinonima zaŋkpa di polo. Dimsuɣulo yoomi akawnti bee ka a kpɛ a Wikipedia akawnti ni n-ti piigi zaŋ a maŋa pahi lahabalikpani shɛli a ni bora.</string>
+  <string name="talk_login_to_subscribe_dialog_content">Yɛltɔɣikpana piigi zaŋ amaŋa m-pahi nyɛla din ni ti a soli ka a nya tɔɣinonima zaŋkpa di polo. Dimsuɣulo yoomi akawnti bee ka a kpɛ a Infopedia akawnti ni n-ti piigi zaŋ a maŋa pahi lahabalikpani shɛli a ni bora.</string>
   <string name="talk_archived_title">Yɛltɔɣa gun n-sɔɣi: %s</string>
   <string name="menu_option_share_talk_discussion">Tarimi saawara gbaabu</string>
   <string name="menu_option_share_talk_page">Tarimi yɛltɔɣa paagi</string>
@@ -1300,7 +1300,7 @@
   <string name="thank_label">Mbo</string>
   <string name="view_user_page">Lihimi zaŋ jɛndi ŋun su yaɣili</string>
   <string name="thank_dialog_title_text">niŋmi \'m bo\' n-ti salo ha</string>
-  <string name="thank_dialog_text">\'M bo\' nyɛla asama soli ka a ni too zaŋ paɣi maliniŋlana Wikipedia zuɣu. \'M bo\' yi niŋ di ku lan tooi yihi ka salo zaa yuuni li.</string>
+  <string name="thank_dialog_text">\'M bo\' nyɛla asama soli ka a ni too zaŋ paɣi maliniŋlana Infopedia zuɣu. \'M bo\' yi niŋ di ku lan tooi yihi ka salo zaa yuuni li.</string>
   <string name="thank_dialog_positive_button_text">Niŋmi m bo</string>
   <string name="thank_dialog_negative_button_text">Nyahima</string>
   <string name="thank_success_message">A m bo puhirisuŋ maa nyɛla din paai %s 👍</string>
@@ -1522,8 +1522,8 @@
   <string name="patroller_tasks_patrol_edit_snackbar_view">Yulima</string>
   <string name="patroller_tasks_overflow_report">Bini maa malila yɛlmuɣisirili</string>
   <string name="patroller_tasks_overflow_learn">Bɔhim pahi</string>
-  <string name="patroller_onboarding_one_title">Tohi pahi yuli yaɣi ni Wikipedia maliniŋ nima dihitabili.</string>
-  <string name="patroller_onboarding_one_content">Kpaŋsim din be Wikipedia zuɣu dariza n-labiri vihiri ni nimmɔhi maliniŋnima dinyoli niŋ ka kpaŋsiri niŋvuɣ\'pala dinni sɔŋ ka sahakam bi niŋ nyamda ni lahabali gahinda zaŋkpɛhi</string>
+  <string name="patroller_onboarding_one_title">Tohi pahi yuli yaɣi ni Infopedia maliniŋ nima dihitabili.</string>
+  <string name="patroller_onboarding_one_content">Kpaŋsim din be Infopedia zuɣu dariza n-labiri vihiri ni nimmɔhi maliniŋnima dinyoli niŋ ka kpaŋsiri niŋvuɣ\'pala dinni sɔŋ ka sahakam bi niŋ nyamda ni lahabali gahinda zaŋkpɛhi</string>
   <string name="patroller_onboarding_two_title">Timi labisigu, ka a nini pa maliniŋnima zuɣu ka tumdi tuunshɛŋa din yina</string>
   <string name="patroller_onboarding_two_thank_title">Mbo</string>
   <string name="patroller_onboarding_two_thank_content">Nyam maliniŋ din nyɛ chirichi? Puhimi ka paɣi ba ni bɛ tohibu maa</string>
@@ -1552,7 +1552,7 @@
   <string name="email_report_patroller_tasks_subject">Yɛlmuɣisirili lahabali - Malimi maliniŋ kaabu yaɣili niŋ</string>
   <string name="email_report_patroller_tasks_body">N tɔla gbirili ni maliniŋ kaabu yaɣili:\n- [Buɣisim lala yɛlmuɣisirili maa]\n\nNi bori ni n-nya biɛhi shɛli n-nyɛ:\n- [Buɣisim a ni tɛhi di maligu shɛm] \n\n\n[dihi ŋmaa di daanfooni bee linkinima]</string>
   <string name="donation_campaign_maybe_later_snackbar">Ti sa ni teegi a biɛɣu ni yaha</string>
-  <string name="donation_campaign_donated_snackbar" fuzzy="true">M-bo n-faan, nyin ŋun tabi sɔŋ! A nirilim maa sɔŋsiya ka Wikipedia mini di boba ni yaɣa tooi kuli tiri tooi.</string>
+  <string name="donation_campaign_donated_snackbar" fuzzy="true">M-bo n-faan, nyin ŋun tabi sɔŋ! A nirilim maa sɔŋsiya ka Infopedia mini di boba ni yaɣa tooi kuli tiri tooi.</string>
   <string name="donation_campaign_go_back_button">Labimi nyaaŋa</string>
   <string name="menu_single_webview_open_external">Yoomi li sistɛm browza puuni</string>
   <string name="places_title">Zaashɛhi</string>

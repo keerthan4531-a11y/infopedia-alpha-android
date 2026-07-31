@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Bangrapip
 * Dbrant
 -->
 <resources>
-  <string name="app_name_prod">Wikipédi</string>
-  <string name="app_name_beta">Wikipédi Belongkotan</string>
-  <string name="app_name_alpha">Wikipédi Alpa</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Wikimédia</string>
   <string name="nav_item_back">Kombali</string>
   <string name="page_tabs_back">Kombali</string>
@@ -128,7 +128,7 @@
   <string name="search_reading_lists_no_results">Hasil kaga\' ketemu di daptar bacaan</string>
   <string name="search_history_no_results">Hasil kaga\' ketemu di riwayat</string>
   <string name="edit_section_captcha_message">Bakal nglindungin deri sampahan otomatis, masupin dah kata-kata nyang nongol di bawah ni</string>
-  <string name="edit_section_captcha_request_an_account_message">Kaga\' bisa ngiat gambar? &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;Minta\' bikinin rèkening&lt;/a&gt;</string>
+  <string name="edit_section_captcha_request_an_account_message">Kaga\' bisa ngiat gambar? &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;Minta\' bikinin rèkening&lt;/a&gt;</string>
   <string name="edit_section_captcha_hint">Ulangin kata-kata di atas</string>
   <string name="title_captcha">Masupin CAPTCHA</string>
   <string name="edit_section_captcha_reload">Teken CAPTCHA bakal munggah ulang</string>
@@ -189,7 +189,7 @@
   <string name="create_account_button">Keja rèkening</string>
   <string name="create_account_name_unavailable">Nama pemaké \"%s\" kaga\' derak. Padol dah, pilih nama nyang béda.</string>
   <string name="create_account_ip_block_message">Maap, lu punya aderès IP sekarang ni lagi digibang deri pengejaan rèkening baru.</string>
-  <string name="create_account_ip_block_help_url">https://en.wikipedia.org/wiki/Help:I_have_been_blocked</string>
+  <string name="create_account_ip_block_help_url">https://en.Infopedia.org/wiki/Help:I_have_been_blocked</string>
   <string name="create_account_ip_block_details">Tètèk bengèk</string>
   <string name="preferences_general_heading">Umum</string>
   <string name="preferences_account_heading">Rèkening</string>
@@ -223,15 +223,15 @@
   <string name="about_description">Pasal aplikasi Wikipédi</string>
   <string name="privacy_policy_description">Belèd keresiaan</string>
   <string name="terms_of_use_description">Ketentuan pemakéan</string>
-  <string name="about_wikipedia_url">https://en.wikipedia.org/wiki/Wikipédi:Pasal</string>
-  <string name="android_app_request_an_account_url">https://en.wikipedia.org/wiki/Wikipédi:Bikinin_rèkening</string>
+  <string name="about_wikipedia_url">https://en.Infopedia.org/wiki/Wikipédi:Pasal</string>
+  <string name="android_app_request_an_account_url">https://en.Infopedia.org/wiki/Wikipédi:Bikinin_rèkening</string>
   <string name="about_libraries_heading">Miswar nyang dipaké</string>
   <string name="about_contributors_heading">Penyumbang</string>
-  <string name="about_contributors">&lt;a href=\"https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Halaman tim&lt;/a&gt;</string>
+  <string name="about_contributors">&lt;a href=\"https://www.infopedia.org/wiki/Special:MyLanguage/Wikimedia_Apps/Team/Android\"&gt;Halaman tim&lt;/a&gt;</string>
   <string name="about_translators_heading">Penerjemah</string>
   <string name="about_translators_translatewiki">Ni aplikasi udah diterjemahin ama penerjemah sukarèla di &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt;.</string>
   <string name="about_app_license_heading">Ongji</string>
-  <string name="about_app_license" fuzzy="true">Kode sumber derak di &lt;a href=\"https://gerrit.wikimedia.org/r/#/admin/projects/apps/android/wikipedia\"&gt;Gerrit&lt;/a&gt; èn &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;GitHub&lt;/a&gt; di bawah &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Ongji Apache 2.0&lt;/a&gt;. Kecuali ada ketentuan tambahan nyang belakon, isi derak di bawahnya &lt;a href=\"\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Ongji Nisbat-DumanSetumbras Creative Commons&lt;/a&gt;.</string>
+  <string name="about_app_license" fuzzy="true">Kode sumber derak di &lt;a href=\"https://gerrit.infopedia.org/r/#/admin/projects/apps/android/Infopedia\"&gt;Gerrit&lt;/a&gt; èn &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;GitHub&lt;/a&gt; di bawah &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Ongji Apache 2.0&lt;/a&gt;. Kecuali ada ketentuan tambahan nyang belakon, isi derak di bawahnya &lt;a href=\"\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Ongji Nisbat-DumanSetumbras Creative Commons&lt;/a&gt;.</string>
   <string name="about_wmf">Produk deri &lt;a href=\"https://wikimediafoundation.org/\"&gt;Yayasan Wikimédia&lt;/a&gt;</string>
   <string name="about_activity_title">Pasal</string>
   <string name="edit_abandon_confirm">Ni halaman udah didandanin. Apa lu yakin pèngèn kuar sonder nyimpen lu punya perobahan?</string>
@@ -396,9 +396,9 @@
   <string name="error_blocked_start">Mulain penggibangan: %s</string>
   <string name="error_blocked_expiry">Bonto penggibangan: %s</string>
   <string name="error_blocked_id">ID Penggibangan: %s</string>
-  <string name="error_blocked_footer">Lu bisa ubungin &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Administrators\"&gt;merbot&lt;/a&gt; nyang laèn bakal ngeguntengin pasal tu penggibangan.</string>
+  <string name="error_blocked_footer">Lu bisa ubungin &lt;a href=\"%2$s\"&gt;%1$s&lt;/a&gt; &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Administrators\"&gt;merbot&lt;/a&gt; nyang laèn bakal ngeguntengin pasal tu penggibangan.</string>
   <string name="theme_chooser_menu_item_short_tooltip">Cèngliin lu punya palang peranti</string>
-  <string name="error_blocked_footer_no_blocker">Lu bisa ubungin &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Administrators\"&gt;merbot&lt;/a&gt; bakal ngobrolin pasal penggibangan.</string>
+  <string name="error_blocked_footer_no_blocker">Lu bisa ubungin &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Administrators\"&gt;merbot&lt;/a&gt; bakal ngobrolin pasal penggibangan.</string>
   <string name="crash_report_activity_title">Aplikasi ngablu</string>
   <string name="crash_report_relaunch_or_quit">Kita mohon maap, ni aplikasi Wikipédi ngablu èn diberentiin.\n\nApa lu pèngèn mulain lagi apa kuar aja?</string>
   <string name="crash_report_relaunch">Mulain lagi</string>
@@ -521,8 +521,8 @@
   <string name="reading_list_confirm_remove_article_from_offline_title">Makalah nongol di beberapa daptar</string>
   <string name="reading_list_confirm_remove_article_from_offline_message">%s kaga\' bakal lagi derak di luar-jala bakal semua daptar bacaan:</string>
   <string name="reading_lists_sync_reminder_title">Nyalain penjuntrungan daptar bacaan?</string>
-  <string name="reading_lists_sync_reminder_text" fuzzy="true">Makalah nyang disimpen di daptar bacaan sekarang bisa dijuntrungin ke lu punya rèkening Wikipédi. &lt;a href=\"https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Belajarin lebi lanjut&lt;/a&gt;</string>
-  <string name="reading_lists_login_reminder_text_with_link" fuzzy="true">Daptar bacaan sekarang bisa dijuntrungin di mana-mana peralatan. Masup ke lu punya rèkening Wikipédi èn ijinin lu punya daptar disimpen. &lt;a href=\"https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Belajarin lebi lanjut&lt;/a&gt;</string>
+  <string name="reading_lists_sync_reminder_text" fuzzy="true">Makalah nyang disimpen di daptar bacaan sekarang bisa dijuntrungin ke lu punya rèkening Wikipédi. &lt;a href=\"https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Belajarin lebi lanjut&lt;/a&gt;</string>
+  <string name="reading_lists_login_reminder_text_with_link" fuzzy="true">Daptar bacaan sekarang bisa dijuntrungin di mana-mana peralatan. Masup ke lu punya rèkening Wikipédi èn ijinin lu punya daptar disimpen. &lt;a href=\"https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Belajarin lebi lanjut&lt;/a&gt;</string>
   <string name="reading_lists_sync_reminder_action">Nyalain penjuntrungan</string>
   <string name="reading_list_login_reminder_title">Juntrungin daptar bacaan</string>
   <string name="reading_lists_login_reminder_text">Daptar bacaan sekarang bisa dijuntrungin di mana-mana peralatan. Masup ke lu punya rèkening Wikipédi èn ijinin lu punya daptar disimpen.</string>
@@ -1220,7 +1220,7 @@
   <string name="talk_snackbar_survey_action_text">Mulain</string>
   <string name="talk_share_discussion_subject">Wikipédi - perhadring di halaman kongko pasal \"%s\"</string>
   <string name="talk_share_talk_page">Wikipédi - perhadring di halaman kongko</string>
-  <string name="talk_edit_disclaimer">Ni – halaman obrongan. Tulung hormatin pedoman halaman kongko, èn jangan ampé lali nèken lu punya ceplokan tibang ngetik empat tenger gelombang: ~~~~ pas nyeplokin paké wikitext.&lt;br&gt;&lt;br&gt;&lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Talk_page_guidelines\"&gt;Wikipédi:Pedoman halaman kongko&lt;/a&gt;</string>
+  <string name="talk_edit_disclaimer">Ni – halaman obrongan. Tulung hormatin pedoman halaman kongko, èn jangan ampé lali nèken lu punya ceplokan tibang ngetik empat tenger gelombang: ~~~~ pas nyeplokin paké wikitext.&lt;br&gt;&lt;br&gt;&lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Talk_page_guidelines\"&gt;Wikipédi:Pedoman halaman kongko&lt;/a&gt;</string>
   <string name="talk_search_hint">Cari pesen</string>
   <string name="talk_search_topics_hint">Cari topik</string>
   <string name="talk_search_find_in_talk_topics_hint">Temuin di topik halaman kongko</string>

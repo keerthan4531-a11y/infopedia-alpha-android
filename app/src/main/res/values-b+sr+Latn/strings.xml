@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Authors:
 * Patriccck
 * Srđan
 -->
 <resources>
-  <string name="app_name_prod">Vikipedija</string>
-  <string name="app_name_beta">Vikipedija beta</string>
-  <string name="app_name_alpha">Vikipedija alfa</string>
+  <string name="app_name_prod">Infopedia</string>
+  <string name="app_name_beta">Infopedia Beta</string>
+  <string name="app_name_alpha">Infopedia Alpha</string>
   <string name="wikimedia">Vikimedija</string>
   <string name="nav_item_back">Nazad</string>
   <string name="page_tabs_back">Nazad</string>
@@ -128,7 +128,7 @@
   <string name="search_reading_lists_no_results">Nisu pronađeni rezultati na listama za čitanje</string>
   <string name="search_history_no_results">Nisu pronađeni rezultati u istoriji</string>
   <string name="edit_section_captcha_message">Da biste pomogli u zaštiti protiv automatizovanog nepoželjnog sadržaja, unesite reči koje su prikazane ispod</string>
-  <string name="edit_section_captcha_request_an_account_message">Ne vidite sliku? &lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Request_an_account\"&gt;Zatražite nalog&lt;/a&gt;.</string>
+  <string name="edit_section_captcha_request_an_account_message">Ne vidite sliku? &lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Request_an_account\"&gt;Zatražite nalog&lt;/a&gt;.</string>
   <string name="edit_section_captcha_hint">Ponovite reči iznad</string>
   <string name="title_captcha">Unesite CAPTCHA tekst</string>
   <string name="edit_section_captcha_reload">Dodirnite CAPTCHA sliku da biste je ponovo učitali</string>
@@ -189,7 +189,7 @@
   <string name="create_account_button">Otvori nalog</string>
   <string name="create_account_name_unavailable">Korisničko ime „%s” je nedostupno. Izaberite drugo.</string>
   <string name="create_account_ip_block_message">Otvaranje novih naloga sa vaše IP adrese je trenutno blokirano.</string>
-  <string name="create_account_ip_block_help_url">https://en.wikipedia.org/wiki/Help:I_have_been_blocked</string>
+  <string name="create_account_ip_block_help_url">https://en.Infopedia.org/wiki/Help:I_have_been_blocked</string>
   <string name="create_account_ip_block_details">Detalji</string>
   <string name="preferences_general_heading">Opšte</string>
   <string name="preferences_account_heading">Nalog</string>
@@ -222,9 +222,9 @@
   <string name="about_description">O aplikaciji Vikipedija</string>
   <string name="privacy_policy_description">Politika privatnosti</string>
   <string name="terms_of_use_description">Uslovi korišćenja</string>
-  <string name="about_wikipedia_url">https://sr.wikipedia.org/wiki/Vikipedija:O_nama</string>
-  <string name="privacy_policy_url" fuzzy="true">https://meta.wikimedia.org/wiki/Privacy_policy/sr</string>
-  <string name="terms_of_use_url" fuzzy="true">https://foundation.wikimedia.org/wiki/Terms_of_Use</string>
+  <string name="about_wikipedia_url">https://sr.Infopedia.org/wiki/Vikipedija:O_nama</string>
+  <string name="privacy_policy_url" fuzzy="true">https://meta.infopedia.org/wiki/Privacy_policy/sr</string>
+  <string name="terms_of_use_url" fuzzy="true">https://foundation.infopedia.org/wiki/Terms_of_Use</string>
   <string name="cc_by_sa_4_url">https://creativecommons.org/licenses/by-sa/4.0/deed.sr</string>
   <string name="cc_0_url">https://creativecommons.org/publicdomain/zero/1.0/deed.sr_LATN</string>
   <string name="about_libraries_heading">Korišćene biblioteke</string>
@@ -232,7 +232,7 @@
   <string name="about_translators_heading">Prevodioci</string>
   <string name="about_translators_translatewiki">Aplikaciju su preveli dobrovoljci na sajtu &lt;a href=\"https://translatewiki.net\"&gt;translatewiki.net&lt;/a&gt;.</string>
   <string name="about_app_license_heading">Licenca</string>
-  <string name="about_app_license" fuzzy="true">Izvorni kôd je dostupan na &lt;a href=\"https://gerrit.wikimedia.org/r/#/admin/projects/apps/android/wikipedia\"&gt;Gerrit-u&lt;/a&gt; i &lt;a href=\"https://github.com/wikimedia/apps-android-wikipedia\"&gt;GitHub-u&lt;/a&gt; pod licencom &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0&lt;/a&gt;. Sadržaj je dostupan pod licencom &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Creative Commons Autorstvo—Deliti pod istim uslovima&lt;/a&gt;, osim ako nije drugačije navedeno.</string>
+  <string name="about_app_license" fuzzy="true">Izvorni kôd je dostupan na &lt;a href=\"https://gerrit.infopedia.org/r/#/admin/projects/apps/android/Infopedia\"&gt;Gerrit-u&lt;/a&gt; i &lt;a href=\"https://github.com/wikimedia/apps-android-Infopedia\"&gt;GitHub-u&lt;/a&gt; pod licencom &lt;a href=\"https://www.apache.org/licenses/LICENSE-2.0\"&gt;Apache 2.0&lt;/a&gt;. Sadržaj je dostupan pod licencom &lt;a href=\"https://creativecommons.org/licenses/by-sa/4.0\"&gt;Creative Commons Autorstvo—Deliti pod istim uslovima&lt;/a&gt;, osim ako nije drugačije navedeno.</string>
   <string name="about_wmf">Proizvod &lt;a href=\"https://wikimediafoundation.org/\"&gt;Zadužbine Vikimedija&lt;/a&gt;</string>
   <string name="about_activity_title">O aplikaciji</string>
   <string name="edit_abandon_confirm">Stranica je izmenjena. Želite li zaista da izađete bez čuvanja promene?</string>
@@ -513,8 +513,8 @@
   <string name="reading_list_confirm_remove_article_from_offline_title">Članak se pojavljuje na više lista</string>
   <string name="reading_list_confirm_remove_article_from_offline_message">Stranica „%s” više neće biti dostupna oflajn za sve liste za čitanje:</string>
   <string name="reading_lists_sync_reminder_title">Uključiti sinhronizaciju liste za čitanje?</string>
-  <string name="reading_lists_sync_reminder_text" fuzzy="true">Članci sačuvani na listama za čitanje sada se mogu sinhronizovati sa vašim nalogom na Vikipediji. &lt;a href=\"https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Saznajte više&lt;/a&gt;.</string>
-  <string name="reading_lists_login_reminder_text_with_link" fuzzy="true">Liste za čitanje sada se mogu sinhronizovati među uređajima. Prijavite se na vaš nalog na Vikipediji i dozvolite čuvanje lista. &lt;a href=\"https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Saznajte više&lt;/a&gt;.</string>
+  <string name="reading_lists_sync_reminder_text" fuzzy="true">Članci sačuvani na listama za čitanje sada se mogu sinhronizovati sa vašim nalogom na Vikipediji. &lt;a href=\"https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Saznajte više&lt;/a&gt;.</string>
+  <string name="reading_lists_login_reminder_text_with_link" fuzzy="true">Liste za čitanje sada se mogu sinhronizovati među uređajima. Prijavite se na vaš nalog na Vikipediji i dozvolite čuvanje lista. &lt;a href=\"https://www.infopedia.org/wiki/Wikimedia_Apps/Android_FAQ#Synced_reading_lists\"&gt;Saznajte više&lt;/a&gt;.</string>
   <string name="reading_lists_sync_reminder_action">Omogući sinhronizaciju</string>
   <string name="reading_list_login_reminder_title">Sinhronizacija lista za čitanje</string>
   <string name="reading_lists_login_reminder_text">Liste za čitanje se sada mogu sinhronizovati među uređajima. Prijavite se na vaš nalog na Vikipediji i dozvolite čuvanje lista.</string>
@@ -1201,7 +1201,7 @@
   <string name="talk_snackbar_survey_action_text">Započnite</string>
   <string name="talk_share_discussion_subject">Vikipedija - diskusija na temi stranice za razgovor \"%s\"</string>
   <string name="talk_share_talk_page">Vikipedija - diskusije na stranici za razgovor</string>
-  <string name="talk_edit_disclaimer">Ovo je stranica za razgovor. Poštujte pravila stranice za razgovor, i ne zaboravite da potpišete svoje objave kucajući četiri tilde: ~~~~ kada objavljujete koristeći vikitekst.&lt;br&gt;&lt;br&gt;&lt;a href=\"https://en.wikipedia.org/wiki/Wikipedia:Talk_page_guidelines\"&gt;Wikipedia:Talk page guidelines&lt;/a&gt;</string>
+  <string name="talk_edit_disclaimer">Ovo je stranica za razgovor. Poštujte pravila stranice za razgovor, i ne zaboravite da potpišete svoje objave kucajući četiri tilde: ~~~~ kada objavljujete koristeći vikitekst.&lt;br&gt;&lt;br&gt;&lt;a href=\"https://en.Infopedia.org/wiki/Infopedia:Talk_page_guidelines\"&gt;Infopedia:Talk page guidelines&lt;/a&gt;</string>
   <string name="talk_search_hint">Pretraga poruka</string>
   <string name="talk_search_topics_hint">Pretraži teme</string>
   <string name="talk_search_find_in_talk_topics_hint">Pronađi u temi na stranici za razgovor</string>
